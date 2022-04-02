@@ -1,19 +1,37 @@
 {
-  "version": "GSS",
+  "version": "1.2.4@Franz",
   "autoabort": false,
   "DEBUG": {
-      "printWarnings": true,
-      "printInfos": true
+      "printWarnings": false,
+      "printInfos": false
   },
   "socket_msg_size": 65536,
+  "mapping_path": "mapping/uHoubolt.json",
   "LOGGING": {
-    "sensor_log_rate": 100,
     "post_sequence_script": "scripts/plot.sh"
   },
   "CAN" :
   {
-    "node_count" : 3,
-    "DRIVER" : "SocketCAN",
+    "node_count" : 7,
+    "BUS" :
+    {
+        "ARBITRATION":
+        {
+          "bitrate" : 1000000,
+          "time_segment_1" : 7,
+          "time_segment_2" : 2,
+          "sync_jump_width" : 1,
+          "no_sampling_points" : 1
+        },
+        "DATA":
+        {
+          "bitrate" : 8000000,
+          "time_segment_1" : 7,
+          "time_segment_2" : 2,
+          "sync_jump_width" : 1
+        }
+    },
+    "DRIVER" : "Kvaser",
     "DEVICE": ["can0"]
   },
   "LLSERVER" :
@@ -23,15 +41,11 @@
   "WEBSERVER":
   {
     "ip": "127.0.0.1",
+    "ip@hq": "10.32.7.120",
     "port": 5555,
-    "state_transmission_rate": 15.0,
+    "state_transmission_rate": 10.0,
     "timer_sync_rate": 10,
     "sensors_smoothing_factor": 0.3
-  },
-  "useTMPoE": false,
-  "TMPoE": {
-    "ip": "127.0.0.1",
-    "port": 25557
   },
   "INFLUXDB":{
     "database_ip": "127.0.0.1",
@@ -39,7 +53,9 @@
     "database_name": "testDb",
     "debug_measurement": "debug",
     "state_measurement": "states",
-    "buffer_size": 2048
+    "fast_sensor_measurement": "sensors",
+    "buffer_size": 65536,
+    "enable_fast_sensor_logging": true
   },
   "THRUST":{
     "alpha": 0.785398,
