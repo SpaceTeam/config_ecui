@@ -3,7 +3,7 @@
   "autoabort": false,
   "DEBUG": {
       "printWarnings": true,
-      "printInfos": true
+      "printInfos": false
   },
   "socket_msg_size": 65536,
   "LOGGING": {
@@ -39,7 +39,8 @@
     "database_name": "testDb",
     "debug_measurement": "debug",
     "state_measurement": "states",
-    "buffer_size": 2048
+    "buffer_size": 2048,
+    "enable_fast_sensor_logging": false
   },
   "THRUST":{
     "alpha": 0.785398,

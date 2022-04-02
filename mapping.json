@@ -191,33 +191,33 @@
             "parameters" : ["gui:ox_press_solenoid:sensor"]
         }],
         
-        "gui:ignition_enable" : [{
+        "gui:ignition_enable:sensor" : [{
             "command" : "ignition_enable:SetState",
-            "parameters" : ["gui:ignition_enable"]
+            "parameters" : ["gui:ignition_enable:sensor"]
         }],
-        "gui:fuel_tank_cool" : [{
+        "gui:fuel_tank_cool:sensor" : [{
             "command" : "fuel_tank_cool:SetState",
-            "parameters" : ["gui:fuel_tank_cool"]
+            "parameters" : ["gui:fuel_tank_cool:sensor"]
         }],
-        "gui:fuel_tank_heat" : [{
+        "gui:fuel_tank_heat:sensor" : [{
             "command" : "fuel_tank_heat:SetState",
-            "parameters" : ["gui:fuel_tank_heat"]
+            "parameters" : ["gui:fuel_tank_heat:sensor"]
         }],
-        "gui:ox_tank_cool" : [{
+        "gui:ox_tank_cool:sensor" : [{
             "command" : "ox_tank_cool:SetState",
-            "parameters" : ["gui:ox_tank_cool"]
+            "parameters" : ["gui:ox_tank_cool:sensor"]
         }],
-        "gui:ox_tank_heat" : [{
+        "gui:ox_tank_heat:sensor" : [{
             "command" : "ox_tank_heat:SetState",
-            "parameters" : ["gui:ox_tank_heat"]
+            "parameters" : ["gui:ox_tank_heat:sensor"]
         }],
-        "gui:fuel_fill_heat" : [{
+        "gui:fuel_fill_heat:sensor" : [{
             "command" : "fuel_fill_heat:SetState",
-            "parameters" : ["gui:fuel_fill_heat"]
+            "parameters" : ["gui:fuel_fill_heat:sensor"]
         }],        
-        "gui:ox_fill_heat" : [{
+        "gui:ox_fill_heat:sensor" : [{
             "command" : "ox_fill_heat:SetState",
-            "parameters" : ["gui:ox_fill_heat"]
+            "parameters" : ["gui:ox_fill_heat:sensor"]
         }],
         
         "gui:fuel_fill_valve:sensor" : [{
@@ -350,31 +350,31 @@
             "label" : "Ox Tank Bottom Temperature"
 		},
         {
-            "state" : "ignition_enable",
+            "state" : "ignition_enabl:sensore",
             "label" : "Ignition Enable"
 		},
         {
-            "state" : "fuel_tank_cool",
+            "state" : "fuel_tank_cool:sensor",
             "label" : "Fuel Tank Peltier Cooling"
 		},
         {
-            "state" : "fuel_tank_heat",
+            "state" : "fuel_tank_heat:sensor",
             "label" : "Fuel Tank Peltier Heating"
 		},
         {
-            "state" : "ox_tank_cool",
+            "state" : "ox_tank_cool:sensor",
             "label" : "Ox Tank Peltier Cooling"
 		},
         {
-            "state" : "ox_tank_heat",
+            "state" : "ox_tank_heat:sensor",
             "label" : "Ox Tank Peltier Heating"
 		},
         {
-            "state" : "fuel_fill_heat",
+            "state" : "fuel_fill_heat:sensor",
             "label" : "Fuel Fill Bottle Heating"
 		},
         {
-            "state" : "ox_fill_heat",
+            "state" : "ox_fill_heat:sensor",
             "label" : "Ox Fill Bottle Heating"
 		},
         {
