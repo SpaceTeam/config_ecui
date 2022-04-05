@@ -1,5 +1,13 @@
 {
     "CANMapping": {
+    	"3" : {
+            "stringID" : "blmb_supercharge",
+            "0" : {
+                "stringID" : "pressurant_tanking_valve",
+                "slope" : 1.0,
+                "offset" : 0
+            }
+        },
         "6" : {
             "stringID" : "ecu_ecu",
             "0" : {
@@ -155,12 +163,12 @@
                 "slope" : 1.0,
                 "offset" : 0
             },
-            "9" : {
+            "10" : {
                 "stringID" : "ox_tanking_valve",
                 "slope" : 1.0,
                 "offset" : 0
             },
-            "10" : {
+            "9" : {
                 "stringID" : "ox_vent_valve",
                 "slope" : 1.0,
                 "offset" : 0
@@ -378,6 +386,14 @@
         "gui:ox_vent_valve:sensor" : [{
             "command" : "ox_vent_valve:SetTargetPosition",
             "parameters" : ["gui:ox_vent_valve:sensor"]
+        }],
+        "gui:pressurant_tanking_valve:sensor" : [{
+            "command" : "pressurant_tanking_valve:SetTargetPosition",
+            "parameters" : ["gui:pressurant_tanking_valve:sensor"]
+        }],
+        "gui:umbilical_retract:sensor" : [{
+            "command" : "umbilical_retract:SetState",
+            "parameters" : ["gui:umbilical_retract:sensor"]
         }]
     },
     "GUIMapping" :
