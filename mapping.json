@@ -8,7 +8,7 @@
                 "offset" : 0
             }
         },
-        "3" : {
+        "4" : {
             "stringID" : "blmb_supercharge",
             "0" : {
                 "stringID" : "supercharge_valve",
@@ -16,7 +16,7 @@
                 "offset" : 0
             }
         },
-        "4" : {
+        "3" : {
             "stringID" : "blmb_oxfill",
             "0" : {
                 "stringID" : "oxfill_valve",
@@ -122,7 +122,7 @@
                 "offset" : 0
             },
             "4" : {
-                "stringID" : "fuel_unused_pressure",
+                "stringID" : "fuel_venturi_high",
                 "slope" : 0.00119984,
                 "offset" : -16.25
             },
@@ -147,7 +147,7 @@
                 "offset" : -16.25
             },
             "9" : {
-                "stringID" : "igniter_fuel_regulator_pressure",
+                "stringID" : "fuel_venturi_low",
                 "slope" : 0.00119984,
                 "offset" : -16.25
             },
@@ -195,9 +195,9 @@
                 "offset" : 0
             },
             "4" : {
-                "stringID" : "ox_unused_pressure",
-                "slope" : 1.0,
-                "offset" : 0.0
+                "stringID" : "ox_venturi_high",
+                "slope" : 0.00119984,
+                "offset" : -16.25
             },
             "5" : {
                 "stringID" : "ox_bottom_tank_pressure",
@@ -220,7 +220,7 @@
                 "offset" : 0
             },
             "9" : {
-                "stringID" : "igniter_ox_regulator_pressure",
+                "stringID" : "ox_venturi_low",
                 "slope" : 0.00119984,
                 "offset" : -16.25
             },
@@ -351,61 +351,61 @@
             "triggerValue" : 1,
             "parameters" : []
         }],
-        "gui:ox_pressurize_solenoid" : [{
+        "gui:ox_pressurize_solenoid:sensor" : [{
             "command" : "ox_pressurize_solenoid:SetState",
-            "parameters" : ["gui:ox_pressurize_solenoid"]
+            "parameters" : ["gui:ox_pressurize_solenoid:sensor"]
         }],
-        "gui:ox_depressurize_solenoid" : [{
+        "gui:ox_depressurize_solenoid:sensor" : [{
             "command" : "ox_depressurize_solenoid:SetState",
-            "parameters" : ["gui:ox_depressurize_solenoid"]
+            "parameters" : ["gui:ox_depressurize_solenoid:sensor"]
         }],
-        "gui:fuel_pressurize_solenoid" : [{
+        "gui:fuel_pressurize_solenoid:sensor" : [{
             "command" : "fuel_pressurize_solenoid:SetState",
-            "parameters" : ["gui:fuel_pressurize_solenoid"]
+            "parameters" : ["gui:fuel_pressurize_solenoid:sensor"]
         },
         {
             "command" : "fuel_pressurize_solenoid:GetState",
             "parameters" : []
         }],
-        "gui:fuel_depressurize_solenoid" : [{
+        "gui:fuel_depressurize_solenoid:sensor" : [{
             "command" : "fuel_depressurize_solenoid:SetState",
-            "parameters" : ["gui:fuel_depressurize_solenoid"]
+            "parameters" : ["gui:fuel_depressurize_solenoid:sensor"]
         }],
-        "gui:igniter_fuel_solenoid" : [{
+        "gui:igniter_fuel_solenoid:sensor" : [{
             "command" : "igniter_fuel_solenoid:SetState",
-            "parameters" : ["gui:igniter_fuel_solenoid"]
+            "parameters" : ["gui:igniter_fuel_solenoid:sensor"]
         }],
-        "gui:igniter_ox_solenoid" : [{
+        "gui:igniter_ox_solenoid:sensor" : [{
             "command" : "igniter_ox_solenoid:SetState",
-            "parameters" : ["gui:igniter_ox_solenoid"]
+            "parameters" : ["gui:igniter_ox_solenoid:sensor"]
         }],
-        "gui:fuel_purge_solenoid" : [{
+        "gui:fuel_purge_solenoid:sensor" : [{
             "command" : "fuel_purge_solenoid:SetState",
-            "parameters" : ["gui:fuel_purge_solenoid"]
+            "parameters" : ["gui:fuel_purge_solenoid:sensor"]
         }],
-        "gui:ox_purge_solenoid" : [{
+        "gui:ox_purge_solenoid:sensor" : [{
             "command" : "ox_purge_solenoid:SetState",
-            "parameters" : ["gui:ox_purge_solenoid"]
+            "parameters" : ["gui:ox_purge_solenoid:sensor"]
         }],
-        "gui:fuel_main_valve" : [{
+        "gui:fuel_main_valve:sensor" : [{
             "command" : "fuel_main_valve:SetTargetPosition",
-            "parameters" : ["gui:fuel_main_valve"]
+            "parameters" : ["gui:fuel_main_valve:sensor"]
         }],
-        "gui:ox_main_valve" : [{
+        "gui:ox_main_valve:sensor" : [{
             "command" : "ox_main_valve:SetTargetPosition",
-            "parameters" : ["gui:ox_main_valve"]
+            "parameters" : ["gui:ox_main_valve:sensor"]
         }],
-        "gui:supercharge_valve" : [{
+        "gui:supercharge_valve:sensor" : [{
             "command" : "supercharge_valve:SetTargetPosition",
-            "parameters" : ["gui:supercharge_valve"]
+            "parameters" : ["gui:supercharge_valve:sensor"]
         }],
-        "gui:ox_tank_vent_valve_backup" : [{
+        "gui:ox_tank_vent_valve_backup:sensor" : [{
             "command" : "ox_tank_vent_valve_backup:SetTargetPosition",
-            "parameters" : ["gui:ox_tank_vent_valve_backup"]
+            "parameters" : ["gui:ox_tank_vent_valve_backup:sensor"]
         }],
-        "gui:oxfill_valve" : [{
+        "gui:oxfill_valve:sensor" : [{
             "command" : "oxfill_valve:SetTargetPosition",
-            "parameters" : ["gui:oxfill_valve"]
+            "parameters" : ["gui:oxfill_valve:sensor"]
         }],
         "fuel_depressurize_solenoid:sensor" : [{
             "triggerType" : ">=",
