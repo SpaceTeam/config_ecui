@@ -159,12 +159,12 @@
             "6" : {
                 "stringID" : "water_cold_temp",
                 "slope" : 0.043258,
-                "offset" : -248.8657
+                "offset" : -268.8657
             },
             "7" : {
                 "stringID" : "water_hot_temp",
                 "slope" : 0.043258,
-                "offset" : -248.8657
+                "offset" : -264.8657
             },
             "8" : {
                 "stringID" : "water_mantle_temp",
@@ -216,12 +216,12 @@
                 "slope" : 1.0,
                 "offset" : 0
             },
-            "18" : {
+            "19" : {
                 "stringID" : "umbilical_retract",
                 "slope" : 1.0,
                 "offset" : 0
             },
-            "19" : {
+            "18" : {
                 "stringID" : "unused_tw_solenoid",
                 "slope" : 1.0,
                 "offset" : 0
@@ -357,9 +357,9 @@
     	}]
     },
     "EventMapping" : {
-        "gui:pressure_control:SetEnable" : [{
-        	"command" : "pressure_control:SetEnable",
-        	"parameters" : ["gui:pressure_control:SetEnable"]
+        "gui:pressure_control:SetEnabled" : [{
+        	"command" : "pressure_control:SetEnabled",
+        	"parameters" : ["gui:pressure_control:SetEnabled"]
         }],
         "gui:pressure_control:SetHysteresis" : [{
         	"command" : "pressure_control:SetHysteresis",
