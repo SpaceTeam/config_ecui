@@ -6,12 +6,32 @@
                 "stringID" : "pressurant_tanking_valve",
                 "slope" : 1.0,
                 "offset" : 0
-            }
+            },
+            "1" : {
+                "stringID" : "pressurant_tanking_valve_unused_pressure",
+                "slope" : 1.0,
+                "offset" : 0
+            },
+            "2" : {
+                "stringID" : "pressurant_tanking_valve_unused_what",
+                "slope" : 1.0,
+                "offset" : 0
+	    }
         },
         "4" : {
             "stringID" : "blmb_pressurant_vent_valve",
             "0" : {
                 "stringID" : "pressurant_vent_valve",
+                "slope" : 1.0,
+                "offset" : 0
+	    },
+            "1" : {
+                "stringID" : "pressurant_vent_valve_unused_pressure",
+                "slope" : 1.0,
+                "offset" : 0
+            },
+            "2" : {
+                "stringID" : "pressurant_vent_valve_unused_what",
                 "slope" : 1.0,
                 "offset" : 0
             }
