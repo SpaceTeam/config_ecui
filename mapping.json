@@ -3,19 +3,19 @@
         "1" : {
             "stringID" : "ecu_io_1",
             "0" : {
-                "stringID" : "fuel_injector_pressure",
-                "slope" : 1.0,
-                "offset" : 0
+                "stringID" : "fuel_tank_pressure",
+                "slope" : 0.00119984,
+                "offset" : -16.244
             },
             "1" : {
-                "stringID" : "ox_injector_pressure",
-                "slope" : 1.0,
-                "offset" : 0
+                "stringID" : "fuel_injector_pressure",
+                "slope" : 0.00119984,
+                "offset" : -16.244
             },
             "2" : {
                 "stringID" : "chamber_pressure",
-                "slope" : 1.0,
-                "offset" : 0
+                "slope" : 0.00119984,
+                "offset" : -16.244
             },
             "3" : {
                 "stringID" : "unused_ecu_pressure",
@@ -35,18 +35,18 @@
             
             "6" : {
                 "stringID" : "fuel_tank_temperature_top",
-                "slope" : 1.0,
-                "offset" : 0
+                "slope" : 0.043258,
+                "offset" : -248.8657
             },
             "7" : {
                 "stringID" : "fuel_tank_temperature_mid",
-                "slope" : 1.0,
-                "offset" : 0
+                "slope" : 0.043258,
+                "offset" : -248.8657
             },
             "8" : {
                 "stringID" : "fuel_tank_temperature_bot",
-                "slope" : 1.0,
-                "offset" : 0
+                "slope" : 0.043258,
+                "offset" : -248.8657
             },
             
             "9" : {
@@ -76,7 +76,37 @@
                 "offset" : 0
             },
             "20" : {
-                "stringID" : "fuel_vent_solenoid_pressure_setpoint",
+                "stringID" : "fuel_vent_solenoid_pressure_control",
+                "slope" : 1.0,
+                "offset" : 0
+            },
+            "22" : {
+                "stringID" : "ignition_enable",
+                "slope" : 1.0,
+                "offset" : 0
+            },
+            "23" : {
+                "stringID" : "out1_unused",
+                "slope" : 1.0,
+                "offset" : 0
+            },
+            "25" : {
+                "stringID" : "out3_unused",
+                "slope" : 1.0,
+                "offset" : 0
+            },
+            "26" : {
+                "stringID" : "out4_unused",
+                "slope" : 1.0,
+                "offset" : 0
+            },
+            "28" : {
+                "stringID" : "out6_unused",
+                "slope" : 1.0,
+                "offset" : 0
+            },
+            "29" : {
+                "stringID" : "out7_unused",
                 "slope" : 1.0,
                 "offset" : 0
             }
@@ -84,14 +114,14 @@
         "2" : {
             "stringID" : "ecu_io_2",
             "0" : {
-                "stringID" : "fuel_tank_pressure",
-                "slope" : 1.0,
-                "offset" : 0
+                "stringID" : "ox_tank_pressure",
+                "slope" : 0.00119984,
+                "offset" : -16.244
             },
             "1" : {
-                "stringID" : "ox_tank_pressure",
-                "slope" : 1.0,
-                "offset" : 0
+                "stringID" : "ox_injector_pressure",
+                "slope" : 0.00119984,
+                "offset" : -16.244
             },
             "2" : {
                 "stringID" : "unused_ecu_pressure",
@@ -105,29 +135,29 @@
             },
             "4" : {
                 "stringID" : "fuel_fill_pressure",
-                "slope" : 1.0,
-                "offset" : 0
+                "slope" : 0.00119984,
+                "offset" : -16.244
             },
             "5" : {
                 "stringID" : "ox_fill_pressure",
-                "slope" : 1.0,
-                "offset" : 0
+                "slope" : 0.00119984,
+                "offset" : -16.244
             },
             
             "6" : {
                 "stringID" : "ox_tank_temperature_top",
-                "slope" : 1.0,
-                "offset" : 0
+                "slope" : 0.043258,
+                "offset" : -248.8657
             },
             "7" : {
                 "stringID" : "ox_tank_temperature_mid",
-                "slope" : 1.0,
-                "offset" : 0
+                "slope" : 0.043258,
+                "offset" : -248.8657
             },
             "8" : {
                 "stringID" : "ox_tank_temperature_bot",
-                "slope" : 1.0,
-                "offset" : 0
+                "slope" : 0.043258,
+                "offset" : -248.8657
             },
             
             "9" : {
@@ -157,7 +187,37 @@
                 "offset" : 0
             },
             "20" : {
-                "stringID" : "ox_vent_solenoid_pressure_setpoint",
+                "stringID" : "ox_vent_solenoid_pressure_control",
+                "slope" : 1.0,
+                "offset" : 0
+            },
+            "22" : {
+                "stringID" : "fuel_tank_cool",
+                "slope" : 1.0,
+                "offset" : 0
+            },
+            "23" : {
+                "stringID" : "fuel_tank_heat",
+                "slope" : 1.0,
+                "offset" : 0
+            },
+            "25" : {
+                "stringID" : "ox_tank_cool",
+                "slope" : 1.0,
+                "offset" : 0
+            },
+            "26" : {
+                "stringID" : "ox_tank_heat",
+                "slope" : 1.0,
+                "offset" : 0
+            },
+            "28" : {
+                "stringID" : "fuel_fill_heat",
+                "slope" : 1.0,
+                "offset" : 0
+            },
+            "29" : {
+                "stringID" : "ox_fill_heat",
                 "slope" : 1.0,
                 "offset" : 0
             }
@@ -173,80 +233,43 @@
     },
     
     
+    "DefaultEventMapping" : {
+    	"Servo" : [{
+    		"command" : "Servo:SetTargetPosition",
+            "parameters" : ["Servo"]
+    	}],
+    	"DigitalOut" : [{
+    		"command" : "DigitalOut:SetState",
+            "parameters" : ["DigitalOut"]
+    	}]
+    },
+    
+    
     "EventMapping" : {
-        "gui:fuel_vent_solenoid:sensor" : [{
-            "command" : "fuel_vent_solenoid:SetState",
-            "parameters" : ["gui:fuel_vent_solenoid:sensor"]
+        "gui:fuel_vent_solenoid_pressure_control:SetEnabled" : [{
+        	"command" : "fuel_vent_solenoid_pressure_control:SetEnabled",
+        	"parameters" : ["gui:fuel_vent_solenoid_pressure_control:SetEnabled"]
         }],
-        "gui:fuel_press_solenoid:sensor" : [{
-            "command" : "fuel_press_solenoid:SetState",
-            "parameters" : ["gui:fuel_press_solenoid:sensor"]
+        "gui:fuel_vent_solenoid_pressure_control:SetHysteresis" : [{
+        	"command" : "fuel_vent_solenoid_pressure_control:SetHysteresis",
+        	"parameters" : ["gui:fuel_vent_solenoid_pressure_control:SetHysteresis"]
         }],
-        "gui:ox_vent_solenoid:sensor" : [{
-            "command" : "ox_vent_solenoid:SetState",
-            "parameters" : ["gui:ox_vent_solenoid:sensor"]
-        }],
-        "gui:ox_press_solenoid:sensor" : [{
-            "command" : "ox_press_solenoid:SetState",
-            "parameters" : ["gui:ox_press_solenoid:sensor"]
+        "gui:fuel_vent_solenoid_pressure_control:SetTargetPosition" : [{
+        	"command" : "fuel_vent_solenoid_pressure_control:SetTargetPosition",
+        	"parameters" : ["gui:fuel_vent_solenoid_pressure_control:SetTargetPosition"]
         }],
         
-        "gui:ignition_enable:sensor" : [{
-            "command" : "ignition_enable:SetState",
-            "parameters" : ["gui:ignition_enable:sensor"]
+        "gui:ox_vent_solenoid_pressure_control:SetEnabled" : [{
+        	"command" : "ox_vent_solenoid_pressure_control:SetEnabled",
+        	"parameters" : ["gui:ox_vent_solenoid_pressure_control:SetEnabled"]
         }],
-        "gui:fuel_tank_cool:sensor" : [{
-            "command" : "fuel_tank_cool:SetState",
-            "parameters" : ["gui:fuel_tank_cool:sensor"]
+        "gui:ox_vent_solenoid_pressure_control:SetHysteresis" : [{
+        	"command" : "ox_vent_solenoid_pressure_control:SetHysteresis",
+        	"parameters" : ["gui:ox_vent_solenoid_pressure_control:SetHysteresis"]
         }],
-        "gui:fuel_tank_heat:sensor" : [{
-            "command" : "fuel_tank_heat:SetState",
-            "parameters" : ["gui:fuel_tank_heat:sensor"]
-        }],
-        "gui:ox_tank_cool:sensor" : [{
-            "command" : "ox_tank_cool:SetState",
-            "parameters" : ["gui:ox_tank_cool:sensor"]
-        }],
-        "gui:ox_tank_heat:sensor" : [{
-            "command" : "ox_tank_heat:SetState",
-            "parameters" : ["gui:ox_tank_heat:sensor"]
-        }],
-        "gui:fuel_fill_heat:sensor" : [{
-            "command" : "fuel_fill_heat:SetState",
-            "parameters" : ["gui:fuel_fill_heat:sensor"]
-        }],        
-        "gui:ox_fill_heat:sensor" : [{
-            "command" : "ox_fill_heat:SetState",
-            "parameters" : ["gui:ox_fill_heat:sensor"]
-        }],
-        
-        "gui:fuel_fill_valve:sensor" : [{
-            "command" : "fuel_fill_valve:SetTargetPosition",
-            "parameters" : ["gui:fuel_fill_valve:sensor"]
-        }],
-        "gui:fuel_fill_vent_valve:sensor" : [{
-            "command" : "fuel_fill_vent_valve:SetTargetPosition",
-            "parameters" : ["gui:fuel_fill_vent_valve:sensor"]
-        }],
-        "gui:fuel_main_valve:sensor" : [{
-            "command" : "fuel_main_valve:SetTargetPosition",
-            "parameters" : ["gui:fuel_main_valve:sensor"]
-        }],
-        "gui:ox_fill_valve:sensor" : [{
-            "command" : "ox_fill_valve:SetTargetPosition",
-            "parameters" : ["gui:ox_fill_valve:sensor"]
-        }],
-        "gui:ox_fill_vent_valve:sensor" : [{
-            "command" : "ox_fill_vent_valve:SetTargetPosition",
-            "parameters" : ["gui:ox_fill_vent_valve:sensor"]
-        }],
-        "gui:ox_main_valve:sensor" : [{
-            "command" : "ox_main_valve:SetTargetPosition",
-            "parameters" : ["gui:ox_main_valve:sensor"]
-        }],
-        "gui:injector_servo:sensor" : [{
-            "command" : "injector_servo:SetTargetPosition",
-            "parameters" : ["gui:injector_servo:sensor"]
+        "gui:ox_vent_solenoid_pressure_control:SetTargetPosition" : [{
+        	"command" : "ox_vent_solenoid_pressure_control:SetTargetPosition",
+        	"parameters" : ["gui:ox_vent_solenoid_pressure_control:SetTargetPosition"]
         }]
     },
     
