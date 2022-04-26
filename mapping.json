@@ -18,12 +18,12 @@
                 "offset" : -16.244
             },
             "3" : {
-                "stringID" : "unused_ecu_pressure",
+                "stringID" : "unused_ecu_pressure_3",
                 "slope" : 1.0,
                 "offset" : 0
             },
             "4" : {
-                "stringID" : "unused_ecu_pressure",
+                "stringID" : "unused_ecu_pressure_4",
                 "slope" : 1.0,
                 "offset" : 0
             },
@@ -86,27 +86,27 @@
                 "offset" : 0
             },
             "23" : {
-                "stringID" : "out1_unused",
+                "stringID" : "unused_ecu_out_1",
                 "slope" : 1.0,
                 "offset" : 0
             },
             "25" : {
-                "stringID" : "out3_unused",
+                "stringID" : "unused_ecu_out_3",
                 "slope" : 1.0,
                 "offset" : 0
             },
             "26" : {
-                "stringID" : "out4_unused",
+                "stringID" : "unused_ecu_out_4",
                 "slope" : 1.0,
                 "offset" : 0
             },
             "28" : {
-                "stringID" : "out6_unused",
+                "stringID" : "unused_ecu_out_6",
                 "slope" : 1.0,
                 "offset" : 0
             },
             "29" : {
-                "stringID" : "out7_unused",
+                "stringID" : "unused_ecu_out_7",
                 "slope" : 1.0,
                 "offset" : 0
             }
@@ -124,12 +124,12 @@
                 "offset" : -16.244
             },
             "2" : {
-                "stringID" : "unused_ecu_pressure",
+                "stringID" : "unused_ecu_pressure_2",
                 "slope" : 1.0,
                 "offset" : 0
             },
             "3" : {
-                "stringID" : "unused_ecu_pressure",
+                "stringID" : "unused_ecu_pressure_3",
                 "slope" : 1.0,
                 "offset" : 0
             },
@@ -373,7 +373,7 @@
             "label" : "Ox Tank Bottom Temperature"
 		},
         {
-            "state" : "ignition_enabl:sensore",
+            "state" : "ignition_enable:sensor",
             "label" : "Ignition Enable"
 		},
         {
