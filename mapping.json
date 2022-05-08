@@ -49,67 +49,20 @@
                 "offset" : -255.3
             },
             
-            "9" : {
-                "stringID" : "fuel_main_valve",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "10" : {
-                "stringID" : "fuel_fill_valve",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "11" : {
-                "stringID" : "fuel_fill_vent_valve",
-                "slope" : 1.0,
-                "offset" : 0
-            },
+            "9" : {"stringID" : "fuel_main_valve"},
+            "10" : {"stringID" : "fuel_fill_valve"},
+            "11" : {"stringID" : "fuel_fill_vent_valve"},
             
-            "18" : {
-                "stringID" : "fuel_vent_solenoid",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "19" : {
-                "stringID" : "fuel_press_solenoid",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "20" : {
-                "stringID" : "fuel_vent_solenoid_pressure_control",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "22" : {
-                "stringID" : "ignition_enable",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "23" : {
-                "stringID" : "unused_ecu_out_1",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "25" : {
-                "stringID" : "unused_ecu_out_3",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "26" : {
-                "stringID" : "unused_ecu_out_4",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "28" : {
-                "stringID" : "unused_ecu_out_6",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "29" : {
-                "stringID" : "unused_ecu_out_7",
-                "slope" : 1.0,
-                "offset" : 0
-            }
+            "18" : {"stringID" : "fuel_vent_solenoid"},
+            "19" : {"stringID" : "fuel_press_solenoid"},
+            "20" : {"stringID" : "fuel_vent_solenoid_pressure_control"},
+            
+            "22" : {"stringID" : "ignition_enable"},
+            "23" : {"stringID" : "unused_ecu_out_1"},
+            "25" : {"stringID" : "unused_ecu_out_3"},
+            "26" : {"stringID" : "unused_ecu_out_4"},
+            "28" : {"stringID" : "unused_ecu_out_6"},
+            "29" : {"stringID" : "unused_ecu_out_7"}
         },
         "2" : {
             "stringID" : "ecu_io_2",
@@ -160,75 +113,24 @@
                 "offset" : -261
             },
             
-            "9" : {
-                "stringID" : "ox_main_valve",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "10" : {
-                "stringID" : "ox_fill_valve",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "11" : {
-                "stringID" : "ox_fill_vent_valve",
-                "slope" : 1.0,
-                "offset" : 0
-            },
+            "9" : {"stringID" : "ox_main_valve"},
+            "10" : {"stringID" : "ox_fill_valve"},
+            "11" : {"stringID" : "ox_fill_vent_valve"},
             
-            "18" : {
-                "stringID" : "ox_vent_solenoid",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "19" : {
-                "stringID" : "ox_press_solenoid",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "20" : {
-                "stringID" : "ox_vent_solenoid_pressure_control",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "22" : {
-                "stringID" : "fuel_tank_cool",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "23" : {
-                "stringID" : "fuel_tank_heat",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "25" : {
-                "stringID" : "ox_tank_cool",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "26" : {
-                "stringID" : "ox_tank_heat",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "28" : {
-                "stringID" : "fuel_fill_heat",
-                "slope" : 1.0,
-                "offset" : 0
-            },
-            "29" : {
-                "stringID" : "ox_fill_heat",
-                "slope" : 1.0,
-                "offset" : 0
-            }
+            "18" : {"stringID" : "ox_vent_solenoid"},
+            "19" : {"stringID" : "ox_press_solenoid"},
+            "20" : {"stringID" : "ox_vent_solenoid_pressure_control"},
+            
+            "22" : {"stringID" : "fuel_tank_cool"},
+            "23" : {"stringID" : "fuel_tank_heat"},
+            "25" : {"stringID" : "ox_tank_cool"},
+            "26" : {"stringID" : "ox_tank_heat"},
+            "28" : {"stringID" : "fuel_fill_heat"},
+            "29" : {"stringID" : "ox_fill_heat"}
         },
         "3" : {
             "stringID" : "injector_servo",
-            "0" : {
-                "stringID" : "injector_servo",
-                "slope" : 1.0,
-                "offset" : 0
-            }
+            "0" : {"stringID" : "injector_servo"}
         }
     },
     

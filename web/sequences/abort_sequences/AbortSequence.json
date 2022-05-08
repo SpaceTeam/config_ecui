@@ -1,0 +1,15 @@
+{
+    "globals": {
+        "endTime": 3.2
+    },
+    "actions" : {
+    	"fuel_press_solenoid:SetState": [0],
+		"fuel_vent_solenoid:SetState": [0],
+		"ox_press_solenoid:SetState": [0],
+		"ox_vent_solenoid:SetState": [0],
+		"ignition_enable:SetState": [0],
+		"fuel_main_valve:SetTargetPosition": [0],
+        "ox_main_valve:SetTargetPosition": [0],
+		"injector_servo:SetTargetPosition": [0]
+    }
+}
