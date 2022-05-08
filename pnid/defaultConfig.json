@@ -103,6 +103,9 @@
             }
         ]
     },
+    "PnID-HeatExchanger": {
+        "eval": "if (inVars['value'] >= thresholds['pump']['high']) { outVars['color'] = 'content' } else { outVars['color'] = 'empty' }"
+    },
 	"PnID-Valve_Needle_Servo": {
         "eval": "if (inVars['value'] > 80) { outVars['color']='open'; outVars['value']='Open ('+Math.round(inVars['value'])+')' } else if (inVars['value'] > 20) { outVars['color']='throttle'; outVars['value']='Thr. ('+Math.round(inVars['value'])+')' } else { outVars['color']='closed'; outVars['value']='Closed  ('+Math.round(inVars['value'])+')' }",
 	    "popup": [
@@ -335,7 +338,7 @@
         ]
     },
     "gui-water_valves": {
-        "eval": "link(inVars['this'], ['water_valves_in:sensor', 'water_valves_out:sensor']); if (inVars['value'] > 0) { outVars['value']='Hot' } else { outVars['value']='Cold' }",
+        "eval": "link(inVars['this'], ['water_valves_return:sensor', 'water_valves_out:sensor']); if (inVars['value'] > 0) { outVars['value']='Hot' } else { outVars['value']='Cold' }",
 	    "popup": [
             {
                 "type": "display",

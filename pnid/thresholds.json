@@ -32,7 +32,7 @@
         "low": 5.0,
         "high": 7.0
     },
-    "waterExchangerTemps": {
+    "waterMantleTemps": {
         "low": 10.0,
         "high": 20.0
     },
