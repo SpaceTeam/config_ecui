@@ -130,7 +130,9 @@
         },
         "3" : {
             "stringID" : "injector_servo",
-            "0" : {"stringID" : "injector_servo"}
+            "0" : {"stringID" : "injector_servo"},
+            "1" : {"stringID" : "injector_servo_position"},
+            "2" : {"stringID" : "injector_servo_torque"}
         }
     },
     
