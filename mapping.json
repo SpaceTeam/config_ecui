@@ -1,503 +1,535 @@
 {
     "CANMapping": {
-    	"3" : {
-            "stringID" : "blmb_pressurant_tanking_valve",
-            "0" : {
-                "stringID" : "pressurant_tanking_valve",
-                "slope" : 1.0,
-                "offset" : 0
+        "3": {
+            "0": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "pressurant_tanking_valve"
             },
-            "1" : {
-                "stringID" : "pressurant_tanking_valve_unused_pressure",
-                "slope" : 1.0,
-                "offset" : 0
+            "1": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "pressurant_tanking_valve_unused_pressure"
             },
-            "2" : {
-                "stringID" : "pressurant_tanking_valve_unused_what",
-                "slope" : 1.0,
-                "offset" : 0
-	    }
+            "2": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "pressurant_tanking_valve_unused_what"
+            },
+            "stringID": "blmb_pressurant_tanking_valve"
         },
-        "4" : {
-            "stringID" : "blmb_pressurant_vent_valve",
-            "0" : {
-                "stringID" : "pressurant_vent_valve",
-                "slope" : 1.0,
-                "offset" : 0
-	    },
-            "1" : {
-                "stringID" : "pressurant_vent_valve_unused_pressure",
-                "slope" : 1.0,
-                "offset" : 0
+        "4": {
+            "0": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "pressurant_vent_valve"
             },
-            "2" : {
-                "stringID" : "pressurant_vent_valve_unused_what",
-                "slope" : 1.0,
-                "offset" : 0
-            }
+            "1": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "pressurant_vent_valve_unused_pressure"
+            },
+            "2": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "pressurant_vent_valve_unused_what"
+            },
+            "stringID": "blmb_pressurant_vent_valve"
         },
-        "6" : {
-            "stringID" : "ecu_ecu",
-            "0" : {
-                "stringID" : "fuel_tank_pressure",
-                "slope" : 0.00367,
-                "offset" : 0
+        "6": {
+            "0": {
+                "offset": 0,
+                "slope": 0.00367,
+                "stringID": "fuel_tank_pressure"
             },
-            "1" : {
-                "stringID" : "ox_tank_pressure",
-                "slope" : 0.003735,
-                "offset" : 0
+            "1": {
+                "offset": 0,
+                "slope": 0.003735,
+                "stringID": "ox_tank_pressure"
             },
-            "2" : {
-                "stringID" : "chamber_pressure",
-                "slope" : 0.0037,
-                "offset" : 0
+            "10": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_ecu_servo"
             },
-            "3" : {
-                "stringID" : "fuel_injector_pressure",
-                "slope" : 0.00119984,
-                "offset" : -16.244
+            "11": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "fuel_main_valve"
             },
-            "4" : {
-                "stringID" : "ox_injector_pressure",
-                "slope" : 0.00119984,
-                "offset" : -16.244
+            "12": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "igniter0"
             },
-            "5" : {
-                "stringID" : "unused_ecu_pressure",
-                "slope" : 1.0,
-                "offset" : 0
+            "13": {
+                "offset": 1.0,
+                "slope": -1.0,
+                "stringID": "igniter0_cont"
             },
-            "6" : {
-                "stringID" : "ox_tank_bottom_temp",
-                "slope" : 0.043258,
-                "offset" : -248.8657
+            "14": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "igniter1"
             },
-            "7" : {
-                "stringID" : "ox_tank_middle_temp",
-                "slope" : 0.043258,
-                "offset" : -248.8657
+            "15": {
+                "offset": 1.0,
+                "slope": -1.0,
+                "stringID": "igniter1_cont"
             },
-            "8" : {
-                "stringID" : "ox_tank_top_temp",
-                "slope" : 0.043258,
-                "offset" : -248.8657
+            "16": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_ecu_pyro"
             },
-            "11" : {
-                "stringID" : "fuel_main_valve",
-                "slope" : 1.0,
-                "offset" : 0
+            "17": {
+                "offset": 1.0,
+                "slope": -1.0,
+                "stringID": "unused_ecu_pyro_cont"
             },
-            "10" : {
-                "stringID" : "unused_ecu_servo",
-                "slope" : 1.0,
-                "offset" : 0
+            "18": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_ecu_solenoid"
             },
-            "9" : {
-                "stringID" : "ox_main_valve",
-                "slope" : 1.0,
-                "offset" : 0
+            "19": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "supercharge_valve"
             },
-            "12" : {
-                "stringID" : "igniter0",
-                "slope" : 1.0,
-                "offset" : 0
+            "2": {
+                "offset": 0,
+                "slope": 0.0037,
+                "stringID": "chamber_pressure"
             },
-            "13" : {
-                "stringID" : "igniter0_cont",
-                "slope" : -1.0,
-                "offset" : 1.0
+            "20": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "pressure_control"
             },
-            "14" : {
-                "stringID" : "igniter1",
-                "slope" : 1.0,
-                "offset" : 0
+            "22": {
+            	"offset": 0,
+                "slope": 1.0,
+                "stringID": "rocket"
             },
-            "15" : {
-                "stringID" : "igniter1_cont",
-                "slope" : -1.0,
-                "offset" : 1.0
+            "3": {
+                "offset": -16.244,
+                "slope": 0.00119984,
+                "stringID": "fuel_injector_pressure"
             },
-            "16" : {
-                "stringID" : "unused_ecu_pyro",
-                "slope" : 1.0,
-                "offset" : 0
+            "4": {
+                "offset": -16.244,
+                "slope": 0.00119984,
+                "stringID": "ox_injector_pressure"
             },
-            "17" : {
-                "stringID" : "unused_ecu_pyro_cont",
-                "slope" : -1.0,
-                "offset" : 1.0
+            "5": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_ecu_pressure"
             },
-            "19" : {
-                "stringID" : "supercharge_valve",
-                "slope" : 1.0,
-                "offset" : 0
+            "6": {
+                "offset": -248.8657,
+                "slope": 0.043258,
+                "stringID": "ox_tank_bottom_temp"
             },
-            "18" : {
-                "stringID" : "unused_ecu_solenoid",
-                "slope" : 1.0,
-                "offset" : 0
+            "7": {
+                "offset": -248.8657,
+                "slope": 0.043258,
+                "stringID": "ox_tank_middle_temp"
             },
-            "20" : {
-                "stringID" : "pressure_control",
-                "slope" : 1.0,
-                "offset" : 0
-            }
+            "8": {
+                "offset": -248.8657,
+                "slope": 0.043258,
+                "stringID": "ox_tank_top_temp"
+            },
+            "9": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "ox_main_valve"
+            },
+            "stringID": "ecu_ecu"
         },
-        "9" : {
-            "stringID" : "ecu_tankwagerl",
-            "3" : {
-                "stringID" : "pressurant_pressure",
-                "slope" : 0.0078857,
-                "offset" : -101.25
+        "7": {
+            "0": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "cell_voltage_control"
             },
-            "4" : {
-                "stringID" : "ox_bottle_pressure",
-                "slope" : 0.00119984,
-                "offset" : -16.244
+            "1": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "cell1_voltage"
             },
-            "2" : {
-                "stringID" : "unused_tw_pressure1",
-                "slope" : 1.0,
-                "offset" : 0
+            "10": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_pmu_servo2"
             },
-            "0" : {
-                "stringID" : "unused_tw_pressure2",
-                "slope" : 1.0,
-                "offset" : 0
+            "11": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_pmu_servo3"
             },
-            "1" : {
-                "stringID" : "unused_tw_pressure3",
-                "slope" : 1.0,
-                "offset" : 0
+            "12": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "camera1"
             },
-            "5" : {
-                "stringID" : "unused_tw_pressure4",
-                "slope" : 1.0,
-                "offset" : 0
+            "13": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_pmu_pyro0_cont"
             },
-            "6" : {
-                "stringID" : "water_cold_temp",
-                "slope" : 0.043258,
-                "offset" : -268.8657
+            "14": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "camera2"
             },
-            "7" : {
-                "stringID" : "water_hot_temp",
-                "slope" : 0.043258,
-                "offset" : -264.8657
+            "15": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_pmu_pyro1_cont"
             },
-            "8" : {
-                "stringID" : "water_mantle_temp",
-                "slope" : 0.043258,
-                "offset" : -248.8657
+            "16": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_pmu_pyro"
             },
-            "9" : {
-                "stringID" : "ox_tanking_valve",
-                "slope" : 1.0,
-                "offset" : 0
+            "17": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_pmu_pyro2_cont"
             },
-            "10" : {
-                "stringID" : "ox_vent_valve",
-                "slope" : 1.0,
-                "offset" : 0
+            "18": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_pmu_solenoid1"
             },
-            "11" : {
-                "stringID" : "unused_tw_servo",
-                "slope" : 1.0,
-                "offset" : 0
+            "19": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_pmu_solenoid2"
             },
-            "12" : {
-                "stringID" : "water_pumps",
-                "slope" : 1.0,
-                "offset" : 0
+            "2": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "cell2_voltage"
             },
-            "13" : {
-                "stringID" : "unused_tw_pyro0_cont",
-                "slope" : 1.0,
-                "offset" : 0
+            "20": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_pmu_pressure_control"
             },
-            "14" : {
-                "stringID" : "water_valves",
-                "slope" : 1.0,
-                "offset" : 0
+            "21": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "pmu_imu"
             },
-            "15" : {
-                "stringID" : "unused_tw_pyro1_cont",
-                "slope" : 1.0,
-                "offset" : 0
+            "3": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "charging_ok"
             },
-            "16" : {
-                "stringID" : "supply_disconnect_switch",
-                "slope" : 1.0,
-                "offset" : 0
+            "4": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "input_voltage_ok"
             },
-            "17" : {
-                "stringID" : "unused_tw_pyro2_cont",
-                "slope" : 1.0,
-                "offset" : 0
+            "5": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "supply_current_sense"
             },
-            "19" : {
-                "stringID" : "umbilical_retract",
-                "slope" : 1.0,
-                "offset" : 0
+            "6": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "battery_temp"
             },
-            "18" : {
-                "stringID" : "unused_tw_solenoid",
-                "slope" : 1.0,
-                "offset" : 0
+            "7": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_pmu_temp1"
             },
-            "20" : {
-                "stringID" : "unused_tw_pressure_control",
-                "slope" : 1.0,
-                "offset" : 0
-            }
+            "8": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_pmu_temp2"
+            },
+            "9": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_pmu_servo1"
+            },
+            "stringID": "ecu_pmu"
         },
-        "7" : {
-            "stringID" : "ecu_pmu",
-            "0" : {
-                "stringID" : "cell_voltage_control",
-                "slope" : 1.0,
-                "offset" : 0
+        "9": {
+            "0": {
+                "offset": 0.0,
+                "slope": 1.0,
+                "stringID": "scale"
             },
-            "1" : {
-                "stringID" : "cell1_voltage",
-                "slope" : 1.0,
-                "offset" : 0
+            "1": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_tw_pressure3"
             },
-            "2" : {
-                "stringID" : "cell2_voltage",
-                "slope" : 1.0,
-                "offset" : 0
+            "10": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "ox_vent_valve"
             },
-            "3" : {
-                "stringID" : "charging_ok",
-                "slope" : 1.0,
-                "offset" : 0
+            "11": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_tw_servo"
             },
-            "4" : {
-                "stringID" : "input_voltage_ok",
-                "slope" : 1.0,
-                "offset" : 0
+            "12": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "water_pumps"
             },
-            "5" : {
-                "stringID" : "supply_current_sense",
-                "slope" : 1.0,
-                "offset" : 0
+            "13": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_tw_pyro0_cont"
             },
-            "6" : {
-                "stringID" : "battery_temp",
-                "slope" : 1.0,
-                "offset" : 0
+            "14": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "water_valves"
             },
-            "7" : {
-                "stringID" : "unused_pmu_temp1",
-                "slope" : 1.0,
-                "offset" : 0
+            "15": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_tw_pyro1_cont"
             },
-            "8" : {
-                "stringID" : "unused_pmu_temp2",
-                "slope" : 1.0,
-                "offset" : 0
+            "16": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "supply_disconnect_switch"
             },
-            "9" : {
-                "stringID" : "unused_pmu_servo1",
-                "slope" : 1.0,
-                "offset" : 0
+            "17": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_tw_pyro2_cont"
             },
-            "10" : {
-                "stringID" : "unused_pmu_servo2",
-                "slope" : 1.0,
-                "offset" : 0
+            "18": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_tw_solenoid"
             },
-            "11" : {
-                "stringID" : "unused_pmu_servo3",
-                "slope" : 1.0,
-                "offset" : 0
+            "19": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "umbilical_retract"
             },
-            "12" : {
-                "stringID" : "camera1",
-                "slope" : 1.0,
-                "offset" : 0
+            "2": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_tw_pressure1"
             },
-            "13" : {
-                "stringID" : "unused_pmu_pyro0_cont",
-                "slope" : 1.0,
-                "offset" : 0
+            "20": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_tw_pressure_control"
             },
-            "14" : {
-                "stringID" : "camera2",
-                "slope" : 1.0,
-                "offset" : 0
+            "3": {
+                "offset": -101.25,
+                "slope": 0.0078857,
+                "stringID": "pressurant_pressure"
             },
-            "15" : {
-                "stringID" : "unused_pmu_pyro1_cont",
-                "slope" : 1.0,
-                "offset" : 0
+            "4": {
+                "offset": -16.244,
+                "slope": 0.00119984,
+                "stringID": "ox_bottle_pressure"
             },
-            "16" : {
-                "stringID" : "unused_pmu_pyro",
-                "slope" : 1.0,
-                "offset" : 0
+            "5": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_tw_pressure4"
             },
-            "17" : {
-                "stringID" : "unused_pmu_pyro2_cont",
-                "slope" : 1.0,
-                "offset" : 0
+            "6": {
+                "offset": -268.8657,
+                "slope": 0.043258,
+                "stringID": "water_cold_temp"
             },
-            "18" : {
-                "stringID" : "unused_pmu_solenoid1",
-                "slope" : 1.0,
-                "offset" : 0
+            "7": {
+                "offset": -264.8657,
+                "slope": 0.043258,
+                "stringID": "water_hot_temp"
             },
-            "19" : {
-                "stringID" : "unused_pmu_solenoid2",
-                "slope" : 1.0,
-                "offset" : 0
+            "8": {
+                "offset": -248.8657,
+                "slope": 0.043258,
+                "stringID": "water_mantle_temp"
             },
-            "20" : {
-                "stringID" : "unused_pmu_pressure_control",
-                "slope" : 1.0,
-                "offset" : 0
+            "9": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "ox_tanking_valve"
             },
-            "21" : {
-                "stringID" : "pmu_imu",
-                "slope" : 1.0,
-                "offset" : 0
-            }
+            "stringID": "ecu_tankwagerl"
         }
     },
-    "DefaultEventMapping" : {
-    	"Servo" : [{
-    		"command" : "Servo:SetTargetPosition",
-            "parameters" : ["Servo"]
-    	}],
-    	"DigitalOut" : [{
-    		"command" : "DigitalOut:SetState",
-            "parameters" : ["DigitalOut"]
-    	}]
+    "DefaultEventMapping": {
+        "DigitalOut": [
+            {
+                "command": "DigitalOut:SetState",
+                "parameters": [
+                    "DigitalOut"
+                ]
+            }
+        ],
+        "Servo": [
+            {
+                "command": "Servo:SetTargetPosition",
+                "parameters": [
+                    "Servo"
+                ]
+            }
+        ]
     },
-    "EventMapping" : {
-        "gui:pressure_control:SetEnabled" : [{
-        	"command" : "pressure_control:SetEnabled",
-        	"parameters" : ["gui:pressure_control:SetEnabled"]
-        }],
-        "gui:pressure_control:SetHysteresis" : [{
-        	"command" : "pressure_control:SetHysteresis",
-        	"parameters" : ["gui:pressure_control:SetHysteresis"]
-        }],
-        "gui:pressure_control:SetTargetPosition" : [{
-        	"command" : "pressure_control:SetTargetPosition",
-        	"parameters" : ["gui:pressure_control:SetTargetPosition"]
-        }]
+    "EventMapping": {
+        "gui:pressure_control:SetEnabled": [
+            {
+                "command": "pressure_control:SetEnabled",
+                "parameters": [
+                    "gui:pressure_control:SetEnabled"
+                ]
+            }
+        ],
+        "gui:pressure_control:SetHysteresis": [
+            {
+                "command": "pressure_control:SetHysteresis",
+                "parameters": [
+                    "gui:pressure_control:SetHysteresis"
+                ]
+            }
+        ],
+        "gui:pressure_control:SetTargetPosition": [
+            {
+                "command": "pressure_control:SetTarget",
+                "parameters": [
+                    "gui:pressure_control:SetTargetPosition"
+                ]
+            }
+        ],
+        "gui:scale:Tare": [
+            {
+                "command": "Tare",
+                "parameters": [
+                    9,
+                    0,
+                    "scale:sensor"
+                ]
+            }
+        ]
     },
-    "GUIMapping" :
-    [
+    "GUIMapping": [
         {
-            "state" : "camera0:sensor",
-            "label" : "Camera0"
-		},
+            "label": "Camera0",
+            "state": "camera0:sensor"
+        },
         {
-            "state" : "camera1:sensor",
-            "label" : "Camera1"
-		},
+            "label": "Camera1",
+            "state": "camera1:sensor"
+        },
         {
-            "state" : "fuel_tank_pressure:sensor",
-            "label" : "Fuel Tank Pressure"
-		},
+            "label": "Fuel Tank Pressure",
+            "state": "fuel_tank_pressure:sensor"
+        },
         {
-            "state" : "ox_tank_pressure:sensor",
-            "label" : "Ox Tank Pressure"
-		},
+            "label": "Ox Tank Pressure",
+            "state": "ox_tank_pressure:sensor"
+        },
         {
-            "state" : "supercharge_valve:sensor",
-            "label" : "Supercharge Valve"
-		},
+            "label": "Supercharge Valve",
+            "state": "supercharge_valve:sensor"
+        },
         {
-            "state" : "ox_tank_top_temp:sensor",
-            "label" : "Ox Tank Top Temp"
-		},
+            "label": "Ox Tank Top Temp",
+            "state": "ox_tank_top_temp:sensor"
+        },
         {
-            "state" : "ox_tank_middle_temp:sensor",
-            "label" : "Ox Tank Middle Temp"
-		},
+            "label": "Ox Tank Middle Temp",
+            "state": "ox_tank_middle_temp:sensor"
+        },
         {
-            "state" : "ox_tank_bottom_temp:sensor",
-            "label" : "Ox Tank Bottom Temp"
-		},
+            "label": "Ox Tank Bottom Temp",
+            "state": "ox_tank_bottom_temp:sensor"
+        },
         {
-            "state" : "fuel_main_valve:sensor",
-            "label" : "Fuel Main Valve"
-		},
+            "label": "Fuel Main Valve",
+            "state": "fuel_main_valve:sensor"
+        },
         {
-            "state" : "ox_main_valve:sensor",
-            "label" : "Ox Main Valve"
-		},
+            "label": "Ox Main Valve",
+            "state": "ox_main_valve:sensor"
+        },
         {
-            "state" : "fuel_injector_pressure:sensor",
-            "label" : "Fuel Injector Pressure"
-		},
+            "label": "Fuel Injector Pressure",
+            "state": "fuel_injector_pressure:sensor"
+        },
         {
-            "state" : "ox_injector_pressure:sensor",
-            "label" : "Ox Injector Pressure"
-		},
+            "label": "Ox Injector Pressure",
+            "state": "ox_injector_pressure:sensor"
+        },
         {
-            "state" : "chamber_pressure:sensor",
-            "label" : "Chamber Pressure"
-		},
+            "label": "Chamber Pressure",
+            "state": "chamber_pressure:sensor"
+        },
         {
-            "state" : "pressurant_tanking_valve:sensor",
-            "label" : "Pressurant Tanking Valve"
-		},
+            "label": "Pressurant Tanking Valve",
+            "state": "pressurant_tanking_valve:sensor"
+        },
         {
-            "state" : "ox_tanking_valve:sensor",
-            "label" : "Ox Tanking Valve"
-		},
+            "label": "Ox Tanking Valve",
+            "state": "ox_tanking_valve:sensor"
+        },
         {
-            "state" : "pressurant_vent_valve:sensor",
-            "label" : "Pressurant Vent Valve"
-		},
+            "label": "Pressurant Vent Valve",
+            "state": "pressurant_vent_valve:sensor"
+        },
         {
-            "state" : "ox_vent_valve:sensor",
-            "label" : "Ox Vent Valve"
-		},
+            "label": "Ox Vent Valve",
+            "state": "ox_vent_valve:sensor"
+        },
         {
-            "state" : "supply_current_sense:sensor",
-            "label" : "Supply Current"
-		},
+            "label": "Supply Current",
+            "state": "supply_current_sense:sensor"
+        },
         {
-            "state" : "pressurant_pressure:sensor",
-            "label" : "Pressurant Pressure"
-		},
+            "label": "Pressurant Pressure",
+            "state": "pressurant_pressure:sensor"
+        },
         {
-            "state" : "ox_bottle_pressure:sensor",
-            "label" : "Ox Bottle Pressure"
-		},
+            "label": "Ox Bottle Pressure",
+            "state": "ox_bottle_pressure:sensor"
+        },
         {
-            "state" : "water_mantle_temp:sensor",
-            "label" : "Water Mantle Temp"
-		},
+            "label": "Water Mantle Temp",
+            "state": "water_mantle_temp:sensor"
+        },
         {
-            "state" : "water_cold_temp:sensor",
-            "label" : "Water Cold Temp"
-		},
+            "label": "Water Cold Temp",
+            "state": "water_cold_temp:sensor"
+        },
         {
-            "state" : "water_hot_temp:sensor",
-            "label" : "Water Hot Temp"
-		},
+            "label": "Water Hot Temp",
+            "state": "water_hot_temp:sensor"
+        },
         {
-            "state" : "pump_hot_water:sensor",
-            "label" : "Pump Hot Water"
-		},
+            "label": "Pump Hot Water",
+            "state": "pump_hot_water:sensor"
+        },
         {
-            "state" : "pump_cold_water:sensor",
-            "label" : "Pump Cold Water"
-		},
+            "label": "Pump Cold Water",
+            "state": "pump_cold_water:sensor"
+        },
         {
-            "state" : "valves:sensor",
-            "label" : "Valves"
-		}
+            "label": "Valves",
+            "state": "valves:sensor"
+        }
     ],
-    "GUIMappingAdvanced" :
-    {
-    }
+    "GUIMappingAdvanced": {}
 }
