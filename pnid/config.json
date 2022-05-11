@@ -1,0 +1,251 @@
+{
+    "pressure": {
+        "states": [
+            "chamber_pressure:sensor"
+        ],
+        "eval": "if (inVars['value'] > thresholds['chamberPressure']['high']) { outVars['color']='high' } else if (inVars['value'] > thresholds['chamberPressure']['low']) { outVars['color']='neutral' } else { outVars['color']='low' }"
+    },
+    "purge_solenoid_pressure": {
+        "states": [
+            "purge_solenoid:sensor"
+        ],
+        "eval": "if (inVars['value'] > 0) { outVars['color']='open'; outVars['value']='Open' } else { outVars['color']='closed'; outVars['value']='Closed'; outVars['crossUpdate']=[{'name':'purge_solenoid_wire','value':2.1}] }"
+    },
+    "temp_sens_hot": {
+        "states": [
+            "water_hot_temp:sensor"
+        ],
+        "eval": "if (inVars['value'] > thresholds['waterTemps']['notconnected']) { outVars['color']='notconnected'; outVars['content']='notconnected'; outVars['value']='Not Conn' } else if (inVars['value'] > thresholds['waterHotTemps']['high']) { outVars['color']='high'; outVars['content']='high' } else if (inVars['value'] > thresholds['waterHotTemps']['low']) { outVars['color']='mid'; outVars['content']='mid' } else { outVars['color']='low'; outVars['content']='low' }"
+    },
+    "temp_sens_cold": {
+        "states": [
+            "water_cold_temp:sensor"
+        ],
+        "eval": "if (inVars['value'] > thresholds['waterTemps']['notconnected']) { outVars['color']='notconnected'; outVars['content']='notconnected'; outVars['value']='Not Conn' } else if (inVars['value'] > thresholds['waterColdTemps']['high']) { outVars['color']='high'; outVars['content']='high'  } else if (inVars['value'] > thresholds['waterColdTemps']['low']) { outVars['color']='mid'; outVars['content']='mid' } else { outVars['color']='low'; outVars['content']='low' }"
+    },
+    "temp_sens_heat_exchanger": {
+        "states": [
+            "water_mantle_temp:sensor"
+        ],
+        "eval": "if (inVars['value'] > thresholds['waterTemps']['notconnected']) { outVars['color']='notconnected'; outVars['content']='notconnected'; outVars['value']='Not Conn' } else if (inVars['value'] > thresholds['waterMantleTemps']['high']) { outVars['color']='high'; outVars['content']='high' } else if (inVars['value'] > thresholds['waterMantleTemps']['low']) { outVars['color']='mid'; outVars['content']='mid' } else { outVars['color']='low'; outVars['content']='low' }"
+    },
+    "3_way_water_valve_out": {
+        "states": [
+            "water_valves_out:sensor"
+        ],
+        "eval": "if (outVars['color']=='position_a') { unlink('pump_cold_water:sensor', ['water_mantle_in:wire','water_mantle:sensor']); link('pump_hot_water:sensor', 'water_mantle_in:wire'); link('pump_hot_water:sensor', 'water_mantle:sensor', 'value') } else if (outVars['color']=='position_b') { unlink('pump_hot_water:sensor', ['water_mantle_in:wire','water_mantle:sensor']); link('pump_cold_water:sensor', 'water_mantle_in:wire'); link('pump_cold_water:sensor', 'water_mantle:sensor', 'value') } else { unlink('pump_hot_water:sensor', ['water_mantle_in:wire','water_mantle:sensor'], -10); unlink('pump_cold_water:sensor', ['water_mantle_in:wire','water_mantle:sensor'], -10) }"
+    },
+    "3_way_water_valve_return": {
+        "states": [
+            "water_valves_return:sensor"
+        ],
+        "eval": "if (outVars['color']=='position_a') { outVars['color']='position_b'; unlink('water_mantle:sensor', 'water_tank_cold_return:wire', -10); link('water_mantle:sensor', 'water_tank_hot_return:wire') } else if (outVars['color']=='position_b') {  outVars['color']='position_a'; unlink('water_mantle:sensor', 'water_tank_hot_return:wire', -10); link('water_mantle:sensor', 'water_tank_cold_return:wire') } else { unlink('water_mantle_temp:sensor', 'water_tank_hot_return:wire', -10); unlink('water_tank_cold_return:sensor', 'heat_exchanger_in:wire', -10) }"
+    },
+    "heat_exchanger": {
+        "states": [
+            "water_mantle:sensor"
+        ],
+        "eval": "link(inVars['this'], 'water_mantle_out:wire'); link('water_mantle_temp:sensor', inVars['this'], 'content')"
+    },
+    "pump_hot_water": {
+        "states": [
+            "pump_hot_water:sensor"
+        ],
+        "eval": "link('water_hot_temp:sensor', inVars['this'], 'content')"
+    },
+    "pump_cold_water": {
+        "states": [
+            "pump_cold_water:sensor"
+        ],
+        "eval": "link('water_cold_temp:sensor', inVars['this'], 'content')"
+    },
+    "fuel_bottom_tank_pressure:sensor": {
+        "states": [
+            "fuel_bottom_tank_pressure:sensor"
+        ],
+        "popup": {
+            "source": "11",
+            "autoID": false
+        }
+    },
+    "fuel_main_pressure:sensor": {
+        "states": [
+            "fuel_main_pressure:sensor"
+        ],
+        "popup": {
+            "source": "14",
+            "autoID": false
+        }
+    },
+    "fuel_pressurant_regulator_pressure:sensor": {
+        "states": [
+            "fuel_pressurant_regulator_pressure:sensor"
+        ],
+        "popup": {
+            "source": "15",
+            "autoID": false
+        }
+    },
+    "fuel_top_tank_pressure:sensor": {
+        "states": [
+            "fuel_top_tank_pressure:sensor"
+        ],
+        "popup": {
+            "source": "16",
+            "autoID": false
+        }
+    },
+    "igniter_fuel_regulator_pressure:sensor": {
+        "states": [
+            "igniter_fuel_bottle_pressure:sensor"
+        ],
+        "popup": {
+            "source": "17",
+            "autoID": false
+        }
+    },
+    "igniter_ox_regulator_pressure:sensor": {
+        "states": [
+            "igniter_ox_bottle_pressure:sensor"
+        ],
+        "popup": {
+            "source": "18",
+            "autoID": false
+        }
+    },
+    "ox_bottom_tank_pressure:sensor": {
+        "states": [
+            "ox_bottom_tank_pressure:sensor"
+        ],
+        "popup": {
+            "source": "19",
+            "autoID": false
+        }
+    },
+    "ox_pressurant_regulator_pressure:sensor": {
+        "states": [
+            "ox_pressurant_regulator_pressure:sensor"
+        ],
+        "popup": {
+            "source": "20",
+            "autoID": false
+        }
+    },
+    "ox_top_tank_pressure:sensor": {
+        "states": [
+            "ox_top_tank_pressure:sensor"
+        ],
+        "popup": {
+            "source": "21",
+            "autoID": false
+        }
+    },
+    "purge_bottle_pressure:sensor": {
+        "states": [
+            "purge_bottle_pressure:sensor"
+        ],
+        "popup": {
+            "source": "22",
+            "autoID": false
+        }
+    },
+    "fuel_bottom_tank_temp:sensor": {
+        "states": [
+            "fuel_bottom_tank_temp:sensor"
+        ],
+        "popup": {
+            "source": "12",
+            "autoID": false
+        }
+    },
+    "fuel_mid_bottom_tank_temp:sensor": {
+        "states": [
+            "fuel_mid_bottom_tank_temp:sensor"
+        ],
+        "popup": {
+            "source": "23",
+            "autoID": false
+        }
+    },
+    "fuel_mid_top_tank_temp:sensor": {
+        "states": [
+            "fuel_mid_top_tank_temp:sensor"
+        ],
+        "popup": {
+            "source": "24",
+            "autoID": false
+        }
+    },
+    "fuel_top_tank_temp:sensor": {
+        "states": [
+            "fuel_top_tank_temp:sensor"
+        ],
+        "popup": {
+            "source": "25",
+            "autoID": false
+        }
+    },
+    "ox_bottom_tank_temp:sensor": {
+        "states": [
+            "ox_bottom_tank_temp:sensor"
+        ],
+        "popup": {
+            "source": "26",
+            "autoID": false
+        }
+    },
+    "ox_mid_bottom_tank_temp:sensor": {
+        "states": [
+            "ox_mid_bottom_tank_temp:sensor"
+        ],
+        "popup": {
+            "source": "27",
+            "autoID": false
+        }
+    },
+    "ox_mid_top_tank_temp:sensor": {
+        "states": [
+            "ox_mid_top_tank_temp:sensor"
+        ],
+        "popup": {
+            "source": "28",
+            "autoID": false
+        }
+    },
+    "ox_top_tank_temp:sensor": {
+        "states": [
+            "ox_top_tank_temp:sensor"
+        ],
+        "popup": {
+            "source": "29",
+            "autoID": false
+        }
+    },
+    "Engine_TorchIgniter": {
+        "states": [
+
+        ],
+        "popup": {
+            "source": "13",
+            "autoID": false
+        }
+    },
+    "water_wires": {
+        "states": [
+            "water_mantle_in:wire",
+            "water_mantle_out:wire",
+            "pump_hot_water:sensor:wire",
+            "pump_cold_water:sensor:wire",
+            "water_tank_hot_return:wire",
+            "water_tank_cold_return:wire"
+        ],
+        "eval": "if (inVars['value'] >= thresholds['pump']['high']) { outVars['color'] = 'content' } else { outVars['color'] = 'empty' }"
+    },
+    "water_tank_wires": {
+        "states": [
+            "water_cold_temp:sensor:wire",
+            "water_hot_temp:sensor:wire"
+        ],
+        "eval": "if (inVars['value'] >= thresholds['waterTemps']['notconnected']) { outVars['color'] = 'empty' } else { outVars['color'] = 'content' }"
+    }
+}
