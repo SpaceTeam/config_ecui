@@ -319,7 +319,8 @@
                 "max": "10000",
                 "label": "Holddown Timeout",
                 "suffix": "ms",
-                "variable": "rocket-SetHolddownTimeout"
+                "variable": "rocket-SetHolddownTimeout",
+                "poll_var": "rocket-GetHolddownTimeout"
             },
             {
                 "type": "input",
@@ -328,7 +329,8 @@
                 "max": "65535",
                 "label": "Min. Chamber Pressure",
                 "suffix": "raw analog",
-                "variable": "rocket-SetMinimumChamberPressure"
+                "variable": "rocket-SetMinimumChamberPressure",
+                "poll_var": "rocket-GetMinimumChamberPressure"
             },
             {
                 "type": "input",
@@ -337,7 +339,8 @@
                 "max": "65535",
                 "label": "Min. Fuel Pressure",
                 "suffix": "raw analog",
-                "variable": "rocket-SetMinimumFuelPressure"
+                "variable": "rocket-SetMinimumFuelPressure",
+                "poll_var": "rocket-GetMinimumFuelPressure"
             },
             {
                 "type": "input",
@@ -346,7 +349,8 @@
                 "max": "65535",
                 "label": "Min. Ox Pressure",
                 "suffix": "raw analog",
-                "variable": "rocket-SetMinimumOxPressure"
+                "variable": "rocket-SetMinimumOxPressure",
+                "poll_var": "rocket-GetMinimumOxPressure"
             }
         ]
     },
@@ -440,7 +444,8 @@
                 "max": "100",
                 "label": "Set Point",
                 "suffix": "bar",
-                "variable": "pressure_control-SetTargetPosition"
+                "variable": "pressure_control-SetTargetPosition",
+                "poll_var": "pressure_control-GetTargetPosition"
             },
             {
                 "type": "input",
@@ -449,7 +454,8 @@
                 "max": "100",
                 "label": "Hysteresis",
                 "suffix": "bar",
-                "variable": "pressure_control-SetHysteresis"
+                "variable": "pressure_control-SetHysteresis",
+                "poll_var": "pressure_control-GetHysteresis"
             }
         ]
     }
