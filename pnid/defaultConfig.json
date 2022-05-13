@@ -286,6 +286,43 @@
             }
         ]
     },
+    "PnID-Rocket_Channel": {
+        "eval": "",
+        "popup": [
+            {
+                "type": "display",
+                "style": "text",
+                "variable": "value"
+            },
+            {
+                "type": "input",
+                "style": "button",
+                "variable": "rocket:InternalControl",
+                "label": "Internal Control"
+            },
+            {
+                "type": "input",
+                "style": "button",
+                "variable": "rocket:Abort",
+                "label": "ABORT"
+            },
+            {
+                "type": "input",
+                "style": "button",
+                "variable": "rocket:EndOfFlight",
+                "label": "End of Flight"
+            },
+            {
+                "type": "input",
+                "style": "numberEntry",
+                "min": "0",
+                "max": "100",
+                "label": "some cool label",
+                "suffix": "some cool suffix",
+                "variable": "some cool state name"
+            }
+        ]
+    },
     "gui-water_pumps": {
         "eval": "link(inVars['this'], ['pump_cold_water:sensor', 'pump_hot_water:sensor']); if (inVars['value'] > 0) { outVars['color']='on'; outVars['value']='On'; } else { outVars['color']='off'; outVars['value']='Off'; }",
 	    "popup": [

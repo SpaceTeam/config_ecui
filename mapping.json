@@ -423,6 +423,30 @@
                     "scale:sensor"
                 ]
             }
+        ],
+        "gui:rocket:InternalControl": [
+            {
+                "command": "rocket:InternalControl",
+                "parameters": [
+                    1
+                ]
+            }
+        ],
+        "gui:rocket:Abort": [
+            {
+                "command": "rocket:Abort",
+                "parameters": [
+                    1
+                ]
+            }
+        ],
+        "gui:rocket:EndOfFlight": [
+            {
+                "command": "rocket:EndOfFlight",
+                "parameters": [
+                    1
+                ]
+            }
         ]
     },
     "GUIMapping": [
