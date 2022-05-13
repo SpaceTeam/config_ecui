@@ -70,32 +70,32 @@
             "14": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "igniter1"
+                "stringID": "unused_ecu_pyro"
             },
             "15": {
                 "offset": 1.0,
                 "slope": -1.0,
-                "stringID": "igniter1_cont"
+                "stringID": "unused_ecu_pyro_cont"
             },
             "16": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "unused_ecu_pyro"
+                "stringID": "igniter1"
             },
             "17": {
                 "offset": 1.0,
                 "slope": -1.0,
-                "stringID": "unused_ecu_pyro_cont"
+                "stringID": "igniter1_cont"
             },
             "18": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "unused_ecu_solenoid"
+                "stringID": "supercharge_valve"
             },
             "19": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "supercharge_valve"
+                "stringID": "unused_ecu_solenoid"
             },
             "2": {
                 "offset": 0,
@@ -281,7 +281,7 @@
             "11": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "unused_tw_servo"
+                "stringID": "holddown"
             },
             "12": {
                 "offset": 0,
@@ -426,9 +426,8 @@
         ],
         "gui:rocket:InternalControl": [
             {
-                "command": "rocket:InternalControl",
+                "command": "rocket:ActivateInternalControl",
                 "parameters": [
-                    1
                 ]
             }
         ],
@@ -436,7 +435,6 @@
             {
                 "command": "rocket:Abort",
                 "parameters": [
-                    1
                 ]
             }
         ],
@@ -444,7 +442,38 @@
             {
                 "command": "rocket:EndOfFlight",
                 "parameters": [
-                    1
+                ]
+            }
+        ],
+        "gui:rocket:SetHolddownTimeout": [
+            {
+                "command": "rocket:SetHolddownTimeout",
+                "parameters": [
+                	"gui:rocket:SetHolddownTimeout"
+                ]
+            }
+        ],
+        "gui:rocket:SetMinimumChamberPressure": [
+            {
+                "command": "rocket:SetMinimumChamberPressure",
+                "parameters": [
+                	"gui:rocket:SetMinimumChamberPressure"
+                ]
+            }
+        ],
+        "gui:rocket:SetMinimumFuelPressure": [
+            {
+                "command": "rocket:SetMinimumFuelPressure",
+                "parameters": [
+                	"gui:rocket:SetMinimumFuelPressure"
+                ]
+            }
+        ],
+        "gui:rocket:SetMinimumOxPressure": [
+            {
+                "command": "rocket:SetMinimumOxPressure",
+                "parameters": [
+                	"gui:rocket:SetMinimumOxPressure"
                 ]
             }
         ]

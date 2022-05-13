@@ -287,7 +287,7 @@
         ]
     },
     "PnID-Rocket_Channel": {
-        "eval": "",
+        "eval": "switch (inVars['value']) { case 0: outVars['value']='PAD_IDLE'; break; case 1: outVars['value']='AUTO_CHECK'; break; case 2: outVars['value']='IGNITION_SEQUENCE'; break; case 3: outVars['value']='HOLD_DOWN'; break; case 4: outVars['value']='POWERED_ASCENT'; break; case 5: outVars['value']='UNPOWERED_ASCENT'; break; case 6: outVars['value']='DEPRESS'; break; case 7: outVars['value']='ABORT'; break; }",
         "popup": [
             {
                 "type": "display",
@@ -297,29 +297,56 @@
             {
                 "type": "input",
                 "style": "button",
-                "variable": "rocket:InternalControl",
+                "variable": "rocket-InternalControl",
                 "label": "Internal Control"
             },
             {
                 "type": "input",
                 "style": "button",
-                "variable": "rocket:Abort",
+                "variable": "rocket-Abort",
                 "label": "ABORT"
             },
             {
                 "type": "input",
                 "style": "button",
-                "variable": "rocket:EndOfFlight",
+                "variable": "rocket-EndOfFlight",
                 "label": "End of Flight"
             },
             {
                 "type": "input",
                 "style": "numberEntry",
                 "min": "0",
-                "max": "100",
-                "label": "some cool label",
-                "suffix": "some cool suffix",
-                "variable": "some cool state name"
+                "max": "10000",
+                "label": "Holddown Timeout",
+                "suffix": "ms",
+                "variable": "rocket-SetHolddownTimeout"
+            },
+            {
+                "type": "input",
+                "style": "numberEntry",
+                "min": "0",
+                "max": "65535",
+                "label": "Min. Chamber Pressure",
+                "suffix": "raw analog",
+                "variable": "rocket-SetMinimumChamberPressure"
+            },
+            {
+                "type": "input",
+                "style": "numberEntry",
+                "min": "0",
+                "max": "65535",
+                "label": "Min. Fuel Pressure",
+                "suffix": "raw analog",
+                "variable": "rocket-SetMinimumFuelPressure"
+            },
+            {
+                "type": "input",
+                "style": "numberEntry",
+                "min": "0",
+                "max": "65535",
+                "label": "Min. Ox Pressure",
+                "suffix": "raw analog",
+                "variable": "rocket-SetMinimumOxPressure"
             }
         ]
     },
