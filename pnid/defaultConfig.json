@@ -362,7 +362,7 @@
             }
         ]
     },
-    "gui-fuel_vent_solenoid_pressure_control-SetEnable": {
+    "gui-fuel_vent_solenoid_pressure_control-SetEnabled": {
         "eval": "if (inVars['value'] > 0) { outVars['value']='Pressure Controlled' } else { outVars['value']='Manual' }",
         "popup": [
             {
@@ -397,7 +397,7 @@
             }
         ]
     },
-    "gui-ox_vent_solenoid_pressure_control-SetEnable": {
+    "gui-ox_vent_solenoid_pressure_control-SetEnabled": {
         "eval": "if (inVars['value'] > 0) { outVars['value']='Pressure Controlled' } else { outVars['value']='Manual' }",
         "popup": [
             {
