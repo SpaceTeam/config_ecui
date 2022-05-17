@@ -131,8 +131,12 @@
         "3" : {
             "stringID" : "injector_servo",
             "0" : {"stringID" : "injector_servo"},
-            "1" : {"stringID" : "injector_servo_position"},
-            "2" : {"stringID" : "injector_servo_torque"}
+            "1" : {"stringID" : "injector_servo_chamber_pressure"},
+            "2" : {
+            	"stringID" : "injector_servo_current",
+                "slope" : 0.002,
+                "offset" : -65.536
+            }
         }
     },
     
