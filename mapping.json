@@ -108,7 +108,7 @@
                 "stringID": "pressure_control"
             },
             "22": {
-            	"offset": 0,
+                "offset": 0,
                 "slope": 1.0,
                 "stringID": "rocket"
             },
@@ -390,6 +390,12 @@
         ]
     },
     "EventMapping": {
+        "gui:pressure_control:GetHysteresis": [
+            {
+                "command": "pressure_control:GetHysteresis",
+                "parameters": []
+            }
+        ],
         "gui:pressure_control:SetEnabled": [
             {
                 "command": "pressure_control:SetEnabled",
@@ -406,18 +412,61 @@
                 ]
             }
         ],
-        "gui:pressure_control:GetHysteresis": [
-            {
-                "command": "pressure_control:GetHysteresis",
-                "parameters": [
-                ]
-            }
-        ],
         "gui:pressure_control:SetTargetPosition": [
             {
                 "command": "pressure_control:SetTarget",
                 "parameters": [
                     "gui:pressure_control:SetTargetPosition"
+                ]
+            }
+        ],
+        "gui:rocket:Abort": [
+            {
+                "command": "rocket:Abort",
+                "parameters": []
+            }
+        ],
+        "gui:rocket:EndOfFlight": [
+            {
+                "command": "rocket:EndOfFlight",
+                "parameters": []
+            }
+        ],
+        "gui:rocket:InternalControl": [
+            {
+                "command": "rocket:ActivateInternalControl",
+                "parameters": []
+            }
+        ],
+        "gui:rocket:SetHolddownTimeout": [
+            {
+                "command": "rocket:SetHolddownTimeout",
+                "parameters": [
+                    "gui:rocket:SetHolddownTimeout"
+                ]
+            }
+        ],
+        "gui:rocket:SetMinimumChamberPressure": [
+            {
+                "command": "rocket:SetMinimumChamberPressure",
+                "parameters": [
+                    "gui:rocket:SetMinimumChamberPressure"
+                ]
+            }
+        ],
+        "gui:rocket:SetMinimumFuelPressure": [
+            {
+                "command": "rocket:SetMinimumFuelPressure",
+                "parameters": [
+                    "gui:rocket:SetMinimumFuelPressure"
+                ]
+            }
+        ],
+        "gui:rocket:SetMinimumOxPressure": [
+            {
+                "command": "rocket:SetMinimumOxPressure",
+                "parameters": [
+                    "gui:rocket:SetMinimumOxPressure"
                 ]
             }
         ],
@@ -428,59 +477,6 @@
                     9,
                     0,
                     "scale:sensor"
-                ]
-            }
-        ],
-        "gui:rocket:InternalControl": [
-            {
-                "command": "rocket:ActivateInternalControl",
-                "parameters": [
-                ]
-            }
-        ],
-        "gui:rocket:Abort": [
-            {
-                "command": "rocket:Abort",
-                "parameters": [
-                ]
-            }
-        ],
-        "gui:rocket:EndOfFlight": [
-            {
-                "command": "rocket:EndOfFlight",
-                "parameters": [
-                ]
-            }
-        ],
-        "gui:rocket:SetHolddownTimeout": [
-            {
-                "command": "rocket:SetHolddownTimeout",
-                "parameters": [
-                	"gui:rocket:SetHolddownTimeout"
-                ]
-            }
-        ],
-        "gui:rocket:SetMinimumChamberPressure": [
-            {
-                "command": "rocket:SetMinimumChamberPressure",
-                "parameters": [
-                	"gui:rocket:SetMinimumChamberPressure"
-                ]
-            }
-        ],
-        "gui:rocket:SetMinimumFuelPressure": [
-            {
-                "command": "rocket:SetMinimumFuelPressure",
-                "parameters": [
-                	"gui:rocket:SetMinimumFuelPressure"
-                ]
-            }
-        ],
-        "gui:rocket:SetMinimumOxPressure": [
-            {
-                "command": "rocket:SetMinimumOxPressure",
-                "parameters": [
-                	"gui:rocket:SetMinimumOxPressure"
                 ]
             }
         ]
