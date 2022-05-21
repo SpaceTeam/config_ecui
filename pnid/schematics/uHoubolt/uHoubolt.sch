@@ -279,7 +279,7 @@ F 0 "igniter0" H 2298 12223 20  0001 C CNN
 F 1 "igniter0:sensor" H 1900 12030 20  0000 C CNN
 F 2 "" H 2240 12030 50  0001 C CNN
 F 3 "" H 2240 12030 50  0001 C CNN
-F 4 "Ohm" H 2240 12030 50  0001 C CNN "Unit"
+F 4 "mA" H 2240 12030 50  0001 C CNN "Unit"
 	1    2240 12030
 	1    0    0    -1  
 $EndComp
@@ -291,7 +291,7 @@ F 0 "igniter1" H 2692 12008 20  0001 R CNN
 F 1 "igniter1:sensor" H 2470 12030 20  0000 C CNN
 F 2 "" H 2820 12030 50  0001 C CNN
 F 3 "" H 2820 12030 50  0001 C CNN
-F 4 "Ohm" H 2820 12030 50  0001 C CNN "Unit"
+F 4 "mA" H 2820 12030 50  0001 C CNN "Unit"
 	1    2820 12030
 	-1   0    0    1   
 $EndComp
@@ -432,11 +432,6 @@ F 3 "" H 2530 6660 50  0001 C CNN
 	1    2530 6660
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2530 6780 2530 6970
-Connection ~ 2530 6970
-Wire Wire Line
-	2530 6970 2530 7080
 $Comp
 L PnID:Pump U7
 U 1 1 618AC676
@@ -479,7 +474,6 @@ Text Label 7120 9230 0    11   ~ 0
 water_mantle_in:wire
 Text Label 8580 7530 0    11   ~ 0
 water_tank_hot_return:wire
-Connection ~ 6740 10010
 Wire Notes Line
 	10730 6760 5020 6760
 $Comp
@@ -750,7 +744,6 @@ F 3 "" H 6830 8770 50  0001 C CNN
 $EndComp
 Text Label 7120 8530 0    11   ~ 0
 water_mantle_out:wire
-Connection ~ 8780 7170
 $Comp
 L PnID:Rocket_Channel R1
 U 1 1 627DC68B
@@ -765,4 +758,6 @@ F 6 " " H 3728 5969 50  0000 L CNN "Data_Content"
 	1    3600 5980
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2530 6780 2530 7080
 $EndSCHEMATC

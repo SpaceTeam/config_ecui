@@ -125,7 +125,7 @@
         ]
     },
     "PnID-Sensor_Pressure": {
-        "eval": "if (inVars['value'] > 2) { outVars['color']='content' } else if (inVars['value'] > -8) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='Not Connected' }",
+        "eval": "if (inVars['value'] > 2) { outVars['color']='content' } else if (inVars['value'] > -8) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
 	    "popup": [
             {
                 "type": "display",
@@ -143,7 +143,7 @@
         ]
     },
     "PnID-Sensor_Temperature": {
-        "eval": "if (inVars['value'] > 30) { outVars['color']='high' } else if (inVars['value'] > -200) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='Not Connected' }",
+        "eval": "if (inVars['value'] > 30) { outVars['color']='high' } else if (inVars['value'] > -200) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
 	    "popup": [
             {
                 "type": "display",
@@ -185,7 +185,7 @@
         ]
     },
     "PnID-Water_Tank": {
-        "eval": "if (inVars['value'] > 30) { outVars['color']='high'; outVars['content']='high' } else if (inVars['value'] > -200) { outVars['color']='low'; outVars['content']='low' } else { outVars['color']='notconnected'; outVars['value']='Not Connected'; outVars['content']='' }",
+        "eval": "if (inVars['value'] > 30) { outVars['color']='high'; outVars['content']='high' } else if (inVars['value'] > -200) { outVars['color']='low'; outVars['content']='low' } else { outVars['color']='notconnected'; outVars['value']='NC'; outVars['content']='' }",
 	    "popup": [
             {
                 "type": "display",
