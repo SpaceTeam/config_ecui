@@ -1247,4 +1247,20 @@ F 3 "" H 10555 5350 50  0001 C CNN
 	1    10555 5350
 	0    -1   -1   0   
 $EndComp
+$Comp
+L PnID:igniter Igniter
+U 1 1 6287D640
+P 6080 6350
+F 0 "Igniter" H 5880 6440 20  0001 C CNN
+F 1 "igniter:sensor" H 5952 6350 20  0000 R CNN
+F 2 "" H 6080 6350 50  0001 C CNN
+F 3 "" H 6080 6350 50  0001 C CNN
+F 4 "Ohm" H 6080 6350 50  0001 C CNN "Unit"
+	1    6080 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5750 6200 5750 6350
+Wire Wire Line
+	5750 6350 5880 6350
 $EndSCHEMATC
