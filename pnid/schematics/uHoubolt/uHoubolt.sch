@@ -760,17 +760,6 @@ F 6 " " H 3728 5969 50  0000 L CNN "Data_Content"
 $EndComp
 Wire Wire Line
 	2530 6780 2530 7080
-$Comp
-L PnID:Flowchart_State Pad_Idle
-U 1 1 628BC744
-P 7290 4160
-F 0 "Pad_Idle" H 7590 4160 50  0000 L CNN
-F 1 "rocket:PadIdle" H 7590 4160 50  0001 L CNN
-F 2 "" H 7290 4160 50  0001 C CNN
-F 3 "" H 7290 4160 50  0001 C CNN
-	1    7290 4160
-	1    0    0    -1  
-$EndComp
 Text Notes 8580 5460 0    50   ~ 0
 PAD_IDLE,\n	AUTO_CHECK,\n	IGNITION_SEQUENCE,\n	HOLD_DOWN,\n	POWERED_ASCENT,\n	UNPOWERED_ASCENT,\n	DEPRESS,\n	ABORT
 $Comp
@@ -848,6 +837,17 @@ F 1 "rocket:Abort" H 7580 6140 50  0000 L CNN
 F 2 "" H 7290 6130 50  0001 C CNN
 F 3 "" H 7290 6130 50  0001 C CNN
 	1    7290 6130
+	1    0    0    -1  
+$EndComp
+$Comp
+L PnID:Flowchart_State U?
+U 1 1 628BC744
+P 7290 4160
+F 0 "U?" H 7518 4206 50  0001 L CNN
+F 1 "rocket:PadIdle" H 7590 4160 50  0000 L CNN
+F 2 "" H 7290 4160 50  0001 C CNN
+F 3 "" H 7290 4160 50  0001 C CNN
+	1    7290 4160
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
