@@ -761,11 +761,11 @@ $EndComp
 Wire Wire Line
 	2530 6780 2530 7080
 $Comp
-L PnID:Flowchart_State U?
+L PnID:Flowchart_State Pad_Idle
 U 1 1 628BC744
 P 7290 4160
-F 0 "U?" H 7518 4206 50  0001 L CNN
-F 1 "rocket:PadIdle" H 7590 4160 50  0000 L CNN
+F 0 "Pad_Idle" H 7590 4160 50  0000 L CNN
+F 1 "rocket:PadIdle" H 7590 4160 50  0001 L CNN
 F 2 "" H 7290 4160 50  0001 C CNN
 F 3 "" H 7290 4160 50  0001 C CNN
 	1    7290 4160
