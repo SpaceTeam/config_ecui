@@ -235,6 +235,9 @@
     "PnID-LED": {
         "eval": "if (inVars['value'] > 0) { outVars['color']='on'; } else { outVars['color']='off'; }"
     },
+    "PnID-Flowchart_State": {
+        "eval": "if (inVars['value'] > 0) { outVars['color']='on'; } else { outVars['color']='off'; } outVars['value']=inVars['this'].replace('rocket-','').replace(/([A-Z])/g, ' $1').replace(/([A-Z])/g, ' $1')"
+    },
     "PnID-Engine_TorchIgniter": {
         "eval": "",
 	    "popup": [
@@ -328,7 +331,7 @@
                 "min": "0",
                 "max": "65535",
                 "label": "Min. Chamber Pressure",
-                "suffix": "raw analog",
+                "suffix": "bar",
                 "variable": "rocket-SetMinimumChamberPressure",
                 "poll_var": "rocket-GetMinimumChamberPressure"
             },
@@ -338,7 +341,7 @@
                 "min": "0",
                 "max": "65535",
                 "label": "Min. Fuel Pressure",
-                "suffix": "raw analog",
+                "suffix": "bar",
                 "variable": "rocket-SetMinimumFuelPressure",
                 "poll_var": "rocket-GetMinimumFuelPressure"
             },
@@ -348,7 +351,7 @@
                 "min": "0",
                 "max": "65535",
                 "label": "Min. Ox Pressure",
-                "suffix": "raw analog",
+                "suffix": "bar",
                 "variable": "rocket-SetMinimumOxPressure",
                 "poll_var": "rocket-GetMinimumOxPressure"
             }

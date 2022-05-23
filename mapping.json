@@ -479,6 +479,104 @@
                     "scale:sensor"
                 ]
             }
+        ],
+        "rocket:sensor": [
+            {
+            	"triggerType": "==",
+            	"triggerValue": 0,
+                "state": "rocket:PadIdle",
+                "value": 1
+            },
+            {
+            	"triggerType": "!=",
+            	"triggerValue": 0,
+                "state": "rocket:PadIdle",
+                "value": 0
+            },
+            {
+            	"triggerType": "==",
+            	"triggerValue": 1,
+                "state": "rocket:AutoCheck",
+                "value": 1
+            },
+            {
+            	"triggerType": "!=",
+            	"triggerValue": 1,
+                "state": "rocket:AutoCheck",
+                "value": 0
+            },
+            {
+            	"triggerType": "==",
+            	"triggerValue": 2,
+                "state": "rocket:IgnitionSequence",
+                "value": 1
+            },
+            {
+            	"triggerType": "!=",
+            	"triggerValue": 2,
+                "state": "rocket:IgnitionSequence",
+                "value": 0
+            },
+            {
+            	"triggerType": "==",
+            	"triggerValue": 3,
+                "state": "rocket:HoldDown",
+                "value": 1
+            },
+            {
+            	"triggerType": "!=",
+            	"triggerValue": 3,
+                "state": "rocket:HoldDown",
+                "value": 0
+            },
+            {
+            	"triggerType": "==",
+            	"triggerValue": 4,
+                "state": "rocket:PoweredAscent",
+                "value": 1
+            },
+            {
+            	"triggerType": "!=",
+            	"triggerValue": 4,
+                "state": "rocket:PoweredAscent",
+                "value": 0
+            },
+            {
+            	"triggerType": "==",
+            	"triggerValue": 5,
+                "state": "rocket:UnpoweredAscent",
+                "value": 1
+            },
+            {
+            	"triggerType": "!=",
+            	"triggerValue": 5,
+                "state": "rocket:UnpoweredAscent",
+                "value": 0
+            },
+            {
+            	"triggerType": "==",
+            	"triggerValue": 6,
+                "state": "rocket:Depress",
+                "value": 1
+            },
+            {
+            	"triggerType": "!=",
+            	"triggerValue": 6,
+                "state": "rocket:Depress",
+                "value": 0
+            },
+            {
+            	"triggerType": "==",
+            	"triggerValue": 7,
+                "state": "rocket:Abort",
+                "value": 1
+            },
+            {
+            	"triggerType": "!=",
+            	"triggerValue": 7,
+                "state": "rocket:Abort",
+                "value": 0
+            }
         ]
     },
     "GUIMapping": [
