@@ -765,7 +765,7 @@ L PnID:Flowchart_State U?
 U 1 1 628BC744
 P 7290 4160
 F 0 "U?" H 7518 4206 50  0001 L CNN
-F 1 "rocket:PadIdle" H 7290 4160 50  0000 C CNN
+F 1 "rocket:PadIdle" H 7590 4160 50  0000 L CNN
 F 2 "" H 7290 4160 50  0001 C CNN
 F 3 "" H 7290 4160 50  0001 C CNN
 	1    7290 4160
@@ -778,51 +778,51 @@ L PnID:Flowchart_State U?
 U 1 1 628C98EC
 P 7290 4440
 F 0 "U?" H 7518 4486 50  0001 L CNN
-F 1 "rocket:AutoCheck" H 7290 4440 50  0000 C CNN
+F 1 "rocket:AutoCheck" H 7590 4440 50  0000 L CNN
 F 2 "" H 7290 4440 50  0001 C CNN
 F 3 "" H 7290 4440 50  0001 C CNN
 	1    7290 4440
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:Flowchart_State U?
 U 1 1 628CB867
 P 7290 4720
 F 0 "U?" H 7518 4766 50  0001 L CNN
-F 1 "rocket:IgnitionSequence" H 7290 4720 50  0000 C CNN
+F 1 "rocket:IgnitionSequence" H 7590 4730 50  0000 L CNN
 F 2 "" H 7290 4720 50  0001 C CNN
 F 3 "" H 7290 4720 50  0001 C CNN
 	1    7290 4720
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:Flowchart_State U?
 U 1 1 628CB86D
 P 7290 5000
 F 0 "U?" H 7518 5046 50  0001 L CNN
-F 1 "rocket:HoldDown" H 7290 5000 50  0000 C CNN
+F 1 "rocket:HoldDown" H 7590 5000 50  0000 L CNN
 F 2 "" H 7290 5000 50  0001 C CNN
 F 3 "" H 7290 5000 50  0001 C CNN
 	1    7290 5000
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:Flowchart_State U?
 U 1 1 628CF7C2
 P 7290 5290
 F 0 "U?" H 7518 5336 50  0001 L CNN
-F 1 "rocket:PoweredAscent" H 7290 5290 50  0000 C CNN
+F 1 "rocket:PoweredAscent" H 7580 5290 50  0000 L CNN
 F 2 "" H 7290 5290 50  0001 C CNN
 F 3 "" H 7290 5290 50  0001 C CNN
 	1    7290 5290
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:Flowchart_State U?
 U 1 1 628CF7C8
 P 7290 5570
 F 0 "U?" H 7518 5616 50  0001 L CNN
-F 1 "rocket:UnpoweredAscent" H 7290 5570 50  0000 C CNN
+F 1 "rocket:UnpoweredAscent" H 7580 5570 50  0000 L CNN
 F 2 "" H 7290 5570 50  0001 C CNN
 F 3 "" H 7290 5570 50  0001 C CNN
 	1    7290 5570
@@ -833,18 +833,18 @@ L PnID:Flowchart_State U?
 U 1 1 628CF7CE
 P 7290 5850
 F 0 "U?" H 7518 5896 50  0001 L CNN
-F 1 "rocket:Depress" H 7290 5850 50  0000 C CNN
+F 1 "rocket:Depress" H 7580 5850 50  0000 L CNN
 F 2 "" H 7290 5850 50  0001 C CNN
 F 3 "" H 7290 5850 50  0001 C CNN
 	1    7290 5850
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:Flowchart_State U?
 U 1 1 628CF7D4
 P 7290 6130
 F 0 "U?" H 7518 6176 50  0001 L CNN
-F 1 "rocket:Abort" H 7290 6130 50  0000 C CNN
+F 1 "rocket:Abort" H 7580 6140 50  0000 L CNN
 F 2 "" H 7290 6130 50  0001 C CNN
 F 3 "" H 7290 6130 50  0001 C CNN
 	1    7290 6130
