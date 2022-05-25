@@ -23,5 +23,9 @@
     "chamberPressure": {
         "low": 7.0,
         "high": 9.0
+    },
+    "igniter": {
+        "active": 500
     }
+    
 }

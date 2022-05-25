@@ -13,7 +13,10 @@
         "fuel_purge_solenoid:SetState": [0],
         "ox_purge_solenoid:SetState": [0],
         "igniter0:SetState": [0], 
-		"igniter1:SetState": [0]
+		"igniter1:SetState": [0],
+		"igniter_fuel_solenoid:SetState": [0],
+        "igniter_ox_solenoid:SetState": [0],
+        "igniter:SetState": [0]
         
     }
 }

@@ -1,0 +1,140 @@
+{
+	"globals":
+	{
+		"endTime": 5,
+		"interpolation":
+		{
+			"igniter_ox_solenoid:SetState": "none",
+			"igniter_fuel_solenoid:SetState": "none",
+			"igniter:SetState": "none"
+		},
+		"interval": 0.01,
+		"ranges":
+		[
+			"chamberPressure"
+		],
+		"startTime": -10
+	},
+	"data":
+	[
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "set all to zero",
+			"actions":
+			[
+				{
+					"timestamp": 0.0,
+					"igniter_ox_solenoid:SetState": [0],
+					"igniter_fuel_solenoid:SetState": [0],
+                    "igniter:SetState": [0],
+					"sensorsNominalRange":
+					{
+						"chamberPressure": [-5, 20]
+					}
+				}
+			]
+		},
+		{
+			"timestamp": -1.0,
+			"name": "open",
+			"desc": "gas",
+			"actions":
+			[
+                {
+                    "timestamp": 0.75,
+					"igniter:SetState": [1]
+                },
+                {
+					"timestamp": 1.0,
+					"igniter_ox_solenoid:SetState": [1],
+					"igniter_fuel_solenoid:SetState": [1]
+				}
+				
+			]
+		},
+		{
+			"timestamp": 0.0,
+			"name": "close",
+			"desc": "nix gas",
+			"actions":
+			[
+                {
+					"timestamp": 0.25,
+					"igniter_ox_solenoid:SetState": [0],
+					"igniter_fuel_solenoid:SetState": [0]
+				},
+				{
+					"timestamp": 0.5,
+					"igniter_ox_solenoid:SetState": [1],
+					"igniter_fuel_solenoid:SetState": [1]
+				}
+			]
+		},
+		{
+			"timestamp": 0.5,
+			"name": "close",
+			"desc": "nix gas",
+			"actions":
+			[
+                {
+					"timestamp": 0.25,
+					"igniter_ox_solenoid:SetState": [0],
+					"igniter_fuel_solenoid:SetState": [0]
+				},
+				{
+					"timestamp": 0.5,
+					"igniter_ox_solenoid:SetState": [1],
+					"igniter_fuel_solenoid:SetState": [1]
+				}
+			]
+		},
+		{
+			"timestamp": 1.0,
+			"name": "close",
+			"desc": "nix gas",
+			"actions":
+			[
+                {
+					"timestamp": 0.25,
+					"igniter_ox_solenoid:SetState": [0],
+					"igniter_fuel_solenoid:SetState": [0]
+				},
+				{
+					"timestamp": 0.5,
+					"igniter_ox_solenoid:SetState": [1],
+					"igniter_fuel_solenoid:SetState": [1]
+				}
+			]
+		},
+		{
+			"timestamp": 1.5,
+			"name": "close",
+			"desc": "nix gas",
+			"actions":
+			[
+                {
+                    "timestamp": 0.0,
+					"igniter:SetState": [0],
+					"igniter_ox_solenoid:SetState": [0],
+					"igniter_fuel_solenoid:SetState": [0]
+                }
+				
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions":
+			[
+				{
+					"timestamp": 0.0,
+					"igniter_ox_solenoid:SetState": [0],
+					"igniter_fuel_solenoid:SetState": [0],
+                    "igniter:SetState": [0]
+				}
+			]
+		}
+	]
+}

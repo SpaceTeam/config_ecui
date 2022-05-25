@@ -47,7 +47,7 @@
                 "offset" : 0
             },
             "4" : {
-                "stringID" : "pneumatic_switch",
+                "stringID" : "igniter",
                 "slope" : 1.0,
                 "offset" : 0
             },
@@ -370,6 +370,10 @@
         "gui:fuel_depressurize_solenoid:sensor" : [{
             "command" : "fuel_depressurize_solenoid:SetState",
             "parameters" : ["gui:fuel_depressurize_solenoid:sensor"]
+        }],
+        "gui:igniter:sensor" : [{
+            "command" : "igniter:SetState",
+            "parameters" : ["gui:igniter:sensor"]
         }],
         "gui:igniter_fuel_solenoid:sensor" : [{
             "command" : "igniter_fuel_solenoid:SetState",
