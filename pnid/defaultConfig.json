@@ -300,6 +300,12 @@
             {
                 "type": "input",
                 "style": "button",
+                "variable": "rocket-AutoCheck",
+                "label": "Auto Check"
+            },
+            {
+                "type": "input",
+                "style": "button",
                 "variable": "rocket-InternalControl",
                 "label": "Internal Control"
             },
@@ -358,7 +364,7 @@
         ]
     },
     "gui-water_pumps": {
-        "eval": "link(inVars['this'], ['pump_cold_water:sensor', 'pump_hot_water:sensor']); if (inVars['value'] > 0) { outVars['color']='on'; outVars['value']='On'; } else { outVars['color']='off'; outVars['value']='Off'; }",
+        "eval": "if (inVars['value'] > 0) { outVars['color']='on'; outVars['value']='On'; } else { outVars['color']='off'; outVars['value']='Off'; }",
 	    "popup": [
             {
                 "type": "display",
