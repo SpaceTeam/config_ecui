@@ -13,6 +13,7 @@
   "CAN" :
   {
     "node_count" : 7,
+    "blocking_timeout": 2048,
     "BUS" :
     {
         "ARBITRATION":

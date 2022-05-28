@@ -390,6 +390,18 @@
         ]
     },
     "EventMapping": {
+    	".*:TargetPosition": [
+    		{
+    			"state": "gui:{}:reference",
+    			"value": ".*:TargetPosition"
+    		}
+    	],
+    	".*:State": [
+    		{
+    			"state": "gui:{}:reference",
+    			"value": ".*:State"
+    		}
+    	],
         "gui:pressure_control:GetHysteresis": [
             {
                 "command": "pressure_control:GetHysteresis",

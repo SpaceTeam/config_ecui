@@ -25,19 +25,19 @@
         "high": 9.0
     },
     "waterHotTemps": {
-        "low": 26.0,
-        "high": 34.0
+        "low": -102.0,
+        "high": -100.0
     },
     "waterColdTemps": {
-        "low": 5.0,
-        "high": 7.0
+        "low": 100.0,
+        "high": 102.0
     },
     "waterMantleTemps": {
         "low": 10.0,
         "high": 20.0
     },
     "waterTemps": {
-        "notconnected": 4000
+        "notconnected": 2000
     },
     "pump": {
         "high": 1
