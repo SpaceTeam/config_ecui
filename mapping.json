@@ -438,6 +438,12 @@
                 "parameters": []
             }
         ],
+        "gui:rocket:AutoCheck": [
+            {
+                "command": "rocket:AutoCheck",
+                "parameters": []
+            }
+        ],
         "gui:rocket:EndOfFlight": [
             {
                 "command": "rocket:EndOfFlight",
@@ -580,13 +586,13 @@
             {
             	"triggerType": "==",
             	"triggerValue": 7,
-                "state": "rocket:Abort",
+                "state": "rocket:AbortFlowChart",
                 "value": 1
             },
             {
             	"triggerType": "!=",
             	"triggerValue": 7,
-                "state": "rocket:Abort",
+                "state": "rocket:AbortFlowChart",
                 "value": 0
             }
         ]

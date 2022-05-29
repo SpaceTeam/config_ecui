@@ -12,6 +12,12 @@ def main():
 		currWaterValves = state_controller.GetStateValue("water_valves:sensor");
 		currWaterPumps = state_controller.GetStateValue("water_pumps:sensor");
 		if (currWaterValves != lastWaterValves or currWaterPumps != lastWaterPumps):
+			if (currWaterValves > 0):
+				state_controller.SetState("water_valves_return:sensor", 1);
+				state_controller.SetState("water_valves_out:sensor", 1);
+			else:
+				state_controller.SetState("water_valves_return:sensor", 0);
+				state_controller.SetState("water_valves_out:sensor", 0);
 			if (currWaterValves > 0 and currWaterPumps > 0):
 				state_controller.SetState("pump_cold_water:sensor", 0);
 				state_controller.SetState("pump_hot_water:sensor", 1);

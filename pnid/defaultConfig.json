@@ -236,7 +236,7 @@
         "eval": "if (inVars['value'] > 0) { outVars['color']='on'; } else { outVars['color']='off'; }"
     },
     "PnID-Flowchart_State": {
-        "eval": "if (inVars['value'] > 0) { outVars['color']='on'; } else { outVars['color']='off'; } outVars['value']=inVars['this'].replace('rocket-','').replace(/([A-Z])/g, ' $1').replace(/([A-Z])/g, ' $1')"
+        "eval": "if (inVars['value'] > 0) { outVars['color']='on'; } else { outVars['color']='off'; } outVars['value']=inVars['this'].replace('rocket-','').replace(/([A-Z])/g, ' $1').replace(/([A-Z])/g, ' $1').replace('  Abort  Flow  Chart', 'Abort');"
     },
     "PnID-Engine_TorchIgniter": {
         "eval": "",
@@ -415,7 +415,7 @@
         ]
     },
     "gui-water_valves": {
-        "eval": "link(inVars['this'], ['water_valves_return:sensor', 'water_valves_out:sensor']); if (inVars['value'] > 0) { outVars['value']='Hot' } else { outVars['value']='Cold' }",
+        "eval": "if (inVars['value'] > 0) { outVars['value']='Hot' } else { outVars['value']='Cold' }",
 	    "popup": [
             {
                 "type": "display",
