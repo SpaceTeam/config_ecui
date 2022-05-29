@@ -14,6 +14,7 @@
   "CAN" :
   {
     "node_count" : 7,
+    "blocking_timeout": 2048,
     "BUS" :
     {
         "ARBITRATION":
@@ -37,7 +38,7 @@
   },
   "LLSERVER" :
   {
-    "sensor_state_sampling_rate": 10.0
+    "sensor_state_sampling_rate": 100.0
   },
   "WEBSERVER":
   {
@@ -61,8 +62,8 @@
   },
   "THRUST":{
     "alpha": 0.785398,
-    "beta": 0.785398,
-    "gamma": 0.785398,
+    "beta": 0.785397,
+    "gamma": 0.785399,
     "d": 0.28,
     "r": 0.14
   }
