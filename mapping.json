@@ -154,41 +154,41 @@
             },
             "stringID": "blmb_vent_backup"
         },
-        "21": {
+        "9": {
             "0": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "fuel_tank_force_2"
+                "stringID": "ox_tank_force_0"
             },
             "1": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "fuel_tank_force_1"
+                "stringID": "ox_tank_force_1"
             },
             "2": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "ox_tank_force_1"
+                "stringID": "ox_tank_force_2"
             },
             "3": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "ox_tank_force_2"
+                "stringID": "ox_tank_force_3"
             },
             "4": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "ox_tank_force_3"
+                "stringID": "fuel_tank_force_0"
             },
             "5": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "ox_tank_force_4"
+                "stringID": "fuel_tank_force_1"
             },
             "6": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "fuel_tank_force_4"
+                "stringID": "fuel_tank_force_2"
             },
             "7": {
                 "offset": 0,
