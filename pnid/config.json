@@ -37,5 +37,17 @@
             "igniter_fuel_solenoid:sensor"
         ],
         "eval": "if (inVars['value'] > thresholds['solenoid']['high']) { link('igniter_fuel_regulator_pressure:sensor', 'igniter_fuel_pressure:sensor'); } else { unlink('igniter_fuel_regulator_pressure:sensor', 'igniter_fuel_pressure:sensor', 0); }"
+    },
+    "fuel_tank": {
+        "states" : [
+            "fuel_tank"
+        ],
+        "eval": "outVars['percent'] = inVars['value'] / thresholds['tank']['fullFuel']"
+    },
+    "ox_tank": {
+        "states" : [
+            "ox_tank"
+        ],
+        "eval": "outVars['percent'] = inVars['value'] / thresholds['tank']['fullOx']"
     }
 }
