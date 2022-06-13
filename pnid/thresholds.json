@@ -26,6 +26,9 @@
     },
     "igniter": {
         "active": 500
+    },
+    "tank": {
+        "fullFuel": 100,
+        "fullOx": 100
     }
-    
 }
