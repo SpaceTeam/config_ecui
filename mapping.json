@@ -152,76 +152,63 @@
                 "slope": 1.0,
                 "stringID": "ox_tank_vent_valve_backup"
             },
-            "stringID": "blmb_vent_backup"
-        },
-        "9": {
-            "0": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "ox_tank_force_0"
-            },
             "1": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "ox_tank_force_1"
+                "stringID": "ox_tank_vent_valve_unused_pressure"
             },
             "2": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "ox_tank_force_2"
+                "stringID": "ox_tank_vent_valve_unused_what"
             },
-            "3": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "ox_tank_force_3"
-            },
-            "4": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "fuel_tank_force_0"
-            },
-            "5": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "fuel_tank_force_1"
-            },
-            "6": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "fuel_tank_force_2"
-            },
-            "7": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "fuel_tank_force_3"
-            },
-            "stringID": "lcb_tanks"
+            "stringID": "blmb_vent_backup"
         },
         "3": {
             "0": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "oxfill_valve"
+                "stringID": "supercharge_valve"
             },
-            "stringID": "blmb_oxfill"
+            "1": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "supercharge_valve_unused_pressure"
+            },
+            "2": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "supercharge_valve_unused_what"
+            },
+            "stringID": "blmb_supercharge"
         },
         "4": {
             "0": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "supercharge_valve"
+                "stringID": "oxfill_valve"
             },
-            "stringID": "blmb_supercharge"
+            "1": {
+                "offset": -16.25,
+                "slope": 0.00119984,
+                "stringID": "fuel_bottom_tank_pressure"
+            },
+            "2": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "oxfill_valve_unused_what"
+            },
+            "stringID": "blmb_oxfill"
         },
         "5": {
             "0": {
                 "offset": -16.25,
                 "slope": 0.00119984,
-                "stringID": "fuel_bottom_tank_pressure"
+                "stringID": "chamber_pressure"
             },
             "1": {
                 "offset": 0,
-                "slope": 0.001525902,
+                "slope": 1.0,
                 "stringID": "fuel_main_valve_pos"
             },
             "10": {
@@ -249,12 +236,12 @@
             "2": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "fuel_main_valve_closing"
+                "stringID": "fuel_main_valve_opening"
             },
             "3": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "fuel_main_valve_opening"
+                "stringID": "fuel_main_valve_closing"
             },
             "4": {
                 "offset": 0,
@@ -263,7 +250,7 @@
             },
             "5": {
                 "offset": 0,
-                "slope": 0.001525902,
+                "slope": 1.0,
                 "stringID": "ox_main_valve_pos"
             },
             "6": {
@@ -290,69 +277,92 @@
         },
         "8": {
             "0": {
-                "offset": -187021.0,
+                "offset": -182749.0,
                 "slope": 1.0,
                 "stringID": "engine_thrust_0"
             },
             "1": {
-                "offset": 124835.0,
+                "offset": 123966.0,
                 "slope": 1.0,
                 "stringID": "engine_thrust_1"
             },
             "2": {
-                "offset": 85289.0,
+                "offset": 79156.0,
                 "slope": 1.0,
                 "stringID": "engine_thrust_2"
             },
             "3": {
-                "offset": -94838.0,
+                "offset": -95658.0,
                 "slope": 1.0,
                 "stringID": "engine_thrust_3"
             },
             "4": {
-                "offset": -37599.0,
+                "offset": -39141.0,
                 "slope": 1.0,
                 "stringID": "engine_thrust_4"
             },
             "5": {
-                "offset": 10201.0,
+                "offset": 1511.0,
                 "slope": 1.0,
                 "stringID": "engine_thrust_5"
             },
             "6": {
-                "offset": -2414.0,
+                "offset": -2883.0,
                 "slope": 1.0,
                 "stringID": "lcb_engine_unused_ch6"
             },
             "7": {
-                "offset": 730.0,
+                "offset": 771.0,
                 "slope": 1.0,
                 "stringID": "lcb_engine_unused_ch7"
             },
             "stringID": "lcb_engine"
+        },
+        "9": {
+            "0": {
+                "offset": -787762.0,
+                "slope": 1.0,
+                "stringID": "ox_tank_force_0"
+            },
+            "1": {
+                "offset": -662175.0,
+                "slope": 1.0,
+                "stringID": "ox_tank_force_1"
+            },
+            "2": {
+                "offset": -1371990.0,
+                "slope": 1.0,
+                "stringID": "ox_tank_force_2"
+            },
+            "3": {
+                "offset": -940816.0,
+                "slope": 1.0,
+                "stringID": "ox_tank_force_3"
+            },
+            "4": {
+                "offset": -312116.0,
+                "slope": 1.0,
+                "stringID": "fuel_tank_force_0"
+            },
+            "5": {
+                "offset": -1794695.0,
+                "slope": 1.0,
+                "stringID": "fuel_tank_force_1"
+            },
+            "6": {
+                "offset": -452668.0,
+                "slope": 1.0,
+                "stringID": "fuel_tank_force_2"
+            },
+            "7": {
+                "offset": -1360714.0,
+                "slope": 1.0,
+                "stringID": "fuel_tank_force_3"
+            },
+            "stringID": "lcb_tanks"
         }
     },
     "EventMapping": {
-        "fuel_depressurize_solenoid:sensor": [
-            {
-                "command": "fuel_pressurize_solenoid:SetState",
-                "parameters": [
-                    1
-                ],
-                "triggerType": ">=",
-                "triggerValue": 1024
-            }
-        ],
-        "fuel_pressurize_solenoid:sensor": [
-            {
-                "command": "fuel_depressurize_solenoid:SetState",
-                "parameters": [
-                    0
-                ],
-                "triggerType": "<=",
-                "triggerValue": 1024
-            }
-        ],
         "gui:fuel_depressurize_solenoid:sensor": [
             {
                 "command": "fuel_depressurize_solenoid:SetState",
@@ -369,34 +379,12 @@
                 ]
             }
         ],
-        "gui:fuel_press_depress": [
-            {
-                "command": "fuel_depressurize_solenoid:SetState",
-                "parameters": [
-                    1
-                ],
-                "triggerType": "==",
-                "triggerValue": 1
-            },
-            {
-                "command": "fuel_pressurize_solenoid:SetState",
-                "parameters": [
-                    0
-                ],
-                "triggerType": "==",
-                "triggerValue": 0
-            }
-        ],
         "gui:fuel_pressurize_solenoid:sensor": [
             {
                 "command": "fuel_pressurize_solenoid:SetState",
                 "parameters": [
                     "gui:fuel_pressurize_solenoid:sensor"
                 ]
-            },
-            {
-                "command": "fuel_pressurize_solenoid:GetState",
-                "parameters": []
             }
         ],
         "gui:fuel_purge_solenoid:sensor": [
@@ -502,6 +490,72 @@
                 "command": "supercharge_valve:SetTargetPosition",
                 "parameters": [
                     "gui:supercharge_valve:sensor"
+                ]
+            }
+        ],
+        "gui:tank_force:Tare": [
+            {
+                "command": "Tare",
+                "parameters": [
+                    9,
+                    0,
+                    "ox_tank_force_0:sensor"
+                ]
+            },
+            {
+                "command": "Tare",
+                "parameters": [
+                    9,
+                    1,
+                    "ox_tank_force_1:sensor"
+                ]
+            },
+            {
+                "command": "Tare",
+                "parameters": [
+                    9,
+                    2,
+                    "ox_tank_force_2:sensor"
+                ]
+            },
+            {
+                "command": "Tare",
+                "parameters": [
+                    9,
+                    3,
+                    "ox_tank_force_3:sensor"
+                ]
+            },
+            {
+                "command": "Tare",
+                "parameters": [
+                    9,
+                    4,
+                    "fuel_tank_force_0:sensor"
+                ]
+            },
+            {
+                "command": "Tare",
+                "parameters": [
+                    9,
+                    5,
+                    "fuel_tank_force_1:sensor"
+                ]
+            },
+            {
+                "command": "Tare",
+                "parameters": [
+                    9,
+                    6,
+                    "fuel_tank_force_2:sensor"
+                ]
+            },
+            {
+                "command": "Tare",
+                "parameters": [
+                    9,
+                    7,
+                    "fuel_tank_force_3:sensor"
                 ]
             }
         ],

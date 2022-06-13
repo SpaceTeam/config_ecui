@@ -13,7 +13,7 @@
   },
   "CAN" :
   {
-    "node_count" : 7,
+    "node_count" : 9,
     "blocking_timeout": 2048,
     "BUS" :
     {

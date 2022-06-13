@@ -7,16 +7,16 @@
         "ox_depressurize_solenoid:SetState": [0],
         "fuel_pressurize_solenoid:SetState": [0],
         "fuel_depressurize_solenoid:SetState": [0],
-        "fuel_main_valve:SetTargetPosition": [0],
-        "ox_main_valve:SetTargetPosition": [0],
-        "supercharge_valve:SetTargetPosition": [65000],
+        "supercharge_valve:SetTargetPosition": [65535],
         "fuel_purge_solenoid:SetState": [0],
         "ox_purge_solenoid:SetState": [0],
-        "igniter0:SetState": [0], 
-		"igniter1:SetState": [0],
 		"igniter_fuel_solenoid:SetState": [0],
         "igniter_ox_solenoid:SetState": [0],
-        "igniter:SetState": [0]
+        "igniter:SetState": [0],
+        "fuel_main_valve_opening:SetState": [0],
+		"fuel_main_valve_closing:SetState": [65535],
+	    "ox_main_valve_opening:SetState": [0],
+	    "ox_main_valve_closing:SetState": [65535]
         
     }
 }
