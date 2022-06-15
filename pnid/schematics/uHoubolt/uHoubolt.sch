@@ -74,7 +74,7 @@ F 3 "" H 3060 10010 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2530 10850 2530 10970
+	2530 10930 2530 10970
 $Comp
 L PnID:Engine_µHoubolt Engine1
 U 1 1 617B7333
@@ -89,14 +89,14 @@ $EndComp
 $Comp
 L PnID:Tank_Slim Tank4
 U 1 1 617B62C7
-P 2530 10350
-F 0 "Tank4" H 2908 10372 20  0001 L CNN
-F 1 "ox_tank" H 2908 10329 20  0001 L CNN
-F 2 "" H 2530 10350 20  0001 C CNN
-F 3 "" H 2530 10350 20  0001 C CNN
-F 4 "%" H 2530 10350 20  0001 C CNN "Unit"
-F 5 "ox" H 2530 10350 50  0001 C CNN "Data_Content"
-	1    2530 10350
+P 2530 10430
+F 0 "Tank4" H 2908 10452 20  0001 L CNN
+F 1 "ox_tank" H 2908 10409 20  0001 L CNN
+F 2 "" H 2530 10430 20  0001 C CNN
+F 3 "" H 2530 10430 20  0001 C CNN
+F 4 "%" H 2530 10430 20  0001 C CNN "Unit"
+F 5 "ox" H 2530 10430 50  0001 C CNN "Data_Content"
+	1    2530 10430
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -126,39 +126,27 @@ F 5 "gui:pressure_control:SetEnabled" H 2810 9690 50  0001 C CNN "Action_Referen
 	1    0    0    -1  
 $EndComp
 $Comp
-L PnID:Sensor_Pressure_Short Sensor_Pressure3
-U 1 1 619A14F2
-P 2330 9690
-F 0 "Sensor_Pressure3" H 2390 9820 20  0001 C CNN
-F 1 "ox_tank_pressure:sensor" H 2820 9690 20  0000 R CNN
-F 2 "" H 2330 9690 20  0001 C CNN
-F 3 "" H 2330 9690 20  0001 C CNN
-F 4 "bar" H 2330 9690 20  0001 C CNN "Unit"
-	1    2330 9690
-	-1   0    0    1   
-$EndComp
-$Comp
 L PnID:Sensor_Temperature_Short Sensor_Temperature3
 U 1 1 6222C77C
-P 2470 10620
-F 0 "Sensor_Temperature3" H 2470 10820 20  0001 C CNN
-F 1 "ox_tank_bottom_temp:sensor" H 1840 10630 20  0000 R CNN
-F 2 "" H 2470 10620 20  0001 C CNN
-F 3 "" H 2470 10620 20  0001 C CNN
-F 4 "˚C" H 2470 10620 20  0001 C CNN "Unit"
-	1    2470 10620
+P 2470 10700
+F 0 "Sensor_Temperature3" H 2470 10900 20  0001 C CNN
+F 1 "ox_tank_bottom_temp:sensor" H 1840 10710 20  0000 R CNN
+F 2 "" H 2470 10700 20  0001 C CNN
+F 3 "" H 2470 10700 20  0001 C CNN
+F 4 "˚C" H 2470 10700 20  0001 C CNN "Unit"
+	1    2470 10700
 	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:Sensor_Temperature_Short Sensor_Temperature2
 U 1 1 6223430D
-P 2470 10370
-F 0 "Sensor_Temperature2" H 2470 10570 20  0001 C CNN
-F 1 "ox_tank_middle_temp:sensor" H 1840 10370 20  0000 R CNN
-F 2 "" H 2470 10370 20  0001 C CNN
-F 3 "" H 2470 10370 20  0001 C CNN
-F 4 "˚C" H 2470 10370 20  0001 C CNN "Unit"
-	1    2470 10370
+P 2470 10430
+F 0 "Sensor_Temperature2" H 2470 10630 20  0001 C CNN
+F 1 "ox_tank_middle_temp:sensor" H 1840 10430 20  0000 R CNN
+F 2 "" H 2470 10430 20  0001 C CNN
+F 3 "" H 2470 10430 20  0001 C CNN
+F 4 "˚C" H 2470 10430 20  0001 C CNN "Unit"
+	1    2470 10430
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -188,7 +176,7 @@ $EndComp
 Wire Wire Line
 	2530 8080 2530 8110
 Wire Wire Line
-	2530 8110 2210 8110
+	2530 8110 2110 8110
 Wire Wire Line
 	2530 6470 2530 6540
 Wire Wire Line
@@ -200,12 +188,12 @@ Wire Wire Line
 	3010 9690 3070 9690
 Connection ~ 2530 9690
 Wire Wire Line
-	2530 9690 2530 9850
+	2530 9690 2530 9830
 Wire Wire Line
 	2530 9170 2530 9220
 Connection ~ 2530 9220
 Wire Wire Line
-	2530 9220 2530 9270
+	2530 9220 2530 9250
 Wire Wire Line
 	2610 9690 2530 9690
 Wire Wire Line
@@ -215,7 +203,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 6470 3890 6470
 Wire Wire Line
-	2210 8110 2210 10970
+	2110 8110 2110 10970
 $Comp
 L PnID:Sensor_Pressure_Short Sensor_Pressure4
 U 1 1 6244FD5E
@@ -262,8 +250,6 @@ $EndComp
 Wire Wire Line
 	2820 10010 2800 10010
 Wire Wire Line
-	2800 10010 2800 10970
-Wire Wire Line
 	2630 11550 2630 11620
 Text Label 2680 11550 0    20   ~ 0
 ox_injector_pressure:sensor
@@ -308,12 +294,10 @@ F 4 "%" H 2360 11230 50  0001 C CNN "Unit"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2210 10970 2360 10970
+	2110 10970 2360 10970
 Wire Wire Line
 	2360 10970 2360 11110
 Connection ~ 2700 10970
-Wire Wire Line
-	2700 10970 2800 10970
 Wire Wire Line
 	2700 10970 2700 11110
 Wire Wire Line
@@ -363,10 +347,10 @@ Wire Wire Line
 	3890 7320 3890 9220
 Wire Wire Line
 	3890 6470 3890 7320
-Text Notes 10010 10270 0    118  ~ 0
+Text Notes 9990 10810 0    118  ~ 0
 Ox Cart
 Wire Notes Line
-	10730 10310 10730 6760
+	10730 10890 10730 6760
 Wire Wire Line
 	9710 8850 9710 9270
 $Comp
@@ -388,13 +372,13 @@ pressurant_pressure:sensor
 $Comp
 L PnID:Sensor_Temperature_Short Sensor_Temperature1
 U 1 1 62230A81
-P 2470 10120
-F 0 "Sensor_Temperature1" H 2470 10320 20  0001 C CNN
-F 1 "ox_tank_top_temp:sensor" H 1840 10120 20  0000 R CNN
-F 2 "" H 2470 10120 20  0001 C CNN
-F 3 "" H 2470 10120 20  0001 C CNN
-F 4 "˚C" H 2470 10120 20  0001 C CNN "Unit"
-	1    2470 10120
+P 2470 10170
+F 0 "Sensor_Temperature1" H 2470 10370 20  0001 C CNN
+F 1 "ox_tank_top_temp:sensor" H 1840 10170 20  0000 R CNN
+F 2 "" H 2470 10170 20  0001 C CNN
+F 3 "" H 2470 10170 20  0001 C CNN
+F 4 "˚C" H 2470 10170 20  0001 C CNN "Unit"
+	1    2470 10170
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -411,16 +395,16 @@ $EndComp
 $Comp
 L PnID:Pressure_Regulator_Small Pressure_Regulator_Small2
 U 1 1 62586E84
-P 2530 9390
-F 0 "Pressure_Regulator_Small2" H 2530 9225 50  0001 C CNN
-F 1 "Pressure_Regulator_Small" V 2523 9267 50  0001 R CNN
-F 2 "" H 2530 9390 50  0001 C CNN
-F 3 "" H 2530 9390 50  0001 C CNN
-	1    2530 9390
+P 2530 9370
+F 0 "Pressure_Regulator_Small2" H 2530 9205 50  0001 C CNN
+F 1 "Pressure_Regulator_Small" V 2523 9247 50  0001 R CNN
+F 2 "" H 2530 9370 50  0001 C CNN
+F 3 "" H 2530 9370 50  0001 C CNN
+	1    2530 9370
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2530 9510 2530 9690
+	2530 9490 2530 9640
 $Comp
 L PnID:Pressure_Regulator_Small Pressure_Regulator_Small1
 U 1 1 62563FC5
@@ -552,9 +536,9 @@ F 3 "" H 5720 9050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Notes Line
-	5020 6760 5020 10310
+	5020 6760 5020 10890
 Wire Notes Line
-	5020 10310 10730 10310
+	5020 10890 10730 10890
 Wire Wire Line
 	6740 9520 6740 10010
 Wire Wire Line
@@ -759,7 +743,7 @@ F 6 " " H 3728 5969 50  0000 L CNN "Data_Content"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2530 6780 2530 7080
+	2530 6780 2530 6970
 Text Notes 8580 5460 0    50   ~ 0
 PAD_IDLE,\n	AUTO_CHECK,\n	IGNITION_SEQUENCE,\n	HOLD_DOWN,\n	POWERED_ASCENT,\n	UNPOWERED_ASCENT,\n	DEPRESS,\n	ABORT
 $Comp
@@ -850,4 +834,99 @@ F 3 "" H 7290 4160 50  0001 C CNN
 	1    7290 4160
 	1    0    0    -1  
 $EndComp
+$Comp
+L PnID:Valve_OverPressure Valve_OverPressure?
+U 1 1 62AA66F0
+P 6740 10520
+F 0 "Valve_OverPressure?" V 6740 10748 20  0001 L CNN
+F 1 "Valve_OverPressure" H 6740 10300 20  0001 C CNN
+F 2 "" H 6740 10520 20  0001 C CNN
+F 3 "" H 6740 10520 20  0001 C CNN
+F 4 " " H 6740 10520 50  0001 C CNN "Action_Reference"
+	1    6740 10520
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6740 10320 6740 10010
+$Comp
+L PnID:Vent Vent?
+U 1 1 62ABE531
+P 6740 11020
+F 0 "Vent?" V 6582 10892 50  0001 R CNN
+F 1 "Vent" H 6840 10970 50  0001 C CNN
+F 2 "" H 6740 11020 50  0001 C CNN
+F 3 "" H 6740 11020 50  0001 C CNN
+	1    6740 11020
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 10010 2800 10200
+Wire Wire Line
+	2800 10200 2920 10200
+Wire Wire Line
+	2920 10200 2920 10310
+$Comp
+L PnID:CheckValve CheckValve?
+U 1 1 62AD0172
+P 2920 10410
+F 0 "CheckValve?" V 2920 10538 20  0001 L CNN
+F 1 "CheckValve" H 2920 10240 20  0001 C CNN
+F 2 "" H 2920 10410 20  0001 C CNN
+F 3 "" H 2920 10410 20  0001 C CNN
+	1    2920 10410
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2920 10510 2920 10970
+Wire Wire Line
+	2700 10970 2920 10970
+Connection ~ 2530 9640
+Wire Wire Line
+	2530 9640 2530 9690
+$Comp
+L PnID:Sensor_Pressure_Short Sensor_Pressure3
+U 1 1 619A14F2
+P 2330 9640
+F 0 "Sensor_Pressure3" H 2390 9770 20  0001 C CNN
+F 1 "ox_tank_pressure:sensor" H 2820 9640 20  0000 R CNN
+F 2 "" H 2330 9640 20  0001 C CNN
+F 3 "" H 2330 9640 20  0001 C CNN
+F 4 "bar" H 2330 9640 20  0001 C CNN "Unit"
+	1    2330 9640
+	-1   0    0    1   
+$EndComp
+$Comp
+L PnID:Valve_OverPressure_Small Valve_Overpressure_Small?
+U 1 1 62AF9B9E
+P 2330 9830
+F 0 "Valve_Overpressure_Small?" H 2330 9700 20  0001 C CNN
+F 1 "Valve_OverPressure_Small" H 2330 9685 20  0001 C CNN
+F 2 "" H 2330 9830 50  0001 C CNN
+F 3 "" H 2330 9830 50  0001 C CNN
+F 4 "" H 2330 9830 50  0001 C CNN "Unit"
+	1    2330 9830
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2450 9830 2530 9830
+Connection ~ 2530 9830
+Wire Wire Line
+	2530 9830 2530 9930
+$Comp
+L PnID:Valve_OverPressure_Small Valve_Overpressure_Small?
+U 1 1 62B08C9B
+P 2770 6970
+F 0 "Valve_Overpressure_Small?" H 2770 6840 20  0001 C CNN
+F 1 "Valve_OverPressure_Small" H 2770 6825 20  0001 C CNN
+F 2 "" H 2770 6970 50  0001 C CNN
+F 3 "" H 2770 6970 50  0001 C CNN
+F 4 "" H 2770 6970 50  0001 C CNN "Unit"
+	1    2770 6970
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 6970 2530 6970
+Connection ~ 2530 6970
+Wire Wire Line
+	2530 6970 2530 7080
 $EndSCHEMATC
