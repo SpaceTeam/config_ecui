@@ -299,6 +299,26 @@
             },
             {
                 "type": "input",
+                "style": "buttonDanger",
+                "variable": "rocket-Abort",
+                "label": "ABORT"
+            },
+            {
+                "type": "display",
+                "style": "separator"
+            },
+            {
+                "type": "input",
+                "style": "button",
+                "variable": "rocket-ReleaseHolddown",
+                "label": "Release Holddown"
+            },
+            {
+                "type": "display",
+                "style": "separator"
+            },
+            {
+                "type": "input",
                 "style": "button",
                 "variable": "rocket-AutoCheck",
                 "label": "Auto Check"
@@ -308,12 +328,6 @@
                 "style": "button",
                 "variable": "rocket-InternalControl",
                 "label": "Internal Control"
-            },
-            {
-                "type": "input",
-                "style": "button",
-                "variable": "rocket-Abort",
-                "label": "ABORT"
             },
             {
                 "type": "input",
@@ -360,6 +374,22 @@
                 "suffix": "bar",
                 "variable": "rocket-SetMinimumOxPressure",
                 "poll_var": "rocket-GetMinimumOxPressure"
+            },
+            {
+                "type": "input",
+                "style": "button",
+                "collapsible": true,
+                "collapsibleLabel": "Reset Settings",
+                "variable": "rocket-RequestResetSettings",
+                "label": "Request Reset Settings"
+            },
+            {
+                "type": "input",
+                "style": "button",
+                "collapsible": true,
+                "collapsibleLabel": "Reset State Machine",
+                "variable": "rocket-ResetStateMachine",
+                "label": "Reset State Machine"
             }
         ]
     },
