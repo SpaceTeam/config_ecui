@@ -147,120 +147,158 @@
                 "slope": 1.0,
                 "stringID": "ox_main_valve"
             },
-            "stringID": "ecu_ecu"
+            "stringID": "ecu"
         },
         "7": {
             "0": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "cell_voltage_control"
+                "stringID": "pmu_5V_voltage"
             },
             "1": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "cell1_voltage"
+                "stringID": "pmu_5V_high_load_voltage"
             },
             "10": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "unused_pmu_servo2"
+                "stringID": "pmu_barometer"
             },
             "11": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "unused_pmu_servo3"
+                "stringID": "pmu_accel_x"
             },
             "12": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "camera1"
+                "stringID": "pmu_accel_y"
             },
             "13": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "unused_pmu_pyro0_cont"
+                "stringID": "pmu_accel_z"
             },
             "14": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "camera2"
+                "stringID": "pmu_gyro_x"
             },
             "15": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "unused_pmu_pyro1_cont"
+                "stringID": "pmu_gyro_y"
             },
             "16": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "unused_pmu_pyro"
-            },
-            "17": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_pmu_pyro2_cont"
-            },
-            "18": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_pmu_solenoid1"
-            },
-            "19": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_pmu_solenoid2"
+                "stringID": "pmu_gyro_z"
             },
             "2": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "cell2_voltage"
-            },
-            "20": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_pmu_pressure_control"
-            },
-            "21": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "pmu_imu"
+                "stringID": "pmu_12V_voltage"
             },
             "3": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "charging_ok"
+                "stringID": "umbilical_voltage_ok"
             },
             "4": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "input_voltage_ok"
+                "stringID": "charging_ok"
             },
             "5": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "supply_current_sense"
+                "stringID": "camera0"
             },
             "6": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "battery_temp"
+                "stringID": "camera1"
             },
             "7": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "unused_pmu_temp1"
+                "stringID": "unused_pmu_out2"
             },
             "8": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "unused_pmu_temp2"
+                "stringID": "unused_pmu_out3"
             },
             "9": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "unused_pmu_servo1"
+                "stringID": "payload_interface"
             },
-            "stringID": "ecu_pmu"
+            "stringID": "pmu"
+        },
+        "8": {
+            "0": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "rcu_5V_voltage"
+            },
+            "1": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "rcu_12V_voltage"
+            },
+            "10": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "gps_latitude"
+            },
+            "11": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "gps_altitude"
+            },
+            "2": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "rcu_barometer"
+            },
+            "3": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "rcu_accel_x"
+            },
+            "4": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "rcu_accel_y"
+            },
+            "5": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "rcu_accel_z"
+            },
+            "6": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "rcu_gyro_x"
+            },
+            "7": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "rcu_gyro_y"
+            },
+            "8": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "rcu_gyro_z"
+            },
+            "9": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "gps_longitude"
+            },
+            "stringID": "rcu"
         },
         "9": {
             "0": {
@@ -368,7 +406,271 @@
                 "slope": 1.0,
                 "stringID": "ox_tanking_valve"
             },
-            "stringID": "ecu_tankwagerl"
+            "stringID": "tanking_cart"
+        },
+        "16": {
+            "0": {
+                "offset": 0,
+                "slope": 0.00367,
+                "stringID": "lora:fuel_tank_pressure"
+            },
+            "1": {
+                "offset": 0,
+                "slope": 0.003735,
+                "stringID": "lora:ox_tank_pressure"
+            },
+            "10": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:unused_ecu_servo"
+            },
+            "11": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:fuel_main_valve"
+            },
+            "12": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:igniter0"
+            },
+            "13": {
+                "offset": 1.0,
+                "slope": -1.0,
+                "stringID": "lora:igniter0_cont"
+            },
+            "14": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:unused_ecu_pyro"
+            },
+            "15": {
+                "offset": 1.0,
+                "slope": -1.0,
+                "stringID": "lora:unused_ecu_pyro_cont"
+            },
+            "16": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:igniter1"
+            },
+            "17": {
+                "offset": 1.0,
+                "slope": -1.0,
+                "stringID": "lora:igniter1_cont"
+            },
+            "18": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:supercharge_valve"
+            },
+            "19": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:unused_ecu_solenoid"
+            },
+            "2": {
+                "offset": 0,
+                "slope": 0.0037,
+                "stringID": "lora:chamber_pressure"
+            },
+            "20": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:pressure_control"
+            },
+            "22": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:rocket"
+            },
+            "3": {
+                "offset": -16.244,
+                "slope": 0.00119984,
+                "stringID": "lora:fuel_injector_pressure"
+            },
+            "4": {
+                "offset": -16.244,
+                "slope": 0.00119984,
+                "stringID": "lora:ox_injector_pressure"
+            },
+            "5": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:unused_ecu_pressure"
+            },
+            "6": {
+                "offset": -248.8657,
+                "slope": 0.043258,
+                "stringID": "lora:ox_tank_bottom_temp"
+            },
+            "7": {
+                "offset": -248.8657,
+                "slope": 0.043258,
+                "stringID": "lora:ox_tank_middle_temp"
+            },
+            "8": {
+                "offset": -248.8657,
+                "slope": 0.043258,
+                "stringID": "lora:ox_tank_top_temp"
+            },
+            "9": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:ox_main_valve"
+            },
+            "stringID": "lora:ecu"
+        },
+        "17": {
+            "0": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:pmu_5V_voltage"
+            },
+            "1": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:pmu_5V_high_load_voltage"
+            },
+            "10": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:pmu_barometer"
+            },
+            "11": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:pmu_accel_x"
+            },
+            "12": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:pmu_accel_y"
+            },
+            "13": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:pmu_accel_z"
+            },
+            "14": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:pmu_gyro_x"
+            },
+            "15": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:pmu_gyro_y"
+            },
+            "16": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:pmu_gyro_z"
+            },
+            "2": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:pmu_12V_voltage"
+            },
+            "3": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:umbilical_voltage_ok"
+            },
+            "4": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:charging_ok"
+            },
+            "5": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:camera0"
+            },
+            "6": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:camera1"
+            },
+            "7": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:unused_pmu_out2"
+            },
+            "8": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:unused_pmu_out3"
+            },
+            "9": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:payload_interface"
+            },
+            "stringID": "lora:pmu"
+        },
+        "18": {
+            "0": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:rcu_5V_voltage"
+            },
+            "1": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:rcu_12V_voltage"
+            },
+            "10": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:gps_latitude"
+            },
+            "11": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:gps_altitude"
+            },
+            "2": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:rcu_barometer"
+            },
+            "3": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:rcu_accel_x"
+            },
+            "4": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:rcu_accel_y"
+            },
+            "5": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:rcu_accel_z"
+            },
+            "6": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:rcu_gyro_x"
+            },
+            "7": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:rcu_gyro_y"
+            },
+            "8": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:rcu_gyro_z"
+            },
+            "9": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:gps_longitude"
+            },
+            "stringID": "lora:rcu"
         }
     },
     "DefaultEventMapping": {
@@ -390,18 +692,18 @@
         ]
     },
     "EventMapping": {
-    	".*:TargetPosition": [
-    		{
-    			"state": "gui:{}:reference",
-    			"value": ".*:TargetPosition"
-    		}
-    	],
-    	".*:State": [
-    		{
-    			"state": "gui:{}:reference",
-    			"value": ".*:State"
-    		}
-    	],
+        ".*:State": [
+            {
+                "state": "gui:{}:reference",
+                "value": ".*:State"
+            }
+        ],
+        ".*:TargetPosition": [
+            {
+                "state": "gui:{}:reference",
+                "value": ".*:TargetPosition"
+            }
+        ],
         "gui:pressure_control:GetHysteresis": [
             {
                 "command": "pressure_control:GetHysteresis",
@@ -500,99 +802,99 @@
         ],
         "rocket:sensor": [
             {
-            	"triggerType": "==",
-            	"triggerValue": 0,
                 "state": "rocket:PadIdle",
+                "triggerType": "==",
+                "triggerValue": 0,
                 "value": 1
             },
             {
-            	"triggerType": "!=",
-            	"triggerValue": 0,
                 "state": "rocket:PadIdle",
+                "triggerType": "!=",
+                "triggerValue": 0,
                 "value": 0
             },
             {
-            	"triggerType": "==",
-            	"triggerValue": 1,
                 "state": "rocket:AutoCheck",
+                "triggerType": "==",
+                "triggerValue": 1,
                 "value": 1
             },
             {
-            	"triggerType": "!=",
-            	"triggerValue": 1,
                 "state": "rocket:AutoCheck",
+                "triggerType": "!=",
+                "triggerValue": 1,
                 "value": 0
             },
             {
-            	"triggerType": "==",
-            	"triggerValue": 2,
                 "state": "rocket:IgnitionSequence",
+                "triggerType": "==",
+                "triggerValue": 2,
                 "value": 1
             },
             {
-            	"triggerType": "!=",
-            	"triggerValue": 2,
                 "state": "rocket:IgnitionSequence",
+                "triggerType": "!=",
+                "triggerValue": 2,
                 "value": 0
             },
             {
-            	"triggerType": "==",
-            	"triggerValue": 3,
                 "state": "rocket:HoldDown",
+                "triggerType": "==",
+                "triggerValue": 3,
                 "value": 1
             },
             {
-            	"triggerType": "!=",
-            	"triggerValue": 3,
                 "state": "rocket:HoldDown",
+                "triggerType": "!=",
+                "triggerValue": 3,
                 "value": 0
             },
             {
-            	"triggerType": "==",
-            	"triggerValue": 4,
                 "state": "rocket:PoweredAscent",
+                "triggerType": "==",
+                "triggerValue": 4,
                 "value": 1
             },
             {
-            	"triggerType": "!=",
-            	"triggerValue": 4,
                 "state": "rocket:PoweredAscent",
+                "triggerType": "!=",
+                "triggerValue": 4,
                 "value": 0
             },
             {
-            	"triggerType": "==",
-            	"triggerValue": 5,
                 "state": "rocket:UnpoweredAscent",
+                "triggerType": "==",
+                "triggerValue": 5,
                 "value": 1
             },
             {
-            	"triggerType": "!=",
-            	"triggerValue": 5,
                 "state": "rocket:UnpoweredAscent",
+                "triggerType": "!=",
+                "triggerValue": 5,
                 "value": 0
             },
             {
-            	"triggerType": "==",
-            	"triggerValue": 6,
                 "state": "rocket:Depress",
+                "triggerType": "==",
+                "triggerValue": 6,
                 "value": 1
             },
             {
-            	"triggerType": "!=",
-            	"triggerValue": 6,
                 "state": "rocket:Depress",
+                "triggerType": "!=",
+                "triggerValue": 6,
                 "value": 0
             },
             {
-            	"triggerType": "==",
-            	"triggerValue": 7,
                 "state": "rocket:AbortFlowChart",
+                "triggerType": "==",
+                "triggerValue": 7,
                 "value": 1
             },
             {
-            	"triggerType": "!=",
-            	"triggerValue": 7,
                 "state": "rocket:AbortFlowChart",
+                "triggerType": "!=",
+                "triggerValue": 7,
                 "value": 0
             }
         ]
