@@ -301,7 +301,8 @@
                 "type": "input",
                 "style": "buttonDanger",
                 "variable": "rocket-Abort",
-                "label": "ABORT"
+                "label": "ABORT",
+                "action": "abortSequence('abort from user', 1000)"
             },
             {
                 "type": "display",
@@ -327,13 +328,15 @@
                 "type": "input",
                 "style": "button",
                 "variable": "rocket-InternalControl",
-                "label": "Internal Control"
+                "label": "Internal Control",
+                "action": "startTimer(-10, 3600)"
             },
             {
                 "type": "input",
                 "style": "button",
                 "variable": "rocket-EndOfFlight",
-                "label": "End of Flight"
+                "label": "End of Flight",
+                "action": "timerStop(timeMillis/1000)"
             },
             {
                 "type": "input",
