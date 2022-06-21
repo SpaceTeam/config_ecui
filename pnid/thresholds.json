@@ -24,6 +24,12 @@
         "low": 7.0,
         "high": 9.0
     },
+    "battery": {
+    	"critical": 10.5,
+        "low": 11,
+        "high": 12,
+        "notconnected": 0
+    },
     "waterHotTemps": {
         "low": -102.0,
         "high": -100.0
