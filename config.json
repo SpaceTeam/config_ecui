@@ -13,7 +13,7 @@
     "use_lora": true,
     "LORA": {
         "ip": "192.168.1.7",
-        "port": 5002,
+        "port": 5001,
         "nodeIDsRef": [6, 7, 8],
         "nodeIDs": [16, 17, 18],
         "canMsgSizes": [51, 35, 29]
