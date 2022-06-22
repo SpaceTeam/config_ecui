@@ -230,6 +230,18 @@
             "autoID": false
         }
     },
+    "ox_tanking_valve": {
+        "states": [
+            "ox_tanking_valve:sensor"
+        ],
+        "eval": "if (outVars['color'] == 'open') { link('ox_bottle_pressure:sensor', 'ox_tanking_wire') } else if (outVars['color'] == 'closed') { unlink('ox_bottle_pressure:sensor', 'ox_tanking_wire') }"
+    },
+    "ox_tanking_wires": {
+        "states": [
+            "ox_tanking_wire:wire"
+        ],
+        "eval": "link(inVars['this'], ['ox_tanking_quickconnect:sensor', 'ox_tanking_checkvalve:sensor'])"
+    },
     "water_wires": {
         "states": [
             "water_mantle_in:wire",

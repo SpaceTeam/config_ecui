@@ -16,14 +16,14 @@ $EndDescr
 $Comp
 L PnID:Tank_Slim Tank1
 U 1 1 617B0832
-P 2530 5880
-F 0 "Tank1" H 2908 5902 20  0001 L CNN
-F 1 "nitrogen_fuel_tank" H 2908 5859 20  0001 L CNN
-F 2 "" H 2530 5880 20  0001 C CNN
-F 3 "" H 2530 5880 20  0001 C CNN
-F 4 "%" H 2530 5880 20  0001 C CNN "Unit"
-F 5 "high" H 2530 5880 50  0001 C CNN "Data_Content"
-	1    2530 5880
+P 2530 5895
+F 0 "Tank1" H 2908 5917 20  0001 L CNN
+F 1 "nitrogen_fuel_tank" H 2908 5874 20  0001 L CNN
+F 2 "" H 2530 5895 20  0001 C CNN
+F 3 "" H 2530 5895 20  0001 C CNN
+F 4 "%" H 2530 5895 20  0001 C CNN "Unit"
+F 5 "high" H 2530 5895 50  0001 C CNN "Data_Content"
+	1    2530 5895
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -44,7 +44,7 @@ L PnID:Sensor_Pressure_Short Sensor_Pressure2
 U 1 1 6199D780
 P 2330 6970
 F 0 "Sensor_Pressure2" H 2390 7100 20  0001 C CNN
-F 1 "fuel_tank_pressure:sensor" H 2770 6970 20  0000 R CNN
+F 1 "fuel_tank_pressure:sensor" H 2760 6975 20  0000 R CNN
 F 2 "" H 2330 6970 20  0001 C CNN
 F 3 "" H 2330 6970 20  0001 C CNN
 F 4 "bar" H 2330 6970 20  0001 C CNN "Unit"
@@ -67,7 +67,7 @@ L PnID:QuickConnect_Short QuickConnect3
 U 1 1 61814E72
 P 3060 10010
 F 0 "QuickConnect3" H 3060 10275 50  0001 C CNN
-F 1 "QuickConnect" H 3060 10184 50  0001 C CNN
+F 1 "ox_tanking_quickconnect:sensor" H 3060 10184 50  0001 C CNN
 F 2 "" H 3060 10010 50  0001 C CNN
 F 3 "" H 3060 10010 50  0001 C CNN
 	1    3060 10010
@@ -102,27 +102,27 @@ $EndComp
 $Comp
 L PnID:Tank_Slim Tank3
 U 1 1 617B4D81
-P 2530 8670
-F 0 "Tank3" H 2908 8692 20  0001 L CNN
-F 1 "nitrogen_ox_tank" H 2908 8649 20  0001 L CNN
-F 2 "" H 2530 8670 20  0001 C CNN
-F 3 "" H 2530 8670 20  0001 C CNN
-F 4 "%" H 2530 8670 20  0001 C CNN "Unit"
-F 5 "high" H 2530 8670 50  0001 C CNN "Data_Content"
-	1    2530 8670
+P 2530 8690
+F 0 "Tank3" H 2908 8712 20  0001 L CNN
+F 1 "nitrogen_ox_tank" H 2908 8669 20  0001 L CNN
+F 2 "" H 2530 8690 20  0001 C CNN
+F 3 "" H 2530 8690 20  0001 C CNN
+F 4 "%" H 2530 8690 20  0001 C CNN "Unit"
+F 5 "high" H 2530 8690 50  0001 C CNN "Data_Content"
+	1    2530 8690
 	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:Valve_Solenoid_NC Valve_Solenoid1
 U 1 1 6219E44E
-P 2810 9690
-F 0 "Valve_Solenoid1" H 2810 10133 20  0001 C CNN
-F 1 "supercharge_valve:sensor" H 3090 9840 20  0000 L CNN
-F 2 "" H 2810 9690 20  0001 C CNN
-F 3 "" H 2810 9690 20  0001 C CNN
-F 4 "%" H 2810 9690 20  0001 C CNN "Unit"
-F 5 "gui:pressure_control:SetEnabled" H 2810 9690 50  0001 C CNN "Action_Reference"
-	1    2810 9690
+P 2795 9690
+F 0 "Valve_Solenoid1" H 2795 10133 20  0001 C CNN
+F 1 "supercharge_valve:sensor" H 3100 9935 20  0000 L CNN
+F 2 "" H 2795 9690 20  0001 C CNN
+F 3 "" H 2795 9690 20  0001 C CNN
+F 4 "%" H 2795 9690 20  0001 C CNN "Unit"
+F 5 "gui:pressure_control:SetEnabled" H 2795 9690 50  0001 C CNN "Action_Reference"
+	1    2795 9690
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -130,7 +130,7 @@ L PnID:Sensor_Temperature_Short Sensor_Temperature3
 U 1 1 6222C77C
 P 2470 10700
 F 0 "Sensor_Temperature3" H 2470 10900 20  0001 C CNN
-F 1 "ox_tank_bottom_temp:sensor" H 1840 10710 20  0000 R CNN
+F 1 "ox_tank_bottom_temp:sensor" H 1900 10700 20  0000 R CNN
 F 2 "" H 2470 10700 20  0001 C CNN
 F 3 "" H 2470 10700 20  0001 C CNN
 F 4 "˚C" H 2470 10700 20  0001 C CNN "Unit"
@@ -142,7 +142,7 @@ L PnID:Sensor_Temperature_Short Sensor_Temperature2
 U 1 1 6223430D
 P 2470 10430
 F 0 "Sensor_Temperature2" H 2470 10630 20  0001 C CNN
-F 1 "ox_tank_middle_temp:sensor" H 1840 10430 20  0000 R CNN
+F 1 "ox_tank_middle_temp:sensor" H 1900 10430 20  0000 R CNN
 F 2 "" H 2470 10430 20  0001 C CNN
 F 3 "" H 2470 10430 20  0001 C CNN
 F 4 "˚C" H 2470 10430 20  0001 C CNN "Unit"
@@ -165,37 +165,37 @@ $EndComp
 $Comp
 L PnID:Vent Vent1
 U 1 1 622F6247
-P 3370 9690
-F 0 "Vent1" V 3212 9562 50  0001 R CNN
-F 1 "Vent" H 3470 9640 50  0001 C CNN
-F 2 "" H 3370 9690 50  0001 C CNN
-F 3 "" H 3370 9690 50  0001 C CNN
-	1    3370 9690
+P 3360 9690
+F 0 "Vent1" V 3202 9562 50  0001 R CNN
+F 1 "Vent" H 3460 9640 50  0001 C CNN
+F 2 "" H 3360 9690 50  0001 C CNN
+F 3 "" H 3360 9690 50  0001 C CNN
+	1    3360 9690
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2530 8080 2530 8110
+	2530 8080 2530 8135
 Wire Wire Line
-	2530 8110 2110 8110
+	2530 8135 2110 8135
 Wire Wire Line
 	2530 6470 2530 6540
 Wire Wire Line
-	2530 6380 2530 6470
+	2530 6395 2530 6470
 Connection ~ 2530 6470
 Wire Wire Line
 	2530 6470 2820 6470
 Wire Wire Line
-	3010 9690 3070 9690
+	2995 9690 3060 9690
 Connection ~ 2530 9690
 Wire Wire Line
 	2530 9690 2530 9830
 Wire Wire Line
-	2530 9170 2530 9220
+	2530 9190 2530 9220
 Connection ~ 2530 9220
 Wire Wire Line
 	2530 9220 2530 9250
 Wire Wire Line
-	2610 9690 2530 9690
+	2595 9690 2530 9690
 Wire Wire Line
 	2820 9220 2530 9220
 Wire Wire Line
@@ -203,13 +203,13 @@ Wire Wire Line
 Wire Wire Line
 	3300 6470 3890 6470
 Wire Wire Line
-	2110 8110 2110 10970
+	2110 8135 2110 10970
 $Comp
 L PnID:Sensor_Pressure_Short Sensor_Pressure4
 U 1 1 6244FD5E
 P 2880 11550
 F 0 "Sensor_Pressure4" H 2940 11680 20  0001 C CNN
-F 1 "ox_injector_pressure:sensor" H 3380 11550 20  0000 C CNN
+F 1 "ox_injector_pressure:sensor" H 3100 11550 20  0000 L CNN
 F 2 "" H 2880 11550 20  0001 C CNN
 F 3 "" H 2880 11550 20  0001 C CNN
 F 4 "bar" H 2880 11550 20  0001 C CNN "Unit"
@@ -227,7 +227,7 @@ L PnID:Sensor_Pressure_Short Sensor_Pressure5
 U 1 1 62468557
 P 2880 11820
 F 0 "Sensor_Pressure5" H 2940 11950 20  0001 C CNN
-F 1 "chamber_pressure:sensor" H 3310 11820 20  0000 C CNN
+F 1 "chamber_pressure:sensor" H 3100 11820 20  0000 L CNN
 F 2 "" H 2880 11820 20  0001 C CNN
 F 3 "" H 2880 11820 20  0001 C CNN
 F 4 "bar" H 2880 11820 20  0001 C CNN "Unit"
@@ -239,7 +239,7 @@ L PnID:Sensor_Pressure_Short Sensor_Pressure1
 U 1 1 62459D98
 P 2170 11550
 F 0 "Sensor_Pressure1" H 2230 11680 20  0001 C CNN
-F 1 "fuel_injector_pressure:sensor" H 2650 11550 20  0000 C CNN
+F 1 "fuel_injector_pressure:sensor" H 2390 11550 20  0000 R CNN
 F 2 "" H 2170 11550 20  0001 C CNN
 F 3 "" H 2170 11550 20  0001 C CNN
 F 4 "bar" H 2170 11550 20  0001 C CNN "Unit"
@@ -253,30 +253,30 @@ Text Label 2680 11550 0    20   ~ 0
 ox_injector_pressure:sensor
 Text Label 2530 8080 0    20   ~ 0
 fuel_tank
-Text Label 2530 10850 0    20   ~ 0
+Text Label 2530 10930 0    20   ~ 0
 ox_tank
 $Comp
 L PnID:igniter igniter0
 U 1 1 622FAD95
-P 2240 12030
-F 0 "igniter0" H 2298 12223 20  0001 C CNN
-F 1 "igniter0:sensor" H 1900 12030 20  0000 C CNN
-F 2 "" H 2240 12030 50  0001 C CNN
-F 3 "" H 2240 12030 50  0001 C CNN
-F 4 "mA" H 2240 12030 50  0001 C CNN "Unit"
-	1    2240 12030
+P 2240 12055
+F 0 "igniter0" H 2298 12248 20  0001 C CNN
+F 1 "igniter0:sensor" H 2025 12055 20  0000 R CNN
+F 2 "" H 2240 12055 50  0001 C CNN
+F 3 "" H 2240 12055 50  0001 C CNN
+F 4 "mA" H 2240 12055 50  0001 C CNN "Unit"
+	1    2240 12055
 	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:igniter igniter1
 U 1 1 622F99D3
-P 2820 12030
-F 0 "igniter1" H 2692 12008 20  0001 R CNN
-F 1 "igniter1:sensor" H 2470 12030 20  0000 C CNN
-F 2 "" H 2820 12030 50  0001 C CNN
-F 3 "" H 2820 12030 50  0001 C CNN
-F 4 "mA" H 2820 12030 50  0001 C CNN "Unit"
-	1    2820 12030
+P 2820 12055
+F 0 "igniter1" H 2692 12033 20  0001 R CNN
+F 1 "igniter1:sensor" H 2590 12055 20  0000 L CNN
+F 2 "" H 2820 12055 50  0001 C CNN
+F 3 "" H 2820 12055 50  0001 C CNN
+F 4 "mA" H 2820 12055 50  0001 C CNN "Unit"
+	1    2820 12055
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -284,7 +284,7 @@ L PnID:Valve_Servo_Small FuelMain1
 U 1 1 6230611A
 P 2360 11230
 F 0 "FuelMain1" H 2360 11100 20  0001 C CNN
-F 1 "fuel_main_valve:sensor" V 2360 11900 20  0000 C CNN
+F 1 "fuel_main_valve:sensor" V 2360 11640 20  0000 R CNN
 F 2 "" H 2360 11230 50  0001 C CNN
 F 3 "" H 2360 11230 50  0001 C CNN
 F 4 "%" H 2360 11230 50  0001 C CNN "Unit"
@@ -302,7 +302,7 @@ Wire Wire Line
 	2530 10970 2700 10970
 Wire Wire Line
 	2700 11350 2700 11490
-Text Label 2380 11550 0    20   ~ 0
+Text Label 2370 11550 0    20   ~ 0
 fuel_injector_pressure:sensor
 Wire Wire Line
 	2360 11350 2360 11490
@@ -322,7 +322,7 @@ L PnID:Valve_Servo_Small OxMain1
 U 1 1 62311E63
 P 2700 11230
 F 0 "OxMain1" H 2700 11100 20  0001 C CNN
-F 1 "ox_main_valve:sensor" V 2700 11900 20  0000 C CNN
+F 1 "ox_main_valve:sensor" V 2700 11630 20  0000 L CNN
 F 2 "" H 2700 11230 50  0001 C CNN
 F 3 "" H 2700 11230 50  0001 C CNN
 F 4 "%" H 2700 11230 50  0001 C CNN "Unit"
@@ -332,12 +332,12 @@ $EndComp
 $Comp
 L PnID:LED igniter1_cont1
 U 1 1 6250BB26
-P 2820 12150
-F 0 "igniter1_cont1" H 2742 12133 20  0001 R CNN
-F 1 "igniter1_cont:sensor" H 2820 12280 20  0000 C CNN
-F 2 "" H 2820 12150 20  0001 C CNN
-F 3 "" H 2820 12150 20  0001 C CNN
-	1    2820 12150
+P 2820 12175
+F 0 "igniter1_cont1" H 2742 12158 20  0001 R CNN
+F 1 "igniter1_cont:sensor" H 2820 12325 20  0000 C CNN
+F 2 "" H 2820 12175 20  0001 C CNN
+F 3 "" H 2820 12175 20  0001 C CNN
+	1    2820 12175
 	-1   0    0    1   
 $EndComp
 Connection ~ 3890 7320
@@ -345,10 +345,10 @@ Wire Wire Line
 	3890 7320 3890 9220
 Wire Wire Line
 	3890 6470 3890 7320
-Text Notes 9990 10810 0    118  ~ 0
+Text Notes 9995 11050 0    118  ~ 0
 Ox Cart
 Wire Notes Line
-	10730 10890 10730 6360
+	10730 11100 10730 6360
 Wire Wire Line
 	9710 8850 9710 9270
 $Comp
@@ -356,7 +356,7 @@ L PnID:Water_Tank WaterColdTemp1
 U 1 1 6187791F
 P 9880 9730
 F 0 "WaterColdTemp1" H 9830 9630 50  0001 L CNN
-F 1 "water_cold_temp:sensor" H 9875 9730 50  0000 C CNN
+F 1 "water_cold_temp:sensor" H 9880 9660 50  0000 C CNN
 F 2 "" H 9880 9320 50  0001 C CNN
 F 3 "" H 9880 9320 50  0001 C CNN
 F 4 "˚C" H 9880 9730 50  0001 C CNN "Unit"
@@ -372,7 +372,7 @@ L PnID:Sensor_Temperature_Short Sensor_Temperature1
 U 1 1 62230A81
 P 2470 10170
 F 0 "Sensor_Temperature1" H 2470 10370 20  0001 C CNN
-F 1 "ox_tank_top_temp:sensor" H 1840 10170 20  0000 R CNN
+F 1 "ox_tank_top_temp:sensor" H 1900 10170 20  0000 R CNN
 F 2 "" H 2470 10170 20  0001 C CNN
 F 3 "" H 2470 10170 20  0001 C CNN
 F 4 "˚C" H 2470 10170 20  0001 C CNN "Unit"
@@ -457,13 +457,13 @@ water_mantle_in:wire
 Text Label 8580 7530 0    11   ~ 0
 water_tank_hot_return:wire
 Wire Notes Line
-	10730 6370 5020 6370
+	10730 6370 4925 6370
 $Comp
 L PnID:Sensor_Temperature_Short Sensor_Temperature4
 U 1 1 6216A143
 P 8980 7170
 F 0 "Sensor_Temperature4" H 8980 7370 20  0001 C CNN
-F 1 "water_mantle_temp:sensor" H 9410 7170 20  0000 C CNN
+F 1 "water_mantle_temp:sensor" H 9150 7170 20  0000 L CNN
 F 2 "" H 8980 7170 20  0001 C CNN
 F 3 "" H 8980 7170 20  0001 C CNN
 F 4 "˚C" H 8980 7170 20  0001 C CNN "Unit"
@@ -471,14 +471,14 @@ F 5 "High" H 8980 7170 50  0001 C CNN "Data_Content"
 	1    8980 7170
 	1    0    0    -1  
 $EndComp
-Text Label 6030 10010 0    11   ~ 0
+Text Label 6740 10010 0    11   ~ 0
 ox_bottle_pressure:sensor
 $Comp
 L PnID:Valve_Servo Valve_Servo3
 U 1 1 61976D8E
 P 6230 7320
 F 0 "Valve_Servo3" H 6230 7763 20  0001 C CNN
-F 1 "pressurant_tanking_valve:sensor" H 6230 7750 20  0000 C CNN
+F 1 "pressurant_tanking_valve:sensor" H 6230 7765 20  0000 C CNN
 F 2 "" H 6230 7320 20  0001 C CNN
 F 3 "" H 6230 7320 20  0001 C CNN
 F 4 "%" H 6230 7320 20  0001 C CNN "Unit"
@@ -486,26 +486,28 @@ F 4 "%" H 6230 7320 20  0001 C CNN "Unit"
 	1    0    0    1   
 $EndComp
 $Comp
-L PnID:GasBottle N2O1
+L PnID:GasBottle N2O
 U 1 1 61810C08
 P 6740 9020
-F 0 "N2O1" H 6380 8880 20  0000 C CNN
+F 0 "N2O" H 6260 8880 20  0000 C CNN
 F 1 "GasBottle" H 6740 8920 20  0001 C CNN
 F 2 "" H 6730 8950 20  0001 C CNN
 F 3 "" H 6730 8950 20  0001 C CNN
+F 4 "ox" H 6740 9020 50  0001 C CNN "Data_Content"
 	1    6740 9020
 	-1   0    0    1   
 $EndComp
 $Comp
 L PnID:Valve_Servo Valve_Servo4
 U 1 1 6181D9FB
-P 6230 10010
-F 0 "Valve_Servo4" H 6230 10453 20  0001 C CNN
-F 1 "ox_tanking_valve:sensor" H 6230 10460 20  0000 C CNN
-F 2 "" H 6230 10010 20  0001 C CNN
-F 3 "" H 6230 10010 20  0001 C CNN
-F 4 "%" H 6230 10010 20  0001 C CNN "Unit"
-	1    6230 10010
+P 6155 10010
+F 0 "Valve_Servo4" H 6155 10453 20  0001 C CNN
+F 1 "ox_tanking_valve:sensor" H 6155 9705 20  0000 C CNN
+F 2 "" H 6155 10010 20  0001 C CNN
+F 3 "" H 6155 10010 20  0001 C CNN
+F 4 "%" H 6155 10010 20  0001 C CNN "Unit"
+F 5 "ox" H 6155 10010 50  0001 C CNN "Data_Content"
+	1    6155 10010
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -513,7 +515,7 @@ L PnID:Valve_Servo Valve_Servo6
 U 1 1 6182E702
 P 5720 9550
 F 0 "Valve_Servo6" H 5720 9993 20  0001 C CNN
-F 1 "ox_vent_valve:sensor" V 5910 9960 20  0000 R CNN
+F 1 "ox_vent_valve:sensor" V 5720 9970 20  0000 R CNN
 F 2 "" H 5720 9550 20  0001 C CNN
 F 3 "" H 5720 9550 20  0001 C CNN
 F 4 "%" H 5720 9550 20  0001 C CNN "Unit"
@@ -534,9 +536,9 @@ F 3 "" H 5720 9050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Notes Line
-	5020 6370 5020 10890
+	4925 6370 4925 11105
 Wire Notes Line
-	5020 10890 10730 10890
+	4925 11100 10730 11100
 Wire Wire Line
 	6740 9520 6740 10010
 Wire Wire Line
@@ -552,18 +554,6 @@ F 3 "" H 5720 8280 50  0001 C CNN
 	1    5720 8280
 	0    -1   1    0   
 $EndComp
-$Comp
-L PnID:Sensor_Pressure_Short Sensor_Pressure7
-U 1 1 619D06EC
-P 6940 10010
-F 0 "Sensor_Pressure7" H 6810 10230 20  0001 L CNN
-F 1 "ox_bottle_pressure:sensor" H 6940 9820 20  0000 C CNN
-F 2 "" H 6940 10010 20  0001 C CNN
-F 3 "" H 6940 10010 20  0001 C CNN
-F 4 "bar" H 6940 10010 20  0001 C CNN "Unit"
-	1    6940 10010
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7120 9230 7120 10110
 Wire Wire Line
@@ -573,7 +563,7 @@ L PnID:Valve_Servo Valve_Servo5
 U 1 1 61976D96
 P 5720 7780
 F 0 "Valve_Servo5" H 5720 8223 20  0001 C CNN
-F 1 "pressurant_vent_valve:sensor" V 5930 8270 20  0000 C CNN
+F 1 "pressurant_vent_valve:sensor" V 5720 8200 20  0000 R CNN
 F 2 "" H 5720 7780 20  0001 C CNN
 F 3 "" H 5720 7780 20  0001 C CNN
 F 4 "%" H 5720 7780 20  0001 C CNN "Unit"
@@ -591,10 +581,10 @@ Wire Wire Line
 Wire Wire Line
 	7830 8850 7830 9260
 $Comp
-L PnID:GasBottle Pressurant1
+L PnID:GasBottle N
 U 1 1 6181464F
 P 6740 7920
-F 0 "Pressurant1" H 6740 7920 20  0000 C CNN
+F 0 "N" H 6740 7920 20  0000 C CNN
 F 1 "GasBottle" H 6740 7820 20  0001 C CNN
 F 2 "" H 6730 7850 20  0001 C CNN
 F 3 "" H 6730 7850 20  0001 C CNN
@@ -606,7 +596,7 @@ L PnID:Water_Tank WaterTankHot1
 U 1 1 61867429
 P 7670 9720
 F 0 "WaterTankHot1" H 7620 9600 50  0001 L CNN
-F 1 "water_hot_temp:sensor" H 7675 9710 50  0000 C CNN
+F 1 "water_hot_temp:sensor" H 7670 9640 50  0000 C CNN
 F 2 "" H 7670 9310 50  0001 C CNN
 F 3 "" H 7670 9310 50  0001 C CNN
 F 4 "˚C" H 7670 9720 50  0001 C CNN "Unit"
@@ -614,10 +604,10 @@ F 4 "˚C" H 7670 9720 50  0001 C CNN "Unit"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6430 10010 6740 10010
+	6355 10010 6740 10010
 Connection ~ 5720 10010
 Wire Wire Line
-	5720 10010 6030 10010
+	5720 10010 5955 10010
 Wire Wire Line
 	3300 10010 5720 10010
 Wire Wire Line
@@ -632,7 +622,7 @@ L PnID:Sensor_Pressure_Short Sensor_Pressure6
 U 1 1 619D1B19
 P 5720 7120
 F 0 "Sensor_Pressure6" H 5590 7340 20  0001 L CNN
-F 1 "pressurant_pressure:sensor" V 5720 7620 20  0000 C CNN
+F 1 "pressurant_pressure:sensor" V 5720 7290 20  0000 R CNN
 F 2 "" H 5720 7120 20  0001 C CNN
 F 3 "" H 5720 7120 20  0001 C CNN
 F 4 "bar" H 5720 7120 20  0001 C CNN "Unit"
@@ -656,12 +646,12 @@ Wire Wire Line
 $Comp
 L PnID:LED igniter0_cont1
 U 1 1 624F798E
-P 2240 12150
-F 0 "igniter0_cont1" H 2162 12133 20  0001 R CNN
-F 1 "igniter0_cont:sensor" H 2240 12280 20  0000 C CNN
-F 2 "" H 2240 12150 20  0001 C CNN
-F 3 "" H 2240 12150 20  0001 C CNN
-	1    2240 12150
+P 2240 12175
+F 0 "igniter0_cont1" H 2162 12158 20  0001 R CNN
+F 1 "igniter0_cont:sensor" H 2240 12325 20  0000 C CNN
+F 2 "" H 2240 12175 20  0001 C CNN
+F 3 "" H 2240 12175 20  0001 C CNN
+	1    2240 12175
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -669,7 +659,7 @@ L PnID:Valve_Servo_3Way U5
 U 1 1 618910E2
 P 8770 8980
 F 0 "U5" H 8770 9683 50  0001 C CNN
-F 1 "water_valves_out:sensor" H 8770 9770 50  0000 C CNN
+F 1 "water_valves_out:sensor" H 8770 9850 50  0000 C CNN
 F 2 "" H 8770 8980 50  0001 C CNN
 F 3 "" H 8770 8980 50  0001 C CNN
 F 4 "gui:water_valves" H 8770 8980 50  0001 C CNN "Action_Reference"
@@ -681,26 +671,12 @@ L PnID:Valve_Servo_3Way U6
 U 1 1 61887B6B
 P 8780 7250
 F 0 "U6" H 8780 8045 50  0001 C CNN
-F 1 "water_valves_return:sensor" H 8780 8010 50  0000 C CNN
+F 1 "water_valves_return:sensor" H 8780 8010 50  0001 C CNN
 F 2 "" H 8780 7250 50  0001 C CNN
 F 3 "" H 8780 7250 50  0001 C CNN
 F 4 "gui:water_valves" H 8780 7250 50  0001 C CNN "Action_Reference"
 	1    8780 7250
 	-1   0    0    1   
-$EndComp
-$Comp
-L PnID:Sensor_Load_Short Sensor_Load_Short1
-U 1 1 626CC120
-P 2180 11820
-F 0 "Sensor_Load_Short1" H 2122 12103 20  0001 C CNN
-F 1 "scale:sensor" H 2530 11820 20  0000 C CNN
-F 2 "" H 2180 11820 20  0001 C CNN
-F 3 "" H 2180 11820 20  0001 C CNN
-F 4 "N" H 2180 11820 20  0001 C CNN "Unit"
-F 5 " " H 2180 11820 50  0001 C CNN "Action_Reference"
-F 6 " " H 2122 11993 50  0000 C CNN "Data_Content"
-	1    2180 11820
-	-1   0    0    -1  
 $EndComp
 $Comp
 L PnID:HeatExchanger WaterMantle1
@@ -857,7 +833,7 @@ L PnID:CheckValve CheckValve?
 U 1 1 62AD0172
 P 2920 10410
 F 0 "CheckValve?" V 2920 10538 20  0001 L CNN
-F 1 "CheckValve" H 2920 10240 20  0001 C CNN
+F 1 "ox_tanking_checkvalve:sensor" H 2920 10240 20  0001 C CNN
 F 2 "" H 2920 10410 20  0001 C CNN
 F 3 "" H 2920 10410 20  0001 C CNN
 	1    2920 10410
@@ -875,7 +851,7 @@ L PnID:Sensor_Pressure_Short Sensor_Pressure3
 U 1 1 619A14F2
 P 2330 9640
 F 0 "Sensor_Pressure3" H 2390 9770 20  0001 C CNN
-F 1 "ox_tank_pressure:sensor" H 2820 9640 20  0000 R CNN
+F 1 "ox_tank_pressure:sensor" H 2760 9645 20  0000 R CNN
 F 2 "" H 2330 9640 20  0001 C CNN
 F 3 "" H 2330 9640 20  0001 C CNN
 F 4 "bar" H 2330 9640 20  0001 C CNN "Unit"
@@ -921,7 +897,7 @@ L PnID:Motor Holddown
 U 1 1 6259FEC6
 P 5250 8800
 F 0 "Holddown" H 5245 8540 50  0001 C CNN
-F 1 "holddown:sensor" H 5378 8805 50  0000 L CNN
+F 1 "holddown:sensor" H 5400 8805 50  0000 L CNN
 F 2 "" H 5245 8800 50  0001 C CNN
 F 3 "" H 5245 8800 50  0001 C CNN
 	1    5250 8800
@@ -932,7 +908,7 @@ L PnID:Camera Cam1
 U 1 1 62B371BA
 P 2760 5200
 F 0 "Cam1" H 2760 5410 50  0001 C CNN
-F 1 "camera1:sensor" H 2760 5350 50  0000 C CNN
+F 1 "camera1:sensor" H 2760 5390 50  0000 C CNN
 F 2 "" H 2760 5200 50  0001 C CNN
 F 3 "" H 2760 5200 50  0001 C CNN
 	1    2760 5200
@@ -943,7 +919,7 @@ L PnID:Camera Cam0
 U 1 1 62B39605
 P 2300 5200
 F 0 "Cam0" H 2300 4990 50  0001 C CNN
-F 1 "camera0:sensor" H 2300 5050 50  0000 C CNN
+F 1 "camera0:sensor" H 2300 5015 50  0000 C CNN
 F 2 "" H 2300 5200 50  0001 C CNN
 F 3 "" H 2300 5200 50  0001 C CNN
 	1    2300 5200
@@ -952,13 +928,13 @@ $EndComp
 $Comp
 L PnID:Battery Battery
 U 1 1 62B0CF39
-P 2530 4820
-F 0 "Battery" H 2530 5160 50  0001 C CNN
-F 1 "battery_voltage:sensor" H 2530 5070 50  0000 C CNN
-F 2 "" H 2545 4820 50  0001 C CNN
-F 3 "" H 2545 4820 50  0001 C CNN
-F 4 "V" H 2530 4820 50  0001 C CNN "Unit"
-	1    2530 4820
+P 2530 4780
+F 0 "Battery" H 2530 5120 50  0001 C CNN
+F 1 "battery_voltage:sensor" H 2530 5085 50  0000 C CNN
+F 2 "" H 2545 4780 50  0001 C CNN
+F 3 "" H 2545 4780 50  0001 C CNN
+F 4 "V" H 2530 4780 50  0001 C CNN "Unit"
+	1    2530 4780
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -966,7 +942,7 @@ L PnID:Motor Retract
 U 1 1 62B10BE2
 P 5250 8540
 F 0 "Retract" H 5245 8280 50  0001 C CNN
-F 1 "umbilical_retract:sensor" H 5378 8545 50  0000 L CNN
+F 1 "umbilical_retract:sensor" H 5400 8545 50  0000 L CNN
 F 2 "" H 5245 8540 50  0001 C CNN
 F 3 "" H 5245 8540 50  0001 C CNN
 	1    5250 8540
@@ -977,18 +953,18 @@ L PnID:Switch Supply
 U 1 1 62B16E35
 P 5720 6690
 F 0 "Supply" H 5730 6500 50  0001 C CNN
-F 1 "supply_voltage_switch:sensor" H 5720 6863 50  0000 C CNN
+F 1 "supply_voltage_switch:sensor" H 5720 6895 50  0000 C CNN
 F 2 "" H 5730 6500 50  0001 C CNN
 F 3 "" H 5730 6500 50  0001 C CNN
 	1    5720 6690
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4340 6690 4340 4640
+	4340 6690 4340 4575
 Wire Wire Line
-	4340 4640 2530 4640
+	4340 4575 2530 4575
 Wire Wire Line
-	2530 4640 2530 4670
+	2530 4575 2530 4630
 Wire Wire Line
 	4340 6690 5620 6690
 $Comp
@@ -1002,4 +978,36 @@ F 3 "" H 10300 4140 50  0001 C CNN
 	1    10300 4140
 	1    0    0    -1  
 $EndComp
+$Comp
+L PnID:Sensor_Load_Short Sensor_Load_Short1
+U 1 1 626CC120
+P 2180 11820
+F 0 "Sensor_Load_Short1" H 2122 12103 20  0001 C CNN
+F 1 "scale:sensor" H 2410 11820 20  0000 R CNN
+F 2 "" H 2180 11820 20  0001 C CNN
+F 3 "" H 2180 11820 20  0001 C CNN
+F 4 "N" H 2180 11820 20  0001 C CNN "Unit"
+F 5 " " H 2180 11820 50  0001 C CNN "Action_Reference"
+F 6 " " H 2122 11993 50  0000 C CNN "Data_Content"
+	1    2180 11820
+	-1   0    0    -1  
+$EndComp
+Connection ~ 6740 10010
+$Comp
+L PnID:Sensor_Pressure_Short Sensor_Pressure7
+U 1 1 619D06EC
+P 6940 10010
+F 0 "Sensor_Pressure7" H 6810 10230 20  0001 L CNN
+F 1 "ox_bottle_pressure:sensor" H 6815 9790 20  0000 L CNN
+F 2 "" H 6940 10010 20  0001 C CNN
+F 3 "" H 6940 10010 20  0001 C CNN
+F 4 "bar" H 6940 10010 20  0001 C CNN "Unit"
+F 5 "ox" H 6940 10010 50  0001 C CNN "Data_Content"
+	1    6940 10010
+	1    0    0    -1  
+$EndComp
+Text Label 5955 10010 0    11   ~ 0
+ox_tanking_wire
+Text Label 2820 10010 0    11   ~ 0
+ox_tanking_wire
 $EndSCHEMATC
