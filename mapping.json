@@ -256,7 +256,7 @@
             "11": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "gps_altitude"
+                "stringID": "gps_height"
             },
             "2": {
                 "offset": 0,
@@ -628,7 +628,7 @@
             "11": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "lora:gps_altitude"
+                "stringID": "lora:gps_height"
             },
             "2": {
                 "offset": 0,

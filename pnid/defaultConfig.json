@@ -194,6 +194,85 @@
             }
         ]
     },
+    "PnID-Sensor_Pressure_Big": {
+        "eval": "if (inVars['value'] > 2) { outVars['color']='content' } else if (inVars['value'] > -8) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
+	    "popup": [
+            {
+                "type": "display",
+                "style": "text",
+                "variable": "value"
+            },
+            {
+                "type": "display",
+                "style": "external",
+                "source": null,
+                "autoID": false,
+                "width": 450,
+                "height": 200
+            }
+        ]
+    },
+    "PnID-Sensor_Height": {
+        "eval": "if (inVars['value'] > 2) { outVars['color']='content' } else if (inVars['value'] > -8) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
+	    "popup": [
+            {
+                "type": "display",
+                "style": "text",
+                "variable": "value"
+            },
+            {
+                "type": "display",
+                "style": "external",
+                "source": null,
+                "autoID": false,
+                "width": 450,
+                "height": 200
+            }
+        ]
+    },
+    "PnID-IMU": {
+        "eval": "if (inVars['value'] > 2) { outVars['color']='content' } else if (inVars['value'] > -8) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
+	    "popup": [
+            {
+                "type": "display",
+                "style": "text",
+                "variable": "value"
+            },
+            {
+                "type": "display",
+                "style": "external",
+                "autoID": false,
+                "width": 450,
+                "height": 200
+            },
+            {
+                "type": "display",
+                "style": "external",
+                "source": "",
+                "autoID": false,
+                "width": 450,
+                "height": 200
+            }
+        ]
+    },
+    "PnID-GNSS": {
+        "eval": "if (inVars['value'] > 2) { outVars['color']='content' } else if (inVars['value'] > -8) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
+	    "popup": [
+            {
+                "type": "display",
+                "style": "text",
+                "variable": "value"
+            },
+            {
+                "type": "display",
+                "style": "external",
+                "source": null,
+                "autoID": false,
+                "width": 450,
+                "height": 200
+            }
+        ]
+    },
     "PnID-Battery": {
         "eval": "if (inVars['value'] > thresholds['battery']['high']) { outVars['color']='battery_high' } else if (inVars['value'] > thresholds['battery']['low']) { outVars['color']='battery_nominal' } else if (inVars['value'] > thresholds['battery']['critical']) { outVars['color']='battery_low' } else if (inVars['value'] > thresholds['battery']['notconnected']) { outVars['color']='battery_critical' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
 	    "popup": [
@@ -399,7 +478,7 @@
                 "style": "button",
                 "variable": "rocket-InternalControl",
                 "label": "Internal Control",
-                "action": "startTimer(-10, 3600)"
+                "action": "startTimer(-10, null)"
             },
             {
                 "type": "input",
