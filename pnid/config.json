@@ -234,13 +234,7 @@
         "states": [
             "ox_tanking_valve:sensor"
         ],
-        "eval": "if (outVars['color'] == 'open') { link('ox_bottle_pressure:sensor', 'ox_tanking_wire') } else if (outVars['color'] == 'closed') { unlink('ox_bottle_pressure:sensor', 'ox_tanking_wire') }"
-    },
-    "ox_tanking_wires": {
-        "states": [
-            "ox_tanking_wire:wire"
-        ],
-        "eval": "link(inVars['this'], ['ox_tanking_quickconnect:sensor', 'ox_tanking_checkvalve:sensor'])"
+        "eval": "if (outVars['color'] == 'open') { link('ox_bottle_pressure:sensor', ['ox_tanking_wire', 'ox_tanking_quickconnect:sensor', 'ox_tanking_checkvalve:sensor']) } else if (outVars['color'] == 'closed') { unlink('ox_bottle_pressure:sensor', ['ox_tanking_wire', 'ox_tanking_quickconnect:sensor', 'ox_tanking_checkvalve:sensor'], -10) }"
     },
     "water_wires": {
         "states": [
@@ -259,5 +253,63 @@
             "water_hot_temp:sensor:wire"
         ],
         "eval": "if (inVars['value'] >= thresholds['waterTemps']['notconnected']) { outVars['color'] = 'empty' } else { outVars['color'] = 'content' }"
+    },
+    "logging_leds_ecu": {
+        "states": [
+            "ecu:LoggingEnabled",
+            "lora:ecu:LoggingEnabled"
+        ],
+        "eval": "outVars['value'] = 'ECU'"
+    },
+    "logging_leds_pmu": {
+        "states": [
+            "pmu:LoggingEnabled",
+            "lora:pmu:LoggingEnabled"
+        ],
+        "eval": "outVars['value'] = 'PMU'"
+    },
+    "logging_leds_rcu": {
+        "states": [
+            "rcu:LoggingEnabled",
+            "lora:rcu:LoggingEnabled"
+        ],
+        "eval": "outVars['value'] = 'RCU'"
+    },
+    "flash_clear_leds_ecu": {
+        "states": [
+            "ecu:FlashStatus",
+            "lora:ecu:FlashStatus"
+        ],
+        "eval": "switch (inVars['value']) { case 0: outVars['color']='on'; outVars['value'] = 'ECU Clear'; break; case 1: outVars['color']='success'; outVars['value'] = 'ECU Done'; break; case 2: outVars['color']='error'; outVars['value'] = 'ECU Full'; break; default: outVars['color']='off'; outVars['value'] = 'ECU ???' }"
+    },
+    "flash_clear_leds_pmu": {
+        "states": [
+            "pmu:FlashStatus",
+            "lora:pmu:FlashStatus"
+        ],
+        "eval": "switch (inVars['value']) { case 0: outVars['color']='on'; outVars['value'] = 'PMU Clear'; break; case 1: outVars['color']='success'; outVars['value'] = 'PMU Done'; break; case 2: outVars['color']='error'; outVars['value'] = 'PMU Full'; break; default: outVars['color']='off'; outVars['value'] = 'PMU ???' }"
+    },
+    "flash_clear_leds_rcu": {
+        "states": [
+            "rcu:FlashStatus",
+            "lora:rcu:FlashStatus"
+        ],
+        "eval": "switch (inVars['value']) { case 0: outVars['color']='on'; outVars['value'] = 'RCU Clear'; break; case 1: outVars['color']='success'; outVars['value'] = 'RCU Done'; break; case 2: outVars['color']='error'; outVars['value'] = 'RCU Full'; break; default: outVars['color']='off'; outVars['value'] = 'RCU ???' }"
+    },
+    "height_sensor_graph_pmu": {
+        "states": [
+            "lora:pmu_height:sensor"
+        ],
+        "popup": {
+            "source": "GRAFANA_PANEL_CONFIG_PLOT_NAME_HERE"
+        }
+    },
+    "height_sensor_graph_rcu": {
+        "states": [
+            "lora:rcu_height:sensor"
+        ],
+        "popup": {
+            "source": "GRAFANA_PANEL_CONFIG_PLOT_NAME_HERE"
+        }
     }
 }

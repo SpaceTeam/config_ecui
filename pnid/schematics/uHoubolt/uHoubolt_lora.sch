@@ -355,20 +355,6 @@ F 3 "" H 2240 12150 20  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PnID:Sensor_Load_Short Sensor_Load_Short1
-U 1 1 626CC120
-P 2180 11820
-F 0 "Sensor_Load_Short1" H 2122 12103 20  0001 C CNN
-F 1 "lora:scale:sensor" H 2530 11820 20  0000 C CNN
-F 2 "" H 2180 11820 20  0001 C CNN
-F 3 "" H 2180 11820 20  0001 C CNN
-F 4 "N" H 2180 11820 20  0001 C CNN "Unit"
-F 5 " " H 2180 11820 50  0001 C CNN "Action_Reference"
-F 6 " " H 2122 11993 50  0000 C CNN "Data_Content"
-	1    2180 11820
-	-1   0    0    -1  
-$EndComp
-$Comp
 L PnID:Rocket_Channel R1
 U 1 1 627DC68B
 P 3600 5980
@@ -384,94 +370,94 @@ F 6 " " H 3728 5969 50  0000 L CNN "Data_Content"
 $EndComp
 Wire Wire Line
 	2530 6780 2530 6970
-Text Notes 8580 5460 0    50   ~ 0
+Text Notes 7125 5485 0    50   ~ 0
 PAD_IDLE,\n	AUTO_CHECK,\n	IGNITION_SEQUENCE,\n	HOLD_DOWN,\n	POWERED_ASCENT,\n	UNPOWERED_ASCENT,\n	DEPRESS,\n	ABORT
 $Comp
 L PnID:Flowchart_State U?
 U 1 1 628C98EC
-P 7290 4440
-F 0 "U?" H 7518 4486 50  0001 L CNN
-F 1 "rocket:AutoCheck" H 7590 4440 50  0000 L CNN
-F 2 "" H 7290 4440 50  0001 C CNN
-F 3 "" H 7290 4440 50  0001 C CNN
-	1    7290 4440
+P 5835 4465
+F 0 "U?" H 6063 4511 50  0001 L CNN
+F 1 "rocket:AutoCheck" H 6135 4465 50  0000 L CNN
+F 2 "" H 5835 4465 50  0001 C CNN
+F 3 "" H 5835 4465 50  0001 C CNN
+	1    5835 4465
 	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:Flowchart_State U?
 U 1 1 628CB867
-P 7290 4720
-F 0 "U?" H 7518 4766 50  0001 L CNN
-F 1 "rocket:IgnitionSequence" H 7590 4730 50  0000 L CNN
-F 2 "" H 7290 4720 50  0001 C CNN
-F 3 "" H 7290 4720 50  0001 C CNN
-	1    7290 4720
+P 5835 4745
+F 0 "U?" H 6063 4791 50  0001 L CNN
+F 1 "rocket:IgnitionSequence" H 6135 4755 50  0000 L CNN
+F 2 "" H 5835 4745 50  0001 C CNN
+F 3 "" H 5835 4745 50  0001 C CNN
+	1    5835 4745
 	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:Flowchart_State U?
 U 1 1 628CB86D
-P 7290 5000
-F 0 "U?" H 7518 5046 50  0001 L CNN
-F 1 "rocket:HoldDown" H 7590 5000 50  0000 L CNN
-F 2 "" H 7290 5000 50  0001 C CNN
-F 3 "" H 7290 5000 50  0001 C CNN
-	1    7290 5000
+P 5835 5025
+F 0 "U?" H 6063 5071 50  0001 L CNN
+F 1 "rocket:HoldDown" H 6135 5025 50  0000 L CNN
+F 2 "" H 5835 5025 50  0001 C CNN
+F 3 "" H 5835 5025 50  0001 C CNN
+	1    5835 5025
 	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:Flowchart_State U?
 U 1 1 628CF7C2
-P 7290 5290
-F 0 "U?" H 7518 5336 50  0001 L CNN
-F 1 "rocket:PoweredAscent" H 7580 5290 50  0000 L CNN
-F 2 "" H 7290 5290 50  0001 C CNN
-F 3 "" H 7290 5290 50  0001 C CNN
-	1    7290 5290
+P 5835 5315
+F 0 "U?" H 6063 5361 50  0001 L CNN
+F 1 "rocket:PoweredAscent" H 6125 5315 50  0000 L CNN
+F 2 "" H 5835 5315 50  0001 C CNN
+F 3 "" H 5835 5315 50  0001 C CNN
+	1    5835 5315
 	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:Flowchart_State U?
 U 1 1 628CF7C8
-P 7290 5570
-F 0 "U?" H 7518 5616 50  0001 L CNN
-F 1 "rocket:UnpoweredAscent" H 7580 5570 50  0000 L CNN
-F 2 "" H 7290 5570 50  0001 C CNN
-F 3 "" H 7290 5570 50  0001 C CNN
-	1    7290 5570
+P 5835 5595
+F 0 "U?" H 6063 5641 50  0001 L CNN
+F 1 "rocket:UnpoweredAscent" H 6125 5595 50  0000 L CNN
+F 2 "" H 5835 5595 50  0001 C CNN
+F 3 "" H 5835 5595 50  0001 C CNN
+	1    5835 5595
 	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:Flowchart_State U?
 U 1 1 628CF7CE
-P 7290 5850
-F 0 "U?" H 7518 5896 50  0001 L CNN
-F 1 "rocket:Depress" H 7580 5850 50  0000 L CNN
-F 2 "" H 7290 5850 50  0001 C CNN
-F 3 "" H 7290 5850 50  0001 C CNN
-	1    7290 5850
+P 5835 5875
+F 0 "U?" H 6063 5921 50  0001 L CNN
+F 1 "rocket:Depress" H 6125 5875 50  0000 L CNN
+F 2 "" H 5835 5875 50  0001 C CNN
+F 3 "" H 5835 5875 50  0001 C CNN
+	1    5835 5875
 	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:Flowchart_State U?
 U 1 1 628CF7D4
-P 7290 6130
-F 0 "U?" H 7518 6176 50  0001 L CNN
-F 1 "rocket:AbortFlowChart" H 7580 6140 50  0000 L CNN
-F 2 "" H 7290 6130 50  0001 C CNN
-F 3 "" H 7290 6130 50  0001 C CNN
-	1    7290 6130
+P 5835 6155
+F 0 "U?" H 6063 6201 50  0001 L CNN
+F 1 "rocket:AbortFlowChart" H 6125 6165 50  0000 L CNN
+F 2 "" H 5835 6155 50  0001 C CNN
+F 3 "" H 5835 6155 50  0001 C CNN
+	1    5835 6155
 	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:Flowchart_State U?
 U 1 1 628BC744
-P 7290 4160
-F 0 "U?" H 7518 4206 50  0001 L CNN
-F 1 "rocket:PadIdle" H 7590 4160 50  0000 L CNN
-F 2 "" H 7290 4160 50  0001 C CNN
-F 3 "" H 7290 4160 50  0001 C CNN
-	1    7290 4160
+P 5835 4185
+F 0 "U?" H 6063 4231 50  0001 L CNN
+F 1 "rocket:PadIdle" H 6135 4185 50  0000 L CNN
+F 2 "" H 5835 4185 50  0001 C CNN
+F 3 "" H 5835 4185 50  0001 C CNN
+	1    5835 4185
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -549,7 +535,7 @@ L PnID:Camera Cam1
 U 1 1 62B371BA
 P 2760 5200
 F 0 "Cam1" H 2760 5410 50  0001 C CNN
-F 1 "lora:camera1:sensor" H 2760 5350 50  0000 C CNN
+F 1 "lora:camera1:sensor" H 2760 5350 50  0001 C CNN
 F 2 "" H 2760 5200 50  0001 C CNN
 F 3 "" H 2760 5200 50  0001 C CNN
 	1    2760 5200
@@ -560,7 +546,7 @@ L PnID:Camera Cam0
 U 1 1 62B39605
 P 2300 5200
 F 0 "Cam0" H 2300 4990 50  0001 C CNN
-F 1 "lora:camera0:sensor" H 2300 5050 50  0000 C CNN
+F 1 "lora:camera0:sensor" H 2300 5050 50  0001 C CNN
 F 2 "" H 2300 5200 50  0001 C CNN
 F 3 "" H 2300 5200 50  0001 C CNN
 	1    2300 5200
@@ -581,25 +567,14 @@ $EndComp
 Wire Wire Line
 	2530 4640 2530 4670
 $Comp
-L PnID:Logging Logging
+L PnID:Label Logging
 U 1 1 62B22C88
-P 10300 4140
-F 0 "Logging" H 10300 4360 50  0001 C CNN
-F 1 "Logging" H 10300 4290 50  0001 C CNN
-F 2 "" H 10300 4140 50  0001 C CNN
-F 3 "" H 10300 4140 50  0001 C CNN
-	1    10300 4140
-	1    0    0    -1  
-$EndComp
-$Comp
-L PnID:Rocket U1
-U 1 1 6233DFEA
-P 2530 5260
-F 0 "U1" H 2530 6925 50  0001 C CNN
-F 1 "Rocket" H 2530 6834 50  0001 C CNN
-F 2 "" H 2530 5310 50  0001 C CNN
-F 3 "" H 2530 5310 50  0001 C CNN
-	1    2530 5260
+P 8845 4165
+F 0 "Logging" H 8845 4385 50  0001 C CNN
+F 1 "Logging" H 8845 4165 50  0000 C CNN
+F 2 "" H 8845 4165 50  0001 C CNN
+F 3 "" H 8845 4165 50  0001 C CNN
+	1    8845 4165
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -635,4 +610,100 @@ F 3 "" H 3060 10010 50  0001 C CNN
 	1    3060 10010
 	1    0    0    -1  
 $EndComp
+$Comp
+L PnID:LED ecu_logging_en
+U 1 1 62B3B0AE
+P 8410 4325
+F 0 "ecu_logging_en" H 8332 4308 20  0001 R CNN
+F 1 "lora:ecu:LoggingEnabled" H 8410 4455 20  0000 C CNN
+F 2 "" H 8410 4325 20  0001 C CNN
+F 3 "" H 8410 4325 20  0001 C CNN
+	1    8410 4325
+	-1   0    0    1   
+$EndComp
+$Comp
+L PnID:LED rcu_logging_en
+U 1 1 62B3B971
+P 9275 4325
+F 0 "rcu_logging_en" H 9197 4308 20  0001 R CNN
+F 1 "lora:rcu:LoggingEnabled" H 9275 4455 20  0000 C CNN
+F 2 "" H 9275 4325 20  0001 C CNN
+F 3 "" H 9275 4325 20  0001 C CNN
+	1    9275 4325
+	-1   0    0    1   
+$EndComp
+$Comp
+L PnID:LED pmu_logging_en
+U 1 1 62B3BDBF
+P 8845 4325
+F 0 "pmu_logging_en" H 8767 4308 20  0001 R CNN
+F 1 "lora:pmu:LoggingEnabled" H 8845 4455 20  0000 C CNN
+F 2 "" H 8845 4325 20  0001 C CNN
+F 3 "" H 8845 4325 20  0001 C CNN
+	1    8845 4325
+	-1   0    0    1   
+$EndComp
+$Comp
+L PnID:Label Logging?
+U 1 1 62B419D0
+P 8845 4995
+F 0 "Logging?" H 8845 5215 50  0001 C CNN
+F 1 "Flash Status" H 8845 4995 50  0000 C CNN
+F 2 "" H 8845 4995 50  0001 C CNN
+F 3 "" H 8845 4995 50  0001 C CNN
+	1    8845 4995
+	1    0    0    -1  
+$EndComp
+$Comp
+L PnID:LED ecu_flash_status
+U 1 1 62B42647
+P 8410 5155
+F 0 "ecu_flash_status" H 8332 5138 20  0001 R CNN
+F 1 "lora:ecu:FlashStatus" H 8290 5300 20  0000 R CNN
+F 2 "" H 8410 5155 20  0001 C CNN
+F 3 "" H 8410 5155 20  0001 C CNN
+	1    8410 5155
+	-1   0    0    1   
+$EndComp
+$Comp
+L PnID:LED rcu_flash_status
+U 1 1 62B4264D
+P 9275 5155
+F 0 "rcu_flash_status" H 9197 5138 20  0001 R CNN
+F 1 "lora:rcu:FlashStatus" H 9390 5300 20  0000 L CNN
+F 2 "" H 9275 5155 20  0001 C CNN
+F 3 "" H 9275 5155 20  0001 C CNN
+	1    9275 5155
+	-1   0    0    1   
+$EndComp
+$Comp
+L PnID:LED pmu_flash_status
+U 1 1 62B42653
+P 8845 5155
+F 0 "pmu_flash_status" H 8767 5138 20  0001 R CNN
+F 1 "lora:pmu:FlashStatus" H 8845 5485 20  0000 C CNN
+F 2 "" H 8845 5155 20  0001 C CNN
+F 3 "" H 8845 5155 20  0001 C CNN
+	1    8845 5155
+	-1   0    0    1   
+$EndComp
+$Comp
+L PnID:Rocket U1
+U 1 1 6233DFEA
+P 2530 5260
+F 0 "U1" H 2530 6925 50  0001 C CNN
+F 1 "Rocket" H 2530 6834 50  0001 C CNN
+F 2 "" H 2530 5310 50  0001 C CNN
+F 3 "" H 2530 5310 50  0001 C CNN
+	1    2530 5260
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1200 3560 9790 3560
+Wire Notes Line
+	9790 3560 9790 12810
+Wire Notes Line
+	9790 12810 1230 12810
+Wire Notes Line
+	1200 12810 1200 3560
 $EndSCHEMATC

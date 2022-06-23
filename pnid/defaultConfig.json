@@ -235,20 +235,7 @@
 	    "popup": [
             {
                 "type": "display",
-                "style": "text",
-                "variable": "value"
-            },
-            {
-                "type": "display",
                 "style": "external",
-                "autoID": false,
-                "width": 450,
-                "height": 200
-            },
-            {
-                "type": "display",
-                "style": "external",
-                "source": "",
                 "autoID": false,
                 "width": 450,
                 "height": 200
