@@ -246,7 +246,7 @@
             "11": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "gps_height"
+                "stringID": "gps_altitude"
             },
             "2": {
                 "offset": 0,
@@ -608,7 +608,7 @@
             "11": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "lora:gps_height"
+                "stringID": "lora:gps_altitude"
             },
             "2": {
                 "offset": 0,
@@ -748,6 +748,20 @@
                 "parameters": [65535]
             }
         ],
+        "gui:holddown:sensor": [
+            {
+                "command": "holddown:SetTargetPosition",
+                "triggerType": "==",
+                "triggerValue": 0,
+                "parameters": [0]
+            },
+            {
+                "command": "holddown:SetTargetPosition",
+                "triggerType": "==",
+                "triggerValue": 1,
+                "parameters": [65535]
+            }
+        ],
         "gui:Logging": [
             {
                 "command": "ecu:SetLoggingEnabled",
@@ -761,6 +775,44 @@
                 "command": "rcu:SetLoggingEnabled",
                 "parameters": ["gui:Logging"]
             }
+        ],
+        "gui:Flash:Clear": [
+            {
+                "command": "ecu:RequestFlashClear",
+                "parameters": ["gui:Flash:Clear"]
+            },
+            {
+                "command": "pmu:RequestFlashClear",
+                "parameters": ["gui:Flash:Clear"]
+            },
+            {
+                "command": "rcu:RequestFlashClear",
+                "parameters": ["gui:Flash:Clear"]
+            }
+        ],
+        "ecu:FlashStatus": [
+        	{
+                "state": "gui:Flash:Clear",
+                "triggerType": "!=",
+                "triggerValue": 0,
+                "value": 0
+            }       	
+        ],
+        "pmu:FlashStatus": [
+        	{
+                "state": "gui:Flash:Clear",
+                "triggerType": "!=",
+                "triggerValue": 0,
+                "value": 0
+            }       	
+        ],
+        "rcu:FlashStatus": [
+        	{
+                "state": "gui:Flash:Clear",
+                "triggerType": "!=",
+                "triggerValue": 0,
+                "value": 0
+            }       	
         ],
         "gui:rocket:ResetStateMachine": [
             {
