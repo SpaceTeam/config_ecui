@@ -2,6 +2,9 @@
     "solenoid": {
         "high": 1000
     },
+    "motor": {
+        "high": 5000
+    },
     "servo_valve": {
         "low": 10000,
         "high": 55000

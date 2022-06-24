@@ -311,5 +311,17 @@
         "popup": {
             "source": "Altitude"
         }
+	},
+	"holddown": {
+        "states": [
+            "holddown:sensor"
+        ],
+        "eval": "if (inVars['value'] >= thresholds['motor']['high']) { outVars['color']='open'; outVars['value']='Release' } else { outVars['color']='closed'; outVars['value']='Hold' }"
+	},
+	"umbilical_retract": {
+        "states": [
+            "umbilical_retract:sensor"
+        ],
+        "eval": "if (inVars['value'] >= thresholds['motor']['high']) { outVars['color']='open'; outVars['value']='Retract' } else { outVars['color']='closed'; outVars['value']='Stop' }"
 	}
 }
