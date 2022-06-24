@@ -130,7 +130,7 @@ L PnID:IMU imu
 U 1 1 62B21128
 P 2580 5860
 F 0 "imu" H 2530 6540 50  0001 L CNN
-F 1 "imu_y" H 2510 6430 50  0001 L CNN
+F 1 "accel_y" H 2510 6430 50  0001 L CNN
 F 2 "" H 2580 6040 50  0001 C CNN
 F 3 "" H 2580 6040 50  0001 C CNN
 	1    2580 5860
@@ -161,11 +161,11 @@ F 4 "hPa" H 5855 6910 50  0001 C CNN "Unit"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PnID:Sensor_Height gps_height
+L PnID:Sensor_Height gps_altitude
 U 1 1 62B262C9
 P 3710 6860
-F 0 "gps_height" H 3710 6860 50  0001 C CNN
-F 1 "lora:gps_height:sensor" H 3710 6190 50  0000 C CNN
+F 0 "gps_altitude" H 3710 6860 50  0001 C CNN
+F 1 "lora:gps_altitude:sensor" H 3710 6190 50  0000 C CNN
 F 2 "" H 3710 6860 50  0001 C CNN
 F 3 "" H 3710 6860 50  0001 C CNN
 F 4 "m" H 3710 6860 50  0001 C CNN "Unit"
@@ -173,11 +173,11 @@ F 4 "m" H 3710 6860 50  0001 C CNN "Unit"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PnID:Sensor_Height pmu_height
+L PnID:Sensor_Height pmu_altitude
 U 1 1 62B2722D
 P 4750 5870
-F 0 "pmu_height" H 4750 5870 50  0001 C CNN
-F 1 "lora:pmu_height:sensor" H 4750 6520 50  0000 C CNN
+F 0 "pmu_altitude" H 4750 5870 50  0001 C CNN
+F 1 "lora:pmu_altitude:sensor" H 4750 6520 50  0000 C CNN
 F 2 "" H 4750 5870 50  0001 C CNN
 F 3 "" H 4750 5870 50  0001 C CNN
 F 4 "m" H 4750 5870 50  0001 C CNN "Unit"
@@ -185,11 +185,11 @@ F 4 "m" H 4750 5870 50  0001 C CNN "Unit"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PnID:Sensor_Height rcu_height
+L PnID:Sensor_Height rcu_altitude
 U 1 1 62B277F4
 P 4750 6860
-F 0 "rcu_height" H 4750 6860 50  0001 C CNN
-F 1 "lora:rcu_height:sensor" H 4750 6190 50  0000 C CNN
+F 0 "rcu_altitude" H 4750 6860 50  0001 C CNN
+F 1 "lora:rcu_altitude:sensor" H 4750 6190 50  0000 C CNN
 F 2 "" H 4750 6860 50  0001 C CNN
 F 3 "" H 4750 6860 50  0001 C CNN
 F 4 "m" H 4750 6860 50  0001 C CNN "Unit"
@@ -242,7 +242,7 @@ L PnID:IMU imu?
 U 1 1 62B3B78D
 P 2580 6860
 F 0 "imu?" H 2530 7540 50  0001 L CNN
-F 1 "imu_accel" H 2510 7430 50  0001 L CNN
+F 1 "gyro_x_y_z" H 2510 7430 50  0001 L CNN
 F 2 "" H 2580 7040 50  0001 C CNN
 F 3 "" H 2580 7040 50  0001 C CNN
 	1    2580 6860
@@ -253,7 +253,7 @@ L PnID:IMU imu?
 U 1 1 62B3E20C
 P 1440 6860
 F 0 "imu?" H 1390 7540 50  0001 L CNN
-F 1 "imu_z" H 1370 7430 50  0001 L CNN
+F 1 "accel_z" H 1370 7430 50  0001 L CNN
 F 2 "" H 1440 7040 50  0001 C CNN
 F 3 "" H 1440 7040 50  0001 C CNN
 	1    1440 6860
@@ -264,7 +264,7 @@ L PnID:IMU imu?
 U 1 1 62B41D22
 P 1440 5860
 F 0 "imu?" H 1390 6540 50  0001 L CNN
-F 1 "imu_x" H 1370 6430 50  0001 L CNN
+F 1 "accel_x" H 1370 6430 50  0001 L CNN
 F 2 "" H 1440 6040 50  0001 C CNN
 F 3 "" H 1440 6040 50  0001 C CNN
 	1    1440 5860

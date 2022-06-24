@@ -253,7 +253,7 @@
             {
                 "type": "display",
                 "style": "external",
-                "source": null,
+                "source": "http://192.168.1.7:3000/d-solo/yJ9UYDqnk/guidance-and-navigation?orgId=1&panelId=2",
                 "autoID": false,
                 "width": 450,
                 "height": 200

@@ -298,18 +298,18 @@
     },
     "height_sensor_graph_pmu": {
         "states": [
-            "lora:pmu_height:sensor"
+            "lora:pmu_altitude:sensor"
         ],
         "popup": {
-            "source": "GRAFANA_PANEL_CONFIG_PLOT_NAME_HERE"
+            "source": "Altitude_Plot"
         }
     },
     "height_sensor_graph_rcu": {
         "states": [
-            "lora:rcu_height:sensor"
+            "lora:rcu_altitude:sensor"
         ],
         "popup": {
-            "source": "GRAFANA_PANEL_CONFIG_PLOT_NAME_HERE"
+            "source": "Altitude"
         }
     }
 }
