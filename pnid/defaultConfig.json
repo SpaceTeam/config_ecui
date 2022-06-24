@@ -73,8 +73,8 @@
             }
         ]
     },
-    "PnID-Logging": {
-        "eval": "if (inVars['value'] > thresholds['igniter']['active']) { outVars['color']='on' } else { outVars['color']='off' }",
+    "PnID-Label": {
+        "eval": "if (inVars['value'] > 0) { outVars['color']='on'; } else { outVars['color']='off'; } outVars['value']=inVars['this'].replace('-',' ');",
 	    "popup": [
             {
                 "type": "display",

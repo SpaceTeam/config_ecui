@@ -205,7 +205,7 @@
                 "slope": 1.0,
                 "stringID": "camera0"
             },
-            "4": {
+            "6": {
                 "offset": 0,
                 "slope": 1.0,
                 "stringID": "camera1"
@@ -215,7 +215,7 @@
                 "slope": 1.0,
                 "stringID": "unused_pmu_out2"
             },
-            "6": {
+            "4": {
                 "offset": 0,
                 "slope": 1.0,
                 "stringID": "unused_pmu_out3"
@@ -567,7 +567,7 @@
                 "slope": 1.0,
                 "stringID": "lora:camera0"
             },
-            "4": {
+            "6": {
                 "offset": 0,
                 "slope": 1.0,
                 "stringID": "lora:camera1"
@@ -577,7 +577,7 @@
                 "slope": 1.0,
                 "stringID": "lora:unused_pmu_out2"
             },
-            "6": {
+            "4": {
                 "offset": 0,
                 "slope": 1.0,
                 "stringID": "lora:unused_pmu_out3"
@@ -750,7 +750,15 @@
         ],
         "gui:Logging": [
             {
-                "command": "ecu:SetLogging",
+                "command": "ecu:SetLoggingEnabled",
+                "parameters": ["gui:Logging"]
+            },
+            {
+                "command": "pmu:SetLoggingEnabled",
+                "parameters": ["gui:Logging"]
+            },
+            {
+                "command": "rcu:SetLoggingEnabled",
                 "parameters": ["gui:Logging"]
             }
         ],
