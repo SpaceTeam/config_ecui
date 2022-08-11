@@ -18,7 +18,7 @@ L PnID:Valve_Servo M3
 U 1 1 621ED7DF
 P 5425 5375
 F 0 "M3" V 5450 5850 20  0001 R CNN
-F 1 "fuel_main_valve:sensor" V 5425 5775 20  0000 R CNN
+F 1 "fuel_main_valve:sensor" V 5425 5975 20  0000 C CNN
 F 2 "" H 5425 5375 20  0001 C CNN
 F 3 "" H 5425 5375 20  0001 C CNN
 F 4 "%" H 5425 5375 20  0001 C CNN "Unit"
@@ -53,7 +53,7 @@ L PnID:Sensor_Pressure_Short P3
 U 1 1 621F49D8
 P 5725 5775
 F 0 "P3" H 5700 5925 20  0001 L CNN
-F 1 "fuel_injector_pressure:sensor" H 5725 5925 20  0000 C CNN
+F 1 "fuel_injector_pressure:sensor" H 5675 5925 20  0000 C CNN
 F 2 "" H 5725 5775 20  0001 C CNN
 F 3 "" H 5725 5775 20  0001 C CNN
 F 4 "bar" H 5725 5775 20  0001 C CNN "Unit"
@@ -88,103 +88,92 @@ $EndComp
 $Comp
 L PnID:Valve_Servo M2
 U 1 1 621FE305
-P 3275 4575
-F 0 "M2" V 3297 4397 20  0001 R CNN
-F 1 "fuel_fill_vent_valve:sensor" V 3275 4125 20  0000 R CNN
-F 2 "" H 3275 4575 20  0001 C CNN
-F 3 "" H 3275 4575 20  0001 C CNN
-F 4 "%" H 3275 4575 20  0001 C CNN "Unit"
-F 5 " " H 3275 4575 50  0001 C CNN "Action_Reference"
-	1    3275 4575
+P 4100 4650
+F 0 "M2" V 4122 4472 20  0001 R CNN
+F 1 "fuel_fill_vent_valve:sensor" V 4100 4275 20  0000 C CNN
+F 2 "" H 4100 4650 20  0001 C CNN
+F 3 "" H 4100 4650 20  0001 C CNN
+F 4 "%" H 4100 4650 20  0001 C CNN "Unit"
+F 5 " " H 4100 4650 50  0001 C CNN "Action_Reference"
+	1    4100 4650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L PnID:GasBottle GasBottle1
 U 1 1 62203A64
-P 3275 1875
-F 0 "GasBottle1" H 3047 1883 20  0001 R CNN
-F 1 "C2H6" H 3275 1775 20  0000 C CNN
-F 2 "" H 3265 1805 20  0001 C CNN
-F 3 "" H 3265 1805 20  0001 C CNN
-	1    3275 1875
+P 3275 2275
+F 0 "GasBottle1" H 3047 2283 20  0001 R CNN
+F 1 "C2H6" H 3275 2175 20  0000 C CNN
+F 2 "" H 3265 2205 20  0001 C CNN
+F 3 "" H 3265 2205 20  0001 C CNN
+	1    3275 2275
 	-1   0    0    1   
 $EndComp
 $Comp
 L PnID:Hose Hose1
 U 1 1 622057CC
-P 3275 3225
-F 0 "Hose1" H 3275 3398 50  0001 C CNN
-F 1 "Fuel Fill Hose" H 3275 3075 39  0001 C CNN
-F 2 "" H 3275 3225 50  0001 C CNN
-F 3 "" H 3275 3225 50  0001 C CNN
-	1    3275 3225
+P 3275 3650
+F 0 "Hose1" H 3275 3823 50  0001 C CNN
+F 1 "Fuel Fill Hose" H 3275 3500 39  0001 C CNN
+F 2 "" H 3275 3650 50  0001 C CNN
+F 3 "" H 3275 3650 50  0001 C CNN
+	1    3275 3650
 	0    1    1    0   
 $EndComp
 $Comp
 L PnID:Valve_Needle Valve_Needle1
 U 1 1 6220A0CE
-P 3275 2625
-F 0 "Valve_Needle1" V 3275 2447 50  0001 R CNN
-F 1 "Fuel Bottle Valve" V 3275 5175 39  0001 C CNN
-F 2 "" H 3275 2625 50  0001 C CNN
-F 3 "" H 3275 2625 50  0001 C CNN
-F 4 " " H 3275 2625 50  0001 C CNN "Action_Reference"
-	1    3275 2625
+P 3275 3075
+F 0 "Valve_Needle1" V 3275 2897 50  0001 R CNN
+F 1 "Fuel Bottle Valve" V 3275 5625 39  0001 C CNN
+F 2 "" H 3275 3075 50  0001 C CNN
+F 3 "" H 3275 3075 50  0001 C CNN
+F 4 " " H 3275 3075 50  0001 C CNN "Action_Reference"
+	1    3275 3075
 	0    -1   -1   0   
 $EndComp
 $Comp
 L PnID:Vent Vent2
 U 1 1 6220F2E6
-P 3275 5125
-F 0 "Vent2" V 3117 5253 50  0001 L CNN
-F 1 "Vent" H 3375 5075 50  0001 C CNN
-F 2 "" H 3275 5125 50  0001 C CNN
-F 3 "" H 3275 5125 50  0001 C CNN
-	1    3275 5125
+P 4100 5200
+F 0 "Vent2" V 3942 5328 50  0001 L CNN
+F 1 "Vent" H 4200 5150 50  0001 C CNN
+F 2 "" H 4100 5200 50  0001 C CNN
+F 3 "" H 4100 5200 50  0001 C CNN
+	1    4100 5200
 	0    1    1    0   
 $EndComp
 $Comp
 L PnID:Valve_OverPressure Valve_OverPressure1
 U 1 1 62210540
-P 2775 4575
-F 0 "Valve_OverPressure1" V 2775 4397 20  0001 R CNN
-F 1 "Fuel Fill Safety Valve" H 2775 4355 20  0001 C CNN
-F 2 "" H 2775 4575 20  0001 C CNN
-F 3 "" H 2775 4575 20  0001 C CNN
-F 4 " " H 2775 4575 50  0001 C CNN "Action_Reference"
-	1    2775 4575
+P 3275 4650
+F 0 "Valve_OverPressure1" V 3275 4472 20  0001 R CNN
+F 1 "Fuel Fill Safety Valve" H 3275 4430 20  0001 C CNN
+F 2 "" H 3275 4650 20  0001 C CNN
+F 3 "" H 3275 4650 20  0001 C CNN
+F 4 " " H 3275 4650 50  0001 C CNN "Action_Reference"
+	1    3275 4650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2775 4225 2775 4375
-Wire Wire Line
-	3275 4075 3275 4225
-Connection ~ 3275 4225
-Wire Wire Line
-	3275 4225 2775 4225
-Wire Wire Line
-	3275 4375 3275 4225
-Wire Wire Line
-	3275 4775 3275 4825
+	4100 4850 4100 4900
 $Comp
 L PnID:Vent Vent1
 U 1 1 62213890
-P 2775 5125
-F 0 "Vent1" V 2617 5253 50  0001 L CNN
-F 1 "Vent" H 2875 5075 50  0001 C CNN
-F 2 "" H 2775 5125 50  0001 C CNN
-F 3 "" H 2775 5125 50  0001 C CNN
-	1    2775 5125
+P 3275 5200
+F 0 "Vent1" V 3117 5328 50  0001 L CNN
+F 1 "Vent" H 3375 5150 50  0001 C CNN
+F 2 "" H 3275 5200 50  0001 C CNN
+F 3 "" H 3275 5200 50  0001 C CNN
+	1    3275 5200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2775 4825 2775 4775
+	3275 4900 3275 4850
 Wire Wire Line
-	3275 3675 3275 3625
+	3275 3300 3275 3275
 Wire Wire Line
-	3275 2875 3275 2825
-Wire Wire Line
-	3275 2375 3275 2425
+	3275 2775 3275 2875
 Wire Wire Line
 	4725 4225 4775 4225
 $Comp
@@ -458,8 +447,6 @@ Connection ~ 4025 2225
 Wire Wire Line
 	4025 2225 4025 2325
 Wire Wire Line
-	3275 4225 4125 4225
-Wire Wire Line
 	5225 2675 5225 3025
 Wire Wire Line
 	5425 2675 5425 2825
@@ -533,7 +520,7 @@ L PnID:Valve_Servo M6
 U 1 1 624E3234
 P 6325 5375
 F 0 "M6" V 6350 5850 20  0001 R CNN
-F 1 "ox_main_valve:sensor" V 6325 6500 20  0000 R CNN
+F 1 "ox_main_valve:sensor" V 6325 5975 20  0000 C CNN
 F 2 "" H 6325 5375 20  0001 C CNN
 F 3 "" H 6325 5375 20  0001 C CNN
 F 4 "%" H 6325 5375 20  0001 C CNN "Unit"
@@ -568,7 +555,7 @@ L PnID:Sensor_Pressure_Short P6
 U 1 1 624E3249
 P 6025 5775
 F 0 "P6" H 6000 5925 20  0001 L CNN
-F 1 "ox_injector_pressure:sensor" H 6025 5625 20  0000 C CNN
+F 1 "ox_injector_pressure:sensor" H 5975 5625 20  0000 C CNN
 F 2 "" H 6025 5775 20  0001 C CNN
 F 3 "" H 6025 5775 20  0001 C CNN
 F 4 "bar" H 6025 5775 20  0001 C CNN "Unit"
@@ -603,130 +590,119 @@ $EndComp
 $Comp
 L PnID:Valve_Servo M5
 U 1 1 624E325E
-P 8475 4575
-F 0 "M5" V 8497 4397 20  0001 R CNN
-F 1 "ox_fill_vent_valve:sensor" V 8454 4397 20  0000 R CNN
-F 2 "" H 8475 4575 20  0001 C CNN
-F 3 "" H 8475 4575 20  0001 C CNN
-F 4 "%" H 8475 4575 20  0001 C CNN "Unit"
-F 5 " " H 8475 4575 50  0001 C CNN "Action_Reference"
-	1    8475 4575
+P 7650 4650
+F 0 "M5" V 7672 4472 20  0001 R CNN
+F 1 "ox_fill_vent_valve:sensor" V 7650 4500 20  0000 R CNN
+F 2 "" H 7650 4650 20  0001 C CNN
+F 3 "" H 7650 4650 20  0001 C CNN
+F 4 "%" H 7650 4650 20  0001 C CNN "Unit"
+F 5 " " H 7650 4650 50  0001 C CNN "Action_Reference"
+	1    7650 4650
 	0    1    1    0   
 $EndComp
 $Comp
 L PnID:Valve_Servo M4
 U 1 1 624E3266
-P 8475 3875
-F 0 "M4" V 8497 3697 20  0001 R CNN
-F 1 "ox_fill_valve:sensor" V 8454 3697 20  0000 R CNN
-F 2 "" H 8475 3875 20  0001 C CNN
-F 3 "" H 8475 3875 20  0001 C CNN
-F 4 "%" H 8475 3875 20  0001 C CNN "Unit"
-F 5 " " H 8475 3875 50  0001 C CNN "Action_Reference"
-	1    8475 3875
-	0    1    1    0   
+P 8050 4225
+F 0 "M4" V 8072 4047 20  0001 R CNN
+F 1 "ox_fill_valve:sensor" H 8050 4000 20  0000 C CNN
+F 2 "" H 8050 4225 20  0001 C CNN
+F 3 "" H 8050 4225 20  0001 C CNN
+F 4 "%" H 8050 4225 20  0001 C CNN "Unit"
+F 5 " " H 8050 4225 50  0001 C CNN "Action_Reference"
+	1    8050 4225
+	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:GasBottle GasBottle3
 U 1 1 624E326C
-P 8475 1875
-F 0 "GasBottle3" H 8247 1883 20  0001 R CNN
-F 1 "N2O" H 8475 1775 20  0000 C CNN
-F 2 "" H 8465 1805 20  0001 C CNN
-F 3 "" H 8465 1805 20  0001 C CNN
-	1    8475 1875
+P 8475 2275
+F 0 "GasBottle3" H 8247 2283 20  0001 R CNN
+F 1 "N2O" H 8475 2175 20  0000 C CNN
+F 2 "" H 8465 2205 20  0001 C CNN
+F 3 "" H 8465 2205 20  0001 C CNN
+	1    8475 2275
 	-1   0    0    1   
 $EndComp
 $Comp
 L PnID:Hose Hose4
 U 1 1 624E3272
-P 8475 3225
-F 0 "Hose4" H 8475 3398 50  0001 C CNN
-F 1 "Ox Fill Hose" H 8475 3075 39  0001 C CNN
-F 2 "" H 8475 3225 50  0001 C CNN
-F 3 "" H 8475 3225 50  0001 C CNN
-	1    8475 3225
+P 8475 3650
+F 0 "Hose4" H 8475 3823 50  0001 C CNN
+F 1 "Ox Fill Hose" H 8475 3500 39  0001 C CNN
+F 2 "" H 8475 3650 50  0001 C CNN
+F 3 "" H 8475 3650 50  0001 C CNN
+	1    8475 3650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L PnID:Valve_Needle Valve_Needle2
 U 1 1 624E3279
-P 8475 2625
-F 0 "Valve_Needle2" V 8475 2447 50  0001 R CNN
-F 1 "Ox Bottle valve" V 8475 3100 39  0001 C CNN
-F 2 "" H 8475 2625 50  0001 C CNN
-F 3 "" H 8475 2625 50  0001 C CNN
-F 4 " " H 8475 2625 50  0001 C CNN "Action_Reference"
-	1    8475 2625
+P 8475 3075
+F 0 "Valve_Needle2" V 8475 2897 50  0001 R CNN
+F 1 "Ox Bottle valve" V 8475 3550 39  0001 C CNN
+F 2 "" H 8475 3075 50  0001 C CNN
+F 3 "" H 8475 3075 50  0001 C CNN
+F 4 " " H 8475 3075 50  0001 C CNN "Action_Reference"
+	1    8475 3075
 	0    1    1    0   
 $EndComp
 $Comp
 L PnID:Vent Vent9
 U 1 1 624E327F
-P 8475 5125
-F 0 "Vent9" V 8317 5253 50  0001 L CNN
-F 1 "Vent" H 8575 5075 50  0001 C CNN
-F 2 "" H 8475 5125 50  0001 C CNN
-F 3 "" H 8475 5125 50  0001 C CNN
-	1    8475 5125
+P 7650 5200
+F 0 "Vent9" V 7492 5328 50  0001 L CNN
+F 1 "Vent" H 7750 5150 50  0001 C CNN
+F 2 "" H 7650 5200 50  0001 C CNN
+F 3 "" H 7650 5200 50  0001 C CNN
+	1    7650 5200
 	0    -1   1    0   
 $EndComp
 $Comp
 L PnID:Valve_OverPressure Valve_OverPressure4
 U 1 1 624E3286
-P 8975 4575
-F 0 "Valve_OverPressure4" V 8975 4397 20  0001 R CNN
-F 1 "Ox Fill Safety Valve" H 8975 4355 20  0001 C CNN
-F 2 "" H 8975 4575 20  0001 C CNN
-F 3 "" H 8975 4575 20  0001 C CNN
-F 4 " " H 8975 4575 50  0001 C CNN "Action_Reference"
-	1    8975 4575
+P 8475 4650
+F 0 "Valve_OverPressure4" V 8475 4472 20  0001 R CNN
+F 1 "Ox Fill Safety Valve" H 8475 4430 20  0001 C CNN
+F 2 "" H 8475 4650 20  0001 C CNN
+F 3 "" H 8475 4650 20  0001 C CNN
+F 4 " " H 8475 4650 50  0001 C CNN "Action_Reference"
+	1    8475 4650
 	0    1    1    0   
 $EndComp
 $Comp
 L PnID:Sensor_Pressure_Short P4
 U 1 1 624E328F
-P 8825 3625
-F 0 "P4" V 9000 3650 20  0001 R CNN
-F 1 "ox_fill_pressure:sensor" H 9125 3625 20  0000 C CNN
-F 2 "" H 8825 3625 20  0001 C CNN
-F 3 "" H 8825 3625 20  0001 C CNN
-F 4 "bar" H 8825 3625 20  0001 C CNN "Unit"
-F 5 " " H 8825 3625 50  0001 C CNN "Action_Reference"
-F 6 " " V 8724 3497 50  0000 R CNN "Data_Content"
-	1    8825 3625
+P 8825 4225
+F 0 "P4" V 9000 4250 20  0001 R CNN
+F 1 "ox_fill_pressure:sensor" H 8825 4375 20  0000 C CNN
+F 2 "" H 8825 4225 20  0001 C CNN
+F 3 "" H 8825 4225 20  0001 C CNN
+F 4 "bar" H 8825 4225 20  0001 C CNN "Unit"
+F 5 " " H 8825 4225 50  0001 C CNN "Action_Reference"
+F 6 " " V 8724 4097 50  0000 R CNN "Data_Content"
+	1    8825 4225
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8975 4225 8975 4375
-Wire Wire Line
-	8475 4075 8475 4225
-Connection ~ 8475 4225
-Wire Wire Line
-	8475 4225 8975 4225
-Wire Wire Line
-	8475 4375 8475 4225
-Wire Wire Line
-	8475 4775 8475 4825
+	7650 4850 7650 4900
 $Comp
 L PnID:Vent Vent8
 U 1 1 624E329D
-P 8975 5125
-F 0 "Vent8" V 8817 5253 50  0001 L CNN
-F 1 "Vent" H 9075 5075 50  0001 C CNN
-F 2 "" H 8975 5125 50  0001 C CNN
-F 3 "" H 8975 5125 50  0001 C CNN
-	1    8975 5125
+P 8475 5200
+F 0 "Vent8" V 8317 5328 50  0001 L CNN
+F 1 "Vent" H 8575 5150 50  0001 C CNN
+F 2 "" H 8475 5200 50  0001 C CNN
+F 3 "" H 8475 5200 50  0001 C CNN
+	1    8475 5200
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	8975 4825 8975 4775
+	8475 4900 8475 4850
 Wire Wire Line
-	8475 3675 8475 3625
+	8475 3300 8475 3275
 Wire Wire Line
-	8475 2875 8475 2825
-Wire Wire Line
-	8475 2375 8475 2425
+	8475 2775 8475 2875
 Wire Wire Line
 	7025 4225 6975 4225
 $Comp
@@ -971,8 +947,6 @@ Connection ~ 7725 2225
 Wire Wire Line
 	7725 2225 7725 2325
 Wire Wire Line
-	8475 4225 7625 4225
-Wire Wire Line
 	6525 2675 6525 3025
 Wire Wire Line
 	6325 2675 6325 2825
@@ -1044,15 +1018,15 @@ Wire Wire Line
 $Comp
 L PnID:Valve_Servo M1
 U 1 1 622010F7
-P 3275 3875
-F 0 "M1" V 3297 3697 20  0001 R CNN
-F 1 "fuel_fill_valve:sensor" V 3275 3400 20  0000 R CNN
-F 2 "" H 3275 3875 20  0001 C CNN
-F 3 "" H 3275 3875 20  0001 C CNN
-F 4 "%" H 3275 3875 20  0001 C CNN "Unit"
-F 5 " " H 3275 3875 50  0001 C CNN "Action_Reference"
-	1    3275 3875
-	0    -1   -1   0   
+P 3675 4225
+F 0 "M1" V 3697 4047 20  0001 R CNN
+F 1 "fuel_fill_valve:sensor" V 3675 3750 20  0000 R CNN
+F 2 "" H 3675 4225 20  0001 C CNN
+F 3 "" H 3675 4225 20  0001 C CNN
+F 4 "%" H 3675 4225 20  0001 C CNN "Unit"
+F 5 " " H 3675 4225 50  0001 C CNN "Action_Reference"
+	1    3675 4225
+	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:igniter igniter1
@@ -1093,25 +1067,25 @@ $EndComp
 $Comp
 L PnID:heater heater3
 U 1 1 626E3491
-P 2875 2025
-F 0 "heater3" H 2675 2115 20  0001 C CNN
-F 1 "fuel_fill_heat:sensor" H 2747 2025 20  0001 R CNN
-F 2 "" H 2875 2025 50  0001 C CNN
-F 3 "" H 2875 2025 50  0001 C CNN
-F 4 "A" H 2875 2025 50  0001 C CNN "Unit"
-	1    2875 2025
+P 2875 2500
+F 0 "heater3" H 2675 2590 20  0001 C CNN
+F 1 "fuel_fill_heat:sensor" H 2747 2500 20  0001 R CNN
+F 2 "" H 2875 2500 50  0001 C CNN
+F 3 "" H 2875 2500 50  0001 C CNN
+F 4 "A" H 2875 2500 50  0001 C CNN "Unit"
+	1    2875 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:heater heater4
 U 1 1 626E79D6
-P 8875 2025
-F 0 "heater4" H 8675 2115 20  0001 C CNN
-F 1 "ox_fill_heat:sensor" H 8747 2025 20  0001 R CNN
-F 2 "" H 8875 2025 50  0001 C CNN
-F 3 "" H 8875 2025 50  0001 C CNN
-F 4 "A" H 8875 2025 50  0001 C CNN "Unit"
-	1    8875 2025
+P 8875 2500
+F 0 "heater4" H 8675 2590 20  0001 C CNN
+F 1 "ox_fill_heat:sensor" H 8747 2500 20  0001 R CNN
+F 2 "" H 8875 2500 50  0001 C CNN
+F 3 "" H 8875 2500 50  0001 C CNN
+F 4 "A" H 8875 2500 50  0001 C CNN "Unit"
+	1    8875 2500
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1141,39 +1115,63 @@ $EndComp
 $Comp
 L PnID:Sensor_Thrust_Short Sensor_Thrust_Short1
 U 1 1 626FD0C0
-P 5875 5350
-F 0 "Sensor_Thrust_Short1" V 5884 5222 20  0001 R CNN
-F 1 "thrust_force:sensor" V 6025 5350 20  0000 C CNN
-F 2 "" H 5875 5350 20  0001 C CNN
-F 3 "" H 5875 5350 20  0001 C CNN
-F 4 "N" H 5875 5350 20  0001 C CNN "Unit"
-F 5 " " H 5875 5350 50  0001 C CNN "Action_Reference"
-F 6 " " V 5796 5222 50  0000 R CNN "Data_Content"
-	1    5875 5350
+P 5875 5225
+F 0 "Sensor_Thrust_Short1" V 5884 5097 20  0001 R CNN
+F 1 "thrust_force:sensor" V 6025 5225 20  0000 C CNN
+F 2 "" H 5875 5225 20  0001 C CNN
+F 3 "" H 5875 5225 20  0001 C CNN
+F 4 "N" H 5875 5225 20  0001 C CNN "Unit"
+F 5 " " H 5875 5225 50  0001 C CNN "Action_Reference"
+F 6 " " V 5796 5097 50  0000 R CNN "Data_Content"
+	1    5875 5225
 	0    -1   -1   0   
 $EndComp
 $Comp
 L PnID:Sensor_Pressure_Short P1
 U 1 1 62212035
-P 2925 3625
-F 0 "P1" V 3100 3650 20  0001 R CNN
-F 1 "fuel_fill_pressure:sensor" H 3225 3625 20  0000 C CNN
-F 2 "" H 2925 3625 20  0001 C CNN
-F 3 "" H 2925 3625 20  0001 C CNN
-F 4 "bar" H 2925 3625 20  0001 C CNN "Unit"
-F 5 " " H 2925 3625 50  0001 C CNN "Action_Reference"
-F 6 " " V 2824 3497 50  0000 R CNN "Data_Content"
-	1    2925 3625
+P 2925 4225
+F 0 "P1" V 3100 4250 20  0001 R CNN
+F 1 "fuel_fill_pressure:sensor" H 2925 4075 20  0000 C CNN
+F 2 "" H 2925 4225 20  0001 C CNN
+F 3 "" H 2925 4225 20  0001 C CNN
+F 4 "bar" H 2925 4225 20  0001 C CNN "Unit"
+F 5 " " H 2925 4225 50  0001 C CNN "Action_Reference"
+F 6 " " V 2824 4097 50  0000 R CNN "Data_Content"
+	1    2925 4225
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3125 3625 3275 3625
-Connection ~ 3275 3625
+	4125 4225 4100 4225
 Wire Wire Line
-	3275 3625 3275 3575
+	4100 4225 4100 4450
+Connection ~ 4100 4225
 Wire Wire Line
-	8625 3625 8475 3625
-Connection ~ 8475 3625
+	4100 4225 3875 4225
 Wire Wire Line
-	8475 3625 8475 3575
+	7625 4225 7650 4225
+Wire Wire Line
+	7650 4225 7650 4450
+Connection ~ 7650 4225
+Wire Wire Line
+	7650 4225 7850 4225
+Wire Wire Line
+	8250 4225 8475 4225
+Connection ~ 8475 4225
+Wire Wire Line
+	8475 4225 8475 4450
+Wire Wire Line
+	3475 4225 3275 4225
+Connection ~ 3275 4225
+Wire Wire Line
+	3275 4225 3275 4450
+Wire Wire Line
+	3125 4225 3275 4225
+Wire Wire Line
+	3275 4000 3275 4225
+Wire Wire Line
+	8475 4000 8475 4225
+Wire Wire Line
+	8625 4225 8475 4225
+Wire Wire Line
+	5875 5425 5875 5875
 $EndSCHEMATC
