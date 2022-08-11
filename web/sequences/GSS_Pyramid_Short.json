@@ -1,0 +1,183 @@
+{
+	"globals":
+	{
+		"startTime": -10,
+		"endTime": 30,
+		"interval": 0.01,
+		"interpolation":
+		{
+			"fuel_press_solenoid:SetState": "none",
+			"fuel_vent_solenoid:SetState": "none",
+			"ox_press_solenoid:SetState": "none",
+			"ox_vent_solenoid:SetState": "none",
+			"ignition_enable:SetState": "none",
+			"fuel_main_valve:SetTargetPosition": "linear",
+			"ox_main_valve:SetTargetPosition": "linear",
+			"injector_servo:SetTargetPosition": "linear"
+		},
+		"ranges":
+		[
+			"chamber_pressure"
+		]
+	},
+	"data":
+	[
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "set all to zero",
+			"actions":
+			[
+				{
+					"timestamp": 0.0,
+					"fuel_press_solenoid:SetState": [0],
+					"fuel_vent_solenoid:SetState": [0],
+					"ox_press_solenoid:SetState": [0],
+					"ox_vent_solenoid:SetState": [0],
+					"ignition_enable:SetState": [0],
+					"fuel_main_valve:SetTargetPosition": [0],
+                    "ox_main_valve:SetTargetPosition": [0],
+					"injector_servo:SetTargetPosition": [0],
+					"sensorsNominalRange":
+					{
+						"chamber_pressure": [-5, 20]
+					}
+				}
+			]
+		},
+		{
+			"timestamp": -5.0,
+			"name": "press",
+			"desc": "pressurize tanks",
+			"actions":
+			[
+                {
+					"timestamp": 0.0,
+					"fuel_press_solenoid:SetState": [65000]
+				},
+				{
+					"timestamp": 0.5,
+					"ox_press_solenoid:SetState": [65000]
+				}
+				
+			]
+		},
+		{
+			"timestamp": -1.0,
+			"name": "ignition",
+			"desc": "lets go",
+			"actions":
+			[
+				{
+					"timestamp": 0.0,
+					"ignition_enable:SetState": [0]
+				},
+				{
+					"timestamp": 0.1,
+					"ignition_enable:SetState": [65000],
+					"fuel_main_valve:SetTargetPosition": [0],
+					"ox_main_valve:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 1.0,
+					"fuel_main_valve:SetTargetPosition": [65000],
+					"ox_main_valve:SetTargetPosition": [65000]
+				},
+                {
+					"timestamp": 3.0,
+					"injector_servo:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 4.0,
+					"injector_servo:SetTargetPosition": [65000],
+					"ignition_enable:SetState": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 4.0,
+			"name": "shutdown",
+			"desc": "we are done here",
+			"actions":
+			[
+				{
+					"timestamp": 0,
+					"injector_servo:SetTargetPosition": [65000]
+				},
+				{
+					"timestamp": 1.0,
+					"injector_servo:SetTargetPosition": [0]
+				},
+				{
+					"timestamp": 2.5,
+					"fuel_main_valve:SetTargetPosition": [65000],
+					"ox_main_valve:SetTargetPosition": [65000]
+				},
+				{
+					"timestamp": 3.0,
+					"fuel_main_valve:SetTargetPosition": [0],
+					"ox_main_valve:SetTargetPosition": [0]
+				}
+			]
+		},
+        {
+			"timestamp": 9.0,
+			"name": "purge",
+			"desc": "vent injector pressures",
+			"actions":
+			[
+				{
+					"timestamp": 0.0,
+					"injector_servo:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 2.0,
+					"injector_servo:SetTargetPosition": [65000]
+				},
+                {
+					"timestamp": 3.0,
+					"injector_servo:SetTargetPosition": [65000]
+				},
+                {
+					"timestamp": 5.0,
+					"injector_servo:SetTargetPosition": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 15,
+			"name": "depress",
+			"desc": "depressurize tanks",
+			"actions":
+			[
+                {
+					"timestamp": 0.0,
+					"fuel_press_solenoid:SetState": [0]
+				},
+				{
+					"timestamp": 0.5,
+					"ox_press_solenoid:SetState": [0]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions":
+			[
+				{
+					"timestamp": 0.0,
+					"fuel_press_solenoid:SetState": [0],
+					"fuel_vent_solenoid:SetState": [0],
+					"ox_press_solenoid:SetState": [0],
+					"ox_vent_solenoid:SetState": [0],
+					"ignition_enable:SetState": [0],
+					"fuel_main_valve:SetTargetPosition": [0],
+                    "ox_main_valve:SetTargetPosition": [0],
+					"injector_servo:SetTargetPosition": [0]
+				}
+			]
+		}
+	]
+}
