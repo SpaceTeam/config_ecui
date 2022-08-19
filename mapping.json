@@ -51,10 +51,9 @@
             
             "22" : {"stringID" : "unused_ecu1_out_0"},
             "23" : {"stringID" : "unused_ecu1_out_1"},
-            "25" : {"stringID" : "unused_ecu1_out_3"},
-            "26" : {"stringID" : "unused_ecu1_out_4"},
             "28" : {"stringID" : "ox_tank_cool"},
-            "29" : {"stringID" : "ox_tank_heat"}
+            "29" : {"stringID" : "ox_tank_heat"},
+            "30" : {"stringID" : "fuel_tank_fill_level"}
         },
         "2" : {
             "stringID" : "ecu_io_2",
@@ -115,10 +114,9 @@
             
             "22" : {"stringID" : "fuel_tank_cool"},
             "23" : {"stringID" : "fuel_tank_heat"},
-            "25" : {"stringID" : "unused_ecu2_out_3"},
-            "26" : {"stringID" : "unused_ecu2_out_4"},
             "28" : {"stringID" : "fuel_fill_heat"},
-            "29" : {"stringID" : "ox_fill_heat"}
+            "29" : {"stringID" : "ox_fill_heat"},
+            "30" : {"stringID" : "ox_tank_fill_level"}
         },
         "3" : {
             "stringID" : "engine_control_unit",
