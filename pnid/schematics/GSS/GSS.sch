@@ -1174,4 +1174,32 @@ Wire Wire Line
 	8625 4225 8475 4225
 Wire Wire Line
 	5875 5425 5875 5875
+$Comp
+L PnID:Sensor_Load_Short L1
+U 1 1 630034C2
+P 5775 3275
+F 0 "L1" H 5775 3400 20  0001 C CNN
+F 1 "fuel_tank_fill_level:sensor" H 5725 3425 20  0000 C CNN
+F 2 "" H 5775 3275 20  0001 C CNN
+F 3 "" H 5775 3275 20  0001 C CNN
+F 4 "%" H 5775 3275 20  0001 C CNN "Unit"
+F 5 " " H 5775 3275 50  0001 C CNN "Action_Reference"
+F 6 " " H 5903 3232 50  0000 L CNN "Data_Content"
+	1    5775 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L PnID:Sensor_Load_Short L?
+U 1 1 630099C5
+P 5975 3275
+F 0 "L?" H 5975 3400 20  0001 C CNN
+F 1 "fuel_tank_fill_level:sensor" H 5925 3125 20  0000 C CNN
+F 2 "" H 5975 3275 20  0001 C CNN
+F 3 "" H 5975 3275 20  0001 C CNN
+F 4 "%" H 5975 3275 20  0001 C CNN "Unit"
+F 5 " " H 5975 3275 50  0001 C CNN "Action_Reference"
+F 6 " " H 6103 3232 50  0000 L CNN "Data_Content"
+	1    5975 3275
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
