@@ -3,14 +3,16 @@
   "autoabort": false,
   "DEBUG": {
       "printWarnings": true,
-      "printInfos": false
+      "printInfos": true
   },
   "socket_msg_size": 65536,
+  "use_lora": false,
   "CAN" :
   {
     "node_count" : 3,
     "DRIVER" : "SocketCAN",
-    "DEVICE": ["can0"]
+    "DEVICE": ["can0"],
+    "canBusChannelIDs": [0]
   },
   "LLSERVER" :
   {
