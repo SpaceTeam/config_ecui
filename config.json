@@ -1,5 +1,6 @@
 {
   "version": "GSS",
+  "no_user_input_start": true,
   "autoabort": false,
   "DEBUG": {
       "printWarnings": true,
