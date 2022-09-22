@@ -1,6 +1,7 @@
 {
     "version": "1.3.0@uHoubolt",
     "autoabort": false,
+    "pyenv": "/home/teststand/.local/lib/python3.8/site-packages",
     "DEBUG": {
         "printWarnings": false,
         "printInfos": false

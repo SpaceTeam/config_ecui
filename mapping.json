@@ -160,70 +160,100 @@
                 "slope": 0.00010071,
                 "stringID": "pmu_5V_high_load_voltage"
             },
-            "8": {
-                "offset": 0,
-                "slope": 0.00024414,
-                "stringID": "pmu_barometer"
-            },
-            "9": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "pmu_accel_x"
-            },
-            "10": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "pmu_accel_y"
-            },
-            "11": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "pmu_accel_z"
-            },
-            "12": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "pmu_gyro_x"
-            },
-            "13": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "pmu_gyro_y"
-            },
-            "14": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "pmu_gyro_z"
-            },
             "2": {
                 "offset": 0,
-                "slope": 0.00033234,
-                "stringID": "battery_voltage"
+                "slope": 1.0,
+                "stringID": "pmu_12V_voltage"
             },
             "3": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "camera0"
-            },
-            "6": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "camera1"
-            },
-            "5": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_pmu_out2"
+                "stringID": "pmu_battery_voltage"
             },
             "4": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "unused_pmu_out3"
+                "stringID": "pmu_pyro_voltage"
+            },
+            "5": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "pmu_supply_current"
+            },
+            "6": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "umbilical_voltage_ok"
             },
             "7": {
                 "offset": 0,
                 "slope": 1.0,
+                "stringID": "charging_ok"
+            },
+            "8": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "charging_enabled"
+            },
+            "9": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "pmu_unused_out0_9"
+            },
+            "10": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "pmu_unused_out1_10"
+            },
+            "11": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "pmu_unused_out2_11"
+            },
+            "12": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "pmu_unused_out3_12"
+            },
+            "13": {
+                "offset": 0,
+                "slope": 1.0,
                 "stringID": "payload_interface"
+            },
+            "14": {
+                "offset": 0,
+                "slope": 0.00024414,
+                "stringID": "pmu_barometer"
+            },
+            "15": {
+                "offset": -16,
+                "slope": 0.0078125,
+                "stringID": "pmu_accel_x"
+            },
+            "16": {
+                "offset": -16,
+                "slope": 0.0078125,
+                "stringID": "pmu_accel_y"
+            },
+            "17": {
+                "offset": -16,
+                "slope": 0.0078125,
+                "stringID": "pmu_accel_z"
+            },
+            "18": {
+                "offset": -2000,
+                "slope": 0.97656,
+                "stringID": "pmu_gyro_x"
+            },
+            "19": {
+                "offset": -2000,
+                "slope": 0.97656,
+                "stringID": "pmu_gyro_y"
+            },
+            "20": {
+                "offset": -2000,
+                "slope": 0.97656,
+                "stringID": "pmu_gyro_z"
             },
             "stringID": "pmu"
         },
@@ -522,70 +552,100 @@
                 "slope": 0.00010071,
                 "stringID": "lora:pmu_5V_high_load_voltage"
             },
-            "8": {
-                "offset": 0,
-                "slope": 0.00024414,
-                "stringID": "lora:pmu_barometer"
-            },
-            "9": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "lora:pmu_accel_x"
-            },
-            "10": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "lora:pmu_accel_y"
-            },
-            "11": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "lora:pmu_accel_z"
-            },
-            "12": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "lora:pmu_gyro_x"
-            },
-            "13": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "lora:pmu_gyro_y"
-            },
-            "14": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "lora:pmu_gyro_z"
-            },
             "2": {
                 "offset": 0,
-                "slope": 0.00033234,
-                "stringID": "lora:battery_voltage"
+                "slope": 1.0,
+                "stringID": "lora:pmu_12V_voltage"
             },
             "3": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "lora:camera0"
-            },
-            "6": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:camera1"
-            },
-            "5": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:unused_pmu_out2"
+                "stringID": "lora:pmu_battery_voltage"
             },
             "4": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "lora:unused_pmu_out3"
+                "stringID": "lora:pmu_pyro_voltage"
+            },
+            "5": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:pmu_supply_current"
+            },
+            "6": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:umbilical_voltage_ok"
             },
             "7": {
                 "offset": 0,
                 "slope": 1.0,
+                "stringID": "lora:charging_ok"
+            },
+            "8": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:charging_enabled"
+            },
+            "9": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:pmu_unused_out0_9"
+            },
+            "10": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:pmu_unused_out1_10"
+            },
+            "11": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:pmu_unused_out2_11"
+            },
+            "12": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:pmu_unused_out3_12"
+            },
+            "13": {
+                "offset": 0,
+                "slope": 1.0,
                 "stringID": "lora:payload_interface"
+            },
+            "14": {
+                "offset": 0,
+                "slope": 0.00024414,
+                "stringID": "lora:pmu_barometer"
+            },
+            "15": {
+                "offset": -16,
+                "slope": 0.0078125,
+                "stringID": "lora:pmu_accel_x"
+            },
+            "16": {
+                "offset": -16,
+                "slope": 0.0078125,
+                "stringID": "lora:pmu_accel_y"
+            },
+            "17": {
+                "offset": -16,
+                "slope": 0.0078125,
+                "stringID": "lora:pmu_accel_z"
+            },
+            "18": {
+                "offset": -2000,
+                "slope": 0.97656,
+                "stringID": "lora:pmu_gyro_x"
+            },
+            "19": {
+                "offset": -2000,
+                "slope": 0.97656,
+                "stringID": "lora:pmu_gyro_y"
+            },
+            "20": {
+                "offset": -2000,
+                "slope": 0.97656,
+                "stringID": "lora:pmu_gyro_z"
             },
             "stringID": "lora:pmu"
         },
