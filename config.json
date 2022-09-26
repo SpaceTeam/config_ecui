@@ -11,7 +11,7 @@
     "LOGGING": {
         "post_sequence_script": "scripts/plot.sh"
     },
-    "use_lora": true,
+    "use_lora": false,
     "LORA": {
         "ip": "192.168.1.7",
         "port": 5001,
