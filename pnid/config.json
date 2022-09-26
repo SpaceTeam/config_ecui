@@ -332,12 +332,12 @@
             {
                 "type": "display",
                 "style": "text",
-                "variable": "charging_enabled"
+                "variable": "gui-charging_enabled"
             },
             {
                 "type": "input",
                 "style": "checkbox",
-                "variable": "charging_enabled",
+                "variable": "gui-charging_enabled",
                 "low": "0",
                 "high": "1"
             },
@@ -348,32 +348,32 @@
             {
                 "type": "display",
                 "style": "text",
-                "variable": "pmu_5V_voltage:sensor"
+                "variable": "pmu_5V_voltage-sensor"
             },
             {
                 "type": "display",
                 "style": "text",
-                "variable": "pmu_5V_high_load_voltage:sensor"
+                "variable": "pmu_5V_high_load_voltage-sensor"
             },
             {
                 "type": "display",
                 "style": "text",
-                "variable": "pmu_12V_voltage:sensor"
+                "variable": "pmu_12V_voltage-sensor"
             },
             {
                 "type": "display",
                 "style": "text",
-                "variable": "battery_voltage:sensor"
+                "variable": "battery_voltage-sensor"
             },
             {
                 "type": "display",
                 "style": "text",
-                "variable": "pmu_pyro_voltage:sensor"
+                "variable": "pmu_pyro_voltage-sensor"
             },
             {
                 "type": "display",
                 "style": "text",
-                "variable": "pmu_supply_current:sensor"
+                "variable": "pmu_supply_current-sensor"
             }
         ]
 	}
