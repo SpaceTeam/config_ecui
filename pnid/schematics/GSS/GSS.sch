@@ -1189,10 +1189,10 @@ F 6 " " H 5903 3232 50  0000 L CNN "Data_Content"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PnID:Sensor_Load_Short L?
+L PnID:Sensor_Load_Short L2
 U 1 1 630099C5
 P 5975 3275
-F 0 "L?" H 5975 3400 20  0001 C CNN
+F 0 "L2" H 5975 3400 20  0001 C CNN
 F 1 "ox_tank_fill_level:sensor" H 5775 3125 20  0000 C CNN
 F 2 "" H 5975 3275 20  0001 C CNN
 F 3 "" H 5975 3275 20  0001 C CNN
@@ -1201,5 +1201,18 @@ F 5 " " H 5975 3275 50  0001 C CNN "Action_Reference"
 F 6 " " H 6103 3232 50  0000 L CNN "Data_Content"
 	1    5975 3275
 	-1   0    0    1   
+$EndComp
+$Comp
+L PnID:Sensor_MassFlow I1
+U 1 1 6320491F
+P 6700 6100
+F 0 "I1" H 6700 6455 20  0001 C CNN
+F 1 "injector_servo_current:sensor" H 6700 6249 20  0000 C CNN
+F 2 "" H 6700 6100 20  0001 C CNN
+F 3 "" H 6700 6100 20  0001 C CNN
+F 4 "A" H 6700 6273 50  0001 C CNN "Unit"
+F 5 " " H 6700 6100 20  0001 C CNN "Action_Reference"
+	1    6700 6100
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
