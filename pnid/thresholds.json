@@ -48,6 +48,9 @@
     "waterTemps": {
         "notconnected": 2000
     },
+    "tempSens": {
+        "notconnected": 2000
+    },
     "pump": {
         "high": 1
     },
