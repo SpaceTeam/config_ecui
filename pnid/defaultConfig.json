@@ -279,7 +279,7 @@
         ]
     },
     "PnID-Sensor_Temperature": {
-        "eval": "if (inVars['value'] > 30) { outVars['color']='high' } else if (inVars['value'] > -200) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
+        "eval": "if (inVars['value'] > thresholds['waterTemps']['notconnected']) { outVars['color']='notconnected'; outVars['value']='NC' } else if (inVars['value'] > 30) { outVars['color']='high' } else if (inVars['value'] > -200) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
 	    "popup": [
             {
                 "type": "display",
