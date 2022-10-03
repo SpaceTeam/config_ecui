@@ -348,31 +348,37 @@
             {
                 "type": "display",
                 "style": "text",
+                "label": "5V",
                 "variable": "pmu_5V_voltage-sensor"
             },
             {
                 "type": "display",
                 "style": "text",
+                "label": "5V High Load",
                 "variable": "pmu_5V_high_load_voltage-sensor"
             },
             {
                 "type": "display",
                 "style": "text",
+                "label": "12V",
                 "variable": "pmu_12V_voltage-sensor"
             },
             {
                 "type": "display",
                 "style": "text",
+                "label": "Battery",
                 "variable": "battery_voltage-sensor"
             },
             {
                 "type": "display",
                 "style": "text",
+                "label": "Pyro",
                 "variable": "pmu_pyro_voltage-sensor"
             },
             {
                 "type": "display",
                 "style": "text",
+                "label": "Supply Current",
                 "variable": "pmu_supply_current-sensor"
             }
         ]
