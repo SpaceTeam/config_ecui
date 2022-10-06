@@ -77,11 +77,6 @@
         "eval": "if (inVars['value'] > 0) { outVars['color']='on'; } else { outVars['color']='off'; } outVars['value']=inVars['this'].replace('-',' ');",
 	    "popup": [
             {
-                "type": "display",
-                "style": "text",
-                "variable": "value"
-            },
-            {
                 "type": "input",
                 "style": "button",
                 "variable": "value",

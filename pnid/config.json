@@ -324,6 +324,25 @@
         ],
         "eval": "if (inVars['value'] >= thresholds['motor']['high']) { outVars['color']='open'; outVars['value']='Retract' } else { outVars['color']='closed'; outVars['value']='Stop' }"
 	},
+	"logging_label": {
+        "states": [
+            "gui:Logging"
+        ],
+        "popup": [
+            {
+                "type": "display",
+                "style": "text",
+                "variable": "value"
+            },
+            {
+                "type": "input",
+                "style": "checkbox",
+                "variable": "value",
+                "low": "0",
+                "high": "1"
+            }
+        ]
+	},
 	"voltages_label": {
         "states": [
             "Voltages_Currents"
