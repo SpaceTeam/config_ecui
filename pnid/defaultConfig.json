@@ -83,7 +83,7 @@
             },
             {
                 "type": "input",
-                "style": "checkbox",
+                "style": "button",
                 "variable": "value",
                 "low": "0",
                 "high": "1"
