@@ -85,8 +85,7 @@
                 "type": "input",
                 "style": "button",
                 "variable": "value",
-                "low": "0",
-                "high": "1"
+                "label": "value"
             }
         ]
     },
