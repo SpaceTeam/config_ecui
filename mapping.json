@@ -47,7 +47,7 @@
                 "slope": 0.003735,
                 "stringID": "ox_tank_pressure"
             },
-            "10": {
+            "9": {
                 "offset": 0,
                 "slope": 1.0,
                 "stringID": "unused_ecu_servo"
@@ -67,22 +67,22 @@
                 "slope": -1.0,
                 "stringID": "igniter0_cont"
             },
-            "14": {
+            "16": {
                 "offset": 0,
                 "slope": 1.0,
                 "stringID": "unused_ecu_pyro"
             },
-            "15": {
+            "17": {
                 "offset": 1.0,
                 "slope": -1.0,
                 "stringID": "unused_ecu_pyro_cont"
             },
-            "16": {
+            "14": {
                 "offset": 0,
                 "slope": 1.0,
                 "stringID": "igniter1"
             },
-            "17": {
+            "15": {
                 "offset": 1.0,
                 "slope": -1.0,
                 "stringID": "igniter1_cont"
@@ -142,7 +142,7 @@
                 "slope": 0.043258,
                 "stringID": "ox_tank_top_temp"
             },
-            "9": {
+            "10": {
                 "offset": 0,
                 "slope": 1.0,
                 "stringID": "ox_main_valve"
@@ -322,8 +322,8 @@
         },
         "9": {
             "0": {
-                "offset": 0.0,
-                "slope": 1.0,
+                "offset": 18.534,
+                "slope": 0.1251,
                 "stringID": "scale"
             },
             "1": {
@@ -878,6 +878,12 @@
             {
                 "command": "rocket:SetRocketState",
                 "parameters": [0]
+            }
+        ],
+        "gui:rocket:RequestResetSettings": [
+            {
+                "command": "rocket:RequestResetSettings",
+                "parameters": []
             }
         ],
         "gui:rocket:SetHolddownTimeout": [
