@@ -11,13 +11,13 @@
     "LOGGING": {
         "post_sequence_script": "scripts/plot.sh"
     },
-    "use_lora": false,
+    "use_lora": true,
     "LORA": {
         "ip": "192.168.1.7",
         "port": 5001,
-        "nodeIDsRef": [6, 7, 8],
-        "nodeIDs": [16, 17, 18],
-        "canMsgSizes": [51, 35, 29]
+        "nodeIDsRef": [8],
+        "nodeIDs": [18],
+        "canMsgSizes": [39]
     },
     "CAN": {
         "node_count": 9,
@@ -35,6 +35,23 @@
                 "time_segment_1": 7,
                 "time_segment_2": 2,
                 "sync_jump_width": 1
+            }
+        },
+        "BUS_EXTRA": {
+        	"2" : {
+		        "ARBITRATION": {
+		            "bitrate": 1000000,
+		            "time_segment_1": 23,
+		            "time_segment_2": 16,
+		            "sync_jump_width": 1,
+		            "no_sampling_points": 1
+		        },
+		        "DATA": {
+		            "bitrate": 4000000,
+		            "time_segment_1": 7,
+		            "time_segment_2": 2,
+		            "sync_jump_width": 2
+		        }
             }
         },
         "DRIVER": "Kvaser",

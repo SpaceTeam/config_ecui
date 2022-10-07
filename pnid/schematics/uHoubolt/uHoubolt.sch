@@ -1103,7 +1103,7 @@ L PnID:LED ecu_logging_en?
 U 1 1 6331F5F7
 P 3550 4300
 F 0 "ecu_logging_en?" H 3472 4283 20  0001 R CNN
-F 1 "umbilical_voltage_ok" H 3550 4450 20  0000 C CNN
+F 1 "umbilical_voltage_ok:sensor" H 3550 4450 20  0000 C CNN
 F 2 "" H 3550 4300 20  0001 C CNN
 F 3 "" H 3550 4300 20  0001 C CNN
 	1    3550 4300
@@ -1114,10 +1114,21 @@ L PnID:LED rcu_logging_en?
 U 1 1 6331F603
 P 4415 4300
 F 0 "rcu_logging_en?" H 4337 4283 20  0001 R CNN
-F 1 "charging_ok" H 4415 4450 20  0000 C CNN
+F 1 "charging_ok:sensor" H 4415 4450 20  0000 C CNN
 F 2 "" H 4415 4300 20  0001 C CNN
 F 3 "" H 4415 4300 20  0001 C CNN
 	1    4415 4300
 	-1   0    0    1   
+$EndComp
+$Comp
+L PnID:Label Logging?
+U 1 1 633F6CDB
+P 9380 5635
+F 0 "Logging?" H 9380 5855 50  0001 C CNN
+F 1 "LoraEnabled" H 9380 5635 50  0000 C CNN
+F 2 "" H 9380 5635 50  0001 C CNN
+F 3 "" H 9380 5635 50  0001 C CNN
+	1    9380 5635
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

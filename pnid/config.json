@@ -324,9 +324,9 @@
         ],
         "eval": "if (inVars['value'] >= thresholds['motor']['high']) { outVars['color']='open'; outVars['value']='Retract' } else { outVars['color']='closed'; outVars['value']='Stop' }"
 	},
-	"logging_label": {
+	"flash_clear_label": {
         "states": [
-            "gui:Logging"
+            "gui:Flash:Clear"
         ],
         "popup": [
             {
@@ -336,10 +336,9 @@
             },
             {
                 "type": "input",
-                "style": "checkbox",
+                "style": "button",
                 "variable": "value",
-                "low": "0",
-                "high": "1"
+                "label": "value"
             }
         ]
 	},

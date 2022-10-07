@@ -152,32 +152,32 @@
         "7": {
             "0": {
                 "offset": 0,
-                "slope": 0.00048828,
+                "slope": 0.00010071,
                 "stringID": "pmu_5V_voltage"
             },
             "1": {
                 "offset": 0,
-                "slope": 0.00048828,
+                "slope": 0.00010071,
                 "stringID": "pmu_5V_high_load_voltage"
             },
             "2": {
                 "offset": 0,
-                "slope": 0.00161133,
+                "slope": 0.00033234,
                 "stringID": "pmu_12V_voltage"
             },
             "3": {
                 "offset": 0,
-                "slope": 0.00161133,
+                "slope": 0.00033234,
                 "stringID": "battery_voltage"
             },
             "4": {
                 "offset": 0,
-                "slope": 0.00161133,
+                "slope": 0.00033234,
                 "stringID": "pmu_pyro_voltage"
             },
             "5": {
                 "offset": 0,
-                "slope": 2.44140625,
+                "slope": 0.50354772,
                 "stringID": "pmu_supply_current"
             },
             "6": {
@@ -198,12 +198,12 @@
             "9": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "pmu_unused_out0_9"
+                "stringID": "camera0"
             },
             "10": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "pmu_unused_out1_10"
+                "stringID": "camera1"
             },
             "11": {
                 "offset": 0,
@@ -270,7 +270,7 @@
             },
             "10": {
                 "offset": 0,
-                "slope": 1.0,
+                "slope": 0.0000001,
                 "stringID": "gps_latitude"
             },
             "11": {
@@ -315,8 +315,13 @@
             },
             "9": {
                 "offset": 0,
-                "slope": 1.0,
+                "slope": 0.0000001,
                 "stringID": "gps_longitude"
+            },
+            "12": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "gps_status"
             },
             "stringID": "rcu"
         },
@@ -662,7 +667,7 @@
             },
             "10": {
                 "offset": 0,
-                "slope": 1.0,
+                "slope": 0.0000001,
                 "stringID": "lora:gps_latitude"
             },
             "11": {
@@ -707,8 +712,13 @@
             },
             "9": {
                 "offset": 0,
-                "slope": 1.0,
+                "slope": 0.0000001,
                 "stringID": "lora:gps_longitude"
+            },
+            "12": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:gps_status"
             },
             "stringID": "lora:rcu"
         }
@@ -836,18 +846,24 @@
                 "parameters": ["gui:Logging"]
             }
         ],
+        "gui:LoraEnabled": [
+            {
+                "command": "ecu:SetLoraEnabled",
+                "parameters": ["gui:LoraEnabled"]
+            }
+        ],
         "gui:Flash:Clear": [
             {
                 "command": "ecu:RequestFlashClear",
-                "parameters": ["gui:Flash:Clear"]
+                "parameters": []
             },
             {
                 "command": "pmu:RequestFlashClear",
-                "parameters": ["gui:Flash:Clear"]
+                "parameters": []
             },
             {
                 "command": "rcu:RequestFlashClear",
-                "parameters": ["gui:Flash:Clear"]
+                "parameters": []
             }
         ],
         "ecu:FlashStatus": [

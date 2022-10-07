@@ -78,9 +78,10 @@
 	    "popup": [
             {
                 "type": "input",
-                "style": "button",
+                "style": "checkbox",
                 "variable": "value",
-                "label": "value"
+                "low": "0",
+                "high": "1"
             }
         ]
     },

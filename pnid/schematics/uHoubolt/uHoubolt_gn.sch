@@ -314,4 +314,15 @@ F 3 "" H 10095 5075 20  0001 C CNN
 	1    10095 5075
 	-1   0    0    1   
 $EndComp
+$Comp
+L PnID:LED ecu_flash_status?
+U 1 1 633E1C16
+P 3510 5495
+F 0 "ecu_flash_status?" H 3432 5478 20  0001 R CNN
+F 1 "lora:gps_status:sensor" H 3510 5610 20  0000 C CNN
+F 2 "" H 3510 5495 20  0001 C CNN
+F 3 "" H 3510 5495 20  0001 C CNN
+	1    3510 5495
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
