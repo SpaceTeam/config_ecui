@@ -13,11 +13,11 @@
     },
     "use_lora": true,
     "LORA": {
-        "ip": "192.168.1.7",
+        "ip": "192.168.3.102",
         "port": 5001,
-        "nodeIDsRef": [8],
-        "nodeIDs": [18],
-        "canMsgSizes": [39]
+        "nodeIDsRef": [6, 7, 8],
+        "nodeIDs": [16, 17, 18],
+        "canMsgSizes": [54, 47, 39]
     },
     "CAN": {
         "node_count": 9,
@@ -54,7 +54,7 @@
 		        }
             }
         },
-        "DRIVER": "Kvaser",
+        "DRIVER": "SocketCAN",
         "DEVICE": [
             "can0"
         ],
