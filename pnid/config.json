@@ -230,6 +230,13 @@
             "autoID": false
         }
     },
+    "blmb_setState_fixes": {
+        "states": [
+            "pressurant_tanking_valve:sensor",
+            "pressurant_vent_valve:sensor"
+        ],
+        "sens_deviation": "return false;"
+    },
     "ox_tanking_valve": {
         "states": [
             "ox_tanking_valve:sensor"
