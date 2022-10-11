@@ -482,8 +482,9 @@
                 "max": "10000",
                 "label": "Holddown Timeout",
                 "suffix": "ms",
-                "variable": "rocket-SetHolddownTimeout",
-                "poll_var": "rocket-GetHolddownTimeout"
+                "variable": "rocket-HolddownTimeout",
+                "poll_var": "rocket-GetHolddownTimeout",
+                "set_var": "rocket-SetHolddownTimeout"
             },
             {
                 "type": "input",
@@ -492,8 +493,9 @@
                 "max": "100",
                 "label": "Min. Chamber Pressure",
                 "suffix": "bar",
-                "variable": "rocket-SetMinimumChamberPressure",
-                "poll_var": "rocket-GetMinimumChamberPressure"
+                "variable": "rocket-MinimumChamberPressure",
+                "poll_var": "rocket-GetMinimumChamberPressure",
+                "set_var": "rocket-SetMinimumChamberPressure"
             },
             {
                 "type": "input",
@@ -502,8 +504,9 @@
                 "max": "100",
                 "label": "Min. Fuel Pressure",
                 "suffix": "bar",
-                "variable": "rocket-SetMinimumFuelPressure",
-                "poll_var": "rocket-GetMinimumFuelPressure"
+                "variable": "rocket-MinimumFuelPressure",
+                "poll_var": "rocket-GetMinimumFuelPressure",
+                "set_var": "rocket-SetMinimumFuelPressure"
             },
             {
                 "type": "input",
@@ -512,8 +515,9 @@
                 "max": "100",
                 "label": "Min. Ox Pressure",
                 "suffix": "bar",
-                "variable": "rocket-SetMinimumOxPressure",
-                "poll_var": "rocket-GetMinimumOxPressure"
+                "variable": "rocket-MinimumOxPressure",
+                "poll_var": "rocket-GetMinimumOxPressure",
+                "set_var": "rocket-SetMinimumOxPressure"
             },
             {
                 "type": "input",

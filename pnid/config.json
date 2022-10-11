@@ -333,14 +333,9 @@
 	},
 	"flash_clear_label": {
         "states": [
-            "gui:Flash:Clear"
+            "Flash-Clear"
         ],
         "popup": [
-            {
-                "type": "display",
-                "style": "text",
-                "variable": "value"
-            },
             {
                 "type": "input",
                 "style": "button",
