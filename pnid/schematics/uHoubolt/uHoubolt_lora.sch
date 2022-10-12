@@ -557,7 +557,7 @@ L PnID:Battery Battery
 U 1 1 62B0CF39
 P 2530 4820
 F 0 "Battery" H 2530 5160 50  0001 C CNN
-F 1 "lora:battery_voltage:sensor" H 2530 5070 50  0000 C CNN
+F 1 "lora:rcu_12V_voltage:sensor" H 2530 5070 50  0000 C CNN
 F 2 "" H 2545 4820 50  0001 C CNN
 F 3 "" H 2545 4820 50  0001 C CNN
 F 4 "V" H 2530 4820 50  0001 C CNN "Unit"

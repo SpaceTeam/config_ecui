@@ -444,7 +444,7 @@
                 "slope": 0.003735,
                 "stringID": "lora:ox_tank_pressure"
             },
-            "10": {
+            "9": {
                 "offset": 0,
                 "slope": 1.0,
                 "stringID": "lora:unused_ecu_servo"
@@ -464,22 +464,22 @@
                 "slope": -1.0,
                 "stringID": "lora:igniter0_cont"
             },
-            "14": {
+            "16": {
                 "offset": 0,
                 "slope": 1.0,
                 "stringID": "lora:unused_ecu_pyro"
             },
-            "15": {
+            "17": {
                 "offset": 1.0,
                 "slope": -1.0,
                 "stringID": "lora:unused_ecu_pyro_cont"
             },
-            "16": {
+            "14": {
                 "offset": 0,
                 "slope": 1.0,
                 "stringID": "lora:igniter1"
             },
-            "17": {
+            "15": {
                 "offset": 1.0,
                 "slope": -1.0,
                 "stringID": "lora:igniter1_cont"
@@ -539,7 +539,7 @@
                 "slope": 0.043258,
                 "stringID": "lora:ox_tank_top_temp"
             },
-            "9": {
+            "10": {
                 "offset": 0,
                 "slope": 1.0,
                 "stringID": "lora:ox_main_valve"
