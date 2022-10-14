@@ -126,32 +126,6 @@ F 5 "gui:pressure_control:SetEnabled" H 2795 9690 50  0001 C CNN "Action_Referen
 	1    0    0    -1  
 $EndComp
 $Comp
-L PnID:Sensor_Temperature_Short Sensor_Temperature3
-U 1 1 6222C77C
-P 2470 10700
-F 0 "Sensor_Temperature3" H 2470 10900 20  0001 C CNN
-F 1 "ox_tank_bottom_temp:sensor" H 1900 10700 20  0000 R CNN
-F 2 "" H 2470 10700 20  0001 C CNN
-F 3 "" H 2470 10700 20  0001 C CNN
-F 4 "˚C" H 2470 10700 20  0001 C CNN "Unit"
-	1    2470 10700
-	1    0    0    -1  
-$EndComp
-$Comp
-L PnID:Sensor_Temperature_Short Sensor_Temperature2
-U 1 1 6223430D
-P 2470 10430
-F 0 "Sensor_Temperature2" H 2470 10630 20  0001 C CNN
-F 1 "ox_tank_middle_temp:sensor" H 1900 10430 20  0000 R CNN
-F 2 "" H 2470 10430 20  0001 C CNN
-F 3 "" H 2470 10430 20  0001 C CNN
-F 4 "˚C" H 2470 10430 20  0001 C CNN "Unit"
-	1    2470 10430
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2630 11490 2630 11550
-$Comp
 L PnID:QuickConnect_Short QuickConnect1
 U 1 1 622CBA12
 P 3060 6470
@@ -204,22 +178,6 @@ Wire Wire Line
 	3300 6470 3890 6470
 Wire Wire Line
 	2110 8135 2110 10970
-$Comp
-L PnID:Sensor_Pressure_Short Sensor_Pressure4
-U 1 1 6244FD5E
-P 2880 11550
-F 0 "Sensor_Pressure4" H 2940 11680 20  0001 C CNN
-F 1 "ox_injector_pressure:sensor" H 3100 11550 20  0000 L CNN
-F 2 "" H 2880 11550 20  0001 C CNN
-F 3 "" H 2880 11550 20  0001 C CNN
-F 4 "bar" H 2880 11550 20  0001 C CNN "Unit"
-F 5 "ox" H 2880 11550 50  0001 C CNN "Data_Content"
-	1    2880 11550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2680 11550 2630 11550
-Connection ~ 2630 11550
 Text Notes 3200 12390 0    118  ~ 0
 µHoubolt
 $Comp
@@ -234,23 +192,6 @@ F 4 "bar" H 2880 11820 20  0001 C CNN "Unit"
 	1    2880 11820
 	1    0    0    -1  
 $EndComp
-$Comp
-L PnID:Sensor_Pressure_Short Sensor_Pressure1
-U 1 1 62459D98
-P 2170 11550
-F 0 "Sensor_Pressure1" H 2230 11680 20  0001 C CNN
-F 1 "fuel_injector_pressure:sensor" H 2390 11550 20  0000 R CNN
-F 2 "" H 2170 11550 20  0001 C CNN
-F 3 "" H 2170 11550 20  0001 C CNN
-F 4 "bar" H 2170 11550 20  0001 C CNN "Unit"
-F 5 "fuel" H 2170 11550 50  0001 C CNN "Data_Content"
-	1    2170 11550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2630 11550 2630 11620
-Text Label 2680 11550 0    20   ~ 0
-ox_injector_pressure:sensor
 Text Label 2530 8080 0    20   ~ 0
 fuel_tank
 Text Label 2530 10930 0    20   ~ 0
@@ -302,19 +243,10 @@ Wire Wire Line
 	2530 10970 2700 10970
 Wire Wire Line
 	2700 11350 2700 11490
-Text Label 2370 11550 0    20   ~ 0
-fuel_injector_pressure:sensor
 Wire Wire Line
 	2360 11350 2360 11490
 Wire Wire Line
 	2360 11490 2430 11490
-Wire Wire Line
-	2430 11490 2430 11550
-Wire Wire Line
-	2370 11550 2430 11550
-Connection ~ 2430 11550
-Wire Wire Line
-	2430 11550 2430 11620
 Wire Wire Line
 	2700 11490 2630 11490
 $Comp
@@ -367,18 +299,6 @@ Text Label 2820 6470 0    8    ~ 0
 pressurant_pressure:sensor
 Text Label 2820 9220 0    8    ~ 0
 pressurant_pressure:sensor
-$Comp
-L PnID:Sensor_Temperature_Short Sensor_Temperature1
-U 1 1 62230A81
-P 2470 10170
-F 0 "Sensor_Temperature1" H 2470 10370 20  0001 C CNN
-F 1 "ox_tank_top_temp:sensor" H 1900 10170 20  0000 R CNN
-F 2 "" H 2470 10170 20  0001 C CNN
-F 3 "" H 2470 10170 20  0001 C CNN
-F 4 "˚C" H 2470 10170 20  0001 C CNN "Unit"
-	1    2470 10170
-	1    0    0    -1  
-$EndComp
 $Comp
 L PnID:Rocket U1
 U 1 1 6233DFEA
@@ -458,19 +378,6 @@ Text Label 8580 7530 0    11   ~ 0
 water_tank_hot_return:wire
 Wire Notes Line
 	10730 6370 4865 6370
-$Comp
-L PnID:Sensor_Temperature_Short Sensor_Temperature4
-U 1 1 6216A143
-P 8980 7170
-F 0 "Sensor_Temperature4" H 8980 7370 20  0001 C CNN
-F 1 "water_mantle_temp:sensor" H 9150 7170 20  0000 L CNN
-F 2 "" H 8980 7170 20  0001 C CNN
-F 3 "" H 8980 7170 20  0001 C CNN
-F 4 "˚C" H 8980 7170 20  0001 C CNN "Unit"
-F 5 "High" H 8980 7170 50  0001 C CNN "Data_Content"
-	1    8980 7170
-	1    0    0    -1  
-$EndComp
 Text Label 6740 10010 0    11   ~ 0
 ox_bottle_pressure:sensor
 $Comp
@@ -978,20 +885,6 @@ F 3 "" H 9390 4170 50  0001 C CNN
 	1    9390 4170
 	1    0    0    -1  
 $EndComp
-$Comp
-L PnID:Sensor_Load_Short Sensor_Load_Short1
-U 1 1 626CC120
-P 2180 11820
-F 0 "Sensor_Load_Short1" H 2122 12103 20  0001 C CNN
-F 1 "scale:sensor" H 2410 11820 20  0000 R CNN
-F 2 "" H 2180 11820 20  0001 C CNN
-F 3 "" H 2180 11820 20  0001 C CNN
-F 4 "N" H 2180 11820 20  0001 C CNN "Unit"
-F 5 " " H 2180 11820 50  0001 C CNN "Action_Reference"
-F 6 " " H 2122 11993 50  0000 C CNN "Data_Content"
-	1    2180 11820
-	-1   0    0    -1  
-$EndComp
 Connection ~ 6740 10010
 $Comp
 L PnID:Sensor_Pressure_Short Sensor_Pressure7
@@ -1019,17 +912,6 @@ F 1 "ecu:LoggingEnabled" H 8955 4480 20  0000 C CNN
 F 2 "" H 8955 4330 20  0001 C CNN
 F 3 "" H 8955 4330 20  0001 C CNN
 	1    8955 4330
-	-1   0    0    1   
-$EndComp
-$Comp
-L PnID:LED pmu_logging_en?
-U 1 1 62B78EA7
-P 9385 4330
-F 0 "pmu_logging_en?" H 9307 4313 20  0001 R CNN
-F 1 "pmu:LoggingEnabled" H 9385 4480 20  0000 C CNN
-F 2 "" H 9385 4330 20  0001 C CNN
-F 3 "" H 9385 4330 20  0001 C CNN
-	1    9385 4330
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1066,17 +948,6 @@ F 3 "" H 8955 5015 20  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PnID:LED pmu_flash_status
-U 1 1 62B80D5F
-P 9385 5015
-F 0 "pmu_flash_status" H 9307 4998 20  0001 R CNN
-F 1 "pmu:FlashStatus" H 9385 5365 20  0000 C CNN
-F 2 "" H 9385 5015 20  0001 C CNN
-F 3 "" H 9385 5015 20  0001 C CNN
-	1    9385 5015
-	-1   0    0    1   
-$EndComp
-$Comp
 L PnID:LED rcu_flash_status
 U 1 1 62B80D65
 P 9820 5015
@@ -1085,39 +956,6 @@ F 1 "rcu:FlashStatus" H 9930 5165 20  0000 L CNN
 F 2 "" H 9820 5015 20  0001 C CNN
 F 3 "" H 9820 5015 20  0001 C CNN
 	1    9820 5015
-	-1   0    0    1   
-$EndComp
-$Comp
-L PnID:Label U?
-U 1 1 6331DA59
-P 3985 4140
-F 0 "U?" H 3985 4360 50  0001 C CNN
-F 1 "Voltages_Currents" H 3985 4385 50  0000 C CNN
-F 2 "" H 3985 4140 50  0001 C CNN
-F 3 "" H 3985 4140 50  0001 C CNN
-	1    3985 4140
-	1    0    0    -1  
-$EndComp
-$Comp
-L PnID:LED ecu_logging_en?
-U 1 1 6331F5F7
-P 3550 4300
-F 0 "ecu_logging_en?" H 3472 4283 20  0001 R CNN
-F 1 "umbilical_voltage_ok:sensor" H 3550 4450 20  0000 C CNN
-F 2 "" H 3550 4300 20  0001 C CNN
-F 3 "" H 3550 4300 20  0001 C CNN
-	1    3550 4300
-	-1   0    0    1   
-$EndComp
-$Comp
-L PnID:LED rcu_logging_en?
-U 1 1 6331F603
-P 4415 4300
-F 0 "rcu_logging_en?" H 4337 4283 20  0001 R CNN
-F 1 "charging_ok:sensor" H 4415 4450 20  0000 C CNN
-F 2 "" H 4415 4300 20  0001 C CNN
-F 3 "" H 4415 4300 20  0001 C CNN
-	1    4415 4300
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1131,4 +969,8 @@ F 3 "" H 9380 5635 50  0001 C CNN
 	1    9380 5635
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2430 11490 2430 11620
+Wire Wire Line
+	2630 11490 2630 11620
 $EndSCHEMATC

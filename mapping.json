@@ -776,11 +776,11 @@
                 ]
             }
         ],
-        "gui:pressure_control:SetTargetPosition": [
+        "gui:pressure_control:SetTarget": [
             {
                 "command": "pressure_control:SetTarget",
                 "parameters": [
-                    "gui:pressure_control:SetTargetPosition"
+                    "gui:pressure_control:SetTarget"
                 ]
             }
         ],

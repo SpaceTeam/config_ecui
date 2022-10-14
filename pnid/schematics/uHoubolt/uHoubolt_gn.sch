@@ -126,38 +126,27 @@ F 3 "" H 3710 6410 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PnID:IMU imu
+L PnID:IMU Accel_Y
 U 1 1 62B21128
 P 2580 5860
-F 0 "imu" H 2530 6540 50  0001 L CNN
+F 0 "Accel_Y" H 2530 6540 50  0001 L CNN
 F 1 "accel_y" H 2510 6430 50  0001 L CNN
 F 2 "" H 2580 6040 50  0001 C CNN
 F 3 "" H 2580 6040 50  0001 C CNN
+F 4 "Accel Y" H 2590 6510 50  0000 C CNN "Label"
 	1    2580 5860
-	1    0    0    -1  
-$EndComp
-$Comp
-L PnID:Sensor_Pressure_Big pmu_barometer
-U 1 1 62B231F5
-P 5845 5870
-F 0 "pmu_barometer" H 5845 6290 50  0001 C CNN
-F 1 "lora:pmu_barometer:sensor" H 6325 5870 50  0000 L CNN
-F 2 "" H 5845 6290 50  0001 C CNN
-F 3 "" H 5845 6290 50  0001 C CNN
-F 4 "hPa" H 5845 5870 50  0001 C CNN "Unit"
-	1    5845 5870
 	1    0    0    -1  
 $EndComp
 $Comp
 L PnID:Sensor_Pressure_Big rcu_barometer
 U 1 1 62B24928
-P 5855 6910
-F 0 "rcu_barometer" H 5855 7330 50  0001 C CNN
-F 1 "lora:rcu_barometer:sensor" H 6325 6910 50  0000 L CNN
-F 2 "" H 5855 7330 50  0001 C CNN
-F 3 "" H 5855 7330 50  0001 C CNN
-F 4 "hPa" H 5855 6910 50  0001 C CNN "Unit"
-	1    5855 6910
+P 4740 5870
+F 0 "rcu_barometer" H 4740 6290 50  0001 C CNN
+F 1 "lora:rcu_barometer:sensor" H 5210 5870 50  0000 L CNN
+F 2 "" H 4740 6290 50  0001 C CNN
+F 3 "" H 4740 6290 50  0001 C CNN
+F 4 "hPa" H 4740 5870 50  0001 C CNN "Unit"
+	1    4740 5870
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -170,18 +159,6 @@ F 2 "" H 3710 6860 50  0001 C CNN
 F 3 "" H 3710 6860 50  0001 C CNN
 F 4 "m" H 3710 6860 50  0001 C CNN "Unit"
 	1    3710 6860
-	1    0    0    -1  
-$EndComp
-$Comp
-L PnID:Sensor_Height pmu_altitude
-U 1 1 62B2722D
-P 4750 5870
-F 0 "pmu_altitude" H 4750 5870 50  0001 C CNN
-F 1 "lora:pmu_altitude:sensor" H 4750 6520 50  0000 C CNN
-F 2 "" H 4750 5870 50  0001 C CNN
-F 3 "" H 4750 5870 50  0001 C CNN
-F 4 "m" H 4750 5870 50  0001 C CNN "Unit"
-	1    4750 5870
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -227,47 +204,15 @@ F 3 "" H 10525 4300 20  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PnID:LED pmu_logging_en
-U 1 1 62B3BDBF
-P 10095 4300
-F 0 "pmu_logging_en" H 10017 4283 20  0001 R CNN
-F 1 "lora:pmu:LoggingEnabled" H 10095 4430 20  0000 C CNN
-F 2 "" H 10095 4300 20  0001 C CNN
-F 3 "" H 10095 4300 20  0001 C CNN
-	1    10095 4300
-	-1   0    0    1   
-$EndComp
-$Comp
-L PnID:IMU imu?
-U 1 1 62B3B78D
-P 2580 6860
-F 0 "imu?" H 2530 7540 50  0001 L CNN
-F 1 "gyro_x_y_z" H 2510 7430 50  0001 L CNN
-F 2 "" H 2580 7040 50  0001 C CNN
-F 3 "" H 2580 7040 50  0001 C CNN
-	1    2580 6860
-	1    0    0    -1  
-$EndComp
-$Comp
-L PnID:IMU imu?
+L PnID:IMU Accel_Z
 U 1 1 62B3E20C
 P 1440 6860
-F 0 "imu?" H 1390 7540 50  0001 L CNN
+F 0 "Accel_Z" H 1390 7540 50  0001 L CNN
 F 1 "accel_z" H 1370 7430 50  0001 L CNN
 F 2 "" H 1440 7040 50  0001 C CNN
 F 3 "" H 1440 7040 50  0001 C CNN
+F 4 "Accel Z" H 1430 6200 50  0000 C CNN "Label"
 	1    1440 6860
-	1    0    0    -1  
-$EndComp
-$Comp
-L PnID:IMU imu?
-U 1 1 62B41D22
-P 1440 5860
-F 0 "imu?" H 1390 6540 50  0001 L CNN
-F 1 "accel_x" H 1370 6430 50  0001 L CNN
-F 2 "" H 1440 6040 50  0001 C CNN
-F 3 "" H 1440 6040 50  0001 C CNN
-	1    1440 5860
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -304,17 +249,6 @@ F 3 "" H 10525 5075 20  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PnID:LED pmu_flash_status
-U 1 1 62B42653
-P 10095 5075
-F 0 "pmu_flash_status" H 10017 5058 20  0001 R CNN
-F 1 "lora:pmu:FlashStatus" H 10095 5405 20  0000 C CNN
-F 2 "" H 10095 5075 20  0001 C CNN
-F 3 "" H 10095 5075 20  0001 C CNN
-	1    10095 5075
-	-1   0    0    1   
-$EndComp
-$Comp
 L PnID:LED ecu_flash_status?
 U 1 1 633E1C16
 P 3510 5495
@@ -323,6 +257,30 @@ F 1 "lora:gps_status:sensor" H 3510 5610 20  0000 C CNN
 F 2 "" H 3510 5495 20  0001 C CNN
 F 3 "" H 3510 5495 20  0001 C CNN
 	1    3510 5495
+	1    0    0    -1  
+$EndComp
+$Comp
+L PnID:IMU Gyro
+U 1 1 62B3B78D
+P 2580 6860
+F 0 "Gyro" H 2530 7540 50  0001 L CNN
+F 1 "gyro_x_y_z" H 2510 7430 50  0001 L CNN
+F 2 "" H 2580 7040 50  0001 C CNN
+F 3 "" H 2580 6190 50  0001 C CNN
+F 4 "Gyro" H 2580 6200 50  0000 C CNN "Label"
+	1    2580 6860
+	1    0    0    -1  
+$EndComp
+$Comp
+L PnID:IMU Accel_X
+U 1 1 62B41D22
+P 1440 5860
+F 0 "Accel_X" H 1390 6540 50  0001 L CNN
+F 1 "accel_x" H 1370 6430 50  0001 L CNN
+F 2 "" H 1440 6040 50  0001 C CNN
+F 3 "" H 1440 6040 50  0001 C CNN
+F 4 "Accel X" H 1450 6510 50  0000 C CNN "Label"
+	1    1440 5860
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

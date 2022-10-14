@@ -104,32 +104,6 @@ F 5 "gui:pressure_control:SetEnabled" H 2810 9690 50  0001 C CNN "Action_Referen
 	1    0    0    -1  
 $EndComp
 $Comp
-L PnID:Sensor_Temperature_Short Sensor_Temperature3
-U 1 1 6222C77C
-P 2470 10700
-F 0 "Sensor_Temperature3" H 2470 10900 20  0001 C CNN
-F 1 "lora:ox_tank_bottom_temp:sensor" H 1840 10710 20  0000 R CNN
-F 2 "" H 2470 10700 20  0001 C CNN
-F 3 "" H 2470 10700 20  0001 C CNN
-F 4 "˚C" H 2470 10700 20  0001 C CNN "Unit"
-	1    2470 10700
-	1    0    0    -1  
-$EndComp
-$Comp
-L PnID:Sensor_Temperature_Short Sensor_Temperature2
-U 1 1 6223430D
-P 2470 10430
-F 0 "Sensor_Temperature2" H 2470 10630 20  0001 C CNN
-F 1 "lora:ox_tank_middle_temp:sensor" H 1840 10430 20  0000 R CNN
-F 2 "" H 2470 10430 20  0001 C CNN
-F 3 "" H 2470 10430 20  0001 C CNN
-F 4 "˚C" H 2470 10430 20  0001 C CNN "Unit"
-	1    2470 10430
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2630 11490 2630 11550
-$Comp
 L PnID:Vent Vent1
 U 1 1 622F6247
 P 3370 9690
@@ -167,22 +141,6 @@ Wire Wire Line
 	2820 9220 2530 9220
 Wire Wire Line
 	2110 8110 2110 10970
-$Comp
-L PnID:Sensor_Pressure_Short Sensor_Pressure4
-U 1 1 6244FD5E
-P 2880 11550
-F 0 "Sensor_Pressure4" H 2940 11680 20  0001 C CNN
-F 1 "lora:ox_injector_pressure:sensor" H 3380 11550 20  0000 C CNN
-F 2 "" H 2880 11550 20  0001 C CNN
-F 3 "" H 2880 11550 20  0001 C CNN
-F 4 "bar" H 2880 11550 20  0001 C CNN "Unit"
-F 5 "ox" H 2880 11550 50  0001 C CNN "Data_Content"
-	1    2880 11550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2680 11550 2630 11550
-Connection ~ 2630 11550
 Text Notes 3200 12390 0    118  ~ 0
 µHoubolt
 $Comp
@@ -197,26 +155,9 @@ F 4 "bar" H 2880 11820 20  0001 C CNN "Unit"
 	1    2880 11820
 	1    0    0    -1  
 $EndComp
-$Comp
-L PnID:Sensor_Pressure_Short Sensor_Pressure1
-U 1 1 62459D98
-P 2170 11550
-F 0 "Sensor_Pressure1" H 2230 11680 20  0001 C CNN
-F 1 "lora:fuel_injector_pressure:sensor" H 2650 11550 20  0000 C CNN
-F 2 "" H 2170 11550 20  0001 C CNN
-F 3 "" H 2170 11550 20  0001 C CNN
-F 4 "bar" H 2170 11550 20  0001 C CNN "Unit"
-F 5 "fuel" H 2170 11550 50  0001 C CNN "Data_Content"
-	1    2170 11550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2630 11550 2630 11620
-Text Label 2680 11550 0    20   ~ 0
-lora:ox_injector_pressure:sensor
 Text Label 2530 8080 0    20   ~ 0
 fuel_tank
-Text Label 2530 10850 0    20   ~ 0
+Text Label 2530 10930 0    20   ~ 0
 ox_tank
 $Comp
 L PnID:igniter igniter0
@@ -265,19 +206,10 @@ Wire Wire Line
 	2530 10970 2700 10970
 Wire Wire Line
 	2700 11350 2700 11490
-Text Label 2380 11550 0    20   ~ 0
-lora:fuel_injector_pressure:sensor
 Wire Wire Line
 	2360 11350 2360 11490
 Wire Wire Line
 	2360 11490 2430 11490
-Wire Wire Line
-	2430 11490 2430 11550
-Wire Wire Line
-	2370 11550 2430 11550
-Connection ~ 2430 11550
-Wire Wire Line
-	2430 11550 2430 11620
 Wire Wire Line
 	2700 11490 2630 11490
 $Comp
@@ -307,18 +239,6 @@ Text Label 2820 6470 0    8    ~ 0
 lora:pressurant_pressure:sensor
 Text Label 2820 9220 0    8    ~ 0
 lora:pressurant_pressure:sensor
-$Comp
-L PnID:Sensor_Temperature_Short Sensor_Temperature1
-U 1 1 62230A81
-P 2470 10170
-F 0 "Sensor_Temperature1" H 2470 10370 20  0001 C CNN
-F 1 "lora:ox_tank_top_temp:sensor" H 1840 10170 20  0000 R CNN
-F 2 "" H 2470 10170 20  0001 C CNN
-F 3 "" H 2470 10170 20  0001 C CNN
-F 4 "˚C" H 2470 10170 20  0001 C CNN "Unit"
-	1    2470 10170
-	1    0    0    -1  
-$EndComp
 $Comp
 L PnID:Pressure_Regulator_Small Pressure_Regulator_Small2
 U 1 1 62586E84
@@ -633,17 +553,6 @@ F 3 "" H 9275 4325 20  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PnID:LED pmu_logging_en
-U 1 1 62B3BDBF
-P 8845 4325
-F 0 "pmu_logging_en" H 8767 4308 20  0001 R CNN
-F 1 "lora:pmu:LoggingEnabled" H 8845 4455 20  0000 C CNN
-F 2 "" H 8845 4325 20  0001 C CNN
-F 3 "" H 8845 4325 20  0001 C CNN
-	1    8845 4325
-	-1   0    0    1   
-$EndComp
-$Comp
 L PnID:Label Logging?
 U 1 1 62B419D0
 P 8845 4995
@@ -676,17 +585,14 @@ F 3 "" H 9275 5155 20  0001 C CNN
 	1    9275 5155
 	-1   0    0    1   
 $EndComp
-$Comp
-L PnID:LED pmu_flash_status
-U 1 1 62B42653
-P 8845 5155
-F 0 "pmu_flash_status" H 8767 5138 20  0001 R CNN
-F 1 "lora:pmu:FlashStatus" H 8845 5485 20  0000 C CNN
-F 2 "" H 8845 5155 20  0001 C CNN
-F 3 "" H 8845 5155 20  0001 C CNN
-	1    8845 5155
-	-1   0    0    1   
-$EndComp
+Wire Notes Line
+	1200 3560 9790 3560
+Wire Notes Line
+	9790 3560 9790 12810
+Wire Notes Line
+	9790 12810 1230 12810
+Wire Notes Line
+	1200 12810 1200 3560
 $Comp
 L PnID:Rocket U1
 U 1 1 6233DFEA
@@ -698,12 +604,8 @@ F 3 "" H 2530 5310 50  0001 C CNN
 	1    2530 5260
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	1200 3560 9790 3560
-Wire Notes Line
-	9790 3560 9790 12810
-Wire Notes Line
-	9790 12810 1230 12810
-Wire Notes Line
-	1200 12810 1200 3560
+Wire Wire Line
+	2430 11490 2430 11620
+Wire Wire Line
+	2630 11490 2630 11620
 $EndSCHEMATC

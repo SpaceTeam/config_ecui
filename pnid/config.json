@@ -319,6 +319,22 @@
             "source": "Altitude"
         }
 	},
+    "baro_rcu": {
+        "states": [
+            "lora:rcu_barometer:sensor"
+        ],
+        "popup": {
+            "source": "rcu_barometer:sensor"
+        }
+	},
+    "height_sensor_graph_rcu": {
+        "states": [
+            "lora:gps_altitude:sensor"
+        ],
+        "popup": {
+            "source": "gps_altitude:sensor"
+        }
+	},
 	"holddown": {
         "states": [
             "holddown:sensor"
