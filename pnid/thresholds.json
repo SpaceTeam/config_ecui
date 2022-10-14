@@ -2,6 +2,9 @@
     "solenoid": {
         "high": 1000
     },
+    "switch": {
+        "high": 1
+    },
     "motor": {
         "high": 5000
     },
@@ -28,9 +31,9 @@
         "high": 9.0
     },
     "battery": {
-    	"critical": 10.5,
-        "low": 11,
-        "high": 12,
+    	"critical": 11,
+        "low": 11.3,
+        "high": 12.7,
         "notconnected": 0
     },
     "waterHotTemps": {

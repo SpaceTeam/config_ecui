@@ -86,8 +86,8 @@
         ]
     },
     "PnID-Switch": {
-        "eval": "if (inVars['value'] >= thresholds['solenoid']['high']) { outVars['color']='open'; outVars['value']='Connected' } else { outVars['color']='closed'; outVars['value']='Disconnected' }",
-        "sens_deviation": "if ((setState == 0 && feedback >= thresholds['solenoid']['high']) || (setState == 1 && feedback < thresholds['solenoid']['high'])) { return true; } return false;",
+        "eval": "if (inVars['value'] >= thresholds['switch']['high']) { outVars['color']='open'; outVars['value']='Powered' } else { outVars['color']='closed'; outVars['value']='Unpowered' }",
+        "sens_deviation": "if ((setState == 0 && feedback >= thresholds['switch']['high']) || (setState == 1 && feedback < thresholds['switch']['high'])) { return true; } return false;",
         "popup": [
             {
                 "type": "display",
@@ -244,6 +244,18 @@
                 "type": "display",
                 "style": "text",
                 "variable": "value"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "variable": "lora-gps_latitude-sensor",
+                "label": "Latitude"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "variable": "lora-gps_longitude-sensor",
+                "label": "Longitude"
             },
             {
                 "type": "display",
@@ -463,8 +475,10 @@
             },
             {
                 "type": "input",
-                "style": "button",
+                "style": "buttonDanger",
                 "variable": "rocket-InternalControl",
+                "collapsible": true,
+                "collapsibleLabel": "Internal Control",
                 "label": "Internal Control",
                 "action": "startTimer(-10, null)"
             },
