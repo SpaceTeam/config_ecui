@@ -944,6 +944,12 @@
                 ]
             }
         ],
+        "gui:FlushDatabase": [
+            {
+                "command": "FlushDatabase",
+                "parameters": []
+            }
+        ],
         "rocket:sensor": [
             {
                 "state": "rocket:PadIdle",
