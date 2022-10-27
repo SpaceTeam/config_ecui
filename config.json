@@ -10,7 +10,7 @@
   "use_lora": false,
   "CAN" :
   {
-    "node_count" : 3,
+    "node_count" : 4,
     "DRIVER" : "SocketCAN",
     "DEVICE": ["can0"],
     "canBusChannelIDs": [0]

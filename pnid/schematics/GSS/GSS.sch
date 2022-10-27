@@ -1105,7 +1105,7 @@ L PnID:cooler cooler2
 U 1 1 626EEEA0
 P 5975 3800
 F 0 "cooler2" H 5775 3890 20  0001 C CNN
-F 1 "ox_tank_cool:sensor" H 6033 3949 20  0001 C CNN
+F 1 "ox_tank_cool1:sensor" H 6033 3949 20  0001 C CNN
 F 2 "" H 5975 3800 50  0001 C CNN
 F 3 "" H 5975 3800 50  0001 C CNN
 F 4 "A" H 5975 3800 50  0001 C CNN "Unit"
@@ -1213,6 +1213,18 @@ F 3 "" H 6700 6100 20  0001 C CNN
 F 4 "A" H 6700 6273 50  0001 C CNN "Unit"
 F 5 " " H 6700 6100 20  0001 C CNN "Action_Reference"
 	1    6700 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PnID:cooler cooler?
+U 1 1 633DE282
+P 5975 4000
+F 0 "cooler?" H 5775 4090 20  0001 C CNN
+F 1 "ox_tank_cool2:sensor" H 6033 4149 20  0001 C CNN
+F 2 "" H 5975 4000 50  0001 C CNN
+F 3 "" H 5975 4000 50  0001 C CNN
+F 4 "A" H 5975 4000 50  0001 C CNN "Unit"
+	1    5975 4000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
