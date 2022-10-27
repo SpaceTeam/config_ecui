@@ -2,7 +2,7 @@
 	"globals":
 	{
 		"startTime": -6,
-		"endTime": 21,
+		"endTime": 30,
 		"interval": 0.01,
 		"interpolation":
 		{
@@ -63,7 +63,7 @@
 			]
 		},
 		{
-			"timestamp": -2.0,
+			"timestamp": -1.0,
 			"name": "ignition",
 			"desc": "lets go",
 			"actions":
@@ -82,73 +82,101 @@
 					"fuel_main_valve:SetTargetPosition": [65000],
 					"ox_main_valve:SetTargetPosition": [65000]
 				},
-		{
+                {
 					"timestamp": 2.0,
+					"injector_servo:SetTargetPosition": [0],
 					"ignition_enable:SetState": [65000]
 				},
 		{
-					"timestamp": 2.8,
-					"injector_servo:SetTargetPosition": [0]
+					"timestamp": 2.2,
+					"injector_servo:SetTargetPosition": [48000]
 				},
                 {
-					"timestamp": 3.0,
-					"injector_servo:SetTargetPosition": [45000]
+					"timestamp": 4.0,
+					"injector_servo:SetTargetPosition": [48000],
+					"ignition_enable:SetState": [0]
 				},
 		{
-					"timestamp": 6,
+					"timestamp": 5.0,
+					"injector_servo:SetTargetPosition": [65000],
 					"ignition_enable:SetState": [0]
 				}
 			]
 		},
 		{
-			"timestamp": 4.0,
-			"name": "throttle down",
+			"timestamp": 5.0,
+			"name": "throttle down and up",
 			"desc": "test",
 			"actions":
 			[
 				{
 					"timestamp": 0,
-					"injector_servo:SetTargetPosition": [45000]
+					"injector_servo:SetTargetPosition": [65000]
 				},
 				{
-					"timestamp": 0.1,
-					"fuel_main_valve:SetTargetPosition": [65000],
-					"ox_main_valve:SetTargetPosition": [65000]
+					"timestamp": 0.3,
+					"injector_servo:SetTargetPosition": [35000]
 				},
 				{
-					"timestamp": 0.7,
-					"fuel_main_valve:SetTargetPosition": [0],
-					"ox_main_valve:SetTargetPosition": [0]
+					"timestamp": 0.6,
+					"injector_servo:SetTargetPosition": [65000]
 				},
 				{
-					"timestamp": 0.8,
-					"injector_servo:SetTargetPosition": [0]
+					"timestamp": 0.9,
+					"injector_servo:SetTargetPosition": [35000]
+				},
+				{
+					"timestamp": 1.2,
+					"injector_servo:SetTargetPosition": [65000]
+				},
+				{
+					"timestamp": 1.5,
+					"injector_servo:SetTargetPosition": [35000]
+				},
+				{
+					"timestamp": 1.8,
+					"injector_servo:SetTargetPosition": [65000]
+				},
+				{
+					"timestamp": 2.1,
+					"injector_servo:SetTargetPosition": [35000]
+				},
+				{
+					"timestamp": 2.4,
+					"injector_servo:SetTargetPosition": [65000]
+				},
+				{
+					"timestamp": 2.7,
+					"injector_servo:SetTargetPosition": [35000]
+				},
+				{
+					"timestamp": 3.0,
+					"injector_servo:SetTargetPosition": [65000]
 				}
 			]
 		},
 		{
-			"timestamp": 5.0,
+			"timestamp": 8.0,
 			"name": "shutdown",
 			"desc": "we are done here",
 			"actions":
 			[
 				{
 					"timestamp": 0,
-					"injector_servo:SetTargetPosition": [0]
+					"injector_servo:SetTargetPosition": [65000],
+					"fuel_main_valve:SetTargetPosition": [65000],
+					"ox_main_valve:SetTargetPosition": [65000]
 				},
 				{
 					"timestamp": 1.0,
-					"injector_servo:SetTargetPosition": [0]
-				},
-				{
-					"timestamp": 0,
+					"injector_servo:SetTargetPosition": [0],
 					"fuel_main_valve:SetTargetPosition": [0],
 					"ox_main_valve:SetTargetPosition": [0]
 				}
 			]
 		},
         {
-			"timestamp": 15.0,
+			"timestamp": 19.0,
 			"name": "purge",
 			"desc": "vent injector pressures",
 			"actions":
@@ -159,12 +187,20 @@
 				},
                 {
 					"timestamp": 2.0,
-					"injector_servo:SetTargetPosition": [32000]
+					"injector_servo:SetTargetPosition": [65000]
+				},
+                {
+					"timestamp": 3.0,
+					"injector_servo:SetTargetPosition": [65000]
+				},
+                {
+					"timestamp": 5.0,
+					"injector_servo:SetTargetPosition": [35000]
 				}
 			]
 		},
 		{
-			"timestamp": 20,
+			"timestamp": 25,
 			"name": "depress",
 			"desc": "depressurize tanks",
 			"actions":
@@ -193,8 +229,8 @@
 					"ox_vent_solenoid:SetState": [0],
 					"ignition_enable:SetState": [0],
 					"fuel_main_valve:SetTargetPosition": [0],
-                    "ox_main_valve:SetTargetPosition": [0],
-					"injector_servo:SetTargetPosition": [32000]
+                   			"ox_main_valve:SetTargetPosition": [0],
+					"injector_servo:SetTargetPosition": [35000]
 				}
 			]
 		}
