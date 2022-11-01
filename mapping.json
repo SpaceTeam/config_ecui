@@ -124,12 +124,14 @@
                 "offset" : -16.0
             },
             "5" : {"stringID" : "unused_ecu_press_1"},
-            "6" : {"stringID" : "unused_ecu_press_2"},
+            "6" : {"stringID" : "ignition_current",
+                "slope" : 0.000050355,
+                "offset" : 0.0
+            },
             "7" : {"stringID" : "unused_ecu_press_3"},
             "8" : {"stringID" : "unused_ecu_temp_0"},
             "9" : {"stringID" : "unused_ecu_temp_1"},
             "10" : {"stringID" : "ignition_enable"},
-            
             "11" : {"stringID" : "unused_ecu_ignition_1"}
         },
         "4" : {
