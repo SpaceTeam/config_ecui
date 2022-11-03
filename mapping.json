@@ -69,7 +69,7 @@
             "4" : {"stringID" : "unused_ecu2_press_4"},
             "5" : {
                 "stringID" : "thrust_force",
-                "slope" : 0.012349508,
+                "slope" : 0.015436885,
                 "offset" : 0.0
             },
             
