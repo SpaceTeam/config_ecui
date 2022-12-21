@@ -132,7 +132,11 @@
             "8" : {"stringID" : "unused_ecu_temp_0"},
             "9" : {"stringID" : "unused_ecu_temp_1"},
             "10" : {"stringID" : "ignition_enable"},
-            "11" : {"stringID" : "unused_ecu_ignition_1"}
+            "11" : {"stringID" : "unused_ecu_ignition_1"},
+            "12" : {"stringID" : "chamber_pressure_filt",
+                "slope" : 0.00119984,
+                "offset" : -16.0
+            }
         },
         "4" : {
             "stringID" : "tank_control_unit",

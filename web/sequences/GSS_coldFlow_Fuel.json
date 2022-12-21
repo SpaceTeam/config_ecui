@@ -1,0 +1,70 @@
+{
+	"globals":
+	{
+		"startTime": -10,
+		"endTime": 15,
+		"interval": 0.01,
+		"interpolation":
+		{
+			"fuel_press_solenoid:SetState": "none",
+			"ox_press_solenoid:SetState": "none"
+		},
+		"ranges":
+		[
+		]
+	},
+	"data":
+	[
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "set all to zero",
+			"actions":
+			[
+				{
+					"timestamp": 0.0,
+					"fuel_press_solenoid:SetState": [0],
+					"ox_press_solenoid:SetState": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 0.0,
+			"name": "press",
+			"desc": "pressurize tanks",
+			"actions":
+			[
+                {
+					"timestamp": 0.0,
+					"fuel_press_solenoid:SetState": [65000]
+				}
+				
+			]
+		},
+		{
+			"timestamp": 10.0,
+			"name": "depress",
+			"desc": "depressurize tanks",
+			"actions":
+			[
+                {
+					"timestamp": 0.0,
+					"fuel_press_solenoid:SetState": [0]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions":
+			[
+				{
+					"timestamp": 0.0,
+					"fuel_press_solenoid:SetState": [0],
+					"ox_press_solenoid:SetState": [0]
+				}
+			]
+		}
+	]
+}
