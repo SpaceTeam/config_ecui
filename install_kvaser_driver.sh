@@ -11,6 +11,7 @@ sudo apt-get install wget
 wget --content-disposition "https://www.kvaser.com/downloads-kvaser/?utm_source=software&utm_ean=7330130980754&utm_status=latest"
 tar xvzf linuxcan.tar.gz
 cd linuxcan
+make
 sudo make load
 /usr/doc/canlib/examples/listChannels
 cd ..
