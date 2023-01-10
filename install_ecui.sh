@@ -18,7 +18,11 @@ cd ..
 git clone git@github.com:SpaceTeam/llserver_ecui_houbolt.git
 cd llserver_ecui_houbolt
 echo $CONFIG_DIR >> configPath.txt
-cmake .
+
+git submodule init
+git submodule update
+
+cmake -D NO_PYTHON=true .
 make -j
 
 ### docker compose
