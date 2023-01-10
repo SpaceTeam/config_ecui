@@ -11,7 +11,7 @@
     "LOGGING": {
         "post_sequence_script": "scripts/plot.sh"
     },
-    "use_lora": true,
+    "use_lora": false,
     "LORA": {
         "ip": "192.168.1.7",
         "port": 5001,
@@ -72,9 +72,9 @@
         "sensors_smoothing_factor": 0.3
     },
     "INFLUXDB": {
-        "database_ip": "127.0.0.1",
+        "database_ip": "localhost",
         "database_port": 8086,
-        "database_name": "euroc",
+        "database_name": "gse",
         "debug_measurement": "debug",
         "state_measurement": "states",
         "fast_sensor_measurement": "sensors",
