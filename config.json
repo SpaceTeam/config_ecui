@@ -64,7 +64,7 @@
         "sensor_state_sampling_rate": 10.0
     },
     "WEBSERVER": {
-        "ip": "127.0.0.1",
+        "ip": "172.17.0.4",
         "ip@hq": "10.32.7.120",
         "port": 5555,
         "state_transmission_rate": 10.0,
@@ -72,7 +72,7 @@
         "sensors_smoothing_factor": 0.3
     },
     "INFLUXDB": {
-        "database_ip": "localhost",
+        "database_ip": "172.17.0.2",
         "database_port": 8086,
         "database_name": "gse",
         "debug_measurement": "debug",

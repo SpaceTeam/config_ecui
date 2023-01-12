@@ -16,3 +16,4 @@ sudo make load
 /usr/doc/canlib/examples/listChannels
 cd ..
 rm -rf linuxcan
+rm -rf linuxcan.tar.gz

@@ -39,3 +39,8 @@ sudo docker run --restart unless-stopped -d -v $CONFIG_DIR/grafana/config/:/etc/
 sudo DOCKER_BUILDKIT=0 docker build --build-arg config_path=$CONFIG_DIR --build-arg branch=dev --build-arg ssh_key_path="id_github" -t web_ecui -f $CONFIG_DIR/Dockerfile-web-ecui .
 sudo docker run --restart unless-stopped -d -p 80:80 -p 5555:5555 -v /home/missioncontrol/config_ecui/:/home/config_ecui/ -it --name web-ecui web_ecui
 
+sudo DOCKER_BUILDKIT=0 docker build --build-arg config_path=$CONFIG_DIR --build-arg branch=dev --build-arg ssh_key_path="id_github" -t llserver_ecui -f $CONFIG_DIR/Dockerfile-llserver-ecui .
+sudo docker run -v /home/missioncontrol/config_ecui/:/home/config_ecui/ -it --name llserver-ecui --privileged \
+           --cap-add=ALL \
+           -v /dev:/dev \
+           -v /lib/modules:/lib/modules llserver_ecui
