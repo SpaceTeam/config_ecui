@@ -1,0 +1,30 @@
+# specify the node base image with your desired version node:<version>
+FROM ubuntu
+
+WORKDIR /home
+
+# Update aptitude with new repo
+RUN apt-get update
+
+# Install software 
+RUN apt-get install -y git
+
+
+### KVASER Driver
+
+RUN apt-get update
+RUN apt-get install -y build-essential 
+RUN apt-get install -y linux-headers-`uname -r` 
+RUN apt-get install -y cmake make
+RUN apt-get install -y wget
+
+RUN wget --content-disposition "https://www.kvaser.com/downloads-kvaser/?utm_source=software&utm_ean=7330130980754&utm_status=latest"
+RUN tar xvzf linuxcan.tar.gz
+WORKDIR /home/linuxcan/canlib
+RUN make
+RUN make install
+RUN /usr/doc/canlib/examples/listChannels
+
+WORKDIR /home/llserver_ecui_houbolt
+
+ENTRYPOINT cmake . -D NO_PYTHON=true && make -j && ./llserver_ecui_houbolt

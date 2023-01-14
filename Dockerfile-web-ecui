@@ -34,10 +34,6 @@ RUN ssh-keyscan github.com >> /root/.ssh/known_hosts
 RUN git clone git@github.com:SpaceTeam/web_ecui_houbolt.git
 WORKDIR /home/web_ecui_houbolt
 
-RUN ls -la
-
-# WORKDIR /home/web_ecui_houbolt
-# RUN ls -la
 RUN git checkout $branch
 RUN git pull
 RUN git submodule init
@@ -48,9 +44,6 @@ WORKDIR /home/web_ecui_houbolt/client/pnid_houbolt/
 RUN npm install
 WORKDIR /home/web_ecui_houbolt
 
-RUN chmod +x update.sh
-RUN ./update.sh
-
 RUN echo "../config_ecui" >> configPath.txt
 
-ENTRYPOINT ls -la && node server
+ENTRYPOINT node server

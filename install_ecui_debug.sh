@@ -3,6 +3,36 @@ cd "$(dirname "$0")"
 
 CONFIG_DIR=$PWD
 
+sudo apt install cmake
+sudo apt install make
+sudo apt install git
+
+git submodule init
+git submodule update
+
+### Web Server
+echo "downloading web server locally..."
+
+cd ..
+git clone git@github.com:SpaceTeam/web_ecui_houbolt.git
+cd web_ecui_houbolt
+echo "../config_ecui" >> configPath.txt
+
+git submodule init
+git submodule update
+
+### Low-Level Server
+echo "downloading low level server locally..."
+
+cd ..
+git clone git@github.com:SpaceTeam/llserver_ecui_houbolt.git
+cd llserver_ecui_houbolt
+echo "../config_ecui" >> configPath.txt
+
+git submodule init
+git submodule update
+
+
 ### docker compose
 cd $CONFIG_DIR
 
@@ -18,22 +48,17 @@ sudo docker cp $CONFIG_DIR/grafana/lib/grafana.db grafana:/var/lib/grafana/
 sudo docker restart grafana
 #web ecui
 sudo DOCKER_BUILDKIT=0 docker build \
-    --build-arg config_path=$CONFIG_DIR \
-    --build-arg branch=dev \
-    --build-arg ssh_key_path="id_github" \
-    -t web_ecui -f $CONFIG_DIR/Dockerfile-web-ecui .
+    -t web_ecui -f $CONFIG_DIR/Dockerfile-web-ecui-debug .
 
 sudo docker run --restart unless-stopped \
     -d -p 80:80 -p 5555:5555 \
     -v $CONFIG_DIR:/home/config_ecui/ \
+    -v $CONFIG_DIR/../web_ecui_houbolt:/home/web_ecui_houbolt \
     -it --name web-ecui web_ecui
     
 #llserver ecui
 sudo DOCKER_BUILDKIT=0 docker build \
-    --build-arg config_path=$CONFIG_DIR \
-    --build-arg branch=dev \
-    --build-arg ssh_key_path="id_github" \
-    -t llserver_ecui -f $CONFIG_DIR/Dockerfile-llserver-ecui .
+    -t llserver_ecui -f $CONFIG_DIR/Dockerfile-llserver-ecui-debug .
 
 sudo docker run \
     -v $CONFIG_DIR:/home/config_ecui/ \
@@ -41,4 +66,5 @@ sudo docker run \
     --cap-add=ALL \
     -v /dev:/dev \
     -v /lib/modules:/lib/modules \
+    -v $CONFIG_DIR/../llserver_ecui_houbolt:/home/llserver_ecui_houbolt \
     -it --name llserver-ecui llserver_ecui

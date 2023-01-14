@@ -49,10 +49,6 @@ WORKDIR /home/
 RUN git clone git@github.com:SpaceTeam/llserver_ecui_houbolt.git
 WORKDIR /home/llserver_ecui_houbolt
 
-RUN ls -la
-
-# WORKDIR /home/web_ecui_houbolt
-# RUN ls -la
 RUN git checkout $branch
 RUN git pull
 RUN git submodule init

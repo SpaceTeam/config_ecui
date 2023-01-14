@@ -1,0 +1,19 @@
+# specify the node base image with your desired version node:<version>
+FROM node:16
+# replace this with your application's default port
+EXPOSE 5555
+EXPOSE 80
+
+WORKDIR /home
+
+# Update aptitude with new repo
+RUN apt-get update
+
+# Install software 
+RUN apt-get install -y git
+
+RUN npm install -g nodemon
+
+WORKDIR /home/web_ecui_houbolt
+
+ENTRYPOINT npm install && cd client/pnid_houbolt && npm install && cd ../../ && nodemon server
