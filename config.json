@@ -1,13 +1,12 @@
 {
-    "version": "1.3.0@uHoubolt",
+    "version": "1.3.1@Lamarr",
     "autoabort": false,
-    "pyenv": "/home/teststand/.local/lib/python3.8/site-packages",
+    "auto_start": true,
     "DEBUG": {
         "printWarnings": false,
         "printInfos": false
     },
     "socket_msg_size": 65536,
-    "mapping_path": "mapping/uHoubolt.json",
     "LOGGING": {
         "post_sequence_script": "scripts/plot.sh"
     },
@@ -20,7 +19,7 @@
         "canMsgSizes": [54, 39]
     },
     "CAN": {
-        "node_count": 1,
+        "node_count": 0,
         "blocking_timeout": 2048,
         "BUS": {
             "ARBITRATION": {
