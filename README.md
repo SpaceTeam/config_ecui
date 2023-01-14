@@ -79,3 +79,10 @@ Then enter the correct hostname port and database; probably:
 - hostname: `localhost`
 - port: `8086`
 - database: `gse`
+
+
+## Troubleshooting
+
+if the llserver fails to connect to the web server or carshes instantly try
+to check if the correct ip addresses are used in the config file with
+`sudo docker network inspect bridge`
