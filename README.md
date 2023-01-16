@@ -8,6 +8,7 @@
   - [Pre-Requisites](#pre-requisites)
   - [Install ECUI](#install-ecui)
   - [Configure Grafana](#configure-grafana)
+  - [Troubleshooting](#troubleshooting)
 
 
 ## Pre-Requisites
@@ -83,6 +84,8 @@ Then enter the correct hostname port and database; probably:
 
 ## Troubleshooting
 
-if the llserver fails to connect to the web server or carshes instantly try
+- if the llserver fails to connect to the web server or carshes instantly try
 to check if the correct ip addresses are used in the config file with
 `sudo docker network inspect bridge`
+
+- if either or both web and llserver refuse to start, try and check the docker environment variable for the correct config path

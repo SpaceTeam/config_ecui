@@ -2,6 +2,8 @@
 cd "$(dirname "$0")"
 
 CONFIG_DIR=$PWD
+DEFAULT_WEB_BRANCH=dev
+DEFAULT_LLSERVER_BRANCH=dev
 
 sudo apt install cmake
 sudo apt install make
@@ -16,7 +18,8 @@ echo "downloading web server locally..."
 cd ..
 git clone git@github.com:SpaceTeam/web_ecui_houbolt.git
 cd web_ecui_houbolt
-echo "../config_ecui" >> configPath.txt
+
+git checkout $DEFAULT_WEB_BRANCH
 
 git submodule init
 git submodule update
@@ -27,7 +30,8 @@ echo "downloading low level server locally..."
 cd ..
 git clone git@github.com:SpaceTeam/llserver_ecui_houbolt.git
 cd llserver_ecui_houbolt
-echo "../config_ecui" >> configPath.txt
+
+git checkout $DEFAULT_LLSERVER_BRANCH
 
 git submodule init
 git submodule update
@@ -54,6 +58,7 @@ sudo docker run --restart unless-stopped \
     -d -p 80:80 -p 5555:5555 \
     -v $CONFIG_DIR:/home/config_ecui/ \
     -v $CONFIG_DIR/../web_ecui_houbolt:/home/web_ecui_houbolt \
+    -v /var/run/docker.sock:/var/run/docker.sock \
     -e "ECUI_CONFIG_PATH=/home/config_ecui" \
     -it --name web-ecui web_ecui
     

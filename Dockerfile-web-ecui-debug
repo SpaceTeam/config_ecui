@@ -14,6 +14,10 @@ RUN apt-get install -y git
 
 RUN npm install -g nodemon
 
+ADD install_docker.sh /home
+RUN ./install_docker.sh
+RUN rm install_docker.sh
+
 WORKDIR /home/web_ecui_houbolt
 
 ENV ECUI_CONFIG_PATH=/home/config_ecui
