@@ -57,6 +57,6 @@ RUN git submodule update
 RUN cmake . -D NO_PYTHON=true
 RUN make -j
 
-RUN echo "../config_ecui" >> configPath.txt
+ENV ECUI_CONFIG_PATH=/home/config_ecui
 
 ENTRYPOINT ./llserver_ecui_houbolt

@@ -44,6 +44,6 @@ WORKDIR /home/web_ecui_houbolt/client/pnid_houbolt/
 RUN npm install
 WORKDIR /home/web_ecui_houbolt
 
-RUN echo "../config_ecui" >> configPath.txt
+ENV ECUI_CONFIG_PATH=/home/config_ecui
 
 ENTRYPOINT node server

@@ -16,4 +16,6 @@ RUN npm install -g nodemon
 
 WORKDIR /home/web_ecui_houbolt
 
+ENV ECUI_CONFIG_PATH=/home/config_ecui
+
 ENTRYPOINT npm install && cd client/pnid_houbolt && npm install && cd ../../ && nodemon server

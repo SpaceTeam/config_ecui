@@ -54,6 +54,7 @@ sudo docker run --restart unless-stopped \
     -d -p 80:80 -p 5555:5555 \
     -v $CONFIG_DIR:/home/config_ecui/ \
     -v $CONFIG_DIR/../web_ecui_houbolt:/home/web_ecui_houbolt \
+    -e "ECUI_CONFIG_PATH=/home/config_ecui" \
     -it --name web-ecui web_ecui
     
 #llserver ecui
@@ -67,4 +68,5 @@ sudo docker run \
     -v /dev:/dev \
     -v /lib/modules:/lib/modules \
     -v $CONFIG_DIR/../llserver_ecui_houbolt:/home/llserver_ecui_houbolt \
+    -e "ECUI_CONFIG_PATH=/home/config_ecui" \
     -it --name llserver-ecui llserver_ecui
