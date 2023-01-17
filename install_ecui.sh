@@ -26,6 +26,7 @@ sudo DOCKER_BUILDKIT=0 docker build \
 sudo docker run --restart unless-stopped \
     -d -p 80:80 -p 5555:5555 \
     -v $CONFIG_DIR:/home/config_ecui/ \
+    -v /var/run/docker.sock:/var/run/docker.sock \
     -e "ECUI_CONFIG_PATH=/home/config_ecui" \
     -it --name web-ecui web_ecui
     

@@ -54,7 +54,10 @@ RUN git pull
 RUN git submodule init
 RUN git submodule update
 
-RUN cmake . -D NO_PYTHON=true
+RUN mkdir build
+WORKDIR /home/llserver_ecui_houbolt/build
+
+RUN cmake -D NO_PYTHON=true -S ../ -B  ./
 RUN make -j
 
 ENV ECUI_CONFIG_PATH=/home/config_ecui

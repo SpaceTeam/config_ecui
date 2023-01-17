@@ -26,6 +26,10 @@ RUN /usr/doc/canlib/examples/listChannels
 
 WORKDIR /home/llserver_ecui_houbolt
 
+RUN mkdir build
+
+WORKDIR /home/llserver_ecui_houbolt/build
+
 ENV ECUI_CONFIG_PATH=/home/config_ecui
 
-ENTRYPOINT cmake . -D NO_PYTHON=true && make -j && ./llserver_ecui_houbolt
+ENTRYPOINT cmake -D NO_PYTHON=true -S ../ -B  ./ && make -j && ./llserver_ecui_houbolt
