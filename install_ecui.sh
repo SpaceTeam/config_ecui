@@ -18,7 +18,6 @@ sudo docker cp $CONFIG_DIR/grafana/lib/grafana.db grafana:/var/lib/grafana/
 sudo docker restart grafana
 #web ecui
 sudo DOCKER_BUILDKIT=0 docker build \
-    --build-arg config_path=$CONFIG_DIR \
     --build-arg branch=dev \
     --build-arg ssh_key_path="id_github" \
     -t web_ecui -f $CONFIG_DIR/Dockerfile-web-ecui .
@@ -32,7 +31,6 @@ sudo docker run --restart unless-stopped \
     
 #llserver ecui
 sudo DOCKER_BUILDKIT=0 docker build \
-    --build-arg config_path=$CONFIG_DIR \
     --build-arg branch=dev \
     --build-arg ssh_key_path="id_github" \
     -t llserver_ecui -f $CONFIG_DIR/Dockerfile-llserver-ecui .

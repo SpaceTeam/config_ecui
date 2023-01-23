@@ -16,6 +16,7 @@ RUN apt-get update
 RUN apt-get install -y build-essential 
 RUN apt-get install -y cmake make
 RUN apt-get install -y wget
+RUN apt-get install -y python3.10-dev
 
 RUN wget --content-disposition "https://www.kvaser.com/downloads-kvaser/?utm_source=software&utm_ean=7330130980754&utm_status=latest"
 RUN tar xvzf linuxcan.tar.gz
@@ -32,4 +33,4 @@ WORKDIR /home/llserver_ecui_houbolt/build
 
 ENV ECUI_CONFIG_PATH=/home/config_ecui
 
-ENTRYPOINT cmake -D NO_PYTHON=true -S ../ -B  ./ && make -j && ./llserver_ecui_houbolt
+ENTRYPOINT cmake -D NO_PYTHON=false -D NO_CANLIB=false -S ../ -B  ./ && make -j && ./llserver_ecui_houbolt

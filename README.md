@@ -89,3 +89,5 @@ to check if the correct ip addresses are used in the config file with
 `sudo docker network inspect bridge`
 
 - if either or both web and llserver refuse to start, try and check the docker environment variable for the correct config path
+
+- if the llserver crashes instantly check if influx is correctly installed

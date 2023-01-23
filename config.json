@@ -1,6 +1,7 @@
 {
     "version": "1.3.1@Lamarr",
     "autoabort": false,
+    "pyenv": "/home/.local/lib/python3.8/site-packages",
     "auto_start": true,
     "DEBUG": {
         "printWarnings": false,

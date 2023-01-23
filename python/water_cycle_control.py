@@ -7,6 +7,8 @@ def main():
 	currWaterValves = -1;
 	lastWaterPumps = -1;
 	currWaterPumps = -1;
+
+	print("water cycle control loaded")
 	
 	while (state_controller.get_state_value("python_running") == 1):
 		currWaterValves = state_controller.get_state_value("water_valves:sensor");

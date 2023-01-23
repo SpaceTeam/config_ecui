@@ -6,7 +6,6 @@ EXPOSE 80
 
 ARG branch=main
 ARG ssh_key_path=~/.ssh/id_github
-ARG config_path
 
 WORKDIR /home
 
