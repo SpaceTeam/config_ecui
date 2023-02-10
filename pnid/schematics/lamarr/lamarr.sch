@@ -950,10 +950,10 @@ F 6 " " V 7289 4672 50  0001 R CNN "Data_Content"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PnID-Lib:Tank_Slim Dewar?
+L PnID-Lib:Tank_Slim Dewar
 U 1 1 63E73966
 P 7440 5790
-F 0 "Dewar?" H 7440 5790 20  0000 C CNN
+F 0 "Dewar" H 7440 5790 20  0000 C CNN
 F 1 "dewar:sensor" H 7718 5769 20  0001 L CNN
 F 2 "" H 7440 5790 20  0001 C CNN
 F 3 "" H 7440 5790 20  0001 C CNN
