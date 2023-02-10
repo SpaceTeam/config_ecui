@@ -174,7 +174,7 @@ L PnID-Lib:Sensor_Pressure ox_tank_pressure
 U 1 1 63F0EDAE
 P 5030 2810
 F 0 "ox_tank_pressure" V 4989 2682 20  0001 R CNN
-F 1 "ox_tank_pressure:sensor" H 5230 2810 20  0000 L CNN
+F 1 "ox_tank_pressure:sensor" H 5560 2810 20  0000 L CNN
 F 2 "" H 5030 2810 20  0001 C CNN
 F 3 "" H 5030 2810 20  0001 C CNN
 F 4 "bar" H 5030 2810 20  0001 C CNN "Unit"
@@ -342,7 +342,7 @@ L PnID-Lib:Valve_Solenoid_NC ox_pressurize_solenoid
 U 1 1 63DC50A1
 P 5330 2220
 F 0 "ox_pressurize_solenoid" V 5352 2598 20  0001 L CNN
-F 1 "ox_pressurize_solenoid:sensor" V 5330 2670 20  0000 L CNN
+F 1 "ox_pressurize_solenoid:sensor" V 5330 3060 20  0000 L CNN
 F 2 "" H 5330 2220 20  0001 C CNN
 F 3 "" H 5330 2220 20  0001 C CNN
 F 4 "%" H 5330 2220 20  0001 C CNN "Unit"
@@ -460,7 +460,7 @@ F 3 "" H 2690 2220 20  0001 C CNN
 F 4 "%" H 2690 2220 20  0001 C CNN "Unit"
 F 5 " " H 2690 2220 50  0001 C CNN "Action_Reference"
 	1    2690 2220
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L PnID-Lib:Tank_Slim Fuel
@@ -550,7 +550,7 @@ L PnID-Lib:Venturi fuel_venturi
 U 1 1 63E10AFB
 P 3830 6750
 F 0 "fuel_venturi" V 3830 6540 20  0001 R CNN
-F 1 "fuel_venturi:sensor" V 3830 6530 20  0000 R CNN
+F 1 "fuel_venturi:sensor" V 3830 6540 20  0000 R CNN
 F 2 "" H 3830 6750 20  0001 C CNN
 F 3 "" H 3830 6750 20  0001 C CNN
 F 4 "%" H 3830 6750 20  0001 C CNN "Unit"
@@ -667,7 +667,7 @@ F 3 "" H 3580 4710 20  0001 C CNN
 F 4 "%" H 3580 4710 20  0001 C CNN "Unit"
 F 5 " " H 3580 4710 50  0001 C CNN "Action_Reference"
 	1    3580 4710
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L PnID-Lib:Valve_Solenoid_NC ox_purge_solenoid
@@ -801,7 +801,7 @@ L PnID-Lib:Valve_Solenoid_NO ox_pressurant_valve?
 U 1 1 63E7399D
 P 7580 1220
 F 0 "ox_pressurant_valve?" H 7580 1663 20  0001 C CNN
-F 1 "ox_pressurant_valve:sensor" H 7580 1660 20  0000 C CNN
+F 1 "ox_pressurant_valve:sensor" H 7580 1740 20  0000 C CNN
 F 2 "" H 7580 1220 20  0001 C CNN
 F 3 "" H 7580 1220 20  0001 C CNN
 F 4 "%" H 7580 1220 20  0001 C CNN "Unit"
@@ -854,7 +854,7 @@ L PnID-Lib:Valve_Solenoid_NC pressurant_main_valve?
 U 1 1 63E7397C
 P 9070 1220
 F 0 "pressurant_main_valve?" H 9070 1663 20  0001 C CNN
-F 1 "pressurant_main_valve:sensor" H 9070 1670 20  0000 C CNN
+F 1 "pressurant_main_valve:sensor" H 9070 1740 20  0000 C CNN
 F 2 "" H 9070 1220 20  0001 C CNN
 F 3 "" H 9070 1220 20  0001 C CNN
 F 4 "%" H 9070 1220 20  0001 C CNN "Unit"
@@ -1058,4 +1058,12 @@ F 4 " " H 10640 1640 50  0001 C CNN "Action_Reference"
 	1    10640 1640
 	0    1    1    0   
 $EndComp
+Wire Notes Line
+	9710 570  9710 670 
+Wire Notes Line
+	9710 670  10120 670 
+Wire Notes Line
+	10120 670  10120 570 
+Wire Notes Line
+	10120 570  9700 570 
 $EndSCHEMATC
