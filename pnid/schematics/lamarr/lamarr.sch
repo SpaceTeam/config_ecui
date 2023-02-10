@@ -1031,18 +1031,6 @@ F 3 "" H 10630 2380 20  0001 C CNN
 	1    10640 2450
 	1    0    0    -1  
 $EndComp
-$Comp
-L PnID-Lib:Valve_Manual fuel_manual_valve?
-U 1 1 63F1ECA2
-P 10640 1640
-F 0 "fuel_manual_valve?" V 10640 1462 50  0001 R CNN
-F 1 "fuel_manual_valve" H 10640 1340 50  0001 C CNN
-F 2 "" H 10640 1640 50  0001 C CNN
-F 3 "" H 10640 1640 50  0001 C CNN
-F 4 " " H 10640 1640 50  0001 C CNN "Action_Reference"
-	1    10640 1640
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10640 1950 10640 1840
 Wire Wire Line
@@ -1058,4 +1046,16 @@ Wire Wire Line
 Connection ~ 8510 1220
 Wire Wire Line
 	8510 1220 8870 1220
+$Comp
+L PnID-Lib:Valve_Manual ox_manual_valve
+U 1 1 63EBA6E4
+P 10640 1640
+F 0 "ox_manual_valve" V 10640 1868 50  0001 L CNN
+F 1 "ox_manual_valve" H 10640 1340 50  0001 C CNN
+F 2 "" H 10640 1640 50  0001 C CNN
+F 3 "" H 10640 1640 50  0001 C CNN
+F 4 " " H 10640 1640 50  0001 C CNN "Action_Reference"
+	1    10640 1640
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
