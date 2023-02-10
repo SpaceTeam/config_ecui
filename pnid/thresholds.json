@@ -1,4 +1,8 @@
 {
+    "wire": {
+        "pressurized": 2,
+        "notconnected": -8
+    },
     "solenoid": {
         "high": 1000
     },
