@@ -1,0 +1,509 @@
+{
+	"globals":
+	{
+		"startTime": -6,
+		"endTime": 50,
+		"interval": 0.01,
+		"interpolation":
+		{
+			"fuel_press_solenoid:SetState": "none",
+			"fuel_vent_solenoid:SetState": "none",
+			"ox_press_solenoid:SetState": "none",
+			"ox_vent_solenoid:SetState": "none",
+			"ignition_enable:SetState": "none",
+			"fuel_main_valve:SetTargetPosition": "linear",
+			"ox_main_valve:SetTargetPosition": "linear",
+			"injector_servo:SetTargetPosition": "linear"
+		},
+		"ranges":
+		[
+			"chamber_pressure"
+		]
+	},
+	"data":
+	[
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "set all to zero",
+			"actions":
+			[
+				{
+					"timestamp": 0.0,
+					"fuel_press_solenoid:SetState": [0],
+					"fuel_vent_solenoid:SetState": [0],
+					"ox_press_solenoid:SetState": [0],
+					"ox_vent_solenoid:SetState": [0],
+					"ignition_enable:SetState": [0],
+					"fuel_main_valve:SetTargetPosition": [65000],
+                    "ox_main_valve:SetTargetPosition": [65000],
+					"injector_servo:SetTargetPosition": [0],
+					"sensorsNominalRange":
+					{
+						"chamber_pressure": [-5, 20]
+					}
+				}
+			]
+		},
+		{
+			"timestamp": -2.0,
+			"name": "ignition",
+			"desc": "lets go",
+			"actions":
+			[
+
+		{
+					"timestamp": 1.9,
+					"ignition_enable:SetState": [65000]
+				},
+		{
+					"timestamp": 1.9,
+					"injector_servo:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 2.0,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+		{
+					"timestamp": 2.4,
+					"ignition_enable:SetState": [0]
+				},
+                {
+					"timestamp": 2.5,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+                {
+					"timestamp": 2.6,
+					"injector_servo:SetTargetPosition": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 2.5,
+			"name": "pulse",
+			"desc": "test",
+			"actions":
+			[
+		{
+					"timestamp": 0.9,
+					"ignition_enable:SetState": [65000]
+				},
+		{
+					"timestamp": 0.9,
+					"injector_servo:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 1.0,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+		{
+					"timestamp": 1.4,
+					"ignition_enable:SetState": [0]
+				},
+                {
+					"timestamp": 1.5,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+                {
+					"timestamp": 1.6,
+					"injector_servo:SetTargetPosition": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 6,
+			"name": "pulse",
+			"desc": "test",
+			"actions":
+			[
+		{
+					"timestamp": 0.9,
+					"ignition_enable:SetState": [65000]
+				},
+		{
+					"timestamp": 0.9,
+					"injector_servo:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 1.0,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+		{
+					"timestamp": 1.4,
+					"ignition_enable:SetState": [0]
+				},
+                {
+					"timestamp": 1.5,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+                {
+					"timestamp": 1.6,
+					"injector_servo:SetTargetPosition": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 9.5,
+			"name": "pulse",
+			"desc": "test",
+			"actions":
+			[
+		{
+					"timestamp": 0.9,
+					"ignition_enable:SetState": [65000]
+				},
+		{
+					"timestamp": 0.9,
+					"injector_servo:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 1.0,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+		{
+					"timestamp": 1.4,
+					"ignition_enable:SetState": [0]
+				},
+                {
+					"timestamp": 1.5,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+                {
+					"timestamp": 1.6,
+					"injector_servo:SetTargetPosition": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 13,
+			"name": "pulse",
+			"desc": "test",
+			"actions":
+			[
+		{
+					"timestamp": 0.9,
+					"ignition_enable:SetState": [65000]
+				},
+		{
+					"timestamp": 0.9,
+					"injector_servo:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 1.0,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+		{
+					"timestamp": 1.4,
+					"ignition_enable:SetState": [0]
+				},
+                {
+					"timestamp": 1.5,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+                {
+					"timestamp": 1.6,
+					"injector_servo:SetTargetPosition": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 16.5,
+			"name": "pulse",
+			"desc": "test",
+			"actions":
+			[
+		{
+					"timestamp": 0.9,
+					"ignition_enable:SetState": [65000]
+				},
+		{
+					"timestamp": 0.9,
+					"injector_servo:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 1.0,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+		{
+					"timestamp": 1.4,
+					"ignition_enable:SetState": [0]
+				},
+                {
+					"timestamp": 1.5,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+                {
+					"timestamp": 1.6,
+					"injector_servo:SetTargetPosition": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 20,
+			"name": "pulse",
+			"desc": "test",
+			"actions":
+			[
+		{
+					"timestamp": 0.9,
+					"ignition_enable:SetState": [65000]
+				},
+		{
+					"timestamp": 0.9,
+					"injector_servo:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 1.0,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+		{
+					"timestamp": 1.4,
+					"ignition_enable:SetState": [0]
+				},
+                {
+					"timestamp": 1.5,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+                {
+					"timestamp": 1.6,
+					"injector_servo:SetTargetPosition": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 23.5,
+			"name": "pulse",
+			"desc": "test",
+			"actions":
+			[
+		{
+					"timestamp": 0.9,
+					"ignition_enable:SetState": [65000]
+				},
+		{
+					"timestamp": 0.9,
+					"injector_servo:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 1.0,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+		{
+					"timestamp": 1.4,
+					"ignition_enable:SetState": [0]
+				},
+                {
+					"timestamp": 1.5,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+                {
+					"timestamp": 1.6,
+					"injector_servo:SetTargetPosition": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 27,
+			"name": "pulse",
+			"desc": "test",
+			"actions":
+			[
+		{
+					"timestamp": 0.9,
+					"ignition_enable:SetState": [65000]
+				},
+		{
+					"timestamp": 0.9,
+					"injector_servo:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 1.0,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+		{
+					"timestamp": 1.4,
+					"ignition_enable:SetState": [0]
+				},
+                {
+					"timestamp": 1.5,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+                {
+					"timestamp": 1.6,
+					"injector_servo:SetTargetPosition": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 30.5,
+			"name": "pulse",
+			"desc": "test",
+			"actions":
+			[
+		{
+					"timestamp": 0.9,
+					"ignition_enable:SetState": [65000]
+				},
+		{
+					"timestamp": 0.9,
+					"injector_servo:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 1.0,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+		{
+					"timestamp": 1.4,
+					"ignition_enable:SetState": [0]
+				},
+                {
+					"timestamp": 1.5,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+                {
+					"timestamp": 1.6,
+					"injector_servo:SetTargetPosition": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 34,
+			"name": "pulse",
+			"desc": "test",
+			"actions":
+			[
+		{
+					"timestamp": 0.9,
+					"ignition_enable:SetState": [65000]
+				},
+		{
+					"timestamp": 0.9,
+					"injector_servo:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 1.0,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+		{
+					"timestamp": 1.4,
+					"ignition_enable:SetState": [0]
+				},
+                {
+					"timestamp": 1.5,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+                {
+					"timestamp": 1.6,
+					"injector_servo:SetTargetPosition": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 37.5,
+			"name": "pulse",
+			"desc": "test",
+			"actions":
+			[
+		{
+					"timestamp": 0.9,
+					"ignition_enable:SetState": [65000]
+				},
+		{
+					"timestamp": 0.9,
+					"injector_servo:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 1.0,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+		{
+					"timestamp": 1.4,
+					"ignition_enable:SetState": [0]
+				},
+                {
+					"timestamp": 1.5,
+					"injector_servo:SetTargetPosition": [25000]
+				},
+                {
+					"timestamp": 1.6,
+					"injector_servo:SetTargetPosition": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 40,
+			"name": "throttle down",
+			"desc": "test",
+			"actions":
+			[
+				{
+					"timestamp": 0,
+					"fuel_main_valve:SetTargetPosition": [65000],
+					"ox_main_valve:SetTargetPosition": [65000]
+				},
+				{
+					"timestamp": 0.1,
+					"injector_servo:SetTargetPosition": [0],
+					"fuel_main_valve:SetTargetPosition": [0],
+					"ox_main_valve:SetTargetPosition": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 41.0,
+			"name": "shutdown",
+			"desc": "we are done here",
+			"actions":
+			[
+				{
+					"timestamp": 0,
+					"injector_servo:SetTargetPosition": [0]
+				},
+				{
+					"timestamp": 1.0,
+					"injector_servo:SetTargetPosition": [0]
+				},
+				{
+					"timestamp": 0,
+					"fuel_main_valve:SetTargetPosition": [0],
+					"ox_main_valve:SetTargetPosition": [0]
+				}
+			]
+		},
+        {
+			"timestamp": 44.0,
+			"name": "purge",
+			"desc": "vent injector pressures",
+			"actions":
+			[
+				{
+					"timestamp": 0.0,
+					"injector_servo:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 2.0,
+					"injector_servo:SetTargetPosition": [32000]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions":
+			[
+				{
+					"timestamp": 0.0,
+					"fuel_press_solenoid:SetState": [0],
+					"fuel_vent_solenoid:SetState": [0],
+					"ox_press_solenoid:SetState": [0],
+					"ox_vent_solenoid:SetState": [0],
+					"ignition_enable:SetState": [0],
+					"fuel_main_valve:SetTargetPosition": [0],
+                    "ox_main_valve:SetTargetPosition": [0],
+					"injector_servo:SetTargetPosition": [32000]
+				}
+			]
+		}
+	]
+}
