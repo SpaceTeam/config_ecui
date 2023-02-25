@@ -101,10 +101,10 @@
                 "stringID": "pressurant_vent_solenoid"
             },
             "8": {
-                "stringID": "fuel_pressuant_valve"
+                "stringID": "fuel_pressurant_solenoid"
             },
             "9": {
-                "stringID": "ox_pressurant_valve"
+                "stringID": "ox_pressurant_solenoid"
             },
             "10": {
                 "stringID": "dewar_pressurant_tanking_valve"

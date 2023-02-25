@@ -165,11 +165,11 @@ F 6 " " V 2405 2668 50  0001 L CNN "Data_Content"
 	0    1    1    0   
 $EndComp
 $Comp
-L PnID-Lib:Valve_Solenoid_NO fuel_pressurant_valve
+L PnID-Lib:Valve_Solenoid_NO fuel_pressurant_solenoid
 U 1 1 63DFC622
 P 1640 1540
-F 0 "fuel_pressurant_valve" H 1640 1983 20  0001 C CNN
-F 1 "fuel_pressurant_valve:sensor" H 1640 1980 20  0000 C CNN
+F 0 "fuel_pressurant_solenoid" H 1640 1983 20  0001 C CNN
+F 1 "fuel_pressurant_solenoid:sensor" H 1640 1980 20  0000 C CNN
 F 2 "" H 1640 1540 20  0001 C CNN
 F 3 "" H 1640 1540 20  0001 C CNN
 F 4 "%" H 1640 1540 20  0001 C CNN "Unit"
@@ -178,11 +178,11 @@ F 5 " " H 1640 1540 50  0001 C CNN "Action_Reference"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PnID-Lib:Valve_Solenoid_NO ox_pressurant_valve
+L PnID-Lib:Valve_Solenoid_NO ox_pressurant_solenoid
 U 1 1 63DFD2D1
 P 1640 2240
-F 0 "ox_pressurant_valve" H 1640 2683 20  0001 C CNN
-F 1 "ox_pressurant_valve:sensor" H 1640 2680 20  0000 C CNN
+F 0 "ox_pressurant_solenoid" H 1640 2683 20  0001 C CNN
+F 1 "ox_pressurant_solenoid:sensor" H 1640 2680 20  0000 C CNN
 F 2 "" H 1640 2240 20  0001 C CNN
 F 3 "" H 1640 2240 20  0001 C CNN
 F 4 "%" H 1640 2240 20  0001 C CNN "Unit"
