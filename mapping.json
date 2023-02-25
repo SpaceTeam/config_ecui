@@ -83,7 +83,7 @@
                 "stringID": "dewar_pressure"
             },
             "2": {
-                "stringID": "dewar"
+                "stringID": "dewar_fill_level"
             },
             "3": {
                 "stringID": "unused_gse_adc_3"

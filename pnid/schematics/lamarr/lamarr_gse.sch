@@ -91,7 +91,7 @@ L PnID-Lib:Tank_Slim Dewar
 U 1 1 63DEEC73
 P 2470 5970
 F 0 "Dewar" H 2470 5970 20  0000 C CNN
-F 1 "dewar:sensor" H 2748 5949 20  0001 L CNN
+F 1 "dewar_fill_level:sensor" H 2748 5949 20  0001 L CNN
 F 2 "" H 2470 5970 20  0001 C CNN
 F 3 "" H 2470 5970 20  0001 C CNN
 F 4 "%" H 2470 5970 20  0001 C CNN "Unit"
