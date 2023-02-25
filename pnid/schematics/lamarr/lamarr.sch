@@ -257,7 +257,12 @@ F 3 "" H 6880 3300 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L PnID-Lib:Vent Vent?
+L PnID-Lib:Vent Vent?            "10": {
+                "stringID": "unused_gse_solenoid_10"
+            },
+            "11": {
+                "stringID": "unused_gse_solenoid_11"
+            },
 U 1 1 63EF0AD8
 P 6890 3860
 F 0 "Vent?" H 6732 3687 50  0001 C CNN
@@ -837,11 +842,11 @@ F 6 " " V 8015 1048 50  0001 L CNN "Data_Content"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PnID-Lib:Valve_Solenoid_NO pressurant_vent_valve?
+L PnID-Lib:Valve_Solenoid_NO pressurant_vent_solenoid?
 U 1 1 63E73984
 P 8510 1810
-F 0 "pressurant_vent_valve?" V 8488 2188 20  0001 L CNN
-F 1 "pressurant_vent_valve:sensor" V 8510 1220 20  0000 L CNN
+F 0 "pressurant_vent_solenoid?" V 8488 2188 20  0001 L CNN
+F 1 "pressurant_vent_solenoid:sensor" V 8510 1220 20  0000 L CNN
 F 2 "" H 8510 1810 20  0001 C CNN
 F 3 "" H 8510 1810 20  0001 C CNN
 F 4 "%" H 8510 1810 20  0001 C CNN "Unit"
@@ -850,11 +855,11 @@ F 5 " " H 8510 1810 50  0001 C CNN "Action_Reference"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PnID-Lib:Valve_Solenoid_NC pressurant_main_valve?
+L PnID-Lib:Valve_Solenoid_NC pressurant_main_solenoid?
 U 1 1 63E7397C
 P 9070 1220
-F 0 "pressurant_main_valve?" H 9070 1663 20  0001 C CNN
-F 1 "pressurant_main_valve:sensor" H 9070 1740 20  0000 C CNN
+F 0 "pressurant_main_solenoid?" H 9070 1663 20  0001 C CNN
+F 1 "pressurant_main_solenoid:sensor" H 9070 1740 20  0000 C CNN
 F 2 "" H 9070 1220 20  0001 C CNN
 F 3 "" H 9070 1220 20  0001 C CNN
 F 4 "%" H 9070 1220 20  0001 C CNN "Unit"
@@ -968,11 +973,11 @@ Wire Wire Line
 Wire Wire Line
 	9530 5100 9270 5100
 $Comp
-L PnID-Lib:Valve_Solenoid_NO dewar_pressurant_vent_valve?
+L PnID-Lib:Valve_Solenoid_NO dewar_pressurant_vent_solenoid?
 U 1 1 63E739B8
 P 8510 4630
-F 0 "dewar_pressurant_vent_valve?" V 8488 5008 20  0001 L CNN
-F 1 "dewar_pressurant_vent_valve:sensor" V 8510 5060 20  0000 L CNN
+F 0 "dewar_pressurant_vent_solenoid?" V 8488 5008 20  0001 L CNN
+F 1 "dewar_pressurant_vent_solenoid:sensor" V 8510 5060 20  0000 L CNN
 F 2 "" H 8510 4630 20  0001 C CNN
 F 3 "" H 8510 4630 20  0001 C CNN
 F 4 "%" H 8510 4630 20  0001 C CNN "Unit"

@@ -125,11 +125,11 @@ F 3 "" H 1140 5280 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PnID-Lib:Valve_Solenoid_NC pressurant_main_valve
+L PnID-Lib:Valve_Solenoid_NC pressurant_main_solenoid
 U 1 1 63DFAE1F
 P 4030 2240
-F 0 "pressurant_main_valve" H 4030 2683 20  0001 C CNN
-F 1 "pressurant_main_valve:sensor" H 4030 2690 20  0000 C CNN
+F 0 "pressurant_main_solenoid" H 4030 2683 20  0001 C CNN
+F 1 "pressurant_main_solenoid:sensor" H 4030 2690 20  0000 C CNN
 F 2 "" H 4030 2240 20  0001 C CNN
 F 3 "" H 4030 2240 20  0001 C CNN
 F 4 "%" H 4030 2240 20  0001 C CNN "Unit"
@@ -138,11 +138,11 @@ F 5 " " H 4030 2240 50  0001 C CNN "Action_Reference"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PnID-Lib:Valve_Solenoid_NO pressurant_vent_valve
+L PnID-Lib:Valve_Solenoid_NO pressurant_vent_solenoid
 U 1 1 63DFB3F2
 P 3470 1650
-F 0 "pressurant_vent_valve" V 3448 2028 20  0001 L CNN
-F 1 "pressurant_vent_valve:sensor" V 3470 2100 20  0000 L CNN
+F 0 "pressurant_vent_solenoid" V 3448 2028 20  0001 L CNN
+F 1 "pressurant_vent_solenoid:sensor" V 3470 2100 20  0000 L CNN
 F 2 "" H 3470 1650 20  0001 C CNN
 F 3 "" H 3470 1650 20  0001 C CNN
 F 4 "%" H 3470 1650 20  0001 C CNN "Unit"
@@ -226,11 +226,11 @@ Wire Wire Line
 Wire Wire Line
 	4660 5280 4230 5280
 $Comp
-L PnID-Lib:Valve_Solenoid_NO dewar_pressurant_vent_valve
+L PnID-Lib:Valve_Solenoid_NO dewar_pressurant_vent_solenoid
 U 1 1 63DEAA1F
 P 3470 5830
-F 0 "dewar_pressurant_vent_valve" V 3448 6208 20  0001 L CNN
-F 1 "dewar_pressurant_vent_valve:sensor" V 3470 6260 20  0000 L CNN
+F 0 "dewar_pressurant_vent_solenoid" V 3448 6208 20  0001 L CNN
+F 1 "dewar_pressurant_vent_solenoid:sensor" V 3470 6260 20  0000 L CNN
 F 2 "" H 3470 5830 20  0001 C CNN
 F 3 "" H 3470 5830 20  0001 C CNN
 F 4 "%" H 3470 5830 20  0001 C CNN "Unit"

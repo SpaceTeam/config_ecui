@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name PnID)(type Legacy)(uri ${KIPRJMOD}/../pnid-lib/PnID.lib)(options "")(descr ""))
-  (lib (name uHoubolt-rescue)(type Legacy)(uri ${KIPRJMOD}/uHoubolt-rescue.lib)(options "")(descr "")(disabled))
-)
