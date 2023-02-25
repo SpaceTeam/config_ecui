@@ -2,725 +2,316 @@
     "CANMapping": {
         "3": {
             "0": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "pressurant_tanking_valve"
+                "stringID": "ox_depressurize_valve"
             },
             "1": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "pressurant_tanking_valve_unused_pressure"
+                "stringID": "ox_depressurize_valve_unused_pressure"
             },
             "2": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "pressurant_tanking_valve_unused_what"
+                "stringID": "ox_depressurize_valve_unused_what"
             },
-            "stringID": "blmb_pressurant_tanking_valve"
+            "stringID": "blmb_ox_depressurize_valve"
         },
         "4": {
             "0": {
-               "offset": 0,
-                "slope": 1.0,
-                "stringID": "pressurant_vent_valve"
-            },
-            "1": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "pressurant_vent_valve_unused_pressure"
-            },
-            "2": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "pressurant_vent_valve_unused_what"
-            },
-            "stringID": "blmb_pressurant_vent_valve"
-        },
-        "6": {
-            "0": {
-                "offset": 0,
-                "slope": 0.00367,
-                "stringID": "fuel_tank_pressure"
-            },
-            "1": {
-                "offset": 0,
-                "slope": 0.003735,
-                "stringID": "ox_tank_pressure"
-            },
-            "9": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_ecu_servo"
-            },
-            "11": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "fuel_main_valve"
-            },
-            "12": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "igniter0"
-            },
-            "13": {
-                "offset": 1.0,
-                "slope": -1.0,
-                "stringID": "igniter0_cont"
-            },
-            "16": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_ecu_pyro"
-            },
-            "17": {
-                "offset": 1.0,
-                "slope": -1.0,
-                "stringID": "unused_ecu_pyro_cont"
-            },
-            "14": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "igniter1"
-            },
-            "15": {
-                "offset": 1.0,
-                "slope": -1.0,
-                "stringID": "igniter1_cont"
-            },
-            "18": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "supercharge_valve"
-            },
-            "19": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_ecu_solenoid"
-            },
-            "2": {
-                "offset": 0,
-                "slope": 0.0037,
-                "stringID": "chamber_pressure"
-            },
-            "20": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "pressure_control"
-            },
-            "22": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "rocket"
-            },
-            "3": {
-                "offset": -16.244,
-                "slope": 0.00119984,
-                "stringID": "fuel_injector_pressure"
-            },
-            "4": {
-                "offset": -16.244,
-                "slope": 0.00119984,
-                "stringID": "ox_injector_pressure"
-            },
-            "5": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_ecu_pressure"
-            },
-            "6": {
-                "offset": -248.8657,
-                "slope": 0.043258,
-                "stringID": "ox_tank_bottom_temp"
-            },
-            "7": {
-                "offset": -248.8657,
-                "slope": 0.043258,
-                "stringID": "ox_tank_middle_temp"
-            },
-            "8": {
-                "offset": -248.8657,
-                "slope": 0.043258,
-                "stringID": "ox_tank_top_temp"
-            },
-            "10": {
-                "offset": 0,
-                "slope": 1.0,
                 "stringID": "ox_main_valve"
             },
-            "stringID": "ecu"
-        },
-        "7": {
-            "0": {
-                "offset": 0,
-                "slope": 0.00010071,
-                "stringID": "pmu_5V_voltage"
-            },
             "1": {
-                "offset": 0,
-                "slope": 0.00010071,
-                "stringID": "pmu_5V_high_load_voltage"
+                "stringID": "ox_main_valve_unused_pressure"
             },
             "2": {
-                "offset": 0,
-                "slope": 0.00033234,
-                "stringID": "pmu_12V_voltage"
+                "stringID": "ox_main_valve_unused_what"
             },
-            "3": {
-                "offset": 0,
-                "slope": 0.00033234,
-                "stringID": "battery_voltage"
+            "stringID": "blmb_ox_main_valve"
+        },
+        "11": {
+            "0": {
+                "stringID": "fuel_pressurant_pressure"
             },
-            "4": {
-                "offset": 0,
-                "slope": 0.00033234,
-                "stringID": "pmu_pyro_voltage"
-            },
-            "5": {
-                "offset": 0,
-                "slope": 0.50354772,
-                "stringID": "pmu_supply_current"
-            },
-            "6": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "umbilical_voltage_ok"
-            },
-            "7": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "charging_ok"
-            },
-            "8": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "charging_enabled"
-            },
-            "9": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "camera0"
+            "1": {
+                "stringID": "fuel_tank_pressure"
             },
             "10": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "camera1"
+                "stringID": "unused_solenoid_10"
             },
             "11": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "pmu_unused_out2_11"
+                 "stringID": "ox_purge_solenoid"
             },
             "12": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "pmu_unused_out3_12"
+                "stringID": "top_tank_temp"
             },
             "13": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "payload_interface"
+                "stringID": "top_mid_tank_temp"
             },
             "14": {
-                "offset": 0,
-                "slope": 0.00024414,
-                "stringID": "pmu_barometer"
+                "stringID": "bottom_mid_tank_temp"
             },
             "15": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "pmu_accel_x"
-            },
-            "16": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "pmu_accel_y"
-            },
-            "17": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "pmu_accel_z"
-            },
-            "18": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "pmu_gyro_x"
-            },
-            "19": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "pmu_gyro_y"
-            },
-            "20": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "pmu_gyro_z"
-            },
-            "stringID": "pmu"
-        },
-        "8": {
-            "0": {
-                "offset": 0,
-                "slope": 0.00010071,
-                "stringID": "rcu_5V_voltage"
-            },
-            "1": {
-                "offset": 0,
-                "slope": 0.00033234,
-                "stringID": "rcu_12V_voltage"
-            },
-            "10": {
-                "offset": 0,
-                "slope": 0.0000001,
-                "stringID": "gps_latitude"
-            },
-            "11": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "gps_altitude"
+                "stringID": "bottom_tank_temp"
             },
             "2": {
-                "offset": 0,
-                "slope": 0.00024414,
-                "stringID": "rcu_barometer"
+                "stringID": "fuel_venturi_pressure"
             },
             "3": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "rcu_accel_x"
+                "stringID": "ox_pressurant_pressure"
             },
             "4": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "rcu_accel_y"
+                "stringID": "ox_tank_pressure"
             },
             "5": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "rcu_accel_z"
+                "stringID": "ox_venturi_pressure"
             },
             "6": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "rcu_gyro_x"
+                "stringID": "fuel_pressurize_solenoid"
             },
             "7": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "rcu_gyro_y"
+                "stringID": "fuel_depressurize_solenoid"
             },
             "8": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "rcu_gyro_z"
+                "stringID": "fuel_purge_solenoid"
             },
             "9": {
-                "offset": 0,
-                "slope": 0.0000001,
-                "stringID": "gps_longitude"
+                "stringID": "ox_pressurize_solenoid"
             },
-            "12": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "gps_status"
+            "stringID": "teststand_iob"
+        },
+        "12": {
+            "0": {
+                "stringID": "pressurant_pressure"
             },
-            "stringID": "rcu"
+            "1": {
+                "stringID": "dewar_pressure"
+            },
+            "2": {
+                "stringID": "dewar"
+            },
+            "3": {
+                "stringID": "unused_gse_adc_3"
+            },
+            "4": {
+                "stringID": "unused_gse_adc_4"
+            },
+            "5": {
+                "stringID": "unused_gse_adc_5"
+            },
+            "6": {
+                "stringID": "pressurant_main_solenoid"
+            },
+            "7": {
+                "stringID": "pressurant_vent_solenoid"
+            },
+            "8": {
+                "stringID": "fuel_pressuant_valve"
+            },
+            "9": {
+                "stringID": "ox_pressurant_valve"
+            },
+            "10": {
+                "stringID": "dewar_pressurant_tanking_valve"
+            },
+            "11": {
+                "stringID": "dewar_pressurant_vent_solenoid"
+            },
+            "stringID": "gse_iob"
         },
         "9": {
             "0": {
-                "offset": 18.534,
-                "slope": 0.1251,
-                "stringID": "scale"
+                "stringID": "unused_ecu_pressure_0"
             },
             "1": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_tw_pressure3"
+                "stringID": "unused_ecu_pressure_1"
             },
             "10": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "ox_vent_valve"
+                "stringID": "unused_ecu_servo_1"
             },
             "11": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "holddown"
+                "stringID": "unused_ecu_servo_2"
             },
             "12": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "water_pumps"
+                "stringID": "unused_ecu_pyro_0"
             },
             "13": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_tw_pyro0_cont"
+                "stringID": "unused_ecu_pyro_0_cont"
             },
             "14": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "water_valves"
+                "stringID": "unused_ecu_pyro_1"
             },
             "15": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_tw_pyro1_cont"
+                "stringID": "unused_ecu_pyro_1_cont"
             },
             "16": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "supply_voltage_switch"
+                "stringID": "unused_ecu_pyro_2"
             },
             "17": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_tw_pyro2_cont"
+                "stringID": "unused_ecu_pyro_2_cont"
             },
             "18": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_tw_solenoid"
+                "stringID": "unused_ecu_solenoid_0"
             },
             "19": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "umbilical_retract"
+                "stringID": "unused_ecu_solenoid_1"
             },
             "2": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_tw_pressure1"
+                "stringID": "unused_ecu_pressure_2"
             },
             "20": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_tw_pressure_control"
+                "stringID": "unused_ecu_pressure_control"
             },
             "3": {
-                "offset": -101.25,
-                "slope": 0.0078857,
-                "stringID": "pressurant_pressure"
+                "stringID": "unused_ecu_pressure_3"
             },
             "4": {
-                "offset": -16.244,
-                "slope": 0.00119984,
-                "stringID": "ox_bottle_pressure"
+                "stringID": "unused_ecu_pressure_4"
             },
             "5": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_tw_pressure4"
+                "stringID": "unused_ecu_pressure_5"
             },
             "6": {
-                "offset": -268.8657,
-                "slope": 0.043258,
-                "stringID": "water_cold_temp"
+                "stringID": "unused_ecu_temp_0"
             },
             "7": {
-                "offset": -264.8657,
-                "slope": 0.043258,
-                "stringID": "water_hot_temp"
+                "stringID": "unused_ecu_temp_1"
             },
             "8": {
-                "offset": -248.8657,
-                "slope": 0.043258,
-                "stringID": "water_mantle_temp"
+                "stringID": "unused_ecu_temp_2"
             },
             "9": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "ox_tanking_valve"
+                "stringID": "fuel_main_valve"
             },
-            "stringID": "tanking_cart"
+            "stringID": "teststand_ecu"
         },
-        "16": {
+        "30": {
             "0": {
-                "offset": 0,
-                "slope": 0.00367,
-                "stringID": "lora:fuel_tank_pressure"
+                "offset": -1525562.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_0"
             },
             "1": {
+                "offset": -662175.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_1"
+            },
+            "2": {
+                "offset": -1371990.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_2"
+            },
+            "3": {
+                "offset": -940816.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_3"
+            },
+            "4": {
+                "offset": -312116.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_4"
+            },
+            "5": {
+                "offset": -1794695.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_5"
+            },
+            "6": {
+                "offset": -452668.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_6"
+            },
+            "7": {
+                "offset": -1360714.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_7"
+            },
+            "stringID": "teststand_lcb"
+        },
+        "40": {
+            "0": {
+                "stringID": "tanking_valve"
+            },
+            "stringID": "dcmb_tanking_valve"
+        },
+        "20": {
+            "0": {
+                "offset": -1525562.0,
+                "slope": 1.0,
+                "stringID": "force_0"
+            },
+            "1": {
+                "offset": -662175.0,
+                "slope": 1.0,
+                "stringID": "force_1"
+            },
+            "2": {
+                "offset": -1371990.0,
+                "slope": 1.0,
+                "stringID": "force_2"
+            },
+            "3": {
+                "offset": -940816.0,
+                "slope": 1.0,
+                "stringID": "force_3"
+            },
+            "4": {
+                "offset": -312116.0,
+                "slope": 1.0,
+                "stringID": "force_4"
+            },
+            "5": {
+                "offset": -1794695.0,
+                "slope": 1.0,
+                "stringID": "force_5"
+            },
+            "6": {
+                "offset": -452668.0,
+                "slope": 1.0,
+                "stringID": "force_6"
+            },
+            "7": {
+                "offset": -1360714.0,
+                "slope": 1.0,
+                "stringID": "force_7"
+            },
+            "stringID": "lcb"
+        },
+        "10": {
+            "0": {
                 "offset": 0,
                 "slope": 0.003735,
-                "stringID": "lora:ox_tank_pressure"
-            },
-            "9": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:unused_ecu_servo"
-            },
-            "11": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:fuel_main_valve"
-            },
-            "12": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:igniter0"
-            },
-            "13": {
-                "offset": 1.0,
-                "slope": -1.0,
-                "stringID": "lora:igniter0_cont"
-            },
-            "16": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:unused_ecu_pyro"
-            },
-            "17": {
-                "offset": 1.0,
-                "slope": -1.0,
-                "stringID": "lora:unused_ecu_pyro_cont"
-            },
-            "14": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:igniter1"
-            },
-            "15": {
-                "offset": 1.0,
-                "slope": -1.0,
-                "stringID": "lora:igniter1_cont"
-            },
-            "18": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:supercharge_valve"
-            },
-            "19": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:unused_ecu_solenoid"
-            },
-            "2": {
-                "offset": 0,
-                "slope": 0.0037,
-                "stringID": "lora:chamber_pressure"
-            },
-            "20": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:pressure_control"
-            },
-            "22": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:rocket"
-            },
-            "3": {
-                "offset": -16.244,
-                "slope": 0.00119984,
-                "stringID": "lora:fuel_injector_pressure"
-            },
-            "4": {
-                "offset": -16.244,
-                "slope": 0.00119984,
-                "stringID": "lora:ox_injector_pressure"
-            },
-            "5": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:unused_ecu_pressure"
-            },
-            "6": {
-                "offset": -248.8657,
-                "slope": 0.043258,
-                "stringID": "lora:ox_tank_bottom_temp"
-            },
-            "7": {
-                "offset": -248.8657,
-                "slope": 0.043258,
-                "stringID": "lora:ox_tank_middle_temp"
-            },
-            "8": {
-                "offset": -248.8657,
-                "slope": 0.043258,
-                "stringID": "lora:ox_tank_top_temp"
-            },
-            "10": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:ox_main_valve"
-            },
-            "stringID": "lora:ecu"
-        },
-        "17": {
-            "0": {
-                "offset": 0,
-                "slope": 0.00010071,
-                "stringID": "lora:pmu_5V_voltage"
+                "stringID": "channel_0"
             },
             "1": {
-                "offset": 0,
-                "slope": 0.00010071,
-                "stringID": "lora:pmu_5V_high_load_voltage"
-            },
-            "2": {
-                "offset": 0,
-                "slope": 0.00033234,
-                "stringID": "lora:pmu_12V_voltage"
-            },
-            "3": {
-                "offset": 0,
-                "slope": 0.00033234,
-                "stringID": "lora:battery_voltage"
-            },
-            "4": {
-                "offset": 0,
-                "slope": 0.00033234,
-                "stringID": "lora:pmu_pyro_voltage"
-            },
-            "5": {
-                "offset": 0,
-                "slope": 0.50354772,
-                "stringID": "lora:pmu_supply_current"
-            },
-            "6": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:umbilical_voltage_ok"
-            },
-            "7": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:charging_ok"
-            },
-            "8": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:charging_enabled"
-            },
-            "9": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:camera0"
+                "stringID": "channel_1"
             },
             "10": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:camera1"
+                "stringID": "channel_10"
             },
             "11": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:pmu_unused_out2_11"
-            },
-            "12": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:pmu_unused_out3_12"
-            },
-            "13": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:payload_interface"
-            },
-            "14": {
-                "offset": 0,
-                "slope": 0.00024414,
-                "stringID": "lora:pmu_barometer"
-            },
-            "15": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "lora:pmu_accel_x"
-            },
-            "16": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "lora:pmu_accel_y"
-            },
-            "17": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "lora:pmu_accel_z"
-            },
-            "18": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "lora:pmu_gyro_x"
-            },
-            "19": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "lora:pmu_gyro_y"
-            },
-            "20": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "lora:pmu_gyro_z"
-            },
-            "stringID": "lora:pmu"
-        },
-        "18": {
-            "0": {
-                "offset": 0,
-                "slope": 0.00010071,
-                "stringID": "lora:rcu_5V_voltage"
-            },
-            "1": {
-                "offset": 0,
-                "slope": 0.00033234,
-                "stringID": "lora:rcu_12V_voltage"
-            },
-            "10": {
-                "offset": 0,
-                "slope": 0.0000001,
-                "stringID": "lora:gps_latitude"
-            },
-            "11": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:gps_altitude"
+                "stringID": "channel_11"
             },
             "2": {
-                "offset": 0,
-                "slope": 0.00024414,
-                "stringID": "lora:rcu_barometer"
+                "stringID": "channel_2"
             },
             "3": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "lora:rcu_accel_x"
+                "stringID": "channel_3"
             },
             "4": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "lora:rcu_accel_y"
+                "stringID": "channel_4"
             },
             "5": {
-                "offset": -16,
-                "slope": 0.0078125,
-                "stringID": "lora:rcu_accel_z"
+                "stringID": "channel_5"
             },
             "6": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "lora:rcu_gyro_x"
+                "stringID": "channel_6"
             },
             "7": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "lora:rcu_gyro_y"
+                "stringID": "channel_7"
             },
             "8": {
-                "offset": -2000,
-                "slope": 0.97656,
-                "stringID": "lora:rcu_gyro_z"
+                "stringID": "channel_8"
             },
             "9": {
-                "offset": 0,
-                "slope": 0.0000001,
-                "stringID": "lora:gps_longitude"
+                "stringID": "channel_9"
             },
-            "12": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "lora:gps_status"
-            },
-            "stringID": "lora:rcu"
+            "stringID": "iobv3"
         }
     },
     "DefaultEventMapping": {
@@ -742,16 +333,78 @@
         ]
     },
     "EventMapping": {
-        ".*:State": [
+        "ecu:FlashStatus": [
             {
-                "state": "gui:{}:reference",
-                "value": ".*:State"
+                "state": "gui:Flash:Clear",
+                "triggerType": "!=",
+                "triggerValue": 0,
+                "value": 0
             }
         ],
-        ".*:TargetPosition": [
+        "gui:Flash:Clear": [
             {
-                "state": "gui:{}:reference",
-                "value": ".*:TargetPosition"
+                "command": "ecu:RequestFlashClear",
+                "parameters": []
+            },
+            {
+                "command": "pmu:RequestFlashClear",
+                "parameters": []
+            },
+            {
+                "command": "rcu:RequestFlashClear",
+                "parameters": []
+            }
+        ],
+        "gui:FlushDatabase": [
+            {
+                "command": "FlushDatabase",
+                "parameters": []
+            }
+        ],
+        "gui:Logging": [
+            {
+                "command": "ecu:SetLoggingEnabled",
+                "parameters": [
+                    "gui:Logging"
+                ]
+            },
+            {
+                "command": "pmu:SetLoggingEnabled",
+                "parameters": [
+                    "gui:Logging"
+                ]
+            },
+            {
+                "command": "rcu:SetLoggingEnabled",
+                "parameters": [
+                    "gui:Logging"
+                ]
+            }
+        ],
+        "gui:LoraEnabled": [
+            {
+                "command": "rcu:SetLoraEnabled",
+                "parameters": [
+                    "gui:LoraEnabled"
+                ]
+            }
+        ],
+        "gui:holddown:sensor": [
+            {
+                "command": "holddown:SetTargetPosition",
+                "parameters": [
+                    0
+                ],
+                "triggerType": "==",
+                "triggerValue": 0
+            },
+            {
+                "command": "holddown:SetTargetPosition",
+                "parameters": [
+                    65535
+                ],
+                "triggerType": "==",
+                "triggerValue": 1
             }
         ],
         "gui:pressure_control:GetHysteresis": [
@@ -811,95 +464,29 @@
         "gui:rocket:ReleaseHolddown": [
             {
                 "command": "rocket:SetRocketState",
-                "parameters": [4]
+                "parameters": [
+                    4
+                ]
             },
             {
                 "command": "holddown:SetTargetPosition",
-                "parameters": [65535]
-            }
-        ],
-        "gui:holddown:sensor": [
-            {
-                "command": "holddown:SetTargetPosition",
-                "triggerType": "==",
-                "triggerValue": 0,
-                "parameters": [0]
-            },
-            {
-                "command": "holddown:SetTargetPosition",
-                "triggerType": "==",
-                "triggerValue": 1,
-                "parameters": [65535]
-            }
-        ],
-        "gui:Logging": [
-            {
-                "command": "ecu:SetLoggingEnabled",
-                "parameters": ["gui:Logging"]
-            },
-            {
-                "command": "pmu:SetLoggingEnabled",
-                "parameters": ["gui:Logging"]
-            },
-            {
-                "command": "rcu:SetLoggingEnabled",
-                "parameters": ["gui:Logging"]
-            }
-        ],
-        "gui:LoraEnabled": [
-            {
-                "command": "rcu:SetLoraEnabled",
-                "parameters": ["gui:LoraEnabled"]
-            }
-        ],
-        "gui:Flash:Clear": [
-            {
-                "command": "ecu:RequestFlashClear",
-                "parameters": []
-            },
-            {
-                "command": "pmu:RequestFlashClear",
-                "parameters": []
-            },
-            {
-                "command": "rcu:RequestFlashClear",
-                "parameters": []
-            }
-        ],
-        "ecu:FlashStatus": [
-        	{
-                "state": "gui:Flash:Clear",
-                "triggerType": "!=",
-                "triggerValue": 0,
-                "value": 0
-            }       	
-        ],
-        "pmu:FlashStatus": [
-        	{
-                "state": "gui:Flash:Clear",
-                "triggerType": "!=",
-                "triggerValue": 0,
-                "value": 0
-            }       	
-        ],
-        "rcu:FlashStatus": [
-        	{
-                "state": "gui:Flash:Clear",
-                "triggerType": "!=",
-                "triggerValue": 0,
-                "value": 0
-            }       	
-        ],
-        "gui:rocket:ResetStateMachine": [
-            {
-                "command": "rocket:SetRocketState",
-                "parameters": [0]
+                "parameters": [
+                    65535
+                ]
             }
         ],
         "gui:rocket:RequestResetSettings": [
             {
                 "command": "rocket:RequestResetSettings",
                 "parameters": []
+            }
+        ],
+        "gui:rocket:ResetStateMachine": [
+            {
+                "command": "rocket:SetRocketState",
+                "parameters": [
+                    0
+                ]
             }
         ],
         "gui:rocket:SetHolddownTimeout": [
@@ -944,10 +531,20 @@
                 ]
             }
         ],
-        "gui:FlushDatabase": [
+        "pmu:FlashStatus": [
             {
-                "command": "FlushDatabase",
-                "parameters": []
+                "state": "gui:Flash:Clear",
+                "triggerType": "!=",
+                "triggerValue": 0,
+                "value": 0
+            }
+        ],
+        "rcu:FlashStatus": [
+            {
+                "state": "gui:Flash:Clear",
+                "triggerType": "!=",
+                "triggerValue": 0,
+                "value": 0
             }
         ],
         "rocket:sensor": [
@@ -1049,111 +646,6 @@
             }
         ]
     },
-    "GUIMapping": [
-        {
-            "label": "Camera0",
-            "state": "camera0:sensor"
-        },
-        {
-            "label": "Camera1",
-            "state": "camera1:sensor"
-        },
-        {
-            "label": "Fuel Tank Pressure",
-            "state": "fuel_tank_pressure:sensor"
-        },
-        {
-            "label": "Ox Tank Pressure",
-            "state": "ox_tank_pressure:sensor"
-        },
-        {
-            "label": "Supercharge Valve",
-            "state": "supercharge_valve:sensor"
-        },
-        {
-            "label": "Ox Tank Top Temp",
-            "state": "ox_tank_top_temp:sensor"
-        },
-        {
-            "label": "Ox Tank Middle Temp",
-            "state": "ox_tank_middle_temp:sensor"
-        },
-        {
-            "label": "Ox Tank Bottom Temp",
-            "state": "ox_tank_bottom_temp:sensor"
-        },
-        {
-            "label": "Fuel Main Valve",
-            "state": "fuel_main_valve:sensor"
-        },
-        {
-            "label": "Ox Main Valve",
-            "state": "ox_main_valve:sensor"
-        },
-        {
-            "label": "Fuel Injector Pressure",
-            "state": "fuel_injector_pressure:sensor"
-        },
-        {
-            "label": "Ox Injector Pressure",
-            "state": "ox_injector_pressure:sensor"
-        },
-        {
-            "label": "Chamber Pressure",
-            "state": "chamber_pressure:sensor"
-        },
-        {
-            "label": "Pressurant Tanking Valve",
-            "state": "pressurant_tanking_valve:sensor"
-        },
-        {
-            "label": "Ox Tanking Valve",
-            "state": "ox_tanking_valve:sensor"
-        },
-        {
-            "label": "Pressurant Vent Valve",
-            "state": "pressurant_vent_valve:sensor"
-        },
-        {
-            "label": "Ox Vent Valve",
-            "state": "ox_vent_valve:sensor"
-        },
-        {
-            "label": "Supply Current",
-            "state": "supply_current_sense:sensor"
-        },
-        {
-            "label": "Pressurant Pressure",
-            "state": "pressurant_pressure:sensor"
-        },
-        {
-            "label": "Ox Bottle Pressure",
-            "state": "ox_bottle_pressure:sensor"
-        },
-        {
-            "label": "Water Mantle Temp",
-            "state": "water_mantle_temp:sensor"
-        },
-        {
-            "label": "Water Cold Temp",
-            "state": "water_cold_temp:sensor"
-        },
-        {
-            "label": "Water Hot Temp",
-            "state": "water_hot_temp:sensor"
-        },
-        {
-            "label": "Pump Hot Water",
-            "state": "pump_hot_water:sensor"
-        },
-        {
-            "label": "Pump Cold Water",
-            "state": "pump_cold_water:sensor"
-        },
-        {
-            "label": "Valves",
-            "state": "valves:sensor"
-        }
-    ],
+    "GUIMapping": [],
     "GUIMappingAdvanced": {}
 }
