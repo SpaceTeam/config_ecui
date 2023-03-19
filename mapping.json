@@ -1,28 +1,47 @@
 {
     "CANMapping": {
-        "3": {
+        "10": {
             "0": {
-                "stringID": "ox_depressurize_valve"
+                "offset": -16.244,
+                "slope": 0.00119984,
+                "stringID": "ox_tank_pressure"
             },
             "1": {
-                "stringID": "ox_depressurize_valve_unused_pressure"
+                "offset": -16.244,
+                "slope": 0.00119984,
+                "stringID": "fuel_tank_pressure"
+            },
+            "10": {
+                "stringID": "channel_10"
+            },
+            "11": {
+                "stringID": "channel_11"
             },
             "2": {
-                "stringID": "ox_depressurize_valve_unused_what"
+                "stringID": "channel_2"
             },
-            "stringID": "blmb_ox_depressurize_valve"
-        },
-        "4": {
-            "0": {
-                "stringID": "ox_main_valve"
+            "3": {
+                "stringID": "channel_3"
             },
-            "1": {
-                "stringID": "ox_main_valve_unused_pressure"
+            "4": {
+                "stringID": "channel_4"
             },
-            "2": {
-                "stringID": "ox_main_valve_unused_what"
+            "5": {
+                "stringID": "channel_5"
             },
-            "stringID": "blmb_ox_main_valve"
+            "6": {
+                "stringID": "channel_6"
+            },
+            "7": {
+                "stringID": "channel_7"
+            },
+            "8": {
+                "stringID": "channel_8"
+            },
+            "9": {
+                "stringID": "channel_9"
+            },
+            "stringID": "iobv3"
         },
         "11": {
             "0": {
@@ -35,7 +54,7 @@
                 "stringID": "unused_solenoid_10"
             },
             "11": {
-                 "stringID": "ox_purge_solenoid"
+                "stringID": "ox_purge_solenoid"
             },
             "12": {
                 "stringID": "top_tank_temp"
@@ -82,6 +101,12 @@
             "1": {
                 "stringID": "dewar_pressure"
             },
+            "10": {
+                "stringID": "dewar_pressurant_tanking_valve"
+            },
+            "11": {
+                "stringID": "dewar_pressurant_vent_solenoid"
+            },
             "2": {
                 "stringID": "dewar_fill_level"
             },
@@ -106,13 +131,62 @@
             "9": {
                 "stringID": "ox_pressurant_solenoid"
             },
-            "10": {
-                "stringID": "dewar_pressurant_tanking_valve"
-            },
-            "11": {
-                "stringID": "dewar_pressurant_vent_solenoid"
-            },
             "stringID": "gse_iob"
+        },
+        "20": {
+            "0": {
+                "offset": -1525562.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_0"
+            },
+            "1": {
+                "offset": -662175.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_1"
+            },
+            "2": {
+                "offset": -1371990.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_2"
+            },
+            "3": {
+                "offset": -940816.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_3"
+            },
+            "4": {
+                "offset": -312116.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_4"
+            },
+            "5": {
+                "offset": -1794695.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_5"
+            },
+            "6": {
+                "offset": -452668.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_6"
+            },
+            "7": {
+                "offset": -1360714.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_7"
+            },
+            "stringID": "teststand_lcb"
+        },
+        "3": {
+            "0": {
+                "stringID": "ox_depressurize_valve"
+            },
+            "1": {
+                "stringID": "ox_depressurize_valve_unused_pressure"
+            },
+            "2": {
+                "stringID": "ox_depressurize_valve_unused_what"
+            },
+            "stringID": "blmb_ox_depressurize_valve"
         },
         "9": {
             "0": {
@@ -122,9 +196,13 @@
                 "stringID": "unused_ecu_pressure_1"
             },
             "10": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
                 "stringID": "unused_ecu_servo_1"
             },
             "11": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
                 "stringID": "unused_ecu_servo_2"
             },
             "12": {
@@ -176,52 +254,23 @@
                 "stringID": "unused_ecu_temp_2"
             },
             "9": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
                 "stringID": "fuel_main_valve"
             },
             "stringID": "teststand_ecu"
         },
-        "30": {
+        "4": {
             "0": {
-                "offset": -1525562.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_0"
+                "stringID": "ox_main_valve"
             },
             "1": {
-                "offset": -662175.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_1"
+                "stringID": "ox_main_valve_unused_pressure"
             },
             "2": {
-                "offset": -1371990.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_2"
+                "stringID": "ox_main_valve_unused_what"
             },
-            "3": {
-                "offset": -940816.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_3"
-            },
-            "4": {
-                "offset": -312116.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_4"
-            },
-            "5": {
-                "offset": -1794695.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_5"
-            },
-            "6": {
-                "offset": -452668.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_6"
-            },
-            "7": {
-                "offset": -1360714.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_7"
-            },
-            "stringID": "teststand_lcb"
+            "stringID": "blmb_ox_main_valve"
         },
         "40": {
             "0": {
@@ -229,15 +278,15 @@
             },
             "stringID": "dcmb_tanking_valve"
         },
-        "20": {
+        "21": {
             "0": {
-                "offset": -1525562.0,
-                "slope": 1.0,
+                "offset": 6.429,
+                "slope": -0.0000048395,
                 "stringID": "force_0"
             },
             "1": {
                 "offset": -662175.0,
-                "slope": 1.0,
+                "slope": -0.0000048395,
                 "stringID": "force_1"
             },
             "2": {
@@ -271,47 +320,6 @@
                 "stringID": "force_7"
             },
             "stringID": "lcb"
-        },
-        "10": {
-            "0": {
-                "offset": 0,
-                "slope": 0.003735,
-                "stringID": "channel_0"
-            },
-            "1": {
-                "stringID": "channel_1"
-            },
-            "10": {
-                "stringID": "channel_10"
-            },
-            "11": {
-                "stringID": "channel_11"
-            },
-            "2": {
-                "stringID": "channel_2"
-            },
-            "3": {
-                "stringID": "channel_3"
-            },
-            "4": {
-                "stringID": "channel_4"
-            },
-            "5": {
-                "stringID": "channel_5"
-            },
-            "6": {
-                "stringID": "channel_6"
-            },
-            "7": {
-                "stringID": "channel_7"
-            },
-            "8": {
-                "stringID": "channel_8"
-            },
-            "9": {
-                "stringID": "channel_9"
-            },
-            "stringID": "iobv3"
         }
     },
     "DefaultEventMapping": {

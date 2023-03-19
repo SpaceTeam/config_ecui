@@ -20,7 +20,7 @@
         "canMsgSizes": [54, 39]
     },
     "CAN": {
-        "node_count": 2,
+        "node_count": 1,
         "blocking_timeout": 2048,
         "BUS": {
             "ARBITRATION": {
@@ -79,7 +79,7 @@
         "sensor_state_sampling_rate": 10.0
     },
     "WEBSERVER": {
-        "ip": "172.17.0.4",
+        "ip": "172.17.0.3",
         "ip@hq": "10.32.7.120",
         "port": 5555,
         "state_transmission_rate": 10.0,
