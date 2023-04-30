@@ -1,0 +1,86 @@
+version: "3.8"
+
+services:
+  llserver-ecui:
+    container_name: llserver-ecui
+    build:
+      context: ${CONFIG_DIR}
+      dockerfile: ./Dockerfile-llserver-ecui-debug
+      args: 
+        CONFIG_DIR: ${CONFIG_DIR}
+    restart: always
+    depends_on:
+      - web-ecui
+      - influxdb
+    volumes:
+      - ${CONFIG_DIR}:/home/config_ecui
+      - /dev:/dev
+      - /lib/modules:/lib/modules
+      - ${CONFIG_DIR}/../llserver_ecui_houbolt:/home/llserver_ecui_houbolt
+    environment:
+      ECUI_CONFIG_PATH: /home/config_ecui
+    privileged: true
+    cap_add:
+      - ALL
+    networks:
+      ecui_network:
+        ipv4_address: 192.168.100.5
+  
+  web-ecui:
+    container_name: web-ecui
+    build:
+      context: ${CONFIG_DIR}
+      dockerfile: ./Dockerfile-web-ecui-debug
+      args: 
+        CONFIG_DIR: ${CONFIG_DIR}
+    restart: always
+    depends_on:
+      - grafana
+    ports:
+      - "80:80"
+      - "5555:5555"
+    volumes:
+      - ${CONFIG_DIR}:/home/config_ecui
+      - ${CONFIG_DIR}/../web_ecui_houbolt:/home/web_ecui_houbolt
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      ECUI_CONFIG_PATH: /home/config_ecui
+    networks:
+      ecui_network:
+        ipv4_address: 192.168.100.4
+
+  influxdb:
+    container_name: influxdb
+    image: influxdb:1.8
+    restart: always
+    ports:
+      - "8086:8086"
+    volumes:
+      - ${CONFIG_DIR}/influx/influxdb_data:/var/lib/influxdb
+      - ${CONFIG_DIR}/influx/influxdb:/etc/influxdb/
+    networks:
+      ecui_network:
+        ipv4_address: 192.168.100.2
+
+  grafana:
+    container_name: grafana
+    image: grafana/grafana-oss:8.3.0
+    user: "1000"
+    restart: always
+    depends_on:
+      - influxdb
+    ports:
+      - "3000:3000"
+    volumes:
+      - ${CONFIG_DIR}/grafana/data:/var/lib/grafana
+      - ${CONFIG_DIR}/grafana/config/:/etc/grafana/ 
+    networks:
+      ecui_network:
+        ipv4_address: 192.168.100.3
+
+networks:
+  ecui_network:
+    ipam:
+      config:
+        - subnet: 192.168.100.0/24
+          gateway: 192.168.100.1

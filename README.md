@@ -46,15 +46,6 @@ Note: Steps 1-3 are only required if the repositories are still private
     ./install_docker.sh
     ```
 
-5. If the Kavser canlib driver is used further install the driver with
-    
-    ```
-    cd <path to this repository>
-    sudo chmod +x install_kvaser_driver.sh
-    ./install_kvaser_driver.sh
-    ```
-
-
 ## Install ECUI
 
 Now you only need to execute the following script

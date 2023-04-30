@@ -342,7 +342,7 @@ F 4 " " H 1530 3540 50  0001 C CNN "Action_Reference"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PnID-Lib:Valve_Solenoid fuel_depressurize_solenoid
+L PnID-Lib:Valve_Solenoid_NO fuel_depressurize_solenoid
 U 1 1 63E2F705
 P 2060 2490
 F 0 "fuel_depressurize_solenoid" H 2060 2933 20  0001 C CNN
@@ -452,11 +452,11 @@ F 6 " " H 5230 4790 50  0001 C CNN "Data_Content"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PnID-Lib:Sensor_Pressure ox_pressurant_pressure
+L PnID-Lib:Sensor_Pressure ox_pressurant_pressure:sensor
 U 1 1 63DC3A91
 P 5530 1460
-F 0 "ox_pressurant_pressure" H 5658 1527 20  0001 L CNN
-F 1 "ox_pressurant_pressure" H 5730 1460 20  0000 L CNN
+F 0 "ox_pressurant_pressure:sensor" H 5658 1527 20  0001 L CNN
+F 1 "ox_pressurant_pressure:sensor" H 5730 1460 20  0000 L CNN
 F 2 "" H 5530 1460 20  0001 C CNN
 F 3 "" H 5530 1460 20  0001 C CNN
 F 4 "bar" H 5530 1460 20  0001 C CNN "Unit"

@@ -1,0 +1,39 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "community",
+  "signedByOrg": "grafana",
+  "signedByOrgName": "Grafana Labs",
+  "plugin": "fatcloud-windrose-panel",
+  "version": "0.7.1",
+  "time": 1622740909841,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "LICENSE": "786f9f44609cfa294e580cbf2c7bc264f73cf1031f5e5e264265007fdafaab43",
+    "module.ts": "c9b00a22bbfba3d2ac0b988149b6fdd773886e5b6bccf8e393d0ddfd845075a5",
+    "module.js.map": "b523a47b768e54d093463b2cc48dea3d2e90148db9de20121dd32117207e0aee",
+    "plugin.json": "ec7b4e12e61ff4dd26b47cd9a06d61668a4e286e4f400efded61f0de8e48fe35",
+    "README.md": "5fed6189e168d9a52c7584e051d44fc532b5219fae51a615d5dec23562a4bb63",
+    "img/twocharts.png": "56e164e7803e0304c1b59603b44c6ed09774dea7b21d57defa3e57bc92f89402",
+    "img/windroseoptions.png": "f77f3e3bf8d45af78d250dfbf46842651ade4cd8effda4f607372daee2f828e1",
+    "img/windrose_logo.svg": "8c25f193d8aa3a1f669c02a587c64e7af01e3f8389892c2b90b81a6513f83e5b",
+    "module.js": "acebd1b829164e1699d94f67faf2feb012fe7a358935d63ffdb3efff34c3ad77",
+    "lib/plotly.min.js": "f15d1a1a54c11b93ba858bc5858885c0a90baace823bcdd8885c2cee920f265b",
+    "module.d.ts": "f67d035b7fcf4e6c9b58f44002cf1bac2c13472c707cf38f07714a67bcf305d7",
+    "templates/tab_display.html": "f0d0eeb32873e09964883f4dc49c3b8b724e0a4f805bf50389367fea32f5f8fe",
+    "templates/module.html": "d711601dfdba2933397965e5d7ada3ab506065a1a18fbea3bb0a5527ba9fa5d7"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.1
+Comment: https://openpgpjs.org
+
+wqEEARMKAAYFAmC5D64ACgkQfk0ManCIZuc3ggIJATeMNqPpPZeMQRBqxmQj
+nBYYkG9BO5I754+XBnMfnudFHPJOMh8ZlCiVgZR4hhRBhqVxbMnQ6W+Cq+ly
+nglHJzxLAgdlNrIBUWE4VRqpTSeYYaqENpedwyqSdEBnpL/vd+jFcbmAseWq
+MsjOiUhI+n1EzZlt9Ues9z5ovLpIwMxs35TUUg==
+=uc8u
+-----END PGP SIGNATURE-----

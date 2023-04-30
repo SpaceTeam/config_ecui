@@ -1,5 +1,5 @@
 {
-    "externalSourceDefault": "http://localhost:3000/d-solo/_wWiqssnk/uhoubolt?orgId=1&panelId=",
+    "externalSourceDefault": "http://172.17.0.3:3000/d-solo/_wWiqssnk/uhoubolt?orgId=1&panelId=",
     "wire": {
         "eval": "if (inVars['value'] > thresholds['wire']['pressurized']) { outVars['color']='content' } else if (inVars['value'] > thresholds['wire']['notconnected']) { outVars['color']='' } else { outVars['color']='notconnected' }"
     },

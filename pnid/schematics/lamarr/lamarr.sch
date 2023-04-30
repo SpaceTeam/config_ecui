@@ -174,7 +174,7 @@ L PnID-Lib:Sensor_Pressure ox_tank_pressure
 U 1 1 63F0EDAE
 P 5030 2810
 F 0 "ox_tank_pressure" V 4989 2682 20  0001 R CNN
-F 1 "ox_tank_pressure:sensor" H 5560 2810 20  0000 L CNN
+F 1 "ox_tank_pressure:sensor" H 5240 3160 20  0000 L CNN
 F 2 "" H 5030 2810 20  0001 C CNN
 F 3 "" H 5030 2810 20  0001 C CNN
 F 4 "bar" H 5030 2810 20  0001 C CNN "Unit"
@@ -188,7 +188,7 @@ L PnID-Lib:Sensor_Pressure fuel_tank_pressure
 U 1 1 63F0D530
 P 2990 2810
 F 0 "fuel_tank_pressure" V 2949 2682 20  0001 R CNN
-F 1 "fuel_tank_pressure:sensor" H 3180 2810 20  0000 L CNN
+F 1 "fuel_tank_pressure:sensor" H 2750 2450 20  0000 L CNN
 F 2 "" H 2990 2810 20  0001 C CNN
 F 3 "" H 2990 2810 20  0001 C CNN
 F 4 "bar" H 2990 2810 20  0001 C CNN "Unit"
@@ -257,13 +257,8 @@ F 3 "" H 6880 3300 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L PnID-Lib:Vent Vent?            "10": {
-                "stringID": "unused_gse_solenoid_10"
-            },
-            "11": {
-                "stringID": "unused_gse_solenoid_11"
-            },
-U 1 1 63EF0AD8
+L PnID-Lib:Vent Vent?
+U 1 1 00000000
 P 6890 3860
 F 0 "Vent?" H 6732 3687 50  0001 C CNN
 F 1 "Vent" H 6990 3810 50  0001 C CNN
@@ -318,7 +313,7 @@ F 4 " " H 1630 3860 50  0001 C CNN "Action_Reference"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PnID-Lib:Valve_Solenoid fuel_depressurize_solenoid
+L PnID-Lib:Valve_Solenoid_NO fuel_depressurize_solenoid
 U 1 1 63E2F705
 P 2160 2810
 F 0 "fuel_depressurize_solenoid" H 2160 3253 20  0001 C CNN
@@ -341,19 +336,6 @@ F 3 "" H 1640 3300 20  0001 C CNN
 F 4 " " H 1640 3300 50  0001 C CNN "Action_Reference"
 	1    1640 3300
 	1    0    0    -1  
-$EndComp
-$Comp
-L PnID-Lib:Valve_Solenoid_NC ox_pressurize_solenoid
-U 1 1 63DC50A1
-P 5330 2220
-F 0 "ox_pressurize_solenoid" V 5352 2598 20  0001 L CNN
-F 1 "ox_pressurize_solenoid:sensor" V 5330 3060 20  0000 L CNN
-F 2 "" H 5330 2220 20  0001 C CNN
-F 3 "" H 5330 2220 20  0001 C CNN
-F 4 "%" H 5330 2220 20  0001 C CNN "Unit"
-F 5 " " H 5330 2220 50  0001 C CNN "Action_Reference"
-	1    5330 2220
-	0    -1   1    0   
 $EndComp
 $Comp
 L PnID-Lib:Valve_Manual ox_manual_tanking_valve
@@ -428,11 +410,11 @@ F 6 " " H 5330 5110 50  0001 C CNN "Data_Content"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PnID-Lib:Sensor_Pressure ox_pressurant_pressure
+L PnID-Lib:Sensor_Pressure ox_pressurant_pressure:sensor
 U 1 1 63DC3A91
 P 5630 1780
-F 0 "ox_pressurant_pressure" H 5758 1847 20  0001 L CNN
-F 1 "ox_pressurant_pressure" H 5830 1780 20  0000 L CNN
+F 0 "ox_pressurant_pressure:sensor" H 5758 1847 20  0001 L CNN
+F 1 "ox_pressurant_pressure:sensor" H 5830 1780 20  0000 L CNN
 F 2 "" H 5630 1780 20  0001 C CNN
 F 3 "" H 5630 1780 20  0001 C CNN
 F 4 "bar" H 5630 1780 20  0001 C CNN "Unit"
@@ -692,7 +674,7 @@ L PnID-Lib:Sensor_Pressure fuel_pressurant_pressure
 U 1 1 63DC4050
 P 2390 1780
 F 0 "fuel_pressurant_pressure" H 2282 1497 20  0001 C CNN
-F 1 "fuel_pressurant_pressure:sensor" H 2600 1780 20  0000 L CNN
+F 1 "fuel_pressurant_pressure:sensor" H 3060 1780 20  0000 L CNN
 F 2 "" H 2390 1780 20  0001 C CNN
 F 3 "" H 2390 1780 20  0001 C CNN
 F 4 "bar" H 2390 1780 20  0001 C CNN "Unit"
@@ -1024,7 +1006,6 @@ Wire Wire Line
 Connection ~ 8080 1220
 Wire Wire Line
 	10180 1220 10180 5100
-Connection ~ 7440 5100
 $Comp
 L PnID-Lib:GasBottle N?
 U 1 1 63F1ECA8
@@ -1071,4 +1052,17 @@ Wire Notes Line
 	10120 670  10120 570 
 Wire Notes Line
 	10120 570  9700 570 
+$Comp
+L PnID-Lib:Valve_Solenoid_NC ox_pressurize_solenoid
+U 1 1 63DC50A1
+P 5330 2220
+F 0 "ox_pressurize_solenoid" V 5352 2598 20  0001 L CNN
+F 1 "ox_pressurize_solenoid:sensor" V 5330 3120 20  0000 L CNN
+F 2 "" H 5330 2220 20  0001 C CNN
+F 3 "" H 5330 2220 20  0001 C CNN
+F 4 "%" H 5330 2220 20  0001 C CNN "Unit"
+F 5 " " H 5330 2220 50  0001 C CNN "Action_Reference"
+	1    5330 2220
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC

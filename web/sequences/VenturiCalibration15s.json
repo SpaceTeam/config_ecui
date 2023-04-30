@@ -39,7 +39,7 @@
 			[
 				{
 					"timestamp": 0,
-					"channel_7:SetState": [65000]
+					"channel_7:SetState": [100]
 				}
 			]
 		},

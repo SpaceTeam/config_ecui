@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name PnID-Lib)(type Legacy)(uri /Volumes/Data/markus/Programming/config_ecui/pnid/schematics/pnid-lib/PnID.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "PnID-Lib")(type "Legacy")(uri "/home/missioncontrol/config_ecui/pnid/schematics/pnid-lib/PnID.lib")(options "")(descr ""))
 )

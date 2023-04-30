@@ -2,97 +2,105 @@
     "CANMapping": {
         "10": {
             "0": {
-                "offset": -16.244,
-                "slope": 0.00119984,
-                "stringID": "ox_tank_pressure"
+                "stringID": "ox_unused_0"
             },
             "1": {
-                "offset": -16.244,
-                "slope": 0.00119984,
-                "stringID": "fuel_tank_pressure"
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "fuel_main_valve"
             },
             "10": {
-                "stringID": "channel_10"
+                "stringID": "ox_unused_solenoid_10"
             },
             "11": {
-                "stringID": "channel_11"
+                "stringID": "ox_unused_pressure_11"
             },
             "2": {
-                "stringID": "channel_2"
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "ox_unused_servo_2"
             },
             "3": {
-                "stringID": "channel_3"
+                "offset": -15.19181586,
+                "slope": 0.001198849105,
+                "stringID": "ox_unused_pressure_3"
             },
             "4": {
-                "stringID": "channel_4"
+                "offset": -15.19667413,
+                "slope": 0.001199232491,
+                "stringID": "ox_tank_pressure"
             },
             "5": {
-                "stringID": "channel_5"
-            },
-            "6": {
-                "stringID": "channel_6"
-            },
-            "7": {
-                "stringID": "channel_7"
-            },
-            "8": {
-                "stringID": "channel_8"
-            },
-            "9": {
-                "stringID": "channel_9"
-            },
-            "stringID": "iobv3"
-        },
-        "11": {
-            "0": {
-                "stringID": "fuel_pressurant_pressure"
-            },
-            "1": {
-                "stringID": "fuel_tank_pressure"
-            },
-            "10": {
-                "stringID": "unused_solenoid_10"
-            },
-            "11": {
-                "stringID": "ox_purge_solenoid"
-            },
-            "12": {
-                "stringID": "top_tank_temp"
-            },
-            "13": {
-                "stringID": "top_mid_tank_temp"
-            },
-            "14": {
-                "stringID": "bottom_mid_tank_temp"
-            },
-            "15": {
-                "stringID": "bottom_tank_temp"
-            },
-            "2": {
-                "stringID": "fuel_venturi_pressure"
-            },
-            "3": {
+                "offset": -15.2284264,
+                "slope": 0.001189720812,
                 "stringID": "ox_pressurant_pressure"
             },
-            "4": {
-                "stringID": "ox_tank_pressure"
-            },
-            "5": {
-                "stringID": "ox_venturi_pressure"
-            },
             "6": {
-                "stringID": "fuel_pressurize_solenoid"
+                "stringID": "ox_unused_solenoid_6"
             },
             "7": {
-                "stringID": "fuel_depressurize_solenoid"
+                "stringID": "ox_purge_solenoid"
             },
             "8": {
-                "stringID": "fuel_purge_solenoid"
+                "offset": -15.02362205,
+                "slope": 0.001181102362,
+                "stringID": "ox_unused_pressure_8"
             },
             "9": {
                 "stringID": "ox_pressurize_solenoid"
             },
-            "stringID": "teststand_iob"
+            "stringID": "teststand_ox"
+        },
+        "11": {
+            "0": {
+                "stringID": "fuel_unused_0"
+            },
+            "1": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "fuel_unused_servo_1"
+            },
+            "10": {
+                "stringID": "fuel_pressurize_solenoid"
+            },
+            "11": {
+                "stringID": "fuel_unused_pressure_11"
+            },
+            "2": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "fuel_unused_servo_2"
+            },
+            "3": {
+                "offset": -14.96221662,
+                "slope": 0.001180730479,
+                "stringID": "fuel_unused_pressure_3"
+            },
+            "4": {
+                "offset": -15.07614213,
+                "slope": 0.001189720812,
+                "stringID": "fuel_tank_pressure"
+            },
+            "5": {
+                "offset": -15.0473784,
+                "slope": 0.001184459886,
+                "stringID": "fuel_pressurant_pressure"
+            },
+            "6": {
+                "stringID": "fuel_unused_solenoid_6"
+            },
+            "7": {
+                "stringID": "fuel_purge_solenoid"
+            },
+            "8": {
+                "offset": -14.96235885,
+                "slope": 0.001176286073,
+                "stringID": "fuel_unused_pressure_8"
+            },
+            "9": {
+                "stringID": "fuel_depressurize_solenoid"
+            },
+            "stringID": "teststand_fuel"
         },
         "12": {
             "0": {
@@ -176,8 +184,10 @@
             },
             "stringID": "teststand_lcb"
         },
-        "3": {
+        "4": {
             "0": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
                 "stringID": "ox_depressurize_valve"
             },
             "1": {
@@ -187,6 +197,69 @@
                 "stringID": "ox_depressurize_valve_unused_what"
             },
             "stringID": "blmb_ox_depressurize_valve"
+        },
+        "3": {
+            "0": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "ox_main_valve"
+            },
+            "1": {
+                "stringID": "ox_main_valve_unused_pressure"
+            },
+            "2": {
+                "stringID": "ox_main_valve_unused_what"
+            },
+            "stringID": "blmb_ox_main_valve"
+        },
+        "40": {
+            "0": {
+                "stringID": "tanking_valve"
+            },
+            "stringID": "dcmb_tanking_valve"
+        },
+        "21": {
+            "0": {
+                "offset": 6.429,
+                "slope": -0.0000048395,
+                "stringID": "force_0"
+            },
+            "1": {
+                "offset": -662175.0,
+                "slope": -0.0000048395,
+                "stringID": "force_1"
+            },
+            "2": {
+                "offset": -1371990.0,
+                "slope": 1.0,
+                "stringID": "force_2"
+            },
+            "3": {
+                "offset": -940816.0,
+                "slope": 1.0,
+                "stringID": "force_3"
+            },
+            "4": {
+                "offset": -312116.0,
+                "slope": 1.0,
+                "stringID": "force_4"
+            },
+            "5": {
+                "offset": -1794695.0,
+                "slope": 1.0,
+                "stringID": "force_5"
+            },
+            "6": {
+                "offset": -452668.0,
+                "slope": 1.0,
+                "stringID": "force_6"
+            },
+            "7": {
+                "offset": -1360714.0,
+                "slope": 1.0,
+                "stringID": "force_7"
+            },
+            "stringID": "lcb"
         },
         "9": {
             "0": {
@@ -259,67 +332,6 @@
                 "stringID": "fuel_main_valve"
             },
             "stringID": "teststand_ecu"
-        },
-        "4": {
-            "0": {
-                "stringID": "ox_main_valve"
-            },
-            "1": {
-                "stringID": "ox_main_valve_unused_pressure"
-            },
-            "2": {
-                "stringID": "ox_main_valve_unused_what"
-            },
-            "stringID": "blmb_ox_main_valve"
-        },
-        "40": {
-            "0": {
-                "stringID": "tanking_valve"
-            },
-            "stringID": "dcmb_tanking_valve"
-        },
-        "21": {
-            "0": {
-                "offset": 6.429,
-                "slope": -0.0000048395,
-                "stringID": "force_0"
-            },
-            "1": {
-                "offset": -662175.0,
-                "slope": -0.0000048395,
-                "stringID": "force_1"
-            },
-            "2": {
-                "offset": -1371990.0,
-                "slope": 1.0,
-                "stringID": "force_2"
-            },
-            "3": {
-                "offset": -940816.0,
-                "slope": 1.0,
-                "stringID": "force_3"
-            },
-            "4": {
-                "offset": -312116.0,
-                "slope": 1.0,
-                "stringID": "force_4"
-            },
-            "5": {
-                "offset": -1794695.0,
-                "slope": 1.0,
-                "stringID": "force_5"
-            },
-            "6": {
-                "offset": -452668.0,
-                "slope": 1.0,
-                "stringID": "force_6"
-            },
-            "7": {
-                "offset": -1360714.0,
-                "slope": 1.0,
-                "stringID": "force_7"
-            },
-            "stringID": "lcb"
         }
     },
     "DefaultEventMapping": {

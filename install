@@ -54,6 +54,7 @@ shift $((OPTIND-1))  #This tells getopts to move on to the next argument.
 
 ### End getopts code ###
 
+exec $PWD/install_kvaser_driver.sh
 if [ "$DEBUG" = true ] ; then
     exec $PWD/install_ecui_debug.sh
 else 
