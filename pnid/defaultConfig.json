@@ -1,12 +1,12 @@
 {
-    "externalSourceDefault": "http://172.17.0.3:3000/d-solo/_wWiqssnk/uhoubolt?orgId=1&panelId=",
+    "externalSourceDefault": "http://192.168.100.3:3000/d-solo/_wWiqssnk/uhoubolt?orgId=1&panelId=",
     "wire": {
         "eval": "if (inVars['value'] > thresholds['wire']['pressurized']) { outVars['color']='content' } else if (inVars['value'] > thresholds['wire']['notconnected']) { outVars['color']='' } else { outVars['color']='notconnected' }"
     },
     "PnID-Lib-Valve_Solenoid_NO": {
         "eval": "if (inVars['value'] >= thresholds['solenoid']['high']) { outVars['color']='closed'; outVars['value']='Closed' } else { outVars['color']='open'; outVars['value']='Open' }",
         "sens_deviation": "if ((setState == 0 && feedback >= thresholds['solenoid']['high']) || (setState == 1 && feedback < thresholds['solenoid']['high'])) { return true; } return false;",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -47,7 +47,7 @@
     },
     "PnID-Lib-Camera": {
         "eval": "if (inVars['value'] > thresholds['igniter']['active']) { outVars['color']='on' } else { outVars['color']='off' }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -60,7 +60,7 @@
     },
     "PnID-Lib-Label": {
         "eval": "if (inVars['value'] > 0) { outVars['color']='on'; } else { outVars['color']='off'; } outVars['value']=inVars['this'].replace('-',' ');",
-	    "popup": [
+        "popup": [
             {
                 "type": "input",
                 "style": "checkbox"
@@ -83,7 +83,7 @@
     },
     "PnID-Lib-Valve_Pneumatic": {
         "eval": "if (inVars['value'] > thresholds['servo_valve']['high']) { outVars['color']='open'; outVars['value']='Open ('+Math.round(inVars['value'])+')' } else if (inVars['value'] > thresholds['servo_valve']['low']) { outVars['color']='throttle'; outVars['value']='Thr. ('+Math.round(inVars['value'])+')' } else { outVars['color']='closed'; outVars['value']='Closed  ('+Math.round(inVars['value'])+')' }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -99,7 +99,7 @@
     },
     "PnID-Lib-Valve_Servo": {
         "eval": "if (inVars['value'] > thresholds['servo_valve']['high']) { outVars['color']='open'; outVars['value']='Open ('+inVars['value'].toFixed(2)+')' } else if (inVars['value'] > thresholds['servo_valve']['low']) { outVars['color']='throttle'; outVars['value']='Thr. ('+inVars['value'].toFixed(2)+')' } else { outVars['color']='closed'; outVars['value']='Closed ('+inVars['value'].toFixed(2)+')' }",
-	    "sens_deviation": "if ((feedback >= (setState + (100 * 0.07))) || (feedback <= (setState - (100 * 0.07)))) { return true; } return false;",
+        "sens_deviation": "if ((feedback >= (setState + (100 * 0.07))) || (feedback <= (setState - (100 * 0.07)))) { return true; } return false;",
         "popup": [
             {
                 "type": "display",
@@ -116,7 +116,7 @@
     },
     "PnID-Lib-Valve_Servo_3Way": {
         "eval": "if (inVars['value'] >= thresholds['3wayValve']['high']) { outVars['color']='position_a'; outVars['value']='Hot' } else { outVars['color']='position_b'; outVars['value']='Cold' }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -126,9 +126,9 @@
     "PnID-Lib-HeatExchanger": {
         "eval": "if (inVars['value'] >= thresholds['pump']['high']) { outVars['color'] = 'content' } else { outVars['color'] = 'empty' }"
     },
-	"PnID-Lib-Valve_Needle_Servo": {
+    "PnID-Lib-Valve_Needle_Servo": {
         "eval": "if (inVars['value'] > 80) { outVars['color']='open'; outVars['value']='Open ('+Math.round(inVars['value'])+')' } else if (inVars['value'] > 20) { outVars['color']='throttle'; outVars['value']='Thr. ('+Math.round(inVars['value'])+')' } else { outVars['color']='closed'; outVars['value']='Closed  ('+Math.round(inVars['value'])+')' }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -144,7 +144,7 @@
     },
     "PnID-Lib-Sensor_Pressure": {
         "eval": "if (inVars['value'] > 2) { outVars['color']='content' } else if (inVars['value'] > -8) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -161,7 +161,7 @@
     },
     "PnID-Lib-Sensor_Pressure_Big": {
         "eval": "if (inVars['value'] > thresholds['wire']['pressurized']) { outVars['color']='content' } else if (inVars['value'] > thresholds['wire']['notconnected']) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -178,7 +178,7 @@
     },
     "PnID-Lib-Sensor_Height": {
         "eval": "if (inVars['value'] > thresholds['wire']['pressurized']) { outVars['color']='content' } else if (inVars['value'] > thresholds['wire']['notconnected']) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -195,7 +195,7 @@
     },
     "PnID-Lib-IMU": {
         "eval": "if (inVars['value'] > thresholds['wire']['pressurized']) { outVars['color']='content' } else if (inVars['value'] > thresholds['wire']['notconnected']) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "external",
@@ -207,7 +207,7 @@
     },
     "PnID-Lib-GNSS": {
         "eval": "if (inVars['value'] > thresholds['wire']['pressurized']) { outVars['color']='content' } else if (inVars['value'] > thresholds['wire']['notconnected']) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -236,7 +236,7 @@
     },
     "PnID-Lib-Battery": {
         "eval": "if (inVars['value'] > thresholds['battery']['high']) { outVars['color']='battery_high' } else if (inVars['value'] > thresholds['battery']['low']) { outVars['color']='battery_nominal' } else if (inVars['value'] > thresholds['battery']['critical']) { outVars['color']='battery_low' } else if (inVars['value'] > thresholds['battery']['notconnected']) { outVars['color']='battery_critical' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -253,7 +253,7 @@
     },
     "PnID-Lib-Sensor_Temperature": {
         "eval": "if (inVars['value'] > thresholds['tempSens']['notconnected']) { outVars['color']='notconnected'; outVars['content']='notconnected'; outVars['value']='NC'} else if (inVars['value'] > 30) { outVars['color']='high' } else if (inVars['value'] > -200) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -270,7 +270,7 @@
     },
     "PnID-Lib-Sensor_Load": {
         "eval": "",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -293,7 +293,7 @@
     },
     "PnID-Lib-Water_Tank": {
         "eval": "if (inVars['value'] > 30) { outVars['color']='high'; outVars['content']='high' } else if (inVars['value'] > -200) { outVars['color']='low'; outVars['content']='low' } else { outVars['color']='notconnected'; outVars['value']='NC'; outVars['content']='' }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -310,7 +310,7 @@
     },
     "PnID-Lib-Sensor_MassFlow": {
         "eval": "",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -344,7 +344,7 @@
     },
     "PnID-Lib-Engine_TorchIgniter": {
         "eval": "",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "external",
@@ -357,7 +357,7 @@
     },
     "PnID-Lib-igniter": {
         "eval": "if (inVars['value'] > thresholds['igniter']['active']) { outVars['color']='on' } else { outVars['color']='off' }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -380,7 +380,7 @@
     "PnID-Lib-Pump": {
         "eval": "if (inVars['value'] >= thresholds['pump']['high']) { outVars['color']='on'; outVars['value']='On'; } else { outVars['color']='off'; outVars['value']='Off'; }",
         "sens_deviation": null,
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -505,7 +505,7 @@
     },
     "gui-water_pumps": {
         "eval": "if (inVars['value'] > 0) { outVars['color']='on'; outVars['value']='On'; } else { outVars['color']='off'; outVars['value']='Off'; }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -518,7 +518,7 @@
     },
     "gui-fuel_press_depress": {
         "eval": "if (inVars['value'] > 0) { outVars['value']='Open' } else { outVars['value']='Closed' }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -531,7 +531,7 @@
     },
     "gui-ox_press_depress": {
         "eval": "if (inVars['value'] > 0) { outVars['value']='Open' } else { outVars['value']='Closed' }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"
@@ -544,7 +544,7 @@
     },
     "gui-water_valves": {
         "eval": "if (inVars['value'] > 0) { outVars['value']='Hot' } else { outVars['value']='Cold' }",
-	    "popup": [
+        "popup": [
             {
                 "type": "display",
                 "style": "text"

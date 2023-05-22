@@ -4,7 +4,7 @@
     },
     "actions" : {
         "ox_pressurize_solenoid:SetState": [0],
-        "ox_depressurize_valve:SetState": [0],
+        "ox_depressurize_valve:SetTargetPosition": [100],
         "fuel_pressurize_solenoid:SetState": [0],
         "fuel_depressurize_solenoid:SetState": [0],
         "fuel_main_valve:SetTargetPosition": [0],

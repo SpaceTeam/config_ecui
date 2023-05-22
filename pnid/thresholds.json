@@ -13,8 +13,8 @@
         "high": 5000
     },
     "servo_valve": {
-        "low": 10000,
-        "high": 55000
+        "low": 20,
+        "high": 80
     },
     "oxPressure": {
         "low": 32.0,
