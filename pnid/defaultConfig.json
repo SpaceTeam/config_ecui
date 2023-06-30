@@ -99,7 +99,7 @@
     },
     "PnID-Lib-Valve_Servo": {
         "eval": "if (inVars['value'] > thresholds['servo_valve']['high']) { outVars['color']='open'; outVars['value']='Open ('+inVars['value'].toFixed(2)+')' } else if (inVars['value'] > thresholds['servo_valve']['low']) { outVars['color']='throttle'; outVars['value']='Thr. ('+inVars['value'].toFixed(2)+')' } else { outVars['color']='closed'; outVars['value']='Closed ('+inVars['value'].toFixed(2)+')' }",
-        "sens_deviation": "if ((feedback >= (setState + (100 * 0.07))) || (feedback <= (setState - (100 * 0.07)))) { return true; } return false;",
+        "sens_deviation": "if ((feedback >= (setState + (100))) || (feedback <= (setState - (100)))) { return true; } return false;",
         "popup": [
             {
                 "type": "display",
@@ -278,7 +278,7 @@
             {
                 "type": "input",
                 "style": "button",
-                "variable": "scale:Tare",
+                "variable": "thrust:Tare",
                 "label": "Tare"
             },
             {

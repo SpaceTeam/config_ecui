@@ -1,0 +1,71 @@
+{
+	"globals":
+	{
+		"endTime": 5,
+		"interpolation":
+		{
+			"igniter:SetState": "none"
+		},
+		"interval": 0.01,
+		"ranges":
+		[
+			"chamberPressure"
+		],
+		"startTime": -5
+	},
+	"data":
+	[
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "set all to zero",
+			"actions":
+			[
+				{
+					"timestamp": 0.0,
+					"igniter:SetState": [0],
+					"sensorsNominalRange":
+					{
+						"chamberPressure": [-5, 20]
+					}
+				}
+			]
+		},
+		{
+			"timestamp": 0.0,
+			"name": "activate",
+			"desc": "",
+			"actions":
+			[
+				{
+					"timestamp": 0,
+					"igniter:SetState": [100]
+				}
+			]
+		},
+		{
+			"timestamp": 0.5,
+			"name": "deactivate",
+			"desc": "",
+			"actions":
+			[
+				{
+					"timestamp": 0,
+					"igniter:SetState": [0]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions":
+			[
+				{
+					"timestamp": 0.0,
+					"igniter:SetState": [0]
+				}
+			]
+		}
+	]
+}

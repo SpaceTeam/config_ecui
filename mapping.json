@@ -10,7 +10,7 @@
                 "stringID": "fuel_main_valve"
             },
             "10": {
-                "stringID": "ox_unused_solenoid_10"
+                "stringID": "dewar_pressurize_solenoid"
             },
             "11": {
                 "stringID": "ox_unused_pressure_11"
@@ -23,7 +23,7 @@
             "3": {
                 "offset": -15.19181586,
                 "slope": 0.001198849105,
-                "stringID": "ox_unused_pressure_3"
+                "stringID": "ox_venturi_pressure"
             },
             "4": {
                 "offset": -15.19667413,
@@ -36,7 +36,7 @@
                 "stringID": "ox_pressurant_pressure"
             },
             "6": {
-                "stringID": "ox_unused_solenoid_6"
+                "stringID": "dewar_depressurize_solenoid"
             },
             "7": {
                 "stringID": "ox_purge_solenoid"
@@ -44,7 +44,7 @@
             "8": {
                 "offset": -15.02362205,
                 "slope": 0.001181102362,
-                "stringID": "ox_unused_pressure_8"
+                "stringID": "chamber_pressure"
             },
             "9": {
                 "stringID": "ox_pressurize_solenoid"
@@ -74,7 +74,7 @@
             "3": {
                 "offset": -14.96221662,
                 "slope": 0.001180730479,
-                "stringID": "fuel_unused_pressure_3"
+                "stringID": "fuel_venturi_pressure"
             },
             "4": {
                 "offset": -15.07614213,
@@ -87,15 +87,15 @@
                 "stringID": "fuel_pressurant_pressure"
             },
             "6": {
-                "stringID": "fuel_unused_solenoid_6"
+                "stringID": "igniter"
             },
             "7": {
                 "stringID": "fuel_purge_solenoid"
             },
             "8": {
-                "offset": -14.96235885,
+                "offset": -21.16235885,
                 "slope": 0.001176286073,
-                "stringID": "fuel_unused_pressure_8"
+                "stringID": "dewar_pressure"
             },
             "9": {
                 "stringID": "fuel_depressurize_solenoid"
@@ -141,92 +141,15 @@
             },
             "stringID": "gse_iob"
         },
-        "20": {
-            "0": {
-                "offset": -1525562.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_0"
-            },
-            "1": {
-                "offset": -662175.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_1"
-            },
-            "2": {
-                "offset": -1371990.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_2"
-            },
-            "3": {
-                "offset": -940816.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_3"
-            },
-            "4": {
-                "offset": -312116.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_4"
-            },
-            "5": {
-                "offset": -1794695.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_5"
-            },
-            "6": {
-                "offset": -452668.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_6"
-            },
-            "7": {
-                "offset": -1360714.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_7"
-            },
-            "stringID": "teststand_lcb"
-        },
-        "4": {
-            "0": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "ox_depressurize_valve"
-            },
-            "1": {
-                "stringID": "ox_depressurize_valve_unused_pressure"
-            },
-            "2": {
-                "stringID": "ox_depressurize_valve_unused_what"
-            },
-            "stringID": "blmb_ox_depressurize_valve"
-        },
-        "3": {
-            "0": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "ox_main_valve"
-            },
-            "1": {
-                "stringID": "ox_main_valve_unused_pressure"
-            },
-            "2": {
-                "stringID": "ox_main_valve_unused_what"
-            },
-            "stringID": "blmb_ox_main_valve"
-        },
-        "40": {
-            "0": {
-                "stringID": "tanking_valve"
-            },
-            "stringID": "dcmb_tanking_valve"
-        },
         "21": {
             "0": {
                 "offset": 6.429,
-                "slope": -0.0000048395,
+                "slope": -4.8395e-06,
                 "stringID": "force_0"
             },
             "1": {
                 "offset": -662175.0,
-                "slope": -0.0000048395,
+                "slope": -4.8395e-06,
                 "stringID": "force_1"
             },
             "2": {
@@ -261,7 +184,41 @@
             },
             "stringID": "lcb"
         },
-        "9": {
+        "3": {
+            "0": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "ox_main_valve"
+            },
+            "1": {
+                "stringID": "ox_main_valve_unused_pressure"
+            },
+            "2": {
+                "stringID": "ox_main_valve_unused_what"
+            },
+            "stringID": "blmb_ox_main_valve"
+        },
+        "4": {
+            "0": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "ox_depressurize_valve"
+            },
+            "1": {
+                "stringID": "ox_depressurize_valve_unused_pressure"
+            },
+            "2": {
+                "stringID": "ox_depressurize_valve_unused_what"
+            },
+            "stringID": "blmb_ox_depressurize_valve"
+        },
+        "40": {
+            "0": {
+                "stringID": "tanking_valve"
+            },
+            "stringID": "dcmb_tanking_valve"
+        },
+        "60": {
             "0": {
                 "stringID": "unused_ecu_pressure_0"
             },
@@ -332,6 +289,49 @@
                 "stringID": "fuel_main_valve"
             },
             "stringID": "teststand_ecu"
+        },
+        "9": {
+            "0": {
+                "offset": 19.5928184025,
+                "slope": 4.46075e-05,
+                "stringID": "thrust"
+            },
+            "1": {
+                "offset": -662175.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_1"
+            },
+            "2": {
+                "offset": -1371990.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_2"
+            },
+            "3": {
+                "offset": -940816.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_3"
+            },
+            "4": {
+                "offset": -312116.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_4"
+            },
+            "5": {
+                "offset": -1794695.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_5"
+            },
+            "6": {
+                "offset": -452668.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_6"
+            },
+            "7": {
+                "offset": -1360714.0,
+                "slope": 1.0,
+                "stringID": "unused_lcb_force_7"
+            },
+            "stringID": "teststand_lcb"
         }
     },
     "DefaultEventMapping": {
@@ -541,13 +541,13 @@
                 ]
             }
         ],
-        "gui:scale:Tare": [
+        "gui:thrust:Tare": [
             {
                 "command": "Tare",
                 "parameters": [
                     9,
                     0,
-                    "scale:sensor"
+                    "thrust:sensor"
                 ]
             }
         ],

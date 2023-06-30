@@ -700,6 +700,120 @@ F 5 " " H 5880 5510 50  0001 C CNN "Action_Reference"
 	1    0    0    1   
 $EndComp
 $Comp
+L PnID-Lib:Vent Vent?
+U 1 1 63E739D3
+P 8510 2310
+F 0 "Vent?" V 8352 2182 50  0001 R CNN
+F 1 "Vent" H 8610 2260 50  0001 C CNN
+F 2 "" H 8510 2310 50  0001 C CNN
+F 3 "" H 8510 2310 50  0001 C CNN
+	1    8510 2310
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8510 1220 8510 1610
+Wire Wire Line
+	10180 1220 9270 1220
+$Comp
+L PnID-Lib:QuickConnect_Half fuel_quick_connect?
+U 1 1 63E739A9
+P 7080 2050
+F 0 "fuel_quick_connect?" H 6922 1785 50  0001 C CNN
+F 1 "fuel_quick_connect" H 6922 1876 50  0001 C CNN
+F 2 "" H 7080 2050 50  0001 C CNN
+F 3 "" H 7080 2050 50  0001 C CNN
+	1    7080 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L PnID-Lib:QuickConnect_Half ox_quick_connect?
+U 1 1 63E739A3
+P 7080 1220
+F 0 "ox_quick_connect?" H 6922 955 50  0001 C CNN
+F 1 "ox_quick_connect" H 6922 1046 50  0001 C CNN
+F 2 "" H 7080 1220 50  0001 C CNN
+F 3 "" H 7080 1220 50  0001 C CNN
+	1    7080 1220
+	-1   0    0    1   
+$EndComp
+$Comp
+L PnID-Lib:Valve_Solenoid_NO ox_pressurant_solenoid?
+U 1 1 63E7399D
+P 7580 1220
+F 0 "ox_pressurant_solenoid?" H 7580 1663 20  0001 C CNN
+F 1 "ox_pressurant_solenoid:sensor" H 7580 1740 20  0000 C CNN
+F 2 "" H 7580 1220 20  0001 C CNN
+F 3 "" H 7580 1220 20  0001 C CNN
+F 4 "%" H 7580 1220 20  0001 C CNN "Unit"
+F 5 " " H 7580 1220 50  0001 C CNN "Action_Reference"
+	1    7580 1220
+	1    0    0    -1  
+$EndComp
+$Comp
+L PnID-Lib:Valve_Solenoid_NO fuel_pressurant_solenoid?
+U 1 1 63E73995
+P 7580 2050
+F 0 "fuel_pressurant_solenoid?" H 7580 2493 20  0001 C CNN
+F 1 "fuel_pressurant_solenoid:sensor" H 7580 2490 20  0000 C CNN
+F 2 "" H 7580 2050 20  0001 C CNN
+F 3 "" H 7580 2050 20  0001 C CNN
+F 4 "%" H 7580 2050 20  0001 C CNN "Unit"
+F 5 " " H 7580 2050 50  0001 C CNN "Action_Reference"
+	1    7580 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PnID-Lib:Sensor_Pressure pressurant_pressure?
+U 1 1 63E7398D
+P 8080 920
+F 0 "pressurant_pressure?" V 7905 1048 20  0001 L CNN
+F 1 "pressurant_pressure:sensor" V 8300 920 20  0000 C CNN
+F 2 "" H 8080 920 20  0001 C CNN
+F 3 "" H 8080 920 20  0001 C CNN
+F 4 "bar" H 8080 920 20  0001 C CNN "Unit"
+F 5 " " H 8080 920 50  0001 C CNN "Action_Reference"
+F 6 " " V 8015 1048 50  0001 L CNN "Data_Content"
+	1    8080 920 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PnID-Lib:Valve_Solenoid_NO pressurant_vent_solenoid?
+U 1 1 63E73984
+P 8510 1810
+F 0 "pressurant_vent_solenoid?" V 8488 2188 20  0001 L CNN
+F 1 "pressurant_vent_solenoid:sensor" V 8510 1220 20  0000 L CNN
+F 2 "" H 8510 1810 20  0001 C CNN
+F 3 "" H 8510 1810 20  0001 C CNN
+F 4 "%" H 8510 1810 20  0001 C CNN "Unit"
+F 5 " " H 8510 1810 50  0001 C CNN "Action_Reference"
+	1    8510 1810
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PnID-Lib:Valve_Solenoid_NC pressurant_main_solenoid?
+U 1 1 63E7397C
+P 9070 1220
+F 0 "pressurant_main_solenoid?" H 9070 1663 20  0001 C CNN
+F 1 "pressurant_main_solenoid:sensor" H 9070 1740 20  0000 C CNN
+F 2 "" H 9070 1220 20  0001 C CNN
+F 3 "" H 9070 1220 20  0001 C CNN
+F 4 "%" H 9070 1220 20  0001 C CNN "Unit"
+F 5 " " H 9070 1220 50  0001 C CNN "Action_Reference"
+	1    9070 1220
+	1    0    0    -1  
+$EndComp
+$Comp
+L PnID-Lib:QuickConnect_Half QuickConnect?
+U 1 1 63EE626E
+P 7080 1220
+F 0 "QuickConnect?" H 7108 1266 50  0001 L CNN
+F 1 "QuickConnect_Half" H 7108 1175 50  0001 L CNN
+F 2 "" H 7080 1220 50  0001 C CNN
+F 3 "" H 7080 1220 50  0001 C CNN
+	1    7080 1220
+	1    0    0    -1  
+$EndComp
+$Comp
 L PnID-Lib:QuickConnect_Half DewarQuickConnect?
 U 1 1 63E73974
 P 6290 6410
@@ -725,6 +839,17 @@ F 5 " " H 6790 6410 50  0001 C CNN "Action_Reference"
 $EndComp
 Wire Wire Line
 	6990 6410 7440 6410
+$Comp
+L PnID-Lib:PressureRegulator DewarPressureRegulator?
+U 1 1 63E73945
+P 9730 5100
+F 0 "DewarPressureRegulator?" H 9713 5443 20  0001 C CNN
+F 1 "DewarPressureRegulator" H 9713 5400 20  0001 C CNN
+F 2 "" H 9730 5100 20  0001 C CNN
+F 3 "" H 9730 5100 20  0001 C CNN
+	1    9730 5100
+	1    0    0    -1  
+$EndComp
 $Comp
 L PnID-Lib:Valve_Solenoid_NC dewar_pressurize_solenoid?
 U 1 1 63E7394D
@@ -779,6 +904,8 @@ F 6 " " H 7440 5790 50  0001 C CNN "Data_Content"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+	10180 5100 9930 5100
+Wire Wire Line
 	9530 5100 9270 5100
 $Comp
 L PnID-Lib:Valve_Solenoid_NO dewar_depressurize_solenoid?
@@ -820,9 +947,56 @@ F 3 "" H 8510 6150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
+	7780 1220 8080 1220
+Wire Wire Line
+	8080 1220 8080 2050
+Wire Wire Line
+	7780 2050 8080 2050
+Wire Wire Line
 	8510 4830 8510 5450
 Wire Wire Line
 	7440 5100 8870 5100
+Connection ~ 8080 1220
+Wire Wire Line
+	10180 1220 10180 5100
+$Comp
+L PnID-Lib:GasBottle N2
+U 1 1 63F1ECA8
+P 10640 2450
+F 0 "N2" H 10640 2450 20  0000 C CNN
+F 1 "N2" H 10640 2350 20  0001 C CNN
+F 2 "" H 10630 2380 20  0001 C CNN
+F 3 "" H 10630 2380 20  0001 C CNN
+	1    10640 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10640 1950 10640 1840
+Wire Wire Line
+	10640 1220 10640 1440
+Wire Wire Line
+	10180 1220 10640 1220
+Wire Wire Line
+	10640 1220 10640 1210
+Connection ~ 10180 1220
+Connection ~ 10640 1220
+Wire Wire Line
+	8080 1220 8510 1220
+Connection ~ 8510 1220
+Wire Wire Line
+	8510 1220 8870 1220
+$Comp
+L PnID-Lib:Valve_Manual ox_manual_valve
+U 1 1 63EBA6E4
+P 10640 1640
+F 0 "ox_manual_valve" V 10640 1868 50  0001 L CNN
+F 1 "ox_manual_valve" H 10640 1340 50  0001 C CNN
+F 2 "" H 10640 1640 50  0001 C CNN
+F 3 "" H 10640 1640 50  0001 C CNN
+F 4 " " H 10640 1640 50  0001 C CNN "Action_Reference"
+	1    10640 1640
+	0    1    1    0   
+$EndComp
 Wire Notes Line
 	9710 570  9710 670 
 Wire Notes Line
@@ -927,87 +1101,4 @@ Wire Wire Line
 	2690 1780 3800 1780
 Wire Wire Line
 	4200 1780 5330 1780
-Wire Wire Line
-	7000 1220 6780 1220
-$Comp
-L PnID-Lib:GasBottle N2
-U 1 1 647D43D3
-P 7000 2450
-F 0 "N2" H 7000 2450 20  0000 C CNN
-F 1 "N2" H 7000 2350 20  0001 C CNN
-F 2 "" H 6990 2380 20  0001 C CNN
-F 3 "" H 6990 2380 20  0001 C CNN
-	1    7000 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 1950 7000 1840
-Wire Wire Line
-	7000 1220 7000 1440
-$Comp
-L PnID-Lib:Valve_Manual ox_manual_valve?
-U 1 1 647D43DC
-P 7000 1640
-F 0 "ox_manual_valve?" V 7000 1868 50  0001 L CNN
-F 1 "ox_manual_valve" H 7000 1340 50  0001 C CNN
-F 2 "" H 7000 1640 50  0001 C CNN
-F 3 "" H 7000 1640 50  0001 C CNN
-F 4 " " H 7000 1640 50  0001 C CNN "Action_Reference"
-	1    7000 1640
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10160 5100 9930 5100
-$Comp
-L PnID-Lib:Valve_Needle dewar_needle_valve?
-U 1 1 647E2F28
-P 9730 5100
-F 0 "dewar_needle_valve?" H 9730 5373 50  0001 C CNN
-F 1 "dewar_needle_valve" H 9730 4800 50  0001 C CNN
-F 2 "" H 9730 5100 50  0001 C CNN
-F 3 "" H 9730 5100 50  0001 C CNN
-F 4 " " H 9730 5100 50  0001 C CNN "Action_Reference"
-	1    9730 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L PnID-Lib:PressureRegulator dewar_pressure_regulator?
-U 1 1 647E2F2E
-P 10360 5100
-F 0 "dewar_pressure_regulator?" H 10343 5443 20  0001 C CNN
-F 1 "dewar_pressure_regulator" H 10343 5400 20  0001 C CNN
-F 2 "" H 10360 5100 20  0001 C CNN
-F 3 "" H 10360 5100 20  0001 C CNN
-	1    10360 5100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10780 5100 10560 5100
-$Comp
-L PnID-Lib:GasBottle N2
-U 1 1 647E2F35
-P 10780 6330
-F 0 "N2" H 10780 6330 20  0000 C CNN
-F 1 "N2" H 10780 6230 20  0001 C CNN
-F 2 "" H 10770 6260 20  0001 C CNN
-F 3 "" H 10770 6260 20  0001 C CNN
-	1    10780 6330
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10780 5830 10780 5720
-Wire Wire Line
-	10780 5100 10780 5320
-$Comp
-L PnID-Lib:Valve_Manual dewar_manual_valve?
-U 1 1 647E2F3E
-P 10780 5520
-F 0 "dewar_manual_valve?" V 10780 5748 50  0001 L CNN
-F 1 "dewar_manual_valve" H 10780 5220 50  0001 C CNN
-F 2 "" H 10780 5520 50  0001 C CNN
-F 3 "" H 10780 5520 50  0001 C CNN
-F 4 " " H 10780 5520 50  0001 C CNN "Action_Reference"
-	1    10780 5520
-	0    1    1    0   
-$EndComp
 $EndSCHEMATC

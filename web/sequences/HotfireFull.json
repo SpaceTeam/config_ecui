@@ -1,0 +1,204 @@
+{
+	"globals":
+	{
+		"endTime": 25,
+		"interpolation":
+		{
+			"ox_pressurize_solenoid:SetState": "none",
+			"ox_depressurize_valve:SetTargetPosition": "none",
+			"fuel_pressurize_solenoid:SetState": "none",
+			"fuel_depressurize_solenoid:SetState": "none",
+			"fuel_main_valve:SetTargetPosition": "linear",
+			"ox_main_valve:SetTargetPosition": "linear",
+            "fuel_purge_solenoid:SetState": "none",
+            "ox_purge_solenoid:SetState": "none",
+			"igniter:SetState": "none"
+		},
+		"interval": 0.01,
+		"ranges":
+		[
+			"chamberPressure"
+		],
+		"startTime": -20
+	},
+	"data":
+	[
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "set all to zero",
+			"actions":
+			[
+				{
+					"timestamp": 0.0,
+					"ox_pressurize_solenoid:SetState": [0],
+					"ox_depressurize_valve:SetTargetPosition": [0],
+					"fuel_pressurize_solenoid:SetState": [0],
+					"fuel_depressurize_solenoid:SetState": [0],
+					"fuel_main_valve:SetTargetPosition": [0],
+                    "ox_main_valve:SetTargetPosition": [0],
+                    "fuel_purge_solenoid:SetState": [0],
+					"ox_purge_solenoid:SetState": [0],
+					"igniter:SetState": [0],
+					"sensorsNominalRange":
+					{
+						"chamberPressure": [-5, 20]
+					}
+				}
+			]
+		},
+		{
+			"timestamp": -18.0,
+			"name": "press",
+			"desc": "pressurize tanks",
+			"actions":
+			[
+                {
+					"timestamp": 1,
+					"ox_depressurize_valve:SetTargetPosition": [0]
+				},
+                {
+					"timestamp": 1.5,
+					"ox_pressurize_solenoid:SetState": [100]
+				},
+				{
+					"timestamp": 2.5,
+					"fuel_depressurize_solenoid:SetState": [100]
+				},
+				{
+					"timestamp": 3,
+					"fuel_pressurize_solenoid:SetState": [100]
+				}
+				
+			]
+		},
+		{
+			"timestamp": -3.0,
+			"name": "prechill",
+			"desc": "max power",
+			"actions":
+			[
+                {
+					"timestamp": 0.0,
+                    "ox_main_valve:SetTargetPosition": [0]
+				},
+				{
+					"timestamp": 0.1,
+                    "ox_main_valve:SetTargetPosition": [65]
+				}
+			]
+		},
+		{
+			"timestamp": 0.0,
+			"name": "open air",
+			"desc": "max power",
+			"actions":
+			[
+				
+				{
+					"timestamp": 0.0,
+					"igniter:SetState": [100]
+				},
+				{
+					"timestamp": 1.0,
+					"fuel_main_valve:SetTargetPosition": [0],
+					"ox_main_valve:SetTargetPosition": [65]
+				},
+				{
+					"timestamp": 1.1,
+					"fuel_main_valve:SetTargetPosition": [30]
+				},
+				{
+					"timestamp": 1.6,
+					"ox_main_valve:SetTargetPosition": [75]
+				},
+				{
+					"timestamp": 1.7,
+					"fuel_main_valve:SetTargetPosition": [45],
+					"ox_main_valve:SetTargetPosition": [100]
+				},
+				{
+					"timestamp": 1.8,
+					"fuel_main_valve:SetTargetPosition": [100],
+					"igniter:SetState": [0]
+				},
+				{
+					"timestamp": 10.9,
+					"fuel_main_valve:SetTargetPosition": [100]
+				},
+                {
+					"timestamp": 11.0,
+					"fuel_main_valve:SetTargetPosition": [0]
+				},
+				{
+					"timestamp": 11.5,
+                    "ox_main_valve:SetTargetPosition": [100]
+				},
+                {
+					"timestamp": 11.6,
+                    "ox_main_valve:SetTargetPosition": [0]
+				}
+			]
+		},
+        {
+			"timestamp": 14,
+			"name": "purge",
+			"desc": "max power",
+			"actions":
+			[
+				{
+					"timestamp": 0,
+					"ox_purge_solenoid:SetState": [100],
+                    "fuel_purge_solenoid:SetState": [100]
+				},
+                {
+					"timestamp": 2,
+					"ox_purge_solenoid:SetState": [0],
+                    "fuel_purge_solenoid:SetState": [0]
+				}
+			]
+		},
+		{
+			"timestamp": 18,
+			"name": "depress",
+			"desc": "depressurize tanks",
+			"actions":
+			[
+				{
+					"timestamp": 0,
+					"ox_pressurize_solenoid:SetState": [0]
+				},
+                {
+					"timestamp": 0.5,
+					"ox_depressurize_valve:SetTargetPosition": [100]
+				},
+				{
+					"timestamp": 1.5,
+					"fuel_pressurize_solenoid:SetState": [0]
+				},
+				{
+					"timestamp": 2,
+					"fuel_depressurize_solenoid:SetState": [0]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions":
+			[
+				{
+					"timestamp": 0.0,
+					"ox_pressurize_solenoid:SetState": [0],
+					"ox_depressurize_valve:SetTargetPosition": [100],
+					"fuel_pressurize_solenoid:SetState": [0],
+					"fuel_depressurize_solenoid:SetState": [0],
+					"fuel_main_valve:SetTargetPosition": [0],
+					"ox_main_valve:SetTargetPosition": [0],
+					"igniter:SetState": [0]
+				}
+			]
+		}
+	]
+}
