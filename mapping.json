@@ -332,6 +332,119 @@
                 "stringID": "unused_lcb_force_7"
             },
             "stringID": "teststand_lcb"
+        },
+        "6": {
+            "0": {
+                "offset": 0,
+                "slope": 0.00367,
+                "stringID": "venturi_pressure"
+            },
+            "1": {
+                "offset": 0,
+                "slope": 0.003735,
+                "stringID": "tank_pressure"
+            },
+            "9": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_ecu_servo_0"
+            },
+            "11": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "pressurant_valve"
+            },
+            "12": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_ecu_pyro_0"
+            },
+            "13": {
+                "offset": 1.0,
+                "slope": -1.0,
+                "stringID": "unused_ecu_pyro_0_cont"
+            },
+            "16": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_ecu_pyro_2"
+            },
+            "17": {
+                "offset": 1.0,
+                "slope": -1.0,
+                "stringID": "unused_ecu_pyro_2_cont"
+            },
+            "14": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_ecu_pyro_1"
+            },
+            "15": {
+                "offset": 1.0,
+                "slope": -1.0,
+                "stringID": "unused_ecu_pyro_1_cont"
+            },
+            "18": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_ecu_solenoid_0"
+            },
+            "19": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_ecu_solenoid_1"
+            },
+            "2": {
+                "offset": 0,
+                "slope": 0.0037,
+                "stringID": "pressurant_pressure"
+            },
+            "20": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "pressure_control"
+            },
+            "22": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_rocket"
+            },
+            "3": {
+                "offset": -16.244,
+                "slope": 0.00119984,
+                "stringID": "unused_ecu_pressure_3"
+            },
+            "4": {
+                "offset": -16.244,
+                "slope": 0.00119984,
+                "stringID": "unused_ecu_pressure_4"
+            },
+            "5": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_ecu_pressure_5"
+            },
+            "6": {
+                "offset": -248.8657,
+                "slope": 0.043258,
+                "stringID": "unused_ecu_temp_0"
+            },
+            "7": {
+                "offset": -248.8657,
+                "slope": 0.043258,
+                "stringID": "unused_ecu_temp_1"
+            },
+            "8": {
+                "offset": -248.8657,
+                "slope": 0.043258,
+                "stringID": "unused_ecu_temp_2"
+            },
+            "10": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "main_valve"
+            },
+            "stringID": "ecu"
         }
     },
     "DefaultEventMapping": {
