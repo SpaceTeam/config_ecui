@@ -788,4 +788,32 @@ F 5 " " H 5780 5190 50  0001 C CNN "Action_Reference"
 	1    5780 5190
 	1    0    0    1   
 $EndComp
+$Comp
+L PnID-Lib:Sensor_Load fuel_weight
+U 1 1 64B8230A
+P 2030 5190
+F 0 "fuel_weight" H 1922 5473 20  0001 C CNN
+F 1 "fuel_weight:sensor" H 2430 5190 20  0000 C CNN
+F 2 "" H 2030 5190 20  0001 C CNN
+F 3 "" H 2030 5190 20  0001 C CNN
+F 4 "kg" H 2030 5190 20  0001 C CNN "Unit"
+F 5 " " H 2030 5190 50  0001 C CNN "Action_Reference"
+F 6 " " H 1922 5363 50  0000 C CNN "Data_Content"
+	1    2030 5190
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PnID-Lib:Sensor_Load_Short ox_weight
+U 1 1 64B82D1E
+P 4770 5190
+F 0 "ox_weight" H 4712 5473 20  0001 C CNN
+F 1 "ox_weight:sensor" H 4770 4920 20  0000 C CNN
+F 2 "" H 4770 5190 20  0001 C CNN
+F 3 "" H 4770 5190 20  0001 C CNN
+F 4 "kg" H 4770 5190 20  0001 C CNN "Unit"
+F 5 " " H 4770 5190 50  0001 C CNN "Action_Reference"
+F 6 " " H 4712 5363 50  0000 C CNN "Data_Content"
+	1    4770 5190
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

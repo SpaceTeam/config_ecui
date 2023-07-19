@@ -265,4 +265,18 @@ F 6 " " H 5250 5050 50  0001 C CNN "Data_Content"
 	1    5250 5050
 	1    0    0    -1  
 $EndComp
+$Comp
+L PnID-Lib:Sensor_Load venturi_weight
+U 1 1 64B8105B
+P 4850 6640
+F 0 "venturi_weight" H 4742 6923 20  0001 C CNN
+F 1 "venturi_weight:sensor" H 5380 6640 20  0000 C CNN
+F 2 "" H 4850 6640 20  0001 C CNN
+F 3 "" H 4850 6640 20  0001 C CNN
+F 4 "kg" H 4850 6640 20  0001 C CNN "Unit"
+F 5 " " H 4850 6640 50  0001 C CNN "Action_Reference"
+F 6 " " H 4742 6813 50  0000 C CNN "Data_Content"
+	1    4850 6640
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
