@@ -15,9 +15,18 @@
     "LORA": {
         "ip": "192.168.1.7",
         "port": 5001,
-        "nodeIDsRef": [6, 8],
-        "nodeIDs": [16, 18],
-        "canMsgSizes": [54, 39]
+        "nodeIDsRef": [
+            6,
+            8
+        ],
+        "nodeIDs": [
+            16,
+            18
+        ],
+        "canMsgSizes": [
+            54,
+            39
+        ]
     },
     "CAN": {
         "node_count": 5,
@@ -42,38 +51,43 @@
             "can0"
         ],
         "BUS_EXTRA": {
-        	"1" : {
-		        "ARBITRATION": {
+            "1": {
+                "ARBITRATION": {
                     "bitrate": 1000000,
                     "time_segment_1": 7,
                     "time_segment_2": 2,
                     "sync_jump_width": 1,
                     "no_sampling_points": 1
-			    },
-			    "DATA": {
+                },
+                "DATA": {
                     "bitrate": 8000000,
                     "time_segment_1": 7,
                     "time_segment_2": 2,
                     "sync_jump_width": 1
-			    }
+                }
             },
-            "2" : {
-		        "ARBITRATION": {
+            "2": {
+                "ARBITRATION": {
                     "bitrate": 1000000,
                     "time_segment_1": 7,
                     "time_segment_2": 2,
                     "sync_jump_width": 1,
                     "no_sampling_points": 1
-			    },
-			    "DATA": {
+                },
+                "DATA": {
                     "bitrate": 8000000,
                     "time_segment_1": 7,
                     "time_segment_2": 2,
                     "sync_jump_width": 1
-			    }
+                }
             }
         },
-        "canBusChannelIDs": [0, 1, 2, 3]
+        "canBusChannelIDs": [
+            0,
+            1,
+            2,
+            3
+        ]
     },
     "LLSERVER": {
         "sensor_state_sampling_rate": 10.0
