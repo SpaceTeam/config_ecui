@@ -1,6 +1,6 @@
 {
 	"globals": {
-		"endTime": 25,
+		"endTime": 15,
 		"interpolation": {
 			"ox_pressurize_solenoid:SetState": "none",
 			"ox_depressurize_valve:SetTargetPosition": "none",
@@ -70,7 +70,7 @@
 						0
 					],
 					"ox_pressure_control:SetTarget": [
-						5
+						30
 					],
 					"ox_pressure_control:SetHysteresis": [
 						0.1
@@ -82,7 +82,7 @@
 						0
 					],
 					"fuel_pressure_control:SetTarget": [
-						30
+						0
 					],
 					"fuel_pressure_control:SetHysteresis": [
 						0.1
@@ -121,12 +121,6 @@
 					"ox_depressurize_valve:SetTargetPosition": [
 						0
 					]
-				},
-				{
-					"timestamp": 0.5,
-					"fuel_depressurize_solenoid:SetState": [
-						100
-					]
 				}
 			]
 		},
@@ -158,12 +152,6 @@
 					"ox_pressure_control:SetEnabled": [
 						1
 					]
-				},
-				{
-					"timestamp": 1.0,
-					"fuel_pressure_control:SetEnabled": [
-						1
-					]
 				}
 			]
 		},
@@ -173,88 +161,25 @@
 			"desc": "max power",
 			"actions": [
 				{
-					"timestamp": 0.0,
-					"igniter:SetState": [
-						100
-					],
-					"igniter_ecu_0:SetState": [
-						100
-					],
-					"igniter_ecu_1:SetState": [
-						100
-					]
-				},
-				{
-					"timestamp": 1.0,
-					"fuel_main_valve:SetTargetPosition": [
-						0
-					]
-				},
-				{
-					"timestamp": 1.1,
-					"fuel_main_valve:SetTargetPosition": [
-						30
-					]
-				},
-				{
 					"timestamp": 1.7,
-					"fuel_main_valve:SetTargetPosition": [
-						45
-					],
 					"ox_pressure_control:SetTarget": [
 						30
 					]
 				},
 				{
-					"timestamp": 1.8,
-					"fuel_main_valve:SetTargetPosition": [
-						100
-					],
-					"igniter:SetState": [
-						0
-					],
-					"igniter_ecu_0:SetState": [
-						0
-					],
-					"igniter_ecu_1:SetState": [
-						0
-					],
-					"ox_pressure_control:SetSensorChannelID": [
-						3
-					],
-					"fuel_pressure_control:SetSensorChannelID": [
-						3
-					]
-				},
-				{
-					"timestamp": 10.8,
+					"timestamp": 2.8,
 					"ox_pressure_control:SetSensorChannelID": [
 						4
-					],
-					"fuel_pressure_control:SetSensorChannelID": [
-						4
 					]
 				},
 				{
-					"timestamp": 10.9,
-					"fuel_main_valve:SetTargetPosition": [
-						100
-					]
-				},
-				{
-					"timestamp": 11.0,
-					"fuel_main_valve:SetTargetPosition": [
-						0
-					]
-				},
-				{
-					"timestamp": 11.5,
+					"timestamp": 2.9,
 					"ox_main_valve:SetTargetPosition": [
 						100
 					]
 				},
 				{
-					"timestamp": 11.6,
+					"timestamp": 3.0,
 					"ox_main_valve:SetTargetPosition": [
 						0
 					]
@@ -262,7 +187,7 @@
 			]
 		},
 		{
-			"timestamp": 12,
+			"timestamp": 3.5,
 			"name": "depress",
 			"desc": "depressurize tanks",
 			"actions": [
@@ -283,29 +208,11 @@
 					"ox_depressurize_valve:SetTargetPosition": [
 						100
 					]
-				},
-				{
-					"timestamp": 1.0,
-					"fuel_pressure_control:SetEnabled": [
-						0
-					]
-				},
-				{
-					"timestamp": 1.1,
-					"fuel_pressurize_solenoid:SetState": [
-						0
-					]
-				},
-				{
-					"timestamp": 1.5,
-					"fuel_depressurize_solenoid:SetState": [
-						0
-					]
 				}
 			]
 		},
 		{
-			"timestamp": 14,
+			"timestamp": 5,
 			"name": "purge",
 			"desc": "max power",
 			"actions": [
@@ -313,17 +220,11 @@
 					"timestamp": 0,
 					"ox_purge_solenoid:SetState": [
 						100
-					],
-					"fuel_purge_solenoid:SetState": [
-						100
 					]
 				},
 				{
 					"timestamp": 3,
 					"ox_purge_solenoid:SetState": [
-						0
-					],
-					"fuel_purge_solenoid:SetState": [
 						0
 					]
 				}
