@@ -91,7 +91,7 @@
 			]
 		},
 		{
-			"timestamp": -10.0,
+			"timestamp": -11.0,
 			"name": "close depress",
 			"desc": "close depressurize solenoid",
 			"actions": [
@@ -253,6 +253,18 @@
 					],
 					"ox_pressure_control:SetEnabled": [
 						0
+					],
+					"fuel_pressure_control:SetHysteresis": [
+						0.1
+					],
+					"fuel_pressure_control:SetSensorChannelID": [
+						4
+					],
+					"ox_pressure_control:SetHysteresis": [
+						0.1
+					],
+					"ox_pressure_control:SetSensorChannelID": [
+						4
 					]
 				}
 			]

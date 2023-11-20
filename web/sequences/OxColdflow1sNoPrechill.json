@@ -222,6 +222,9 @@
 					"timestamp": 3,
 					"ox_purge_solenoid:SetState": [
 						0
+					],
+					"fuel_purge_solenoid:SetState": [
+						0
 					]
 				}
 			]

@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"timestamp": -10.0,
+			"timestamp": -11.0,
 			"name": "close depress",
 			"desc": "close depressurize valves",
 			"actions": [
@@ -170,6 +170,12 @@
 					],
 					"ox_pressure_control:SetEnabled": [
 						0
+					],
+					"ox_pressure_control:SetHysteresis": [
+						0.1
+					],
+					"ox_pressure_control:SetSensorChannelID": [
+						4
 					]
 				}
 			]
