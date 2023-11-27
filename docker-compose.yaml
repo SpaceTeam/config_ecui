@@ -56,8 +56,8 @@ services:
     ports:
       - "8086:8086"
     volumes:
-      - ${CONFIG_DIR}/influx/influxdb_data:/var/lib/influxdb
-      - ${CONFIG_DIR}/influx/influxdb:/etc/influxdb/
+      - ${CONFIG_DIR}/influx/config:/etc/influxdb
+      - ${CONFIG_DIR}/influx/influxdb:/root/.influxdb
     networks:
       ecui_network:
         ipv4_address: 192.168.100.2

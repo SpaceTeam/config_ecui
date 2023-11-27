@@ -45,7 +45,7 @@ echo "installing docker images..."
 #influx
 CONFIG_DIR=$CONFIG_DIR docker compose up --build -d
 
-docker exec influx influx -execute 'CREATE DATABASE gse'
+docker exec influxdb influx -execute 'CREATE DATABASE gse'
 
 docker compose stop grafana
 cp $CONFIG_DIR/grafana_backup/lib/grafana.db $CONFIG_DIR/grafana/data/grafana.db
