@@ -7,13 +7,16 @@
             "1": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
-                "stringID": "fuel_main_valve"
+                "stringID": "ex_fuel_main_valve"
             },
             "10": {
                 "stringID": "dewar_pressurize_solenoid"
             },
             "11": {
                 "stringID": "ox_unused_pressure_11"
+            },
+            "12": {
+                "stringID": "ox_pressure_control"
             },
             "2": {
                 "offset": 0.0,
@@ -58,13 +61,16 @@
             "1": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
-                "stringID": "fuel_unused_servo_1"
+                "stringID": "fuel_main_valve"
             },
             "10": {
-                "stringID": "fuel_pressurize_solenoid"
+                "stringID": "fuel_depressurize_solenoid"
             },
             "11": {
                 "stringID": "fuel_unused_pressure_11"
+            },
+            "12": {
+                "stringID": "fuel_pressure_control"
             },
             "2": {
                 "offset": 0.0,
@@ -98,7 +104,7 @@
                 "stringID": "dewar_pressure"
             },
             "9": {
-                "stringID": "fuel_depressurize_solenoid"
+                "stringID": "fuel_pressurize_solenoid"
             },
             "stringID": "teststand_fuel"
         },
@@ -218,6 +224,119 @@
             },
             "stringID": "dcmb_tanking_valve"
         },
+        "6": {
+            "0": {
+                "offset": 0,
+                "slope": 0.00367,
+                "stringID": "unused_ecu_pressure_0"
+            },
+            "1": {
+                "offset": 0,
+                "slope": 0.003735,
+                "stringID": "unused_ecu_pressure_1"
+            },
+            "10": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "main_valve"
+            },
+            "11": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "pressurant_valve"
+            },
+            "12": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "igniter_ecu_0"
+            },
+            "13": {
+                "offset": 1.0,
+                "slope": -1.0,
+                "stringID": "igniter_ecu_0_cont"
+            },
+            "14": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "igniter_ecu_1"
+            },
+            "15": {
+                "offset": 1.0,
+                "slope": -1.0,
+                "stringID": "igniter_ecu_1_cont"
+            },
+            "16": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_ecu_pyro_2"
+            },
+            "17": {
+                "offset": 1.0,
+                "slope": -1.0,
+                "stringID": "unused_ecu_pyro_2_cont"
+            },
+            "18": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_ecu_solenoid_0"
+            },
+            "19": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_ecu_solenoid_1"
+            },
+            "2": {
+                "offset": 0,
+                "slope": 0.0037,
+                "stringID": "unused_ecu_pressure_2"
+            },
+            "20": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "pressure_control"
+            },
+            "22": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_rocket"
+            },
+            "3": {
+                "offset": -16.244,
+                "slope": 0.00119984,
+                "stringID": "venturi_pressure"
+            },
+            "4": {
+                "offset": -16.244,
+                "slope": 0.00119984,
+                "stringID": "tank_pressure"
+            },
+            "5": {
+                "offset": -101.25,
+                "slope": 0.0078857,
+                "stringID": "pressurant_pressure"
+            },
+            "6": {
+                "offset": -248.8657,
+                "slope": 0.043258,
+                "stringID": "unused_ecu_temp_0"
+            },
+            "7": {
+                "offset": -248.8657,
+                "slope": 0.043258,
+                "stringID": "unused_ecu_temp_1"
+            },
+            "8": {
+                "offset": -248.8657,
+                "slope": 0.043258,
+                "stringID": "unused_ecu_temp_2"
+            },
+            "9": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "unused_ecu_servo_0"
+            },
+            "stringID": "ecu"
+        },
         "60": {
             "0": {
                 "stringID": "unused_ecu_pressure_0"
@@ -292,24 +411,24 @@
         },
         "9": {
             "0": {
-                "offset": 19.5928184025,
+                "offset": -0.234903095,
                 "slope": 4.46075e-05,
                 "stringID": "thrust"
             },
             "1": {
-                "offset": -662175.0,
+                "offset": 660000,
                 "slope": 1.0,
-                "stringID": "unused_lcb_force_1"
+                "stringID": "venturi_weight"
             },
             "2": {
-                "offset": -1371990.0,
-                "slope": 1.0,
-                "stringID": "unused_lcb_force_2"
+                "offset": -238.89183496,
+                "slope": -0.000115736,
+                "stringID": "fuel_weight"
             },
             "3": {
-                "offset": -940816.0,
+                "offset": -2928115.0,
                 "slope": 1.0,
-                "stringID": "unused_lcb_force_3"
+                "stringID": "ox_weight"
             },
             "4": {
                 "offset": -312116.0,
@@ -332,119 +451,6 @@
                 "stringID": "unused_lcb_force_7"
             },
             "stringID": "teststand_lcb"
-        },
-        "6": {
-            "0": {
-                "offset": 0,
-                "slope": 0.00367,
-                "stringID": "venturi_pressure"
-            },
-            "1": {
-                "offset": 0,
-                "slope": 0.003735,
-                "stringID": "tank_pressure"
-            },
-            "9": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_ecu_servo_0"
-            },
-            "11": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "pressurant_valve"
-            },
-            "12": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_ecu_pyro_0"
-            },
-            "13": {
-                "offset": 1.0,
-                "slope": -1.0,
-                "stringID": "unused_ecu_pyro_0_cont"
-            },
-            "16": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_ecu_pyro_2"
-            },
-            "17": {
-                "offset": 1.0,
-                "slope": -1.0,
-                "stringID": "unused_ecu_pyro_2_cont"
-            },
-            "14": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_ecu_pyro_1"
-            },
-            "15": {
-                "offset": 1.0,
-                "slope": -1.0,
-                "stringID": "unused_ecu_pyro_1_cont"
-            },
-            "18": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_ecu_solenoid_0"
-            },
-            "19": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_ecu_solenoid_1"
-            },
-            "2": {
-                "offset": 0,
-                "slope": 0.0037,
-                "stringID": "pressurant_pressure"
-            },
-            "20": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "pressure_control"
-            },
-            "22": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_rocket"
-            },
-            "3": {
-                "offset": -16.244,
-                "slope": 0.00119984,
-                "stringID": "unused_ecu_pressure_3"
-            },
-            "4": {
-                "offset": -16.244,
-                "slope": 0.00119984,
-                "stringID": "unused_ecu_pressure_4"
-            },
-            "5": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_ecu_pressure_5"
-            },
-            "6": {
-                "offset": -248.8657,
-                "slope": 0.043258,
-                "stringID": "unused_ecu_temp_0"
-            },
-            "7": {
-                "offset": -248.8657,
-                "slope": 0.043258,
-                "stringID": "unused_ecu_temp_1"
-            },
-            "8": {
-                "offset": -248.8657,
-                "slope": 0.043258,
-                "stringID": "unused_ecu_temp_2"
-            },
-            "10": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "main_valve"
-            },
-            "stringID": "ecu"
         }
     },
     "DefaultEventMapping": {
@@ -522,6 +528,16 @@
                 ]
             }
         ],
+        "gui:fuel_weight:Tare": [
+            {
+                "command": "Tare",
+                "parameters": [
+                    9,
+                    2,
+                    "fuel_weight:sensor"
+                ]
+            }
+        ],
         "gui:holddown:sensor": [
             {
                 "command": "holddown:SetTargetPosition",
@@ -538,6 +554,16 @@
                 ],
                 "triggerType": "==",
                 "triggerValue": 1
+            }
+        ],
+        "gui:ox_weight:Tare": [
+            {
+                "command": "Tare",
+                "parameters": [
+                    9,
+                    3,
+                    "ox_weight:sensor"
+                ]
             }
         ],
         "gui:pressure_control:GetHysteresis": [
@@ -661,6 +687,16 @@
                     9,
                     0,
                     "thrust:sensor"
+                ]
+            }
+        ],
+        "gui:venturi_weight:Tare": [
+            {
+                "command": "Tare",
+                "parameters": [
+                    9,
+                    1,
+                    "venturi_weight:sensor"
                 ]
             }
         ],
