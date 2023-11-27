@@ -1101,4 +1101,32 @@ Wire Wire Line
 	2690 1780 3800 1780
 Wire Wire Line
 	4200 1780 5330 1780
+$Comp
+L PnID-Lib:Sensor_Load fuel_weight
+U 1 1 64B83678
+P 2130 5510
+F 0 "fuel_weight" H 2022 5793 20  0001 C CNN
+F 1 "fuel_weight:sensor" H 2540 5510 20  0000 C CNN
+F 2 "" H 2130 5510 20  0001 C CNN
+F 3 "" H 2130 5510 20  0001 C CNN
+F 4 "kg" H 2130 5510 20  0001 C CNN "Unit"
+F 5 " " H 2130 5510 50  0001 C CNN "Action_Reference"
+F 6 " " H 2022 5683 50  0000 C CNN "Data_Content"
+	1    2130 5510
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PnID-Lib:Sensor_Load_Short ox_weight
+U 1 1 64B84083
+P 4870 5510
+F 0 "ox_weight" H 4812 5793 20  0001 C CNN
+F 1 "ox_weight:sensor" H 4770 5230 20  0000 C CNN
+F 2 "" H 4870 5510 20  0001 C CNN
+F 3 "" H 4870 5510 20  0001 C CNN
+F 4 "kg" H 4870 5510 20  0001 C CNN "Unit"
+F 5 " " H 4870 5510 50  0001 C CNN "Action_Reference"
+F 6 " " H 4812 5683 50  0000 C CNN "Data_Content"
+	1    4870 5510
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

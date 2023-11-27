@@ -1,5 +1,5 @@
 {
-    "externalSourceDefault": "http://192.168.100.3:3000/d-solo/_wWiqssnk/uhoubolt?orgId=1&panelId=",
+    "externalSourceDefault": "http://192.168.0.7:3000/d-solo/i6z2viISk/teststand-streaming?orgId=1&panelId=",
     "wire": {
         "eval": "if (inVars['value'] > thresholds['wire']['pressurized']) { outVars['color']='content' } else if (inVars['value'] > thresholds['wire']['notconnected']) { outVars['color']='' } else { outVars['color']='notconnected' }"
     },

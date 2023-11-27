@@ -43,43 +43,28 @@ Wire Wire Line
 $Comp
 L PnID-Lib:GasBottle N2
 U 1 1 63DC1D7A
-P 3020 3130
-F 0 "N2" H 3020 3130 20  0000 C CNN
-F 1 "N2" H 3020 3030 20  0001 C CNN
-F 2 "" H 3010 3060 20  0001 C CNN
-F 3 "" H 3010 3060 20  0001 C CNN
-	1    3020 3130
+P 3220 3580
+F 0 "N2" H 3220 3580 20  0000 C CNN
+F 1 "N2" H 3220 3480 20  0001 C CNN
+F 2 "" H 3210 3510 20  0001 C CNN
+F 3 "" H 3210 3510 20  0001 C CNN
+	1    3220 3580
 	1    0    0    -1  
 $EndComp
 $Comp
 L PnID-Lib:Valve_Manual fuel_manual_valve
 U 1 1 63E17BFE
-P 3020 2320
-F 0 "fuel_manual_valve" V 3020 2142 50  0001 R CNN
-F 1 "fuel_manual_valve" H 3020 2020 50  0001 C CNN
-F 2 "" H 3020 2320 50  0001 C CNN
-F 3 "" H 3020 2320 50  0001 C CNN
-F 4 " " H 3020 2320 50  0001 C CNN "Action_Reference"
-	1    3020 2320
+P 3220 2770
+F 0 "fuel_manual_valve" V 3220 2592 50  0001 R CNN
+F 1 "fuel_manual_valve" H 3220 2470 50  0001 C CNN
+F 2 "" H 3220 2770 50  0001 C CNN
+F 3 "" H 3220 2770 50  0001 C CNN
+F 4 " " H 3220 2770 50  0001 C CNN "Action_Reference"
+	1    3220 2770
 	0    -1   -1   0   
 $EndComp
-$Comp
-L PnID-Lib:PressureRegulator fuel_pressure_regulator
-U 1 1 63E1F274
-P 3400 1900
-F 0 "fuel_pressure_regulator" H 3383 2243 20  0001 C CNN
-F 1 "fuel_pressure_regulator" H 3383 2200 20  0001 C CNN
-F 2 "" H 3400 1900 20  0001 C CNN
-F 3 "" H 3400 1900 20  0001 C CNN
-	1    3400 1900
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	3020 2630 3020 2520
-Wire Wire Line
-	3020 1900 3020 2120
-Wire Wire Line
-	3200 1900 3020 1900
+	3220 3080 3220 2970
 $Comp
 L PnID-Lib:Vent Vent?
 U 1 1 64A25448
@@ -125,12 +110,12 @@ F 6 " " H 5678 2327 50  0001 L CNN "Data_Content"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 5550 5250 5750
+	5250 5550 5250 5640
 Connection ~ 5250 6290
 Wire Wire Line
 	5250 6290 5250 6440
 Wire Wire Line
-	5250 4210 5250 4550
+	5250 4210 5250 4390
 Wire Wire Line
 	5250 4210 5250 4120
 Connection ~ 5250 4210
@@ -147,46 +132,6 @@ F 5 " " H 4950 4210 50  0001 C CNN "Action_Reference"
 F 6 " " V 4799 4082 50  0001 R CNN "Data_Content"
 	1    4950 4210
 	-1   0    0    1   
-$EndComp
-$Comp
-L PnID-Lib:Valve_Manual Valve_Manual
-U 1 1 64A60B6B
-P 3970 1900
-F 0 "Valve_Manual" H 3970 2173 50  0001 C CNN
-F 1 "Valve_Manual" H 3970 1600 50  0001 C CNN
-F 2 "" H 3970 1900 50  0001 C CNN
-F 3 "" H 3970 1900 50  0001 C CNN
-F 4 " " H 3970 1900 50  0001 C CNN "Action_Reference"
-	1    3970 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4340 2170 4340 1900
-Wire Wire Line
-	4340 1900 4170 1900
-Wire Wire Line
-	3600 1900 3770 1900
-$Comp
-L PnID-Lib:Valve_Manual_3Way Valve_Manual_3Way
-U 1 1 64A626E1
-P 4620 2370
-F 0 "Valve_Manual_3Way" V 4666 2828 50  0001 L CNN
-F 1 "Valve_Manual_3Way" V 4575 2828 50  0001 L CNN
-F 2 "" H 4620 2370 50  0001 C CNN
-F 3 "" H 4620 2370 50  0001 C CNN
-	1    4620 2370
-	0    -1   -1   0   
-$EndComp
-$Comp
-L PnID-Lib:Vent Vent?
-U 1 1 64A6C345
-P 4340 2870
-F 0 "Vent?" H 4182 2697 50  0001 C CNN
-F 1 "Vent" H 4440 2820 50  0001 C CNN
-F 2 "" H 4340 2870 50  0001 C CNN
-F 3 "" H 4340 2870 50  0001 C CNN
-	1    4340 2870
-	0    -1   1    0   
 $EndComp
 Wire Notes Line
 	7330 820  6910 820 
@@ -209,8 +154,6 @@ F 3 "" H 5250 2980 20  0001 C CNN
 $EndComp
 Wire Wire Line
 	5250 3180 5250 3330
-Wire Wire Line
-	4540 2370 5250 2370
 $Comp
 L PnID-Lib:Valve_Servo main_valve
 U 1 1 63F5ABDC
@@ -265,18 +208,90 @@ F 6 " " H 5250 5050 50  0001 C CNN "Data_Content"
 	1    5250 5050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3220 2370 3220 2570
+Wire Wire Line
+	3220 2370 5250 2370
 $Comp
-L PnID-Lib:Sensor_Load venturi_weight
-U 1 1 64B8105B
-P 4850 6640
-F 0 "venturi_weight" H 4742 6923 20  0001 C CNN
-F 1 "venturi_weight:sensor" H 5380 6640 20  0000 C CNN
-F 2 "" H 4850 6640 20  0001 C CNN
-F 3 "" H 4850 6640 20  0001 C CNN
-F 4 "kg" H 4850 6640 20  0001 C CNN "Unit"
-F 5 " " H 4850 6640 50  0001 C CNN "Action_Reference"
-F 6 " " H 4742 6813 50  0000 C CNN "Data_Content"
-	1    4850 6640
-	-1   0    0    -1  
+L PnID-Lib:Valve_Manual Valve_Manual?
+U 1 1 64AA095A
+P 6160 4390
+F 0 "Valve_Manual?" H 6160 4663 50  0001 C CNN
+F 1 "Valve_Manual" H 6160 4090 50  0001 C CNN
+F 2 "" H 6160 4390 50  0001 C CNN
+F 3 "" H 6160 4390 50  0001 C CNN
+F 4 " " H 6160 4390 50  0001 C CNN "Action_Reference"
+	1    6160 4390
+	1    0    0    -1  
+$EndComp
+$Comp
+L PnID-Lib:Valve_Manual tanking_valve
+U 1 1 64AA575F
+P 6160 5640
+F 0 "tanking_valve" H 6160 5913 50  0001 C CNN
+F 1 "tanking_valve" H 6160 5340 50  0001 C CNN
+F 2 "" H 6160 5640 50  0001 C CNN
+F 3 "" H 6160 5640 50  0001 C CNN
+F 4 " " H 6160 5640 50  0001 C CNN "Action_Reference"
+	1    6160 5640
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5960 5640 5250 5640
+Connection ~ 5250 5640
+Wire Wire Line
+	5250 5640 5250 5750
+Wire Wire Line
+	5960 4390 5250 4390
+Connection ~ 5250 4390
+Wire Wire Line
+	5250 4390 5250 4550
+$Comp
+L PnID-Lib:Vent Vent?
+U 1 1 64AA71F1
+P 6660 4390
+F 0 "Vent?" H 6502 4217 50  0001 C CNN
+F 1 "Vent" H 6760 4340 50  0001 C CNN
+F 2 "" H 6660 4390 50  0001 C CNN
+F 3 "" H 6660 4390 50  0001 C CNN
+	1    6660 4390
+	1    0    0    1   
+$EndComp
+$Comp
+L PnID-Lib:QuickConnect_Half QuickConnect?
+U 1 1 64AA7FB6
+P 6660 5640
+F 0 "QuickConnect?" H 6688 5686 50  0001 L CNN
+F 1 "QuickConnect_Half" H 6688 5595 50  0001 L CNN
+F 2 "" H 6660 5640 50  0001 C CNN
+F 3 "" H 6660 5640 50  0001 C CNN
+	1    6660 5640
+	1    0    0    -1  
+$EndComp
+$Comp
+L PnID-Lib:Valve_Manual fuel_manual_valve?
+U 1 1 64AAADD8
+P 3220 1950
+F 0 "fuel_manual_valve?" V 3220 1772 50  0001 R CNN
+F 1 "fuel_manual_valve" H 3220 1650 50  0001 C CNN
+F 2 "" H 3220 1950 50  0001 C CNN
+F 3 "" H 3220 1950 50  0001 C CNN
+F 4 " " H 3220 1950 50  0001 C CNN "Action_Reference"
+	1    3220 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3220 2150 3220 2370
+Connection ~ 3220 2370
+$Comp
+L PnID-Lib:Vent Vent?
+U 1 1 64AAFF44
+P 3220 1450
+F 0 "Vent?" V 3062 1322 50  0001 R CNN
+F 1 "Vent" H 3320 1400 50  0001 C CNN
+F 2 "" H 3220 1450 50  0001 C CNN
+F 3 "" H 3220 1450 50  0001 C CNN
+	1    3220 1450
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
