@@ -49,7 +49,7 @@
 						0.1
 					],
 					"fuel_pressure_control:SetSensorChannelID": [
-						3
+						4
 					],
 					"fuel_pressure_control:SetEnabled": [
 						0
@@ -73,7 +73,7 @@
 						0.1
 					],
 					"ox_pressure_control:SetSensorChannelID": [
-						3
+						4
 					],
 					"ox_pressure_control:SetEnabled": [
 						0
@@ -136,6 +136,12 @@
 					],
                     "ox_main_valve:SetTargetPosition": [
 						100
+					],
+					"fuel_pressure_control:SetSensorChannelID": [
+						4
+					],
+					"ox_pressure_control:SetSensorChannelID": [
+						4
 					]
 				},
 				{
@@ -154,7 +160,14 @@
 					],
                     "ox_main_valve:SetTargetPosition": [
 						0
+					],
+					"fuel_pressure_control:SetSensorChannelID": [
+						3
+					],
+					"ox_pressure_control:SetSensorChannelID": [
+						3
 					]
+
 				}
 			]
 		},
