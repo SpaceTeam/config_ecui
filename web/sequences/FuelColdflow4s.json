@@ -41,7 +41,7 @@
 						0.1
 					],
 					"fuel_pressure_control:SetSensorChannelID": [
-						3
+						4
 					],
 					"fuel_pressure_control:SetEnabled": [
 						0
@@ -77,7 +77,7 @@
 		{
 			"timestamp": 0.0,
 			"name": "ColdFlow",
-			"desc": "open fuel main valve for 1s",
+			"desc": "open fuel main valve for 4s",
 			"actions": [
 				{
 					"timestamp": 0.0,
@@ -89,16 +89,25 @@
 					"timestamp": 0.1,
 					"fuel_main_valve:SetTargetPosition": [
 						100
+					],
+					"fuel_pressure_control:SetSensorChannelID": [
+						3
 					]
 				},
 				{
-					"timestamp": 1.7,
+					"timestamp": 3.7,
 					"fuel_main_valve:SetTargetPosition": [
 						100
 					]
 				},
 				{
-					"timestamp": 1.9,
+					"timestamp": 3.8,
+					"fuel_pressure_control:SetSensorChannelID": [
+						4
+					]
+				},
+				{
+					"timestamp": 3.9,
 					"fuel_main_valve:SetTargetPosition": [
 						0
 					]
