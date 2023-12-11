@@ -138,10 +138,10 @@
 						100
 					],
 					"fuel_pressure_control:SetSensorChannelID": [
-						4
+						3
 					],
 					"ox_pressure_control:SetSensorChannelID": [
-						4
+						3
 					]
 				},
 				{
@@ -162,10 +162,10 @@
 						0
 					],
 					"fuel_pressure_control:SetSensorChannelID": [
-						3
+						4
 					],
 					"ox_pressure_control:SetSensorChannelID": [
-						3
+						4
 					]
 
 				}
