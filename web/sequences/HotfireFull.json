@@ -131,7 +131,7 @@
 			]
 		},
 		{
-			"timestamp": -3.5,
+			"timestamp": -5.0,
 			"name": "pressurize",
 			"desc": "Pressurize fuel and ox tank to target",
 			"actions": [
