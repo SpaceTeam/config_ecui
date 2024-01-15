@@ -70,7 +70,7 @@
 						0
 					],
 					"ox_pressure_control:SetTarget": [
-						5
+						30
 					],
 					"ox_pressure_control:SetHysteresis": [
 						0.1
@@ -132,8 +132,46 @@
 		},
 		{
 			"timestamp": -3.5,
-			"name": "prechill",
-			"desc": "stay calm",
+			"name": "pressurize",
+			"desc": "Pressurize fuel and ox tank to target",
+			"actions": [
+				{
+					"timestamp": 0.5,
+					"ox_pressure_control:SetEnabled": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"fuel_pressure_control:SetEnabled": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 0.0,
+			"name": "Ignite",
+			"desc": "Enable igniter voltage",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"igniter:SetState": [
+						100
+					],
+					"igniter_ecu_0:SetState": [
+						100
+					],
+					"igniter_ecu_1:SetState": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 1.0,
+			"name": "Open ox main valve",
+			"desc": "Open ox main valve and set target channel to venturi",
 			"actions": [
 				{
 					"timestamp": 0.0,
@@ -152,65 +190,48 @@
 					"ox_pressure_control:SetSensorChannelID": [
 						3
 					]
-				},
+				}
+			]
+		},
+		{
+			"timestamp": 1.5,
+			"name": "Open fuel main valve",
+			"desc": "Open fuel main valve in steps and set target channel to venturi",
+			"actions": [
 				{
-					"timestamp": 0.5,
-					"ox_pressure_control:SetEnabled": [
-						1
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
 					]
 				},
 				{
-					"timestamp": 1.0,
-					"fuel_pressure_control:SetEnabled": [
-						1
+					"timestamp": 0.1,
+					"fuel_main_valve:SetTargetPosition": [
+						30
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"fuel_main_valve:SetTargetPosition": [
+						45
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"fuel_main_valve:SetTargetPosition": [
+						100
 					]
 				}
 			]
 		},
 		{
-			"timestamp": 0.0,
-			"name": "let us goo",
-			"desc": "max power",
+			"timestamp": 1.8,
+			"name": "Disable Igniters",
+			"desc": "Shut down igniter voltage",
 			"actions": [
 				{
 					"timestamp": 0.0,
 					"igniter:SetState": [
-						100
-					],
-					"igniter_ecu_0:SetState": [
-						100
-					],
-					"igniter_ecu_1:SetState": [
-						100
-					]
-				},
-				{
-					"timestamp": 1.0,
-					"fuel_main_valve:SetTargetPosition": [
-						0
-					]
-				},
-				{
-					"timestamp": 1.1,
-					"fuel_main_valve:SetTargetPosition": [
-						30
-					]
-				},
-				{
-					"timestamp": 1.7,
-					"fuel_main_valve:SetTargetPosition": [
-						45
-					],
-					"ox_pressure_control:SetTarget": [
-						30
-					]
-				},
-				{
-					"timestamp": 1.8,
-					"fuel_main_valve:SetTargetPosition": [
-						100
-					],
-					"igniter:SetState": [
 						0
 					],
 					"igniter_ecu_0:SetState": [
@@ -218,16 +239,17 @@
 					],
 					"igniter_ecu_1:SetState": [
 						0
-					],
-					"ox_pressure_control:SetSensorChannelID": [
-						3
-					],
-					"fuel_pressure_control:SetSensorChannelID": [
-						3
 					]
-				},
+				}
+			]
+		},
+		{
+			"timestamp": 10.8,
+			"name": "Close main valves",
+			"desc": "Close both main valves",
+			"actions": [
 				{
-					"timestamp": 10.8,
+					"timestamp": 0.0,
 					"ox_pressure_control:SetSensorChannelID": [
 						4
 					],
@@ -236,25 +258,25 @@
 					]
 				},
 				{
-					"timestamp": 10.9,
+					"timestamp": 0.1,
 					"fuel_main_valve:SetTargetPosition": [
 						100
 					]
 				},
 				{
-					"timestamp": 11.0,
+					"timestamp": 0.2,
 					"fuel_main_valve:SetTargetPosition": [
 						0
 					]
 				},
 				{
-					"timestamp": 11.5,
+					"timestamp": 0.7,
 					"ox_main_valve:SetTargetPosition": [
 						100
 					]
 				},
 				{
-					"timestamp": 11.6,
+					"timestamp": 0.8,
 					"ox_main_valve:SetTargetPosition": [
 						0
 					]
