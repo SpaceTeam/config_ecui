@@ -1,0 +1,77 @@
+{
+	"globals": {
+		"startTime": -15,
+		"endTime": 15,
+		"interpolation": {
+			"fuel_pressurize_solenoid:SetState": "none",
+			"fuel_pressure_control:SetSensorChannelID": "none",
+			"main_valve:SetState": "linear"
+		},
+		"interval": 0.01
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "testssequence",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"main_valve:SetState": [
+						0
+					]
+                },
+				{
+					"timestamp": 1.0,
+					"main_valve:SetState": [
+						100
+					]
+                },
+				{
+				"timestamp": 1.0,
+				"main_valve:SetState": [
+					0
+				]
+			}
+
+
+			]
+		},
+      
+		{
+			"timestamp": 0.0,
+			"name": "ColdFlow",
+			"desc": "open fuel main valve for 1s",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pressurize_solenoid:SetState": [
+						0
+					]
+				},
+                {
+					"timestamp": 0.1,
+                    "fuel_pressure_control:SetSensorChannelID": [
+						4
+					]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pressurize_solenoid:SetState": [
+						0
+                    ],
+                    "fuel_pressure_control:SetSensorChannelID": [
+						4
+					]
+				}
+			]
+		}
+	]
+}
