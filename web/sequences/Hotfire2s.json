@@ -261,22 +261,17 @@
 					"timestamp": 0.1,
 					"fuel_main_valve:SetTargetPosition": [
 						100
+					],
+					"ox_main_valve:SetTargetPosition": [
+						100
 					]
+
 				},
 				{
 					"timestamp": 0.2,
 					"fuel_main_valve:SetTargetPosition": [
 						0
-					]
-				},
-				{
-					"timestamp": 0.7,
-					"ox_main_valve:SetTargetPosition": [
-						100
-					]
-				},
-				{
-					"timestamp": 0.8,
+					],
 					"ox_main_valve:SetTargetPosition": [
 						0
 					]
