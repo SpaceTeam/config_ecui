@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "8327e663-75ab-4e67-9f5d-9f542b237d83")
+	(uuid "98106157-42a3-487c-a852-afa7a9d7e514")
 	(paper "A4")
 	(lib_symbols
 		(symbol "PnID-Lib:CheckValve"
@@ -165,16 +165,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Action_Reference" " "
+			(property "Description" " "
 				(at 0 0 0)
 				(effects
 					(font
@@ -374,7 +365,7 @@
 				)
 				(arc
 					(start 1.27 11.43)
-					(mid 0 12.6945)
+					(mid 0 12.7)
 					(end -1.27 11.43)
 					(stroke
 						(width 0)
@@ -715,6 +706,238 @@
 				)
 			)
 		)
+		(symbol "PnID-Lib:Sensor_Load"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Sensor_Load"
+				(at 6.35 0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "Sensor_Load"
+				(at 6.35 -0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Data_Content" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Sensor_Load_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "L"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "Sensor_Load_1_1"
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Sensor_Load_Short"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Sensor_Load_Short"
+				(at 6.35 0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "Sensor_Load_Short"
+				(at 6.35 -0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "kg"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Data_Content" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Sensor_Load_Short_0_0"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "L"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "Sensor_Load_Short_1_1"
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PnID-Lib:Sensor_Pressure"
 			(pin_numbers hide)
 			(pin_names
@@ -757,16 +980,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit" "bar"
+			(property "Description" "bar"
 				(at 0 0 0)
 				(effects
 					(font
@@ -888,16 +1102,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit" "˚C"
+			(property "Description" "˚C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1013,16 +1218,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit" "%"
+			(property "Description" "%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1218,16 +1414,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Action_Reference" " "
+			(property "Description" " "
 				(at 0 0 0)
 				(effects
 					(font
@@ -1535,16 +1722,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Action_Reference" " "
+			(property "Description" " "
 				(at 0 0 0)
 				(effects
 					(font
@@ -1697,16 +1875,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Action_Reference" " "
+			(property "Description" " "
 				(at 0 0 0)
 				(effects
 					(font
@@ -1846,16 +2015,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit" "%"
+			(property "Description" "%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2013,16 +2173,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit" "%"
+			(property "Description" "%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2180,16 +2331,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit" "%"
+			(property "Description" "%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2447,16 +2589,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit" "%"
+			(property "Description" "%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2543,892 +2676,662 @@
 		)
 	)
 	(junction
-		(at 135.382 71.374)
+		(at 65.786 37.084)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0ad1abe3-61e6-40c0-8bc4-d50069711542")
+		(uuid "07cb8f81-c6be-4cb5-bc9d-9ca682ccae12")
 	)
 	(junction
-		(at 90.932 162.814)
+		(at 132.842 154.686)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18801147-658a-466d-8700-6164cf6a3607")
+		(uuid "0bd92be8-efae-4d45-995c-e3e55da5a6ba")
 	)
 	(junction
-		(at 68.326 98.044)
+		(at 132.842 37.084)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2f5b7d21-cfd0-4ee3-92f8-0d9957127ccd")
+		(uuid "15f48203-6ff3-4110-b259-3193c479e57d")
 	)
 	(junction
-		(at 112.776 162.814)
+		(at 132.842 63.246)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c793f4a-ae4d-4126-84ca-e253ccdd8649")
+		(uuid "1ca7f761-5d62-4f80-b7fd-99270864715e")
 	)
 	(junction
-		(at 135.382 98.044)
+		(at 65.786 89.916)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4075f76c-5ccf-418d-9831-e156474dd310")
+		(uuid "64e669e5-c13b-42a8-a537-d14367dbf02b")
 	)
 	(junction
-		(at 135.382 162.814)
+		(at 65.786 63.246)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4c2dcc1c-334c-4225-b36e-aefa52fc2b99")
+		(uuid "a5984afd-d720-459c-833a-1cc0cbab8b21")
 	)
 	(junction
-		(at 135.382 83.82)
+		(at 104.14 154.686)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53a65250-8c8a-4d68-942c-97848f15ee79")
+		(uuid "a5f59422-37fa-451a-8e48-36ecc6d7a0ac")
 	)
 	(junction
-		(at 270.256 30.988)
+		(at 94.742 154.686)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a53b740-5fee-4944-99e7-15b30c78e45f")
+		(uuid "c3e1967b-db0b-4646-a353-e6e881ec3ccb")
 	)
 	(junction
-		(at 97.282 162.814)
+		(at 110.236 154.686)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5c13d9b9-b7b0-4495-ac45-661b7e2afe9a")
+		(uuid "c4be62eb-13bb-4761-bff6-dfbf4cefd977")
 	)
 	(junction
-		(at 68.326 162.814)
+		(at 65.786 75.692)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "667f0277-658b-4756-abd4-fb1d7c649dba")
+		(uuid "cc400796-3724-4e55-9c0a-90d44d8f47ee")
 	)
 	(junction
-		(at 258.572 30.988)
+		(at 132.842 75.692)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6769396d-d810-4b9f-bd2c-a7c7d8b4ff3d")
+		(uuid "d32e5c2e-c50f-4973-b537-82593188a6a0")
 	)
 	(junction
-		(at 135.382 45.212)
+		(at 65.786 154.686)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d26c880-bdc3-47f4-a709-32a340cb2d20")
+		(uuid "d5c737e2-4646-475f-ba0d-7c192d969de8")
 	)
 	(junction
-		(at 205.232 30.988)
+		(at 88.392 154.686)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "719c5dfd-6e6f-4234-ba4f-5b9313cb27e0")
+		(uuid "f9aa524a-bb59-4ec3-b449-a0bf51b70f1a")
 	)
 	(junction
-		(at 216.154 30.988)
+		(at 132.842 89.916)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "966c4f7b-44c0-46bc-b84a-599ae53176ea")
+		(uuid "fb273a6a-2285-4eb7-b633-538824de2ec7")
 	)
-	(junction
-		(at 188.976 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9693ed1b-0721-4b2c-a36e-9b0b1cf1ae92")
-	)
-	(junction
-		(at 68.326 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af9c5279-4070-464f-9f6a-92faaf9a8c7b")
-	)
-	(junction
-		(at 68.326 45.212)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2754661-7a23-4aa7-ada2-30cdb94b5cb8")
-	)
-	(junction
-		(at 106.68 162.814)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ded4f8c8-73fb-4619-bd2a-e15461d74453")
-	)
-	(junction
-		(at 68.326 71.374)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e71742ee-5583-49c4-824e-f3df277a96d9")
-	)
-	(wire
-		(pts
-			(xy 106.68 162.814) (xy 112.776 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03d3ed56-755f-41be-9459-cc590e5f4d44")
-	)
-	(wire
-		(pts
-			(xy 112.776 162.814) (xy 118.618 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08c39955-9510-460e-9fd3-0aaba8b6d630")
-	)
-	(wire
-		(pts
-			(xy 99.314 178.308) (xy 99.314 180.086)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14a08d3a-26d7-40cb-bd48-5ddc8b309fc9")
-	)
-	(wire
-		(pts
-			(xy 112.776 133.604) (xy 112.776 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15b2f722-0611-40e1-b756-5224bec64001")
-	)
-	(wire
-		(pts
-			(xy 140.462 30.988) (xy 146.05 30.988)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16e348cc-b1d9-45cd-8713-dd32f069b606")
-	)
-	(wire
-		(pts
-			(xy 90.932 133.604) (xy 90.932 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d290a0a-02fb-4485-b33a-84c7ed1703ae")
-	)
-	(wire
-		(pts
-			(xy 135.382 162.814) (xy 141.986 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f8948d9-4059-40ff-97be-4736bc9e79ec")
-	)
-	(wire
-		(pts
-			(xy 258.572 30.988) (xy 235.458 30.988)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22613d01-d6eb-4c72-9414-0d0a0ae19e9f")
-	)
-	(wire
-		(pts
-			(xy 106.68 178.308) (xy 104.394 178.308)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23e66919-55a7-466c-8149-3a77c27f01e9")
-	)
-	(wire
-		(pts
-			(xy 162.052 30.988) (xy 156.21 30.988)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "240e9e76-a27c-487f-b2b5-0231343dc408")
-	)
-	(wire
-		(pts
-			(xy 25.908 30.988) (xy 25.908 36.576)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24a80a71-5f18-41b5-9401-9a85ded24fbc")
-	)
-	(wire
-		(pts
-			(xy 97.282 178.308) (xy 97.282 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "261fbbdb-eb82-435b-9b05-5fb5d9d29546")
-	)
-	(wire
-		(pts
-			(xy 157.226 98.044) (xy 135.382 98.044)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28e4f6d7-e14e-4291-8e2b-4c7b8ed2051a")
-	)
-	(wire
-		(pts
-			(xy 258.572 30.988) (xy 270.256 30.988)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "297e894e-ace0-4123-9255-b52701fa0170")
-	)
-	(wire
-		(pts
-			(xy 68.326 83.82) (xy 68.326 98.044)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b77afee-f495-4967-8f6d-e4254be30e28")
-	)
-	(wire
-		(pts
-			(xy 90.932 162.814) (xy 97.282 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c51fe71-b5c9-49a8-bed4-d6b928386cc1")
-	)
 	(wire
 		(pts
-			(xy 216.154 30.988) (xy 225.298 30.988)
+			(xy 175.26 41.402) (xy 175.26 38.608)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3721323b-a378-4d47-b752-cc19eb56f911")
+		(uuid "0123461e-3150-41c8-81da-9f7787e0d97c")
 	)
 	(wire
 		(pts
-			(xy 47.498 30.988) (xy 41.656 30.988)
+			(xy 132.842 53.34) (xy 132.842 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "392d979c-1e4f-41e9-b43b-a8deeee981a1")
+		(uuid "063ce056-79eb-4baf-b18b-ca02374176f5")
 	)
 	(wire
 		(pts
-			(xy 68.326 162.814) (xy 74.422 162.814)
+			(xy 132.842 37.084) (xy 132.842 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a157a1a-2f67-49c2-bc01-27b366e35fa0")
+		(uuid "091e38ba-ab5f-4627-8456-cdfc6a76d911")
 	)
 	(wire
 		(pts
-			(xy 112.776 128.524) (xy 112.776 124.714)
+			(xy 44.196 75.692) (xy 65.786 75.692)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41b61cfd-0c67-486c-9f6f-ef2c7494e041")
+		(uuid "11ab5c4c-011e-4b59-bfab-927aaf8845a0")
 	)
 	(wire
 		(pts
-			(xy 68.326 98.044) (xy 68.326 117.094)
+			(xy 175.26 22.86) (xy 175.26 28.448)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44752335-fea7-4adc-845c-8e16aabf467d")
+		(uuid "12012282-ffab-4a99-9eed-4bb52bfa10de")
 	)
 	(wire
 		(pts
-			(xy 106.68 176.53) (xy 106.68 178.308)
+			(xy 132.842 27.94) (xy 132.842 37.084)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44bfcef7-255e-4dda-8a71-e0da6f74c377")
+		(uuid "134d03a8-f3a3-4880-976e-43be93c5c9bd")
 	)
 	(wire
 		(pts
-			(xy 135.382 45.212) (xy 135.382 51.308)
+			(xy 104.14 170.18) (xy 101.854 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46a78fec-c7ba-47e0-940f-08d474f7aa94")
+		(uuid "1353f3b4-204e-46eb-917a-358121f73e70")
 	)
 	(wire
 		(pts
-			(xy 205.232 30.988) (xy 216.154 30.988)
+			(xy 60.706 22.86) (xy 55.118 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a322368-32c7-42f3-8b8a-2d5dd0961143")
+		(uuid "162b48e3-88cb-49d2-917a-0568ec9663cf")
 	)
 	(wire
-		(pts
-			(xy 25.908 49.53) (xy 25.908 46.736)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4efad35c-34b5-4690-a7cb-3ea772047db4")
-	)
-	(polyline
 		(pts
-			(xy 246.634 17.018) (xy 257.048 17.018)
+			(xy 43.942 89.916) (xy 65.786 89.916)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "527b13fd-112b-4028-83b7-b06328171dc4")
+		(uuid "162c5a16-d3b4-4994-9853-7cdaf0761a11")
 	)
 	(wire
 		(pts
-			(xy 46.482 98.044) (xy 68.326 98.044)
+			(xy 154.686 89.916) (xy 132.842 89.916)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ca43b07-328c-4c89-be71-f9040cc65ea7")
+		(uuid "18b258ca-b6d1-4d58-b27e-e98d89815573")
 	)
 	(wire
 		(pts
-			(xy 135.382 71.374) (xy 135.382 69.088)
+			(xy 104.14 154.686) (xy 104.14 158.242)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ccbc7cf-aa42-4b0c-bf8c-0e516261dd51")
+		(uuid "1dcafb8b-9278-46b9-8db9-ec066ebdae4d")
 	)
 	(wire
 		(pts
-			(xy 106.68 162.814) (xy 106.68 156.21)
+			(xy 137.922 22.86) (xy 143.51 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5eed91aa-e3ae-4886-a187-28a6ea167233")
+		(uuid "20a45b7c-43ec-45be-9fc8-a70e249762e9")
 	)
 	(wire
 		(pts
-			(xy 68.326 45.212) (xy 90.932 45.212)
+			(xy 132.842 63.246) (xy 132.842 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67c06099-8ab3-497d-a7ae-f4cdd772288a")
+		(uuid "253d5438-ca54-4c97-9f3b-c8e38353cbff")
 	)
 	(wire
 		(pts
-			(xy 112.776 45.212) (xy 112.776 114.554)
+			(xy 132.842 134.366) (xy 132.842 154.686)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "698a22f1-9174-4b2a-809a-0e0bcf8fc497")
+		(uuid "282e9b13-841b-4f03-bd93-94eb90062934")
 	)
 	(wire
 		(pts
-			(xy 97.282 178.308) (xy 99.314 178.308)
+			(xy 23.368 22.86) (xy 23.368 28.448)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a963303-5db3-4dff-b732-e78a7ab557f9")
+		(uuid "2a1fc052-cf02-43eb-b441-478a8d8313ba")
 	)
 	(wire
 		(pts
-			(xy 135.382 98.044) (xy 135.382 83.82)
+			(xy 132.842 89.916) (xy 132.842 108.966)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b15ddc8-c679-4bb0-a961-803c917f8a0c")
+		(uuid "2ceef3f2-bc64-4c88-a0b6-b269119b7a12")
 	)
 	(wire
 		(pts
-			(xy 216.154 30.988) (xy 216.154 40.894)
+			(xy 65.786 53.34) (xy 65.786 63.246)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b601b04-4509-485a-863d-f2ef1a9deef6")
+		(uuid "2e5a8182-dfc5-4cb7-8ac0-f2d75765f4d0")
 	)
 	(wire
 		(pts
-			(xy 84.582 162.814) (xy 90.932 162.814)
+			(xy 104.14 154.686) (xy 110.236 154.686)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6eaca019-acba-49b5-9eff-bb562cda2b2a")
+		(uuid "3160d09a-da64-42e3-977b-6e71de55c3b1")
 	)
 	(wire
 		(pts
-			(xy 62.23 162.814) (xy 68.326 162.814)
+			(xy 94.742 154.686) (xy 94.742 148.082)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6fe678cc-994d-4919-9bc4-89ed5c346aee")
+		(uuid "3b41762a-97f7-4dea-aaf4-7de9f3bdac2d")
 	)
 	(wire
 		(pts
-			(xy 31.496 30.988) (xy 25.908 30.988)
+			(xy 28.956 22.86) (xy 23.368 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78eb9532-aed4-4ff9-9deb-38fe11496e25")
+		(uuid "419ff53e-bbbd-4176-9903-b1132a6a9713")
 	)
 	(wire
 		(pts
-			(xy 112.776 45.212) (xy 135.382 45.212)
+			(xy 132.842 154.686) (xy 154.686 154.686)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79a79908-1b5a-4bd5-81c6-61c394a3659e")
+		(uuid "442f4e19-8197-46ab-918e-94ddea10f914")
 	)
-	(polyline
-		(pts
-			(xy 246.634 14.478) (xy 246.634 17.018)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d09f053-48b2-41ab-8e2f-2a17169628b6")
-	)
 	(wire
 		(pts
-			(xy 242.062 129.54) (xy 235.458 129.54)
+			(xy 65.786 134.366) (xy 65.786 154.686)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80b6a495-3191-4b73-a9e5-1b2f88d7bab7")
+		(uuid "456e78b2-6352-46e7-bb20-fc48c051f6b4")
 	)
 	(wire
 		(pts
-			(xy 68.326 142.494) (xy 68.326 162.814)
+			(xy 65.786 27.94) (xy 65.786 37.084)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8225ee3e-debe-4bb2-a5b2-79f0bc5ac63e")
+		(uuid "4bae6572-2992-4302-8942-bbb166c0f5d3")
 	)
 	(wire
 		(pts
-			(xy 104.394 178.308) (xy 104.394 180.086)
+			(xy 65.786 37.084) (xy 88.392 37.084)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "834c6472-e171-4ec0-abc8-59c1fd0618fb")
+		(uuid "4d43cd10-f9f0-4d03-a59a-0a86339552f4")
 	)
 	(wire
 		(pts
-			(xy 143.764 71.374) (xy 135.382 71.374)
+			(xy 65.786 75.692) (xy 65.786 89.916)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "881f8dc3-8cca-4bfc-a4d1-bce7377efddd")
+		(uuid "4d6798ea-63e6-4365-80bb-05758b42879a")
 	)
 	(wire
 		(pts
-			(xy 135.382 36.068) (xy 135.382 45.212)
+			(xy 104.14 154.686) (xy 104.14 148.082)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88e78048-8ecb-43df-bd5c-360427f0841f")
+		(uuid "4f905aa6-dfb8-42b2-88f1-91983823261b")
 	)
 	(wire
 		(pts
-			(xy 90.932 45.212) (xy 90.932 114.554)
+			(xy 57.404 63.246) (xy 65.786 63.246)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d0f9449-9432-403e-8e56-041045c7888a")
+		(uuid "54e3da6f-587a-4825-8c08-98088ba2b923")
 	)
 	(wire
 		(pts
-			(xy 59.944 71.374) (xy 68.326 71.374)
+			(xy 65.786 63.246) (xy 65.786 75.692)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90eae9ad-f09e-4816-94af-db265362ac16")
+		(uuid "579f29e0-95e7-40ca-8003-a4b0947e3be1")
 	)
 	(wire
 		(pts
-			(xy 197.612 30.988) (xy 205.232 30.988)
+			(xy 44.958 22.86) (xy 39.116 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94992907-99a6-4e7e-a399-d5033fdaef52")
+		(uuid "591fb8aa-5f87-44a5-bc79-f9dafdabe259")
 	)
 	(wire
 		(pts
-			(xy 135.382 61.468) (xy 135.382 64.008)
+			(xy 94.742 158.242) (xy 94.742 154.686)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94d1327d-118b-47cc-88da-c08d6cf2c8a1")
+		(uuid "6601f894-baec-4b78-bc31-147c9f12caf6")
 	)
 	(wire
 		(pts
-			(xy 106.68 162.814) (xy 106.68 166.37)
+			(xy 110.236 125.476) (xy 110.236 154.686)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0bde980-c6f1-46bf-a873-db47c5271004")
+		(uuid "6e3b71b2-7d8e-4691-9e9a-d66daf835dcb")
 	)
 	(wire
 		(pts
-			(xy 270.256 30.988) (xy 270.256 30.734)
+			(xy 65.786 89.916) (xy 65.786 108.966)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a253fa79-516f-4764-936d-51011c6027bf")
+		(uuid "725e0cb4-a85d-406d-acaa-65a422f2a431")
 	)
 	(wire
 		(pts
-			(xy 90.932 124.714) (xy 90.932 128.524)
+			(xy 132.842 75.692) (xy 132.842 63.246)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2b1dbc3-0a5d-43af-a347-0f7570678e43")
+		(uuid "77a71872-5234-4056-a9d2-d3521a3a831a")
 	)
 	(wire
 		(pts
-			(xy 97.282 166.37) (xy 97.282 162.814)
+			(xy 104.14 168.402) (xy 104.14 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a83c4d3d-7aeb-4437-bf6a-dc4fe462d114")
+		(uuid "917a496f-85e7-4eee-8d89-d9ac611a4cd2")
 	)
 	(wire
 		(pts
-			(xy 156.972 83.82) (xy 135.382 83.82)
+			(xy 94.742 170.18) (xy 94.742 168.402)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afd98348-35be-470d-bc9d-1e292e69c231")
+		(uuid "925d1404-9da6-40d0-a108-70346c57a831")
 	)
 	(wire
 		(pts
-			(xy 63.246 30.988) (xy 57.658 30.988)
+			(xy 126.238 154.686) (xy 132.842 154.686)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4336c24-df89-4bb1-9b08-6bdbfdfef21b")
+		(uuid "a08f4140-a74d-4d3d-96b3-df5a7ef51e60")
 	)
 	(wire
 		(pts
-			(xy 68.326 61.468) (xy 68.326 71.374)
+			(xy 154.432 75.692) (xy 132.842 75.692)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8c1df49-903f-4d85-8fba-d3f0d46fc21c")
+		(uuid "a548f840-0b5e-4f6c-befa-57d958069a2f")
 	)
 	(wire
 		(pts
-			(xy 258.572 30.988) (xy 258.572 129.54)
+			(xy 132.842 89.916) (xy 132.842 75.692)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc96cc82-29b7-4d0c-bc51-b0cb3eb9a3d2")
+		(uuid "abb13db2-b44c-4021-9304-9e7886de05af")
 	)
 	(wire
 		(pts
-			(xy 46.736 83.82) (xy 68.326 83.82)
+			(xy 96.774 170.18) (xy 96.774 171.958)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8ccf579-3fdc-4d2f-a751-dd5a178000a8")
+		(uuid "af02d742-b2dc-4752-a98c-aa48b05323b3")
 	)
 	(wire
 		(pts
-			(xy 197.612 52.07) (xy 205.232 52.07)
+			(xy 110.236 37.084) (xy 132.842 37.084)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9bfd3f5-16c9-46e7-a51d-9e108b370e07")
+		(uuid "b0d8ffaa-c431-44a3-90e0-f62afd4ea35e")
 	)
 	(wire
 		(pts
-			(xy 68.326 71.374) (xy 68.326 83.82)
+			(xy 88.392 154.686) (xy 94.742 154.686)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb5a27bb-3e02-4c12-8c3b-c94fb544bd8d")
+		(uuid "b8125ff4-d30e-4473-ba97-9686eec7d253")
 	)
 	(wire
 		(pts
-			(xy 68.326 45.212) (xy 68.326 51.308)
+			(xy 65.786 154.686) (xy 71.882 154.686)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce4c1e5b-269c-4291-aa5e-afd7363c6cfc")
+		(uuid "bd2261c9-439d-402d-a08c-f1731a38ab49")
 	)
 	(wire
 		(pts
-			(xy 188.976 162.814) (xy 188.976 159.766)
+			(xy 169.672 22.86) (xy 175.26 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2eb17d9-28cb-40d0-8764-dd8367f697e1")
+		(uuid "c1c4d962-3ea7-4e5b-bd70-853b2ff02cd0")
 	)
 	(wire
 		(pts
-			(xy 97.282 162.814) (xy 97.282 156.21)
+			(xy 88.392 116.586) (xy 88.392 120.396)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4fa0cd6-ba5f-4cd5-b597-f895a41b7712")
+		(uuid "c4796e3a-f792-45f5-9144-2c643d76ba4a")
 	)
 	(wire
-		(pts
-			(xy 177.546 162.814) (xy 188.976 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d588a421-2591-4f90-b868-094b57161d6d")
-	)
-	(polyline
 		(pts
-			(xy 257.048 17.018) (xy 257.048 14.478)
+			(xy 110.236 154.686) (xy 116.078 154.686)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d81df6e3-8e2b-4d9d-ba19-2855984d87d5")
+		(uuid "c6db0878-546a-4aaa-a161-72356a3f7b96")
 	)
 	(wire
 		(pts
-			(xy 270.256 49.53) (xy 270.256 46.736)
+			(xy 88.392 125.476) (xy 88.392 154.686)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8c28303-215e-40fe-bd4e-a8a83319c0b3")
+		(uuid "c9001a76-b2db-4e10-a1d1-1e384cf70ce2")
 	)
 	(wire
 		(pts
-			(xy 270.256 30.988) (xy 270.256 36.576)
+			(xy 101.854 170.18) (xy 101.854 171.958)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da219cd7-4f0a-40a9-8c45-6fbd5da07047")
+		(uuid "d35114c2-bc3a-4806-a67b-64993d54dc1f")
 	)
 	(wire
 		(pts
-			(xy 205.232 30.988) (xy 205.232 52.07)
+			(xy 82.042 154.686) (xy 88.392 154.686)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de6666fb-95ba-44b9-abd6-3423150337f0")
+		(uuid "e7b11c72-6c71-4f45-ad8e-34ab5a84d865")
 	)
 	(wire
 		(pts
-			(xy 135.382 83.82) (xy 135.382 71.374)
+			(xy 141.224 63.246) (xy 132.842 63.246)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1a86341-8da3-4ed1-b53d-b2fb20853bc1")
+		(uuid "ea207422-034b-428e-b6a0-1814cd1d5c59")
 	)
 	(wire
 		(pts
-			(xy 128.778 162.814) (xy 135.382 162.814)
+			(xy 88.392 37.084) (xy 88.392 106.426)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e39440ca-9725-4ea0-9c1c-7397802ed2f1")
+		(uuid "ea42b456-2c74-4231-a0bc-ca4cf3dba85e")
 	)
 	(wire
 		(pts
-			(xy 135.382 142.494) (xy 135.382 162.814)
+			(xy 43.942 154.686) (xy 65.786 154.686)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e39a8da5-1b9b-446c-af2d-3a3df48ae40d")
+		(uuid "ee3194cd-1b79-4630-8916-5c81036e5724")
 	)
 	(wire
-		(pts
-			(xy 68.326 36.068) (xy 68.326 45.212)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eff8e808-9c18-428a-a5bc-7c1ea666703a")
-	)
-	(polyline
 		(pts
-			(xy 257.048 14.478) (xy 246.38 14.478)
+			(xy 65.786 37.084) (xy 65.786 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f31dc7ae-5c59-4448-95da-1410648e3489")
+		(uuid "f0598fc4-158b-47cc-9e65-553f8d30e4a0")
 	)
 	(wire
 		(pts
-			(xy 135.382 98.044) (xy 135.382 117.094)
+			(xy 23.368 41.402) (xy 23.368 38.608)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6be1831-249d-4ccb-b9ad-da1e111a8ce8")
+		(uuid "f5fdc462-6e73-4f4d-8c7d-b5b22fe50bfc")
 	)
 	(wire
 		(pts
-			(xy 188.976 129.54) (xy 188.976 134.366)
+			(xy 110.236 37.084) (xy 110.236 106.426)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7a1fd0d-3b7e-4d13-9bda-04c546efae13")
+		(uuid "f6619901-1b0d-4748-b605-26df6d1c6c96")
 	)
 	(wire
 		(pts
-			(xy 258.572 129.54) (xy 252.222 129.54)
+			(xy 94.742 170.18) (xy 96.774 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f85985d0-2bd8-4da5-9675-bd490664534b")
+		(uuid "f7aea209-6c89-4184-af9d-491793e6da0f")
 	)
 	(wire
 		(pts
-			(xy 216.154 122.682) (xy 216.154 138.43)
+			(xy 110.236 120.396) (xy 110.236 116.586)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8f002f7-acc2-4828-afc8-4a2170fa1a9e")
+		(uuid "f8c3c76b-762d-4cb0-aa71-2cac6cac9a4c")
 	)
 	(wire
 		(pts
-			(xy 188.976 129.54) (xy 225.298 129.54)
+			(xy 159.512 22.86) (xy 153.67 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa421d94-6d66-473c-905c-591b4f03c0db")
+		(uuid "fab38bb1-62ff-4634-aeb5-ccf8acb44f4a")
 	)
 	(symbol
 		(lib_id "PnID-Lib:GasBottle")
-		(at 25.908 62.23 0)
+		(at 23.368 54.102 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3436,7 +3339,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dc1d7a")
 		(property "Reference" "N2"
-			(at 25.908 62.23 0)
+			(at 23.368 54.102 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3444,7 +3347,7 @@
 			)
 		)
 		(property "Value" "N2"
-			(at 25.908 64.77 0)
+			(at 23.368 56.642 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3453,7 +3356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.654 64.008 0)
+			(at 23.114 55.88 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3462,7 +3365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.654 64.008 0)
+			(at 23.114 55.88 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3471,7 +3374,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.908 62.23 0)
+			(at 23.368 54.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,11 +3383,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "81eb4a84-41c4-4a5a-b923-8c7add87ce16")
+			(uuid "98e20847-a5d8-4ed9-a7dd-7f05d361b74c")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "N2")
 					(unit 1)
 				)
@@ -3493,7 +3396,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Pressure")
-		(at 143.002 45.212 0)
+		(at 140.462 37.084 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3501,7 +3404,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dc3a91")
 		(property "Reference" "ox_pressurant_pressure:sensor"
-			(at 146.2532 43.5102 0)
+			(at 143.7132 35.3822 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3511,7 +3414,7 @@
 			)
 		)
 		(property "Value" "ox_pressurant_pressure:sensor"
-			(at 148.082 45.212 0)
+			(at 145.542 37.084 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3520,7 +3423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.002 45.212 0)
+			(at 140.462 37.084 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3529,7 +3432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.002 45.212 0)
+			(at 140.462 37.084 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3538,7 +3441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.002 45.212 0)
+			(at 140.462 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +3450,7 @@
 			)
 		)
 		(property "Unit" "bar"
-			(at 143.002 45.212 0)
+			(at 140.462 37.084 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3556,7 +3459,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 143.002 45.212 0)
+			(at 140.462 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3468,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 146.2532 46.3042 0)
+			(at 143.7132 38.1762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3575,11 +3478,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "4fa19a1d-11cb-40f4-9e02-f87b7c90ada4")
+			(uuid "305271ea-9f52-4fd1-80f2-3882363adbda")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "ox_pressurant_pressure:sensor")
 					(unit 1)
 				)
@@ -3588,7 +3491,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Pressure")
-		(at 60.706 45.212 180)
+		(at 58.166 37.084 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3596,7 +3499,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dc4050")
 		(property "Reference" "fuel_pressurant_pressure"
-			(at 63.4492 38.0238 0)
+			(at 60.9092 29.8958 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3605,7 +3508,7 @@
 			)
 		)
 		(property "Value" "fuel_pressurant_pressure:sensor"
-			(at 47.244 45.212 0)
+			(at 52.832 37.084 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3614,7 +3517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.706 45.212 0)
+			(at 58.166 37.084 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3623,7 +3526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.706 45.212 0)
+			(at 58.166 37.084 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3632,7 +3535,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.706 45.212 0)
+			(at 58.166 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,7 +3544,7 @@
 			)
 		)
 		(property "Unit" "bar"
-			(at 60.706 45.212 0)
+			(at 58.166 37.084 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3650,7 +3553,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 60.706 45.212 0)
+			(at 58.166 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,7 +3562,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 63.4492 40.8178 0)
+			(at 60.9092 32.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,11 +3571,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "f0032d53-129d-4479-ae08-38c717a34221")
+			(uuid "b34e4225-bce2-4b55-962a-07fb09920a05")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_pressurant_pressure")
 					(unit 1)
 				)
@@ -3682,7 +3585,7 @@
 	(symbol
 		(lib_name "PnID-Lib:Valve_Solenoid_NC")
 		(lib_id "PnID-Lib:Valve_Solenoid_NC")
-		(at 135.382 56.388 90)
+		(at 132.842 48.26 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3691,7 +3594,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dc50a1")
 		(property "Reference" "ox_pressurize_solenoid"
-			(at 125.7808 56.9468 90)
+			(at 123.2408 48.8188 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3701,7 +3604,7 @@
 			)
 		)
 		(property "Value" "ox_pressurize_solenoid:sensor"
-			(at 124.968 56.388 90)
+			(at 121.412 48.26 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3710,7 +3613,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.382 56.388 0)
+			(at 132.842 48.26 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3719,7 +3622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.382 56.388 0)
+			(at 132.842 48.26 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3728,7 +3631,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.382 56.388 0)
+			(at 132.842 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3737,7 +3640,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 135.382 56.388 0)
+			(at 132.842 48.26 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3746,7 +3649,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 135.382 56.388 0)
+			(at 132.842 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,14 +3658,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "817f9bdb-110c-4ca7-8524-226810abea38")
+			(uuid "41a70244-46b5-4703-86d6-2ffb4009c3a0")
 		)
 		(pin "~"
-			(uuid "e4f96837-c1a5-4fb7-8d01-7de6cdb6ee65")
+			(uuid "eb94ffa1-ed8d-47bb-a86d-82dc0fe254d2")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "ox_pressurize_solenoid")
 					(unit 1)
 				)
@@ -3772,7 +3675,8 @@
 	(symbol
 		(lib_name "PnID-Lib:Valve_Solenoid_NC")
 		(lib_id "PnID-Lib:Valve_Solenoid_NC")
-		(at 68.326 56.388 270)
+		(at 65.786 48.26 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3780,7 +3684,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dc5b3c")
 		(property "Reference" "fuel_pressurize_solenoid"
-			(at 77.9272 56.9468 90)
+			(at 75.3872 47.7012 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3790,7 +3694,7 @@
 			)
 		)
 		(property "Value" "fuel_pressurize_solenoid:sensor"
-			(at 78.74 56.388 90)
+			(at 77.47 48.26 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3799,7 +3703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.326 56.388 0)
+			(at 65.786 48.26 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3808,7 +3712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.326 56.388 0)
+			(at 65.786 48.26 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3817,7 +3721,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.326 56.388 0)
+			(at 65.786 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +3730,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 68.326 56.388 0)
+			(at 65.786 48.26 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3835,7 +3739,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 68.326 56.388 0)
+			(at 65.786 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,14 +3748,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "c9b6e54a-f3a6-4fb1-ad41-a3c047843c34")
+			(uuid "8cc0cbb8-79e4-4268-9553-6a60e47f2a17")
 		)
 		(pin "~"
-			(uuid "c245d786-54e3-4906-b722-a26528b7e4f8")
+			(uuid "d7e9aa4a-6c3b-4495-afae-b197fc888832")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_pressurize_solenoid")
 					(unit 1)
 				)
@@ -3859,8 +3763,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Solenoid_NC")
 		(lib_id "PnID-Lib:Valve_Solenoid_NC")
-		(at 112.776 119.634 90)
+		(at 110.236 111.506 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3868,7 +3773,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dc5fe4")
 		(property "Reference" "ox_purge_solenoid"
-			(at 117.2972 119.0752 90)
+			(at 114.7572 110.9472 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3878,7 +3783,7 @@
 			)
 		)
 		(property "Value" "ox_purge_solenoid:sensor"
-			(at 117.602 119.888 90)
+			(at 115.062 111.76 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3887,7 +3792,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 112.776 119.634 0)
+			(at 110.236 111.506 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3896,7 +3801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 112.776 119.634 0)
+			(at 110.236 111.506 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3905,7 +3810,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 112.776 119.634 0)
+			(at 110.236 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,7 +3819,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 112.776 119.634 0)
+			(at 110.236 111.506 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3923,7 +3828,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 112.776 119.634 0)
+			(at 110.236 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,14 +3837,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "c244c8fc-33cc-4444-bf93-3c93031b6723")
+			(uuid "254326da-80ed-4e45-9b59-accbb3c8b643")
 		)
 		(pin "~"
-			(uuid "900a585c-fca4-4a00-bc39-572f91d4f1e7")
+			(uuid "546f5f76-0209-48cb-9d68-dc59d0f18641")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "ox_purge_solenoid")
 					(unit 1)
 				)
@@ -3947,8 +3852,10 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Solenoid_NC")
 		(lib_id "PnID-Lib:Valve_Solenoid_NC")
-		(at 90.932 119.634 270)
+		(at 88.392 111.506 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3956,7 +3863,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dc62ca")
 		(property "Reference" "fuel_purge_solenoid"
-			(at 100.5332 120.1928 90)
+			(at 97.9932 110.9472 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3966,7 +3873,7 @@
 			)
 		)
 		(property "Value" "fuel_purge_solenoid:sensor"
-			(at 85.598 119.634 90)
+			(at 83.058 111.506 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3975,7 +3882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.932 119.634 0)
+			(at 88.392 111.506 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3984,7 +3891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.932 119.634 0)
+			(at 88.392 111.506 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3993,7 +3900,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.932 119.634 0)
+			(at 88.392 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,7 +3909,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 90.932 119.634 0)
+			(at 88.392 111.506 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4011,7 +3918,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 90.932 119.634 0)
+			(at 88.392 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,14 +3927,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "4d50b380-61bc-495c-900a-bda7d09d1ae2")
+			(uuid "30140c1b-8978-4406-8566-859716b1d09c")
 		)
 		(pin "~"
-			(uuid "3826c97d-fc23-4e37-8831-8de65ec86b52")
+			(uuid "23353f3e-a6f1-480d-b101-69b36d771728")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_purge_solenoid")
 					(unit 1)
 				)
@@ -4035,8 +3942,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:CheckValve")
 		(lib_id "PnID-Lib:CheckValve")
-		(at 135.382 66.548 270)
+		(at 132.842 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4044,7 +3952,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dc6bda")
 		(property "Reference" "CheckValve?"
-			(at 138.6332 66.548 90)
+			(at 136.0932 58.42 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4054,7 +3962,7 @@
 			)
 		)
 		(property "Value" "CheckValve"
-			(at 131.064 66.548 0)
+			(at 128.524 58.42 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4063,7 +3971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.382 66.548 0)
+			(at 132.842 58.42 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4072,7 +3980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.382 66.548 0)
+			(at 132.842 58.42 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4081,7 +3989,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.382 66.548 0)
+			(at 132.842 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,14 +3998,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "a0336781-bf7c-401a-b97b-1bc8a8a16049")
+			(uuid "7cd5ad27-13c3-4480-874e-5be7795b5ab3")
 		)
 		(pin "~"
-			(uuid "f7f1c7dd-cc4a-4ddc-b491-719cb9bf368c")
+			(uuid "ee3a9808-2904-4826-ab41-8b94a1074aeb")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "CheckValve?")
 					(unit 1)
 				)
@@ -4105,8 +4013,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
-		(at 135.382 129.794 0)
+		(at 132.842 121.666 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4114,7 +4023,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dc9eac")
 		(property "Reference" "LOX"
-			(at 135.382 129.794 0)
+			(at 132.842 121.666 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4122,7 +4031,7 @@
 			)
 		)
 		(property "Value" "lox_tank"
-			(at 142.4432 130.3274 0)
+			(at 139.9032 122.1994 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4132,7 +4041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.382 129.794 0)
+			(at 132.842 121.666 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4141,7 +4050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.382 129.794 0)
+			(at 132.842 121.666 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4150,7 +4059,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.382 129.794 0)
+			(at 132.842 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,7 +4068,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 135.382 129.794 0)
+			(at 132.842 121.666 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4168,7 +4077,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 135.382 129.794 0)
+			(at 132.842 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,7 +4086,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 135.382 129.794 0)
+			(at 132.842 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,14 +4095,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "94ee3aed-ea59-4c9e-8039-b69148cb7b27")
+			(uuid "2d48e25c-867d-4849-bdc0-587d4ba9b22f")
 		)
 		(pin "~"
-			(uuid "62d6e61f-286a-44a6-b884-b9985c2f24b8")
+			(uuid "562e921a-547a-4101-9bdc-0c29598c249b")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "LOX")
 					(unit 1)
 				)
@@ -4201,8 +4110,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
-		(at 68.326 129.794 0)
+		(at 65.786 121.666 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4210,7 +4120,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dcaa9f")
 		(property "Reference" "Fuel"
-			(at 68.326 129.794 0)
+			(at 65.786 121.666 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4218,7 +4128,7 @@
 			)
 		)
 		(property "Value" "fuel_tank"
-			(at 75.3872 130.3274 0)
+			(at 72.8472 122.1994 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4228,7 +4138,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.326 129.794 0)
+			(at 65.786 121.666 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4237,7 +4147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.326 129.794 0)
+			(at 65.786 121.666 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4246,7 +4156,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.326 129.794 0)
+			(at 65.786 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +4165,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 68.326 129.794 0)
+			(at 65.786 121.666 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4264,7 +4174,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 68.326 129.794 0)
+			(at 65.786 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +4183,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 68.326 129.794 0)
+			(at 65.786 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,14 +4192,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "3bf68270-b5fc-48bb-8c81-15fee98b5618")
+			(uuid "6a6cab79-a4b5-4b08-be58-a9c416cc2217")
 		)
 		(pin "~"
-			(uuid "b6632247-4440-4b41-af25-f56f8f77f6cf")
+			(uuid "7e43efe4-d841-4fea-b005-0cbd2fed01a0")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "Fuel")
 					(unit 1)
 				)
@@ -4297,8 +4207,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Engine")
 		(lib_id "PnID-Lib:Engine")
-		(at 101.854 182.626 0)
+		(at 99.314 174.498 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4306,7 +4217,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dcb6d8")
 		(property "Reference" "engine"
-			(at 101.854 194.0306 0)
+			(at 99.314 185.9026 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4315,7 +4226,7 @@
 			)
 		)
 		(property "Value" "engine"
-			(at 101.854 195.072 0)
+			(at 99.314 186.944 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4324,7 +4235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.854 182.626 0)
+			(at 99.314 174.498 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4333,7 +4244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.854 182.626 0)
+			(at 99.314 174.498 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4342,7 +4253,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.854 182.626 0)
+			(at 99.314 174.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +4262,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 101.854 182.626 0)
+			(at 99.314 174.498 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4360,20 +4271,20 @@
 			)
 		)
 		(pin "~"
-			(uuid "ec7f9781-a086-456b-b90c-d2060fc8b7d1")
+			(uuid "390303bd-2eba-4bb3-9355-7773236a4e8f")
 		)
 		(pin "~"
-			(uuid "21ea3ecb-7430-45ff-bced-4c65fd73d2c8")
+			(uuid "a030aa48-27dc-4ff3-9448-be78720b8568")
 		)
 		(pin "~"
-			(uuid "477f8dd7-3305-4fb9-a7c2-b186882a82fd")
+			(uuid "e4e0ce67-94cf-427c-8993-fa6cc1360ec4")
 		)
 		(pin "~"
-			(uuid "1b4c0151-925b-4adb-9d0a-36211eebca30")
+			(uuid "6116a130-cc71-4cca-a716-293e087f5652")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "engine")
 					(unit 1)
 				)
@@ -4381,8 +4292,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:CheckValve")
 		(lib_id "PnID-Lib:CheckValve")
-		(at 90.932 131.064 270)
+		(at 88.392 122.936 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4390,7 +4302,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dcd310")
 		(property "Reference" "CheckValve?"
-			(at 94.1832 131.064 90)
+			(at 91.6432 122.936 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4400,7 +4312,7 @@
 			)
 		)
 		(property "Value" "CheckValve"
-			(at 86.614 131.064 0)
+			(at 84.074 122.936 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4409,7 +4321,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.932 131.064 0)
+			(at 88.392 122.936 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4418,7 +4330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.932 131.064 0)
+			(at 88.392 122.936 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4427,7 +4339,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.932 131.064 0)
+			(at 88.392 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,14 +4348,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "f5c3a8fd-efab-4400-9d6e-bcc57ac34fe4")
+			(uuid "40236287-3170-451f-b689-373df3444e9a")
 		)
 		(pin "~"
-			(uuid "6c28a497-4565-43c2-9b65-623c6b3f85b3")
+			(uuid "4122a89c-ec92-40c2-815a-1aa75857ae92")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "CheckValve?")
 					(unit 1)
 				)
@@ -4451,8 +4363,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:CheckValve")
 		(lib_id "PnID-Lib:CheckValve")
-		(at 112.776 131.064 270)
+		(at 110.236 122.936 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4460,7 +4373,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dcd833")
 		(property "Reference" "CheckValve?"
-			(at 116.0272 131.064 90)
+			(at 113.4872 122.936 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4470,7 +4383,7 @@
 			)
 		)
 		(property "Value" "CheckValve"
-			(at 108.458 131.064 0)
+			(at 105.918 122.936 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4479,7 +4392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 112.776 131.064 0)
+			(at 110.236 122.936 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4488,7 +4401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 112.776 131.064 0)
+			(at 110.236 122.936 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4497,7 +4410,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 112.776 131.064 0)
+			(at 110.236 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,14 +4419,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "561ed508-604f-45bc-bbc2-93166a2238e3")
+			(uuid "8ce6754c-3b50-4bb5-8cac-30b18b613528")
 		)
 		(pin "~"
-			(uuid "811f31a0-5e09-4c6a-804a-df4b1d12a86f")
+			(uuid "60adfd1f-e8f7-4c43-aa66-7617f9c23b5f")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "CheckValve?")
 					(unit 1)
 				)
@@ -4522,7 +4435,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Pressure")
-		(at 97.282 148.59 90)
+		(at 94.742 140.462 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4530,7 +4443,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dcdb31")
 		(property "Reference" "fuel_venturi_pressure"
-			(at 100.5332 149.6314 90)
+			(at 97.9932 141.5034 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4540,7 +4453,7 @@
 			)
 		)
 		(property "Value" "fuel_venturi_pressure:sensor"
-			(at 97.282 143.764 90)
+			(at 94.742 135.636 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4548,7 +4461,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.282 148.59 0)
+			(at 94.742 140.462 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4557,7 +4470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.282 148.59 0)
+			(at 94.742 140.462 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4566,7 +4479,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.282 148.59 0)
+			(at 94.742 140.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4575,7 +4488,7 @@
 			)
 		)
 		(property "Unit" "bar"
-			(at 97.282 148.59 0)
+			(at 94.742 140.462 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4584,7 +4497,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 97.282 148.59 0)
+			(at 94.742 140.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4593,7 +4506,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 100.5332 152.4254 90)
+			(at 97.9932 144.2974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,11 +4516,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "85a76ad5-c3c6-43fc-ac26-0839e1c3d8ef")
+			(uuid "811f3ee5-5b61-4534-a680-cc701fd80493")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_venturi_pressure")
 					(unit 1)
 				)
@@ -4616,7 +4529,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Pressure")
-		(at 106.68 148.59 90)
+		(at 104.14 140.462 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4624,7 +4537,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dce2f5")
 		(property "Reference" "ox_venturi_pressure"
-			(at 109.9312 149.6314 90)
+			(at 107.3912 141.5034 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4634,7 +4547,7 @@
 			)
 		)
 		(property "Value" "ox_venturi_pressure:sensor"
-			(at 106.68 143.764 90)
+			(at 104.14 135.636 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4642,7 +4555,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 148.59 0)
+			(at 104.14 140.462 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4651,7 +4564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 148.59 0)
+			(at 104.14 140.462 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4660,7 +4573,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 148.59 0)
+			(at 104.14 140.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +4582,7 @@
 			)
 		)
 		(property "Unit" "bar"
-			(at 106.68 148.59 0)
+			(at 104.14 140.462 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4678,7 +4591,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 106.68 148.59 0)
+			(at 104.14 140.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +4600,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 109.9312 152.4254 90)
+			(at 107.3912 144.2974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,11 +4610,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "a037dcb0-122f-4c62-a76a-eeef7980e1c8")
+			(uuid "3dc28ad9-49c3-44b1-9bff-aa6eb8cb79ba")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "ox_venturi_pressure")
 					(unit 1)
 				)
@@ -4710,7 +4623,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Pressure")
-		(at 113.284 185.166 0)
+		(at 110.744 177.038 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4718,7 +4631,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dcf583")
 		(property "Reference" "chamber_pressure"
-			(at 110.5408 192.3542 0)
+			(at 108.0008 184.2262 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4727,7 +4640,7 @@
 			)
 		)
 		(property "Value" "chamber_pressure:sensor"
-			(at 118.364 185.166 0)
+			(at 115.824 177.038 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4736,7 +4649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.284 185.166 0)
+			(at 110.744 177.038 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4745,7 +4658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.284 185.166 0)
+			(at 110.744 177.038 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4754,7 +4667,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.284 185.166 0)
+			(at 110.744 177.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,7 +4676,7 @@
 			)
 		)
 		(property "Unit" "bar"
-			(at 113.284 185.166 0)
+			(at 110.744 177.038 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4772,7 +4685,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 113.284 185.166 0)
+			(at 110.744 177.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,7 +4694,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 110.5408 189.5602 0)
+			(at 108.0008 181.4322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4789,11 +4702,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "e746dc13-d2d1-44c6-97eb-ec3e6bd4dc54")
+			(uuid "308f052f-aaaa-4563-9fbb-8cf80730d83d")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "chamber_pressure")
 					(unit 1)
 				)
@@ -4802,7 +4715,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 149.352 119.634 0)
+		(at 146.812 111.506 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4811,7 +4724,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dcff0b")
 		(property "Reference" "top_tank_temp"
-			(at 146.6088 114.7318 0)
+			(at 144.0688 106.6038 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4820,7 +4733,7 @@
 			)
 		)
 		(property "Value" "top_tank_temp:sensor"
-			(at 154.94 119.634 0)
+			(at 152.4 111.506 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4829,7 +4742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.352 119.634 0)
+			(at 146.812 111.506 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4838,7 +4751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.352 119.634 0)
+			(at 146.812 111.506 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4847,7 +4760,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.352 119.634 0)
+			(at 146.812 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,7 +4769,7 @@
 			)
 		)
 		(property "Unit" "˚C"
-			(at 149.352 119.634 0)
+			(at 146.812 111.506 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4865,7 +4778,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 149.352 119.634 0)
+			(at 146.812 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,11 +4787,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "343b39f8-cb2e-494b-897b-4ded3a987b74")
+			(uuid "46e898a5-98f3-493d-a4d7-8eb397d62633")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "top_tank_temp")
 					(unit 1)
 				)
@@ -4886,8 +4799,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
-		(at 147.066 162.814 0)
+		(at 159.766 154.686 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4895,7 +4809,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dd1597")
 		(property "Reference" "ox_manual_tanking_valve"
-			(at 147.066 155.8798 0)
+			(at 159.766 147.7518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +4818,7 @@
 			)
 		)
 		(property "Value" "ox_manual_tanking_valve"
-			(at 147.066 170.434 0)
+			(at 159.766 162.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +4827,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.066 162.814 0)
+			(at 159.766 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +4836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.066 162.814 0)
+			(at 159.766 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,7 +4845,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.066 162.814 0)
+			(at 159.766 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,7 +4854,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 147.066 162.814 0)
+			(at 159.766 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,14 +4863,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "3c032526-f5b4-4233-a380-d6105b4fdcbb")
+			(uuid "5a45adb9-3ec5-4f25-a6f9-2a4cc9d74dc1")
 		)
 		(pin "~"
-			(uuid "b192f3eb-c18f-47c1-b966-8b6df79859ef")
+			(uuid "1e608f55-5038-4f06-9744-745758115655")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "ox_manual_tanking_valve")
 					(unit 1)
 				)
@@ -4965,7 +4879,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:QuickConnect_Half")
-		(at 159.766 162.814 0)
+		(at 172.466 154.686 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4973,7 +4887,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dd2235")
 		(property "Reference" "ox_quick_connect"
-			(at 160.4772 161.6456 0)
+			(at 173.1772 153.5176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,7 +4897,7 @@
 			)
 		)
 		(property "Value" "ox_quick_connect"
-			(at 160.4772 163.957 0)
+			(at 173.1772 155.829 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,7 +4907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 159.766 162.814 0)
+			(at 172.466 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +4916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 159.766 162.814 0)
+			(at 172.466 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +4925,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 159.766 162.814 0)
+			(at 172.466 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,11 +4934,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "31d51f3e-4238-4e14-887e-49ad052d6170")
+			(uuid "a745d064-341c-4030-a455-f2691b4541fe")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "ox_quick_connect")
 					(unit 1)
 				)
@@ -5033,7 +4947,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Vent")
-		(at 122.682 30.988 180)
+		(at 120.142 22.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5041,7 +4955,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dd5125")
 		(property "Reference" "Vent?"
-			(at 126.6952 26.5938 0)
+			(at 124.1552 18.4658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,7 +4964,7 @@
 			)
 		)
 		(property "Value" "Vent"
-			(at 120.142 29.718 0)
+			(at 117.602 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +4973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.682 30.988 0)
+			(at 120.142 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,7 +4982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 122.682 30.988 0)
+			(at 120.142 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,7 +4991,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 122.682 30.988 0)
+			(at 120.142 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5086,11 +5000,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "e7cf8099-5039-4093-bdb2-ec49770c022f")
+			(uuid "e1105730-8f9f-4d41-942e-0ad23b8c1fc0")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -5099,7 +5013,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Vent")
-		(at 81.026 30.988 0)
+		(at 78.486 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5107,7 +5021,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dd58c9")
 		(property "Reference" "Vent?"
-			(at 81.7372 30.988 0)
+			(at 79.1972 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +5031,7 @@
 			)
 		)
 		(property "Value" "Vent"
-			(at 83.566 32.258 0)
+			(at 81.026 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +5040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.026 30.988 0)
+			(at 78.486 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +5049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.026 30.988 0)
+			(at 78.486 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +5058,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.026 30.988 0)
+			(at 78.486 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,11 +5067,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "01acda0a-2c72-455f-bb3f-763d08ff33c2")
+			(uuid "b8ee168a-f1d8-48c1-bffa-71346a1b108d")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -5165,8 +5079,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Venturi")
 		(lib_id "PnID-Lib:Venturi")
-		(at 106.68 171.45 270)
+		(at 104.14 163.322 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5174,7 +5089,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e1016f")
 		(property "Reference" "ox_venturi"
-			(at 109.9312 171.45 90)
+			(at 107.3912 163.322 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5183,7 +5098,7 @@
 			)
 		)
 		(property "Value" "ox_venturi:sensor"
-			(at 111.506 171.45 90)
+			(at 108.966 163.322 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5192,7 +5107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 171.45 0)
+			(at 104.14 163.322 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5201,7 +5116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 171.45 0)
+			(at 104.14 163.322 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5210,7 +5125,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 171.45 0)
+			(at 104.14 163.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +5134,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at -56.642 67.31 0)
+			(at -59.182 59.182 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5228,14 +5143,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "510156a1-3520-48fe-ba74-3c1a5afd6d0f")
+			(uuid "2a5e66d4-e42e-4f72-a595-e80e9124e700")
 		)
 		(pin "~"
-			(uuid "4789069e-0678-4606-ab2f-f509afeca2a9")
+			(uuid "31f8bf3d-99b1-4cb6-ad36-a9d1aada0283")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "ox_venturi")
 					(unit 1)
 				)
@@ -5243,8 +5158,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Venturi")
 		(lib_id "PnID-Lib:Venturi")
-		(at 97.282 171.45 270)
+		(at 94.742 163.322 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5252,7 +5168,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e10afb")
 		(property "Reference" "fuel_venturi"
-			(at 91.948 171.45 90)
+			(at 89.408 163.322 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5262,7 +5178,7 @@
 			)
 		)
 		(property "Value" "fuel_venturi:sensor"
-			(at 91.948 171.45 90)
+			(at 89.154 163.322 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5271,7 +5187,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.282 171.45 0)
+			(at 94.742 163.322 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5280,7 +5196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.282 171.45 0)
+			(at 94.742 163.322 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5289,7 +5205,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.282 171.45 0)
+			(at 94.742 163.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,7 +5214,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 97.282 171.45 0)
+			(at 94.742 163.322 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5307,14 +5223,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "ec043243-c272-4498-9ed9-608f8d6edd1c")
+			(uuid "94839df2-8db4-49c7-9594-023dcd70df4f")
 		)
 		(pin "~"
-			(uuid "141a4292-754a-4587-a81a-8e17fc92294b")
+			(uuid "2d44f6d1-416b-42e1-a32f-60e42a6fba02")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_venturi")
 					(unit 1)
 				)
@@ -5322,8 +5238,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
-		(at 25.908 41.656 90)
+		(at 23.368 33.528 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5331,7 +5248,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e17bfe")
 		(property "Reference" "fuel_manual_valve"
-			(at 30.4292 41.656 90)
+			(at 27.8892 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,7 +5258,7 @@
 			)
 		)
 		(property "Value" "fuel_manual_valve"
-			(at 33.528 41.656 0)
+			(at 30.988 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +5267,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.908 41.656 0)
+			(at 23.368 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +5276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.908 41.656 0)
+			(at 23.368 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,7 +5285,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.908 41.656 0)
+			(at 23.368 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5377,7 +5294,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 25.908 41.656 0)
+			(at 23.368 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,14 +5303,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "0ca85f45-f147-49ac-a367-768fe2fd7146")
+			(uuid "d33419d7-0aef-4fe7-9646-afadd89bedb0")
 		)
 		(pin "~"
-			(uuid "354ed403-f9f1-42fa-a553-a33825182475")
+			(uuid "4471969c-92fd-4f66-b4ed-6ee972a2f1c5")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_manual_valve")
 					(unit 1)
 				)
@@ -5401,8 +5318,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:PressureRegulator")
 		(lib_id "PnID-Lib:PressureRegulator")
-		(at 36.576 30.988 0)
+		(at 34.036 22.86 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5411,7 +5329,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e1f274")
 		(property "Reference" "fuel_pressure_regulator"
-			(at 37.0078 22.2758 0)
+			(at 34.4678 14.1478 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5420,7 +5338,7 @@
 			)
 		)
 		(property "Value" "fuel_pressure_regulator"
-			(at 37.0078 23.368 0)
+			(at 34.4678 15.24 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5429,7 +5347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.576 30.988 0)
+			(at 34.036 22.86 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5438,7 +5356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.576 30.988 0)
+			(at 34.036 22.86 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5447,7 +5365,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.576 30.988 0)
+			(at 34.036 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,14 +5374,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "bb6f8f3b-5ad0-410d-b440-976e28d74202")
+			(uuid "e17f1970-b101-4d75-88dd-ce898cb12caa")
 		)
 		(pin "~"
-			(uuid "0b1baac2-e004-4e3d-a48c-5ae9fe78c62d")
+			(uuid "d48a0cb9-f154-436f-a205-6c5fd4107ffd")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_pressure_regulator")
 					(unit 1)
 				)
@@ -5471,8 +5389,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Needle")
 		(lib_id "PnID-Lib:Valve_Needle")
-		(at 52.578 30.988 0)
+		(at 50.038 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5480,7 +5399,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e22263")
 		(property "Reference" "fuel_needle_valve"
-			(at 52.578 24.0538 0)
+			(at 50.038 15.9258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,7 +5408,7 @@
 			)
 		)
 		(property "Value" "fuel_needle_valve"
-			(at 52.578 38.608 0)
+			(at 50.038 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,7 +5417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.578 30.988 0)
+			(at 50.038 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +5426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.578 30.988 0)
+			(at 50.038 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,7 +5435,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.578 30.988 0)
+			(at 50.038 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +5444,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 52.578 30.988 0)
+			(at 50.038 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,14 +5453,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "5131b231-5695-49d0-89e7-9c6303997880")
+			(uuid "9dc51992-939f-4c88-b0c1-4d5e6b9ed18e")
 		)
 		(pin "~"
-			(uuid "e48dc0a0-059a-4b6a-8c3f-b9c8e10d3c10")
+			(uuid "0cb4f48e-10c5-4c0e-b117-80c854690e46")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_needle_valve")
 					(unit 1)
 				)
@@ -5549,8 +5468,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Manual_3Way")
 		(lib_id "PnID-Lib:Valve_Manual_3Way")
-		(at 68.326 38.1 0)
+		(at 65.786 29.972 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5558,7 +5478,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e233ec")
 		(property "Reference" "fuel_manual_3way"
-			(at 68.326 22.987 0)
+			(at 65.786 14.859 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5487,7 @@
 			)
 		)
 		(property "Value" "fuel_manual_3way"
-			(at 68.326 25.2984 0)
+			(at 65.786 17.1704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +5496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.326 38.1 0)
+			(at 65.786 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +5505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.326 38.1 0)
+			(at 65.786 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5514,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.326 38.1 0)
+			(at 65.786 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,17 +5523,17 @@
 			)
 		)
 		(pin "~"
-			(uuid "0f259893-1b30-4619-965a-5e7a5b737e22")
+			(uuid "20926b94-a8bc-4d99-9a29-14617d78b0f3")
 		)
 		(pin "~"
-			(uuid "66dcd7c9-202c-47b2-9fa7-c5c8bf103158")
+			(uuid "7757bf66-911a-4629-a77c-e1ee720796f2")
 		)
 		(pin "~"
-			(uuid "d2ae7c99-220e-40cf-96d0-d5eefe1b7ae9")
+			(uuid "dc47cdc8-66a9-49e4-bdb1-186ebcb157de")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_manual_3way")
 					(unit 1)
 				)
@@ -5621,8 +5541,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_OverPressure")
 		(lib_id "PnID-Lib:Valve_OverPressure")
-		(at 41.656 83.82 0)
+		(at 39.116 75.692 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5630,7 +5551,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e2c7e9")
 		(property "Reference" "fuel_safety_valve"
-			(at 41.656 77.4954 0)
+			(at 39.116 69.3674 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5639,7 +5560,7 @@
 			)
 		)
 		(property "Value" "fuel_safety_valve"
-			(at 41.656 89.408 0)
+			(at 39.116 81.28 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5648,7 +5569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.656 83.82 0)
+			(at 39.116 75.692 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5657,7 +5578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.656 83.82 0)
+			(at 39.116 75.692 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5666,7 +5587,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.656 83.82 0)
+			(at 39.116 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +5596,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 41.656 83.82 0)
+			(at 39.116 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,14 +5605,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "1a292d43-bc70-4c1e-b585-ed14d1b9d95e")
+			(uuid "98e1de3c-7144-450f-bc30-1eb49bb03a03")
 		)
 		(pin "~"
-			(uuid "529386c2-1272-4221-9709-489a9db20485")
+			(uuid "db59fb3c-850e-40da-8551-7ca1ef3856ca")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_safety_valve")
 					(unit 1)
 				)
@@ -5699,8 +5620,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Solenoid_NO")
 		(lib_id "PnID-Lib:Valve_Solenoid_NO")
-		(at 54.864 71.374 0)
+		(at 52.324 63.246 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5708,7 +5630,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e2f705")
 		(property "Reference" "fuel_depressurize_solenoid"
-			(at 54.864 60.1218 0)
+			(at 52.324 51.9938 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5717,7 +5639,7 @@
 			)
 		)
 		(property "Value" "fuel_depressurize_solenoid:sensor"
-			(at 54.864 59.944 0)
+			(at 52.324 51.816 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5725,7 +5647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.864 71.374 0)
+			(at 52.324 63.246 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5734,7 +5656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.864 71.374 0)
+			(at 52.324 63.246 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5743,7 +5665,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.864 71.374 0)
+			(at 52.324 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,7 +5674,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 54.864 71.374 0)
+			(at 52.324 63.246 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5761,7 +5683,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 54.864 71.374 0)
+			(at 52.324 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,14 +5692,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "8d9ba463-1653-4b61-858e-4356be353855")
+			(uuid "80162aa2-a276-424b-a207-6556a6d536d6")
 		)
 		(pin "~"
-			(uuid "442e3ec8-c5eb-4262-b044-775caccb9900")
+			(uuid "cc980506-65bb-4cb6-ac1e-8844847dee40")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_depressurize_solenoid")
 					(unit 1)
 				)
@@ -5785,8 +5707,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
-		(at 57.15 162.814 0)
+		(at 38.862 154.686 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5794,7 +5717,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e2fd94")
 		(property "Reference" "fuel_manual_tanking_valve"
-			(at 57.15 155.8798 0)
+			(at 38.862 147.7518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +5726,7 @@
 			)
 		)
 		(property "Value" "fuel_manual_tanking_valve"
-			(at 57.15 170.434 0)
+			(at 38.862 162.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +5735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 162.814 0)
+			(at 38.862 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 162.814 0)
+			(at 38.862 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +5753,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 162.814 0)
+			(at 38.862 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +5762,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 57.15 162.814 0)
+			(at 38.862 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,14 +5771,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "6ea4c2e6-7da1-4154-9b35-cb8dec9cc257")
+			(uuid "2bdb5635-de29-4b2b-9c4c-d416977b80ee")
 		)
 		(pin "~"
-			(uuid "9eb7bfcf-1c90-4dd2-b856-c645ab44a460")
+			(uuid "835a1465-9e43-4883-bcbc-771366b95324")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_manual_tanking_valve")
 					(unit 1)
 				)
@@ -5864,7 +5787,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:QuickConnect_Half")
-		(at 44.45 162.814 180)
+		(at 26.162 154.686 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5872,7 +5795,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e30052")
 		(property "Reference" "fuel_quick_connect"
-			(at 48.4632 156.083 0)
+			(at 30.1752 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +5804,7 @@
 			)
 		)
 		(property "Value" "fuel_quick_connect"
-			(at 48.4632 158.3944 0)
+			(at 30.1752 150.2664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,7 +5813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 162.814 0)
+			(at 26.162 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5899,7 +5822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 162.814 0)
+			(at 26.162 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5908,7 +5831,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 162.814 0)
+			(at 26.162 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,11 +5840,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "b8fef6b6-bcf2-4b96-ac09-fd7470940703")
+			(uuid "8e70191e-9b92-4bd2-96ba-cdf97a92b537")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_quick_connect")
 					(unit 1)
 				)
@@ -5929,8 +5852,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
-		(at 41.402 98.044 0)
+		(at 38.862 89.916 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5938,7 +5862,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e3075b")
 		(property "Reference" "fuel_manual_vent_valve"
-			(at 41.402 91.1098 0)
+			(at 38.862 82.9818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +5871,7 @@
 			)
 		)
 		(property "Value" "fuel_manual_vent_valve"
-			(at 41.402 105.664 0)
+			(at 38.862 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5956,7 +5880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.402 98.044 0)
+			(at 38.862 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5965,7 +5889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.402 98.044 0)
+			(at 38.862 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5974,7 +5898,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.402 98.044 0)
+			(at 38.862 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5983,7 +5907,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 41.402 98.044 0)
+			(at 38.862 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5992,14 +5916,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "ab44f747-d526-4247-bd94-d03d2687fd5f")
+			(uuid "6c6199f7-56ba-45a3-b02b-6219c444b608")
 		)
 		(pin "~"
-			(uuid "6c1fcbb7-784f-4fe7-beb0-9f82387ec980")
+			(uuid "0deabb42-0387-4fe4-b510-5ae7c8afc6db")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_manual_vent_valve")
 					(unit 1)
 				)
@@ -6008,7 +5932,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Vent")
-		(at 42.164 71.374 180)
+		(at 39.624 63.246 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6016,7 +5940,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e3bf1d")
 		(property "Reference" "Vent?"
-			(at 46.1772 66.9798 0)
+			(at 43.6372 58.8518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,7 +5949,7 @@
 			)
 		)
 		(property "Value" "Vent"
-			(at 39.624 70.104 0)
+			(at 37.084 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6034,7 +5958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 42.164 71.374 0)
+			(at 39.624 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +5967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 42.164 71.374 0)
+			(at 39.624 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,7 +5976,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 42.164 71.374 0)
+			(at 39.624 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,11 +5985,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "4296d6fb-fccf-44a6-bbc1-ca99ee6ce891")
+			(uuid "2cfd218f-16e3-4acd-89ab-ae837e51addd")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -6074,7 +5998,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Vent")
-		(at 28.956 83.82 180)
+		(at 26.416 75.692 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6082,7 +6006,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e3cfd8")
 		(property "Reference" "Vent?"
-			(at 32.9692 79.4258 0)
+			(at 30.4292 71.2978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,7 +6015,7 @@
 			)
 		)
 		(property "Value" "Vent"
-			(at 26.416 82.55 0)
+			(at 23.876 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6024,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 28.956 83.82 0)
+			(at 26.416 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,7 +6033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 28.956 83.82 0)
+			(at 26.416 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,7 +6042,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 28.956 83.82 0)
+			(at 26.416 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,11 +6051,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "63e045d5-fed3-4800-8a19-dc7075a5caa9")
+			(uuid "7532fc0a-090f-4432-9df6-73034aaf35a2")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -6140,7 +6064,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Vent")
-		(at 28.702 98.044 180)
+		(at 26.162 89.916 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6148,7 +6072,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e3e00c")
 		(property "Reference" "Vent?"
-			(at 32.7152 93.6498 0)
+			(at 30.1752 85.5218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,7 +6081,7 @@
 			)
 		)
 		(property "Value" "Vent"
-			(at 26.162 96.774 0)
+			(at 23.622 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6166,7 +6090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 28.702 98.044 0)
+			(at 26.162 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6175,7 +6099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 28.702 98.044 0)
+			(at 26.162 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,7 +6108,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 28.702 98.044 0)
+			(at 26.162 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,11 +6117,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "3bd4257c-5631-41b5-9bd1-3dba970c5506")
+			(uuid "4b0c04c0-87e6-4670-95fd-eec60129bf42")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -6205,8 +6129,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Servo")
 		(lib_id "PnID-Lib:Valve_Servo")
-		(at 79.502 162.814 0)
+		(at 76.962 154.686 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6214,7 +6139,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e68479")
 		(property "Reference" "fuel_main_valve"
-			(at 79.502 151.5618 0)
+			(at 76.962 143.4338 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6223,7 +6148,7 @@
 			)
 		)
 		(property "Value" "fuel_main_valve:sensor"
-			(at 79.502 151.638 0)
+			(at 76.962 143.51 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6231,7 +6156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 79.502 162.814 0)
+			(at 76.962 154.686 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6240,7 +6165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 79.502 162.814 0)
+			(at 76.962 154.686 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6249,7 +6174,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 79.502 162.814 0)
+			(at 76.962 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6258,7 +6183,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 79.502 162.814 0)
+			(at 76.962 154.686 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6267,7 +6192,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 79.502 162.814 0)
+			(at 76.962 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6276,14 +6201,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "c72dd660-08e7-444d-84b4-2786a3e287f3")
+			(uuid "f57efdd8-1a8d-4fc4-abee-f9a783cd9d27")
 		)
 		(pin "~"
-			(uuid "68641c63-dbc0-4664-a908-829ed0f8aebb")
+			(uuid "31914363-3a5f-4fc6-a2f2-fe36fefa6781")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_main_valve")
 					(unit 1)
 				)
@@ -6291,1592 +6216,9 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:PressureRegulator")
-		(at 247.142 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e73945")
-		(property "Reference" "DewarPressureRegulator?"
-			(at 246.7102 120.8278 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DewarPressureRegulator"
-			(at 246.7102 121.92 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.142 129.54 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.142 129.54 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.142 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "16f4476f-5736-4759-aef6-008412aaaf03")
-		)
-		(pin "~"
-			(uuid "3fad261b-cda8-4d1b-8346-316098d7c081")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "DewarPressureRegulator?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NC")
-		(at 230.378 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e7394d")
-		(property "Reference" "dewar_pressurant_tanking_valve?"
-			(at 230.378 118.2878 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "dewar_pressurant_tanking_valve:sensor"
-			(at 230.378 117.602 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 230.378 129.54 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 230.378 129.54 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 230.378 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "%"
-			(at 230.378 129.54 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Action_Reference" " "
-			(at 230.378 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "3d4bad4b-8b0a-4470-ae7e-48ab1c71e800")
-		)
-		(pin "~"
-			(uuid "95d0ab5d-8a4f-4004-960a-34cec724fb42")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "dewar_pressurant_tanking_valve?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "PnID-Lib:Valve_OverPressure")
 		(lib_id "PnID-Lib:Valve_OverPressure")
-		(at 216.154 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e73954")
-		(property "Reference" "DewarOverPressureValve?"
-			(at 210.3628 143.51 90)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "DewarOverPressureValve"
-			(at 221.742 143.51 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 216.154 143.51 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 216.154 143.51 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 216.154 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Action_Reference" " "
-			(at 216.154 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "e013b274-a8df-4c99-a3e4-ce91b689030b")
-		)
-		(pin "~"
-			(uuid "92ca4c4d-1367-41ad-8a15-47f3aafa9c39")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "DewarOverPressureValve?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:Sensor_Pressure")
-		(at 188.976 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e7395d")
-		(property "Reference" "dewar_pressure?"
-			(at 192.2272 122.9614 90)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "dewar_pressure:sensor"
-			(at 188.976 117.094 90)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 188.976 121.92 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 188.976 121.92 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 188.976 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "bar"
-			(at 188.976 121.92 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Action_Reference" " "
-			(at 188.976 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Data_Content" " "
-			(at 192.2272 125.7554 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "8dea214d-cd21-45ac-b930-e9f48368c21f")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "dewar_pressure?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:Tank_Slim")
-		(at 188.976 147.066 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e73966")
-		(property "Reference" "Dewar"
-			(at 188.976 147.066 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Value" "dewar_fill_level:sensor"
-			(at 196.0372 147.5994 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 188.976 147.066 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 188.976 147.066 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 188.976 147.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "%"
-			(at 188.976 147.066 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Action_Reference" " "
-			(at 188.976 147.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Data_Content" " "
-			(at 188.976 147.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "5830e92f-38b3-4b5d-be3c-a903861ca91b")
-		)
-		(pin "~"
-			(uuid "89bdae96-99ef-426e-aa30-636f1e8e8d32")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "Dewar")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:Valve_Servo")
-		(at 172.466 162.814 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e7396e")
-		(property "Reference" "tanking_valve?"
-			(at 172.466 151.5618 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "tanking_valve:sensor"
-			(at 172.466 150.114 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.466 162.814 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.466 162.814 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.466 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "%"
-			(at 172.466 162.814 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Action_Reference" " "
-			(at 172.466 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "c646f4de-fb0c-4ff9-9009-8db20d0d7749")
-		)
-		(pin "~"
-			(uuid "74514ebb-aa04-476b-8b86-8e0784195ebd")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "tanking_valve?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:QuickConnect_Half")
-		(at 159.766 162.814 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e73974")
-		(property "Reference" "DewarQuickConnect?"
-			(at 163.7792 156.083 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DewarQuickConnect"
-			(at 163.7792 158.3944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 159.766 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 159.766 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 159.766 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "9a04bbf9-462c-493d-a9fa-06c7b2e6c308")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "DewarQuickConnect?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NC")
-		(at 230.378 30.988 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e7397c")
-		(property "Reference" "pressurant_main_solenoid?"
-			(at 230.378 19.7358 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "pressurant_main_solenoid:sensor"
-			(at 230.378 17.78 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 230.378 30.988 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 230.378 30.988 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 230.378 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "%"
-			(at 230.378 30.988 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Action_Reference" " "
-			(at 230.378 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "b65be619-3971-46ff-b95c-1d70ab2985b0")
-		)
-		(pin "~"
-			(uuid "854753ad-76cd-4ea3-b1c2-435a3e52d718")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "pressurant_main_solenoid?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NO")
-		(at 216.154 45.974 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e73984")
-		(property "Reference" "pressurant_vent_solenoid?"
-			(at 206.5528 46.5328 90)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "pressurant_vent_solenoid:sensor"
-			(at 231.14 45.974 90)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 216.154 45.974 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 216.154 45.974 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 216.154 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "%"
-			(at 216.154 45.974 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Action_Reference" " "
-			(at 216.154 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "2b5e6317-eb45-4be9-9c31-428d2bca8a34")
-		)
-		(pin "~"
-			(uuid "bc5bf113-8ea2-46c4-ac53-023caa57e303")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "pressurant_vent_solenoid?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:Sensor_Pressure")
-		(at 205.232 23.368 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e7398d")
-		(property "Reference" "pressurant_pressure?"
-			(at 201.9808 27.813 90)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "pressurant_pressure:sensor"
-			(at 205.232 17.78 90)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.232 23.368 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.232 23.368 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.232 23.368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "bar"
-			(at 205.232 23.368 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Action_Reference" " "
-			(at 205.232 23.368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Data_Content" " "
-			(at 201.9808 25.019 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "6d3c9602-fc17-4daf-bb72-65a3935820c4")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "pressurant_pressure?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NO")
-		(at 192.532 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e73995")
-		(property "Reference" "fuel_pressurant_solenoid?"
-			(at 192.532 40.8178 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "fuel_pressurant_solenoid:sensor"
-			(at 192.532 40.894 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 192.532 52.07 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 192.532 52.07 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 192.532 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "%"
-			(at 192.532 52.07 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Action_Reference" " "
-			(at 192.532 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "749651c8-150c-4978-beb6-039067f5cd67")
-		)
-		(pin "~"
-			(uuid "7d933b3c-61a2-44b9-ad22-c05d93f5d853")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "fuel_pressurant_solenoid?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NO")
-		(at 192.532 30.988 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e7399d")
-		(property "Reference" "ox_pressurant_solenoid?"
-			(at 192.532 19.7358 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "ox_pressurant_solenoid:sensor"
-			(at 192.532 17.78 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 192.532 30.988 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 192.532 30.988 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 192.532 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "%"
-			(at 192.532 30.988 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Action_Reference" " "
-			(at 192.532 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "2587a852-5ff5-4e56-9055-92b8680251f0")
-		)
-		(pin "~"
-			(uuid "773909bb-49e7-432e-a0a5-207baa7bc102")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "ox_pressurant_solenoid?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:QuickConnect_Half")
-		(at 179.832 30.988 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e739a3")
-		(property "Reference" "ox_quick_connect?"
-			(at 183.8452 24.257 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "ox_quick_connect"
-			(at 183.8452 26.5684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.832 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.832 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.832 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "c993d982-676d-49e0-85b9-26827e2eb693")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "ox_quick_connect?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:QuickConnect_Half")
-		(at 179.832 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e739a9")
-		(property "Reference" "fuel_quick_connect?"
-			(at 183.8452 45.339 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "fuel_quick_connect"
-			(at 183.8452 47.6504 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.832 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.832 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.832 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "cb2716ab-3dd2-4c1a-816b-921b532fbe92")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "fuel_quick_connect?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NO")
-		(at 216.154 117.602 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e739b8")
-		(property "Reference" "dewar_pressurant_vent_solenoid?"
-			(at 206.5528 118.1608 90)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "dewar_pressurant_vent_solenoid:sensor"
-			(at 205.232 117.602 90)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 216.154 117.602 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 216.154 117.602 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 216.154 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "%"
-			(at 216.154 117.602 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Action_Reference" " "
-			(at 216.154 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "cde6fc30-37c1-49f5-b4c4-0202799cd8fb")
-		)
-		(pin "~"
-			(uuid "187d5506-de83-4fe0-8875-71424f197733")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "dewar_pressurant_vent_solenoid?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:Vent")
-		(at 216.154 58.674 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e739d3")
-		(property "Reference" "Vent?"
-			(at 212.9028 54.6608 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "Vent"
-			(at 214.884 61.214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 216.154 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 216.154 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 216.154 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "00b9ed85-f7cb-4c37-accc-2571ac880be3")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "Vent?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:Vent")
-		(at 216.154 104.902 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e739d9")
-		(property "Reference" "Vent?"
-			(at 212.9028 108.9152 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Vent"
-			(at 217.424 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 216.154 104.902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 216.154 104.902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 216.154 104.902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "2e3bd6eb-6a1a-4d9f-8992-c3c766b03c27")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "Vent?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:Vent")
-		(at 216.154 156.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063e739df")
-		(property "Reference" "Vent?"
-			(at 212.9028 152.1968 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "Vent"
-			(at 214.884 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 216.154 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 216.154 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 216.154 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "31e40168-648a-4005-b82d-b353ae750531")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "Vent?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:Valve_Manual")
-		(at 270.256 41.656 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063eba6e4")
-		(property "Reference" "ox_manual_valve"
-			(at 276.0472 41.656 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "ox_manual_valve"
-			(at 262.636 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.256 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.256 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.256 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Action_Reference" " "
-			(at 270.256 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "ea60b232-abe1-49bf-8293-58b9aa36325d")
-		)
-		(pin "~"
-			(uuid "a9a9a4b9-986d-47d8-a16f-1a08c5c0e442")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "ox_manual_valve")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:QuickConnect_Half")
-		(at 179.832 30.988 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063ee626e")
-		(property "Reference" "QuickConnect?"
-			(at 180.5432 29.8196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "QuickConnect_Half"
-			(at 180.5432 32.131 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.832 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.832 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.832 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "08da43de-5384-4b72-af0f-174859811483")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "QuickConnect?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:Valve_OverPressure")
-		(at 162.052 83.82 0)
+		(at 159.512 75.692 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7885,7 +6227,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063ef0ab7")
 		(property "Reference" "ox_safety_valve"
-			(at 162.052 77.4954 0)
+			(at 159.512 69.3674 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7894,7 +6236,7 @@
 			)
 		)
 		(property "Value" "ox_safety_valve"
-			(at 162.052 89.408 0)
+			(at 159.512 81.28 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7903,7 +6245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.052 83.82 0)
+			(at 159.512 75.692 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7912,7 +6254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.052 83.82 0)
+			(at 159.512 75.692 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7921,7 +6263,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.052 83.82 0)
+			(at 159.512 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7930,7 +6272,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 162.052 83.82 0)
+			(at 159.512 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7939,14 +6281,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "e2f1ab96-cd84-4227-8c1d-e06992e9c40a")
+			(uuid "a9ec2915-5191-4e23-b88d-b47bd793cb4e")
 		)
 		(pin "~"
-			(uuid "172192f2-7509-44f6-8c3b-2648e4a9bf2e")
+			(uuid "107e1dae-92c7-498b-a792-12fcb6e8b2c8")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "ox_safety_valve")
 					(unit 1)
 				)
@@ -7954,8 +6296,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Servo")
 		(lib_id "PnID-Lib:Valve_Servo")
-		(at 148.844 71.374 0)
+		(at 146.304 63.246 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7964,7 +6307,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063ef0abf")
 		(property "Reference" "ox_depressurize_valve"
-			(at 148.844 60.1218 0)
+			(at 146.304 51.9938 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7973,7 +6316,7 @@
 			)
 		)
 		(property "Value" "ox_depressurize_valve:sensor"
-			(at 148.844 59.69 0)
+			(at 146.304 51.562 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7981,7 +6324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.844 71.374 0)
+			(at 146.304 63.246 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7990,7 +6333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.844 71.374 0)
+			(at 146.304 63.246 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7999,7 +6342,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.844 71.374 0)
+			(at 146.304 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8008,7 +6351,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 148.844 71.374 0)
+			(at 146.304 63.246 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8017,7 +6360,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 148.844 71.374 0)
+			(at 146.304 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8026,14 +6369,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "3b644c57-e641-4f59-bd85-5080e893e93a")
+			(uuid "172bc6ee-c067-4156-9bce-11b949787a12")
 		)
 		(pin "~"
-			(uuid "707eba96-de8a-4f8c-87e7-ae1cf517a3ad")
+			(uuid "eff4a800-c438-4b8d-b4c8-2b25ed9a239f")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "ox_depressurize_valve")
 					(unit 1)
 				)
@@ -8041,8 +6384,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
-		(at 162.306 98.044 0)
+		(at 159.766 89.916 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8051,7 +6395,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063ef0ac6")
 		(property "Reference" "ox_manual_vent_valve"
-			(at 162.306 91.1098 0)
+			(at 159.766 82.9818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8060,7 +6404,7 @@
 			)
 		)
 		(property "Value" "ox_manual_vent_valve"
-			(at 162.306 105.664 0)
+			(at 159.766 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8069,7 +6413,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.306 98.044 0)
+			(at 159.766 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8078,7 +6422,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.306 98.044 0)
+			(at 159.766 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8087,7 +6431,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.306 98.044 0)
+			(at 159.766 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8096,7 +6440,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 162.306 98.044 0)
+			(at 159.766 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8105,14 +6449,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "3b681450-9d17-4733-8093-4c8676e67d12")
+			(uuid "d29fe59d-50dc-4071-a85d-a88721a3e663")
 		)
 		(pin "~"
-			(uuid "3dcd5a66-7623-45c2-ba53-86b7156ae461")
+			(uuid "b7c56bfc-ac38-415f-9f1c-b1c2c9e2e2b5")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "ox_manual_vent_valve")
 					(unit 1)
 				)
@@ -8121,7 +6465,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Vent")
-		(at 161.544 71.374 0)
+		(at 159.004 63.246 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8130,7 +6474,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063ef0acc")
 		(property "Reference" "Vent?"
-			(at 157.5308 66.9798 0)
+			(at 154.9908 58.8518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8139,7 +6483,7 @@
 			)
 		)
 		(property "Value" "Vent"
-			(at 164.084 70.104 0)
+			(at 161.544 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8148,7 +6492,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.544 71.374 0)
+			(at 159.004 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8157,7 +6501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.544 71.374 0)
+			(at 159.004 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8166,7 +6510,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.544 71.374 0)
+			(at 159.004 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8175,11 +6519,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "b35d1759-d89c-4c81-88f4-5a1cf4c27738")
+			(uuid "b942dc07-38c2-40a6-a226-b29d13d12caa")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -8188,7 +6532,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Vent")
-		(at 174.752 83.82 0)
+		(at 172.212 75.692 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8197,7 +6541,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063ef0ad2")
 		(property "Reference" "Vent?"
-			(at 170.7388 79.4258 0)
+			(at 168.1988 71.2978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8206,7 +6550,7 @@
 			)
 		)
 		(property "Value" "Vent"
-			(at 177.292 82.55 0)
+			(at 174.752 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8215,7 +6559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 174.752 83.82 0)
+			(at 172.212 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8224,7 +6568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 174.752 83.82 0)
+			(at 172.212 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,7 +6577,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 174.752 83.82 0)
+			(at 172.212 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,11 +6586,78 @@
 			)
 		)
 		(pin "~"
-			(uuid "4ca54c74-7ba9-4969-8b81-15b9d4af3c7c")
+			(uuid "8daf00ad-b07e-4778-9ede-8694205a8bbc")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
+					(reference "Vent?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Vent")
+		(at 172.466 89.916 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063ef0ad8")
+		(property "Reference" "Vent?"
+			(at 168.4528 85.5218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vent"
+			(at 175.006 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.466 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.466 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.466 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "128447a2-0365-45d6-9825-a40b2ed361f4")
+		)
+		(instances
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -8255,7 +6666,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Pressure")
-		(at 75.946 71.374 0)
+		(at 73.406 63.246 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8263,7 +6674,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f0d530")
 		(property "Reference" "fuel_tank_pressure"
-			(at 74.9046 74.6252 90)
+			(at 72.3646 66.4972 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8273,7 +6684,7 @@
 			)
 		)
 		(property "Value" "fuel_tank_pressure:sensor"
-			(at 70.866 77.47 0)
+			(at 78.232 63.246 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8282,7 +6693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 75.946 71.374 0)
+			(at 73.406 63.246 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8291,7 +6702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 75.946 71.374 0)
+			(at 73.406 63.246 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8300,7 +6711,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 75.946 71.374 0)
+			(at 73.406 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8309,7 +6720,7 @@
 			)
 		)
 		(property "Unit" "bar"
-			(at 75.946 71.374 0)
+			(at 73.406 63.246 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8318,7 +6729,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 75.946 71.374 0)
+			(at 73.406 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8327,7 +6738,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 72.1106 74.6252 90)
+			(at 69.5706 66.4972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8337,11 +6748,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "969a388e-eb52-48c4-b83c-517f8b3399fd")
+			(uuid "29ec68ef-8714-4dd6-9ed1-0384b2b97876")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_tank_pressure")
 					(unit 1)
 				)
@@ -8350,7 +6761,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Pressure")
-		(at 127.762 71.374 180)
+		(at 125.222 63.246 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8358,7 +6769,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f0edae")
 		(property "Reference" "ox_tank_pressure"
-			(at 128.8034 68.1228 90)
+			(at 126.2634 59.9948 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8368,7 +6779,7 @@
 			)
 		)
 		(property "Value" "ox_tank_pressure:sensor"
-			(at 132.334 77.724 0)
+			(at 120.142 63.246 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8377,7 +6788,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127.762 71.374 0)
+			(at 125.222 63.246 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8386,7 +6797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127.762 71.374 0)
+			(at 125.222 63.246 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8395,7 +6806,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127.762 71.374 0)
+			(at 125.222 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8404,7 +6815,7 @@
 			)
 		)
 		(property "Unit" "bar"
-			(at 127.762 71.374 0)
+			(at 125.222 63.246 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8413,7 +6824,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 127.762 71.374 0)
+			(at 125.222 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8422,7 +6833,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 131.5974 68.1228 90)
+			(at 129.0574 59.9948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8432,11 +6843,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "88376a63-c70a-4015-b8eb-b8244d9f5b91")
+			(uuid "1b883355-d1da-4547-ba22-f1163091142e")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "ox_tank_pressure")
 					(unit 1)
 				)
@@ -8444,73 +6855,9 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:GasBottle")
-		(at 270.256 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063f1eca8")
-		(property "Reference" "N?"
-			(at 270.256 62.23 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Value" "N2"
-			(at 270.256 64.77 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.002 64.008 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.002 64.008 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.256 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "e560cc9a-1654-4108-b0f3-e1b4ceda7160")
-		)
-		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "N?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "PnID-Lib:PressureRegulator")
 		(lib_id "PnID-Lib:PressureRegulator")
-		(at 167.132 30.988 0)
+		(at 164.592 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8518,7 +6865,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f32874")
 		(property "Reference" "ox_pressure_regulator"
-			(at 166.7002 22.2758 0)
+			(at 164.1602 14.1478 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8527,7 +6874,7 @@
 			)
 		)
 		(property "Value" "ox_pressure_regulator"
-			(at 166.7002 23.368 0)
+			(at 164.1602 15.24 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8536,7 +6883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.132 30.988 0)
+			(at 164.592 22.86 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8545,7 +6892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.132 30.988 0)
+			(at 164.592 22.86 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8554,7 +6901,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.132 30.988 0)
+			(at 164.592 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8563,14 +6910,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "9213f5e1-4560-41d9-b5d2-e5bcf03e7497")
+			(uuid "5cbcf3e5-ea32-4cf1-adeb-6cb8dbd04697")
 		)
 		(pin "~"
-			(uuid "ea533a15-32af-4eb0-9805-5882e679180b")
+			(uuid "91c1fc63-c8ff-4baf-b34b-03c70fbdf21c")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "ox_pressure_regulator")
 					(unit 1)
 				)
@@ -8578,8 +6925,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Needle")
 		(lib_id "PnID-Lib:Valve_Needle")
-		(at 151.13 30.988 0)
+		(at 148.59 22.86 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8588,7 +6936,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f3287b")
 		(property "Reference" "ox_needle_valve"
-			(at 151.13 24.0538 0)
+			(at 148.59 15.9258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8597,7 +6945,7 @@
 			)
 		)
 		(property "Value" "ox_needle_valve"
-			(at 151.13 38.608 0)
+			(at 148.59 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8606,7 +6954,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 30.988 0)
+			(at 148.59 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8615,7 +6963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 30.988 0)
+			(at 148.59 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8624,7 +6972,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 30.988 0)
+			(at 148.59 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,7 +6981,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 151.13 30.988 0)
+			(at 148.59 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8642,14 +6990,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "7e9f22c8-9caa-4cc0-acd5-3435845c4a36")
+			(uuid "1a776674-4d6c-40e3-bd45-93cbd0d3caff")
 		)
 		(pin "~"
-			(uuid "32762e1b-38b0-427f-9f88-2faa6df8b95e")
+			(uuid "9dc18d65-0b90-497f-8cf2-46fc92e9150d")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "ox_needle_valve")
 					(unit 1)
 				)
@@ -8657,8 +7005,156 @@
 		)
 	)
 	(symbol
+		(lib_id "PnID-Lib:GasBottle")
+		(at 175.26 54.102 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063f3a22b")
+		(property "Reference" "N2"
+			(at 175.26 54.102 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "N2"
+			(at 175.26 56.642 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.514 55.88 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.514 55.88 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "f827c8dc-9094-4667-b409-b99e661287f6")
+		)
+		(instances
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
+					(reference "N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "PnID-Lib:Valve_Manual")
+		(lib_id "PnID-Lib:Valve_Manual")
+		(at 175.26 33.528 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063f3a232")
+		(property "Reference" "ox_manual_valve"
+			(at 170.7388 33.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_manual_valve"
+			(at 167.64 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 175.26 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "d0f710a9-d6ed-41a2-9c7a-00094ac99da3")
+		)
+		(pin "~"
+			(uuid "5fa7493e-2455-40b3-b7b6-cc80439fbc21")
+		)
+		(instances
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
+					(reference "ox_manual_valve")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "PnID-Lib:Valve_Manual_3Way")
 		(lib_id "PnID-Lib:Valve_Manual_3Way")
-		(at 135.382 38.1 0)
+		(at 132.842 29.972 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8666,7 +7162,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f48809")
 		(property "Reference" "fuel_manual_3way?"
-			(at 135.382 22.987 0)
+			(at 132.842 14.859 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8675,7 +7171,7 @@
 			)
 		)
 		(property "Value" "fuel_manual_3way"
-			(at 135.382 25.2984 0)
+			(at 132.842 17.1704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8684,7 +7180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.382 38.1 0)
+			(at 132.842 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8693,7 +7189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.382 38.1 0)
+			(at 132.842 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8702,7 +7198,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.382 38.1 0)
+			(at 132.842 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8711,17 +7207,17 @@
 			)
 		)
 		(pin "~"
-			(uuid "0c326344-0d03-4ca4-b87a-6fd729cb6f7f")
+			(uuid "2848891a-5269-45e3-9bcf-10d9572e1023")
 		)
 		(pin "~"
-			(uuid "b34fa500-21fa-4e36-bf08-c16265d6c9d5")
+			(uuid "2c8846d0-b066-4a57-8f43-87a82b069804")
 		)
 		(pin "~"
-			(uuid "126c041b-4173-46ed-97b5-098140eae2fd")
+			(uuid "41e2e2c2-ed92-4912-9de8-380ae492b4e4")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "fuel_manual_3way?")
 					(unit 1)
 				)
@@ -8729,8 +7225,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Servo")
 		(lib_id "PnID-Lib:Valve_Servo")
-		(at 123.698 162.814 0)
+		(at 121.158 154.686 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8738,7 +7235,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f5abdc")
 		(property "Reference" "ox_main_valve"
-			(at 123.698 151.5618 0)
+			(at 121.158 143.4338 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8747,7 +7244,7 @@
 			)
 		)
 		(property "Value" "ox_main_valve:sensor"
-			(at 123.698 151.638 0)
+			(at 121.158 143.51 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8755,7 +7252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.698 162.814 0)
+			(at 121.158 154.686 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8764,7 +7261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.698 162.814 0)
+			(at 121.158 154.686 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8773,7 +7270,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.698 162.814 0)
+			(at 121.158 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,7 +7279,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 123.698 162.814 0)
+			(at 121.158 154.686 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8791,7 +7288,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 123.698 162.814 0)
+			(at 121.158 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8800,14 +7297,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "7127f62d-e1f4-496a-87f5-6e60ce17f4b5")
+			(uuid "d96ab004-bbd3-4e36-9018-85c95a7c7dac")
 		)
 		(pin "~"
-			(uuid "9b60489c-33d4-4225-9f93-4e0be97ee9e8")
+			(uuid "83b2a0c0-a5c3-4ee7-9a2c-e8a361522c99")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "ox_main_valve")
 					(unit 1)
 				)
@@ -8816,7 +7313,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 149.352 126.238 0)
+		(at 146.812 118.11 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8825,7 +7322,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f624b1")
 		(property "Reference" "top_mid_tank_temp"
-			(at 146.6088 121.3358 0)
+			(at 144.0688 113.2078 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8834,7 +7331,7 @@
 			)
 		)
 		(property "Value" "top_mid_tank_temp:sensor"
-			(at 154.94 126.238 0)
+			(at 152.4 118.11 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8843,7 +7340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.352 126.238 0)
+			(at 146.812 118.11 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8852,7 +7349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.352 126.238 0)
+			(at 146.812 118.11 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8861,7 +7358,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.352 126.238 0)
+			(at 146.812 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,7 +7367,7 @@
 			)
 		)
 		(property "Unit" "˚C"
-			(at 149.352 126.238 0)
+			(at 146.812 118.11 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8879,7 +7376,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 149.352 126.238 0)
+			(at 146.812 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,11 +7385,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "1b76266d-dc54-4407-870b-871497d4ba36")
+			(uuid "94194edb-a2d9-4e9d-81d5-bdb3737a785f")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "top_mid_tank_temp")
 					(unit 1)
 				)
@@ -8901,7 +7398,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 149.352 132.842 0)
+		(at 146.812 124.714 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8910,7 +7407,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f6382c")
 		(property "Reference" "bottom_mid_tank_temp"
-			(at 146.6088 127.9398 0)
+			(at 144.0688 119.8118 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8919,7 +7416,7 @@
 			)
 		)
 		(property "Value" "bottom_mid_tank_temp:sensor"
-			(at 154.94 132.842 0)
+			(at 152.4 124.714 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8928,7 +7425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.352 132.842 0)
+			(at 146.812 124.714 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8937,7 +7434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.352 132.842 0)
+			(at 146.812 124.714 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8946,7 +7443,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.352 132.842 0)
+			(at 146.812 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8955,7 +7452,7 @@
 			)
 		)
 		(property "Unit" "˚C"
-			(at 149.352 132.842 0)
+			(at 146.812 124.714 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8964,7 +7461,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 149.352 132.842 0)
+			(at 146.812 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8973,11 +7470,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "3fd7f144-e291-414f-90c9-a92e8fa3f0f0")
+			(uuid "d8bad290-c262-4034-9721-eb3d9f749adc")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "bottom_mid_tank_temp")
 					(unit 1)
 				)
@@ -8986,7 +7483,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 149.352 139.954 0)
+		(at 146.812 131.826 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8995,7 +7492,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f64d9f")
 		(property "Reference" "bottom_tank_temp"
-			(at 146.6088 135.0518 0)
+			(at 144.0688 126.9238 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9004,7 +7501,7 @@
 			)
 		)
 		(property "Value" "bottom_tank_temp:sensor"
-			(at 154.94 139.954 0)
+			(at 152.4 131.826 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9013,7 +7510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.352 139.954 0)
+			(at 146.812 131.826 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9022,7 +7519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.352 139.954 0)
+			(at 146.812 131.826 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9031,7 +7528,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.352 139.954 0)
+			(at 146.812 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9040,7 +7537,7 @@
 			)
 		)
 		(property "Unit" "˚C"
-			(at 149.352 139.954 0)
+			(at 146.812 131.826 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9049,7 +7546,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 149.352 139.954 0)
+			(at 146.812 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9058,11 +7555,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "844d7d44-b728-4755-9483-9e17f359bf1a")
+			(uuid "fb06fd01-112a-4b51-bd19-265ae0c0348e")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
 					(reference "bottom_tank_temp")
 					(unit 1)
 				)
@@ -9070,53 +7567,52 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Vent")
-		(at 175.006 98.044 0)
-		(mirror x)
+		(lib_id "PnID-Lib:Sensor_Load")
+		(at 51.562 131.826 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1936d6af-0d41-4106-af65-b72e6a45277e")
-		(property "Reference" "Vent?"
-			(at 170.9928 93.6498 0)
+		(uuid "00000000-0000-0000-0000-000064b8230a")
+		(property "Reference" "fuel_weight"
+			(at 54.3052 124.6378 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.508 0.508)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "Vent"
-			(at 177.546 96.774 0)
+		(property "Value" "fuel_weight:sensor"
+			(at 41.402 131.826 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.508 0.508)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 175.006 98.044 0)
+			(at 51.562 131.826 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.508 0.508)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.006 98.044 0)
+			(at 51.562 131.826 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.508 0.508)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 175.006 98.044 0)
+			(at 51.562 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9124,13 +7620,131 @@
 				(hide yes)
 			)
 		)
+		(property "Unit" "kg"
+			(at 51.562 131.826 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 51.562 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 54.3052 127.4318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "~"
-			(uuid "daacee57-b6c0-45af-a451-2c588688c2be")
+			(uuid "ba4d9af5-866f-494c-b479-4bc62a9b0958")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "Vent?")
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
+					(reference "fuel_weight")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Load_Short")
+		(at 121.158 131.826 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000064b82d1e")
+		(property "Reference" "ox_weight"
+			(at 122.6312 124.6378 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_weight:sensor"
+			(at 121.158 138.684 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.158 131.826 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.158 131.826 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.158 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "kg"
+			(at 121.158 131.826 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 121.158 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 122.6312 127.4318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "~"
+			(uuid "df76d462-432a-4d5a-bbd7-c8502ee263e1")
+		)
+		(instances
+			(project "teststand"
+				(path "/98106157-42a3-487c-a852-afa7a9d7e514"
+					(reference "ox_weight")
 					(unit 1)
 				)
 			)

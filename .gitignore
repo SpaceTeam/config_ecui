@@ -1,3 +1,5 @@
 *-cache.lib
 *.sch-bak
 .DS_Store
+*-backups/
+*.lck
