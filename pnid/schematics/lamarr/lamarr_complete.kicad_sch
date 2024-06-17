@@ -2,10 +2,10 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "8327e663-75ab-4e67-9f5d-9f542b237d83")
+	(uuid "13381bf0-e5a8-49d4-bd9a-118d81f40240")
 	(paper "A4")
 	(lib_symbols
-		(symbol "PnID-Lib:CheckValve"
+		(symbol "lamarr_complete-rescue:CheckValve-PnID-Lib"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -21,7 +21,7 @@
 					)
 				)
 			)
-			(property "Value" "CheckValve"
+			(property "Value" "PnID-Lib_CheckValve"
 				(at 0 -4.318 0)
 				(effects
 					(font
@@ -57,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CheckValve_0_0"
+			(symbol "CheckValve-PnID-Lib_0_0"
 				(polyline
 					(pts
 						(xy 2.54 2.54) (xy 2.54 -2.54)
@@ -83,7 +83,7 @@
 					)
 				)
 			)
-			(symbol "CheckValve_1_1"
+			(symbol "CheckValve-PnID-Lib_1_1"
 				(pin bidirectional line
 					(at -2.54 0 0)
 					(length 0)
@@ -122,7 +122,7 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:Engine"
+		(symbol "lamarr_complete-rescue:Engine-PnID-Lib"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -138,7 +138,7 @@
 					)
 				)
 			)
-			(property "Value" "Engine"
+			(property "Value" "PnID-Lib_Engine"
 				(at 0 -12.446 0)
 				(effects
 					(font
@@ -165,16 +165,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Action_Reference" " "
+			(property "Description" " "
 				(at 0 0 0)
 				(effects
 					(font
@@ -183,7 +174,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Engine_0_0"
+			(symbol "Engine-PnID-Lib_0_0"
 				(rectangle
 					(start -3.81 2.54)
 					(end 3.81 -3.81)
@@ -208,7 +199,7 @@
 					)
 				)
 			)
-			(symbol "Engine_1_1"
+			(symbol "Engine-PnID-Lib_1_1"
 				(pin bidirectional line
 					(at 3.81 -2.54 180)
 					(length 0)
@@ -283,7 +274,7 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:GasBottle"
+		(symbol "lamarr_complete-rescue:GasBottle-PnID-Lib"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -299,7 +290,7 @@
 					)
 				)
 			)
-			(property "Value" "GasBottle"
+			(property "Value" "PnID-Lib_GasBottle"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -335,7 +326,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GasBottle_0_0"
+			(symbol "GasBottle-PnID-Lib_0_0"
 				(polyline
 					(pts
 						(xy -1.27 8.89) (xy -1.27 11.43)
@@ -374,7 +365,7 @@
 				)
 				(arc
 					(start 1.27 11.43)
-					(mid 0 12.6945)
+					(mid 0 12.7)
 					(end -1.27 11.43)
 					(stroke
 						(width 0)
@@ -397,7 +388,7 @@
 					)
 				)
 			)
-			(symbol "GasBottle_1_1"
+			(symbol "GasBottle-PnID-Lib_1_1"
 				(pin output line
 					(at 0 12.7 270)
 					(length 0)
@@ -418,7 +409,7 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:PressureRegulator"
+		(symbol "lamarr_complete-rescue:PressureRegulator-PnID-Lib"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -434,7 +425,7 @@
 					)
 				)
 			)
-			(property "Value" "PressureRegulator"
+			(property "Value" "PnID-Lib_PressureRegulator"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -469,7 +460,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PressureRegulator_0_0"
+			(symbol "PressureRegulator-PnID-Lib_0_0"
 				(polyline
 					(pts
 						(xy -2.54 3.81) (xy 2.54 3.81)
@@ -519,7 +510,7 @@
 					)
 				)
 			)
-			(symbol "PressureRegulator_1_1"
+			(symbol "PressureRegulator-PnID-Lib_1_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
@@ -582,7 +573,7 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:QuickConnect_Half"
+		(symbol "lamarr_complete-rescue:QuickConnect_Half-PnID-Lib"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -598,7 +589,7 @@
 					)
 				)
 			)
-			(property "Value" "QuickConnect_Half"
+			(property "Value" "PnID-Lib_QuickConnect_Half"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -633,7 +624,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "QuickConnect_Half_0_0"
+			(symbol "QuickConnect_Half-PnID-Lib_0_0"
 				(circle
 					(center -3.81 0)
 					(radius 1.27)
@@ -694,7 +685,7 @@
 					)
 				)
 			)
-			(symbol "QuickConnect_Half_1_1"
+			(symbol "QuickConnect_Half-PnID-Lib_1_1"
 				(pin bidirectional line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -715,7 +706,7 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:Sensor_Pressure"
+		(symbol "lamarr_complete-rescue:Sensor_Load-PnID-Lib"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -723,7 +714,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Sensor_Pressure"
+			(property "Reference" "Sensor_Load"
 				(at 6.35 0.762 0)
 				(effects
 					(font
@@ -731,7 +722,7 @@
 					)
 				)
 			)
-			(property "Value" "Sensor_Pressure"
+			(property "Value" "PnID-Lib_Sensor_Load"
 				(at 6.35 -0.762 0)
 				(effects
 					(font
@@ -757,16 +748,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit" "bar"
+			(property "Description" "N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -792,7 +774,239 @@
 					)
 				)
 			)
-			(symbol "Sensor_Pressure_0_0"
+			(symbol "Sensor_Load-PnID-Lib_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "L"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "Sensor_Load-PnID-Lib_1_1"
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "lamarr_complete-rescue:Sensor_Load_Short-PnID-Lib"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Sensor_Load_Short"
+				(at 6.35 0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "PnID-Lib_Sensor_Load_Short"
+				(at 6.35 -0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "kg"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Data_Content" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Sensor_Load_Short-PnID-Lib_0_0"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "L"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "Sensor_Load_Short-PnID-Lib_1_1"
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Sensor_Pressure"
+				(at 6.35 0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "PnID-Lib_Sensor_Pressure"
+				(at 6.35 -0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "bar"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Data_Content" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Sensor_Pressure-PnID-Lib_0_0"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy -2.54 0)
@@ -825,7 +1039,7 @@
 					)
 				)
 			)
-			(symbol "Sensor_Pressure_1_1"
+			(symbol "Sensor_Pressure-PnID-Lib_1_1"
 				(pin bidirectional line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -846,7 +1060,7 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:Sensor_Temperature"
+		(symbol "lamarr_complete-rescue:Sensor_Temperature-PnID-Lib"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -862,7 +1076,7 @@
 					)
 				)
 			)
-			(property "Value" "Sensor_Temperature"
+			(property "Value" "PnID-Lib_Sensor_Temperature"
 				(at 7.112 -0.762 0)
 				(effects
 					(font
@@ -888,16 +1102,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit" "˚C"
+			(property "Description" "˚C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -915,7 +1120,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Sensor_Temperature_0_0"
+			(symbol "Sensor_Temperature-PnID-Lib_0_0"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy -2.54 0)
@@ -937,7 +1142,7 @@
 					)
 				)
 			)
-			(symbol "Sensor_Temperature_0_1"
+			(symbol "Sensor_Temperature-PnID-Lib_0_1"
 				(circle
 					(center 0 0)
 					(radius 2.54)
@@ -950,7 +1155,7 @@
 					)
 				)
 			)
-			(symbol "Sensor_Temperature_1_1"
+			(symbol "Sensor_Temperature-PnID-Lib_1_1"
 				(pin bidirectional line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -971,7 +1176,7 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:Tank_Slim"
+		(symbol "lamarr_complete-rescue:Tank_Slim-PnID-Lib"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -987,7 +1192,7 @@
 					)
 				)
 			)
-			(property "Value" "Tank_Slim"
+			(property "Value" "PnID-Lib_Tank_Slim"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -1013,16 +1218,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit" "%"
+			(property "Description" "%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1049,7 +1245,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Tank_Slim_0_0"
+			(symbol "Tank_Slim-PnID-Lib_0_0"
 				(polyline
 					(pts
 						(xy 6.35 10.16) (xy 6.35 -10.16)
@@ -1063,7 +1259,7 @@
 					)
 				)
 			)
-			(symbol "Tank_Slim_0_1"
+			(symbol "Tank_Slim-PnID-Lib_0_1"
 				(rectangle
 					(start -6.604 -10.16)
 					(end 6.35 10.16)
@@ -1124,7 +1320,7 @@
 					)
 				)
 			)
-			(symbol "Tank_Slim_1_1"
+			(symbol "Tank_Slim-PnID-Lib_1_1"
 				(arc
 					(start -6.604 -10.16)
 					(mid -0.127 -12.7008)
@@ -1175,7 +1371,7 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:Valve_Manual"
+		(symbol "lamarr_complete-rescue:Valve_Manual-PnID-Lib"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -1191,7 +1387,7 @@
 					)
 				)
 			)
-			(property "Value" "Valve_Manual"
+			(property "Value" "PnID-Lib_Valve_Manual"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1218,7 +1414,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" " "
 				(at 0 0 0)
 				(effects
 					(font
@@ -1227,16 +1423,7 @@
 					(hide yes)
 				)
 			)
-			(property "Action_Reference" " "
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Valve_Manual_0_0"
+			(symbol "Valve_Manual-PnID-Lib_0_0"
 				(polyline
 					(pts
 						(xy -2.54 5.08) (xy 2.54 5.08)
@@ -1262,7 +1449,7 @@
 					)
 				)
 			)
-			(symbol "Valve_Manual_1_1"
+			(symbol "Valve_Manual-PnID-Lib_1_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
@@ -1325,7 +1512,7 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:Valve_Manual_3Way"
+		(symbol "lamarr_complete-rescue:Valve_Manual_3Way-PnID-Lib"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1340,7 +1527,7 @@
 					)
 				)
 			)
-			(property "Value" "Valve_Manual_3Way"
+			(property "Value" "PnID-Lib_Valve_Manual_3Way"
 				(at 0 17.272 0)
 				(effects
 					(font
@@ -1375,7 +1562,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Valve_Manual_3Way_1_1"
+			(symbol "Valve_Manual_3Way-PnID-Lib_1_1"
 				(polyline
 					(pts
 						(xy -2.54 10.922) (xy 2.54 10.922)
@@ -1492,7 +1679,7 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:Valve_Needle"
+		(symbol "lamarr_complete-rescue:Valve_Needle-PnID-Lib"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -1508,7 +1695,7 @@
 					)
 				)
 			)
-			(property "Value" "Valve_Needle"
+			(property "Value" "PnID-Lib_Valve_Needle"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1535,7 +1722,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" " "
 				(at 0 0 0)
 				(effects
 					(font
@@ -1544,16 +1731,7 @@
 					(hide yes)
 				)
 			)
-			(property "Action_Reference" " "
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Valve_Needle_0_0"
+			(symbol "Valve_Needle-PnID-Lib_0_0"
 				(polyline
 					(pts
 						(xy -2.54 5.08) (xy 2.54 5.08)
@@ -1591,7 +1769,7 @@
 					)
 				)
 			)
-			(symbol "Valve_Needle_1_1"
+			(symbol "Valve_Needle-PnID-Lib_1_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
@@ -1654,7 +1832,7 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:Valve_OverPressure"
+		(symbol "lamarr_complete-rescue:Valve_OverPressure-PnID-Lib"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -1670,7 +1848,7 @@
 					)
 				)
 			)
-			(property "Value" "Valve_OverPressure"
+			(property "Value" "PnID-Lib_Valve_OverPressure"
 				(at 0 -5.588 0)
 				(effects
 					(font
@@ -1697,7 +1875,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" " "
 				(at 0 0 0)
 				(effects
 					(font
@@ -1706,16 +1884,7 @@
 					(hide yes)
 				)
 			)
-			(property "Action_Reference" " "
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Valve_OverPressure_0_0"
+			(symbol "Valve_OverPressure-PnID-Lib_0_0"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 5.08)
@@ -1741,7 +1910,7 @@
 					)
 				)
 			)
-			(symbol "Valve_OverPressure_1_1"
+			(symbol "Valve_OverPressure-PnID-Lib_1_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
@@ -1804,7 +1973,7 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:Valve_Servo"
+		(symbol "lamarr_complete-rescue:Valve_Servo-PnID-Lib"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -1820,7 +1989,7 @@
 					)
 				)
 			)
-			(property "Value" "Valve_Servo"
+			(property "Value" "PnID-Lib_Valve_Servo"
 				(at 0 -5.334 0)
 				(effects
 					(font
@@ -1846,16 +2015,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit" "%"
+			(property "Description" "%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1873,7 +2033,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Valve_Servo_0_0"
+			(symbol "Valve_Servo-PnID-Lib_0_0"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 3.81)
@@ -1906,7 +2066,7 @@
 					)
 				)
 			)
-			(symbol "Valve_Servo_0_1"
+			(symbol "Valve_Servo-PnID-Lib_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
@@ -1920,7 +2080,7 @@
 					)
 				)
 			)
-			(symbol "Valve_Servo_1_1"
+			(symbol "Valve_Servo-PnID-Lib_1_1"
 				(polyline
 					(pts
 						(xy 5.08 3.81) (xy 0 0) (xy 5.08 -3.81) (xy 5.08 3.81)
@@ -1971,7 +2131,7 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:Valve_Solenoid_NC"
+		(symbol "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -1987,7 +2147,7 @@
 					)
 				)
 			)
-			(property "Value" "Valve_Solenoid_NC"
+			(property "Value" "PnID-Lib_Valve_Solenoid_NC"
 				(at 0.254 -5.588 0)
 				(effects
 					(font
@@ -2013,16 +2173,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit" "%"
+			(property "Description" "%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2040,7 +2191,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Valve_Solenoid_NC_0_0"
+			(symbol "Valve_Solenoid_NC-PnID-Lib_0_0"
 				(rectangle
 					(start -2.54 3.81)
 					(end 2.54 8.89)
@@ -2061,7 +2212,7 @@
 					)
 				)
 			)
-			(symbol "Valve_Solenoid_NC_0_1"
+			(symbol "Valve_Solenoid_NC-PnID-Lib_0_1"
 				(polyline
 					(pts
 						(xy 0 3.81) (xy 0 0)
@@ -2075,7 +2226,7 @@
 					)
 				)
 			)
-			(symbol "Valve_Solenoid_NC_1_1"
+			(symbol "Valve_Solenoid_NC-PnID-Lib_1_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
@@ -2138,7 +2289,7 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:Valve_Solenoid_NO"
+		(symbol "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -2154,7 +2305,7 @@
 					)
 				)
 			)
-			(property "Value" "Valve_Solenoid_NO"
+			(property "Value" "PnID-Lib_Valve_Solenoid_NO"
 				(at 0.254 -5.588 0)
 				(effects
 					(font
@@ -2180,16 +2331,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit" "%"
+			(property "Description" "%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2207,7 +2349,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Valve_Solenoid_NO_0_0"
+			(symbol "Valve_Solenoid_NO-PnID-Lib_0_0"
 				(rectangle
 					(start -2.54 3.81)
 					(end 2.54 8.89)
@@ -2228,7 +2370,7 @@
 					)
 				)
 			)
-			(symbol "Valve_Solenoid_NO_0_1"
+			(symbol "Valve_Solenoid_NO-PnID-Lib_0_1"
 				(polyline
 					(pts
 						(xy 0 3.81) (xy 0 0)
@@ -2242,7 +2384,7 @@
 					)
 				)
 			)
-			(symbol "Valve_Solenoid_NO_1_1"
+			(symbol "Valve_Solenoid_NO-PnID-Lib_1_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
@@ -2305,7 +2447,7 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:Vent"
+		(symbol "lamarr_complete-rescue:Vent-PnID-Lib"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -2321,7 +2463,7 @@
 					)
 				)
 			)
-			(property "Value" "Vent"
+			(property "Value" "PnID-Lib_Vent"
 				(at 2.54 -1.27 0)
 				(effects
 					(font
@@ -2357,7 +2499,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Vent_0_0"
+			(symbol "Vent-PnID-Lib_0_0"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 0)
@@ -2383,7 +2525,7 @@
 					)
 				)
 			)
-			(symbol "Vent_1_1"
+			(symbol "Vent-PnID-Lib_1_1"
 				(pin bidirectional line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -2404,7 +2546,7 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:Venturi"
+		(symbol "lamarr_complete-rescue:Venturi-PnID-Lib"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -2420,7 +2562,7 @@
 					)
 				)
 			)
-			(property "Value" "Venturi"
+			(property "Value" "PnID-Lib_Venturi"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -2447,16 +2589,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit" "%"
+			(property "Description" "%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2465,7 +2598,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Venturi_0_0"
+			(symbol "Venturi-PnID-Lib_0_0"
 				(rectangle
 					(start -5.08 2.54)
 					(end 5.08 -2.54)
@@ -2502,7 +2635,7 @@
 					)
 				)
 			)
-			(symbol "Venturi_1_1"
+			(symbol "Venturi-PnID-Lib_1_1"
 				(pin bidirectional line
 					(at -5.08 0 0)
 					(length 0)
@@ -2541,370 +2674,215 @@
 				)
 			)
 		)
-	)
-	(junction
-		(at 135.382 71.374)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ad1abe3-61e6-40c0-8bc4-d50069711542")
-	)
-	(junction
-		(at 90.932 162.814)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18801147-658a-466d-8700-6164cf6a3607")
-	)
-	(junction
-		(at 68.326 98.044)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f5b7d21-cfd0-4ee3-92f8-0d9957127ccd")
-	)
-	(junction
-		(at 112.776 162.814)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c793f4a-ae4d-4126-84ca-e253ccdd8649")
+		(symbol "lamarr_complete-rescue:igniter-PnID-Lib"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "igniter"
+				(at -5.08 2.286 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PnID-Lib_igniter"
+				(at -5.08 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ohm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "igniter-PnID-Lib_0_0"
+				(text "I"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "igniter-PnID-Lib_0_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "igniter-PnID-Lib_1_1"
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 135.382 98.044)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4075f76c-5ccf-418d-9831-e156474dd310")
-	)
-	(junction
-		(at 135.382 162.814)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c2dcc1c-334c-4225-b36e-aefa52fc2b99")
-	)
-	(junction
-		(at 135.382 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53a65250-8c8a-4d68-942c-97848f15ee79")
+		(uuid "096cfb6f-ff97-4ffa-9883-b50576e9279f")
 	)
 	(junction
 		(at 270.256 30.988)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a53b740-5fee-4944-99e7-15b30c78e45f")
-	)
-	(junction
-		(at 97.282 162.814)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c13d9b9-b7b0-4495-ac45-661b7e2afe9a")
-	)
-	(junction
-		(at 68.326 162.814)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "667f0277-658b-4756-abd4-fb1d7c649dba")
-	)
-	(junction
-		(at 258.572 30.988)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6769396d-d810-4b9f-bd2c-a7c7d8b4ff3d")
+		(uuid "0ab08662-889c-4956-9d91-585d8f8c1ea1")
 	)
 	(junction
 		(at 135.382 45.212)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d26c880-bdc3-47f4-a709-32a340cb2d20")
+		(uuid "0db4a96f-7482-497c-85c3-b35550f00476")
 	)
 	(junction
-		(at 205.232 30.988)
+		(at 135.382 162.814)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "719c5dfd-6e6f-4234-ba4f-5b9313cb27e0")
+		(uuid "2a23ad30-38f8-4d24-a45c-2f2483893585")
 	)
 	(junction
-		(at 216.154 30.988)
+		(at 68.326 162.814)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "966c4f7b-44c0-46bc-b84a-599ae53176ea")
-	)
-	(junction
-		(at 188.976 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9693ed1b-0721-4b2c-a36e-9b0b1cf1ae92")
-	)
-	(junction
-		(at 68.326 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af9c5279-4070-464f-9f6a-92faaf9a8c7b")
-	)
-	(junction
-		(at 68.326 45.212)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2754661-7a23-4aa7-ada2-30cdb94b5cb8")
-	)
-	(junction
-		(at 106.68 162.814)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ded4f8c8-73fb-4619-bd2a-e15461d74453")
+		(uuid "4bf1d9db-dca0-4fb4-a45f-e67d3b2db23d")
 	)
 	(junction
 		(at 68.326 71.374)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e71742ee-5583-49c4-824e-f3df277a96d9")
+		(uuid "556836f7-d0e6-4dd0-8321-94ed5691e38d")
 	)
-	(wire
-		(pts
-			(xy 106.68 162.814) (xy 112.776 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03d3ed56-755f-41be-9459-cc590e5f4d44")
+	(junction
+		(at 117.348 162.814)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "642219d0-38c2-4103-b499-b051bc12882a")
 	)
-	(wire
-		(pts
-			(xy 112.776 162.814) (xy 118.618 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08c39955-9510-460e-9fd3-0aaba8b6d630")
+	(junction
+		(at 205.232 30.988)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ae9ec4a-ac58-4c2f-b26d-750f0c877127")
 	)
-	(wire
-		(pts
-			(xy 99.314 178.308) (xy 99.314 180.086)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14a08d3a-26d7-40cb-bd48-5ddc8b309fc9")
+	(junction
+		(at 68.326 45.212)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e651132-2a9f-4515-8deb-04a3fdc2fb8c")
 	)
-	(wire
-		(pts
-			(xy 112.776 133.604) (xy 112.776 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15b2f722-0611-40e1-b756-5224bec64001")
+	(junction
+		(at 109.22 162.814)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80dd4bfa-3c6b-492d-9159-095f3211182f")
 	)
-	(wire
-		(pts
-			(xy 140.462 30.988) (xy 146.05 30.988)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16e348cc-b1d9-45cd-8713-dd32f069b606")
+	(junction
+		(at 68.326 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "861f964b-a1f9-475c-a9b9-164c19c5c544")
 	)
-	(wire
-		(pts
-			(xy 90.932 133.604) (xy 90.932 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d290a0a-02fb-4485-b33a-84c7ed1703ae")
+	(junction
+		(at 94.488 162.814)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98b08b28-5ca1-47ba-b9e8-173c6401796a")
 	)
-	(wire
-		(pts
-			(xy 135.382 162.814) (xy 141.986 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f8948d9-4059-40ff-97be-4736bc9e79ec")
+	(junction
+		(at 188.976 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad3cf5c2-0239-4a29-9c8c-c58e7ae7a155")
 	)
-	(wire
-		(pts
-			(xy 258.572 30.988) (xy 235.458 30.988)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22613d01-d6eb-4c72-9414-0d0a0ae19e9f")
+	(junction
+		(at 258.572 30.988)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf0ce69c-5aec-422c-88ce-f5215b7623d3")
 	)
-	(wire
-		(pts
-			(xy 106.68 178.308) (xy 104.394 178.308)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23e66919-55a7-466c-8149-3a77c27f01e9")
+	(junction
+		(at 216.154 30.988)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2a91184-0605-4676-9042-2ecd72b1be75")
 	)
-	(wire
-		(pts
-			(xy 162.052 30.988) (xy 156.21 30.988)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "240e9e76-a27c-487f-b2b5-0231343dc408")
+	(junction
+		(at 85.852 162.814)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5d757d3-8f5e-44bc-89ed-0afc727c926c")
 	)
-	(wire
-		(pts
-			(xy 25.908 30.988) (xy 25.908 36.576)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24a80a71-5f18-41b5-9401-9a85ded24fbc")
+	(junction
+		(at 135.382 71.374)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c639c9a9-215b-446b-9172-6c3e8b999794")
 	)
-	(wire
-		(pts
-			(xy 97.282 178.308) (xy 97.282 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "261fbbdb-eb82-435b-9b05-5fb5d9d29546")
+	(junction
+		(at 135.382 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2bf9982-2935-41db-bb1f-24e87793456c")
 	)
-	(wire
-		(pts
-			(xy 157.226 98.044) (xy 135.382 98.044)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28e4f6d7-e14e-4291-8e2b-4c7b8ed2051a")
-	)
-	(wire
-		(pts
-			(xy 258.572 30.988) (xy 270.256 30.988)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "297e894e-ace0-4123-9255-b52701fa0170")
-	)
-	(wire
-		(pts
-			(xy 68.326 83.82) (xy 68.326 98.044)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b77afee-f495-4967-8f6d-e4254be30e28")
-	)
-	(wire
-		(pts
-			(xy 90.932 162.814) (xy 97.282 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c51fe71-b5c9-49a8-bed4-d6b928386cc1")
-	)
-	(wire
-		(pts
-			(xy 216.154 30.988) (xy 225.298 30.988)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3721323b-a378-4d47-b752-cc19eb56f911")
-	)
-	(wire
-		(pts
-			(xy 47.498 30.988) (xy 41.656 30.988)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "392d979c-1e4f-41e9-b43b-a8deeee981a1")
-	)
-	(wire
-		(pts
-			(xy 68.326 162.814) (xy 74.422 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a157a1a-2f67-49c2-bc01-27b366e35fa0")
-	)
-	(wire
-		(pts
-			(xy 112.776 128.524) (xy 112.776 124.714)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41b61cfd-0c67-486c-9f6f-ef2c7494e041")
-	)
-	(wire
-		(pts
-			(xy 68.326 98.044) (xy 68.326 117.094)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44752335-fea7-4adc-845c-8e16aabf467d")
-	)
-	(wire
-		(pts
-			(xy 106.68 176.53) (xy 106.68 178.308)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44bfcef7-255e-4dda-8a71-e0da6f74c377")
-	)
-	(wire
-		(pts
-			(xy 135.382 45.212) (xy 135.382 51.308)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46a78fec-c7ba-47e0-940f-08d474f7aa94")
-	)
-	(wire
-		(pts
-			(xy 205.232 30.988) (xy 216.154 30.988)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a322368-32c7-42f3-8b8a-2d5dd0961143")
-	)
-	(wire
-		(pts
-			(xy 25.908 49.53) (xy 25.908 46.736)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4efad35c-34b5-4690-a7cb-3ea772047db4")
+	(junction
+		(at 68.326 98.044)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddca5a10-ea33-402a-b6db-bd9a891e8f33")
 	)
 	(polyline
 		(pts
@@ -2912,289 +2890,9 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
-		(uuid "527b13fd-112b-4028-83b7-b06328171dc4")
-	)
-	(wire
-		(pts
-			(xy 46.482 98.044) (xy 68.326 98.044)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ca43b07-328c-4c89-be71-f9040cc65ea7")
-	)
-	(wire
-		(pts
-			(xy 135.382 71.374) (xy 135.382 69.088)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ccbc7cf-aa42-4b0c-bf8c-0e516261dd51")
-	)
-	(wire
-		(pts
-			(xy 106.68 162.814) (xy 106.68 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eed91aa-e3ae-4886-a187-28a6ea167233")
-	)
-	(wire
-		(pts
-			(xy 68.326 45.212) (xy 90.932 45.212)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67c06099-8ab3-497d-a7ae-f4cdd772288a")
-	)
-	(wire
-		(pts
-			(xy 112.776 45.212) (xy 112.776 114.554)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "698a22f1-9174-4b2a-809a-0e0bcf8fc497")
-	)
-	(wire
-		(pts
-			(xy 97.282 178.308) (xy 99.314 178.308)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a963303-5db3-4dff-b732-e78a7ab557f9")
-	)
-	(wire
-		(pts
-			(xy 135.382 98.044) (xy 135.382 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b15ddc8-c679-4bb0-a961-803c917f8a0c")
-	)
-	(wire
-		(pts
-			(xy 216.154 30.988) (xy 216.154 40.894)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b601b04-4509-485a-863d-f2ef1a9deef6")
-	)
-	(wire
-		(pts
-			(xy 84.582 162.814) (xy 90.932 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eaca019-acba-49b5-9eff-bb562cda2b2a")
-	)
-	(wire
-		(pts
-			(xy 62.23 162.814) (xy 68.326 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fe678cc-994d-4919-9bc4-89ed5c346aee")
-	)
-	(wire
-		(pts
-			(xy 31.496 30.988) (xy 25.908 30.988)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78eb9532-aed4-4ff9-9deb-38fe11496e25")
-	)
-	(wire
-		(pts
-			(xy 112.776 45.212) (xy 135.382 45.212)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79a79908-1b5a-4bd5-81c6-61c394a3659e")
-	)
-	(polyline
-		(pts
-			(xy 246.634 14.478) (xy 246.634 17.018)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d09f053-48b2-41ab-8e2f-2a17169628b6")
-	)
-	(wire
-		(pts
-			(xy 242.062 129.54) (xy 235.458 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80b6a495-3191-4b73-a9e5-1b2f88d7bab7")
-	)
-	(wire
-		(pts
-			(xy 68.326 142.494) (xy 68.326 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8225ee3e-debe-4bb2-a5b2-79f0bc5ac63e")
-	)
-	(wire
-		(pts
-			(xy 104.394 178.308) (xy 104.394 180.086)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "834c6472-e171-4ec0-abc8-59c1fd0618fb")
-	)
-	(wire
-		(pts
-			(xy 143.764 71.374) (xy 135.382 71.374)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "881f8dc3-8cca-4bfc-a4d1-bce7377efddd")
-	)
-	(wire
-		(pts
-			(xy 135.382 36.068) (xy 135.382 45.212)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88e78048-8ecb-43df-bd5c-360427f0841f")
-	)
-	(wire
-		(pts
-			(xy 90.932 45.212) (xy 90.932 114.554)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d0f9449-9432-403e-8e56-041045c7888a")
-	)
-	(wire
-		(pts
-			(xy 59.944 71.374) (xy 68.326 71.374)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90eae9ad-f09e-4816-94af-db265362ac16")
-	)
-	(wire
-		(pts
-			(xy 197.612 30.988) (xy 205.232 30.988)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94992907-99a6-4e7e-a399-d5033fdaef52")
-	)
-	(wire
-		(pts
-			(xy 135.382 61.468) (xy 135.382 64.008)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94d1327d-118b-47cc-88da-c08d6cf2c8a1")
-	)
-	(wire
-		(pts
-			(xy 106.68 162.814) (xy 106.68 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0bde980-c6f1-46bf-a873-db47c5271004")
-	)
-	(wire
-		(pts
-			(xy 270.256 30.988) (xy 270.256 30.734)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a253fa79-516f-4764-936d-51011c6027bf")
-	)
-	(wire
-		(pts
-			(xy 90.932 124.714) (xy 90.932 128.524)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2b1dbc3-0a5d-43af-a347-0f7570678e43")
-	)
-	(wire
-		(pts
-			(xy 97.282 166.37) (xy 97.282 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a83c4d3d-7aeb-4437-bf6a-dc4fe462d114")
-	)
-	(wire
-		(pts
-			(xy 156.972 83.82) (xy 135.382 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afd98348-35be-470d-bc9d-1e292e69c231")
-	)
-	(wire
-		(pts
-			(xy 63.246 30.988) (xy 57.658 30.988)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4336c24-df89-4bb1-9b08-6bdbfdfef21b")
+		(uuid "028cc2cb-284c-4c51-83ea-37264e19f859")
 	)
 	(wire
 		(pts
@@ -3204,7 +2902,67 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b8c1df49-903f-4d85-8fba-d3f0d46fc21c")
+		(uuid "0294c2ce-b35c-4850-b3f1-4133a7c5fc18")
+	)
+	(wire
+		(pts
+			(xy 156.972 83.82) (xy 135.382 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05015176-187e-40f8-b0e5-3aeb4e6effd6")
+	)
+	(wire
+		(pts
+			(xy 270.256 30.988) (xy 270.256 30.734)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0535311e-cd13-432c-b645-54f9b13a2d2c")
+	)
+	(wire
+		(pts
+			(xy 117.348 133.604) (xy 117.348 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd08fd8-2066-41c5-946a-912f8ecb966a")
+	)
+	(wire
+		(pts
+			(xy 109.22 156.21) (xy 109.22 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f06ad80-5bc8-47f6-81c0-f3bea3c4b57a")
+	)
+	(wire
+		(pts
+			(xy 25.908 49.53) (xy 25.908 46.736)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe57422-f7eb-494b-afc1-bd0b1ed90edb")
+	)
+	(wire
+		(pts
+			(xy 62.23 162.814) (xy 68.326 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d21485-58ad-4e61-a899-f03cd6549ac4")
 	)
 	(wire
 		(pts
@@ -3214,87 +2972,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bc96cc82-29b7-4d0c-bc51-b0cb3eb9a3d2")
-	)
-	(wire
-		(pts
-			(xy 46.736 83.82) (xy 68.326 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8ccf579-3fdc-4d2f-a751-dd5a178000a8")
-	)
-	(wire
-		(pts
-			(xy 197.612 52.07) (xy 205.232 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9bfd3f5-16c9-46e7-a51d-9e108b370e07")
-	)
-	(wire
-		(pts
-			(xy 68.326 71.374) (xy 68.326 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb5a27bb-3e02-4c12-8c3b-c94fb544bd8d")
-	)
-	(wire
-		(pts
-			(xy 68.326 45.212) (xy 68.326 51.308)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce4c1e5b-269c-4291-aa5e-afd7363c6cfc")
-	)
-	(wire
-		(pts
-			(xy 188.976 162.814) (xy 188.976 159.766)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2eb17d9-28cb-40d0-8764-dd8367f697e1")
-	)
-	(wire
-		(pts
-			(xy 97.282 162.814) (xy 97.282 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4fa0cd6-ba5f-4cd5-b597-f895a41b7712")
-	)
-	(wire
-		(pts
-			(xy 177.546 162.814) (xy 188.976 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d588a421-2591-4f90-b868-094b57161d6d")
-	)
-	(polyline
-		(pts
-			(xy 257.048 17.018) (xy 257.048 14.478)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d81df6e3-8e2b-4d9d-ba19-2855984d87d5")
+		(uuid "23c773ad-9445-4d2c-8c5f-95bf2d26a1dc")
 	)
 	(wire
 		(pts
@@ -3304,107 +2982,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d8c28303-215e-40fe-bd4e-a8a83319c0b3")
-	)
-	(wire
-		(pts
-			(xy 270.256 30.988) (xy 270.256 36.576)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da219cd7-4f0a-40a9-8c45-6fbd5da07047")
-	)
-	(wire
-		(pts
-			(xy 205.232 30.988) (xy 205.232 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de6666fb-95ba-44b9-abd6-3423150337f0")
-	)
-	(wire
-		(pts
-			(xy 135.382 83.82) (xy 135.382 71.374)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1a86341-8da3-4ed1-b53d-b2fb20853bc1")
-	)
-	(wire
-		(pts
-			(xy 128.778 162.814) (xy 135.382 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e39440ca-9725-4ea0-9c1c-7397802ed2f1")
-	)
-	(wire
-		(pts
-			(xy 135.382 142.494) (xy 135.382 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e39a8da5-1b9b-446c-af2d-3a3df48ae40d")
-	)
-	(wire
-		(pts
-			(xy 68.326 36.068) (xy 68.326 45.212)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eff8e808-9c18-428a-a5bc-7c1ea666703a")
-	)
-	(polyline
-		(pts
-			(xy 257.048 14.478) (xy 246.38 14.478)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f31dc7ae-5c59-4448-95da-1410648e3489")
-	)
-	(wire
-		(pts
-			(xy 135.382 98.044) (xy 135.382 117.094)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6be1831-249d-4ccb-b9ad-da1e111a8ce8")
-	)
-	(wire
-		(pts
-			(xy 188.976 129.54) (xy 188.976 134.366)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7a1fd0d-3b7e-4d13-9bda-04c546efae13")
-	)
-	(wire
-		(pts
-			(xy 258.572 129.54) (xy 252.222 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f85985d0-2bd8-4da5-9675-bd490664534b")
+		(uuid "24a92808-a4b5-4f0c-88e0-7c82210d261a")
 	)
 	(wire
 		(pts
@@ -3414,7 +2992,677 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f8f002f7-acc2-4828-afc8-4a2170fa1a9e")
+		(uuid "264c47b9-be9b-4314-8179-ddd843ed17a9")
+	)
+	(wire
+		(pts
+			(xy 188.976 129.54) (xy 188.976 134.366)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f431f9-2358-4613-88eb-eb0a4f86850f")
+	)
+	(wire
+		(pts
+			(xy 197.612 30.988) (xy 205.232 30.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285144cc-00e0-4a3f-a4f3-63187c152ec3")
+	)
+	(wire
+		(pts
+			(xy 117.348 104.902) (xy 117.348 114.554)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e72f32b-c8d7-4715-a8e0-946db97b777c")
+	)
+	(wire
+		(pts
+			(xy 162.052 30.988) (xy 156.21 30.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3499382e-90bf-4296-8979-72679e68898f")
+	)
+	(wire
+		(pts
+			(xy 31.496 30.988) (xy 25.908 30.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355c6104-4a02-48c4-af99-a5bbd4257a5f")
+	)
+	(wire
+		(pts
+			(xy 188.976 162.814) (xy 188.976 159.766)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362448b6-86d5-4192-9da0-e1ce3675fe58")
+	)
+	(wire
+		(pts
+			(xy 216.154 30.988) (xy 225.298 30.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38aec35e-b242-4a7f-a257-6587811de607")
+	)
+	(wire
+		(pts
+			(xy 108.204 192.786) (xy 105.664 192.786)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398d949c-4016-4ac0-84d0-aaa424d72407")
+	)
+	(wire
+		(pts
+			(xy 99.314 178.308) (xy 99.314 180.086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9a6bc6-7866-488a-91b5-5297c17c1107")
+	)
+	(wire
+		(pts
+			(xy 258.572 30.988) (xy 235.458 30.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be94f80-639d-4f18-adaf-79da83f32a13")
+	)
+	(wire
+		(pts
+			(xy 68.326 45.212) (xy 68.326 51.308)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e76f3c-7596-4e73-8758-afba642e2120")
+	)
+	(wire
+		(pts
+			(xy 68.326 36.068) (xy 68.326 45.212)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4455e89a-d2ad-463f-85f5-b97cccaaa386")
+	)
+	(wire
+		(pts
+			(xy 128.778 162.814) (xy 135.382 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4519c99d-6070-42c0-96c3-7b373c7c4333")
+	)
+	(wire
+		(pts
+			(xy 135.382 45.212) (xy 135.382 51.308)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451fa462-19b2-4181-bd25-63729676a30e")
+	)
+	(wire
+		(pts
+			(xy 143.764 71.374) (xy 135.382 71.374)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b337c1-fa1b-4894-9e55-39f36aed629d")
+	)
+	(wire
+		(pts
+			(xy 106.68 45.212) (xy 106.68 104.902)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a9fbed-8de5-4b03-b9a0-d7606998e1bb")
+	)
+	(wire
+		(pts
+			(xy 117.348 162.814) (xy 109.22 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b10862-b38b-47d6-b951-960aff409879")
+	)
+	(wire
+		(pts
+			(xy 68.326 83.82) (xy 68.326 98.044)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c4ca72-e4ed-4bf5-8b7b-c74084746901")
+	)
+	(wire
+		(pts
+			(xy 63.246 30.988) (xy 57.658 30.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2e7367-02b0-4959-bb11-39cdf1868723")
+	)
+	(wire
+		(pts
+			(xy 135.382 61.468) (xy 135.382 64.008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8bbfb7-9dfc-4b18-8fe0-d28800f938a4")
+	)
+	(wire
+		(pts
+			(xy 135.382 162.814) (xy 141.986 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5001643e-ab4f-4677-9fb2-c546e71c0b93")
+	)
+	(wire
+		(pts
+			(xy 117.348 162.814) (xy 118.618 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5007ef51-f836-4435-a6f8-35002c03d4e2")
+	)
+	(wire
+		(pts
+			(xy 117.348 128.524) (xy 117.348 124.714)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "530598e9-0ec0-40d4-9a72-9815ccbc7b93")
+	)
+	(wire
+		(pts
+			(xy 140.462 30.988) (xy 146.05 30.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548520cf-c1f7-4b63-b374-a783354a619f")
+	)
+	(wire
+		(pts
+			(xy 258.572 30.988) (xy 270.256 30.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56050b6d-f2ce-4c4c-9a5f-b1b5ed5c3ca9")
+	)
+	(wire
+		(pts
+			(xy 135.382 142.494) (xy 135.382 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d082506-1dcf-4a83-a1be-1bb3d114629b")
+	)
+	(wire
+		(pts
+			(xy 216.154 30.988) (xy 216.154 40.894)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d865c8d-52bd-4845-a0a8-6935f795c14b")
+	)
+	(polyline
+		(pts
+			(xy 257.048 14.478) (xy 246.38 14.478)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5f85c1cb-58f5-48ef-8db4-e9c52d887ef0")
+	)
+	(wire
+		(pts
+			(xy 47.498 30.988) (xy 41.656 30.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636af346-c8a1-4c15-863e-4b38c981bea6")
+	)
+	(wire
+		(pts
+			(xy 85.852 124.714) (xy 85.852 128.524)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1689cb-5d31-4c17-ad67-0bf80c709e94")
+	)
+	(wire
+		(pts
+			(xy 242.062 129.54) (xy 235.458 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8e6349-c14e-4320-b594-ec9fd08128bd")
+	)
+	(wire
+		(pts
+			(xy 25.908 30.988) (xy 25.908 36.576)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9ad933-3c4c-4266-9d8f-313546c18d0c")
+	)
+	(wire
+		(pts
+			(xy 84.582 162.814) (xy 85.852 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2fab49-aa9c-4dad-b98e-21bacb0498fe")
+	)
+	(wire
+		(pts
+			(xy 197.612 52.07) (xy 205.232 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6a6337-806a-413a-8b83-37cea4262984")
+	)
+	(wire
+		(pts
+			(xy 104.394 178.308) (xy 104.394 180.086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4d16a4-fecd-4e73-81e7-f6d5763e6914")
+	)
+	(wire
+		(pts
+			(xy 46.482 98.044) (xy 68.326 98.044)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e15860-8494-4990-a68b-bd76a9e8cec0")
+	)
+	(wire
+		(pts
+			(xy 96.52 104.902) (xy 85.852 104.902)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d342bae-992a-4ef2-8e44-3a89702a6f6e")
+	)
+	(wire
+		(pts
+			(xy 109.22 176.53) (xy 109.22 178.308)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "910adcc8-1a76-4d81-9fac-d7d2ce45d7c3")
+	)
+	(wire
+		(pts
+			(xy 205.232 30.988) (xy 216.154 30.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e15ad6-9d21-44ef-8471-8c51a7158648")
+	)
+	(wire
+		(pts
+			(xy 205.232 30.988) (xy 205.232 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9337d218-ecba-4b37-9b6b-3a95b6a84a64")
+	)
+	(wire
+		(pts
+			(xy 68.326 98.044) (xy 68.326 117.094)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e5a8a6-e10a-4c16-8e07-b8721737b439")
+	)
+	(wire
+		(pts
+			(xy 135.382 83.82) (xy 135.382 71.374)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95214036-c81e-4899-a79a-985f860b42c1")
+	)
+	(wire
+		(pts
+			(xy 94.488 156.21) (xy 94.488 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961627a3-c88f-4685-895a-1ed3c0786844")
+	)
+	(wire
+		(pts
+			(xy 68.326 142.494) (xy 68.326 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984213d1-89d5-43b4-b2ea-1c36b388e2b8")
+	)
+	(wire
+		(pts
+			(xy 68.326 162.814) (xy 74.422 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c10c9c8-770a-4a77-aa14-07bddce8d26b")
+	)
+	(wire
+		(pts
+			(xy 177.546 162.814) (xy 188.976 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6d8038-d7f8-489b-be4d-84149a6ff4b3")
+	)
+	(wire
+		(pts
+			(xy 106.68 45.212) (xy 135.382 45.212)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7046bc-4141-4bca-b08c-bc655750e556")
+	)
+	(wire
+		(pts
+			(xy 109.22 162.814) (xy 109.22 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e97751c-6562-477e-8d47-95587e17c79c")
+	)
+	(wire
+		(pts
+			(xy 94.488 178.308) (xy 99.314 178.308)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb4b9a9-f35b-4713-971a-42c0e5062979")
+	)
+	(wire
+		(pts
+			(xy 106.68 104.902) (xy 117.348 104.902)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2899525-5f85-40f6-89eb-a43d33150581")
+	)
+	(wire
+		(pts
+			(xy 96.52 45.212) (xy 96.52 104.902)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d51e98-bc28-4637-bf35-dc865f27641a")
+	)
+	(wire
+		(pts
+			(xy 135.382 36.068) (xy 135.382 45.212)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20aface-2a4a-4c3f-bf77-635886b103b1")
+	)
+	(wire
+		(pts
+			(xy 85.852 104.902) (xy 85.852 114.554)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2cc7c49-08fd-40ba-8640-4ddbd2ee8f3e")
+	)
+	(wire
+		(pts
+			(xy 270.256 30.988) (xy 270.256 36.576)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39d805b-71b6-427f-92be-8ce92886541d")
+	)
+	(wire
+		(pts
+			(xy 85.852 162.814) (xy 94.488 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ab1c44-4528-4a9f-92dc-1255c745eead")
+	)
+	(wire
+		(pts
+			(xy 68.326 45.212) (xy 96.52 45.212)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0c02c7-0aea-4d5f-a5a6-1429a3534a52")
+	)
+	(wire
+		(pts
+			(xy 135.382 71.374) (xy 135.382 69.088)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb3ae0e-7d0b-4f84-bdd1-87ea54915807")
+	)
+	(wire
+		(pts
+			(xy 59.944 71.374) (xy 68.326 71.374)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c786bdc9-02bd-484f-85eb-6efd1186a08a")
+	)
+	(polyline
+		(pts
+			(xy 246.634 14.478) (xy 246.634 17.018)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c9cfd5ef-0435-4e35-b3c5-a7277f7dc523")
+	)
+	(wire
+		(pts
+			(xy 157.226 98.044) (xy 135.382 98.044)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d284a252-a9bf-454b-965c-7aae142ce7df")
+	)
+	(wire
+		(pts
+			(xy 46.736 83.82) (xy 68.326 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68b32da-a31b-41dd-a2e7-33662a8f6bf6")
+	)
+	(wire
+		(pts
+			(xy 94.488 162.814) (xy 94.488 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea8a284-4a2c-41c2-b405-7aecba7b06fe")
+	)
+	(wire
+		(pts
+			(xy 135.382 98.044) (xy 135.382 117.094)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e1164d-ac73-45b0-af80-18a61dad21ee")
+	)
+	(wire
+		(pts
+			(xy 85.852 133.604) (xy 85.852 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e480f31a-2c43-497a-bd97-acad6b00d4cc")
+	)
+	(polyline
+		(pts
+			(xy 257.048 17.018) (xy 257.048 14.478)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e6516fa2-21f9-44d3-8611-f731124f874a")
+	)
+	(wire
+		(pts
+			(xy 68.326 71.374) (xy 68.326 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a57735-fd41-4ebe-86ea-787de2bac97f")
+	)
+	(wire
+		(pts
+			(xy 135.382 98.044) (xy 135.382 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f889f2-a714-46f6-a961-4962095333ff")
 	)
 	(wire
 		(pts
@@ -3424,10 +3672,40 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fa421d94-6d66-473c-905c-591b4f03c0db")
+		(uuid "eb020718-fa10-49e2-96ad-f7353c27ab12")
+	)
+	(wire
+		(pts
+			(xy 258.572 129.54) (xy 252.222 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef4c0b0-06b6-4999-bc11-8c608460f441")
+	)
+	(wire
+		(pts
+			(xy 104.394 178.308) (xy 109.22 178.308)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40faf17-bf41-47c4-b6c5-5f7e6ffab9fa")
+	)
+	(wire
+		(pts
+			(xy 94.488 178.308) (xy 94.488 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf93c3d-c0b5-46e2-a844-87b8c80bdc47")
 	)
 	(symbol
-		(lib_id "PnID-Lib:GasBottle")
+		(lib_id "lamarr_complete-rescue:GasBottle-PnID-Lib")
 		(at 25.908 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3480,11 +3758,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "81eb4a84-41c4-4a5a-b923-8c7add87ce16")
+			(uuid "d72779e7-319c-4ad9-9a79-842bb37c5c2e")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "N2")
 					(unit 1)
 				)
@@ -3492,7 +3770,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Sensor_Pressure")
+		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
 		(at 143.002 45.212 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3575,11 +3853,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "4fa19a1d-11cb-40f4-9e02-f87b7c90ada4")
+			(uuid "f3b5c478-0ca7-4fa6-b828-66bed3e98530")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_pressurant_pressure:sensor")
 					(unit 1)
 				)
@@ -3587,7 +3865,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Sensor_Pressure")
+		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
 		(at 60.706 45.212 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3605,7 +3883,7 @@
 			)
 		)
 		(property "Value" "fuel_pressurant_pressure:sensor"
-			(at 47.244 45.212 0)
+			(at 43.688 45.212 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3668,11 +3946,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "f0032d53-129d-4479-ae08-38c717a34221")
+			(uuid "471925c1-5784-4de6-8bb4-be7a270fe591")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_pressurant_pressure")
 					(unit 1)
 				)
@@ -3680,7 +3958,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NC")
+		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
 		(at 135.382 56.388 90)
 		(mirror x)
 		(unit 1)
@@ -3700,7 +3979,7 @@
 			)
 		)
 		(property "Value" "ox_pressurize_solenoid:sensor"
-			(at 114.046 56.388 90)
+			(at 112.522 56.388 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3754,14 +4033,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "817f9bdb-110c-4ca7-8524-226810abea38")
+			(uuid "8766c163-cfa2-4134-9c7b-2709d8f02ef5")
 		)
 		(pin "~"
-			(uuid "e4f96837-c1a5-4fb7-8d01-7de6cdb6ee65")
+			(uuid "9469c0dc-2d5d-40d9-9a71-8dbffc96fd1b")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_pressurize_solenoid")
 					(unit 1)
 				)
@@ -3769,7 +4048,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NC")
+		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
 		(at 68.326 56.388 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3842,14 +4122,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "c9b6e54a-f3a6-4fb1-ad41-a3c047843c34")
+			(uuid "86da2117-8668-41e8-9c6b-4d94dff065fc")
 		)
 		(pin "~"
-			(uuid "c245d786-54e3-4906-b722-a26528b7e4f8")
+			(uuid "55775bf7-6ef1-4f95-89d8-0fa902408d42")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_pressurize_solenoid")
 					(unit 1)
 				)
@@ -3857,8 +4137,9 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NC")
-		(at 112.776 119.634 90)
+		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
+		(at 117.348 119.634 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3866,7 +4147,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dc5fe4")
 		(property "Reference" "ox_purge_solenoid"
-			(at 117.2972 119.0752 90)
+			(at 121.8692 119.0752 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3876,7 +4157,7 @@
 			)
 		)
 		(property "Value" "ox_purge_solenoid:sensor"
-			(at 117.602 119.888 90)
+			(at 122.174 109.982 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3885,7 +4166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 112.776 119.634 0)
+			(at 117.348 119.634 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3894,7 +4175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 112.776 119.634 0)
+			(at 117.348 119.634 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3903,7 +4184,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 112.776 119.634 0)
+			(at 117.348 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +4193,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 112.776 119.634 0)
+			(at 117.348 119.634 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3921,7 +4202,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 112.776 119.634 0)
+			(at 117.348 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,14 +4211,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "c244c8fc-33cc-4444-bf93-3c93031b6723")
+			(uuid "58ad47c7-0d84-41b7-9193-27e06475ae33")
 		)
 		(pin "~"
-			(uuid "900a585c-fca4-4a00-bc39-572f91d4f1e7")
+			(uuid "813c9dd6-e7d2-41d8-821b-451226289120")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_purge_solenoid")
 					(unit 1)
 				)
@@ -3945,8 +4226,9 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NC")
-		(at 90.932 119.634 270)
+		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
+		(at 85.852 119.634 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3954,7 +4236,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dc62ca")
 		(property "Reference" "fuel_purge_solenoid"
-			(at 100.5332 120.1928 90)
+			(at 95.4532 120.1928 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3964,7 +4246,7 @@
 			)
 		)
 		(property "Value" "fuel_purge_solenoid:sensor"
-			(at 85.598 119.634 90)
+			(at 80.772 110.236 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3973,7 +4255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.932 119.634 0)
+			(at 85.852 119.634 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3982,7 +4264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.932 119.634 0)
+			(at 85.852 119.634 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3991,7 +4273,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.932 119.634 0)
+			(at 85.852 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +4282,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 90.932 119.634 0)
+			(at 85.852 119.634 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4009,7 +4291,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 90.932 119.634 0)
+			(at 85.852 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,14 +4300,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "4d50b380-61bc-495c-900a-bda7d09d1ae2")
+			(uuid "2db0fa2f-da20-4a44-8b56-d1ff884332b2")
 		)
 		(pin "~"
-			(uuid "3826c97d-fc23-4e37-8831-8de65ec86b52")
+			(uuid "1c18cbba-cc37-4df4-b104-922759384a7c")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_purge_solenoid")
 					(unit 1)
 				)
@@ -4033,7 +4315,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:CheckValve")
+		(lib_name "lamarr_complete-rescue:CheckValve-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:CheckValve-PnID-Lib")
 		(at 135.382 66.548 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4088,14 +4371,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "a0336781-bf7c-401a-b97b-1bc8a8a16049")
+			(uuid "816badd4-f09d-4be2-be46-cc4c2400369e")
 		)
 		(pin "~"
-			(uuid "f7f1c7dd-cc4a-4ddc-b491-719cb9bf368c")
+			(uuid "251760a6-0d3a-46a7-88dc-1aa9e5f9ecea")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "CheckValve?")
 					(unit 1)
 				)
@@ -4103,7 +4386,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Tank_Slim")
+		(lib_name "lamarr_complete-rescue:Tank_Slim-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Tank_Slim-PnID-Lib")
 		(at 135.382 129.794 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4184,14 +4468,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "94ee3aed-ea59-4c9e-8039-b69148cb7b27")
+			(uuid "caf793b7-c957-4a32-977a-5b22dfec9daa")
 		)
 		(pin "~"
-			(uuid "62d6e61f-286a-44a6-b884-b9985c2f24b8")
+			(uuid "21f5197b-5fff-4362-847a-b32b938e2f8f")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "LOX")
 					(unit 1)
 				)
@@ -4199,7 +4483,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Tank_Slim")
+		(lib_name "lamarr_complete-rescue:Tank_Slim-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Tank_Slim-PnID-Lib")
 		(at 68.326 129.794 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4280,14 +4565,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "3bf68270-b5fc-48bb-8c81-15fee98b5618")
+			(uuid "8b52fb1a-8f9d-4ca5-b8f2-fa8aa6a81e60")
 		)
 		(pin "~"
-			(uuid "b6632247-4440-4b41-af25-f56f8f77f6cf")
+			(uuid "41abe28a-738c-4257-9d15-e068d1253bd5")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "Fuel")
 					(unit 1)
 				)
@@ -4295,7 +4580,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Engine")
+		(lib_name "lamarr_complete-rescue:Engine-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Engine-PnID-Lib")
 		(at 101.854 182.626 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4358,20 +4644,20 @@
 			)
 		)
 		(pin "~"
-			(uuid "ec7f9781-a086-456b-b90c-d2060fc8b7d1")
+			(uuid "20bf9067-aabb-4d3a-92e3-d0e5d0e49393")
 		)
 		(pin "~"
-			(uuid "21ea3ecb-7430-45ff-bced-4c65fd73d2c8")
+			(uuid "0eb70612-87ae-4a4b-8971-1fb6f1ddca1b")
 		)
 		(pin "~"
-			(uuid "477f8dd7-3305-4fb9-a7c2-b186882a82fd")
+			(uuid "b44d7f43-769a-4672-8ca3-9b3a6436b05a")
 		)
 		(pin "~"
-			(uuid "1b4c0151-925b-4adb-9d0a-36211eebca30")
+			(uuid "a78b9e07-e1ca-460b-951b-f3720a6585c8")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "engine")
 					(unit 1)
 				)
@@ -4379,8 +4665,9 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:CheckValve")
-		(at 90.932 131.064 270)
+		(lib_name "lamarr_complete-rescue:CheckValve-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:CheckValve-PnID-Lib")
+		(at 85.852 131.064 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4388,7 +4675,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dcd310")
 		(property "Reference" "CheckValve?"
-			(at 94.1832 131.064 90)
+			(at 89.1032 131.064 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4398,7 +4685,7 @@
 			)
 		)
 		(property "Value" "CheckValve"
-			(at 86.614 131.064 0)
+			(at 81.534 131.064 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4407,7 +4694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.932 131.064 0)
+			(at 85.852 131.064 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4416,7 +4703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.932 131.064 0)
+			(at 85.852 131.064 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4425,7 +4712,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.932 131.064 0)
+			(at 85.852 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,14 +4721,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "f5c3a8fd-efab-4400-9d6e-bcc57ac34fe4")
+			(uuid "9f0f2b06-d13e-4d58-93fc-034633144116")
 		)
 		(pin "~"
-			(uuid "6c28a497-4565-43c2-9b65-623c6b3f85b3")
+			(uuid "2225d5a0-15e3-4da8-89e1-47429ff0f9cd")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "CheckValve?")
 					(unit 1)
 				)
@@ -4449,8 +4736,9 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:CheckValve")
-		(at 112.776 131.064 270)
+		(lib_name "lamarr_complete-rescue:CheckValve-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:CheckValve-PnID-Lib")
+		(at 117.348 131.064 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4458,7 +4746,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dcd833")
 		(property "Reference" "CheckValve?"
-			(at 116.0272 131.064 90)
+			(at 120.5992 131.064 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4468,7 +4756,7 @@
 			)
 		)
 		(property "Value" "CheckValve"
-			(at 108.458 131.064 0)
+			(at 113.03 131.064 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4477,7 +4765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 112.776 131.064 0)
+			(at 117.348 131.064 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4486,7 +4774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 112.776 131.064 0)
+			(at 117.348 131.064 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4495,7 +4783,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 112.776 131.064 0)
+			(at 117.348 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,14 +4792,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "561ed508-604f-45bc-bbc2-93166a2238e3")
+			(uuid "b20d8d21-32f6-4bb1-acc4-a90cb1262495")
 		)
 		(pin "~"
-			(uuid "811f31a0-5e09-4c6a-804a-df4b1d12a86f")
+			(uuid "490205d0-d954-4ed5-b25f-53b8b03ddcd8")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "CheckValve?")
 					(unit 1)
 				)
@@ -4519,8 +4807,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Sensor_Pressure")
-		(at 97.282 148.59 90)
+		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
+		(at 94.488 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4528,7 +4816,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dcdb31")
 		(property "Reference" "fuel_venturi_pressure"
-			(at 100.5332 149.6314 90)
+			(at 97.7392 149.6314 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4538,7 +4826,7 @@
 			)
 		)
 		(property "Value" "fuel_venturi_pressure:sensor"
-			(at 97.282 143.764 90)
+			(at 94.488 143.764 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4546,7 +4834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.282 148.59 0)
+			(at 94.488 148.59 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4555,7 +4843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.282 148.59 0)
+			(at 94.488 148.59 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4564,7 +4852,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.282 148.59 0)
+			(at 94.488 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,7 +4861,7 @@
 			)
 		)
 		(property "Unit" "bar"
-			(at 97.282 148.59 0)
+			(at 94.488 148.59 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4582,7 +4870,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 97.282 148.59 0)
+			(at 94.488 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4591,7 +4879,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 100.5332 152.4254 90)
+			(at 97.7392 152.4254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,11 +4889,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "85a76ad5-c3c6-43fc-ac26-0839e1c3d8ef")
+			(uuid "38160e8b-43a6-458a-b20c-e784b3c82da5")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_venturi_pressure")
 					(unit 1)
 				)
@@ -4613,8 +4901,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Sensor_Pressure")
-		(at 106.68 148.59 90)
+		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
+		(at 109.22 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4622,7 +4910,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dce2f5")
 		(property "Reference" "ox_venturi_pressure"
-			(at 109.9312 149.6314 90)
+			(at 112.4712 149.6314 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4632,7 +4920,7 @@
 			)
 		)
 		(property "Value" "ox_venturi_pressure:sensor"
-			(at 106.68 143.764 90)
+			(at 109.22 143.764 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4640,7 +4928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 148.59 0)
+			(at 109.22 148.59 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4649,7 +4937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 148.59 0)
+			(at 109.22 148.59 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4658,7 +4946,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 148.59 0)
+			(at 109.22 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,7 +4955,7 @@
 			)
 		)
 		(property "Unit" "bar"
-			(at 106.68 148.59 0)
+			(at 109.22 148.59 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4676,7 +4964,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 106.68 148.59 0)
+			(at 109.22 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +4973,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 109.9312 152.4254 90)
+			(at 112.4712 152.4254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,11 +4983,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "a037dcb0-122f-4c62-a76a-eeef7980e1c8")
+			(uuid "1953be4c-74ff-4e70-a34f-ba0a7637410e")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_venturi_pressure")
 					(unit 1)
 				)
@@ -4707,7 +4995,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Sensor_Pressure")
+		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
 		(at 113.284 185.166 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4787,11 +5075,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "e746dc13-d2d1-44c6-97eb-ec3e6bd4dc54")
+			(uuid "fd117216-3ad4-4b7c-b61e-6ac5f05fdc4f")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "chamber_pressure")
 					(unit 1)
 				)
@@ -4799,7 +5087,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Sensor_Temperature")
+		(lib_id "lamarr_complete-rescue:Sensor_Temperature-PnID-Lib")
 		(at 149.352 119.634 0)
 		(mirror x)
 		(unit 1)
@@ -4872,11 +5160,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "343b39f8-cb2e-494b-897b-4ded3a987b74")
+			(uuid "b54ee1be-1ca0-4732-a021-87e48fc6006c")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "top_tank_temp")
 					(unit 1)
 				)
@@ -4884,7 +5172,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Manual")
+		(lib_name "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
 		(at 147.066 162.814 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4947,14 +5236,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "3c032526-f5b4-4233-a380-d6105b4fdcbb")
+			(uuid "245b5945-0281-4c3b-9fc1-2a4d1e6bf3af")
 		)
 		(pin "~"
-			(uuid "b192f3eb-c18f-47c1-b966-8b6df79859ef")
+			(uuid "14c7c9a5-2791-42d6-a1e9-e8f8816a86b5")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_manual_tanking_valve")
 					(unit 1)
 				)
@@ -4962,7 +5251,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:QuickConnect_Half")
+		(lib_id "lamarr_complete-rescue:QuickConnect_Half-PnID-Lib")
 		(at 159.766 162.814 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5018,11 +5307,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "31d51f3e-4238-4e14-887e-49ad052d6170")
+			(uuid "cfb14677-c508-48d9-b9fc-e05aecbc4b8b")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_quick_connect")
 					(unit 1)
 				)
@@ -5030,7 +5319,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Vent")
+		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
 		(at 122.682 30.988 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5084,11 +5373,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "e7cf8099-5039-4093-bdb2-ec49770c022f")
+			(uuid "60b7d91b-1856-4dc8-94e2-2944f310436e")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -5096,7 +5385,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Vent")
+		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
 		(at 81.026 30.988 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5151,11 +5440,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "01acda0a-2c72-455f-bb3f-763d08ff33c2")
+			(uuid "5d4e7171-8ad8-43a8-8490-b1ac11ffe413")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -5163,8 +5452,9 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Venturi")
-		(at 106.68 171.45 270)
+		(lib_name "lamarr_complete-rescue:Venturi-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Venturi-PnID-Lib")
+		(at 109.22 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5172,7 +5462,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e1016f")
 		(property "Reference" "ox_venturi"
-			(at 109.9312 171.45 90)
+			(at 112.4712 171.45 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5181,7 +5471,7 @@
 			)
 		)
 		(property "Value" "ox_venturi:sensor"
-			(at 111.506 171.45 90)
+			(at 114.046 171.45 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5190,7 +5480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 171.45 0)
+			(at 109.22 171.45 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5199,7 +5489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 171.45 0)
+			(at 109.22 171.45 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5208,7 +5498,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 171.45 0)
+			(at 109.22 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5507,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at -56.642 67.31 0)
+			(at -54.102 67.31 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5226,14 +5516,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "510156a1-3520-48fe-ba74-3c1a5afd6d0f")
+			(uuid "cb0f6d21-951e-4897-9718-c45cd8ff1738")
 		)
 		(pin "~"
-			(uuid "4789069e-0678-4606-ab2f-f509afeca2a9")
+			(uuid "b627e415-5081-4da1-89fe-79eb597dd8f5")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_venturi")
 					(unit 1)
 				)
@@ -5241,8 +5531,9 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Venturi")
-		(at 97.282 171.45 270)
+		(lib_name "lamarr_complete-rescue:Venturi-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Venturi-PnID-Lib")
+		(at 94.488 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5250,7 +5541,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e10afb")
 		(property "Reference" "fuel_venturi"
-			(at 91.948 171.45 90)
+			(at 89.154 171.45 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5260,7 +5551,7 @@
 			)
 		)
 		(property "Value" "fuel_venturi:sensor"
-			(at 91.948 171.45 90)
+			(at 89.154 171.45 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5269,7 +5560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.282 171.45 0)
+			(at 94.488 171.45 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5278,7 +5569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.282 171.45 0)
+			(at 94.488 171.45 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5287,7 +5578,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.282 171.45 0)
+			(at 94.488 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +5587,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 97.282 171.45 0)
+			(at 94.488 171.45 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5305,14 +5596,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "ec043243-c272-4498-9ed9-608f8d6edd1c")
+			(uuid "59850169-19ea-4869-99ef-24161795fe2c")
 		)
 		(pin "~"
-			(uuid "141a4292-754a-4587-a81a-8e17fc92294b")
+			(uuid "1e28c121-bca9-46ab-a2d8-dd16e6602805")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_venturi")
 					(unit 1)
 				)
@@ -5320,7 +5611,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Manual")
+		(lib_name "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
 		(at 25.908 41.656 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5384,14 +5676,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "0ca85f45-f147-49ac-a367-768fe2fd7146")
+			(uuid "903bfe3a-bad7-4c3d-a20b-013fa202e1c4")
 		)
 		(pin "~"
-			(uuid "354ed403-f9f1-42fa-a553-a33825182475")
+			(uuid "0a698c6c-a1c8-4ae7-b324-b1fd2d8f0a8c")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_manual_valve")
 					(unit 1)
 				)
@@ -5399,7 +5691,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:PressureRegulator")
+		(lib_name "lamarr_complete-rescue:PressureRegulator-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:PressureRegulator-PnID-Lib")
 		(at 36.576 30.988 0)
 		(mirror y)
 		(unit 1)
@@ -5454,14 +5747,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "bb6f8f3b-5ad0-410d-b440-976e28d74202")
+			(uuid "a564e054-9ae9-45e6-8eeb-c2dff2fa00b8")
 		)
 		(pin "~"
-			(uuid "0b1baac2-e004-4e3d-a48c-5ae9fe78c62d")
+			(uuid "09f77999-1822-437e-b94e-49e4ffbd49e6")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_pressure_regulator")
 					(unit 1)
 				)
@@ -5469,7 +5762,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Needle")
+		(lib_name "lamarr_complete-rescue:Valve_Needle-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Needle-PnID-Lib")
 		(at 52.578 30.988 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5532,14 +5826,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "5131b231-5695-49d0-89e7-9c6303997880")
+			(uuid "f7b214a8-056a-47ab-8bb7-bab355d91e4a")
 		)
 		(pin "~"
-			(uuid "e48dc0a0-059a-4b6a-8c3f-b9c8e10d3c10")
+			(uuid "2c72e41a-5fd9-4cf1-8f7b-4d7e0463a583")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_needle_valve")
 					(unit 1)
 				)
@@ -5547,7 +5841,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Manual_3Way")
+		(lib_name "lamarr_complete-rescue:Valve_Manual_3Way-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Manual_3Way-PnID-Lib")
 		(at 68.326 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5601,17 +5896,17 @@
 			)
 		)
 		(pin "~"
-			(uuid "0f259893-1b30-4619-965a-5e7a5b737e22")
+			(uuid "51480d57-6412-428d-8625-b1b6757882b7")
 		)
 		(pin "~"
-			(uuid "66dcd7c9-202c-47b2-9fa7-c5c8bf103158")
+			(uuid "36451e1b-07e2-414a-b3e8-4ee7d983942f")
 		)
 		(pin "~"
-			(uuid "d2ae7c99-220e-40cf-96d0-d5eefe1b7ae9")
+			(uuid "7b09b39e-9eb9-4ba6-9a1d-61633563b2cc")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_manual_3way")
 					(unit 1)
 				)
@@ -5619,7 +5914,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_OverPressure")
+		(lib_name "lamarr_complete-rescue:Valve_OverPressure-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_OverPressure-PnID-Lib")
 		(at 41.656 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5682,14 +5978,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "1a292d43-bc70-4c1e-b585-ed14d1b9d95e")
+			(uuid "168a6dad-1363-45ac-9e0e-2be7a87d9d16")
 		)
 		(pin "~"
-			(uuid "529386c2-1272-4221-9709-489a9db20485")
+			(uuid "87db6f05-7c01-4b70-a90d-1b5d3e37cadc")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_safety_valve")
 					(unit 1)
 				)
@@ -5697,7 +5993,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NO")
+		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
 		(at 54.864 71.374 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5768,14 +6065,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "8d9ba463-1653-4b61-858e-4356be353855")
+			(uuid "84f03672-4b91-4d38-bfec-ac3ffe9a941b")
 		)
 		(pin "~"
-			(uuid "442e3ec8-c5eb-4262-b044-775caccb9900")
+			(uuid "9ca1d3ea-60c1-470e-a4ae-1b7185dab7c4")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_depressurize_solenoid")
 					(unit 1)
 				)
@@ -5783,7 +6080,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Manual")
+		(lib_name "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
 		(at 57.15 162.814 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5846,14 +6144,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "6ea4c2e6-7da1-4154-9b35-cb8dec9cc257")
+			(uuid "cb197f1e-bff7-4d1b-a451-97db5455d259")
 		)
 		(pin "~"
-			(uuid "9eb7bfcf-1c90-4dd2-b856-c645ab44a460")
+			(uuid "b946fb56-6228-4f2f-b0e2-c47e015a24bb")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_manual_tanking_valve")
 					(unit 1)
 				)
@@ -5861,7 +6159,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:QuickConnect_Half")
+		(lib_id "lamarr_complete-rescue:QuickConnect_Half-PnID-Lib")
 		(at 44.45 162.814 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5915,11 +6213,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "b8fef6b6-bcf2-4b96-ac09-fd7470940703")
+			(uuid "6657a3fc-b8d7-4a09-ae91-677c4866364e")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_quick_connect")
 					(unit 1)
 				)
@@ -5927,7 +6225,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Manual")
+		(lib_name "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
 		(at 41.402 98.044 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5990,14 +6289,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "ab44f747-d526-4247-bd94-d03d2687fd5f")
+			(uuid "de2733dd-ac33-45c0-999b-5a55ebd4145b")
 		)
 		(pin "~"
-			(uuid "6c1fcbb7-784f-4fe7-beb0-9f82387ec980")
+			(uuid "8eccba2b-1576-486f-ac4c-cbd4d1fc27d9")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_manual_vent_valve")
 					(unit 1)
 				)
@@ -6005,7 +6304,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Vent")
+		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
 		(at 42.164 71.374 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6059,11 +6358,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "4296d6fb-fccf-44a6-bbc1-ca99ee6ce891")
+			(uuid "9cb2b42e-7fa5-4ad4-bb08-64454514fb11")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -6071,7 +6370,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Vent")
+		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
 		(at 28.956 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6125,11 +6424,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "63e045d5-fed3-4800-8a19-dc7075a5caa9")
+			(uuid "78921298-ce87-43e1-acaf-9ce3cf0dacc8")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -6137,7 +6436,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Vent")
+		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
 		(at 28.702 98.044 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6191,11 +6490,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "3bd4257c-5631-41b5-9bd1-3dba970c5506")
+			(uuid "47197643-e32b-48cb-bb62-b0bd81a20766")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -6203,7 +6502,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Servo")
+		(lib_name "lamarr_complete-rescue:Valve_Servo-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Servo-PnID-Lib")
 		(at 79.502 162.814 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6221,7 +6521,7 @@
 			)
 		)
 		(property "Value" "fuel_main_valve:sensor"
-			(at 79.502 151.638 0)
+			(at 79.756 170.942 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6274,14 +6574,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "c72dd660-08e7-444d-84b4-2786a3e287f3")
+			(uuid "fb6bb4ef-bb43-41e9-b3c7-92f8d0e23618")
 		)
 		(pin "~"
-			(uuid "68641c63-dbc0-4664-a908-829ed0f8aebb")
+			(uuid "1f7ccbdb-12db-4713-b549-48053dff8c5e")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_main_valve")
 					(unit 1)
 				)
@@ -6289,7 +6589,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:PressureRegulator")
+		(lib_name "lamarr_complete-rescue:PressureRegulator-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:PressureRegulator-PnID-Lib")
 		(at 247.142 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6343,14 +6644,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "16f4476f-5736-4759-aef6-008412aaaf03")
+			(uuid "9ecc2ac3-0987-4861-9abb-a72414f54a0e")
 		)
 		(pin "~"
-			(uuid "3fad261b-cda8-4d1b-8346-316098d7c081")
+			(uuid "4393b297-4501-41fb-b8b4-b41ea7c27ade")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "DewarPressureRegulator?")
 					(unit 1)
 				)
@@ -6358,7 +6659,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NC")
+		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
 		(at 230.378 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6366,7 +6668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e7394d")
-		(property "Reference" "dewar_pressurant_tanking_valve?"
+		(property "Reference" "dewar_pressurize_solenoid?"
 			(at 230.378 118.2878 0)
 			(effects
 				(font
@@ -6375,7 +6677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "dewar_pressurant_tanking_valve:sensor"
+		(property "Value" "dewar_pressurize_solenoid:sensor"
 			(at 230.378 117.602 0)
 			(effects
 				(font
@@ -6429,22 +6731,23 @@
 			)
 		)
 		(pin "~"
-			(uuid "3d4bad4b-8b0a-4470-ae7e-48ab1c71e800")
+			(uuid "c37e35b8-9144-48fa-b360-34dfff5ce5ff")
 		)
 		(pin "~"
-			(uuid "95d0ab5d-8a4f-4004-960a-34cec724fb42")
+			(uuid "5d5a2e57-b431-479e-9e05-7a03365494ba")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "dewar_pressurant_tanking_valve?")
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
+					(reference "dewar_pressurize_solenoid?")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_OverPressure")
+		(lib_name "lamarr_complete-rescue:Valve_OverPressure-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_OverPressure-PnID-Lib")
 		(at 216.154 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6508,14 +6811,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "e013b274-a8df-4c99-a3e4-ce91b689030b")
+			(uuid "d5254d15-6f20-4c52-b11a-f1f7470d1704")
 		)
 		(pin "~"
-			(uuid "92ca4c4d-1367-41ad-8a15-47f3aafa9c39")
+			(uuid "0bd6d52e-1ad0-461c-9ba7-7b692206a33f")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "DewarOverPressureValve?")
 					(unit 1)
 				)
@@ -6523,7 +6826,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Sensor_Pressure")
+		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
 		(at 188.976 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6605,11 +6908,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "8dea214d-cd21-45ac-b930-e9f48368c21f")
+			(uuid "432c277d-fc32-43d5-8037-460d0b0c5c9d")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "dewar_pressure?")
 					(unit 1)
 				)
@@ -6617,7 +6920,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Tank_Slim")
+		(lib_name "lamarr_complete-rescue:Tank_Slim-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Tank_Slim-PnID-Lib")
 		(at 188.976 147.066 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6698,14 +7002,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "5830e92f-38b3-4b5d-be3c-a903861ca91b")
+			(uuid "286482c8-d07b-471a-b55f-30d518fd6a94")
 		)
 		(pin "~"
-			(uuid "89bdae96-99ef-426e-aa30-636f1e8e8d32")
+			(uuid "b29215be-0bfb-4a58-9144-3c5d51f947da")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "Dewar")
 					(unit 1)
 				)
@@ -6713,7 +7017,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Servo")
+		(lib_name "lamarr_complete-rescue:Valve_Servo-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Servo-PnID-Lib")
 		(at 172.466 162.814 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6784,14 +7089,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "c646f4de-fb0c-4ff9-9009-8db20d0d7749")
+			(uuid "4ad86705-f749-4c76-9c57-357b5d9586d7")
 		)
 		(pin "~"
-			(uuid "74514ebb-aa04-476b-8b86-8e0784195ebd")
+			(uuid "44b2c5a8-3195-4cf8-b714-f79e8352d0f6")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "tanking_valve?")
 					(unit 1)
 				)
@@ -6799,7 +7104,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:QuickConnect_Half")
+		(lib_id "lamarr_complete-rescue:QuickConnect_Half-PnID-Lib")
 		(at 159.766 162.814 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6853,11 +7158,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "9a04bbf9-462c-493d-a9fa-06c7b2e6c308")
+			(uuid "e3244e3b-d534-4f21-9689-a7af03acf601")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "DewarQuickConnect?")
 					(unit 1)
 				)
@@ -6865,7 +7170,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NC")
+		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
 		(at 230.378 30.988 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6936,14 +7242,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "b65be619-3971-46ff-b95c-1d70ab2985b0")
+			(uuid "7110a3cd-8e87-4a81-bd26-7266219be916")
 		)
 		(pin "~"
-			(uuid "854753ad-76cd-4ea3-b1c2-435a3e52d718")
+			(uuid "13ce5373-7c3f-482a-a5f7-38d2ba1d8dc9")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "pressurant_main_solenoid?")
 					(unit 1)
 				)
@@ -6951,7 +7257,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NO")
+		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
 		(at 216.154 45.974 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7024,14 +7331,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "2b5e6317-eb45-4be9-9c31-428d2bca8a34")
+			(uuid "a7ea1f89-1a75-4dde-ac61-05ed859b03fe")
 		)
 		(pin "~"
-			(uuid "bc5bf113-8ea2-46c4-ac53-023caa57e303")
+			(uuid "1d41b350-b117-4fa3-a6e2-0ecda04c83b6")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "pressurant_vent_solenoid?")
 					(unit 1)
 				)
@@ -7039,7 +7346,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Sensor_Pressure")
+		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
 		(at 205.232 23.368 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7121,11 +7428,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "6d3c9602-fc17-4daf-bb72-65a3935820c4")
+			(uuid "a99a67bb-db41-4158-936f-da99fdb47443")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "pressurant_pressure?")
 					(unit 1)
 				)
@@ -7133,7 +7440,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NO")
+		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
 		(at 192.532 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7204,14 +7512,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "749651c8-150c-4978-beb6-039067f5cd67")
+			(uuid "a7b9f87b-38ac-4713-ae56-2bd04372cc78")
 		)
 		(pin "~"
-			(uuid "7d933b3c-61a2-44b9-ad22-c05d93f5d853")
+			(uuid "953db03e-66e1-4110-ba20-368df95678d8")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_pressurant_solenoid?")
 					(unit 1)
 				)
@@ -7219,7 +7527,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NO")
+		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
 		(at 192.532 30.988 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7290,14 +7599,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "2587a852-5ff5-4e56-9055-92b8680251f0")
+			(uuid "a78024ba-1466-4228-b0e8-aa80cc9c04bd")
 		)
 		(pin "~"
-			(uuid "773909bb-49e7-432e-a0a5-207baa7bc102")
+			(uuid "30a5f295-da75-424e-8b29-7b3d5eef85cd")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_pressurant_solenoid?")
 					(unit 1)
 				)
@@ -7305,7 +7614,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:QuickConnect_Half")
+		(lib_id "lamarr_complete-rescue:QuickConnect_Half-PnID-Lib")
 		(at 179.832 30.988 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7359,11 +7668,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "c993d982-676d-49e0-85b9-26827e2eb693")
+			(uuid "bd3f88bf-562e-471b-b456-52320a858562")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_quick_connect?")
 					(unit 1)
 				)
@@ -7371,7 +7680,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:QuickConnect_Half")
+		(lib_id "lamarr_complete-rescue:QuickConnect_Half-PnID-Lib")
 		(at 179.832 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7425,11 +7734,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "cb2716ab-3dd2-4c1a-816b-921b532fbe92")
+			(uuid "dc43a73a-583b-41e2-877c-9ab1f6848953")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_quick_connect?")
 					(unit 1)
 				)
@@ -7437,7 +7746,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NO")
+		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
 		(at 216.154 117.602 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7445,7 +7755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e739b8")
-		(property "Reference" "dewar_pressurant_vent_solenoid?"
+		(property "Reference" "dewar_depressurize_solenoid?"
 			(at 206.5528 118.1608 90)
 			(effects
 				(font
@@ -7455,8 +7765,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "dewar_pressurant_vent_solenoid:sensor"
-			(at 205.232 117.602 90)
+		(property "Value" "dewar_depressurize_solenoid:sensor"
+			(at 202.692 109.22 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7510,22 +7820,22 @@
 			)
 		)
 		(pin "~"
-			(uuid "cde6fc30-37c1-49f5-b4c4-0202799cd8fb")
+			(uuid "bec0f9a1-9f50-4363-a3c3-4dbfe683b606")
 		)
 		(pin "~"
-			(uuid "187d5506-de83-4fe0-8875-71424f197733")
+			(uuid "64c1f132-e37f-4668-b06b-ae45990f7099")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "dewar_pressurant_vent_solenoid?")
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
+					(reference "dewar_depressurize_solenoid?")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Vent")
+		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
 		(at 216.154 58.674 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7580,11 +7890,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "00b9ed85-f7cb-4c37-accc-2571ac880be3")
+			(uuid "fc52a329-27d3-402a-9172-de1d8b0f7016")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -7592,7 +7902,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Vent")
+		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
 		(at 216.154 104.902 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7647,11 +7957,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "2e3bd6eb-6a1a-4d9f-8992-c3c766b03c27")
+			(uuid "1fec2d88-a047-4a2a-9311-c2bff5331178")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -7659,7 +7969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Vent")
+		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
 		(at 216.154 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7714,11 +8024,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "31e40168-648a-4005-b82d-b353ae750531")
+			(uuid "412ae1c9-5675-4dad-8256-343f71e66959")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -7726,7 +8036,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Manual")
+		(lib_name "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
 		(at 270.256 41.656 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7790,14 +8101,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "ea60b232-abe1-49bf-8293-58b9aa36325d")
+			(uuid "96284f75-5b91-4954-85df-dec1faafb2ca")
 		)
 		(pin "~"
-			(uuid "a9a9a4b9-986d-47d8-a16f-1a08c5c0e442")
+			(uuid "14484aa3-084a-421e-ae57-a9f65b313748")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_manual_valve")
 					(unit 1)
 				)
@@ -7805,7 +8116,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:QuickConnect_Half")
+		(lib_id "lamarr_complete-rescue:QuickConnect_Half-PnID-Lib")
 		(at 179.832 30.988 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7861,11 +8172,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "08da43de-5384-4b72-af0f-174859811483")
+			(uuid "f1899537-a2e0-4063-8df0-8def3ab7513e")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "QuickConnect?")
 					(unit 1)
 				)
@@ -7873,7 +8184,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_OverPressure")
+		(lib_name "lamarr_complete-rescue:Valve_OverPressure-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_OverPressure-PnID-Lib")
 		(at 162.052 83.82 0)
 		(mirror y)
 		(unit 1)
@@ -7937,14 +8249,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "e2f1ab96-cd84-4227-8c1d-e06992e9c40a")
+			(uuid "0a9935d4-d59d-421d-b6d7-8700052e3057")
 		)
 		(pin "~"
-			(uuid "172192f2-7509-44f6-8c3b-2648e4a9bf2e")
+			(uuid "c5584b38-a6fa-4f88-991b-2a09dcddb367")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_safety_valve")
 					(unit 1)
 				)
@@ -7952,7 +8264,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Servo")
+		(lib_name "lamarr_complete-rescue:Valve_Servo-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Servo-PnID-Lib")
 		(at 148.844 71.374 0)
 		(mirror y)
 		(unit 1)
@@ -8024,14 +8337,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "3b644c57-e641-4f59-bd85-5080e893e93a")
+			(uuid "775f2886-2994-4eee-b91c-a81f2a768d16")
 		)
 		(pin "~"
-			(uuid "707eba96-de8a-4f8c-87e7-ae1cf517a3ad")
+			(uuid "efe52f5d-e164-400b-a5e8-1d43b3eea69a")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_depressurize_valve")
 					(unit 1)
 				)
@@ -8039,7 +8352,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Manual")
+		(lib_name "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
 		(at 162.306 98.044 0)
 		(mirror y)
 		(unit 1)
@@ -8103,14 +8417,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "3b681450-9d17-4733-8093-4c8676e67d12")
+			(uuid "3dbdc65d-57be-42af-bf46-141437b074d9")
 		)
 		(pin "~"
-			(uuid "3dcd5a66-7623-45c2-ba53-86b7156ae461")
+			(uuid "4aa90035-2061-4f21-959a-fb7a638309bd")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_manual_vent_valve")
 					(unit 1)
 				)
@@ -8118,7 +8432,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Vent")
+		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
 		(at 161.544 71.374 0)
 		(mirror x)
 		(unit 1)
@@ -8173,11 +8487,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "b35d1759-d89c-4c81-88f4-5a1cf4c27738")
+			(uuid "c7985af4-dc04-40c4-906b-dac27b723246")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -8185,7 +8499,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Vent")
+		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
 		(at 174.752 83.82 0)
 		(mirror x)
 		(unit 1)
@@ -8240,11 +8554,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "4ca54c74-7ba9-4969-8b81-15b9d4af3c7c")
+			(uuid "949edc88-59b9-4ded-9e2c-34d3f3be5b3a")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "Vent?")
 					(unit 1)
 				)
@@ -8252,7 +8566,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Sensor_Pressure")
+		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
 		(at 75.946 71.374 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8271,7 +8585,7 @@
 			)
 		)
 		(property "Value" "fuel_tank_pressure:sensor"
-			(at 80.772 71.374 0)
+			(at 69.85 80.518 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8335,11 +8649,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "969a388e-eb52-48c4-b83c-517f8b3399fd")
+			(uuid "c882dcc2-83f3-499e-960f-2b38dac1054c")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_tank_pressure")
 					(unit 1)
 				)
@@ -8347,7 +8661,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Sensor_Pressure")
+		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
 		(at 127.762 71.374 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8366,7 +8680,7 @@
 			)
 		)
 		(property "Value" "ox_tank_pressure:sensor"
-			(at 114.3 71.374 0)
+			(at 122.428 80.264 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8430,11 +8744,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "88376a63-c70a-4015-b8eb-b8244d9f5b91")
+			(uuid "f9030f6e-2611-4d33-9848-d727c74d4bd7")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_tank_pressure")
 					(unit 1)
 				)
@@ -8442,7 +8756,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:GasBottle")
+		(lib_id "lamarr_complete-rescue:GasBottle-PnID-Lib")
 		(at 270.256 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8450,7 +8764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f1eca8")
-		(property "Reference" "N?"
+		(property "Reference" "N2"
 			(at 270.256 62.23 0)
 			(effects
 				(font
@@ -8495,19 +8809,20 @@
 			)
 		)
 		(pin "~"
-			(uuid "e560cc9a-1654-4108-b0f3-e1b4ceda7160")
+			(uuid "fad60993-3c5d-4bb2-b13e-7b139a05779a")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
-					(reference "N?")
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
+					(reference "N2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:PressureRegulator")
+		(lib_name "lamarr_complete-rescue:PressureRegulator-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:PressureRegulator-PnID-Lib")
 		(at 167.132 30.988 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8561,14 +8876,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "9213f5e1-4560-41d9-b5d2-e5bcf03e7497")
+			(uuid "658c3e70-4172-4e4d-8452-70e743961ef4")
 		)
 		(pin "~"
-			(uuid "ea533a15-32af-4eb0-9805-5882e679180b")
+			(uuid "4dac340f-5537-4dce-b0ee-08fb1786600b")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_pressure_regulator")
 					(unit 1)
 				)
@@ -8576,7 +8891,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Needle")
+		(lib_name "lamarr_complete-rescue:Valve_Needle-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Needle-PnID-Lib")
 		(at 151.13 30.988 0)
 		(mirror y)
 		(unit 1)
@@ -8640,14 +8956,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "7e9f22c8-9caa-4cc0-acd5-3435845c4a36")
+			(uuid "72481825-b327-46d9-82f4-76e56a418236")
 		)
 		(pin "~"
-			(uuid "32762e1b-38b0-427f-9f88-2faa6df8b95e")
+			(uuid "ab95f63b-56ef-4a33-a34f-23760a7ee054")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_needle_valve")
 					(unit 1)
 				)
@@ -8655,7 +8971,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Manual_3Way")
+		(lib_name "lamarr_complete-rescue:Valve_Manual_3Way-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Manual_3Way-PnID-Lib")
 		(at 135.382 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8709,17 +9026,17 @@
 			)
 		)
 		(pin "~"
-			(uuid "0c326344-0d03-4ca4-b87a-6fd729cb6f7f")
+			(uuid "e4e5597b-d542-4e88-ae34-e4f09dda9cec")
 		)
 		(pin "~"
-			(uuid "b34fa500-21fa-4e36-bf08-c16265d6c9d5")
+			(uuid "2c2a90e8-7909-402c-b161-8a7bb1fc771e")
 		)
 		(pin "~"
-			(uuid "126c041b-4173-46ed-97b5-098140eae2fd")
+			(uuid "33b30609-6a6d-4f44-823c-e3d2e2cdaeee")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "fuel_manual_3way?")
 					(unit 1)
 				)
@@ -8727,7 +9044,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Servo")
+		(lib_name "lamarr_complete-rescue:Valve_Servo-PnID-Lib")
+		(lib_id "lamarr_complete-rescue:Valve_Servo-PnID-Lib")
 		(at 123.698 162.814 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8745,7 +9063,7 @@
 			)
 		)
 		(property "Value" "ox_main_valve:sensor"
-			(at 123.698 151.638 0)
+			(at 123.698 170.942 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8798,14 +9116,14 @@
 			)
 		)
 		(pin "~"
-			(uuid "7127f62d-e1f4-496a-87f5-6e60ce17f4b5")
+			(uuid "ea3cc177-67c5-4582-a741-784443bd7bb4")
 		)
 		(pin "~"
-			(uuid "9b60489c-33d4-4225-9f93-4e0be97ee9e8")
+			(uuid "ba4e9b40-c9c8-4057-b01b-7fb8d62ff3b1")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "ox_main_valve")
 					(unit 1)
 				)
@@ -8813,7 +9131,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Sensor_Temperature")
+		(lib_id "lamarr_complete-rescue:Sensor_Temperature-PnID-Lib")
 		(at 149.352 126.238 0)
 		(mirror x)
 		(unit 1)
@@ -8886,11 +9204,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "1b76266d-dc54-4407-870b-871497d4ba36")
+			(uuid "88d977c8-323b-48cf-9adf-a7bd97172fc3")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "top_mid_tank_temp")
 					(unit 1)
 				)
@@ -8898,7 +9216,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Sensor_Temperature")
+		(lib_id "lamarr_complete-rescue:Sensor_Temperature-PnID-Lib")
 		(at 149.352 132.842 0)
 		(mirror x)
 		(unit 1)
@@ -8971,11 +9289,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "3fd7f144-e291-414f-90c9-a92e8fa3f0f0")
+			(uuid "38e89b55-a56c-4297-83e2-e10cbf15a168")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "bottom_mid_tank_temp")
 					(unit 1)
 				)
@@ -8983,7 +9301,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Sensor_Temperature")
+		(lib_id "lamarr_complete-rescue:Sensor_Temperature-PnID-Lib")
 		(at 149.352 139.954 0)
 		(mirror x)
 		(unit 1)
@@ -9056,11 +9374,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "844d7d44-b728-4755-9483-9e17f359bf1a")
+			(uuid "410bc398-5154-465b-9713-a3a97c60ec02")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "bottom_tank_temp")
 					(unit 1)
 				)
@@ -9068,7 +9386,359 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Vent")
+		(lib_id "lamarr_complete-rescue:Sensor_Load-PnID-Lib")
+		(at 90.424 185.166 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000646c30b8")
+		(property "Reference" "thrust"
+			(at 93.1672 177.9778 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "thrust:sensor"
+			(at 78.232 185.166 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.424 185.166 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.424 185.166 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.424 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "N"
+			(at 90.424 185.166 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 90.424 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 93.1672 180.7718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "~"
+			(uuid "dae767f6-33a3-4762-81fd-2af1fd5420c7")
+		)
+		(instances
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
+					(reference "thrust")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lamarr_complete-rescue:igniter-PnID-Lib")
+		(at 113.284 192.786 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000646d5c12")
+		(property "Reference" "igniter"
+			(at 118.364 195.072 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "igniter:sensor"
+			(at 122.936 192.786 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.284 192.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.284 192.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.284 192.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "Ohm"
+			(at 113.284 192.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "1a17d01f-f4f1-402b-8814-3a6b1b7b5575")
+		)
+		(instances
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
+					(reference "igniter")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lamarr_complete-rescue:Sensor_Load-PnID-Lib")
+		(at 54.102 139.954 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000064b83678")
+		(property "Reference" "fuel_weight"
+			(at 56.8452 132.7658 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "fuel_weight:sensor"
+			(at 43.688 139.954 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.102 139.954 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.102 139.954 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.102 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "kg"
+			(at 54.102 139.954 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 54.102 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 56.8452 135.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "~"
+			(uuid "a6d48826-f7ad-4d6c-93ce-33c9613260e9")
+		)
+		(instances
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
+					(reference "fuel_weight")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lamarr_complete-rescue:Sensor_Load_Short-PnID-Lib")
+		(at 123.698 139.954 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000064b84083")
+		(property "Reference" "ox_weight"
+			(at 125.1712 132.7658 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_weight:sensor"
+			(at 126.238 147.066 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.698 139.954 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.698 139.954 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.698 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "kg"
+			(at 123.698 139.954 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 123.698 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 125.1712 135.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "~"
+			(uuid "400f2b68-d715-4572-917b-35494980569c")
+		)
+		(instances
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
+					(reference "ox_weight")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
 		(at 175.006 98.044 0)
 		(mirror x)
 		(unit 1)
@@ -9076,7 +9746,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1936d6af-0d41-4106-af65-b72e6a45277e")
+		(uuid "5b31429f-e154-4ce1-ba53-a01362d18e02")
 		(property "Reference" "Vent?"
 			(at 170.9928 93.6498 0)
 			(effects
@@ -9123,11 +9793,11 @@
 			)
 		)
 		(pin "~"
-			(uuid "daacee57-b6c0-45af-a451-2c588688c2be")
+			(uuid "9c671b34-2966-4e62-990a-b844b4975763")
 		)
 		(instances
-			(project "lamarr"
-				(path "/8327e663-75ab-4e67-9f5d-9f542b237d83"
+			(project "lamarr_complete"
+				(path "/13381bf0-e5a8-49d4-bd9a-118d81f40240"
 					(reference "Vent?")
 					(unit 1)
 				)
