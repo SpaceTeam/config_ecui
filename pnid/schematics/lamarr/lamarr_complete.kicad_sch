@@ -5,7 +5,7 @@
 	(uuid "13381bf0-e5a8-49d4-bd9a-118d81f40240")
 	(paper "A4")
 	(lib_symbols
-		(symbol "lamarr_complete-rescue:CheckValve-PnID-Lib"
+		(symbol "PnID-Lib:CheckValve"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -21,7 +21,7 @@
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_CheckValve"
+			(property "Value" "CheckValve"
 				(at 0 -4.318 0)
 				(effects
 					(font
@@ -57,14 +57,14 @@
 					(hide yes)
 				)
 			)
-			(symbol "CheckValve-PnID-Lib_0_0"
+			(symbol "CheckValve_0_0"
 				(polyline
 					(pts
 						(xy 2.54 2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -76,14 +76,14 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "CheckValve-PnID-Lib_1_1"
+			(symbol "CheckValve_1_1"
 				(pin bidirectional line
 					(at -2.54 0 0)
 					(length 0)
@@ -122,7 +122,7 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:Engine-PnID-Lib"
+		(symbol "PnID-Lib:Engine"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -138,7 +138,7 @@
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_Engine"
+			(property "Value" "Engine"
 				(at 0 -12.446 0)
 				(effects
 					(font
@@ -165,7 +165,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " "
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
 				(at 0 0 0)
 				(effects
 					(font
@@ -174,13 +183,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "Engine-PnID-Lib_0_0"
+			(symbol "Engine_0_0"
 				(rectangle
 					(start -3.81 2.54)
 					(end 3.81 -3.81)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -192,14 +201,14 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "Engine-PnID-Lib_1_1"
+			(symbol "Engine_1_1"
 				(pin bidirectional line
 					(at 3.81 -2.54 180)
 					(length 0)
@@ -274,7 +283,7 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:GasBottle-PnID-Lib"
+		(symbol "PnID-Lib:GasBottle"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -290,7 +299,7 @@
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_GasBottle"
+			(property "Value" "GasBottle"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -326,14 +335,14 @@
 					(hide yes)
 				)
 			)
-			(symbol "GasBottle-PnID-Lib_0_0"
+			(symbol "GasBottle_0_0"
 				(polyline
 					(pts
 						(xy -1.27 8.89) (xy -1.27 11.43)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -345,7 +354,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -357,7 +366,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -365,11 +374,11 @@
 				)
 				(arc
 					(start 1.27 11.43)
-					(mid 0 12.7)
+					(mid 0 12.6944)
 					(end -1.27 11.43)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -381,14 +390,14 @@
 					(end -5.08 7.62)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "GasBottle-PnID-Lib_1_1"
+			(symbol "GasBottle_1_1"
 				(pin output line
 					(at 0 12.7 270)
 					(length 0)
@@ -409,7 +418,7 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:PressureRegulator-PnID-Lib"
+		(symbol "PnID-Lib:PressureRegulator"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -425,7 +434,7 @@
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_PressureRegulator"
+			(property "Value" "PressureRegulator"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -460,14 +469,14 @@
 					(hide yes)
 				)
 			)
-			(symbol "PressureRegulator-PnID-Lib_0_0"
+			(symbol "PressureRegulator_0_0"
 				(polyline
 					(pts
 						(xy -2.54 3.81) (xy 2.54 3.81)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -479,7 +488,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -491,7 +500,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -503,21 +512,21 @@
 					(end -2.54 3.81)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "PressureRegulator-PnID-Lib_1_1"
+			(symbol "PressureRegulator_1_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -529,7 +538,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -573,7 +582,7 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:QuickConnect_Half-PnID-Lib"
+		(symbol "PnID-Lib:QuickConnect_Half"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -589,7 +598,7 @@
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_QuickConnect_Half"
+			(property "Value" "QuickConnect_Half"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -624,13 +633,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "QuickConnect_Half-PnID-Lib_0_0"
+			(symbol "QuickConnect_Half_0_0"
 				(circle
 					(center -3.81 0)
 					(radius 1.27)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -642,7 +651,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -654,7 +663,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -666,7 +675,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -678,14 +687,14 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "QuickConnect_Half-PnID-Lib_1_1"
+			(symbol "QuickConnect_Half_1_1"
 				(pin bidirectional line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -706,129 +715,7 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:Sensor_Load-PnID-Lib"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Sensor_Load"
-				(at 6.35 0.762 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-				)
-			)
-			(property "Value" "PnID-Lib_Sensor_Load"
-				(at 6.35 -0.762 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Action_Reference" " "
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Data_Content" " "
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Sensor_Load-PnID-Lib_0_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "L"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 2.9972 2.9972)
-						)
-					)
-				)
-			)
-			(symbol "Sensor_Load-PnID-Lib_1_1"
-				(pin bidirectional line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "lamarr_complete-rescue:Sensor_Load_Short-PnID-Lib"
+		(symbol "PnID-Lib:Sensor_Load_Short"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -844,7 +731,7 @@
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_Sensor_Load_Short"
+			(property "Value" "Sensor_Load_Short"
 				(at 6.35 -0.762 0)
 				(effects
 					(font
@@ -870,7 +757,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "kg"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "kg"
 				(at 0 0 0)
 				(effects
 					(font
@@ -896,13 +792,13 @@
 					)
 				)
 			)
-			(symbol "Sensor_Load_Short-PnID-Lib_0_0"
+			(symbol "Sensor_Load_Short_0_0"
 				(circle
 					(center 0 0)
 					(radius 2.54)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -917,7 +813,7 @@
 					)
 				)
 			)
-			(symbol "Sensor_Load_Short-PnID-Lib_1_1"
+			(symbol "Sensor_Load_Short_1_1"
 				(pin bidirectional line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -938,7 +834,7 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib"
+		(symbol "PnID-Lib:Sensor_Pressure"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -954,7 +850,7 @@
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_Sensor_Pressure"
+			(property "Value" "Sensor_Pressure"
 				(at 6.35 -0.762 0)
 				(effects
 					(font
@@ -980,7 +876,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "bar"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "bar"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1006,14 +911,14 @@
 					)
 				)
 			)
-			(symbol "Sensor_Pressure-PnID-Lib_0_0"
+			(symbol "Sensor_Pressure_0_0"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1024,7 +929,7 @@
 					(radius 2.54)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1039,7 +944,7 @@
 					)
 				)
 			)
-			(symbol "Sensor_Pressure-PnID-Lib_1_1"
+			(symbol "Sensor_Pressure_1_1"
 				(pin bidirectional line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -1060,7 +965,7 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:Sensor_Temperature-PnID-Lib"
+		(symbol "PnID-Lib:Sensor_Temperature"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -1076,7 +981,7 @@
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_Sensor_Temperature"
+			(property "Value" "Sensor_Temperature"
 				(at 7.112 -0.762 0)
 				(effects
 					(font
@@ -1102,7 +1007,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "˚C"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "˚C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1120,14 +1034,14 @@
 					(hide yes)
 				)
 			)
-			(symbol "Sensor_Temperature-PnID-Lib_0_0"
+			(symbol "Sensor_Temperature_0_0"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1142,20 +1056,20 @@
 					)
 				)
 			)
-			(symbol "Sensor_Temperature-PnID-Lib_0_1"
+			(symbol "Sensor_Temperature_0_1"
 				(circle
 					(center 0 0)
 					(radius 2.54)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "Sensor_Temperature-PnID-Lib_1_1"
+			(symbol "Sensor_Temperature_1_1"
 				(pin bidirectional line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -1176,7 +1090,7 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:Tank_Slim-PnID-Lib"
+		(symbol "PnID-Lib:Tank_Slim"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -1192,7 +1106,7 @@
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_Tank_Slim"
+			(property "Value" "Tank_Slim"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -1218,7 +1132,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "%"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1245,27 +1168,27 @@
 					(hide yes)
 				)
 			)
-			(symbol "Tank_Slim-PnID-Lib_0_0"
+			(symbol "Tank_Slim_0_0"
 				(polyline
 					(pts
 						(xy 6.35 10.16) (xy 6.35 -10.16)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "Tank_Slim-PnID-Lib_0_1"
+			(symbol "Tank_Slim_0_1"
 				(rectangle
 					(start -6.604 -10.16)
 					(end 6.35 10.16)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1277,7 +1200,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1289,7 +1212,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1301,7 +1224,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1313,21 +1236,21 @@
 					(end -6.604 10.16)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "Tank_Slim-PnID-Lib_1_1"
+			(symbol "Tank_Slim_1_1"
 				(arc
 					(start -6.604 -10.16)
 					(mid -0.127 -12.7008)
 					(end 6.35 -10.16)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1371,7 +1294,7 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:Valve_Manual-PnID-Lib"
+		(symbol "PnID-Lib:Valve_Manual"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -1387,152 +1310,13 @@
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_Valve_Manual"
+			(property "Value" "Valve_Manual"
 				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" " "
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Valve_Manual-PnID-Lib_0_0"
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Valve_Manual-PnID-Lib_1_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 3.81) (xy 0 0) (xy 5.08 -3.81) (xy 5.08 3.81)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 0 0)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 0 180)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "lamarr_complete-rescue:Valve_Manual_3Way-PnID-Lib"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 19.558 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PnID-Lib_Valve_Manual_3Way"
-				(at 0 17.272 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "Footprint" ""
@@ -1562,14 +1346,23 @@
 					(hide yes)
 				)
 			)
-			(symbol "Valve_Manual_3Way-PnID-Lib_1_1"
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Valve_Manual_0_0"
 				(polyline
 					(pts
-						(xy -2.54 10.922) (xy 2.54 10.922)
+						(xy -2.54 5.08) (xy 2.54 5.08)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1577,11 +1370,25 @@
 				)
 				(polyline
 					(pts
-						(xy 0 7.112) (xy 0 10.922)
+						(xy 0 0) (xy 0 5.08)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Valve_Manual_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1589,42 +1396,18 @@
 				)
 				(polyline
 					(pts
-						(xy 0 7.112) (xy -5.08 10.922) (xy -5.08 3.302) (xy 0 7.112)
+						(xy 5.08 3.81) (xy 0 0) (xy 5.08 -3.81) (xy 5.08 3.81)
 					)
 					(stroke
 						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.032) (xy 0 7.112) (xy -3.81 2.032) (xy 3.81 2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 10.922) (xy 0 7.112) (xy 5.08 3.302) (xy 5.08 10.922)
-					)
-					(stroke
-						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(pin bidirectional line
-					(at -5.08 7.112 0)
+					(at -5.08 0 0)
 					(length 0)
 					(name "~"
 						(effects
@@ -1642,25 +1425,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 2.032 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 7.112 180)
+					(at 5.08 0 180)
 					(length 0)
 					(name "~"
 						(effects
@@ -1679,7 +1444,188 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:Valve_Needle-PnID-Lib"
+		(symbol "PnID-Lib:Valve_Manual_3Way"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 12.573 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Valve_Manual_3Way"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Valve_Manual_3Way_0_0"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Valve_Manual_3Way_1_1"
+				(polyline
+					(pts
+						(xy 0 0.127) (xy 0 3.937)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 0 0) (xy -3.81 -5.08) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy 0 0) (xy 5.08 -3.81) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Valve_Needle"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -1695,7 +1641,7 @@
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_Valve_Needle"
+			(property "Value" "Valve_Needle"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1722,7 +1668,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " "
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1731,14 +1677,23 @@
 					(hide yes)
 				)
 			)
-			(symbol "Valve_Needle-PnID-Lib_0_0"
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Valve_Needle_0_0"
 				(polyline
 					(pts
 						(xy -2.54 5.08) (xy 2.54 5.08)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1750,7 +1705,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1762,21 +1717,21 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "Valve_Needle-PnID-Lib_1_1"
+			(symbol "Valve_Needle_1_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1788,7 +1743,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1832,7 +1787,7 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:Valve_OverPressure-PnID-Lib"
+		(symbol "PnID-Lib:Valve_OverPressure"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -1848,7 +1803,7 @@
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_Valve_OverPressure"
+			(property "Value" "Valve_OverPressure"
 				(at 0 -5.588 0)
 				(effects
 					(font
@@ -1875,7 +1830,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " "
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1884,14 +1839,23 @@
 					(hide yes)
 				)
 			)
-			(symbol "Valve_OverPressure-PnID-Lib_0_0"
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Valve_OverPressure_0_0"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 5.08)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1903,21 +1867,21 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "Valve_OverPressure-PnID-Lib_1_1"
+			(symbol "Valve_OverPressure_1_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1929,7 +1893,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1973,7 +1937,7 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:Valve_Servo-PnID-Lib"
+		(symbol "PnID-Lib:Valve_Servo"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -1989,7 +1953,7 @@
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_Valve_Servo"
+			(property "Value" "Valve_Servo"
 				(at 0 -5.334 0)
 				(effects
 					(font
@@ -2015,7 +1979,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "%"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2033,14 +2006,14 @@
 					(hide yes)
 				)
 			)
-			(symbol "Valve_Servo-PnID-Lib_0_0"
+			(symbol "Valve_Servo_0_0"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 3.81)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -2051,7 +2024,7 @@
 					(radius 2.54)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -2066,28 +2039,28 @@
 					)
 				)
 			)
-			(symbol "Valve_Servo-PnID-Lib_0_1"
+			(symbol "Valve_Servo_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "Valve_Servo-PnID-Lib_1_1"
+			(symbol "Valve_Servo_1_1"
 				(polyline
 					(pts
 						(xy 5.08 3.81) (xy 0 0) (xy 5.08 -3.81) (xy 5.08 3.81)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -2131,7 +2104,7 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib"
+		(symbol "PnID-Lib:Valve_Solenoid_NC"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -2147,7 +2120,7 @@
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_Valve_Solenoid_NC"
+			(property "Value" "Valve_Solenoid_NC"
 				(at 0.254 -5.588 0)
 				(effects
 					(font
@@ -2173,7 +2146,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "%"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2191,13 +2173,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "Valve_Solenoid_NC-PnID-Lib_0_0"
+			(symbol "Valve_Solenoid_NC_0_0"
 				(rectangle
 					(start -2.54 3.81)
 					(end 2.54 8.89)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -2212,28 +2194,28 @@
 					)
 				)
 			)
-			(symbol "Valve_Solenoid_NC-PnID-Lib_0_1"
+			(symbol "Valve_Solenoid_NC_0_1"
 				(polyline
 					(pts
 						(xy 0 3.81) (xy 0 0)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "Valve_Solenoid_NC-PnID-Lib_1_1"
+			(symbol "Valve_Solenoid_NC_1_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type outline)
@@ -2245,7 +2227,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type outline)
@@ -2289,7 +2271,7 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib"
+		(symbol "PnID-Lib:Valve_Solenoid_NO"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -2305,7 +2287,7 @@
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_Valve_Solenoid_NO"
+			(property "Value" "Valve_Solenoid_NO"
 				(at 0.254 -5.588 0)
 				(effects
 					(font
@@ -2331,7 +2313,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "%"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2349,13 +2340,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "Valve_Solenoid_NO-PnID-Lib_0_0"
+			(symbol "Valve_Solenoid_NO_0_0"
 				(rectangle
 					(start -2.54 3.81)
 					(end 2.54 8.89)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -2370,28 +2361,28 @@
 					)
 				)
 			)
-			(symbol "Valve_Solenoid_NO-PnID-Lib_0_1"
+			(symbol "Valve_Solenoid_NO_0_1"
 				(polyline
 					(pts
 						(xy 0 3.81) (xy 0 0)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "Valve_Solenoid_NO-PnID-Lib_1_1"
+			(symbol "Valve_Solenoid_NO_1_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -2403,7 +2394,7 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -2447,7 +2438,7 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:Vent-PnID-Lib"
+		(symbol "PnID-Lib:Vent"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -2463,7 +2454,7 @@
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_Vent"
+			(property "Value" "Vent"
 				(at 2.54 -1.27 0)
 				(effects
 					(font
@@ -2499,14 +2490,14 @@
 					(hide yes)
 				)
 			)
-			(symbol "Vent-PnID-Lib_0_0"
+			(symbol "Vent_0_0"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 0)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -2518,14 +2509,14 @@
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "Vent-PnID-Lib_1_1"
+			(symbol "Vent_1_1"
 				(pin bidirectional line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -2546,7 +2537,7 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:Venturi-PnID-Lib"
+		(symbol "PnID-Lib:Venturi"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -2558,15 +2549,15 @@
 				(at 0 -5.08 0)
 				(effects
 					(font
-						(size 0.508 0.508)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "PnID-Lib_Venturi"
+			(property "Value" "Venturi"
 				(at 0 -7.62 0)
 				(effects
 					(font
-						(size 0.508 0.508)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
@@ -2575,7 +2566,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 0.508 0.508)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
@@ -2584,27 +2575,27 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 0.508 0.508)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "%"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
-						(size 0.508 0.508)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
-			(symbol "Venturi-PnID-Lib_0_0"
+			(symbol "Venturi_0_0"
 				(rectangle
 					(start -5.08 2.54)
 					(end 5.08 -2.54)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -2616,7 +2607,7 @@
 					(end 5.08 2.54)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -2628,14 +2619,14 @@
 					(end -5.08 -2.54)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "Venturi-PnID-Lib_1_1"
+			(symbol "Venturi_1_1"
 				(pin bidirectional line
 					(at -5.08 0 0)
 					(length 0)
@@ -2674,7 +2665,7 @@
 				)
 			)
 		)
-		(symbol "lamarr_complete-rescue:igniter-PnID-Lib"
+		(symbol "PnID-Lib:igniter"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2690,7 +2681,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "PnID-Lib_igniter"
+			(property "Value" "igniter"
 				(at -5.08 0 0)
 				(effects
 					(font
@@ -2716,7 +2707,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Ohm"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2725,7 +2716,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "igniter-PnID-Lib_0_0"
+			(property "Unit" "Ohm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "igniter_0_0"
 				(text "I"
 					(at 0 0 0)
 					(effects
@@ -2735,20 +2735,20 @@
 					)
 				)
 			)
-			(symbol "igniter-PnID-Lib_0_1"
+			(symbol "igniter_0_1"
 				(rectangle
 					(start -2.54 2.54)
 					(end 2.54 -2.54)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "igniter-PnID-Lib_1_1"
+			(symbol "igniter_1_1"
 				(pin input line
 					(at 5.08 0 180)
 					(length 2.54)
@@ -3705,7 +3705,7 @@
 		(uuid "fbf93c3d-c0b5-46e2-a844-87b8c80bdc47")
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:GasBottle-PnID-Lib")
+		(lib_id "PnID-Lib:GasBottle")
 		(at 25.908 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3770,7 +3770,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
+		(lib_id "PnID-Lib:Sensor_Pressure")
 		(at 143.002 45.212 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3865,7 +3865,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
+		(lib_id "PnID-Lib:Sensor_Pressure")
 		(at 60.706 45.212 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3958,8 +3958,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Solenoid_NC")
+		(lib_id "PnID-Lib:Valve_Solenoid_NC")
 		(at 135.382 56.388 90)
 		(mirror x)
 		(unit 1)
@@ -4048,8 +4048,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Solenoid_NC")
+		(lib_id "PnID-Lib:Valve_Solenoid_NC")
 		(at 68.326 56.388 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4137,8 +4137,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Solenoid_NC")
+		(lib_id "PnID-Lib:Valve_Solenoid_NC")
 		(at 117.348 119.634 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4226,8 +4226,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Solenoid_NC")
+		(lib_id "PnID-Lib:Valve_Solenoid_NC")
 		(at 85.852 119.634 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4315,8 +4315,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:CheckValve-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:CheckValve-PnID-Lib")
+		(lib_name "PnID-Lib:CheckValve")
+		(lib_id "PnID-Lib:CheckValve")
 		(at 135.382 66.548 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4386,8 +4386,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Tank_Slim-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Tank_Slim-PnID-Lib")
+		(lib_name "PnID-Lib:Tank_Slim")
+		(lib_id "PnID-Lib:Tank_Slim")
 		(at 135.382 129.794 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4483,8 +4483,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Tank_Slim-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Tank_Slim-PnID-Lib")
+		(lib_name "PnID-Lib:Tank_Slim")
+		(lib_id "PnID-Lib:Tank_Slim")
 		(at 68.326 129.794 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4580,8 +4580,7 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Engine-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Engine-PnID-Lib")
+		(lib_id "PnID-Lib:Engine")
 		(at 101.854 182.626 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4665,8 +4664,7 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:CheckValve-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:CheckValve-PnID-Lib")
+		(lib_id "PnID-Lib:CheckValve")
 		(at 85.852 131.064 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4736,8 +4734,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:CheckValve-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:CheckValve-PnID-Lib")
+		(lib_name "PnID-Lib:CheckValve")
+		(lib_id "PnID-Lib:CheckValve")
 		(at 117.348 131.064 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4807,7 +4805,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
+		(lib_id "PnID-Lib:Sensor_Pressure")
 		(at 94.488 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4901,7 +4899,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
+		(lib_id "PnID-Lib:Sensor_Pressure")
 		(at 109.22 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4995,7 +4993,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
+		(lib_id "PnID-Lib:Sensor_Pressure")
 		(at 113.284 185.166 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5087,7 +5085,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Sensor_Temperature-PnID-Lib")
+		(lib_id "PnID-Lib:Sensor_Temperature")
 		(at 149.352 119.634 0)
 		(mirror x)
 		(unit 1)
@@ -5172,8 +5170,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Manual")
+		(lib_id "PnID-Lib:Valve_Manual")
 		(at 147.066 162.814 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5251,7 +5249,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:QuickConnect_Half-PnID-Lib")
+		(lib_id "PnID-Lib:QuickConnect_Half")
 		(at 159.766 162.814 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5319,7 +5317,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
+		(lib_id "PnID-Lib:Vent")
 		(at 122.682 30.988 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5385,7 +5383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
+		(lib_id "PnID-Lib:Vent")
 		(at 81.026 30.988 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5452,8 +5450,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Venturi-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Venturi-PnID-Lib")
+		(lib_name "PnID-Lib:Venturi")
+		(lib_id "PnID-Lib:Venturi")
 		(at 109.22 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5531,8 +5529,7 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Venturi-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Venturi-PnID-Lib")
+		(lib_id "PnID-Lib:Venturi")
 		(at 94.488 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5611,8 +5608,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Manual")
+		(lib_id "PnID-Lib:Valve_Manual")
 		(at 25.908 41.656 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5691,8 +5688,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:PressureRegulator-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:PressureRegulator-PnID-Lib")
+		(lib_name "PnID-Lib:PressureRegulator")
+		(lib_id "PnID-Lib:PressureRegulator")
 		(at 36.576 30.988 0)
 		(mirror y)
 		(unit 1)
@@ -5762,8 +5759,7 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Needle-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Needle-PnID-Lib")
+		(lib_id "PnID-Lib:Valve_Needle")
 		(at 52.578 30.988 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5841,9 +5837,9 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Manual_3Way-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Manual_3Way-PnID-Lib")
-		(at 68.326 38.1 0)
+		(lib_name "PnID-Lib:Valve_Manual_3Way")
+		(lib_id "PnID-Lib:Valve_Manual_3Way")
+		(at 68.326 30.988 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5851,7 +5847,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e233ec")
 		(property "Reference" "fuel_manual_3way"
-			(at 68.326 22.987 0)
+			(at 68.326 15.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +5856,7 @@
 			)
 		)
 		(property "Value" "fuel_manual_3way"
-			(at 68.326 25.2984 0)
+			(at 68.326 18.1864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5869,7 +5865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.326 38.1 0)
+			(at 68.326 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5878,7 +5874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.326 38.1 0)
+			(at 68.326 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5887,7 +5883,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.326 38.1 0)
+			(at 68.326 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5895,13 +5891,13 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "51480d57-6412-428d-8625-b1b6757882b7")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "36451e1b-07e2-414a-b3e8-4ee7d983942f")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "7b09b39e-9eb9-4ba6-9a1d-61633563b2cc")
 		)
 		(instances
@@ -5914,8 +5910,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_OverPressure-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_OverPressure-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_OverPressure")
+		(lib_id "PnID-Lib:Valve_OverPressure")
 		(at 41.656 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5993,8 +5989,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Solenoid_NO")
+		(lib_id "PnID-Lib:Valve_Solenoid_NO")
 		(at 54.864 71.374 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6080,8 +6076,7 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
+		(lib_id "PnID-Lib:Valve_Manual")
 		(at 57.15 162.814 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6159,7 +6154,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:QuickConnect_Half-PnID-Lib")
+		(lib_id "PnID-Lib:QuickConnect_Half")
 		(at 44.45 162.814 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6225,8 +6220,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Manual")
+		(lib_id "PnID-Lib:Valve_Manual")
 		(at 41.402 98.044 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6304,7 +6299,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
+		(lib_id "PnID-Lib:Vent")
 		(at 42.164 71.374 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6370,7 +6365,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
+		(lib_id "PnID-Lib:Vent")
 		(at 28.956 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6436,7 +6431,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
+		(lib_id "PnID-Lib:Vent")
 		(at 28.702 98.044 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6502,8 +6497,7 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Servo-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Servo-PnID-Lib")
+		(lib_id "PnID-Lib:Valve_Servo")
 		(at 79.502 162.814 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6589,8 +6583,7 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:PressureRegulator-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:PressureRegulator-PnID-Lib")
+		(lib_id "PnID-Lib:PressureRegulator")
 		(at 247.142 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6659,8 +6652,7 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
+		(lib_id "PnID-Lib:Valve_Solenoid_NC")
 		(at 230.378 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6746,8 +6738,7 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_OverPressure-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_OverPressure-PnID-Lib")
+		(lib_id "PnID-Lib:Valve_OverPressure")
 		(at 216.154 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6826,7 +6817,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
+		(lib_id "PnID-Lib:Sensor_Pressure")
 		(at 188.976 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6920,8 +6911,7 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Tank_Slim-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Tank_Slim-PnID-Lib")
+		(lib_id "PnID-Lib:Tank_Slim")
 		(at 188.976 147.066 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7017,8 +7007,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Servo-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Servo-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Servo")
+		(lib_id "PnID-Lib:Valve_Servo")
 		(at 172.466 162.814 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7104,7 +7094,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:QuickConnect_Half-PnID-Lib")
+		(lib_id "PnID-Lib:QuickConnect_Half")
 		(at 159.766 162.814 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7170,8 +7160,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NC-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Solenoid_NC")
+		(lib_id "PnID-Lib:Valve_Solenoid_NC")
 		(at 230.378 30.988 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7257,8 +7247,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Solenoid_NO")
+		(lib_id "PnID-Lib:Valve_Solenoid_NO")
 		(at 216.154 45.974 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7346,7 +7336,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
+		(lib_id "PnID-Lib:Sensor_Pressure")
 		(at 205.232 23.368 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7440,8 +7430,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Solenoid_NO")
+		(lib_id "PnID-Lib:Valve_Solenoid_NO")
 		(at 192.532 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7527,8 +7517,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Solenoid_NO")
+		(lib_id "PnID-Lib:Valve_Solenoid_NO")
 		(at 192.532 30.988 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7614,7 +7604,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:QuickConnect_Half-PnID-Lib")
+		(lib_id "PnID-Lib:QuickConnect_Half")
 		(at 179.832 30.988 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7680,7 +7670,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:QuickConnect_Half-PnID-Lib")
+		(lib_id "PnID-Lib:QuickConnect_Half")
 		(at 179.832 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7746,8 +7736,7 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Solenoid_NO-PnID-Lib")
+		(lib_id "PnID-Lib:Valve_Solenoid_NO")
 		(at 216.154 117.602 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7835,7 +7824,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
+		(lib_id "PnID-Lib:Vent")
 		(at 216.154 58.674 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7902,7 +7891,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
+		(lib_id "PnID-Lib:Vent")
 		(at 216.154 104.902 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7969,7 +7958,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
+		(lib_id "PnID-Lib:Vent")
 		(at 216.154 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8036,8 +8025,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Manual")
+		(lib_id "PnID-Lib:Valve_Manual")
 		(at 270.256 41.656 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8116,7 +8105,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:QuickConnect_Half-PnID-Lib")
+		(lib_id "PnID-Lib:QuickConnect_Half")
 		(at 179.832 30.988 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8184,8 +8173,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_OverPressure-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_OverPressure-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_OverPressure")
+		(lib_id "PnID-Lib:Valve_OverPressure")
 		(at 162.052 83.82 0)
 		(mirror y)
 		(unit 1)
@@ -8264,8 +8253,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Servo-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Servo-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Servo")
+		(lib_id "PnID-Lib:Valve_Servo")
 		(at 148.844 71.374 0)
 		(mirror y)
 		(unit 1)
@@ -8352,8 +8341,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Manual-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Manual")
+		(lib_id "PnID-Lib:Valve_Manual")
 		(at 162.306 98.044 0)
 		(mirror y)
 		(unit 1)
@@ -8432,7 +8421,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
+		(lib_id "PnID-Lib:Vent")
 		(at 161.544 71.374 0)
 		(mirror x)
 		(unit 1)
@@ -8499,7 +8488,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
+		(lib_id "PnID-Lib:Vent")
 		(at 174.752 83.82 0)
 		(mirror x)
 		(unit 1)
@@ -8566,7 +8555,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
+		(lib_id "PnID-Lib:Sensor_Pressure")
 		(at 75.946 71.374 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8661,7 +8650,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Sensor_Pressure-PnID-Lib")
+		(lib_id "PnID-Lib:Sensor_Pressure")
 		(at 127.762 71.374 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8756,7 +8745,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:GasBottle-PnID-Lib")
+		(lib_id "PnID-Lib:GasBottle")
 		(at 270.256 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8821,8 +8810,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:PressureRegulator-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:PressureRegulator-PnID-Lib")
+		(lib_name "PnID-Lib:PressureRegulator")
+		(lib_id "PnID-Lib:PressureRegulator")
 		(at 167.132 30.988 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8891,8 +8880,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Needle-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Needle-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Needle")
+		(lib_id "PnID-Lib:Valve_Needle")
 		(at 151.13 30.988 0)
 		(mirror y)
 		(unit 1)
@@ -8971,9 +8960,9 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Manual_3Way-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Manual_3Way-PnID-Lib")
-		(at 135.382 38.1 0)
+		(lib_name "PnID-Lib:Valve_Manual_3Way")
+		(lib_id "PnID-Lib:Valve_Manual_3Way")
+		(at 135.382 30.988 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8981,7 +8970,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f48809")
 		(property "Reference" "fuel_manual_3way?"
-			(at 135.382 22.987 0)
+			(at 135.382 15.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8990,7 +8979,7 @@
 			)
 		)
 		(property "Value" "fuel_manual_3way"
-			(at 135.382 25.2984 0)
+			(at 135.382 18.1864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8999,7 +8988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.382 38.1 0)
+			(at 135.382 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,7 +8997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.382 38.1 0)
+			(at 135.382 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9017,7 +9006,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.382 38.1 0)
+			(at 135.382 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9025,13 +9014,13 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "e4e5597b-d542-4e88-ae34-e4f09dda9cec")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "2c2a90e8-7909-402c-b161-8a7bb1fc771e")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "33b30609-6a6d-4f44-823c-e3d2e2cdaeee")
 		)
 		(instances
@@ -9044,8 +9033,8 @@
 		)
 	)
 	(symbol
-		(lib_name "lamarr_complete-rescue:Valve_Servo-PnID-Lib")
-		(lib_id "lamarr_complete-rescue:Valve_Servo-PnID-Lib")
+		(lib_name "PnID-Lib:Valve_Servo")
+		(lib_id "PnID-Lib:Valve_Servo")
 		(at 123.698 162.814 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9131,7 +9120,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Sensor_Temperature-PnID-Lib")
+		(lib_id "PnID-Lib:Sensor_Temperature")
 		(at 149.352 126.238 0)
 		(mirror x)
 		(unit 1)
@@ -9216,7 +9205,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Sensor_Temperature-PnID-Lib")
+		(lib_id "PnID-Lib:Sensor_Temperature")
 		(at 149.352 132.842 0)
 		(mirror x)
 		(unit 1)
@@ -9301,7 +9290,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Sensor_Temperature-PnID-Lib")
+		(lib_id "PnID-Lib:Sensor_Temperature")
 		(at 149.352 139.954 0)
 		(mirror x)
 		(unit 1)
@@ -9386,8 +9375,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Sensor_Load-PnID-Lib")
-		(at 90.424 185.166 180)
+		(lib_id "PnID-Lib:Sensor_Load_Short")
+		(at 92.964 185.166 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9395,7 +9384,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000646c30b8")
 		(property "Reference" "thrust"
-			(at 93.1672 177.9778 0)
+			(at 95.7072 177.9778 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9404,7 +9393,7 @@
 			)
 		)
 		(property "Value" "thrust:sensor"
-			(at 78.232 185.166 0)
+			(at 80.772 185.166 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9413,7 +9402,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.424 185.166 0)
+			(at 92.964 185.166 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9422,7 +9411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.424 185.166 0)
+			(at 92.964 185.166 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9431,7 +9420,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.424 185.166 0)
+			(at 92.964 185.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9440,7 +9429,7 @@
 			)
 		)
 		(property "Unit" "N"
-			(at 90.424 185.166 0)
+			(at 92.964 185.166 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9449,7 +9438,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 90.424 185.166 0)
+			(at 92.964 185.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9458,7 +9447,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 93.1672 180.7718 0)
+			(at 95.7072 180.7718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9478,7 +9467,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:igniter-PnID-Lib")
+		(lib_id "PnID-Lib:igniter")
 		(at 113.284 192.786 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9554,8 +9543,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Sensor_Load-PnID-Lib")
-		(at 54.102 139.954 0)
+		(lib_id "PnID-Lib:Sensor_Load_Short")
+		(at 56.642 139.954 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9564,7 +9553,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000064b83678")
 		(property "Reference" "fuel_weight"
-			(at 56.8452 132.7658 0)
+			(at 59.3852 132.7658 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9573,7 +9562,7 @@
 			)
 		)
 		(property "Value" "fuel_weight:sensor"
-			(at 43.688 139.954 0)
+			(at 46.228 139.954 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9581,7 +9570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.102 139.954 0)
+			(at 56.642 139.954 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9590,7 +9579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.102 139.954 0)
+			(at 56.642 139.954 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9599,7 +9588,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.102 139.954 0)
+			(at 56.642 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,7 +9597,7 @@
 			)
 		)
 		(property "Unit" "kg"
-			(at 54.102 139.954 0)
+			(at 56.642 139.954 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9617,7 +9606,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 54.102 139.954 0)
+			(at 56.642 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9626,7 +9615,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 56.8452 135.5598 0)
+			(at 59.3852 135.5598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9646,7 +9635,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Sensor_Load_Short-PnID-Lib")
+		(lib_id "PnID-Lib:Sensor_Load_Short")
 		(at 123.698 139.954 0)
 		(mirror y)
 		(unit 1)
@@ -9738,7 +9727,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lamarr_complete-rescue:Vent-PnID-Lib")
+		(lib_id "PnID-Lib:Vent")
 		(at 175.006 98.044 0)
 		(mirror x)
 		(unit 1)
