@@ -1893,7 +1893,7 @@
 			)
 		)
 		(property "Value" "pressurant_pressure:sensor"
-			(at 151.13 60.198 0)
+			(at 145.796 60.198 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -1969,7 +1969,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:CheckValve")
 		(lib_id "PnID-Lib:CheckValve")
 		(at 133.35 102.108 270)
 		(unit 1)
@@ -2040,7 +2039,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
 		(at 133.35 128.27 0)
 		(unit 1)
@@ -2157,11 +2155,12 @@
 			)
 		)
 		(property "Value" "venturi_pressure:sensor"
-			(at 109.982 159.766 0)
+			(at 119.126 159.766 0)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2232,7 +2231,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Venturi")
 		(lib_id "PnID-Lib:Venturi")
 		(at 133.35 168.656 270)
 		(unit 1)
@@ -2251,7 +2249,7 @@
 			)
 		)
 		(property "Value" "venturi:sensor"
-			(at 138.176 168.656 90)
+			(at 139.446 168.656 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -2311,7 +2309,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
 		(at 76.708 58.928 90)
 		(unit 1)
@@ -2391,7 +2388,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:PressureRegulator")
 		(lib_id "PnID-Lib:PressureRegulator")
 		(at 86.36 48.26 0)
 		(mirror y)
@@ -2481,7 +2477,7 @@
 			)
 		)
 		(property "Value" "tank_pressure:sensor"
-			(at 114.3 106.934 0)
+			(at 119.126 106.934 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -2576,11 +2572,12 @@
 			)
 		)
 		(property "Value" "main_valve:sensor"
-			(at 109.982 151.13 90)
+			(at 119.126 151.13 90)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2644,7 +2641,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
 		(at 133.35 45.212 0)
 		(unit 1)
@@ -2810,7 +2806,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
 		(at 100.838 48.26 0)
 		(unit 1)
@@ -2889,7 +2884,6 @@
 		)
 	)
 	(symbol
-		(lib_name "propulsion_teststand-rescue:Valve_Manual_3Way-PnID-Lib")
 		(lib_id "propulsion_teststand-rescue:Valve_Manual_3Way-PnID-Lib")
 		(at 117.348 60.198 90)
 		(unit 1)
@@ -3050,11 +3044,12 @@
 			)
 		)
 		(property "Value" "pressurant_valve:sensor"
-			(at 109.474 89.662 90)
+			(at 119.126 89.662 90)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3118,7 +3113,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:PressureRegulator")
 		(lib_id "PnID-Lib:PressureRegulator")
 		(at 133.35 75.692 90)
 		(unit 1)
@@ -3209,11 +3203,12 @@
 			)
 		)
 		(property "Value" "venturi_weight:sensor"
-			(at 109.728 168.656 0)
+			(at 119.126 168.656 0)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

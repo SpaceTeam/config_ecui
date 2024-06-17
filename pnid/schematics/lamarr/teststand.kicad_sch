@@ -3513,7 +3513,7 @@
 			)
 		)
 		(property "Value" "ox_pressurant_pressure:sensor"
-			(at 145.542 37.084 0)
+			(at 145.034 37.084 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3607,7 +3607,7 @@
 			)
 		)
 		(property "Value" "fuel_pressurant_pressure:sensor"
-			(at 52.832 37.084 0)
+			(at 53.594 37.084 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3703,7 +3703,7 @@
 			)
 		)
 		(property "Value" "ox_pressurize_solenoid:sensor"
-			(at 121.412 48.26 90)
+			(at 122.682 48.26 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3793,7 +3793,7 @@
 			)
 		)
 		(property "Value" "fuel_pressurize_solenoid:sensor"
-			(at 77.47 48.26 90)
+			(at 76.2 48.26 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3882,12 +3882,12 @@
 			)
 		)
 		(property "Value" "ox_purge_solenoid:sensor"
-			(at 115.062 111.76 90)
+			(at 113.792 111.76 90)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -3972,7 +3972,7 @@
 			)
 		)
 		(property "Value" "fuel_purge_solenoid:sensor"
-			(at 83.058 111.506 90)
+			(at 85.09 111.76 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4041,7 +4041,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:CheckValve")
 		(lib_id "PnID-Lib:CheckValve")
 		(at 132.842 58.42 270)
 		(unit 1)
@@ -4112,7 +4111,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
 		(at 132.842 121.666 0)
 		(unit 1)
@@ -4209,7 +4207,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
 		(at 65.786 121.666 0)
 		(unit 1)
@@ -4306,7 +4303,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Engine")
 		(lib_id "PnID-Lib:Engine")
 		(at 99.314 174.498 0)
 		(unit 1)
@@ -4391,7 +4387,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:CheckValve")
 		(lib_id "PnID-Lib:CheckValve")
 		(at 88.392 122.936 270)
 		(unit 1)
@@ -4462,7 +4457,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:CheckValve")
 		(lib_id "PnID-Lib:CheckValve")
 		(at 110.236 122.936 270)
 		(unit 1)
@@ -4552,11 +4546,12 @@
 			)
 		)
 		(property "Value" "fuel_venturi_pressure:sensor"
-			(at 94.742 135.636 90)
+			(at 89.662 131.826 90)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4646,11 +4641,12 @@
 			)
 		)
 		(property "Value" "ox_venturi_pressure:sensor"
-			(at 104.14 135.636 90)
+			(at 108.966 135.636 90)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4739,7 +4735,7 @@
 			)
 		)
 		(property "Value" "chamber_pressure:sensor"
-			(at 115.824 177.038 0)
+			(at 115.316 177.038 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4898,7 +4894,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
 		(at 159.766 154.686 0)
 		(unit 1)
@@ -5178,7 +5173,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Venturi")
 		(lib_id "PnID-Lib:Venturi")
 		(at 104.14 163.322 270)
 		(unit 1)
@@ -5257,7 +5251,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Venturi")
 		(lib_id "PnID-Lib:Venturi")
 		(at 94.742 163.322 270)
 		(unit 1)
@@ -5337,7 +5330,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
 		(at 23.368 33.528 90)
 		(unit 1)
@@ -5417,7 +5409,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:PressureRegulator")
 		(lib_id "PnID-Lib:PressureRegulator")
 		(at 34.036 22.86 0)
 		(mirror y)
@@ -5488,7 +5479,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Needle")
 		(lib_id "PnID-Lib:Valve_Needle")
 		(at 50.038 22.86 0)
 		(unit 1)
@@ -5567,7 +5557,6 @@
 		)
 	)
 	(symbol
-		(lib_name "teststand-rescue:Valve_Manual_3Way-PnID-Lib")
 		(lib_id "teststand-rescue:Valve_Manual_3Way-PnID-Lib")
 		(at 65.786 29.972 0)
 		(unit 1)
@@ -5640,7 +5629,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_OverPressure")
 		(lib_id "PnID-Lib:Valve_OverPressure")
 		(at 39.116 75.692 0)
 		(unit 1)
@@ -5719,7 +5707,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Solenoid_NO")
 		(lib_id "PnID-Lib:Valve_Solenoid_NO")
 		(at 52.324 63.246 0)
 		(unit 1)
@@ -5738,7 +5725,7 @@
 			)
 		)
 		(property "Value" "fuel_depressurize_solenoid:sensor"
-			(at 52.324 51.816 0)
+			(at 52.324 51.562 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5806,7 +5793,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
 		(at 38.862 154.686 0)
 		(unit 1)
@@ -5951,7 +5937,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
 		(at 38.862 89.916 0)
 		(unit 1)
@@ -6247,7 +6232,7 @@
 			)
 		)
 		(property "Value" "fuel_main_valve:sensor"
-			(at 76.962 143.51 0)
+			(at 76.962 143.256 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6315,7 +6300,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_OverPressure")
 		(lib_id "PnID-Lib:Valve_OverPressure")
 		(at 159.512 75.692 0)
 		(mirror y)
@@ -6395,7 +6379,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Servo")
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 146.304 63.246 0)
 		(mirror y)
@@ -6483,7 +6466,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
 		(at 159.766 89.916 0)
 		(mirror y)
@@ -6783,7 +6765,7 @@
 			)
 		)
 		(property "Value" "fuel_tank_pressure:sensor"
-			(at 78.232 63.246 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6878,7 +6860,7 @@
 			)
 		)
 		(property "Value" "ox_tank_pressure:sensor"
-			(at 120.142 63.246 0)
+			(at 130.048 69.85 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6954,7 +6936,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:PressureRegulator")
 		(lib_id "PnID-Lib:PressureRegulator")
 		(at 164.592 22.86 0)
 		(unit 1)
@@ -7024,7 +7005,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Needle")
 		(lib_id "PnID-Lib:Valve_Needle")
 		(at 148.59 22.86 0)
 		(mirror y)
@@ -7170,7 +7150,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
 		(at 175.26 33.528 270)
 		(mirror x)
@@ -7251,7 +7230,6 @@
 		)
 	)
 	(symbol
-		(lib_name "teststand-rescue:Valve_Manual_3Way-PnID-Lib")
 		(lib_id "teststand-rescue:Valve_Manual_3Way-PnID-Lib")
 		(at 132.842 29.972 0)
 		(unit 1)
@@ -7343,7 +7321,7 @@
 			)
 		)
 		(property "Value" "ox_main_valve:sensor"
-			(at 121.158 143.51 0)
+			(at 121.158 143.256 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7777,7 +7755,7 @@
 			)
 		)
 		(property "Value" "ox_weight:sensor"
-			(at 121.158 138.684 0)
+			(at 121.158 137.668 0)
 			(effects
 				(font
 					(size 0.508 0.508)

@@ -2149,7 +2149,7 @@
 			)
 		)
 		(property "Value" "dewar_pressurant_tanking_valve:sensor"
-			(at 102.362 122.174 0)
+			(at 102.362 121.92 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -2237,7 +2237,7 @@
 			)
 		)
 		(property "Value" "dewar_pressurant_vent_solenoid:sensor"
-			(at 99.06 148.082 90)
+			(at 99.06 148.336 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -2404,7 +2404,7 @@
 			)
 		)
 		(property "Value" "dewar_pressure:sensor"
-			(at 62.738 121.666 90)
+			(at 62.738 121.92 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -2591,7 +2591,7 @@
 			)
 		)
 		(property "Value" "tanking_valve:sensor"
-			(at 41.656 121.412 0)
+			(at 41.656 121.92 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -2744,7 +2744,7 @@
 			)
 		)
 		(property "Value" "pressurant_main_solenoid:sensor"
-			(at 102.362 45.466 0)
+			(at 102.362 64.262 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -2832,7 +2832,7 @@
 			)
 		)
 		(property "Value" "pressurant_vent_solenoid:sensor"
-			(at 99.568 41.91 90)
+			(at 98.298 42.164 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -2920,7 +2920,7 @@
 			)
 		)
 		(property "Value" "pressurant_pressure:sensor"
-			(at 62.738 70.104 90)
+			(at 62.738 70.612 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -2993,7 +2993,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Solenoid_NO")
 		(lib_id "PnID-Lib:Valve_Solenoid_NO")
 		(at 41.656 39.116 0)
 		(unit 1)
@@ -3080,7 +3079,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Solenoid_NO")
 		(lib_id "PnID-Lib:Valve_Solenoid_NO")
 		(at 41.656 56.896 0)
 		(unit 1)
