@@ -3116,7 +3116,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.778 162.814) (xy 135.382 162.814)
+			(xy 131.318 162.814) (xy 135.382 162.814)
 		)
 		(stroke
 			(width 0)
@@ -3206,7 +3206,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.348 162.814) (xy 118.618 162.814)
+			(xy 117.348 162.814) (xy 121.158 162.814)
 		)
 		(stroke
 			(width 0)
@@ -3316,7 +3316,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.582 162.814) (xy 85.852 162.814)
+			(xy 82.042 162.814) (xy 85.852 162.814)
 		)
 		(stroke
 			(width 0)
@@ -3436,7 +3436,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.326 162.814) (xy 74.422 162.814)
+			(xy 68.326 162.814) (xy 71.882 162.814)
 		)
 		(stroke
 			(width 0)
@@ -3883,7 +3883,7 @@
 			)
 		)
 		(property "Value" "fuel_pressurant_pressure:sensor"
-			(at 43.688 45.212 0)
+			(at 55.88 45.212 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3979,7 +3979,7 @@
 			)
 		)
 		(property "Value" "ox_pressurize_solenoid:sensor"
-			(at 112.522 56.388 90)
+			(at 123.444 56.388 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4068,7 +4068,7 @@
 			)
 		)
 		(property "Value" "fuel_pressurize_solenoid:sensor"
-			(at 80.01 56.388 90)
+			(at 80.518 56.388 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4157,7 +4157,7 @@
 			)
 		)
 		(property "Value" "ox_purge_solenoid:sensor"
-			(at 122.174 109.982 90)
+			(at 115.57 111.252 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4246,12 +4246,12 @@
 			)
 		)
 		(property "Value" "fuel_purge_solenoid:sensor"
-			(at 80.772 110.236 90)
+			(at 87.63 111.252 90)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4824,11 +4824,12 @@
 			)
 		)
 		(property "Value" "fuel_venturi_pressure:sensor"
-			(at 94.488 143.764 90)
+			(at 86.868 143.51 90)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4918,11 +4919,12 @@
 			)
 		)
 		(property "Value" "ox_venturi_pressure:sensor"
-			(at 109.22 143.764 90)
+			(at 116.332 143.51 90)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5011,7 +5013,7 @@
 			)
 		)
 		(property "Value" "chamber_pressure:sensor"
-			(at 118.364 185.166 0)
+			(at 118.618 185.166 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5469,7 +5471,7 @@
 			)
 		)
 		(property "Value" "ox_venturi:sensor"
-			(at 114.046 171.45 90)
+			(at 114.046 176.022 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5529,6 +5531,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Venturi")
 		(lib_id "PnID-Lib:Venturi")
 		(at 94.488 171.45 270)
 		(unit 1)
@@ -5548,7 +5551,7 @@
 			)
 		)
 		(property "Value" "fuel_venturi:sensor"
-			(at 89.154 171.45 90)
+			(at 89.154 176.022 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6008,7 +6011,7 @@
 			)
 		)
 		(property "Value" "fuel_depressurize_solenoid:sensor"
-			(at 54.864 59.944 0)
+			(at 54.864 59.69 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6497,8 +6500,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Servo")
 		(lib_id "PnID-Lib:Valve_Servo")
-		(at 79.502 162.814 0)
+		(at 76.962 162.814 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6506,7 +6510,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e68479")
 		(property "Reference" "fuel_main_valve"
-			(at 79.502 151.5618 0)
+			(at 76.962 151.5618 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6515,7 +6519,7 @@
 			)
 		)
 		(property "Value" "fuel_main_valve:sensor"
-			(at 79.756 170.942 0)
+			(at 76.962 169.164 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6523,7 +6527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 79.502 162.814 0)
+			(at 76.962 162.814 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6532,7 +6536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 79.502 162.814 0)
+			(at 76.962 162.814 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6541,7 +6545,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 79.502 162.814 0)
+			(at 76.962 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6550,7 +6554,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 79.502 162.814 0)
+			(at 76.962 162.814 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6559,7 +6563,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 79.502 162.814 0)
+			(at 76.962 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6652,6 +6656,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Solenoid_NC")
 		(lib_id "PnID-Lib:Valve_Solenoid_NC")
 		(at 230.378 129.54 0)
 		(unit 1)
@@ -6836,7 +6841,7 @@
 			)
 		)
 		(property "Value" "dewar_pressure:sensor"
-			(at 188.976 117.094 90)
+			(at 188.976 116.84 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7026,7 +7031,7 @@
 			)
 		)
 		(property "Value" "tanking_valve:sensor"
-			(at 172.466 150.114 0)
+			(at 172.466 151.384 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7179,7 +7184,7 @@
 			)
 		)
 		(property "Value" "pressurant_main_solenoid:sensor"
-			(at 230.378 17.78 0)
+			(at 230.378 18.034 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7267,12 +7272,12 @@
 			)
 		)
 		(property "Value" "pressurant_vent_solenoid:sensor"
-			(at 231.14 45.974 90)
+			(at 221.234 46.228 90)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7355,7 +7360,7 @@
 			)
 		)
 		(property "Value" "pressurant_pressure:sensor"
-			(at 205.232 17.78 90)
+			(at 205.232 18.034 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7449,7 +7454,7 @@
 			)
 		)
 		(property "Value" "fuel_pressurant_solenoid:sensor"
-			(at 192.532 40.894 0)
+			(at 192.532 40.386 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7536,7 +7541,7 @@
 			)
 		)
 		(property "Value" "ox_pressurant_solenoid:sensor"
-			(at 192.532 17.78 0)
+			(at 192.532 18.034 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7736,6 +7741,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Valve_Solenoid_NO")
 		(lib_id "PnID-Lib:Valve_Solenoid_NO")
 		(at 216.154 117.602 90)
 		(unit 1)
@@ -7755,7 +7761,7 @@
 			)
 		)
 		(property "Value" "dewar_depressurize_solenoid:sensor"
-			(at 202.692 109.22 90)
+			(at 206.248 117.602 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8273,7 +8279,7 @@
 			)
 		)
 		(property "Value" "ox_depressurize_valve:sensor"
-			(at 148.844 59.69 0)
+			(at 148.844 59.182 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8574,7 +8580,7 @@
 			)
 		)
 		(property "Value" "fuel_tank_pressure:sensor"
-			(at 69.85 80.518 0)
+			(at 80.518 71.374 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8669,7 +8675,7 @@
 			)
 		)
 		(property "Value" "ox_tank_pressure:sensor"
-			(at 122.428 80.264 0)
+			(at 123.444 71.374 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9035,7 +9041,7 @@
 	(symbol
 		(lib_name "PnID-Lib:Valve_Servo")
 		(lib_id "PnID-Lib:Valve_Servo")
-		(at 123.698 162.814 0)
+		(at 126.238 162.814 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9043,7 +9049,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f5abdc")
 		(property "Reference" "ox_main_valve"
-			(at 123.698 151.5618 0)
+			(at 126.238 151.5618 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9052,7 +9058,7 @@
 			)
 		)
 		(property "Value" "ox_main_valve:sensor"
-			(at 123.698 170.942 0)
+			(at 126.238 168.91 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9060,7 +9066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.698 162.814 0)
+			(at 126.238 162.814 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9069,7 +9075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.698 162.814 0)
+			(at 126.238 162.814 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9078,7 +9084,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.698 162.814 0)
+			(at 126.238 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9087,7 +9093,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 123.698 162.814 0)
+			(at 126.238 162.814 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9096,7 +9102,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 123.698 162.814 0)
+			(at 126.238 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9393,12 +9399,12 @@
 			)
 		)
 		(property "Value" "thrust:sensor"
-			(at 80.772 185.166 0)
+			(at 87.63 185.166 0)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9654,7 +9660,7 @@
 			)
 		)
 		(property "Value" "ox_weight:sensor"
-			(at 126.238 147.066 0)
+			(at 124.968 145.288 0)
 			(effects
 				(font
 					(size 0.508 0.508)
