@@ -215,7 +215,6 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
       "conflicting_netclasses": "error",
@@ -254,7 +253,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "lamarr.kicad_pro",
+    "filename": "lamarr_gse.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -385,18 +384,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -408,7 +397,7 @@
   },
   "sheets": [
     [
-      "8327e663-75ab-4e67-9f5d-9f542b237d83",
+      "660e7953-f0f7-4287-bff3-755feca1f9ba",
       "Root"
     ]
   ],
