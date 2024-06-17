@@ -1,0 +1,108 @@
+{
+	"globals": {
+		"startTime": -5,
+		"endTime": 50,
+		"interpolation": {
+			"pressurant_valve:SetTargetPosition": "linear",
+			"main_valve:SetTargetPosition": "linear"
+		},
+		"interval": 0.01
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "alles schlieszen, dann pressurant langsam auf",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"main_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 1.0,
+			"name": "pressurant offen",
+			"desc": "dann 10 sek warten",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"pressurant_valve:SetTargetPosition": [
+						30
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 5.0,
+			"name": "main auf",
+			"desc": "dann 5 sek warten",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"main_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"main_valve:SetTargetPosition": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 30.0,
+			"name": "main auf",
+			"desc": "dann 5 sek warten",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"main_valve:SetTargetPosition": [
+						100
+					]
+				},
+				{
+					"timestamp": 0.0,
+					"pressurant_valve:SetTargetPosition": [
+						30
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"main_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"pressurant_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"main_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		}
+	]
+}

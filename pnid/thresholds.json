@@ -6,6 +6,9 @@
     "solenoid": {
         "high": 1000
     },
+    "pneumatic_valve_solenoid": {
+        "high": 400
+    },
     "switch": {
         "high": 1
     },

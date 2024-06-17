@@ -176,11 +176,11 @@ F 4 " " H 6380 3300 50  0001 C CNN "Action_Reference"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L PnID-Lib:Valve_Servo ox_depressurize_valve
+L PnID-Lib:Valve_Solenoid_NO ox_depressurize_solenoid
 U 1 1 63EF0ABF
 P 5860 2810
-F 0 "ox_depressurize_valve" H 5860 3253 20  0001 C CNN
-F 1 "ox_depressurize_valve:sensor" H 5860 3270 20  0000 C CNN
+F 0 "ox_depressurize_solenoid" H 5860 3253 20  0001 C CNN
+F 1 "ox_depressurize_solenoid:sensor" H 5860 3270 20  0000 C CNN
 F 2 "" H 5860 2810 20  0001 C CNN
 F 3 "" H 5860 2810 20  0001 C CNN
 F 4 "%" H 5860 2810 20  0001 C CNN "Unit"
@@ -780,34 +780,10 @@ F 6 " " H 7440 5790 50  0001 C CNN "Data_Content"
 $EndComp
 Wire Wire Line
 	9530 5100 9270 5100
-$Comp
-L PnID-Lib:Valve_Solenoid_NO dewar_depressurize_solenoid?
-U 1 1 63E739B8
-P 8510 4630
-F 0 "dewar_depressurize_solenoid?" V 8488 5008 20  0001 L CNN
-F 1 "dewar_depressurize_solenoid:sensor" V 8840 5160 20  0000 L CNN
-F 2 "" H 8510 4630 20  0001 C CNN
-F 3 "" H 8510 4630 20  0001 C CNN
-F 4 "%" H 8510 4630 20  0001 C CNN "Unit"
-F 5 " " H 8510 4630 50  0001 C CNN "Action_Reference"
-	1    8510 4630
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7440 5100 7440 5290
 Wire Wire Line
 	7440 6410 7440 6290
-$Comp
-L PnID-Lib:Vent Vent?
-U 1 1 63E739D9
-P 8510 4130
-F 0 "Vent?" V 8352 4258 50  0001 L CNN
-F 1 "Vent" H 8610 4080 50  0001 C CNN
-F 2 "" H 8510 4130 50  0001 C CNN
-F 3 "" H 8510 4130 50  0001 C CNN
-	1    8510 4130
-	0    -1   -1   0   
-$EndComp
 $Comp
 L PnID-Lib:Vent Vent?
 U 1 1 63E739DF
@@ -820,9 +796,9 @@ F 3 "" H 8510 6150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8510 4830 8510 5450
+	8510 5100 8510 5450
 Wire Wire Line
-	7440 5100 8870 5100
+	7440 5100 8510 5100
 Wire Notes Line
 	9710 570  9710 670 
 Wire Notes Line
@@ -1038,4 +1014,7 @@ F 6 " " H 4812 5683 50  0000 C CNN "Data_Content"
 	1    4870 5510
 	-1   0    0    -1  
 $EndComp
+Connection ~ 8510 5100
+Wire Wire Line
+	8510 5100 8870 5100
 $EndSCHEMATC

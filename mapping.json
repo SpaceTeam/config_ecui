@@ -39,7 +39,7 @@
                 "stringID": "ox_pressurant_pressure"
             },
             "6": {
-                "stringID": "dewar_depressurize_solenoid"
+                "stringID": "ox_depressurize_solenoid"
             },
             "7": {
                 "stringID": "ox_purge_solenoid"
@@ -61,7 +61,7 @@
             "1": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
-                "stringID": "fuel_main_valve"
+                "stringID": "fuel_unused_servo_1"
             },
             "10": {
                 "stringID": "fuel_depressurize_solenoid"
@@ -194,13 +194,13 @@
             "0": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
-                "stringID": "ox_main_valve"
+                "stringID": "unused_ox_main_valve"
             },
             "1": {
-                "stringID": "ox_main_valve_unused_pressure"
+                "stringID": "unused_ox_main_valve_unused_pressure"
             },
             "2": {
-                "stringID": "ox_main_valve_unused_what"
+                "stringID": "unused_ox_main_valve_unused_what"
             },
             "stringID": "blmb_ox_main_valve"
         },
@@ -208,13 +208,13 @@
             "0": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
-                "stringID": "ox_depressurize_valve"
+                "stringID": "unused_ox_depressurize_valve"
             },
             "1": {
-                "stringID": "ox_depressurize_valve_unused_pressure"
+                "stringID": "unused_ox_depressurize_valve_unused_pressure"
             },
             "2": {
-                "stringID": "ox_depressurize_valve_unused_what"
+                "stringID": "unused_ox_depressurize_valve_unused_what"
             },
             "stringID": "blmb_ox_depressurize_valve"
         },
@@ -238,12 +238,12 @@
             "10": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
-                "stringID": "main_valve"
+                "stringID": "fuel_main_valve"
             },
             "11": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
-                "stringID": "pressurant_valve"
+                "stringID": "ox_main_valve"
             },
             "12": {
                 "offset": 0,
@@ -303,17 +303,17 @@
             "3": {
                 "offset": -16.244,
                 "slope": 0.00119984,
-                "stringID": "venturi_pressure"
+                "stringID": "unused_ecu_pressure_3"
             },
             "4": {
                 "offset": -16.244,
                 "slope": 0.00119984,
-                "stringID": "tank_pressure"
+                "stringID": "unused_tank_pressure"
             },
             "5": {
                 "offset": -101.25,
                 "slope": 0.0078857,
-                "stringID": "pressurant_pressure"
+                "stringID": "unused_pressurant_pressure"
             },
             "6": {
                 "offset": -248.8657,
@@ -333,7 +333,7 @@
             "9": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "unused_ecu_servo_0"
+                "stringID": "unused_servo0"
             },
             "stringID": "ecu"
         },
@@ -409,9 +409,9 @@
             },
             "stringID": "teststand_ecu"
         },
-        "9": {
+        "8": {
             "0": {
-                "offset": -5.507554202500001,
+                "offset": -0.4123071225,
                 "slope": 4.46075e-05,
                 "stringID": "thrust"
             },
@@ -684,7 +684,7 @@
             {
                 "command": "Tare",
                 "parameters": [
-                    9,
+                    8,
                     0,
                     "thrust:sensor"
                 ]
