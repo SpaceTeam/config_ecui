@@ -59,8 +59,8 @@
     },
     "ox_depressurize_solenoid": {
         "states": [
-            "ox_depressurize_solenoid-sensor",
-            "safety_valves-sensor"
+            "ox_depressurize_solenoid:sensor",
+            "safety_valves:sensor"
         ],
         "eval": "if (inVars['value'] >= thresholds['pneumatic_valve_solenoid']['high']) { outVars['color']='closed'; outVars['value']='Closed' } else { outVars['color']='open'; outVars['value']='Open' }",
         "sens_deviation": "if ((setState == 0 && feedback >= thresholds['pneumatic_valve_solenoid']['high']) || (setState == 1 && feedback < thresholds['pneumatic_valve_solenoid']['high'])) { return true; } return false;",
