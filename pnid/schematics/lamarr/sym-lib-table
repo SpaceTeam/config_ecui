@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
-  (lib (name "PnID-Lib")(type "Legacy")(uri "/home/missioncontrol/config_ecui/pnid/schematics/pnid-lib/PnID.lib")(options "")(descr ""))
+  (lib (name "PnID-Lib")(type "KiCad")(uri "/home/missioncontrol/config_ecui/pnid/schematics/pnid-lib/PnID.kicad_sym")(options "")(descr ""))
+  (lib (name "propulsion_teststand-rescue")(type "KiCad")(uri "${KIPRJMOD}/propulsion_teststand-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "teststand-rescue")(type "KiCad")(uri "${KIPRJMOD}/teststand-rescue.kicad_sym")(options "")(descr ""))
 )

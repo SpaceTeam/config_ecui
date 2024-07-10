@@ -253,7 +253,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "lamarr.kicad_pro",
+    "filename": "lamarr_complete.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -399,7 +399,7 @@
   },
   "sheets": [
     [
-      "db4985dd-1b27-49f0-ab95-eb803731639e",
+      "506cfe9c-1d89-41b9-8231-c803b717a68d",
       "Root"
     ]
   ],
