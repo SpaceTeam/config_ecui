@@ -5,9 +5,7 @@
                 "stringID": "ox_unused_0"
             },
             "1": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "ex_fuel_main_valve"
+                "stringID": "ox_unused_1"
             },
             "10": {
                 "stringID": "dewar_pressurize_solenoid"
@@ -19,9 +17,7 @@
                 "stringID": "ox_pressure_control"
             },
             "2": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "ox_unused_servo_2"
+                "stringID": "unused"
             },
             "3": {
                 "offset": -15.19181586,
@@ -56,12 +52,10 @@
         },
         "11": {
             "0": {
-                "stringID": "fuel_unused_0"
+                "stringID": "sound_supression"
             },
             "1": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "fuel_unused_servo_1"
+                "stringID": "tank_heating"
             },
             "10": {
                 "stringID": "fuel_depressurize_solenoid"
@@ -73,9 +67,7 @@
                 "stringID": "fuel_pressure_control"
             },
             "2": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "fuel_unused_servo_2"
+                "stringID": "fuel_unused_2"
             },
             "3": {
                 "offset": -14.96221662,
@@ -93,7 +85,7 @@
                 "stringID": "fuel_pressurant_pressure"
             },
             "6": {
-                "stringID": "igniter"
+                "stringID": "safety_valves"
             },
             "7": {
                 "stringID": "fuel_purge_solenoid"
@@ -194,29 +186,15 @@
             "0": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
-                "stringID": "unused_ox_main_valve"
+                "stringID": "ox_tanking_valve"
             },
             "1": {
-                "stringID": "unused_ox_main_valve_unused_pressure"
+                "stringID": "unused_ox_tanking_valve_unused_pressure"
             },
             "2": {
-                "stringID": "unused_ox_main_valve_unused_what"
+                "stringID": "unused_ox_tanking_valve_unused_what"
             },
-            "stringID": "blmb_ox_main_valve"
-        },
-        "4": {
-            "0": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "unused_ox_depressurize_valve"
-            },
-            "1": {
-                "stringID": "unused_ox_depressurize_valve_unused_pressure"
-            },
-            "2": {
-                "stringID": "unused_ox_depressurize_valve_unused_what"
-            },
-            "stringID": "blmb_ox_depressurize_valve"
+            "stringID": "blmb_ox_tanking_valve"
         },
         "40": {
             "0": {
