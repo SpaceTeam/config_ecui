@@ -711,11 +711,11 @@ F 3 "" H 6290 6410 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PnID-Lib:Valve_Servo tanking_valve?
+L PnID-Lib:Valve_Servo ox_tanking_valve?
 U 1 1 63E7396E
 P 6790 6410
-F 0 "tanking_valve?" H 6790 6853 20  0001 C CNN
-F 1 "tanking_valve:sensor" H 6790 6910 20  0000 C CNN
+F 0 "ox_tanking_valve?" H 6790 6853 20  0001 C CNN
+F 1 "ox_tanking_valve:sensor" H 6790 6910 20  0000 C CNN
 F 2 "" H 6790 6410 20  0001 C CNN
 F 3 "" H 6790 6410 20  0001 C CNN
 F 4 "%" H 6790 6410 20  0001 C CNN "Unit"
@@ -1017,4 +1017,40 @@ $EndComp
 Connection ~ 8510 5100
 Wire Wire Line
 	8510 5100 8870 5100
+$Comp
+L PnID-Lib:heater heater?
+U 1 1 668F5B49
+P 4870 4710
+F 0 "heater?" H 4670 4800 20  0001 C CNN
+F 1 "tank_heating:sensor" H 4928 4859 20  0000 C CNN
+F 2 "" H 4870 4710 50  0001 C CNN
+F 3 "" H 4870 4710 50  0001 C CNN
+F 4 "A" H 4870 4710 50  0001 C CNN "Unit"
+	1    4870 4710
+	1    0    0    -1  
+$EndComp
+$Comp
+L PnID-Lib:Valve_Solenoid_NO Valve_Solenoid?
+U 1 1 668F7E75
+P 2140 6880
+F 0 "Valve_Solenoid?" V 2162 6702 20  0001 R CNN
+F 1 "safety_valves:sensor" V 2140 7750 20  0000 R CNN
+F 2 "" H 2140 6880 20  0001 C CNN
+F 3 "" H 2140 6880 20  0001 C CNN
+F 4 "%" H 2140 6880 20  0001 C CNN "Unit"
+F 5 " " H 2140 6880 50  0001 C CNN "Action_Reference"
+	1    2140 6880
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PnID-Lib:Pump U?
+U 1 1 668FD546
+P 2080 7310
+F 0 "U?" H 2095 7685 50  0001 C CNN
+F 1 "sound_supression:sensor" H 1330 7310 50  0000 C CNN
+F 2 "" H 2080 7310 50  0001 C CNN
+F 3 "" H 2080 7310 50  0001 C CNN
+	1    2080 7310
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
