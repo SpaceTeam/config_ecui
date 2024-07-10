@@ -9,6 +9,9 @@
     "pneumatic_valve_solenoid": {
         "high": 400
     },
+    "heater": {
+        "on": 7000
+    },
     "switch": {
         "high": 1
     },
