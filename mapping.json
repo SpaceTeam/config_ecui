@@ -389,7 +389,7 @@
         },
         "8": {
             "0": {
-                "offset": -0.4123071225,
+                "offset": -3.8501179325000003,
                 "slope": 4.46075e-05,
                 "stringID": "thrust"
             },
@@ -404,8 +404,8 @@
                 "stringID": "fuel_weight"
             },
             "3": {
-                "offset": -2928115.0,
-                "slope": 1.0,
+                "offset": -14.052674663760003,
+                "slope": 5.57269e-06,
                 "stringID": "ox_weight"
             },
             "4": {
@@ -510,7 +510,7 @@
             {
                 "command": "Tare",
                 "parameters": [
-                    9,
+                    8,
                     2,
                     "fuel_weight:sensor"
                 ]
@@ -538,7 +538,7 @@
             {
                 "command": "Tare",
                 "parameters": [
-                    9,
+                    8,
                     3,
                     "ox_weight:sensor"
                 ]

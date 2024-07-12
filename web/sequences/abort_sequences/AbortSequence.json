@@ -21,6 +21,9 @@
         "ox_main_valve:SetTargetPosition": [
             100
         ],
+        "safety_valves:SetState": [
+            0
+        ],
         "fuel_purge_solenoid:SetState": [
             100
         ],

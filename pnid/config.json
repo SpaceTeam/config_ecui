@@ -1,7 +1,7 @@
 {
     "fuel_weight": {
         "states": [
-            "fuel_weight-sensor"
+            "fuel_weight:sensor"
         ],
         "eval": "",
         "popup": [
@@ -27,7 +27,7 @@
     },
     "ox_weight": {
         "states": [
-            "ox_weight-sensor"
+            "ox_weight:sensor"
         ],
         "eval": "",
         "popup": [
@@ -53,16 +53,16 @@
     },
     "pressure": {
         "states": [
-            "chamber_pressure-sensor"
+            "chamber_pressure:sensor"
         ],
         "eval": "if (inVars['value'] > thresholds['chamberPressure']['high']) { outVars['color']='high' } else if (inVars['value'] > thresholds['chamberPressure']['low']) { outVars['color']='neutral' } else { outVars['color']='low' }"
     },
     "ox_depressurize_solenoid": {
         "states": [
-            "ox_depressurize_solenoid-sensor",
-            "safety_valves-sensor"
+            "ox_depressurize_solenoid:sensor",
+            "safety_valves:sensor"
         ],
-        "eval": "if (inVars['value'] >= thresholds['pneumatic_valve_solenoid']['high']) { outVars['color']='closed'; outVars['value']='Closed' } else { outVars['color']='open'; outVars['value']='Open' }",
+        "eval": "if (inVars['value'] >= thresholds['pneumatic_valve_solenoid']['high']) { outVars['color']='closed'; outVars['value']='Closed (' + inVars['value'] + ')'; } else { outVars['color']='open'; outVars['value']='Open (' + inVars['value'] + ')'; }",
         "sens_deviation": "if ((setState == 0 && feedback >= thresholds['pneumatic_valve_solenoid']['high']) || (setState == 1 && feedback < thresholds['pneumatic_valve_solenoid']['high'])) { return true; } return false;",
         "popup": [
             {
@@ -77,9 +77,9 @@
     },
     "dewar_depressurize_solenoid": {
         "states": [
-            "dewar_depressurize_solenoid-sensor"
+            "dewar_depressurize_solenoid:sensor"
         ],
-        "eval": "if (inVars['setState'] > 0) { outVars['color']='closed'; outVars['value']='Closed' } else { outVars['color']='open'; outVars['value']='Open' }",
+        "eval": "if (inVars['setState'] > 0) { outVars['color']='closed'; outVars['value']='Closed (' + inVars['value'] + ')' } else { outVars['color']='open'; outVars['value']='Open (' + inVars['value'] + ')' }",
         "sens_deviation": "return false;",
         "popup": [
             {
@@ -94,9 +94,9 @@
     },
     "dewar_pressurize_solenoid": {
         "states": [
-            "dewar_pressurize_solenoid-sensor"
+            "dewar_pressurize_solenoid:sensor"
         ],
-        "eval": "if (inVars['setState'] > 0) { outVars['color']='open'; outVars['value']='Open' } else { outVars['color']='closed'; outVars['value']='Closed' }",
+        "eval": "if (inVars['setState'] > 0) { outVars['color']='open'; outVars['value']='Open (' + inVars['value'] + ')' } else { outVars['color']='closed'; outVars['value']='Closed (' + inVars['value'] + ')' }",
         "sens_deviation": "return false;",
         "popup": [
             {
@@ -111,214 +111,214 @@
     },
     "purge_solenoid_pressure": {
         "states": [
-            "purge_solenoid-sensor"
+            "purge_solenoid:sensor"
         ],
         "eval": "if (inVars['value'] > 0) { outVars['color']='open'; outVars['value']='Open' } else { outVars['color']='closed'; outVars['value']='Closed'; outVars['crossUpdate']=[{'name':'purge_solenoid_wire','value':2.1}] }"
     },
     "temp_sens_hot": {
         "states": [
-            "water_hot_temp-sensor"
+            "water_hot_temp:sensor"
         ],
         "eval": "if (inVars['value'] > thresholds['waterTemps']['notconnected']) { outVars['color']='notconnected'; outVars['content']='notconnected'; outVars['value']='Not Conn' } else if (inVars['value'] > thresholds['waterHotTemps']['high']) { outVars['color']='high'; outVars['content']='high' } else if (inVars['value'] > thresholds['waterHotTemps']['low']) { outVars['color']='mid'; outVars['content']='mid' } else { outVars['color']='low'; outVars['content']='low' }"
     },
     "temp_sens_cold": {
         "states": [
-            "water_cold_temp-sensor"
+            "water_cold_temp:sensor"
         ],
         "eval": "if (inVars['value'] > thresholds['waterTemps']['notconnected']) { outVars['color']='notconnected'; outVars['content']='notconnected'; outVars['value']='Not Conn' } else if (inVars['value'] > thresholds['waterColdTemps']['high']) { outVars['color']='high'; outVars['content']='high'  } else if (inVars['value'] > thresholds['waterColdTemps']['low']) { outVars['color']='mid'; outVars['content']='mid' } else { outVars['color']='low'; outVars['content']='low' }"
     },
     "temp_sens_heat_exchanger": {
         "states": [
-            "water_mantle_temp-sensor"
+            "water_mantle_temp:sensor"
         ],
         "eval": "if (inVars['value'] > thresholds['waterTemps']['notconnected']) { outVars['color']='notconnected'; outVars['content']='notconnected'; outVars['value']='Not Conn' } else if (inVars['value'] > thresholds['waterMantleTemps']['high']) { outVars['color']='high'; outVars['content']='high' } else if (inVars['value'] > thresholds['waterMantleTemps']['low']) { outVars['color']='mid'; outVars['content']='mid' } else { outVars['color']='low'; outVars['content']='low' }"
     },
     "3_way_water_valve_out": {
         "states": [
-            "water_valves_out-sensor"
+            "water_valves_out:sensor"
         ],
-        "eval": "if (outVars['color']=='position_a') { unlink('pump_cold_water-sensor', ['water_mantle_in:wire','water_mantle-sensor']); link('pump_hot_water-sensor', 'water_mantle_in:wire'); link('pump_hot_water-sensor', 'water_mantle-sensor', 'value') } else if (outVars['color']=='position_b') { unlink('pump_hot_water-sensor', ['water_mantle_in:wire','water_mantle-sensor']); link('pump_cold_water-sensor', 'water_mantle_in:wire'); link('pump_cold_water-sensor', 'water_mantle-sensor', 'value') } else { unlink('pump_hot_water-sensor', ['water_mantle_in:wire','water_mantle-sensor'], -10); unlink('pump_cold_water-sensor', ['water_mantle_in:wire','water_mantle-sensor'], -10) }"
+        "eval": "if (outVars['color']=='position_a') { unlink('pump_cold_water:sensor', ['water_mantle_in:wire','water_mantle:sensor']); link('pump_hot_water:sensor', 'water_mantle_in:wire'); link('pump_hot_water:sensor', 'water_mantle:sensor', 'value') } else if (outVars['color']=='position_b') { unlink('pump_hot_water:sensor', ['water_mantle_in:wire','water_mantle:sensor']); link('pump_cold_water:sensor', 'water_mantle_in:wire'); link('pump_cold_water:sensor', 'water_mantle:sensor', 'value') } else { unlink('pump_hot_water:sensor', ['water_mantle_in:wire','water_mantle:sensor'], -10); unlink('pump_cold_water:sensor', ['water_mantle_in:wire','water_mantle:sensor'], -10) }"
     },
     "3_way_water_valve_return": {
         "states": [
-            "water_valves_return-sensor"
+            "water_valves_return:sensor"
         ],
-        "eval": "if (outVars['color']=='position_a') { outVars['color']='position_b'; unlink('water_mantle-sensor', 'water_tank_cold_return:wire', -10); link('water_mantle-sensor', 'water_tank_hot_return:wire') } else if (outVars['color']=='position_b') {  outVars['color']='position_a'; unlink('water_mantle-sensor', 'water_tank_hot_return:wire', -10); link('water_mantle-sensor', 'water_tank_cold_return:wire') } else { unlink('water_mantle_temp-sensor', 'water_tank_hot_return:wire', -10); unlink('water_tank_cold_return-sensor', 'heat_exchanger_in:wire', -10) }"
+        "eval": "if (outVars['color']=='position_a') { outVars['color']='position_b'; unlink('water_mantle:sensor', 'water_tank_cold_return:wire', -10); link('water_mantle:sensor', 'water_tank_hot_return:wire') } else if (outVars['color']=='position_b') {  outVars['color']='position_a'; unlink('water_mantle:sensor', 'water_tank_hot_return:wire', -10); link('water_mantle:sensor', 'water_tank_cold_return:wire') } else { unlink('water_mantle_temp:sensor', 'water_tank_hot_return:wire', -10); unlink('water_tank_cold_return:sensor', 'heat_exchanger_in:wire', -10) }"
     },
     "heat_exchanger": {
         "states": [
-            "water_mantle-sensor"
+            "water_mantle:sensor"
         ],
-        "eval": "link(inVars['this'], 'water_mantle_out:wire'); link('water_mantle_temp-sensor', inVars['this'], 'content')"
+        "eval": "link(inVars['this'], 'water_mantle_out:wire'); link('water_mantle_temp:sensor', inVars['this'], 'content')"
     },
     "pump_hot_water": {
         "states": [
-            "pump_hot_water-sensor"
+            "pump_hot_water:sensor"
         ],
-        "eval": "link('water_hot_temp-sensor', inVars['this'], 'content')"
+        "eval": "link('water_hot_temp:sensor', inVars['this'], 'content')"
     },
     "pump_cold_water": {
         "states": [
-            "pump_cold_water-sensor"
+            "pump_cold_water:sensor"
         ],
-        "eval": "link('water_cold_temp-sensor', inVars['this'], 'content')"
+        "eval": "link('water_cold_temp:sensor', inVars['this'], 'content')"
     },
-    "fuel_bottom_tank_pressure-sensor": {
+    "fuel_bottom_tank_pressure:sensor": {
         "states": [
-            "fuel_bottom_tank_pressure-sensor"
+            "fuel_bottom_tank_pressure:sensor"
         ],
         "popup": {
             "source": "11",
             "autoID": false
         }
     },
-    "fuel_main_pressure-sensor": {
+    "fuel_main_pressure:sensor": {
         "states": [
-            "fuel_main_pressure-sensor"
+            "fuel_main_pressure:sensor"
         ],
         "popup": {
             "source": "14",
             "autoID": false
         }
     },
-    "fuel_pressurant_regulator_pressure-sensor": {
+    "fuel_pressurant_regulator_pressure:sensor": {
         "states": [
-            "fuel_pressurant_regulator_pressure-sensor"
+            "fuel_pressurant_regulator_pressure:sensor"
         ],
         "popup": {
             "source": "15",
             "autoID": false
         }
     },
-    "fuel_top_tank_pressure-sensor": {
+    "fuel_top_tank_pressure:sensor": {
         "states": [
-            "fuel_top_tank_pressure-sensor"
+            "fuel_top_tank_pressure:sensor"
         ],
         "popup": {
             "source": "16",
             "autoID": false
         }
     },
-    "igniter_fuel_regulator_pressure-sensor": {
+    "igniter_fuel_regulator_pressure:sensor": {
         "states": [
-            "igniter_fuel_bottle_pressure-sensor"
+            "igniter_fuel_bottle_pressure:sensor"
         ],
         "popup": {
             "source": "17",
             "autoID": false
         }
     },
-    "igniter_ox_regulator_pressure-sensor": {
+    "igniter_ox_regulator_pressure:sensor": {
         "states": [
-            "igniter_ox_bottle_pressure-sensor"
+            "igniter_ox_bottle_pressure:sensor"
         ],
         "popup": {
             "source": "18",
             "autoID": false
         }
     },
-    "ox_bottom_tank_pressure-sensor": {
+    "ox_bottom_tank_pressure:sensor": {
         "states": [
-            "ox_bottom_tank_pressure-sensor"
+            "ox_bottom_tank_pressure:sensor"
         ],
         "popup": {
             "source": "19",
             "autoID": false
         }
     },
-    "ox_pressurant_regulator_pressure-sensor": {
+    "ox_pressurant_regulator_pressure:sensor": {
         "states": [
-            "ox_pressurant_regulator_pressure-sensor"
+            "ox_pressurant_regulator_pressure:sensor"
         ],
         "popup": {
             "source": "20",
             "autoID": false
         }
     },
-    "ox_top_tank_pressure-sensor": {
+    "ox_top_tank_pressure:sensor": {
         "states": [
-            "ox_top_tank_pressure-sensor"
+            "ox_top_tank_pressure:sensor"
         ],
         "popup": {
             "source": "21",
             "autoID": false
         }
     },
-    "purge_bottle_pressure-sensor": {
+    "purge_bottle_pressure:sensor": {
         "states": [
-            "purge_bottle_pressure-sensor"
+            "purge_bottle_pressure:sensor"
         ],
         "popup": {
             "source": "22",
             "autoID": false
         }
     },
-    "fuel_bottom_tank_temp-sensor": {
+    "fuel_bottom_tank_temp:sensor": {
         "states": [
-            "fuel_bottom_tank_temp-sensor"
+            "fuel_bottom_tank_temp:sensor"
         ],
         "popup": {
             "source": "12",
             "autoID": false
         }
     },
-    "fuel_mid_bottom_tank_temp-sensor": {
+    "fuel_mid_bottom_tank_temp:sensor": {
         "states": [
-            "fuel_mid_bottom_tank_temp-sensor"
+            "fuel_mid_bottom_tank_temp:sensor"
         ],
         "popup": {
             "source": "23",
             "autoID": false
         }
     },
-    "fuel_mid_top_tank_temp-sensor": {
+    "fuel_mid_top_tank_temp:sensor": {
         "states": [
-            "fuel_mid_top_tank_temp-sensor"
+            "fuel_mid_top_tank_temp:sensor"
         ],
         "popup": {
             "source": "24",
             "autoID": false
         }
     },
-    "fuel_top_tank_temp-sensor": {
+    "fuel_top_tank_temp:sensor": {
         "states": [
-            "fuel_top_tank_temp-sensor"
+            "fuel_top_tank_temp:sensor"
         ],
         "popup": {
             "source": "25",
             "autoID": false
         }
     },
-    "ox_bottom_tank_temp-sensor": {
+    "ox_bottom_tank_temp:sensor": {
         "states": [
-            "ox_bottom_tank_temp-sensor"
+            "ox_bottom_tank_temp:sensor"
         ],
         "popup": {
             "source": "26",
             "autoID": false
         }
     },
-    "ox_mid_bottom_tank_temp-sensor": {
+    "ox_mid_bottom_tank_temp:sensor": {
         "states": [
-            "ox_mid_bottom_tank_temp-sensor"
+            "ox_mid_bottom_tank_temp:sensor"
         ],
         "popup": {
             "source": "27",
             "autoID": false
         }
     },
-    "ox_mid_top_tank_temp-sensor": {
+    "ox_mid_top_tank_temp:sensor": {
         "states": [
-            "ox_mid_top_tank_temp-sensor"
+            "ox_mid_top_tank_temp:sensor"
         ],
         "popup": {
             "source": "28",
             "autoID": false
         }
     },
-    "ox_top_tank_temp-sensor": {
+    "ox_top_tank_temp:sensor": {
         "states": [
-            "ox_top_tank_temp-sensor"
+            "ox_top_tank_temp:sensor"
         ],
         "popup": {
             "source": "29",
@@ -336,23 +336,23 @@
     },
     "blmb_setState_fixes": {
         "states": [
-            "pressurant_tanking_valve-sensor",
-            "pressurant_vent_valve-sensor"
+            "pressurant_tanking_valve:sensor",
+            "pressurant_vent_valve:sensor"
         ],
         "sens_deviation": "return false;"
     },
     "ox_tanking_valve": {
         "states": [
-            "ox_tanking_valve-sensor"
+            "ox_tanking_valve:sensor"
         ],
-        "eval": "if (outVars['color'] == 'open') { link('ox_bottle_pressure-sensor', ['ox_tanking_wire', 'ox_tanking_quickconnect-sensor', 'ox_tanking_checkvalve-sensor']) } else if (outVars['color'] == 'closed') { unlink('ox_bottle_pressure-sensor', ['ox_tanking_wire', 'ox_tanking_quickconnect-sensor', 'ox_tanking_checkvalve-sensor'], -10) }"
+        "eval": "if (outVars['color'] == 'open') { link('ox_bottle_pressure:sensor', ['ox_tanking_wire', 'ox_tanking_quickconnect:sensor', 'ox_tanking_checkvalve:sensor']) } else if (outVars['color'] == 'closed') { unlink('ox_bottle_pressure:sensor', ['ox_tanking_wire', 'ox_tanking_quickconnect:sensor', 'ox_tanking_checkvalve:sensor'], -10) }"
     },
     "water_wires": {
         "states": [
             "water_mantle_in:wire",
             "water_mantle_out:wire",
-            "pump_hot_water-sensor:wire",
-            "pump_cold_water-sensor:wire",
+            "pump_hot_water:sensor:wire",
+            "pump_cold_water:sensor:wire",
             "water_tank_hot_return:wire",
             "water_tank_cold_return:wire"
         ],
@@ -360,8 +360,8 @@
     },
     "water_tank_wires": {
         "states": [
-            "water_cold_temp-sensor:wire",
-            "water_hot_temp-sensor:wire"
+            "water_cold_temp:sensor:wire",
+            "water_hot_temp:sensor:wire"
         ],
         "eval": "if (inVars['value'] >= thresholds['waterTemps']['notconnected']) { outVars['color'] = 'empty' } else { outVars['color'] = 'content' }"
     },
@@ -409,7 +409,7 @@
     },
     "height_sensor_graph_pmu": {
         "states": [
-            "lora:pmu_altitude-sensor"
+            "lora:pmu_altitude:sensor"
         ],
         "popup": {
             "source": "Altitude_Plot"
@@ -417,7 +417,7 @@
     },
     "height_sensor_graph_rcu": {
         "states": [
-            "lora:rcu_altitude-sensor"
+            "lora:rcu_altitude:sensor"
         ],
         "popup": {
             "source": "Altitude"
@@ -425,29 +425,29 @@
 	},
     "baro_rcu": {
         "states": [
-            "lora:rcu_barometer-sensor"
+            "lora:rcu_barometer:sensor"
         ],
         "popup": {
-            "source": "rcu_barometer-sensor"
+            "source": "rcu_barometer:sensor"
         }
 	},
     "height_sensor_graph_rcu": {
         "states": [
-            "lora:gps_altitude-sensor"
+            "lora:gps_altitude:sensor"
         ],
         "popup": {
-            "source": "gps_altitude-sensor"
+            "source": "gps_altitude:sensor"
         }
 	},
 	"holddown": {
         "states": [
-            "holddown-sensor"
+            "holddown:sensor"
         ],
         "eval": "if (inVars['value'] >= thresholds['motor']['high']) { outVars['color']='open'; outVars['value']='Release' } else { outVars['color']='closed'; outVars['value']='Hold' }"
 	},
 	"umbilical_retract": {
         "states": [
-            "umbilical_retract-sensor"
+            "umbilical_retract:sensor"
         ],
         "eval": "if (inVars['value'] >= thresholds['motor']['high']) { outVars['color']='open'; outVars['value']='Retract' } else { outVars['color']='closed'; outVars['value']='Stop' }"
 	},
@@ -489,37 +489,37 @@
                 "type": "display",
                 "style": "text",
                 "label": "5V",
-                "variable": "pmu_5V_voltage-sensor"
+                "variable": "pmu_5V_voltage:sensor"
             },
             {
                 "type": "display",
                 "style": "text",
                 "label": "5V High Load",
-                "variable": "pmu_5V_high_load_voltage-sensor"
+                "variable": "pmu_5V_high_load_voltage:sensor"
             },
             {
                 "type": "display",
                 "style": "text",
                 "label": "12V",
-                "variable": "pmu_12V_voltage-sensor"
+                "variable": "pmu_12V_voltage:sensor"
             },
             {
                 "type": "display",
                 "style": "text",
                 "label": "Battery",
-                "variable": "battery_voltage-sensor"
+                "variable": "battery_voltage:sensor"
             },
             {
                 "type": "display",
                 "style": "text",
                 "label": "Pyro",
-                "variable": "pmu_pyro_voltage-sensor"
+                "variable": "pmu_pyro_voltage:sensor"
             },
             {
                 "type": "display",
                 "style": "text",
                 "label": "Supply Current",
-                "variable": "pmu_supply_current-sensor"
+                "variable": "pmu_supply_current:sensor"
             }
         ]
 	}
