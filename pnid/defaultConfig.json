@@ -18,7 +18,7 @@
         ]
 	},
     "PnID-Lib-Valve_Solenoid_NO": {
-        "eval": "if (inVars['value'] >= thresholds['solenoid']['high']) { outVars['color']='closed'; outVars['value']='Closed' } else { outVars['color']='open'; outVars['value']='Open' }",
+        "eval": "if (inVars['value'] >= thresholds['solenoid']['high']) { outVars['color']='closed'; outVars['value']='Closed (' + inVars['value'] + ')' } else { outVars['color']='open'; outVars['value']='Open (' + inVars['value'] + ')' }",
         "sens_deviation": "if ((setState == 0 && feedback >= thresholds['solenoid']['high']) || (setState == 1 && feedback < thresholds['solenoid']['high'])) { return true; } return false;",
         "popup": [
             {
@@ -32,7 +32,7 @@
         ]
     },
     "PnID-Lib-Valve_Solenoid_NC": {
-        "eval": "if (inVars['value'] >= thresholds['solenoid']['high']) { outVars['color']='open'; outVars['value']='Open' } else { outVars['color']='closed'; outVars['value']='Closed' }",
+        "eval": "if (inVars['value'] >= thresholds['solenoid']['high']) { outVars['color']='open'; outVars['value']='Open (' + inVars['value'] + ')' } else { outVars['color']='closed'; outVars['value']='Closed (' + inVars['value'] + ')' }",
         "sens_deviation": "if ((setState == 0 && feedback >= thresholds['solenoid']['high']) || (setState == 1 && feedback < thresholds['solenoid']['high'])) { return true; } return false;",
         "popup": [
             {
