@@ -389,7 +389,7 @@
         },
         "8": {
             "0": {
-                "offset": -3.8501179325000003,
+                "offset": -13.183032905000001,
                 "slope": 4.46075e-05,
                 "stringID": "thrust"
             },
@@ -404,7 +404,7 @@
                 "stringID": "fuel_weight"
             },
             "3": {
-                "offset": -14.052674663760003,
+                "offset": -13.50966060478,
                 "slope": 5.57269e-06,
                 "stringID": "ox_weight"
             },

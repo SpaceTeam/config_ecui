@@ -16,7 +16,7 @@
             0
         ],
         "fuel_main_valve:SetTargetPosition": [
-            100
+            0
         ],
         "ox_main_valve:SetTargetPosition": [
             100
@@ -25,13 +25,10 @@
             0
         ],
         "fuel_purge_solenoid:SetState": [
-            100
+            0
         ],
         "ox_purge_solenoid:SetState": [
             100
-        ],
-        "igniter:SetState": [
-            0
         ],
         "igniter_ecu_0:SetState": [
             0
