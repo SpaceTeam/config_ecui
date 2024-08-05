@@ -10,7 +10,6 @@
 			"ox_main_valve:SetTargetPosition": "linear",
 			"fuel_purge_solenoid:SetState": "none",
 			"ox_purge_solenoid:SetState": "none",
-			"igniter:SetState": "none",
 			"igniter_ecu_0:SetState": "none",
 			"igniter_ecu_1:SetState": "none",
 			"safety_valves:SetState": "none"
@@ -51,9 +50,6 @@
 						0
 					],
 					"ox_purge_solenoid:SetState": [
-						0
-					],
-					"igniter:SetState": [
 						0
 					],
 					"igniter_ecu_0:SetState": [
@@ -109,9 +105,6 @@
 			"actions": [
 				{
 					"timestamp": 0.0,
-					"igniter:SetState": [
-						100
-					],
 					"igniter_ecu_0:SetState": [
 						100
 					],
@@ -166,9 +159,6 @@
 			"actions": [
 				{
 					"timestamp": 0.0,
-					"igniter:SetState": [
-						0
-					],
 					"igniter_ecu_0:SetState": [
 						0
 					],
@@ -274,7 +264,7 @@
 						100
 					],
 					"fuel_purge_solenoid:SetState": [
-						100
+						0
 					]
 				},
 				{
@@ -313,9 +303,6 @@
 					"ox_main_valve:SetTargetPosition": [
 						100
 					],
-					"igniter:SetState": [
-						0
-					],
 					"igniter_ecu_0:SetState": [
 						0
 					],
@@ -323,6 +310,12 @@
 						0
 					],
 					"safety_valves:SetState": [
+						0
+					],
+					"ox_purge_solenoid:SetState": [
+						0
+					],
+					"fuel_purge_solenoid:SetState": [
 						0
 					]
 				}

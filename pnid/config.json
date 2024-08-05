@@ -1,7 +1,7 @@
 {
     "fuel_weight": {
         "states": [
-            "fuel_weight:sensor"
+            "fuel_weight-sensor"
         ],
         "eval": "",
         "popup": [
@@ -27,7 +27,7 @@
     },
     "ox_weight": {
         "states": [
-            "ox_weight:sensor"
+            "ox_weight-sensor"
         ],
         "eval": "",
         "popup": [
@@ -59,10 +59,26 @@
     },
     "ox_depressurize_solenoid": {
         "states": [
-            "ox_depressurize_solenoid:sensor",
-            "safety_valves:sensor"
+            "ox_depressurize_solenoid:sensor"
         ],
         "eval": "if (inVars['value'] >= thresholds['pneumatic_valve_solenoid']['high']) { outVars['color']='closed'; outVars['value']='Closed (' + inVars['value'] + ')'; } else { outVars['color']='open'; outVars['value']='Open (' + inVars['value'] + ')'; }",
+        "sens_deviation": "if ((setState == 0 && feedback >= thresholds['pneumatic_valve_solenoid']['high']) || (setState == 1 && feedback < thresholds['pneumatic_valve_solenoid']['high'])) { return true; } return false;",
+        "popup": [
+            {
+                "type": "display",
+                "style": "text"
+            },
+            {
+                "type": "input",
+                "style": "checkbox"
+            }
+        ]
+    },
+    "safety_valves": {
+        "states": [
+            "safety_valves:sensor"
+        ],
+        "eval": "if (inVars['value'] >= thresholds['pneumatic_valve_solenoid']['high']) { outVars['color']='open'; outVars['value']='Open (' + inVars['value'] + ')'; } else { outVars['color']='closed'; outVars['value']='Closed (' + inVars['value'] + ')'; }",
         "sens_deviation": "if ((setState == 0 && feedback >= thresholds['pneumatic_valve_solenoid']['high']) || (setState == 1 && feedback < thresholds['pneumatic_valve_solenoid']['high'])) { return true; } return false;",
         "popup": [
             {
