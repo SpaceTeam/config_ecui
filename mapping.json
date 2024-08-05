@@ -387,9 +387,68 @@
             },
             "stringID": "teststand_ecu"
         },
+        "7": {
+            "0": {
+                "stringID": "tank_pressure"
+            },
+            "1": {
+                "stringID": "pressurant_pressure"
+            },
+            "2": {
+                "stringID": "venturi_pressure"
+            },
+            "3": {
+                "stringID": "unused_ecu_pressure_3"
+            },
+            "4": {
+                "stringID": "unused_ecu_temp_0"
+            },
+            "5": {
+                "stringID": "unused_ecu_temp_1"
+            },
+            "6": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "pressurant_valve"
+            },
+            "7": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "main_valve"
+            },
+            "8": {
+                "stringID": "unused_pyro_0"
+            },
+            "9": {
+                "stringID": "unused_pyro_0_cont"
+            },
+            "10": {
+                "stringID": "unused_pyro_1"
+            },
+            "11": {
+                "stringID": "unused_pyro_1_cont"
+            },
+            "12": {
+                "stringID": "unused_pyro_2"
+            },
+            "13": {
+                "stringID": "unused_pyro_2_cont"
+            },
+            "14": {
+                "stringID": "unused_pyro_3"
+            },
+            "15": {
+                "stringID": "unused_pyro_3_cont"
+            },
+            "16": {
+                "stringID": "unused_pi_controller"
+            },
+            
+            "stringID": "pressurant_test_ecu"
+        },
         "8": {
             "0": {
-                "offset": -13.183032905000001,
+                "offset": 3.778522895,
                 "slope": 4.46075e-05,
                 "stringID": "thrust"
             },
@@ -404,7 +463,7 @@
                 "stringID": "fuel_weight"
             },
             "3": {
-                "offset": -13.50966060478,
+                "offset": -14.257331704010001,
                 "slope": 5.57269e-06,
                 "stringID": "ox_weight"
             },

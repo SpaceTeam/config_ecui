@@ -1019,125 +1019,6 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:Sensor_Load_Short"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Sensor_Load_Short"
-				(at 6.35 0.762 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-				)
-			)
-			(property "Value" "Sensor_Load_Short"
-				(at 6.35 -0.762 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit" "kg"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Action_Reference" " "
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Data_Content" " "
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Sensor_Load_Short_0_0"
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "L"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 2.9972 2.9972)
-						)
-					)
-				)
-			)
-			(symbol "Sensor_Load_Short_1_1"
-				(pin bidirectional line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PnID-Lib:Sensor_Pressure"
 			(pin_numbers hide)
 			(pin_names
@@ -2964,110 +2845,6 @@
 				)
 			)
 		)
-		(symbol "PnID-Lib:heater"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "heater"
-				(at -5.08 2.286 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "heater"
-				(at -5.08 0 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Unit" "A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "heater_0_0"
-				(text "H"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 2.9972 2.9972)
-						)
-					)
-				)
-			)
-			(symbol "heater_0_1"
-				(rectangle
-					(start -2.54 2.54)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "heater_1_1"
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PnID-Lib:igniter"
 			(pin_names
 				(offset 1.016)
@@ -3172,7 +2949,7 @@
 				)
 			)
 		)
-		(symbol "Valve_Solenoid_NO_1"
+		(symbol "Valve_Solenoid_NC_1"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
@@ -3188,7 +2965,7 @@
 					)
 				)
 			)
-			(property "Value" "Valve_Solenoid_NO"
+			(property "Value" "Valve_Solenoid_NC"
 				(at 0.254 -5.588 0)
 				(effects
 					(font
@@ -3241,7 +3018,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Valve_Solenoid_NO_1_0_0"
+			(symbol "Valve_Solenoid_NC_1_0_0"
 				(rectangle
 					(start -2.54 3.81)
 					(end 2.54 8.89)
@@ -3262,7 +3039,7 @@
 					)
 				)
 			)
-			(symbol "Valve_Solenoid_NO_1_0_1"
+			(symbol "Valve_Solenoid_NC_1_0_1"
 				(polyline
 					(pts
 						(xy 0 3.81) (xy 0 0)
@@ -3276,7 +3053,7 @@
 					)
 				)
 			)
-			(symbol "Valve_Solenoid_NO_1_1_1"
+			(symbol "Valve_Solenoid_NC_1_1_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
@@ -3286,7 +3063,7 @@
 						(type solid)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -3298,7 +3075,7 @@
 						(type solid)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(pin bidirectional line
@@ -3347,6 +3124,12 @@
 		(uuid "1e2a99a4-9dbc-440a-9ed8-eea100b3ac99")
 	)
 	(junction
+		(at 135.382 98.044)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f66aba5-040a-4ec1-9d2b-c9897424c201")
+	)
+	(junction
 		(at 117.348 162.814)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3371,6 +3154,12 @@
 		(uuid "6e31ed16-c00c-4167-b02d-1b969135965c")
 	)
 	(junction
+		(at 135.382 162.814)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76730774-2980-4db7-bd42-e268dd303486")
+	)
+	(junction
 		(at 109.22 162.814)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3381,12 +3170,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8356b5d2-e2a1-4410-b063-6837271aee28")
-	)
-	(junction
-		(at 135.382 98.044)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8cf0cfd8-ee5e-4f2d-bf0a-c8eceef8cf41")
 	)
 	(junction
 		(at 216.154 129.54)
@@ -3423,12 +3206,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2218ce2-9b44-4187-9ea8-acd5f5d721d9")
-	)
-	(junction
-		(at 135.382 162.814)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2f2bba8-1432-4c16-8ecc-751f1fd1e430")
 	)
 	(junction
 		(at 68.326 162.814)
@@ -3575,6 +3352,16 @@
 			(type default)
 		)
 		(uuid "2a331126-21a6-474d-9301-54d1f8173cec")
+	)
+	(wire
+		(pts
+			(xy 135.382 162.814) (xy 141.986 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a51e576-f352-4d56-993b-6abf66e66580")
 	)
 	(wire
 		(pts
@@ -3918,26 +3705,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.382 98.044) (xy 135.382 117.094)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b6a5a25-eea4-4aa5-82be-8ca2497c205f")
-	)
-	(wire
-		(pts
-			(xy 135.382 142.494) (xy 135.382 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cec9367-e372-44c2-b981-daa569fe42c8")
-	)
-	(wire
-		(pts
 			(xy 94.488 162.814) (xy 94.488 166.37)
 		)
 		(stroke
@@ -3945,6 +3712,26 @@
 			(type default)
 		)
 		(uuid "a1c95d8a-cc13-4f52-aea7-b7faa000b660")
+	)
+	(wire
+		(pts
+			(xy 135.382 142.748) (xy 135.382 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1cc6fc3-bc49-43b6-be36-cd53cdf80fbc")
+	)
+	(wire
+		(pts
+			(xy 135.382 98.044) (xy 135.382 117.348)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68f6030-1519-4fca-8119-f3a5f56867e5")
 	)
 	(wire
 		(pts
@@ -4045,16 +3832,6 @@
 			(type default)
 		)
 		(uuid "c181ce12-7ae9-4fe4-85a5-2dd4cc10149f")
-	)
-	(wire
-		(pts
-			(xy 135.382 162.814) (xy 141.986 162.814)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4e48244-2f73-46cd-a512-7b2e06cbda4f")
 	)
 	(wire
 		(pts
@@ -4460,7 +4237,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Solenoid_NC")
 		(lib_id "PnID-Lib:Valve_Solenoid_NC")
 		(at 135.382 56.388 90)
 		(mirror x)
@@ -4550,7 +4326,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Solenoid_NC")
 		(lib_id "PnID-Lib:Valve_Solenoid_NC")
 		(at 68.326 56.388 270)
 		(unit 1)
@@ -4639,7 +4414,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Solenoid_NC")
 		(lib_id "PnID-Lib:Valve_Solenoid_NC")
 		(at 117.348 119.634 90)
 		(unit 1)
@@ -4728,7 +4502,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Solenoid_NC")
 		(lib_id "PnID-Lib:Valve_Solenoid_NC")
 		(at 85.852 119.634 270)
 		(unit 1)
@@ -4887,8 +4660,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
-		(at 135.382 129.794 0)
+		(at 135.382 130.048 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4896,7 +4670,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dc9eac")
 		(property "Reference" "LOX"
-			(at 135.382 129.794 0)
+			(at 135.382 130.048 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4904,7 +4678,7 @@
 			)
 		)
 		(property "Value" "lox_tank"
-			(at 142.4432 130.3274 0)
+			(at 142.4432 130.5814 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4914,7 +4688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.382 129.794 0)
+			(at 135.382 130.048 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4923,7 +4697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.382 129.794 0)
+			(at 135.382 130.048 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4932,7 +4706,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.382 129.794 0)
+			(at 135.382 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,7 +4715,7 @@
 			)
 		)
 		(property "Unit" "%"
-			(at 135.382 129.794 0)
+			(at 135.382 130.048 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4950,7 +4724,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 135.382 129.794 0)
+			(at 135.382 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,7 +4733,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 135.382 129.794 0)
+			(at 135.382 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5358,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 149.352 119.634 0)
+		(at 149.352 119.888 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5593,7 +5367,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dcff0b")
 		(property "Reference" "top_tank_temp"
-			(at 146.6088 114.7318 0)
+			(at 146.6088 114.9858 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5602,7 +5376,7 @@
 			)
 		)
 		(property "Value" "top_tank_temp:sensor"
-			(at 154.94 119.634 0)
+			(at 154.94 119.888 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5611,7 +5385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.352 119.634 0)
+			(at 149.352 119.888 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5620,7 +5394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.352 119.634 0)
+			(at 149.352 119.888 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5629,7 +5403,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.352 119.634 0)
+			(at 149.352 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,7 +5412,7 @@
 			)
 		)
 		(property "Unit" "˚C"
-			(at 149.352 119.634 0)
+			(at 149.352 119.888 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5647,7 +5421,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 149.352 119.634 0)
+			(at 149.352 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8523,7 +8297,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 149.352 126.238 0)
+		(at 149.352 126.492 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8532,7 +8306,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f624b1")
 		(property "Reference" "top_mid_tank_temp"
-			(at 146.6088 121.3358 0)
+			(at 146.6088 121.5898 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8541,7 +8315,7 @@
 			)
 		)
 		(property "Value" "top_mid_tank_temp:sensor"
-			(at 154.94 126.238 0)
+			(at 154.94 126.492 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8550,7 +8324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.352 126.238 0)
+			(at 149.352 126.492 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8559,7 +8333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.352 126.238 0)
+			(at 149.352 126.492 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8568,7 +8342,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.352 126.238 0)
+			(at 149.352 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8577,7 +8351,7 @@
 			)
 		)
 		(property "Unit" "˚C"
-			(at 149.352 126.238 0)
+			(at 149.352 126.492 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8586,7 +8360,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 149.352 126.238 0)
+			(at 149.352 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8608,7 +8382,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 149.352 132.842 0)
+		(at 149.352 133.096 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8617,7 +8391,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f6382c")
 		(property "Reference" "bottom_mid_tank_temp"
-			(at 146.6088 127.9398 0)
+			(at 146.6088 128.1938 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8626,7 +8400,7 @@
 			)
 		)
 		(property "Value" "bottom_mid_tank_temp:sensor"
-			(at 154.94 132.842 0)
+			(at 154.94 133.096 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8635,7 +8409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.352 132.842 0)
+			(at 149.352 133.096 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8644,7 +8418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.352 132.842 0)
+			(at 149.352 133.096 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8653,7 +8427,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.352 132.842 0)
+			(at 149.352 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8662,7 +8436,7 @@
 			)
 		)
 		(property "Unit" "˚C"
-			(at 149.352 132.842 0)
+			(at 149.352 133.096 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8671,7 +8445,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 149.352 132.842 0)
+			(at 149.352 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8693,7 +8467,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 149.352 139.954 0)
+		(at 149.352 140.208 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8702,7 +8476,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f64d9f")
 		(property "Reference" "bottom_tank_temp"
-			(at 146.6088 135.0518 0)
+			(at 146.6088 135.3058 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8711,7 +8485,7 @@
 			)
 		)
 		(property "Value" "bottom_tank_temp:sensor"
-			(at 154.94 139.954 0)
+			(at 154.94 140.208 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8720,7 +8494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.352 139.954 0)
+			(at 149.352 140.208 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8729,7 +8503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.352 139.954 0)
+			(at 149.352 140.208 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8738,7 +8512,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.352 139.954 0)
+			(at 149.352 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,7 +8521,7 @@
 			)
 		)
 		(property "Unit" "˚C"
-			(at 149.352 139.954 0)
+			(at 149.352 140.208 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8756,7 +8530,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 149.352 139.954 0)
+			(at 149.352 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9474,172 +9248,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Sensor_Load_Short")
-		(at 123.698 139.954 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000064b85f4c")
-		(property "Reference" "ox_weight"
-			(at 125.1712 132.7658 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "ox_weight:sensor"
-			(at 125.222 145.542 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.698 139.954 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.698 139.954 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.698 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "kg"
-			(at 123.698 139.954 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Action_Reference" " "
-			(at 123.698 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Data_Content" " "
-			(at 125.1712 135.5598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "~"
-			(uuid "858584f3-1577-4b64-8df2-c993625504c2")
-		)
-		(instances
-			(project ""
-				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
-					(reference "ox_weight")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:heater")
-		(at 123.698 119.634 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "406c31d6-7caf-44ce-9471-6707a28d14fd")
-		(property "Reference" "heater1"
-			(at 118.618 117.348 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "tank_heating:sensor"
-			(at 124.968 111.76 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.698 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.698 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.698 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" ""
-			(at 123.698 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "6c234b15-2e40-4c05-8740-e4b9ef994de7")
-		)
-		(instances
-			(project "lamarr"
-				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
-					(reference "heater1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PnID-Lib:Vent")
 		(at 175.006 98.044 0)
 		(mirror x)
@@ -9707,8 +9315,101 @@
 		)
 	)
 	(symbol
-		(lib_name "Valve_Solenoid_NO_1")
-		(lib_id "PnID-Lib:Valve_Solenoid_NO")
+		(lib_id "PnID-Lib:Sensor_Load")
+		(at 121.158 140.208 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a56a8b12-de9b-4b1b-9d36-f3c9024e9fc8")
+		(property "Reference" "ox_weight"
+			(at 123.9012 133.0198 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_weight:sensor"
+			(at 116.332 140.208 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.158 140.208 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.158 140.208 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.158 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "kg"
+			(at 121.158 140.208 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 121.158 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 123.9012 135.8138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "~"
+			(uuid "fbf965a2-eaef-4be4-a46b-fe8d10c03fdb")
+		)
+		(instances
+			(project "lamarr"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_weight")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Valve_Solenoid_NC_1")
+		(lib_id "PnID-Lib:Valve_Solenoid_NC")
 		(at 57.404 174.752 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9716,7 +9417,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5399259-7c7c-49e0-8495-299729ede9cd")
-		(property "Reference" "ox_purge_solenoid1"
+		(property "Reference" "safety_valves"
 			(at 61.9252 174.1932 90)
 			(effects
 				(font
@@ -9789,7 +9490,7 @@
 		(instances
 			(project "lamarr"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
-					(reference "ox_purge_solenoid1")
+					(reference "safety_valves")
 					(unit 1)
 				)
 			)
