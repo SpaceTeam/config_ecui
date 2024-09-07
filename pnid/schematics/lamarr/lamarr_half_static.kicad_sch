@@ -1,0 +1,9456 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "604fc9f3-63a6-4133-afd1-4a5c2507dc1d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "PnID-Lib:CheckValve"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CheckValve"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "CheckValve"
+				(at 0 -4.318 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CheckValve_0_0"
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 -2.54) (xy 2.54 0) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CheckValve_1_1"
+				(pin bidirectional line
+					(at -2.54 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 0 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Engine"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Engine"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "Engine"
+				(at 0 -12.446 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Engine_0_0"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -3.81 -10.16) (xy 3.81 -10.16) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Engine_1_1"
+				(pin bidirectional line
+					(at 3.81 -2.54 180)
+					(length 0)
+					(name "C"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 2.54 270)
+					(length 0)
+					(name "F"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -2.54 0)
+					(length 0)
+					(name "FC"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 2.54 270)
+					(length 0)
+					(name "O"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:GasBottle"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "GasBottle"
+				(at 0 -1.016 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "GasBottle"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.254 -1.778 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.254 -1.778 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GasBottle_0_0"
+				(polyline
+					(pts
+						(xy -1.27 8.89) (xy -1.27 11.43)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 8.89) (xy 1.27 11.43)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 7.62) (xy -5.08 -12.7) (xy 5.08 -12.7) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 11.43)
+					(mid 0 12.7)
+					(end -1.27 11.43)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 7.62)
+					(mid 0 8.9691)
+					(end -5.08 7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GasBottle_1_1"
+				(pin output line
+					(at 0 12.7 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:PressureRegulator"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PressureRegulator"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "PressureRegulator"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PressureRegulator_0_0"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -6.35 5.08) (xy -6.35 6.35) (xy 0 6.35) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 3.81)
+					(mid 0 4.8621)
+					(end -2.54 3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PressureRegulator_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy 0 0) (xy 5.08 -3.81) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Pump"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 6.858 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Pump"
+				(at 7.366 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pump_0_1"
+				(polyline
+					(pts
+						(xy -1.651 1.651) (xy 1.651 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.651) (xy -1.651 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.572) (xy 0.127 4.572)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.572) (xy 5.334 3.048) (xy 3.429 3.048)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -5.08 -6.604) (xy 5.08 -6.604) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.3876)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 4.572)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Pump_1_1"
+				(pin input line
+					(at -4.572 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.334 3.81 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:QuickConnect_Half"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "QuickConnect"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "QuickConnect_Half"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "QuickConnect_Half_0_0"
+				(circle
+					(center -3.81 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 0) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "QuickConnect_Half_1_1"
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Sensor_Load"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Sensor_Load"
+				(at 6.35 0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "Sensor_Load"
+				(at 6.35 -0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Data_Content" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Sensor_Load_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "L"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "Sensor_Load_1_1"
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Sensor_Pressure"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Sensor_Pressure"
+				(at 6.35 0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "Sensor_Pressure"
+				(at 6.35 -0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "bar"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Data_Content" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Sensor_Pressure_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "P"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "Sensor_Pressure_1_1"
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Sensor_Temperature"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Sensor_Temperature"
+				(at 7.112 0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "Sensor_Temperature"
+				(at 7.112 -0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "˚C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Sensor_Temperature_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "T"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "Sensor_Temperature_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Sensor_Temperature_1_1"
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Tank_Slim"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Tank_Slim"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "Tank_Slim"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Data_Content" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Tank_Slim_0_0"
+				(polyline
+					(pts
+						(xy 6.35 10.16) (xy 6.35 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Tank_Slim_0_1"
+				(rectangle
+					(start -6.604 -10.16)
+					(end 6.35 10.16)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.604 10.16) (xy -6.604 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -10.16) (xy 6.35 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 10.16) (xy 6.35 10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 10.16)
+					(mid -0.127 12.7008)
+					(end -6.604 10.16)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Tank_Slim_1_1"
+				(arc
+					(start -6.604 -10.16)
+					(mid -0.127 -12.7008)
+					(end 6.35 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -12.7 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 12.7 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Valve_Manual"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Valve_Manual"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Valve_Manual"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Valve_Manual_0_0"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Valve_Manual_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy 0 0) (xy 5.08 -3.81) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Valve_Manual_3Way"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Valve_Manual_3Way"
+				(at 0 17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Valve_Manual_3Way_1_1"
+				(polyline
+					(pts
+						(xy -2.54 10.922) (xy 2.54 10.922)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.112) (xy 0 10.922)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.112) (xy -5.08 10.922) (xy -5.08 3.302) (xy 0 7.112)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.032) (xy 0 7.112) (xy -3.81 2.032) (xy 3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 10.922) (xy 0 7.112) (xy 5.08 3.302) (xy 5.08 10.922)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 7.112 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 2.032 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 7.112 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Valve_Needle"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Valve_Needle"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Valve_Needle"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Valve_Needle_0_0"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 3.81) (xy 1.27 3.81) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Valve_Needle_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy 0 0) (xy 5.08 -3.81) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Valve_OverPressure"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Valve_OverPressure"
+				(at 0 -4.572 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "Valve_OverPressure"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Valve_OverPressure_0_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54) (xy -1.27 3.81) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Valve_OverPressure_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy 0 0) (xy 5.08 -3.81) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Valve_Servo"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Valve_Servo"
+				(at 0 -4.064 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "Valve_Servo"
+				(at 0 -5.334 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Valve_Servo_0_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 6.35)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "M"
+					(at 0 6.35 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "Valve_Servo_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Valve_Servo_1_1"
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy 0 0) (xy 5.08 -3.81) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Valve_Solenoid_NC"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Valve_Solenoid"
+				(at 0.254 -4.318 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "Valve_Solenoid_NC"
+				(at 0.254 -5.588 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Valve_Solenoid_NC_0_0"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 8.89)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "S"
+					(at 0 6.35 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "Valve_Solenoid_NC_0_1"
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Valve_Solenoid_NC_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy 0 0) (xy 5.08 -3.81) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Valve_Solenoid_NO"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Valve_Solenoid"
+				(at 0.254 -4.318 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "Valve_Solenoid_NO"
+				(at 0.254 -5.588 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Valve_Solenoid_NO_0_0"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 8.89)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "S"
+					(at 0 6.35 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "Valve_Solenoid_NO_0_1"
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Valve_Solenoid_NO_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy 0 0) (xy 5.08 -3.81) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Vent"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Vent"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Vent"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Vent_0_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 0 0) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Vent_1_1"
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:Venturi"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Venturi"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "Venturi"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Venturi_0_0"
+				(rectangle
+					(start -5.08 2.54)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 2.54)
+					(mid 0 0.758)
+					(end 5.08 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -2.54)
+					(mid 0 -0.758)
+					(end -5.08 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Venturi_1_1"
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PnID-Lib:igniter"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "igniter"
+				(at -5.08 2.286 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "igniter"
+				(at -5.08 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "Ohm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "igniter_0_0"
+				(text "I"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "igniter_0_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "igniter_1_1"
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Valve_Solenoid_NC_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Valve_Solenoid"
+				(at 0.254 -4.318 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "Valve_Solenoid_NC"
+				(at 0.254 -5.588 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Valve_Solenoid_NC_1_0_0"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 8.89)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "S"
+					(at 0 6.35 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "Valve_Solenoid_NC_1_0_1"
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Valve_Solenoid_NC_1_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy 0 0) (xy 5.08 -3.81) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "propulsion_teststand-rescue:Sensor_Load-PnID-Lib"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Sensor_Load"
+				(at 6.35 0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Value" "PnID-Lib_Sensor_Load"
+				(at 6.35 -0.762 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Data_Content" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Sensor_Load-PnID-Lib_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "L"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "Sensor_Load-PnID-Lib_1_1"
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "propulsion_teststand-rescue:Valve_Manual_3Way-PnID-Lib"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PnID-Lib_Valve_Manual_3Way"
+				(at 0 17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Valve_Manual_3Way-PnID-Lib_1_1"
+				(polyline
+					(pts
+						(xy -2.54 10.922) (xy 2.54 10.922)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.112) (xy 0 10.922)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.112) (xy -5.08 10.922) (xy -5.08 3.302) (xy 0 7.112)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.032) (xy 0 7.112) (xy -3.81 2.032) (xy 3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 10.922) (xy 0 7.112) (xy 5.08 3.302) (xy 5.08 10.922)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 7.112 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 2.032 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 7.112 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 188.976 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e2a99a4-9dbc-440a-9ed8-eea100b3ac99")
+	)
+	(junction
+		(at 135.382 98.044)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f66aba5-040a-4ec1-9d2b-c9897424c201")
+	)
+	(junction
+		(at 83.058 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bda50e2-a57a-4957-907c-8473efc4aa62")
+	)
+	(junction
+		(at 135.382 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "300f5280-a30a-4478-9b4e-b1c81ab2e877")
+	)
+	(junction
+		(at 83.058 163.068)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "682ff4dd-355b-4183-9764-90b228adf53f")
+	)
+	(junction
+		(at 135.382 162.814)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76730774-2980-4db7-bd42-e268dd303486")
+	)
+	(junction
+		(at 109.22 162.814)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aec342a-d555-4598-b8ba-9903e128b641")
+	)
+	(junction
+		(at 83.058 52.324)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bb85552-8480-481e-bcb8-40d0f55a0137")
+	)
+	(junction
+		(at 216.154 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a972f635-c205-4564-9817-7b4dabe9d5ec")
+	)
+	(junction
+		(at 135.382 45.212)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7267e39-2e27-48bf-be96-d10124190d9b")
+	)
+	(junction
+		(at 135.382 71.374)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0d8c270-2b39-4983-8bda-b73e47640de9")
+	)
+	(wire
+		(pts
+			(xy 109.22 162.814) (xy 108.712 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015c5de4-ca57-4293-a111-7c26b393f609")
+	)
+	(wire
+		(pts
+			(xy 242.062 129.54) (xy 235.458 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0409cbc4-f82d-40fb-ac28-1b2605c5da92")
+	)
+	(wire
+		(pts
+			(xy 135.382 98.044) (xy 135.382 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05be6674-96d6-4b58-8b94-69ad5b28046d")
+	)
+	(wire
+		(pts
+			(xy 188.976 129.54) (xy 216.154 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1556ee53-cdd2-4fbb-b81f-2d990e907307")
+	)
+	(wire
+		(pts
+			(xy 109.22 45.212) (xy 109.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f631a6-f791-45ba-b539-68660b5151bb")
+	)
+	(wire
+		(pts
+			(xy 109.22 162.814) (xy 109.22 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc992d4-ef3b-45ce-8ad3-d19d5af4b072")
+	)
+	(wire
+		(pts
+			(xy 143.764 71.374) (xy 135.382 71.374)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4b9fa6-5996-475e-af01-73cd809f264c")
+	)
+	(wire
+		(pts
+			(xy 30.988 40.386) (xy 26.416 40.386)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef6a1d5-a19a-4689-9fa1-d54c5186bbc4")
+	)
+	(wire
+		(pts
+			(xy 83.058 129.794) (xy 83.058 134.366)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "219b420d-c577-4d35-9356-440e4c34cf2e")
+	)
+	(wire
+		(pts
+			(xy 162.052 30.988) (xy 156.21 30.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224d4241-5cb1-4ebb-9a65-e57eaedc7c35")
+	)
+	(wire
+		(pts
+			(xy 109.22 115.824) (xy 109.22 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2349a89a-956b-4676-a7be-307683ec01f6")
+	)
+	(polyline
+		(pts
+			(xy 257.048 17.018) (xy 257.048 14.478)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "26fc1ee3-980d-4b04-a808-a61d745144a6")
+	)
+	(wire
+		(pts
+			(xy 80.264 163.068) (xy 83.058 163.068)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f67c87-e2c8-4dcd-8349-f51f1f32dece")
+	)
+	(wire
+		(pts
+			(xy 177.8 30.988) (xy 177.8 36.576)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a331126-21a6-474d-9301-54d1f8173cec")
+	)
+	(wire
+		(pts
+			(xy 135.382 162.814) (xy 141.986 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a51e576-f352-4d56-993b-6abf66e66580")
+	)
+	(wire
+		(pts
+			(xy 135.382 45.212) (xy 135.382 51.308)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c513e1-6244-49e8-bcbc-df8d93faf136")
+	)
+	(wire
+		(pts
+			(xy 26.416 58.928) (xy 26.416 56.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339fe589-4716-41ce-a9c2-8b26e8088878")
+	)
+	(polyline
+		(pts
+			(xy 246.634 14.478) (xy 246.634 17.018)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "34ca7207-5473-412a-9d0e-0a1db029e403")
+	)
+	(wire
+		(pts
+			(xy 177.546 162.814) (xy 188.976 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ca9a9a-86e5-415c-bd92-0bce324f86b5")
+	)
+	(wire
+		(pts
+			(xy 109.22 99.06) (xy 109.22 110.744)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387aa5b4-1dbe-4939-83a5-8147141de09f")
+	)
+	(wire
+		(pts
+			(xy 188.976 129.54) (xy 188.976 134.366)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b596f5-16bf-441c-91c8-95ea929ada92")
+	)
+	(wire
+		(pts
+			(xy 83.058 178.308) (xy 99.314 178.308)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d613801-ae9c-4a1a-9cf7-417b2bc522cd")
+	)
+	(wire
+		(pts
+			(xy 83.058 50.038) (xy 83.058 52.324)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450bc741-1c03-412a-bdd2-cba0734457cc")
+	)
+	(wire
+		(pts
+			(xy 135.382 71.374) (xy 135.382 69.088)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50f78153-551a-4060-a2d9-e3c63b3f3f56")
+	)
+	(wire
+		(pts
+			(xy 135.382 142.24) (xy 135.382 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596a4608-4f02-4e23-b629-2bab9605e4d2")
+	)
+	(wire
+		(pts
+			(xy 83.058 176.53) (xy 83.058 178.308)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b23a7b-341f-4b1a-907f-f435026a802b")
+	)
+	(wire
+		(pts
+			(xy 83.058 129.794) (xy 82.804 129.794)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a478bc0-e157-4370-a192-df9ebe862f1b")
+	)
+	(wire
+		(pts
+			(xy 104.394 178.308) (xy 109.22 178.308)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6386c4d3-79dd-4982-b29d-2c8c08c67f9e")
+	)
+	(wire
+		(pts
+			(xy 83.058 72.898) (xy 83.058 76.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6718c5c3-5aef-45ce-acf8-091c89466ad4")
+	)
+	(wire
+		(pts
+			(xy 258.064 129.54) (xy 252.222 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a142bee-5fc0-401f-9750-9f461a05addb")
+	)
+	(wire
+		(pts
+			(xy 177.8 49.53) (xy 177.8 46.736)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c2bf141-2ad2-46a3-a845-a565fd3d7cf3")
+	)
+	(wire
+		(pts
+			(xy 157.226 98.044) (xy 135.382 98.044)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c77f5ca-ea56-42e9-bfd1-44935eb4c056")
+	)
+	(wire
+		(pts
+			(xy 104.394 178.308) (xy 104.394 180.086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f612774-7e74-4a63-a040-f6a5404fc409")
+	)
+	(wire
+		(pts
+			(xy 177.8 30.988) (xy 172.212 30.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7272e5f8-08d2-4c30-ad4a-3b721b3ba685")
+	)
+	(wire
+		(pts
+			(xy 59.944 47.244) (xy 59.944 40.386)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "739dfc18-a1ee-4820-aae0-2d364f3edf11")
+	)
+	(wire
+		(pts
+			(xy 135.382 61.468) (xy 135.382 64.008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88179890-f2d6-4e2f-b60e-649609e2b986")
+	)
+	(wire
+		(pts
+			(xy 109.22 176.53) (xy 109.22 178.308)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d899d9-fa02-4b3d-aff1-2818e0ad27c7")
+	)
+	(wire
+		(pts
+			(xy 83.058 163.068) (xy 83.058 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9488d0-a520-4c6b-80a9-44d5f34e58e1")
+	)
+	(wire
+		(pts
+			(xy 135.382 36.068) (xy 135.382 45.212)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af175d0-380f-40a5-943c-13e4e412efb1")
+	)
+	(wire
+		(pts
+			(xy 273.812 148.082) (xy 273.812 145.288)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c79cf27-75db-4c0a-8043-719acaab0b36")
+	)
+	(wire
+		(pts
+			(xy 82.804 103.632) (xy 82.804 103.886)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc263b1-231f-4cf4-bae7-161edba3e61b")
+	)
+	(polyline
+		(pts
+			(xy 246.634 17.018) (xy 257.048 17.018)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8e2bd867-c49e-470a-8e9f-d51033864494")
+	)
+	(wire
+		(pts
+			(xy 273.812 129.54) (xy 273.812 135.128)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f9812a-fffe-4496-ae07-d5c27ba3a234")
+	)
+	(wire
+		(pts
+			(xy 59.944 40.386) (xy 55.626 40.386)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c5759bc-9a8d-460c-b812-e5367e86565a")
+	)
+	(wire
+		(pts
+			(xy 83.058 86.868) (xy 83.058 91.694)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3552c8-2ae2-4ccf-a397-4f3474a33f9d")
+	)
+	(wire
+		(pts
+			(xy 135.382 129.794) (xy 135.382 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1cc6fc3-bc49-43b6-be36-cd53cdf80fbc")
+	)
+	(wire
+		(pts
+			(xy 135.382 98.044) (xy 135.382 104.394)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68f6030-1519-4fca-8119-f3a5f56867e5")
+	)
+	(wire
+		(pts
+			(xy 82.804 103.632) (xy 83.058 103.632)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e430ae-dbbc-4914-9a61-0733ecda20e7")
+	)
+	(wire
+		(pts
+			(xy 109.22 45.212) (xy 135.382 45.212)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a92d58fa-0c18-4807-900b-386fe09fc668")
+	)
+	(wire
+		(pts
+			(xy 156.972 83.82) (xy 135.382 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07777c4-cf03-4132-93a7-081d54e11908")
+	)
+	(wire
+		(pts
+			(xy 99.314 178.308) (xy 99.314 180.086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b338d68e-5cc7-4d6b-9032-2ced27202fc3")
+	)
+	(polyline
+		(pts
+			(xy 257.048 14.478) (xy 246.38 14.478)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b57a728b-66f7-450b-84a8-e06665ea4f20")
+	)
+	(wire
+		(pts
+			(xy 135.382 83.82) (xy 135.382 71.374)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71fbd80-6547-492d-abcf-50ad180c163a")
+	)
+	(wire
+		(pts
+			(xy 109.22 162.814) (xy 118.618 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf86969-cf53-464b-afb7-51526e90883d")
+	)
+	(wire
+		(pts
+			(xy 83.058 99.06) (xy 83.058 96.774)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beae33b2-4ee2-4980-84bb-6ad388026030")
+	)
+	(wire
+		(pts
+			(xy 83.058 161.036) (xy 83.058 163.068)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c016ef32-7903-47b1-a873-8c0fa89d682e")
+	)
+	(wire
+		(pts
+			(xy 216.154 129.54) (xy 216.154 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c181ce12-7ae9-4fe4-85a5-2dd4cc10149f")
+	)
+	(wire
+		(pts
+			(xy 26.416 40.386) (xy 26.416 45.974)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7eaeedc-f450-42c5-9ae8-28d84a961d6a")
+	)
+	(wire
+		(pts
+			(xy 273.812 129.54) (xy 268.224 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9bd3c33-324e-4e95-85a8-aa2bf3fbede4")
+	)
+	(wire
+		(pts
+			(xy 65.024 52.324) (xy 83.058 52.324)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccfa79ac-8a98-48e7-9e2d-cab0e00f63c2")
+	)
+	(wire
+		(pts
+			(xy 216.154 129.54) (xy 225.298 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde83492-93a6-4a1a-b550-4344d3de1055")
+	)
+	(wire
+		(pts
+			(xy 83.058 52.324) (xy 83.058 62.738)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0ccd8c-bb8b-414a-ae8a-84b3d2bfff01")
+	)
+	(wire
+		(pts
+			(xy 128.778 162.814) (xy 135.382 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8de49e6-0aae-451a-9672-fd4c3cb3e004")
+	)
+	(wire
+		(pts
+			(xy 140.462 30.988) (xy 146.05 30.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2494229-1771-477c-8f57-2579cb96da3c")
+	)
+	(wire
+		(pts
+			(xy 108.204 192.786) (xy 105.664 192.786)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b2b004-7307-47d3-b85a-6ea37bb81e85")
+	)
+	(wire
+		(pts
+			(xy 82.804 129.286) (xy 82.804 129.794)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c41adc-c4c8-4d98-bc52-4c30a1e3a751")
+	)
+	(wire
+		(pts
+			(xy 41.148 40.386) (xy 45.466 40.386)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30df6fa-b57f-4d5a-b5b5-576d822b06f8")
+	)
+	(wire
+		(pts
+			(xy 83.058 144.526) (xy 83.058 150.876)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46c3602-e33d-49d7-ba2c-6a6ea97a148c")
+	)
+	(wire
+		(pts
+			(xy 83.058 103.632) (xy 83.058 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f84d74-b59b-41be-bd1a-9b01ec5845f0")
+	)
+	(wire
+		(pts
+			(xy 188.976 162.814) (xy 188.976 159.766)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3c9fd2-7686-4577-8905-5f59024fb57c")
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Pressure")
+		(at 143.002 45.212 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063dc3a91")
+		(property "Reference" "ox_pressurant_pressure:sensor"
+			(at 146.2532 43.5102 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_pressurant_pressure:sensor"
+			(at 148.082 45.212 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.002 45.212 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.002 45.212 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.002 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "bar"
+			(at 143.002 45.212 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 143.002 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 146.2532 46.3042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "aa730523-4b00-4485-af77-d1fb186a2606")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_pressurant_pressure:sensor")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_Solenoid_NC")
+		(at 135.382 56.388 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063dc50a1")
+		(property "Reference" "ox_pressurize_solenoid"
+			(at 125.7808 56.9468 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_pressurize_solenoid:sensor"
+			(at 124.714 56.388 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.382 56.388 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.382 56.388 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.382 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at 135.382 56.388 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 135.382 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "0f420394-6f35-4d57-a69b-79e069c5ef58")
+		)
+		(pin "~"
+			(uuid "d8f5f7c0-8422-4680-8833-480f89b9be1a")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_pressurize_solenoid")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "PnID-Lib:Valve_Solenoid_NC")
+		(lib_id "PnID-Lib:Valve_Solenoid_NC")
+		(at 109.22 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063dc5fe4")
+		(property "Reference" "ox_purge_solenoid"
+			(at 113.7412 93.4212 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_purge_solenoid:sensor"
+			(at 107.696 86.36 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "6ddddb06-57c0-4ece-8426-1844fbea8bfb")
+		)
+		(pin "~"
+			(uuid "f842ac89-a863-4bbe-8aed-4fcb3d5218b4")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_purge_solenoid")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:CheckValve")
+		(at 135.382 66.548 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063dc6bda")
+		(property "Reference" "CheckValve?"
+			(at 138.6332 66.548 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "CheckValve"
+			(at 131.064 66.548 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.382 66.548 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.382 66.548 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.382 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "639ba29e-180e-4663-b4e4-0c8395082093")
+		)
+		(pin "~"
+			(uuid "20cef88d-bf50-4a8b-a188-4c9bcc74e1af")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "CheckValve?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "PnID-Lib:Tank_Slim")
+		(lib_id "PnID-Lib:Tank_Slim")
+		(at 135.382 117.094 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063dc9eac")
+		(property "Reference" "LOX"
+			(at 135.382 117.094 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "lox_tank"
+			(at 142.4432 117.6274 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.382 117.094 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.382 117.094 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.382 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at 135.382 117.094 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 135.382 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 135.382 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "d89df923-09c4-4b49-b304-037a26b628ef")
+		)
+		(pin "~"
+			(uuid "907c0c89-a21d-4eec-a60f-a93b7394488f")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "LOX")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Engine")
+		(at 101.854 182.626 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063dcb6d8")
+		(property "Reference" "engine"
+			(at 101.854 194.0306 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "engine"
+			(at 101.854 195.072 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.854 182.626 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.854 182.626 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.854 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 101.854 182.626 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "f0ab5cd9-fe9b-4757-b35c-1fcb6d42bc71")
+		)
+		(pin "~"
+			(uuid "a83cdb10-be67-46d2-a097-bffb26e10ca3")
+		)
+		(pin "~"
+			(uuid "f47f3525-b0a2-451d-b18b-8a63b73de1a4")
+		)
+		(pin "~"
+			(uuid "5a14c4a9-4598-4a12-865e-6e2003e984fd")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "engine")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "PnID-Lib:CheckValve")
+		(lib_id "PnID-Lib:CheckValve")
+		(at 109.22 113.284 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063dcd833")
+		(property "Reference" "CheckValve?"
+			(at 112.4712 113.284 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "CheckValve"
+			(at 104.902 113.284 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 113.284 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 113.284 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "211c59c8-873c-4353-860f-d74006514a7f")
+		)
+		(pin "~"
+			(uuid "6cad799b-909c-4246-8567-8b81e094198c")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "CheckValve?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Pressure")
+		(at 101.092 162.814 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063dce2f5")
+		(property "Reference" "ox_venturi_pressure"
+			(at 102.1334 159.5628 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_venturi_pressure:sensor"
+			(at 91.948 163.068 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.092 162.814 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.092 162.814 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.092 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "bar"
+			(at 101.092 162.814 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 101.092 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 104.9274 159.5628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "750ca496-229e-4b7d-9468-46b10e3c7f23")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_venturi_pressure")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Pressure")
+		(at 113.284 185.166 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063dcf583")
+		(property "Reference" "chamber_pressure"
+			(at 110.5408 192.3542 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "chamber_pressure:sensor"
+			(at 117.602 185.166 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.284 185.166 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.284 185.166 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.284 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "bar"
+			(at 113.284 185.166 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 113.284 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 110.5408 189.5602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "~"
+			(uuid "7b41ba02-24f5-42af-b5ac-8d627bf37b3d")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "chamber_pressure")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Temperature")
+		(at 149.352 106.934 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063dcff0b")
+		(property "Reference" "top_tank_temp"
+			(at 146.6088 102.0318 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "top_tank_temp:sensor"
+			(at 154.94 106.934 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.352 106.934 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.352 106.934 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.352 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "˚C"
+			(at 149.352 106.934 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 149.352 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "227d17a0-09e3-4057-be3d-4256df52fe0f")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "top_tank_temp")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_Manual")
+		(at 147.066 162.814 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063dd1597")
+		(property "Reference" "ox_manual_tanking_valve"
+			(at 147.066 155.8798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_manual_tanking_valve"
+			(at 147.066 170.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.066 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.066 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.066 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 147.066 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "5fcbc92c-cec2-420c-8f91-a763fdd47fdc")
+		)
+		(pin "~"
+			(uuid "1cd94134-0fee-490d-83b0-c9cde3d87e12")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_manual_tanking_valve")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:QuickConnect_Half")
+		(at 159.766 162.814 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063dd2235")
+		(property "Reference" "ox_quick_connect"
+			(at 160.4772 161.6456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_quick_connect"
+			(at 160.4772 163.957 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.766 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 159.766 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 159.766 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "09f27a64-dde6-4109-b035-b5c6daa3999e")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_quick_connect")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Vent")
+		(at 122.682 30.988 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063dd5125")
+		(property "Reference" "Vent?"
+			(at 126.6952 26.5938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vent"
+			(at 120.142 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 122.682 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 122.682 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 122.682 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "9dba1e2c-a282-409b-a2e8-e67501a08c69")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Vent?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Venturi")
+		(at 109.22 171.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063e1016f")
+		(property "Reference" "ox_venturi"
+			(at 112.4712 171.45 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_venturi:sensor"
+			(at 114.046 171.45 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 171.45 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 171.45 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at -54.102 67.31 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "af7e3fbd-be08-4e9b-9962-813a91d103e8")
+		)
+		(pin "~"
+			(uuid "5a5f92bf-d613-45f8-b3d2-4694dea8e3b8")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_venturi")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_Solenoid_NC")
+		(at 230.378 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063e7394d")
+		(property "Reference" "dewar_pressurize_solenoid?"
+			(at 230.378 118.2878 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "dewar_pressurize_solenoid:sensor"
+			(at 230.378 117.602 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 230.378 129.54 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 230.378 129.54 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 230.378 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at 230.378 129.54 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 230.378 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "61ba8295-3044-4e5d-9c74-c948ade3fb40")
+		)
+		(pin "~"
+			(uuid "e97dc816-87eb-473b-87d0-fbe9f8baf856")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "dewar_pressurize_solenoid?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_OverPressure")
+		(at 216.154 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063e73954")
+		(property "Reference" "DewarOverPressureValve?"
+			(at 210.3628 143.51 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "DewarOverPressureValve"
+			(at 221.742 143.51 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 216.154 143.51 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 216.154 143.51 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 216.154 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 216.154 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "d94adbe4-2f80-482f-bd95-471dda83cc30")
+		)
+		(pin "~"
+			(uuid "9f3add9f-a191-47b8-b32f-8293adaec766")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "DewarOverPressureValve?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Pressure")
+		(at 188.976 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063e7395d")
+		(property "Reference" "dewar_pressure?"
+			(at 192.2272 122.9614 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "dewar_pressure:sensor"
+			(at 188.976 117.094 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.976 121.92 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 188.976 121.92 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 188.976 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "bar"
+			(at 188.976 121.92 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 188.976 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 192.2272 125.7554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "0d0aae35-54b2-4b86-8230-f111e1f2944d")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "dewar_pressure?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Tank_Slim")
+		(at 188.976 147.066 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063e73966")
+		(property "Reference" "Dewar"
+			(at 188.976 147.066 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "dewar_fill_level:sensor"
+			(at 196.0372 147.5994 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.976 147.066 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 188.976 147.066 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 188.976 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at 188.976 147.066 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 188.976 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 188.976 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "e4f020db-10d3-4405-9252-634118ba15b9")
+		)
+		(pin "~"
+			(uuid "4ce46f69-d227-4d3c-9fdb-67e2c85ededb")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Dewar")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_Servo")
+		(at 172.466 162.814 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063e7396e")
+		(property "Reference" "ox_tanking_valve"
+			(at 172.466 151.5618 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_tanking_valve:sensor"
+			(at 172.466 170.688 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.466 162.814 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.466 162.814 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.466 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at 172.466 162.814 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 172.466 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "6d595f38-6d2e-45ac-9065-cc0386f485c6")
+		)
+		(pin "~"
+			(uuid "1f79615b-3fc9-421b-bc93-c64298340ff3")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_tanking_valve")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:QuickConnect_Half")
+		(at 159.766 162.814 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063e73974")
+		(property "Reference" "DewarQuickConnect?"
+			(at 163.7792 156.083 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DewarQuickConnect"
+			(at 163.7792 158.3944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.766 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 159.766 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 159.766 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "d8b73e5d-bfd9-4ef2-86ad-de5415757182")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "DewarQuickConnect?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Vent")
+		(at 216.154 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063e739df")
+		(property "Reference" "Vent?"
+			(at 212.9028 152.1968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vent"
+			(at 214.884 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 216.154 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 216.154 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 216.154 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "33f58369-ee5d-43db-a31b-b7f91b8c54b8")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Vent?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_OverPressure")
+		(at 162.052 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063ef0ab7")
+		(property "Reference" "ox_safety_valve"
+			(at 162.052 77.4954 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_safety_valve"
+			(at 162.052 89.408 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.052 83.82 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.052 83.82 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.052 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 162.052 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "23e26dcd-b1d3-4ca9-8b48-e6c4ffe1107c")
+		)
+		(pin "~"
+			(uuid "fe9110f5-a505-418d-8d96-61e369495b67")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_safety_valve")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_Solenoid_NO")
+		(at 148.844 71.374 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063ef0abf")
+		(property "Reference" "ox_depressurize_solenoid"
+			(at 148.844 60.1218 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_depressurize_solenoid:sensor"
+			(at 148.844 59.69 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.844 71.374 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.844 71.374 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.844 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at 148.844 71.374 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 148.844 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "db33c4c0-6332-4722-b908-6b942e4df2c8")
+		)
+		(pin "~"
+			(uuid "ec3bd4fc-e310-4530-b3c3-5859235942ea")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_depressurize_solenoid")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_Manual")
+		(at 162.306 98.044 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063ef0ac6")
+		(property "Reference" "ox_manual_vent_valve"
+			(at 162.306 91.1098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_manual_vent_valve"
+			(at 162.306 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.306 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.306 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.306 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 162.306 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "21778130-3e3f-48d3-85c8-ee54a076ff2a")
+		)
+		(pin "~"
+			(uuid "3f050d6f-72c1-4fee-b193-f75898acc2ce")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_manual_vent_valve")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Vent")
+		(at 161.544 71.374 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063ef0acc")
+		(property "Reference" "Vent?"
+			(at 157.5308 66.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vent"
+			(at 164.084 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.544 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.544 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.544 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "1f57bb3d-cc0d-4601-b149-deba149d2f8c")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Vent?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Vent")
+		(at 174.752 83.82 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063ef0ad2")
+		(property "Reference" "Vent?"
+			(at 170.7388 79.4258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vent"
+			(at 177.292 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.752 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 174.752 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 174.752 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "4a03850d-4775-4028-866c-27e45abb5824")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Vent?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Pressure")
+		(at 127.762 71.374 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063f0edae")
+		(property "Reference" "ox_tank_pressure"
+			(at 128.8034 68.1228 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_tank_pressure:sensor"
+			(at 123.444 71.374 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.762 71.374 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.762 71.374 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.762 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "bar"
+			(at 127.762 71.374 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 127.762 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 131.5974 68.1228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "f6472846-7037-41a7-a2c7-34e919efec53")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_tank_pressure")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:PressureRegulator")
+		(at 167.132 30.988 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063f32874")
+		(property "Reference" "ox_pressure_regulator"
+			(at 166.7002 22.2758 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_pressure_regulator"
+			(at 166.7002 23.368 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.132 30.988 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.132 30.988 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.132 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "4bd54720-8299-41ca-a677-7c94c2879ea9")
+		)
+		(pin "~"
+			(uuid "7dc151b0-e6b7-45c1-846d-773c0164a300")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_pressure_regulator")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_Needle")
+		(at 151.13 30.988 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063f3287b")
+		(property "Reference" "ox_needle_valve"
+			(at 151.13 24.0538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_needle_valve"
+			(at 151.13 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 151.13 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "7216ded8-7f0a-40ee-8ece-67054107878d")
+		)
+		(pin "~"
+			(uuid "95f2f572-f006-4aef-ab6f-45fe8c8f3ea4")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_needle_valve")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_Manual_3Way")
+		(at 135.382 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063f48809")
+		(property "Reference" "fuel_manual_3way?"
+			(at 135.382 22.987 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "fuel_manual_3way"
+			(at 135.382 25.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.382 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.382 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.382 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "5aa65dbf-17ec-4c53-bd94-87210245d478")
+		)
+		(pin "~"
+			(uuid "b800d8d2-340d-4bb0-8194-0544057dbbdf")
+		)
+		(pin "~"
+			(uuid "b92e739a-86a5-4694-8718-b9f721207085")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "fuel_manual_3way?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_Servo")
+		(at 123.698 162.814 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063f5abdc")
+		(property "Reference" "ox_main_valve"
+			(at 123.698 151.5618 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_main_valve:sensor"
+			(at 123.698 170.942 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.698 162.814 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.698 162.814 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.698 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at 123.698 162.814 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 123.698 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "57885219-08bc-458e-b2a4-8c5e5b15ce08")
+		)
+		(pin "~"
+			(uuid "64af0170-0ec1-4f50-9fcb-136f38fc2b7a")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_main_valve")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Temperature")
+		(at 149.352 113.538 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063f624b1")
+		(property "Reference" "top_mid_tank_temp"
+			(at 146.6088 108.6358 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "top_mid_tank_temp:sensor"
+			(at 154.94 113.538 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.352 113.538 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.352 113.538 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.352 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "˚C"
+			(at 149.352 113.538 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 149.352 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "fc2d75cc-d052-4c68-a476-c21a2b4e691f")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "top_mid_tank_temp")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Temperature")
+		(at 149.352 120.142 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063f6382c")
+		(property "Reference" "bottom_mid_tank_temp"
+			(at 146.6088 115.2398 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "bottom_mid_tank_temp:sensor"
+			(at 154.94 120.142 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.352 120.142 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.352 120.142 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.352 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "˚C"
+			(at 149.352 120.142 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 149.352 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "053f9328-e69d-4b5b-8767-52e4ac3f0038")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "bottom_mid_tank_temp")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Temperature")
+		(at 149.352 127.254 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000063f64d9f")
+		(property "Reference" "bottom_tank_temp"
+			(at 146.6088 122.3518 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "bottom_tank_temp:sensor"
+			(at 154.94 127.254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.352 127.254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.352 127.254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.352 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "˚C"
+			(at 149.352 127.254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 149.352 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "51ae77e1-a050-4208-948a-d1837ad6d617")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "bottom_tank_temp")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Load")
+		(at 90.424 185.166 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000646c30b8")
+		(property "Reference" "thrust"
+			(at 93.1672 177.9778 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "thrust:sensor"
+			(at 86.36 185.166 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.424 185.166 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.424 185.166 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.424 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "N"
+			(at 90.424 185.166 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 90.424 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 93.1672 180.7718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "~"
+			(uuid "804d96a8-5e7b-4bcb-bc70-8b5896c4dac1")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "thrust")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:igniter")
+		(at 113.284 192.786 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000646d5c12")
+		(property "Reference" "igniter"
+			(at 118.364 195.072 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "igniter:sensor"
+			(at 122.936 192.786 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.284 192.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.284 192.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.284 192.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "Ohm"
+			(at 113.284 192.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "1eadd070-b662-4a12-9ec3-0d482ee327d3")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "igniter")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:GasBottle")
+		(at 177.8 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000647d43d3")
+		(property "Reference" "N2"
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "N2"
+			(at 177.8 64.77 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.546 64.008 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.546 64.008 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "ae27e564-52f2-47df-a314-0c9ba5ef059f")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_Manual")
+		(at 177.8 41.656 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000647d43dc")
+		(property "Reference" "ox_manual_valve?"
+			(at 183.5912 41.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_manual_valve"
+			(at 170.18 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 177.8 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "ec88730d-d4a2-4e69-85a4-fc4fcdffd3b0")
+		)
+		(pin "~"
+			(uuid "64b818a0-7a0f-461f-8dd1-de42f61fad70")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_manual_valve?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_Needle")
+		(at 247.142 129.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000647e2f28")
+		(property "Reference" "dewar_needle_valve?"
+			(at 247.142 122.6058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "dewar_needle_valve"
+			(at 247.142 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.142 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.142 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.142 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 247.142 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "fe570228-4e13-42fa-aee8-d530112d629e")
+		)
+		(pin "~"
+			(uuid "6c6ab51f-519f-49d2-9fa2-b38d71541f05")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "dewar_needle_valve?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:PressureRegulator")
+		(at 263.144 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000647e2f2e")
+		(property "Reference" "dewar_pressure_regulator?"
+			(at 262.7122 120.8278 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "dewar_pressure_regulator"
+			(at 262.7122 121.92 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 263.144 129.54 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 263.144 129.54 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 263.144 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "74401c0e-e297-4bcf-9073-86cbcadc84b5")
+		)
+		(pin "~"
+			(uuid "719de8cd-138a-4b8d-9212-5769ab5deca7")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "dewar_pressure_regulator?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:GasBottle")
+		(at 273.812 160.782 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000647e2f35")
+		(property "Reference" "N2"
+			(at 273.812 160.782 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "N2"
+			(at 273.812 163.322 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.558 162.56 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.558 162.56 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.812 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "d11e956c-fd12-4752-a2f4-69cb55feba47")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_Manual")
+		(at 273.812 140.208 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000647e2f3e")
+		(property "Reference" "dewar_manual_valve?"
+			(at 279.6032 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "dewar_manual_valve"
+			(at 266.192 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.812 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.812 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.812 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 273.812 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "24382681-8639-4cd2-a6d9-5db99002c1d2")
+		)
+		(pin "~"
+			(uuid "e030f40d-4f0c-4b9d-9c24-6a19d2d868e3")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "dewar_manual_valve?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Valve_Solenoid_NC_1")
+		(lib_id "PnID-Lib:Valve_Solenoid_NC")
+		(at 83.058 139.446 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bc73d5b-0aee-425f-a7ac-1c5edcb9fb98")
+		(property "Reference" "fuel_safety_valve"
+			(at 87.5792 138.8872 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "fuel_safety_valve:sensor"
+			(at 71.628 139.7 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.058 139.446 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.058 139.446 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.058 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at 83.058 139.446 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 83.058 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "c0778ac7-4443-4929-968e-a6cde0b681e7")
+		)
+		(pin "~"
+			(uuid "ab624f0e-88f9-4ef3-bdc7-98083affc229")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "fuel_safety_valve")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Vent")
+		(at 59.944 65.024 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25fc8dd5-6535-43ec-8803-2e315824fd86")
+		(property "Reference" "Vent1"
+			(at 64.3382 61.0108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vent"
+			(at 61.214 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.944 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.944 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.944 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "d5283a45-040e-4933-a30b-d51a34eb4d3e")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Vent1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_Manual")
+		(at 26.416 51.054 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2be95492-babe-4758-aa4e-5c4feceb8c66")
+		(property "Reference" "fuel_manual_valve1"
+			(at 30.9372 51.054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "fuel_manual_valve"
+			(at 34.036 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.416 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.416 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.416 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 26.416 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "757a1822-7953-4361-8337-c4e406e3e455")
+		)
+		(pin "~"
+			(uuid "3149a8e1-2fcf-4669-afd4-461b5b9549ae")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "fuel_manual_valve1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "propulsion_teststand-rescue:Sensor_Load-PnID-Lib")
+		(at 68.834 126.492 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4222ade6-7eb0-4cd8-aaa3-11ad0a34037e")
+		(property "Reference" "fuel_weight1"
+			(at 71.5772 119.3038 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "fuel_weight:sensor"
+			(at 64.77 126.492 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.834 126.492 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.834 126.492 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.834 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "kg"
+			(at 68.834 126.492 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 68.834 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 71.5772 122.0978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "~"
+			(uuid "15cee43f-baa6-4764-ab98-3405efa0e86f")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "fuel_weight1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Pressure")
+		(at 72.644 163.068 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5696f448-4779-4150-9157-7c3e61623b52")
+		(property "Reference" "venturi_pressure1"
+			(at 73.6854 159.8168 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "fuel_venturi_pressure:sensor"
+			(at 66.04 163.068 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.644 163.068 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.644 163.068 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.644 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "bar"
+			(at 72.644 163.068 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 72.644 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 76.4794 159.8168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "f16c19c2-b67d-4de5-adb6-baad9e24379c")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "venturi_pressure1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Pressure")
+		(at 75.438 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73e442f7-ac54-41d0-9ff7-e7580a9a8ddc")
+		(property "Reference" "tank_pressure1"
+			(at 76.4794 95.8088 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "fuel_rocket_tank_pressure:sensor"
+			(at 68.834 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 75.438 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 75.438 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 75.438 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "bar"
+			(at 75.438 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 75.438 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 79.2734 95.8088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "fe97e9d2-48c5-4f19-a803-909960730628")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "tank_pressure1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:CheckValve")
+		(at 83.058 94.234 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76f96c26-a38e-4c0d-81c5-ddb1dd76b530")
+		(property "Reference" "CheckValve1"
+			(at 86.3092 94.234 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "CheckValve"
+			(at 78.74 94.234 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.058 94.234 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.058 94.234 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.058 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "2310e21b-cbb0-4767-92d4-15e3ec2839ce")
+		)
+		(pin "~"
+			(uuid "bc273151-fdda-4223-a3f3-14320c0fa02d")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "CheckValve1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "propulsion_teststand-rescue:Valve_Manual_3Way-PnID-Lib")
+		(at 67.056 52.324 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ab80589-e754-4949-b771-88895bbbf580")
+		(property "Reference" "Valve_Manual_3Way1"
+			(at 55.4228 51.1556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Valve_Manual_3Way"
+			(at 55.4228 53.467 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.056 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.056 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.056 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "68c1ac31-b10b-4994-bfcb-0d7a1329d939")
+		)
+		(pin "~"
+			(uuid "252d6c65-9405-404a-ab72-d786925d2011")
+		)
+		(pin "~"
+			(uuid "ae20c3ee-0dda-40f7-b87c-896fbfedf17d")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Valve_Manual_3Way1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:GasBottle")
+		(at 26.416 71.628 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f0051dc-f499-44b3-9b47-78526dd06152")
+		(property "Reference" "N1"
+			(at 26.416 71.628 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "N2"
+			(at 26.416 74.168 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.162 73.406 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.162 73.406 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.416 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "96d9a616-5528-4c26-b84b-1d6ea8a2f6f4")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "N1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Tank_Slim")
+		(at 83.058 37.338 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8045aebc-014a-42cc-ac8a-b233b1850ce9")
+		(property "Reference" "pressurant_tank1"
+			(at 90.1192 36.7792 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "pressurant_tank"
+			(at 90.1192 37.8714 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.058 37.338 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.058 37.338 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.058 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at 83.058 37.338 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 83.058 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 83.058 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "2cba46b8-08b5-4ecc-bc99-2db445b08742")
+		)
+		(pin "~"
+			(uuid "fffcfefb-248c-4828-857a-c4eb5e7f8ee2")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "pressurant_tank1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:PressureRegulator")
+		(at 36.068 40.386 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82e6ba6e-8800-43ad-8cb0-73f1dfb5bdb6")
+		(property "Reference" "fuel_pressure_regulator1"
+			(at 36.4998 31.6738 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "fuel_pressure_regulator"
+			(at 36.4998 32.766 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.068 40.386 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.068 40.386 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.068 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "a901a39d-9dd9-4414-981c-cdf6e326fbf8")
+		)
+		(pin "~"
+			(uuid "eab7f466-d6b0-46b3-b13c-66241204b15f")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "fuel_pressure_regulator1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Vent")
+		(at 175.006 98.044 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85ec8992-b215-4711-8e71-054a81bb0d9c")
+		(property "Reference" "Vent?"
+			(at 170.9928 93.6498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vent"
+			(at 177.546 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.006 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.006 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.006 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "784c9389-cb23-496a-99c1-ddc487ecea64")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Vent?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_Servo")
+		(at 83.058 81.788 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8dfc2213-d2e2-47f2-a5dc-7706514c9e41")
+		(property "Reference" "fuel_pressurant_valve1"
+			(at 87.5792 81.2292 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "fuel_pressurant_valve:sensor"
+			(at 68.834 81.788 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.058 81.788 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.058 81.788 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.058 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at 83.058 81.788 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 83.058 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "5990bb97-cb3b-4337-8772-548ab8d9ee45")
+		)
+		(pin "~"
+			(uuid "8d83c712-0d13-4bde-bb44-33680593e81c")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "fuel_pressurant_valve1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Pressure")
+		(at 90.678 52.324 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95142dd8-bc09-4c52-b5e9-7565e1ff4440")
+		(property "Reference" "pressurant_pressure1"
+			(at 93.9292 50.6222 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "fuel_rocket_pressurant_pressure:sensor"
+			(at 95.504 52.324 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.678 52.324 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.678 52.324 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.678 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "bar"
+			(at 90.678 52.324 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 90.678 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 93.9292 53.4162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "0d43fe67-377d-42c0-8a9b-e9f3d31ee7ce")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "pressurant_pressure1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "PnID-Lib:Tank_Slim")
+		(lib_id "PnID-Lib:Tank_Slim")
+		(at 82.804 116.586 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a02605a7-ec75-413a-9bba-8db09720b606")
+		(property "Reference" "Tank1"
+			(at 82.804 116.586 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "tank"
+			(at 89.8652 117.1194 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.804 116.586 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.804 116.586 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.804 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at 82.804 116.586 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 82.804 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 82.804 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "e54407e5-eb83-4eb3-a7d8-fd54a1523ff6")
+		)
+		(pin "~"
+			(uuid "c53caea5-6165-49c9-b2af-c06057777065")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Tank1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Load")
+		(at 121.158 127.254 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a56a8b12-de9b-4b1b-9d36-f3c9024e9fc8")
+		(property "Reference" "ox_weight"
+			(at 123.9012 120.0658 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_weight:sensor"
+			(at 116.332 127.254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.158 127.254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.158 127.254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.158 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "kg"
+			(at 121.158 127.254 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 121.158 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 123.9012 122.8598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "~"
+			(uuid "fbf965a2-eaef-4be4-a46b-fe8d10c03fdb")
+		)
+		(instances
+			(project "lamarr"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_weight")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "PnID-Lib:Venturi")
+		(lib_id "PnID-Lib:Venturi")
+		(at 83.058 171.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1e9684d-e56a-4672-bc10-e09378797d89")
+		(property "Reference" "venturi1"
+			(at 86.3092 171.45 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "venturi:sensor"
+			(at 89.154 171.45 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.058 171.45 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.058 171.45 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.058 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at -80.264 67.31 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "784ac639-ff0a-4305-93ea-f050221c6146")
+		)
+		(pin "~"
+			(uuid "7f010502-4c99-4236-b5b7-70e7eb6abc0b")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "venturi1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Valve_Solenoid_NC_1")
+		(lib_id "PnID-Lib:Valve_Solenoid_NC")
+		(at 57.404 174.752 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5399259-7c7c-49e0-8495-299729ede9cd")
+		(property "Reference" "safety_valves"
+			(at 61.9252 174.1932 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "safety_valves:sensor"
+			(at 45.974 175.006 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.404 174.752 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.404 174.752 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.404 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at 57.404 174.752 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 57.404 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "62780be0-f713-4fcc-b66c-a94127061ff3")
+		)
+		(pin "~"
+			(uuid "31f4b44f-d74e-42e9-8162-99799a61f99b")
+		)
+		(instances
+			(project "lamarr"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "safety_valves")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "PnID-Lib:Valve_Servo")
+		(lib_id "PnID-Lib:Valve_Servo")
+		(at 83.058 155.956 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c93aff01-d033-48b2-b5da-ea6ddd949a63")
+		(property "Reference" "fuel_main_valve1"
+			(at 71.8058 155.956 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "fuel_main_valve:sensor"
+			(at 68.834 155.956 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.058 155.956 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.058 155.956 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.058 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at 83.058 155.956 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 83.058 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "421d283c-6a5a-4bb1-81b0-adc28c4cb1e9")
+		)
+		(pin "~"
+			(uuid "2168606a-adb7-4f52-a3e0-e5ec3d3eb06f")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "fuel_main_valve1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Pump")
+		(at 55.88 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd8def18-95c8-4115-a122-d2257aa06373")
+		(property "Reference" "U1"
+			(at 56.007 176.9191 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "sound_supression:sensor"
+			(at 45.72 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Content" "high"
+			(at 55.88 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "85462d95-0374-4350-b569-e6cc3b60f63d")
+		)
+		(pin "~"
+			(uuid "2de79b3c-0a92-4c40-bee2-a4ee5ac8fb6a")
+		)
+		(instances
+			(project "lamarr"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:PressureRegulator")
+		(at 83.058 67.818 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d00681cd-4e50-48a8-a93a-30f222ae2987")
+		(property "Reference" "pressurantPressureRegulator1"
+			(at 87.5792 67.691 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "pressurantPressureRegulator"
+			(at 87.5792 68.7832 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.058 67.818 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.058 67.818 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.058 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "9309ac7e-ba0f-481a-b112-6c7081383c52")
+		)
+		(pin "~"
+			(uuid "5a3b5c4b-8334-4557-8084-f7ed448f7ea1")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "pressurantPressureRegulator1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Valve_Solenoid_NC_1")
+		(lib_id "PnID-Lib:Valve_Solenoid_NC")
+		(at 135.382 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3ae93a9-c838-4115-80c3-b3c1abb437a0")
+		(property "Reference" "ox_safety_valve"
+			(at 139.9032 136.6012 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_safety_valve:sensor"
+			(at 123.952 137.414 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.382 137.16 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.382 137.16 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.382 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at 135.382 137.16 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 135.382 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "5a3fe58e-6b57-4da4-81e7-8791b732b2ba")
+		)
+		(pin "~"
+			(uuid "65271967-f7f4-4af1-9106-c264551bcfce")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_safety_valve")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Valve_Manual")
+		(at 50.546 40.386 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ecbfac49-f64e-4d88-8e5a-27bb2e18dcea")
+		(property "Reference" "Valve_Manual1"
+			(at 50.546 33.4518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Valve_Manual"
+			(at 50.546 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.546 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.546 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.546 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 50.546 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "34e24d2a-1de2-4ea7-be26-0e44461d8cdc")
+		)
+		(pin "~"
+			(uuid "89dcc39f-612e-4438-a058-d2fac4c6f241")
+		)
+		(instances
+			(project "lamarr_half_static"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Valve_Manual1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

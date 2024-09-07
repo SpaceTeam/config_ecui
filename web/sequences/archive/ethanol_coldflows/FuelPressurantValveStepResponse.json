@@ -1,0 +1,209 @@
+{
+	"globals": {
+		"endTime": 45,
+		"interpolation": {
+			"ox_pressurize_solenoid:SetState": "none",
+			"ox_depressurize_solenoid:SetState": "none",
+			"fuel_pressurize_solenoid:SetState": "none",
+			"fuel_depressurize_solenoid:SetState": "none",
+			"fuel_main_valve:SetTargetPosition": "linear",
+			"ox_main_valve:SetTargetPosition": "linear",
+			"fuel_pressurant_valve:SetTargetPosition": "linear",
+			"fuel_purge_solenoid:SetState": "none",
+			"fuel_pi_controller:SetEnabled": "none",
+			"fuel_pi_controller:SetTarget": "none",
+			"ox_purge_solenoid:SetState": "none",
+			"igniter_ecu_0:SetState": "none",
+			"igniter_ecu_1:SetState": "none",
+			"safety_valves:SetState": "none"
+		},
+		"interval": 0.01,
+		"ranges": [
+			"chamberPressure"
+		],
+		"startTime": -5
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "set all to zero",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"safety_valves:SetState": [
+						100
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 0.0,
+			"name": "Open valve",
+			"desc": "Open valve quickly",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 5.0,
+			"name": "Close valve",
+			"desc": "Close valve quickly ",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						100
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 10.0,
+			"name": "Open valve",
+			"desc": "Open valve slowly",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 1.0,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 15.0,
+			"name": "Close valve",
+			"desc": "Close valve slowly ",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						100
+					]
+				},
+				{
+					"timestamp": 1.0,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 20.0,
+			"name": "Open valve",
+			"desc": "Open valve quickly",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						50
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 25.0,
+			"name": "Close valve",
+			"desc": "Close valve quickly ",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						50
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 30.0,
+			"name": "Open valve",
+			"desc": "Open valve slowly",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 1.0,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						50
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 35.0,
+			"name": "Close valve",
+			"desc": "Close valve slowly ",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						50
+					]
+				},
+				{
+					"timestamp": 1.0,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"safety_valves:SetState": [
+						0
+					]
+				}
+			]
+		}
+	]
+}

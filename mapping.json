@@ -425,7 +425,7 @@
         },
         "8": {
             "0": {
-                "offset": -10.3941273975,
+                "offset": -2.86237406,
                 "slope": 4.46075e-05,
                 "stringID": "thrust"
             },
@@ -435,12 +435,12 @@
                 "stringID": "venturi_weight"
             },
             "2": {
-                "offset": -17.71075024438076,
+                "offset": -17.75801182413067,
                 "slope": 5.36149515030191e-06,
                 "stringID": "fuel_weight"
             },
             "3": {
-                "offset": -14.357511952140001,
+                "offset": -14.20285865926,
                 "slope": 5.57269e-06,
                 "stringID": "ox_weight"
             },

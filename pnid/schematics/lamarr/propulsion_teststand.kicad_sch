@@ -1892,7 +1892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "pressurant_pressure:sensor"
+		(property "Value" "fuel_rocket_pressurant_pressure:sensor"
 			(at 145.796 60.198 0)
 			(effects
 				(font
@@ -2154,7 +2154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "venturi_pressure:sensor"
+		(property "Value" "fuel_venturi_pressure:sensor"
 			(at 119.126 159.766 0)
 			(effects
 				(font
@@ -2476,7 +2476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "tank_pressure:sensor"
+		(property "Value" "fuel_rocket_tank_pressure:sensor"
 			(at 119.126 106.934 0)
 			(effects
 				(font
@@ -2562,7 +2562,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f5abdc")
-		(property "Reference" "main_valve"
+		(property "Reference" "fuel_main_valve"
 			(at 122.0978 151.13 0)
 			(effects
 				(font
@@ -2571,7 +2571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "main_valve:sensor"
+		(property "Value" "fuel_main_valve:sensor"
 			(at 119.126 151.13 90)
 			(effects
 				(font
@@ -2634,7 +2634,7 @@
 		(instances
 			(project "propulsion_teststand"
 				(path "/92b2e49c-6691-4975-bb0e-16f530c919c8"
-					(reference "main_valve")
+					(reference "fuel_main_valve")
 					(unit 1)
 				)
 			)
@@ -3034,7 +3034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000064a93961")
-		(property "Reference" "pressurant_valve"
+		(property "Reference" "fuel_pressurant_valve"
 			(at 137.8712 89.1032 90)
 			(effects
 				(font
@@ -3043,7 +3043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "pressurant_valve:sensor"
+		(property "Value" "fuel_pressurant_valve:sensor"
 			(at 119.126 89.662 90)
 			(effects
 				(font
@@ -3106,7 +3106,7 @@
 		(instances
 			(project "propulsion_teststand"
 				(path "/92b2e49c-6691-4975-bb0e-16f530c919c8"
-					(reference "pressurant_valve")
+					(reference "fuel_pressurant_valve")
 					(unit 1)
 				)
 			)
@@ -3193,7 +3193,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000064b8105b")
-		(property "Reference" "venturi_weight"
+		(property "Reference" "fuel_weight"
 			(at 125.9332 161.4678 0)
 			(effects
 				(font
@@ -3202,7 +3202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "venturi_weight:sensor"
+		(property "Value" "fuel_weight:sensor"
 			(at 119.126 168.656 0)
 			(effects
 				(font
@@ -3270,7 +3270,7 @@
 		(instances
 			(project "propulsion_teststand"
 				(path "/92b2e49c-6691-4975-bb0e-16f530c919c8"
-					(reference "venturi_weight")
+					(reference "fuel_weight")
 					(unit 1)
 				)
 			)
