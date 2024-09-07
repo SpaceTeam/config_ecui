@@ -1,6 +1,7 @@
 *-cache.lib
 *.sch-bak
 .DS_Store
-*influx/influxdb/meta/meta.db
+influx/*
 *-backups/
 *.lck
+*.db
