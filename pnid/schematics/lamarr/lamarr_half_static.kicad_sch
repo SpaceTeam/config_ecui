@@ -4357,7 +4357,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Solenoid_NC")
 		(lib_id "PnID-Lib:Valve_Solenoid_NC")
 		(at 109.22 93.98 90)
 		(unit 1)
@@ -4516,7 +4515,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
 		(at 135.382 117.094 0)
 		(unit 1)
@@ -4697,7 +4695,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:CheckValve")
 		(lib_id "PnID-Lib:CheckValve")
 		(at 109.22 113.284 270)
 		(unit 1)
@@ -8686,7 +8683,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
 		(at 82.804 116.586 0)
 		(unit 1)
@@ -8877,7 +8873,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Venturi")
 		(lib_id "PnID-Lib:Venturi")
 		(at 83.058 171.45 270)
 		(unit 1)
@@ -9045,7 +9040,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Servo")
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 83.058 155.956 90)
 		(unit 1)

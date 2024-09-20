@@ -1,105 +1,5 @@
 {
     "CANMapping": {
-        "10": {
-            "0": {
-                "stringID": "dead_ox_unused_0"
-            },
-            "1": {
-                "stringID": "dead_ox_unused_1"
-            },
-            "10": {
-                "stringID": "dead_dewar_pressurize_solenoid"
-            },
-            "11": {
-                "stringID": "dead_ox_unused_pressure_11"
-            },
-            "12": {
-                "stringID": "dead_ox_pressure_control"
-            },
-            "2": {
-                "stringID": "dead_unused"
-            },
-            "3": {
-                "offset": -15.19181586,
-                "slope": 0.001198849105,
-                "stringID": "dead_ox_venturi_pressure"
-            },
-            "4": {
-                "offset": -15.19667413,
-                "slope": 0.001199232491,
-                "stringID": "dead_ox_tank_pressure"
-            },
-            "5": {
-                "offset": -15.2284264,
-                "slope": 0.001189720812,
-                "stringID": "dead_ox_pressurant_pressure"
-            },
-            "6": {
-                "stringID": "dead_ox_depressurize_solenoid"
-            },
-            "7": {
-                "stringID": "dead_ox_purge_solenoid"
-            },
-            "8": {
-                "offset": -15.02362205,
-                "slope": 0.001181102362,
-                "stringID": "dead_chamber_pressure"
-            },
-            "9": {
-                "stringID": "dead_ox_pressurize_solenoid"
-            },
-            "stringID": "dead_teststand_ox"
-        },
-        "11": {
-            "0": {
-                "stringID": "dead_sound_supression"
-            },
-            "1": {
-                "stringID": "dead_tank_heating"
-            },
-            "10": {
-                "stringID": "dead_fuel_depressurize_solenoid"
-            },
-            "11": {
-                "stringID": "dead_fuel_unused_pressure_11"
-            },
-            "12": {
-                "stringID": "dead_fuel_pressure_control"
-            },
-            "2": {
-                "stringID": "dead_fuel_unused_2"
-            },
-            "3": {
-                "offset": -14.96221662,
-                "slope": 0.001180730479,
-                "stringID": "dead_fuel_venturi_pressure_d"
-            },
-            "4": {
-                "offset": -15.07614213,
-                "slope": 0.001189720812,
-                "stringID": "dead_fuel_tank_pressure"
-            },
-            "5": {
-                "offset": -15.0473784,
-                "slope": 0.001184459886,
-                "stringID": "dead_fuel_pressurant_pressure"
-            },
-            "6": {
-                "stringID": "dead_safety_valves"
-            },
-            "7": {
-                "stringID": "dead_fuel_purge_solenoid"
-            },
-            "8": {
-                "offset": -21.16235885,
-                "slope": 0.001176286073,
-                "stringID": "dead_dewar_pressure"
-            },
-            "9": {
-                "stringID": "dead_fuel_pressurize_solenoid"
-            },
-            "stringID": "dead_teststand_fuel"
-        },
         "3": {
             "0": {
                 "offset": 0.0,
@@ -114,183 +14,32 @@
             },
             "stringID": "blmb_ox_tanking_valve"
         },
-        "33": {
+        "31": {
             "0": {
                 "offset": -15,
                 "slope": 0.01888275146,
-                "stringID": "gse_2_pressure_0"
+                "stringID": "fuel_tank_pressure"
             },
             "1": {
                 "offset": -100,
                 "slope": 0.125885,
-                "stringID": "gse_2_pressure_1"
-            },
-            "10": {
-                "stringID": "ox_safety_valve"
-            },
-            "11": {
-                "stringID": "ox_safety_valve_cont"
-            },
-            "12": {
-                "stringID": "fuel_safety_valve"
-            },
-            "13": {
-                "stringID": "fuel_safety_valve_cont"
-            },
-            "14": {
-                "stringID": "gse_2_pyro_0"
-            },
-            "15": {
-                "stringID": "gse_2_pyro_0_cont"
-            },
-            "16": {
-                "stringID": "gse_2_pi_controller"
+                "stringID": "fuel_pressurant_pressure"
             },
             "2": {
-                "offset": -100,
-                "slope": 0.0786781311,
-                "stringID": "gse_2_pressure_2"
+                "offset": 0,
+                "slope": 1,
+                "stringID": "fuel_pressure_2"
             },
             "3": {
-                "stringID": "gse_2_pressure_3"
+                "offset": 0,
+                "slope": 1,
+                "stringID": "fuel_pressure_3"
             },
             "4": {
-                "stringID": "gse_2_temp_0"
+                "stringID": "fuel_temp_0"
             },
             "5": {
-                "stringID": "gse_2_temp_1"
-            },
-            "6": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "gse_2_servo_0"
-            },
-            "7": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "gse_2_servo_1"
-            },
-            "8": {
-                "stringID": "ox_depressurize_solenoid"
-            },
-            "9": {
-                "stringID": "ox_depressurize_solenoid_cont"
-            },
-            "stringID": "gse_2_ecu"
-        },
-        "34": {
-            "0": {
-                "offset": -15,
-                "slope": 0.01888275146,
-                "stringID": "ox_venturi_pressure"
-            },
-            "1": {
-                "offset": -15,
-                "slope": 0.01888275146,
-                "stringID": "ox_tank_pressure"
-            },
-            "10": {
-                "stringID": "unused_pyro"
-            },
-            "11": {
-                "stringID": "unused_pyro_cont"
-            },
-            "12": {
-                "stringID": "safety_valves"
-            },
-            "13": {
-                "stringID": "safety_valves_cont"
-            },
-            "14": {
-                "stringID": "dewar_pressurize_solenoid"
-            },
-            "15": {
-                "stringID": "dewar_pressurize_solenoid_cont"
-            },
-            "16": {
-                "stringID": "gse_1_pi_controller"
-            },
-            "2": {
-                "offset": -15,
-                "slope": 0.01888275146,
-                "stringID": "ox_pressurant_pressure"
-            },
-            "3": {
-                "offset": -15,
-                "slope": 0.01888275146,
-                "stringID": "chamber_pressure"
-            },
-            "4": {
-                "stringID": "gse_1_temp_0"
-            },
-            "5": {
-                "stringID": "gse_1_temp_1"
-            },
-            "6": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "gse_1_servo_0"
-            },
-            "7": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "gse_1_servo_1"
-            },
-            "8": {
-                "stringID": "ox_pressurize_solenoid"
-            },
-            "9": {
-                "stringID": "ox_pressurize_solenoid_cont"
-            },
-            "stringID": "gse_1_ecu"
-        },
-        "5": {
-            "0": {
-                "offset": -15,
-                "slope": 0.01888275146,
-                "stringID": "fuel_rocket_tank_pressure"
-            },
-            "1": {
-                "offset": -100,
-                "slope": 0.125885,
-                "stringID": "fuel_rocket_pressurant_pressure"
-            },
-            "10": {
-                "stringID": "unused_pyro_1"
-            },
-            "11": {
-                "stringID": "unused_pyro_1_cont"
-            },
-            "12": {
-                "stringID": "unused_pyro_2"
-            },
-            "13": {
-                "stringID": "unused_pyro_2_cont"
-            },
-            "14": {
-                "stringID": "unused_pyro_3"
-            },
-            "15": {
-                "stringID": "unused_pyro_3_cont"
-            },
-            "16": {
-                "offset": 0.0,
-                "slope": 0.0015258789,
-                "stringID": "fuel_pi_controller"
-            },
-            "2": {
-                "offset": -100,
-                "slope": 0.0786781311,
-                "stringID": "unused_ecu_pressure_2"
-            },
-            "3": {
-                "stringID": "unused_ecu_pressure_3"
-            },
-            "4": {
-                "stringID": "unused_ecu_temp_0"
-            },
-            "5": {
-                "stringID": "unused_ecu_temp_1"
+                "stringID": "fuel_temp_1"
             },
             "6": {
                 "offset": 0.0,
@@ -300,128 +49,360 @@
             "7": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
-                "stringID": "unused_servo_1"
+                "stringID": "fuel_servo_1"
             },
             "8": {
-                "stringID": "unused_pyro_0"
+                "stringID": "fuel_vent"
             },
             "9": {
-                "stringID": "unused_pyro_0_cont"
-            },
-            "stringID": "pressurant_test_ecu"
-        },
-        "6": {
-            "0": {
-                "offset": 0,
-                "slope": 0.00367,
-                "stringID": "unused_ecu_pressure_0"
-            },
-            "1": {
-                "offset": 0,
-                "slope": 0.003735,
-                "stringID": "unused_ecu_pressure_1"
+                "stringID": "fuel_vent_cont"
             },
             "10": {
+                "stringID": "fuel_igniter_1"
+            },
+            "11": {
+                "stringID": "fuel_igniter_1_cont"
+            },
+            "12": {
+                "stringID": "fuel_igniter_2"
+            },
+            "13": {
+                "stringID": "fuel_igniter_2_cont"
+            },
+            "14": {
+                "stringID": "fuel_igniter_3"
+            },
+            "15": {
+                "stringID": "fuel_igniter_3_cont"
+            },
+            "16": {
+                "stringID": "fuel_pi_controller"
+            },
+            "17": {
+                "stringID": "fuel_unused_rocket"
+            },
+            "18": {
+                "stringID": "fuel_sense_5V"
+            },
+            "19": {
+                "stringID": "fuel_sense_12V"
+            },
+            "20": {
+                "stringID": "fuel_sense_12VA"
+            },
+            "stringID": "fuel_ecu"
+        },
+        "32": {
+            "0": {
+                "offset": -15,
+                "slope": 0.01888275146,
+                "stringID": "ox_tank_pressure"
+            },
+            "1": {
+                "offset": -100,
+                "slope": 0.125885,
+                "stringID": "ox_pressurant_pressure"
+            },
+            "2": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "ox_pressure_2"
+            },
+            "3": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "ox_pressure_3"
+            },
+            "4": {
+                "stringID": "ox_temp_0"
+            },
+            "5": {
+                "stringID": "ox_temp_1"
+            },
+            "6": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "ox_pressurant_valve"
+            },
+            "7": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "ox_servo_1"
+            },
+            "8": {
+                "stringID": "ox_vent"
+            },
+            "9": {
+                "stringID": "ox_vent_cont"
+            },
+            "10": {
+                "stringID": "ox_igniter_1"
+            },
+            "11": {
+                "stringID": "ox_igniter_1_cont"
+            },
+            "12": {
+                "stringID": "ox_igniter_2"
+            },
+            "13": {
+                "stringID": "ox_igniter_2_cont"
+            },
+            "14": {
+                "stringID": "ox_igniter_3"
+            },
+            "15": {
+                "stringID": "ox_igniter_3_cont"
+            },
+            "16": {
+                "stringID": "ox_pi_controller"
+            },
+            "17": {
+                "stringID": "ox_unused_rocket"
+            },
+            "18": {
+                "stringID": "ox_sense_5V"
+            },
+            "19": {
+                "stringID": "ox_sense_12V"
+            },
+            "20": {
+                "stringID": "ox_sense_12VA"
+            },
+            "stringID": "ox_ecu"
+        },
+        "33": {
+            "0": {
+                "offset": -15,
+                "slope": 0.01888275146,
+                "stringID": "fuel_venutri_pressure"
+            },
+            "1": {
+                "offset": -15,
+                "slope": 0.01888275146,
+                "stringID": "ox_venutri_pressure"
+            },
+            "2": {
+                "offset": -15,
+                "slope": 0.01888275146,
+                "stringID": "chamber_pressure"
+            },
+            "3": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "engine_pressure_3"
+            },
+            "4": {
+                "stringID": "engine_temp_0"
+            },
+            "5": {
+                "stringID": "engine_temp_1"
+            },
+            "6": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
                 "stringID": "fuel_main_valve"
             },
-            "11": {
+            "7": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
                 "stringID": "ox_main_valve"
             },
+            "8": {
+                "stringID": "internal_igniter"
+            },
+            "9": {
+                "stringID": "internal_igniter_cont"
+            },
+            "10": {
+                "stringID": "engine_igniter_1"
+            },
+            "11": {
+                "stringID": "engine_igniter_1_cont"
+            },
             "12": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "igniter_ecu_0"
+                "stringID": "engine_igniter_2"
             },
             "13": {
-                "offset": 1.0,
-                "slope": -1.0,
-                "stringID": "igniter_ecu_0_cont"
+                "stringID": "engine_igniter_2_cont"
             },
             "14": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "igniter_ecu_1"
+                "stringID": "engine_igniter_3"
             },
             "15": {
-                "offset": 1.0,
-                "slope": -1.0,
-                "stringID": "igniter_ecu_1_cont"
+                "stringID": "engine_igniter_3_cont"
             },
             "16": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_ecu_pyro_2"
+                "stringID": "engine_unused_pi_controller"
             },
             "17": {
-                "offset": 1.0,
-                "slope": -1.0,
-                "stringID": "unused_ecu_pyro_2_cont"
+                "stringID": "rocket"
             },
             "18": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "ox_purge_solenoid"
+                "stringID": "engine_sense_5V"
             },
             "19": {
+                "stringID": "engine_sense_12V"
+            },
+            "20": {
+                "stringID": "engine_sense_12VA"
+            },
+            "stringID": "engine_ecu"
+        },
+        "34": {
+            "0": {
                 "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_ecu_solenoid_1"
+                "slope": 1,
+                "stringID": "pressurant_tanking_valve_feedback"
+            },
+            "1": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "pressurant_vent_valve_feedback"
             },
             "2": {
                 "offset": 0,
-                "slope": 0.0037,
-                "stringID": "unused_ecu_pressure_2"
-            },
-            "20": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "pressure_control"
-            },
-            "22": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_rocket"
+                "slope": 1,
+                "stringID": "ox_tanking_valve_feedback"
             },
             "3": {
-                "offset": -15,
-                "slope": 0.001180171967,
-                "stringID": "fuel_venturi_pressure"
+                "offset": 0,
+                "slope": 1,
+                "stringID": "holddown_feedback"
             },
             "4": {
-                "offset": -16.244,
-                "slope": 0.00119984,
-                "stringID": "unused_tank_pressure"
+                "stringID": "gse_pneu_temp_0"
             },
             "5": {
-                "offset": -101.25,
-                "slope": 0.0078857,
-                "stringID": "unused_pressurant_pressure"
+                "stringID": "gse_pneu_temp_1"
             },
             "6": {
-                "offset": -248.8657,
-                "slope": 0.043258,
-                "stringID": "unused_ecu_temp_0"
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "gse_pneu_servo_0"
             },
             "7": {
-                "offset": -248.8657,
-                "slope": 0.043258,
-                "stringID": "unused_ecu_temp_1"
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "gse_pneu_servo_1"
             },
             "8": {
-                "offset": -248.8657,
-                "slope": 0.043258,
-                "stringID": "unused_ecu_temp_2"
+                "stringID": "pressurant_tanking_valve"
             },
             "9": {
-                "offset": 0,
-                "slope": 1.0,
-                "stringID": "unused_servo0"
+                "stringID": "pressurant_tanking_valve_cont"
             },
-            "stringID": "ecu_uhb"
+            "10": {
+                "stringID": "pressurant_vent_valve"
+            },
+            "11": {
+                "stringID": "pressurant_vent_valve_cont"
+            },
+            "12": {
+                "stringID": "ox_tanking_valve"
+            },
+            "13": {
+                "stringID": "ox_tanking_valve_cont"
+            },
+            "14": {
+                "stringID": "holddown"
+            },
+            "15": {
+                "stringID": "holddown_cont"
+            },
+            "16": {
+                "stringID": "gse_pneu_unused_pi_controller"
+            },
+            "17": {
+                "stringID": "gse_pneu_unused_rocket"
+            },
+            "18": {
+                "stringID": "gse_pneu_sense_5V"
+            },
+            "19": {
+                "stringID": "gse_pneu_sense_12V"
+            },
+            "20": {
+                "stringID": "gse_pneu_sense_12VA"
+            },
+            "stringID": "gse_pneu_ecu"
+        },
+        "35": {
+            "0": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_elec_press_0"
+            },
+            "1": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_elec_press_1"
+            },
+            "2": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_elec_press_2"
+            },
+            "3": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_elec_press_3"
+            },
+            "4": {
+                "stringID": "gse_elec_temp_0"
+            },
+            "5": {
+                "stringID": "gse_elec_temp_1"
+            },
+            "6": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "gse_elec_servo_0"
+            },
+            "7": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "gse_elec_servo_1"
+            },
+            "8": {
+                "stringID": "ox_decoupler"
+            },
+            "9": {
+                "stringID": "ox_decoupler_cont"
+            },
+            "10": {
+                "stringID": "strongback"
+            },
+            "11": {
+                "stringID": "strongback_cont"
+            },
+            "12": {
+                "stringID": "dewar_press_valve"
+            },
+            "13": {
+                "stringID": "dewar_press_valve_cont"
+            },
+            "14": {
+                "stringID": "external_igniter"
+            },
+            "15": {
+                "stringID": "external_igniter_cont"
+            },
+            "16": {
+                "stringID": "gse_elec_unused_pi_controller"
+            },
+            "17": {
+                "stringID": "gse_elec_unused_rocket"
+            },
+            "18": {
+                "stringID": "gse_elec_sense_5V"
+            },
+            "19": {
+                "stringID": "gse_elec_sense_12V"
+            },
+            "20": {
+                "stringID": "gse_elec_sense_12VA"
+            },
+            "stringID": "gse_elec_ecu"
         },
         "8": {
             "0": {
