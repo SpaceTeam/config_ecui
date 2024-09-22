@@ -4,7 +4,7 @@
             "0": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
-                "stringID": "ox_tanking_valve"
+                "stringID": "ox_tanking_valve_blmb"
             },
             "1": {
                 "stringID": "unused_ox_tanking_valve_unused_pressure"
@@ -82,12 +82,15 @@
                 "stringID": "fuel_unused_rocket"
             },
             "18": {
+                "slope": 0.001622020152,
                 "stringID": "fuel_sense_5V"
             },
             "19": {
+                "slope": 0.008921110838,
                 "stringID": "fuel_sense_12V"
             },
             "20": {
+                "slope": 0.008921110838,
                 "stringID": "fuel_sense_12VA"
             },
             "stringID": "fuel_ecu"
@@ -160,12 +163,15 @@
                 "stringID": "ox_unused_rocket"
             },
             "18": {
+                "slope": 0.001622020152,
                 "stringID": "ox_sense_5V"
             },
             "19": {
+                "slope": 0.008921110838,
                 "stringID": "ox_sense_12V"
             },
             "20": {
+                "slope": 0.008921110838,
                 "stringID": "ox_sense_12VA"
             },
             "stringID": "ox_ecu"
@@ -174,12 +180,12 @@
             "0": {
                 "offset": -15,
                 "slope": 0.01888275146,
-                "stringID": "fuel_venutri_pressure"
+                "stringID": "fuel_venturi_pressure"
             },
             "1": {
                 "offset": -15,
                 "slope": 0.01888275146,
-                "stringID": "ox_venutri_pressure"
+                "stringID": "ox_venturi_pressure"
             },
             "2": {
                 "offset": -15,
@@ -238,12 +244,15 @@
                 "stringID": "rocket"
             },
             "18": {
+                "slope": 0.001622020152,
                 "stringID": "engine_sense_5V"
             },
             "19": {
+                "slope": 0.008921110838,
                 "stringID": "engine_sense_12V"
             },
             "20": {
+                "slope": 0.008921110838,
                 "stringID": "engine_sense_12VA"
             },
             "stringID": "engine_ecu"
@@ -316,12 +325,15 @@
                 "stringID": "gse_pneu_unused_rocket"
             },
             "18": {
+                "slope": 0.001622020152,
                 "stringID": "gse_pneu_sense_5V"
             },
             "19": {
+                "slope": 0.008921110838,
                 "stringID": "gse_pneu_sense_12V"
             },
             "20": {
+                "slope": 0.008921110838,
                 "stringID": "gse_pneu_sense_12VA"
             },
             "stringID": "gse_pneu_ecu"
@@ -394,12 +406,15 @@
                 "stringID": "gse_elec_unused_rocket"
             },
             "18": {
+                "slope": 0.001622020152,
                 "stringID": "gse_elec_sense_5V"
             },
             "19": {
+                "slope": 0.008921110838,
                 "stringID": "gse_elec_sense_12V"
             },
             "20": {
+                "slope": 0.008921110838,
                 "stringID": "gse_elec_sense_12VA"
             },
             "stringID": "gse_elec_ecu"
@@ -408,12 +423,12 @@
             "0": {
                 "offset": -2.86237406,
                 "slope": 4.46075e-05,
-                "stringID": "thrust"
+                "stringID": "rocket_weight"
             },
             "1": {
                 "offset": 660000,
                 "slope": 1.0,
-                "stringID": "venturi_weight"
+                "stringID": "dewar_weight"
             },
             "2": {
                 "offset": -17.75801182413067,

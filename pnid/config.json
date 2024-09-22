@@ -1,7 +1,7 @@
 {
 	"tollenoid_pfusch": {
 		"states": [
-            "tollenoid-sensor"
+            "tollenoid:sensor"
         ],
         "popup": [
             {
@@ -24,9 +24,57 @@
             }
         ]
 	},
+	"extra_feedback_channel_overrides": {
+		"states": [
+            "pressurant_tanking_valve_feedback:sensor"
+        ],
+        "popup": [
+            {
+                "type": "display",
+                "style": "text"
+            },
+            {
+                "type": "input",
+                "style": "checkbox",
+                "variable": "pressurant_tanking_valve-sensor"
+            }
+        ]
+	},
+	"extra_feedback_channel_overrides2": {
+	    "states": [
+	        "pressurant_vent_valve_feedback:sensor"
+	    ],
+	    "popup": [
+            {
+                "type": "display",
+                "style": "text"
+            },
+            {
+                "type": "input",
+                "style": "checkbox",
+                "variable": "pressurant_vent_valve-sensor"
+            }
+        ]
+    },
+	"extra_feedback_channel_overrides3": {
+		"states": [
+            "ox_tanking_valve_feedback:sensor"
+        ],
+        "popup": [
+            {
+                "type": "display",
+                "style": "text"
+            },
+            {
+                "type": "input",
+                "style": "checkbox",
+                "variable": "ox_tanking_valve-sensor"
+            }
+        ]
+	},
 	"flash_clear_label": {
         "states": [
-            "Flash-Clear"
+            "Flash:Clear"
         ],
         "popup": [
             {
@@ -37,68 +85,219 @@
             }
         ]
 	},
-	"voltages_label": {
+	"gse_voltages_label": {
         "states": [
-            "Voltages_Currents"
+            "GSEVoltages"
         ],
         "popup": [
             {
                 "type": "display",
                 "style": "text",
-                "variable": "gui-charging_enabled"
-            },
-            {
-                "type": "input",
-                "style": "checkbox",
-                "variable": "gui-charging_enabled",
-                "low": "0",
-                "high": "1"
-            },
-            {
-                "type": "display",
-                "style": "separator"
+                "label": "GSE ELEC 5V",
+                "variable": "gse_elec_sense_5V-sensor",
+                "suffix": "V"
             },
             {
                 "type": "display",
                 "style": "text",
-                "label": "5V",
-                "variable": "pmu_5V_voltage-sensor"
+                "label": "GSE ELEC Supply",
+                "variable": "gse_elec_sense_12V-sensor",
+                "suffix": "V"
             },
             {
                 "type": "display",
                 "style": "text",
-                "label": "5V High Load",
-                "variable": "pmu_5V_high_load_voltage-sensor"
+                "label": "GSE PNEU 5V",
+                "variable": "gse_pneu_sense_5V-sensor",
+                "suffix": "V"
             },
             {
                 "type": "display",
                 "style": "text",
-                "label": "12V",
-                "variable": "pmu_12V_voltage-sensor"
-            },
-            {
-                "type": "display",
-                "style": "text",
-                "label": "Battery",
-                "variable": "battery_voltage-sensor"
-            },
-            {
-                "type": "display",
-                "style": "text",
-                "label": "Pyro",
-                "variable": "pmu_pyro_voltage-sensor"
-            },
-            {
-                "type": "display",
-                "style": "text",
-                "label": "Supply Current",
-                "variable": "pmu_supply_current-sensor"
+                "label": "GSE PNEU Supply",
+                "variable": "gse_pneu_sense_12V-sensor",
+                "suffix": "V"
             }
         ]
 	},
+	"rocket_voltages_label": {
+        "states": [
+            "RocketVoltages"
+        ],
+        "popup": [
+            {
+                "type": "display",
+                "style": "text",
+                "label": "RCU 5V",
+                "variable": "rcu_sense_5V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "RCU 12V",
+                "variable": "rcu_sense_12V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Ox 5V",
+                "variable": "ox_sense_5V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Ox 12V",
+                "variable": "ox_sense_12V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Fuel 5V",
+                "variable": "fuel_sense_5V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Fuel 12V",
+                "variable": "fuel_sense_12V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Engine 5V",
+                "variable": "engine_sense_5V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Engine 12V",
+                "variable": "engine_sense_12V-sensor",
+                "suffix": "V"
+            }
+        ]
+	},
+	"decoupler": {
+	    "states": [
+	        "ox_decoupler:sensor"
+	    ],
+	    "eval": "if (inVars['value'] >= thresholds['solenoid']['high']) { outVars['color']='connected'; outVars['value']='Connected (' + inVars['value'] + ')' } else { outVars['color']='disconnected'; outVars['value']='Disconnected (' + inVars['value'] + ')' }",
+        "sens_deviation": "if ((setState == 0 && feedback >= thresholds['solenoid']['high']) || (setState == 1 && feedback < thresholds['solenoid']['high'])) { return true; } return false;",
+	    "popup": [
+            {
+                "type": "display",
+                "style": "text"
+            },
+            {
+                "type": "input",
+                "style": "checkbox"
+            }
+        ]
+    },
+	"strongback": {
+	    "states": [
+	        "strongback:sensor"
+	    ],
+	    "eval": "if (inVars['value'] >= thresholds['solenoid']['high']) { outVars['color']='open'; outVars['value']='Retracting' } else { outVars['color']='closed'; outVars['value']='Stopped' }",
+        "sens_deviation": "if ((setState == 0 && feedback >= thresholds['solenoid']['high']) || (setState == 1 && feedback < thresholds['solenoid']['high'])) { return true; } return false;",
+        "popup": [
+            {
+                "type": "display",
+                "style": "text"
+            },
+            {
+                "type": "input",
+                "style": "checkbox"
+            }
+        ]
+    },
     "fuel_weight": {
         "states": [
-            "fuel_weight-sensor"
+            "fuel_weight:sensor"
+        ],
+        "eval": "",
+        "popup": [
+            {
+                "type": "display",
+                "style": "text"
+            },
+            {
+                "type": "input",
+                "style": "button",
+                "variable": "fuel_weight:Tare",
+                "label": "Tare Fuel Weight"
+            },
+            {
+                "type": "display",
+                "style": "external",
+                "source": null,
+                "autoID": false,
+                "width": 450,
+                "height": 200
+            }
+        ]
+    },
+    "dewar_weight": {
+        "states": [
+            "dewar_weight:sensor"
+        ],
+        "eval": "",
+        "popup": [
+            {
+                "type": "display",
+                "style": "text"
+            },
+            {
+                "type": "input",
+                "style": "button",
+                "variable": "dewar_weight:Tare",
+                "label": "Tare Dewar Weight"
+            },
+            {
+                "type": "display",
+                "style": "external",
+                "source": null,
+                "autoID": false,
+                "width": 450,
+                "height": 200
+            }
+        ]
+    },
+    "rocket_weight": {
+        "states": [
+            "rocket_weight:sensor"
+        ],
+        "eval": "",
+        "popup": [
+            {
+                "type": "display",
+                "style": "text"
+            },
+            {
+                "type": "input",
+                "style": "button",
+                "variable": "rocket_weight:Tare",
+                "label": "Tare Rocket Weight"
+            },
+            {
+                "type": "display",
+                "style": "external",
+                "source": null,
+                "autoID": false,
+                "width": 450,
+                "height": 200
+            }
+        ]
+    },
+    "fuel_weight": {
+        "states": [
+            "fuel_weight:sensor"
         ],
         "eval": "",
         "popup": [
@@ -124,7 +323,7 @@
     },
     "ox_weight": {
         "states": [
-            "ox_weight-sensor"
+            "ox_weight:sensor"
         ],
         "eval": "",
         "popup": [
@@ -554,9 +753,20 @@
 	},
 	"holddown": {
         "states": [
-            "holddown:sensor"
+            "holddown_feedback:sensor"
         ],
-        "eval": "if (inVars['value'] >= thresholds['motor']['high']) { outVars['color']='open'; outVars['value']='Release' } else { outVars['color']='closed'; outVars['value']='Hold' }"
+        "eval": "if (inVars['value'] >= thresholds['motor']['high']) { outVars['color']='open'; outVars['value']='Release' } else { outVars['color']='closed'; outVars['value']='Hold' }",
+        "popup": [
+            {
+                "type": "display",
+                "style": "text"
+            },
+            {
+                "type": "input",
+                "style": "checkbox",
+                "variable": "holddown-sensor"
+            }
+        ]
 	},
 	"umbilical_retract": {
         "states": [
@@ -574,65 +784,6 @@
                 "style": "button",
                 "variable": "value",
                 "label": "value"
-            }
-        ]
-	},
-	"voltages_label": {
-        "states": [
-            "Voltages_Currents"
-        ],
-        "popup": [
-            {
-                "type": "display",
-                "style": "text",
-                "variable": "gui-charging_enabled"
-            },
-            {
-                "type": "input",
-                "style": "checkbox",
-                "variable": "gui-charging_enabled",
-                "low": "0",
-                "high": "1"
-            },
-            {
-                "type": "display",
-                "style": "separator"
-            },
-            {
-                "type": "display",
-                "style": "text",
-                "label": "5V",
-                "variable": "pmu_5V_voltage:sensor"
-            },
-            {
-                "type": "display",
-                "style": "text",
-                "label": "5V High Load",
-                "variable": "pmu_5V_high_load_voltage:sensor"
-            },
-            {
-                "type": "display",
-                "style": "text",
-                "label": "12V",
-                "variable": "pmu_12V_voltage:sensor"
-            },
-            {
-                "type": "display",
-                "style": "text",
-                "label": "Battery",
-                "variable": "battery_voltage:sensor"
-            },
-            {
-                "type": "display",
-                "style": "text",
-                "label": "Pyro",
-                "variable": "pmu_pyro_voltage:sensor"
-            },
-            {
-                "type": "display",
-                "style": "text",
-                "label": "Supply Current",
-                "variable": "pmu_supply_current:sensor"
             }
         ]
 	}

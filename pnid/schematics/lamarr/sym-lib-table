@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "PnID-Lib")(type "Legacy")(uri "/home/missioncontrol/config_ecui/pnid/schematics/pnid-lib/PnID.lib")(options "")(descr ""))
+  (lib (name "PnID-Lib")(type "Legacy")(uri "C:/Users/stefa/Downloads/schematics/schematics/pnid-lib/PnID.lib")(options "")(descr ""))
 )
