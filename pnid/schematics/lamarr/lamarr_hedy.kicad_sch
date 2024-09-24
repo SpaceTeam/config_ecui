@@ -3418,7 +3418,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 60.96) (xy 120.65 62.23)
+			(xy 120.65 60.96) (xy 120.65 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3455,16 +3455,6 @@
 			(type default)
 		)
 		(uuid "74b54a32-9af3-41a5-ba08-30106566490c")
-	)
-	(wire
-		(pts
-			(xy 105.41 185.42) (xy 105.918 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80e7df5d-638c-415e-b7ce-c41f055c154c")
 	)
 	(wire
 		(pts
@@ -3698,7 +3688,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 72.39) (xy 120.65 77.47)
+			(xy 120.65 73.66) (xy 120.65 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3725,16 +3715,6 @@
 			(type default)
 		)
 		(uuid "e09024ea-5b98-4d5b-9b22-71aabce531fa")
-	)
-	(wire
-		(pts
-			(xy 97.79 185.42) (xy 98.298 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea01943a-8c91-48b6-840f-01170992f207")
 	)
 	(wire
 		(pts
@@ -3872,7 +3852,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Pressure")
-		(at 113.538 185.42 0)
+		(at 113.03 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3880,7 +3860,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dcf583")
 		(property "Reference" "chamber_pressure"
-			(at 110.7948 192.6082 0)
+			(at 110.2868 192.6082 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3889,7 +3869,7 @@
 			)
 		)
 		(property "Value" "chamber_pressure:sensor"
-			(at 117.856 185.42 0)
+			(at 117.348 185.42 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3898,7 +3878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.538 185.42 0)
+			(at 113.03 185.42 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3907,7 +3887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.538 185.42 0)
+			(at 113.03 185.42 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3916,7 +3896,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.538 185.42 0)
+			(at 113.03 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +3905,7 @@
 			)
 		)
 		(property "Unit" "bar"
-			(at 113.538 185.42 0)
+			(at 113.03 185.42 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3934,7 +3914,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 113.538 185.42 0)
+			(at 113.03 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +3923,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 110.7948 189.8142 0)
+			(at 110.2868 189.8142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4089,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Solenoid_NC")
 		(lib_id "PnID-Lib:Valve_Solenoid_NC")
 		(at 205.74 114.3 0)
 		(unit 1)
@@ -4275,7 +4254,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
 		(at 189.23 129.54 0)
 		(unit 1)
@@ -4505,7 +4483,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Load")
-		(at 90.678 185.42 180)
+		(at 90.17 185.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4513,7 +4491,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000646c30b8")
 		(property "Reference" "thrust"
-			(at 93.4212 178.2318 0)
+			(at 92.9132 178.2318 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4522,7 +4500,7 @@
 			)
 		)
 		(property "Value" "rocket_weight:sensor"
-			(at 86.614 185.42 0)
+			(at 86.106 185.42 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4531,7 +4509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.678 185.42 0)
+			(at 90.17 185.42 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4540,7 +4518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.678 185.42 0)
+			(at 90.17 185.42 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4549,7 +4527,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.678 185.42 0)
+			(at 90.17 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +4536,7 @@
 			)
 		)
 		(property "Unit" "N"
-			(at 90.678 185.42 0)
+			(at 90.17 185.42 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4567,7 +4545,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 90.678 185.42 0)
+			(at 90.17 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4554,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 93.4212 181.0258 0)
+			(at 92.9132 181.0258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,7 +4866,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Solenoid_NC")
 		(lib_id "PnID-Lib:Valve_Solenoid_NC")
 		(at 33.274 60.96 0)
 		(mirror y)
@@ -5250,8 +5227,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PnID-Lib:PressureRegulator")
 		(lib_id "PnID-Lib:PressureRegulator")
-		(at 120.65 67.31 90)
+		(at 120.65 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5259,7 +5237,7 @@
 		(dnp no)
 		(uuid "1707d5b1-aecf-41a1-aa19-ecec1556813c")
 		(property "Reference" "pressurantPressureRegulator2"
-			(at 125.1712 67.183 90)
+			(at 125.1712 68.453 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5269,7 +5247,7 @@
 			)
 		)
 		(property "Value" "pressurantPressureRegulator"
-			(at 125.1712 68.2752 90)
+			(at 125.1712 69.5452 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5279,7 +5257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 67.31 0)
+			(at 120.65 68.58 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5288,7 +5266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 67.31 0)
+			(at 120.65 68.58 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -5297,7 +5275,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 67.31 0)
+			(at 120.65 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5843,7 +5821,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
 		(at 120.65 38.1 0)
 		(unit 1)
@@ -6500,7 +6477,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Solenoid_NO")
 		(lib_id "PnID-Lib:Valve_Solenoid_NO")
 		(at 59.182 114.3 0)
 		(unit 1)
@@ -6640,7 +6616,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Servo")
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 120.904 156.21 90)
 		(unit 1)
@@ -6823,7 +6798,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Solenoid_NO")
 		(lib_id "PnID-Lib:Valve_Solenoid_NO")
 		(at 139.446 114.3 0)
 		(unit 1)
@@ -6964,7 +6938,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
 		(at 78.486 38.1 0)
 		(unit 1)
@@ -7126,7 +7099,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Servo")
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 78.486 82.55 90)
 		(unit 1)
@@ -7468,7 +7440,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
 		(at 78.486 130.81 0)
 		(unit 1)
@@ -7631,7 +7602,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Venturi")
 		(lib_id "PnID-Lib:Venturi")
 		(at 78.486 171.45 270)
 		(unit 1)
@@ -7774,7 +7744,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Solenoid_NC")
 		(lib_id "PnID-Lib:Valve_Solenoid_NC")
 		(at 167.894 147.32 0)
 		(unit 1)
@@ -7861,7 +7830,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Servo")
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 120.65 82.55 90)
 		(unit 1)
@@ -8011,7 +7979,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Servo")
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 78.486 156.21 90)
 		(unit 1)
@@ -8663,7 +8630,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Solenoid_NO")
 		(lib_id "PnID-Lib:Valve_Solenoid_NO")
 		(at 53.594 39.624 90)
 		(unit 1)

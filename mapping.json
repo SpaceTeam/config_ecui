@@ -25,38 +25,6 @@
                 "slope": 0.125885,
                 "stringID": "fuel_pressurant_pressure"
             },
-            "2": {
-                "offset": 0,
-                "slope": 1,
-                "stringID": "fuel_pressure_2"
-            },
-            "3": {
-                "offset": 0,
-                "slope": 1,
-                "stringID": "fuel_pressure_3"
-            },
-            "4": {
-                "stringID": "fuel_temp_0"
-            },
-            "5": {
-                "stringID": "fuel_temp_1"
-            },
-            "6": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "fuel_pressurant_valve"
-            },
-            "7": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "fuel_servo_1"
-            },
-            "8": {
-                "stringID": "fuel_vent"
-            },
-            "9": {
-                "stringID": "fuel_vent_cont"
-            },
             "10": {
                 "stringID": "fuel_igniter_1"
             },
@@ -89,9 +57,41 @@
                 "slope": 0.008921110838,
                 "stringID": "fuel_sense_12V"
             },
+            "2": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "fuel_pressure_2"
+            },
             "20": {
                 "slope": 0.008921110838,
                 "stringID": "fuel_sense_12VA"
+            },
+            "3": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "fuel_pressure_3"
+            },
+            "4": {
+                "stringID": "fuel_temp_0"
+            },
+            "5": {
+                "stringID": "fuel_temp_1"
+            },
+            "6": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "fuel_pressurant_valve"
+            },
+            "7": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "fuel_servo_1"
+            },
+            "8": {
+                "stringID": "fuel_vent"
+            },
+            "9": {
+                "stringID": "fuel_vent_cont"
             },
             "stringID": "fuel_ecu"
         },
@@ -105,38 +105,6 @@
                 "offset": -100,
                 "slope": 0.125885,
                 "stringID": "ox_pressurant_pressure"
-            },
-            "2": {
-                "offset": 0,
-                "slope": 1,
-                "stringID": "ox_pressure_2"
-            },
-            "3": {
-                "offset": 0,
-                "slope": 1,
-                "stringID": "ox_pressure_3"
-            },
-            "4": {
-                "stringID": "ox_temp_0"
-            },
-            "5": {
-                "stringID": "ox_temp_1"
-            },
-            "6": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "ox_pressurant_valve"
-            },
-            "7": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "ox_servo_1"
-            },
-            "8": {
-                "stringID": "ox_vent"
-            },
-            "9": {
-                "stringID": "ox_vent_cont"
             },
             "10": {
                 "stringID": "ox_igniter_1"
@@ -170,9 +138,41 @@
                 "slope": 0.008921110838,
                 "stringID": "ox_sense_12V"
             },
+            "2": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "ox_pressure_2"
+            },
             "20": {
                 "slope": 0.008921110838,
                 "stringID": "ox_sense_12VA"
+            },
+            "3": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "ox_pressure_3"
+            },
+            "4": {
+                "stringID": "ox_temp_0"
+            },
+            "5": {
+                "stringID": "ox_temp_1"
+            },
+            "6": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "ox_pressurant_valve"
+            },
+            "7": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "ox_servo_1"
+            },
+            "8": {
+                "stringID": "ox_vent"
+            },
+            "9": {
+                "stringID": "ox_vent_cont"
             },
             "stringID": "ox_ecu"
         },
@@ -186,38 +186,6 @@
                 "offset": -15,
                 "slope": 0.01888275146,
                 "stringID": "ox_venturi_pressure"
-            },
-            "2": {
-                "offset": -15,
-                "slope": 0.01888275146,
-                "stringID": "chamber_pressure"
-            },
-            "3": {
-                "offset": 0,
-                "slope": 1,
-                "stringID": "engine_pressure_3"
-            },
-            "4": {
-                "stringID": "engine_temp_0"
-            },
-            "5": {
-                "stringID": "engine_temp_1"
-            },
-            "6": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "fuel_main_valve"
-            },
-            "7": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "ox_main_valve"
-            },
-            "8": {
-                "stringID": "internal_igniter"
-            },
-            "9": {
-                "stringID": "internal_igniter_cont"
             },
             "10": {
                 "stringID": "engine_igniter_1"
@@ -251,9 +219,41 @@
                 "slope": 0.008921110838,
                 "stringID": "engine_sense_12V"
             },
+            "2": {
+                "offset": -15,
+                "slope": 0.01888275146,
+                "stringID": "chamber_pressure"
+            },
             "20": {
                 "slope": 0.008921110838,
                 "stringID": "engine_sense_12VA"
+            },
+            "3": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "engine_pressure_3"
+            },
+            "4": {
+                "stringID": "engine_temp_0"
+            },
+            "5": {
+                "stringID": "engine_temp_1"
+            },
+            "6": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "fuel_main_valve"
+            },
+            "7": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "ox_main_valve"
+            },
+            "8": {
+                "stringID": "internal_igniter"
+            },
+            "9": {
+                "stringID": "internal_igniter_cont"
             },
             "stringID": "engine_ecu"
         },
@@ -267,38 +267,6 @@
                 "offset": 0,
                 "slope": 1,
                 "stringID": "pressurant_vent_valve_feedback"
-            },
-            "2": {
-                "offset": 0,
-                "slope": 1,
-                "stringID": "ox_tanking_valve_feedback"
-            },
-            "3": {
-                "offset": 0,
-                "slope": 1,
-                "stringID": "holddown_feedback"
-            },
-            "4": {
-                "stringID": "gse_pneu_temp_0"
-            },
-            "5": {
-                "stringID": "gse_pneu_temp_1"
-            },
-            "6": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "gse_pneu_servo_0"
-            },
-            "7": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "gse_pneu_servo_1"
-            },
-            "8": {
-                "stringID": "pressurant_tanking_valve"
-            },
-            "9": {
-                "stringID": "pressurant_tanking_valve_cont"
             },
             "10": {
                 "stringID": "pressurant_vent_valve"
@@ -332,9 +300,41 @@
                 "slope": 0.008921110838,
                 "stringID": "gse_pneu_sense_12V"
             },
+            "2": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "ox_tanking_valve_feedback"
+            },
             "20": {
                 "slope": 0.008921110838,
                 "stringID": "gse_pneu_sense_12VA"
+            },
+            "3": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "holddown_feedback"
+            },
+            "4": {
+                "stringID": "gse_pneu_temp_0"
+            },
+            "5": {
+                "stringID": "gse_pneu_temp_1"
+            },
+            "6": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "gse_pneu_servo_0"
+            },
+            "7": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "gse_pneu_servo_1"
+            },
+            "8": {
+                "stringID": "pressurant_tanking_valve"
+            },
+            "9": {
+                "stringID": "pressurant_tanking_valve_cont"
             },
             "stringID": "gse_pneu_ecu"
         },
@@ -348,38 +348,6 @@
                 "offset": 0,
                 "slope": 1,
                 "stringID": "gse_elec_press_1"
-            },
-            "2": {
-                "offset": 0,
-                "slope": 1,
-                "stringID": "gse_elec_press_2"
-            },
-            "3": {
-                "offset": 0,
-                "slope": 1,
-                "stringID": "gse_elec_press_3"
-            },
-            "4": {
-                "stringID": "gse_elec_temp_0"
-            },
-            "5": {
-                "stringID": "gse_elec_temp_1"
-            },
-            "6": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "gse_elec_servo_0"
-            },
-            "7": {
-                "offset": 0.0,
-                "slope": 0.00152590219,
-                "stringID": "gse_elec_servo_1"
-            },
-            "8": {
-                "stringID": "ox_decoupler"
-            },
-            "9": {
-                "stringID": "ox_decoupler_cont"
             },
             "10": {
                 "stringID": "strongback"
@@ -413,25 +381,57 @@
                 "slope": 0.008921110838,
                 "stringID": "gse_elec_sense_12V"
             },
+            "2": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_elec_press_2"
+            },
             "20": {
                 "slope": 0.008921110838,
                 "stringID": "gse_elec_sense_12VA"
+            },
+            "3": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_elec_press_3"
+            },
+            "4": {
+                "stringID": "gse_elec_temp_0"
+            },
+            "5": {
+                "stringID": "gse_elec_temp_1"
+            },
+            "6": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "gse_elec_servo_0"
+            },
+            "7": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "gse_elec_servo_1"
+            },
+            "8": {
+                "stringID": "ox_decoupler"
+            },
+            "9": {
+                "stringID": "ox_decoupler_cont"
             },
             "stringID": "gse_elec_ecu"
         },
         "8": {
             "0": {
-                "offset": -2.86237406,
+                "offset": -0.23615210499999995,
                 "slope": 4.46075e-05,
                 "stringID": "rocket_weight"
             },
             "1": {
-                "offset": 660000,
+                "offset": 781.0,
                 "slope": 1.0,
                 "stringID": "dewar_weight"
             },
             "2": {
-                "offset": -17.75801182413067,
+                "offset": -4614366.4730490465,
                 "slope": 5.36149515030191e-06,
                 "stringID": "fuel_weight"
             },
@@ -535,6 +535,16 @@
                 "command": "rcu:SetLoraEnabled",
                 "parameters": [
                     "gui:LoraEnabled"
+                ]
+            }
+        ],
+        "gui:dewar_weight:Tare": [
+            {
+                "command": "Tare",
+                "parameters": [
+                    8,
+                    1,
+                    "dewar_weight:sensor"
                 ]
             }
         ],
@@ -687,6 +697,16 @@
                 "command": "rocket:SetMinimumOxPressure",
                 "parameters": [
                     "gui:rocket:SetMinimumOxPressure"
+                ]
+            }
+        ],
+        "gui:rocket_weight:Tare": [
+            {
+                "command": "Tare",
+                "parameters": [
+                    8,
+                    0,
+                    "rocket_weight:sensor"
                 ]
             }
         ],

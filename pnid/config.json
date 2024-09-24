@@ -72,19 +72,6 @@
             }
         ]
 	},
-	"flash_clear_label": {
-        "states": [
-            "Flash:Clear"
-        ],
-        "popup": [
-            {
-                "type": "input",
-                "style": "button",
-                "variable": "value",
-                "label": "value"
-            }
-        ]
-	},
 	"gse_voltages_label": {
         "states": [
             "GSEVoltages"
@@ -128,35 +115,35 @@
             {
                 "type": "display",
                 "style": "text",
-                "label": "RCU 5V",
+                "label": "RCU     5V",
                 "variable": "rcu_sense_5V-sensor",
                 "suffix": "V"
             },
             {
                 "type": "display",
                 "style": "text",
-                "label": "RCU 12V",
+                "label": "RCU    12V",
                 "variable": "rcu_sense_12V-sensor",
                 "suffix": "V"
             },
             {
                 "type": "display",
                 "style": "text",
-                "label": "Ox 5V",
+                "label": "Ox      5V",
                 "variable": "ox_sense_5V-sensor",
                 "suffix": "V"
             },
             {
                 "type": "display",
                 "style": "text",
-                "label": "Ox 12V",
+                "label": "Ox     12V",
                 "variable": "ox_sense_12V-sensor",
                 "suffix": "V"
             },
             {
                 "type": "display",
                 "style": "text",
-                "label": "Fuel 5V",
+                "label": "Fuel    5V",
                 "variable": "fuel_sense_5V-sensor",
                 "suffix": "V"
             },
@@ -170,7 +157,7 @@
             {
                 "type": "display",
                 "style": "text",
-                "label": "Engine 5V",
+                "label": "Engine  5V",
                 "variable": "engine_sense_5V-sensor",
                 "suffix": "V"
             },
@@ -214,32 +201,6 @@
             {
                 "type": "input",
                 "style": "checkbox"
-            }
-        ]
-    },
-    "fuel_weight": {
-        "states": [
-            "fuel_weight:sensor"
-        ],
-        "eval": "",
-        "popup": [
-            {
-                "type": "display",
-                "style": "text"
-            },
-            {
-                "type": "input",
-                "style": "button",
-                "variable": "fuel_weight:Tare",
-                "label": "Tare Fuel Weight"
-            },
-            {
-                "type": "display",
-                "style": "external",
-                "source": null,
-                "autoID": false,
-                "width": 450,
-                "height": 200
             }
         ]
     },
