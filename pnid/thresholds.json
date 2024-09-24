@@ -76,5 +76,18 @@
     "voltage": {
         "low": 11,
         "high": 13
+    },
+    "enums": {
+        "state_machine": [
+            "Pad Idle",
+            "Auto Check",
+            "Ignition Sequence",
+            "Holddown",
+            "Powered Ascent",
+            "Unpowered Ascent",
+            "Depress",
+            "Abort",
+            "Pressurize Tanks"
+        ]
     }
 }

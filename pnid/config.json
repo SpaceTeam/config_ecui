@@ -170,6 +170,14 @@
             }
         ]
 	},
+	"rocket_state_machine": {
+		"states": [
+            "rocket:sensor",
+            "fuel_rocket:sensor",
+            "ox_rocket:sensor"
+        ],
+        "eval": "if (parseInt(inVars['value']) >= 0 && parseInt(inVars['value']) < thresholds['enums']['state_machine'].length) { outVars['value'] = thresholds['enums']['state_machine'][parseInt(inVars['value'])]; outVars['color'] = 'good' } else { outVars['value'] = 'Unknown State (' + inVars['value'] + ')'; outVars['color'] = 'unknown' }; if (parseInt(inVars['value']) == 0) { outVars['color'] = 'neutral' } else if (parseInt(inVars['value']) == 7) { outVars['color'] = 'bad' }"
+	},
 	"decoupler": {
 	    "states": [
 	        "ox_decoupler:sensor"

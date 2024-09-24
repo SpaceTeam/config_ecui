@@ -467,7 +467,7 @@
         "eval": "if (inVars['value'] > 0) { outVars['color']='on'; } else { outVars['color']='off'; }"
     },
     "PnID-Lib-Flowchart_State": {
-        "eval": "if (inVars['value'] > 0) { outVars['color']='on'; } else { outVars['color']='off'; } outVars['value']=inVars['this'].replace('rocket-','').replace(/([A-Z])/g, ' $1').replace(/([A-Z])/g, ' $1').replace('  Abort  Flow  Chart', 'Abort');"
+        "eval": "if (inVars['value'] >= 0) { outVars['color']='neutral'; } else { outVars['color']='unknown'; }"
     },
     "PnID-Lib-Engine_TorchIgniter": {
         "eval": "",
