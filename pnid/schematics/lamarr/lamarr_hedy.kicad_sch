@@ -3707,10 +3707,10 @@
 		(uuid "3e0644ec-a0da-4e4a-b282-b3bbe2c10980")
 	)
 	(junction
-		(at 120.904 48.514)
+		(at 120.904 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4faaac3f-56ac-450f-838f-0ec4fe856245")
+		(uuid "543e14b4-5f34-4ba7-b149-677de878be16")
 	)
 	(junction
 		(at 120.65 112.776)
@@ -3723,12 +3723,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71fda00a-084a-472f-a65a-73f68afe6c77")
-	)
-	(junction
-		(at 78.486 48.514)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dc0fc18-b79f-4e0c-a7f7-8851ec3368ac")
 	)
 	(junction
 		(at 78.486 114.3)
@@ -3765,6 +3759,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d15f635c-c8a0-4073-bd2a-44b9eadd2577")
+	)
+	(junction
+		(at 78.486 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3eb2f49-cd5c-49a4-acaf-65fa1742524c")
 	)
 	(junction
 		(at 120.65 163.83)
@@ -3820,16 +3820,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.904 48.514) (xy 120.904 56.134)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b9c7490-f4ba-4ad0-9e84-3d640341240f")
-	)
-	(wire
-		(pts
 			(xy 21.59 67.564) (xy 21.59 72.644)
 		)
 		(stroke
@@ -3867,6 +3857,16 @@
 			(type default)
 		)
 		(uuid "1cac6753-c5e4-41f5-b077-b1530f775126")
+	)
+	(wire
+		(pts
+			(xy 120.904 49.53) (xy 120.904 56.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ded522d-b350-4c33-8ceb-fccb079e1984")
 	)
 	(wire
 		(pts
@@ -3970,7 +3970,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.904 45.974) (xy 120.904 48.514)
+			(xy 120.904 45.974) (xy 120.904 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4030,16 +4030,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.486 45.974) (xy 78.486 48.514)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "450bc741-1c03-412a-bdd2-cba0734457cc")
-	)
-	(wire
-		(pts
 			(xy 107.95 193.04) (xy 105.41 193.04)
 		)
 		(stroke
@@ -4057,6 +4047,16 @@
 			(type default)
 		)
 		(uuid "4eb163d6-5617-46b3-88e6-408cf0e7ca39")
+	)
+	(wire
+		(pts
+			(xy 78.486 49.53) (xy 78.486 52.324)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f2f93f-60fc-476e-bf76-7d2f4371680b")
 	)
 	(wire
 		(pts
@@ -4190,6 +4190,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 147.32) (xy 189.23 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a181e30-25db-4fac-8368-7bacc299b89a")
+	)
+	(wire
+		(pts
 			(xy 229.87 95.25) (xy 226.568 95.25)
 		)
 		(stroke
@@ -4197,16 +4207,6 @@
 			(type default)
 		)
 		(uuid "7f96f023-5fd5-4d4b-8b7a-b34a8eb89425")
-	)
-	(wire
-		(pts
-			(xy 122.682 48.514) (xy 120.904 48.514)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82cc98c0-b30a-4256-8bfc-3baa16004296")
 	)
 	(wire
 		(pts
@@ -4307,6 +4307,16 @@
 			(type default)
 		)
 		(uuid "9ba3f6d9-7d09-4f80-b411-c0f62defc872")
+	)
+	(wire
+		(pts
+			(xy 78.486 45.974) (xy 78.486 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5658153-b105-48f5-aae7-f80298ffad0a")
 	)
 	(wire
 		(pts
@@ -4420,16 +4430,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.974 147.32) (xy 189.23 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c53f79c5-258a-449c-b524-e6c544b7aa70")
-	)
-	(wire
-		(pts
 			(xy 78.486 163.83) (xy 78.486 166.37)
 		)
 		(stroke
@@ -4520,7 +4520,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.814 147.32) (xy 155.956 147.32)
+			(xy 163.83 147.32) (xy 155.956 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4547,16 +4547,6 @@
 			(type default)
 		)
 		(uuid "ed5c9187-5513-4805-ad57-e61c5f71f01a")
-	)
-	(wire
-		(pts
-			(xy 78.486 48.514) (xy 78.486 52.324)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eefa73e2-578b-4b0e-8ee6-c69015ddf7ef")
 	)
 	(wire
 		(pts
@@ -6516,7 +6506,7 @@
 			)
 		)
 		(property "Value" "ox_tank_pressure:sensor"
-			(at 108.966 99.06 0)
+			(at 115.316 105.156 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6586,6 +6576,94 @@
 			(project "lamarr_hedy"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "ox_tank_pressure")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Valve_Pneumatic_1")
+		(lib_id "PnID-Lib:Valve_Pneumatic")
+		(at 168.91 147.32 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32a279a1-c434-49e0-bfe9-42ee2630613e")
+		(property "Reference" "ox_tanking_valve"
+			(at 168.91 136.0678 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_tanking_valve_feedback:sensor"
+			(at 168.91 135.128 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 147.32 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 147.32 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "%"
+			(at 168.91 147.32 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 168.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "20a5df38-b153-4f9e-a09a-4613ffe01ac0")
+		)
+		(pin "~"
+			(uuid "74b9e1b5-8d51-4229-b708-de63605657d7")
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_tanking_valve")
 					(unit 1)
 				)
 			)
@@ -6971,12 +7049,11 @@
 			)
 		)
 		(property "Value" "ox_temp_0:sensor"
-			(at 130.048 91.694 0)
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7501,7 +7578,7 @@
 			)
 		)
 		(property "Value" "ox_temp_1:sensor"
-			(at 128.016 117.094 0)
+			(at 128.524 125.984 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8294,7 +8371,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Pressure")
-		(at 86.106 48.514 0)
+		(at 86.106 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8302,7 +8379,7 @@
 		(dnp no)
 		(uuid "95142dd8-bc09-4c52-b5e9-7565e1ff4440")
 		(property "Reference" "fuel_pressurant_pressure"
-			(at 89.3572 46.8122 0)
+			(at 89.3572 47.8282 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8312,7 +8389,7 @@
 			)
 		)
 		(property "Value" "fuel_pressurant_pressure:sensor"
-			(at 89.916 48.514 0)
+			(at 89.916 49.53 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8321,7 +8398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.106 48.514 0)
+			(at 86.106 49.53 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8330,7 +8407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.106 48.514 0)
+			(at 86.106 49.53 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8339,7 +8416,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.106 48.514 0)
+			(at 86.106 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8348,7 +8425,7 @@
 			)
 		)
 		(property "Unit" "bar"
-			(at 86.106 48.514 0)
+			(at 86.106 49.53 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8357,7 +8434,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 86.106 48.514 0)
+			(at 86.106 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8366,7 +8443,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 89.3572 49.6062 0)
+			(at 89.3572 50.6222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8598,7 +8675,7 @@
 			)
 		)
 		(property "Value" "fuel_temp_1:sensor"
-			(at 127.762 137.16 0)
+			(at 128.27 135.89 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9008,92 +9085,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Valve_Solenoid_NC")
-		(at 167.894 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b751f932-5234-4c6a-a379-4388bec92732")
-		(property "Reference" "ox_tanking_valve"
-			(at 167.894 136.0678 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "ox_tanking_valve_feedback:sensor"
-			(at 167.894 134.62 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.894 147.32 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.894 147.32 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.894 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "%"
-			(at 167.894 147.32 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Action_Reference" " "
-			(at 167.894 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "1fc29ea2-b428-4412-92ed-49548473d503")
-		)
-		(pin "~"
-			(uuid "2b9decbe-fea7-44a2-9c25-39d3250a303b")
-		)
-		(instances
-			(project "lamarr_hedy"
-				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
-					(reference "ox_tanking_valve")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 120.65 82.55 90)
 		(unit 1)
@@ -9478,7 +9469,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Pressure")
-		(at 130.302 48.514 0)
+		(at 128.524 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9486,7 +9477,7 @@
 		(dnp no)
 		(uuid "cee12501-09a4-41a2-9a43-d88d1f96b734")
 		(property "Reference" "ox_pressurant_pressure"
-			(at 133.5532 46.8122 0)
+			(at 131.7752 47.8282 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9496,7 +9487,7 @@
 			)
 		)
 		(property "Value" "ox_pressurant_pressure:sensor"
-			(at 134.112 48.514 0)
+			(at 132.334 49.53 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9505,7 +9496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.302 48.514 0)
+			(at 128.524 49.53 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9514,7 +9505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.302 48.514 0)
+			(at 128.524 49.53 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9523,7 +9514,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.302 48.514 0)
+			(at 128.524 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9532,7 +9523,7 @@
 			)
 		)
 		(property "Unit" "bar"
-			(at 130.302 48.514 0)
+			(at 128.524 49.53 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -9541,7 +9532,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 130.302 48.514 0)
+			(at 128.524 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9550,7 +9541,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 133.5532 49.6062 0)
+			(at 131.7752 50.6222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9662,12 +9653,11 @@
 			)
 		)
 		(property "Value" "fuel_temp_0:sensor"
-			(at 87.884 91.44 0)
+			(at 92.456 90.17 0)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""

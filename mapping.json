@@ -864,6 +864,18 @@
                 "value": 0
             }
         ],
+        "fuel_rocket:GetRocketState": [
+            {
+                "state": "fuel_rocket:GetRocketState",
+                "parameters": []
+            }
+        ],
+        "ox_rocket:GetRocketState": [
+            {
+                "state": "ox_rocket:GetRocketState",
+                "parameters": []
+            }
+        ],
         "rocket:sensor": [
             {
                 "state": "rocket:PadIdle",
