@@ -1,0 +1,130 @@
+{
+	"globals": {
+		"endTime": 17,
+		"interpolation": {
+			"ox_vent:SetState": "none",
+			"ox_main_valve:SetTargetPosition": "linear",
+			"ox_pi_controller:SetEnabled": "none",
+			"ox_pi_controller:SetTarget": "none"
+		},
+		"interval": 0.01,
+		"ranges": [
+			"chamberPressure"
+		],
+		"startTime": -3
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"ox_vent:SetState": [
+						1
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pi_controller:SetEnabled": [
+						0
+					],
+					"ox_pi_controller:SetTarget": [
+						30
+					],
+					"ox_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"ox_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"ox_pi_controller:SetOperatingPoint": [
+						25
+					],
+					"ox_pi_controller:SetP_POS": [
+						0.1
+					],
+					"ox_pi_controller:SetI_POS": [
+						0.1
+					],
+					"ox_pi_controller:SetP_NEG": [
+						100.0
+					],
+					"ox_pi_controller:SetI_NEG": [
+						500.0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 0.0,
+			"name": "pre pressurize",
+			"desc": "enable PI controller",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"ox_pi_controller:SetEnabled": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp":16.0,
+			"name": "pre pressurize",
+			"desc": "enable PI controller",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"ox_pi_controller:SetEnabled": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"ox_vent:SetState": [
+						1
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pi_controller:SetEnabled": [
+						0
+					],
+					"ox_pi_controller:SetTarget": [
+						30
+					],
+					"ox_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"ox_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"ox_pi_controller:SetOperatingPoint": [
+						30
+					],
+					"ox_pi_controller:SetP_POS": [
+						0.1
+					],
+					"ox_pi_controller:SetI_POS": [
+						0.1
+					],
+					"ox_pi_controller:SetP_NEG": [
+						0.0
+					],
+					"ox_pi_controller:SetI_NEG": [
+						500.0
+					]
+				}
+			]
+		}
+	]
+}

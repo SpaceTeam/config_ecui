@@ -24,6 +24,188 @@
             }
         ]
 	},
+	"pi_controllers_popup": {
+	    "states": [
+            "pi_controllers"
+        ],
+	    "popup": [
+            {
+                "type": "input",
+                "style": "button",
+                "variable": "none",
+                "label": "Refresh",
+                "action": "pollRocketParams()"
+            },
+            {
+                "type": "display",
+                "style": "header",
+                "label": "Fuel"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "P+",
+                "variable": "fuel_pi_controller-P_POS",
+                "poll_var": "fuel_pi_controller-GetP_POS",
+                "id": "fuel-p-pos-display"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "P-",
+                "variable": "fuel_pi_controller-P_NEG",
+                "poll_var": "fuel_pi_controller-GetP_NEG",
+                "id": "fuel-p-neg-display"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "I+",
+                "variable": "fuel_pi_controller-I_POS",
+                "poll_var": "fuel_pi_controller-GetI_POS",
+                "id": "fuel-i-pos-display"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "I-",
+                "variable": "fuel_pi_controller-I_NEG",
+                "poll_var": "fuel_pi_controller-GetI_NEG",
+                "id": "fuel-i-neg-display"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Operating Point",
+                "suffix": "%",
+                "variable": "fuel_pi_controller-OperatingPoint",
+                "poll_var": "fuel_pi_controller-GetOperatingPoint",
+                "id": "fuel-operating-point-display"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Target",
+                "suffix": "bar",
+                "variable": "fuel_pi_controller-Target",
+                "poll_var": "fuel_pi_controller-GetTarget",
+                "id": "fuel-target-display"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Slope",
+                "suffix": "",
+                "variable": "fuel_pi_controller-SensorSlope",
+                "poll_var": "fuel_pi_controller-GetSensorSlope",
+                "id": "fuel-sensor-slope-display"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Offset",
+                "suffix": "",
+                "variable": "fuel_pi_controller-SensorOffset",
+                "poll_var": "fuel_pi_controller-GetSensorOffset",
+                "id": "fuel-sensor-offset-display"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Channel ID",
+                "suffix": "",
+                "variable": "fuel_pi_controller-SensorChannelID",
+                "poll_var": "fuel_pi_controller-GetSensorChannelID",
+                "id": "fuel-sensor-channel-id-display"
+            },
+            {
+                "type": "display",
+                "style": "separator"
+            },
+            {
+                "type": "display",
+                "style": "header",
+                "label": "Ox"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "P+",
+                "variable": "ox_pi_controller-P_POS",
+                "poll_var": "ox_pi_controller-GetP_POS",
+                "id": "ox-p-pos-display"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "P-",
+                "variable": "ox_pi_controller-P_NEG",
+                "poll_var": "ox_pi_controller-GetP_NEG",
+                "id": "ox-p-neg-display"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "I+",
+                "variable": "ox_pi_controller-I_POS",
+                "poll_var": "ox_pi_controller-GetI_POS",
+                "id": "ox-i-pos-display"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "I-",
+                "variable": "ox_pi_controller-I_NEG",
+                "poll_var": "ox_pi_controller-GetI_NEG",
+                "id": "ox-i-neg-display"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Operating Point",
+                "suffix": "%",
+                "variable": "ox_pi_controller-OperatingPoint",
+                "poll_var": "ox_pi_controller-GetOperatingPoint",
+                "id": "ox-operating-point-display"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Target",
+                "suffix": "bar",
+                "variable": "ox_pi_controller-Target",
+                "poll_var": "ox_pi_controller-GetTarget",
+                "id": "ox-target-display"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Slope",
+                "suffix": "",
+                "variable": "ox_pi_controller-SensorSlope",
+                "poll_var": "ox_pi_controller-GetSensorSlope",
+                "id": "ox-sensor-slope-display"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Offset",
+                "suffix": "",
+                "variable": "ox_pi_controller-SensorOffset",
+                "poll_var": "ox_pi_controller-GetSensorOffset",
+                "id": "ox-sensor-offset-display"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Channel ID",
+                "suffix": "",
+                "variable": "ox_pi_controller-SensorChannelID",
+                "poll_var": "ox_pi_controller-GetSensorChannelID",
+                "id": "ox-sensor-channel-id-display"
+            }
+        ]
+    },
 	"extra_feedback_channel_overrides": {
 		"states": [
             "pressurant_tanking_valve_feedback:sensor"
@@ -172,7 +354,6 @@
 	},
 	"rocket_state_machine": {
 		"states": [
-            "rocket:sensor",
             "fuel_rocket:sensor",
             "ox_rocket:sensor"
         ],
@@ -182,8 +363,24 @@
 	    "states": [
 	        "ox_decoupler:sensor"
 	    ],
-	    "eval": "if (inVars['value'] >= thresholds['solenoid']['high']) { outVars['color']='connected'; outVars['value']='Connected (' + inVars['value'] + ')' } else { outVars['color']='disconnected'; outVars['value']='Disconnected (' + inVars['value'] + ')' }",
+	    "eval": "if (inVars['value'] >= thresholds['solenoid']['high']) { outVars['color']='connected'; outVars['value']='Powered (' + inVars['value'] + ')' } else { outVars['color']='disconnected'; outVars['value']='Unpowered (' + inVars['value'] + ')' }",
         "sens_deviation": "if ((setState == 0 && feedback >= thresholds['solenoid']['high']) || (setState == 1 && feedback < thresholds['solenoid']['high'])) { return true; } return false;",
+	    "popup": [
+            {
+                "type": "display",
+                "style": "text"
+            },
+            {
+                "type": "input",
+                "style": "checkbox"
+            }
+        ]
+    },
+	"decoupler_feedback": {
+	    "states": [
+	        "ox_decoupler_feedback:sensor"
+	    ],
+	    "eval": "if (inVars['value'] >= thresholds['solenoid']['high']) { outVars['color']='off'; outVars['value']='Disconnected' } else { outVars['color']='on'; outVars['value']='Connected' }",
 	    "popup": [
             {
                 "type": "display",

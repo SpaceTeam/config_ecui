@@ -1,0 +1,161 @@
+{
+	"globals": {
+		"endTime": 0,
+		"interpolation": {
+			"fuel_vent:SetState": "none",
+			"fuel_pi_controller:SetEnabled": "none",
+			"fuel_pi_controller:SetSensorSlope": "none",
+			"fuel_pi_controller:SetSensorOffset": "none",
+			"fuel_pi_controller:SetOperatingPoint": "none",
+			"fuel_pi_controller:SetP_POS": "none",
+			"fuel_pi_controller:SetP_NEG": "none",
+			"fuel_pi_controller:SetI_POS": "none",
+			"fuel_pi_controller:SetI_NEG": "none",
+			"fuel_pi_controller:SetTarget": "none",
+			"ox_pi_controller:SetEnabled": "none",
+			"ox_pi_controller:SetSensorSlope": "none",
+			"ox_pi_controller:SetSensorOffset": "none",
+			"ox_pi_controller:SetOperatingPoint": "none",
+			"ox_pi_controller:SetP_POS": "none",
+			"ox_pi_controller:SetP_NEG": "none",
+			"ox_pi_controller:SetI_POS": "none",
+			"ox_pi_controller:SetI_NEG": "none",
+			"ox_pi_controller:SetTarget": "none"
+		},
+		"interval": 0.01,
+		"ranges": [
+			"chamberPressure"
+		],
+		"startTime": -3
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pi_controller:SetEnabled": [
+						0
+					],
+					"fuel_pi_controller:SetTarget": [
+						32
+					],
+					"fuel_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"fuel_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"fuel_pi_controller:SetOperatingPoint": [
+						35
+					],
+					"fuel_pi_controller:SetP_POS": [
+						2
+					],
+					"fuel_pi_controller:SetI_POS": [
+						4
+					],
+					"fuel_pi_controller:SetP_NEG": [
+						2
+					],
+					"fuel_pi_controller:SetI_NEG": [
+						4
+					],
+					"ox_pi_controller:SetEnabled": [
+						0
+					],
+					"ox_pi_controller:SetTarget": [
+						35
+					],
+					"ox_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"ox_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"ox_pi_controller:SetOperatingPoint": [
+						32
+					],
+					"ox_pi_controller:SetP_POS": [
+						2
+					],
+					"ox_pi_controller:SetI_POS": [
+						4
+					],
+					"ox_pi_controller:SetP_NEG": [
+						2
+					],
+					"ox_pi_controller:SetI_NEG": [
+						4
+					]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pi_controller:SetEnabled": [
+						0
+					],
+					"fuel_pi_controller:SetTarget": [
+						32
+					],
+					"fuel_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"fuel_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"fuel_pi_controller:SetOperatingPoint": [
+						35
+					],
+					"fuel_pi_controller:SetP_POS": [
+						2
+					],
+					"fuel_pi_controller:SetI_POS": [
+						4
+					],
+					"fuel_pi_controller:SetP_NEG": [
+						2
+					],
+					"fuel_pi_controller:SetI_NEG": [
+						4
+					],
+					"ox_pi_controller:SetEnabled": [
+						0
+					],
+					"ox_pi_controller:SetTarget": [
+						32
+					],
+					"ox_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"ox_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"ox_pi_controller:SetOperatingPoint": [
+						35
+					],
+					"ox_pi_controller:SetP_POS": [
+						2
+					],
+					"ox_pi_controller:SetI_POS": [
+						4
+					],
+					"ox_pi_controller:SetP_NEG": [
+						2
+					],
+					"ox_pi_controller:SetI_NEG": [
+						4
+					]
+				}
+			]
+		}
+	]
+}

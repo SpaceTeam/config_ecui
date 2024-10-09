@@ -62,7 +62,7 @@
         "notconnected": 2000
     },
     "tempSens": {
-        "notconnected": 2000
+        "notconnected": 900
     },
     "pump": {
         "high": 1

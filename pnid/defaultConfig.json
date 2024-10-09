@@ -3,13 +3,28 @@
     "wire": {
         "eval": "if (inVars['value'] > thresholds['wire']['pressurized']) { outVars['color']='content' } else if (inVars['value'] > thresholds['wire']['notconnected']) { outVars['color']='' } else { outVars['color']='notconnected' }"
     },
-    "PnID-Rocket_Channel": {
-        "eval": "switch (inVars['value']) { case 0: outVars['value']='PAD_IDLE'; break; case 1: outVars['value']='AUTO_CHECK'; break; case 2: outVars['value']='IGNITION_SEQUENCE'; break; case 3: outVars['value']='HOLD_DOWN'; break; case 4: outVars['value']='POWERED_ASCENT'; break; case 5: outVars['value']='UNPOWERED_ASCENT'; break; case 6: outVars['value']='DEPRESS'; break; case 7: outVars['value']='ABORT'; break; }",
+    "PnID-Lib-Rocket_Channel": {
+        "eval": "if (parseInt(inVars['value']) >= 0 && parseInt(inVars['value']) < thresholds['enums']['state_machine'].length) { outVars['value'] = thresholds['enums']['state_machine'][parseInt(inVars['value'])]; outVars['color'] = 'good' } else { outVars['value'] = 'Unknown State (' + inVars['value'] + ')'; outVars['color'] = 'unknown' }; if (parseInt(inVars['value']) == 0) { outVars['color'] = 'neutral' } else if (parseInt(inVars['value']) == 7) { outVars['color'] = 'bad' }",
         "popup": [
             {
                 "type": "display",
                 "style": "text",
+                "label": "Rocket State",
                 "variable": "value"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Fuel PI",
+                "variable": "fuel_rocket-sensor",
+                "poll_var": "fuel_rocket-GetRocketState"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Ox PI",
+                "variable": "ox_rocket-sensor",
+                "poll_var": "ox_rocket-GetRocketState"
             },
             {
                 "type": "input",
@@ -209,7 +224,8 @@
         ]
     },
     "PnID-Lib-Valve_Pneumatic": {
-        "eval": "if (inVars['value'] > thresholds['servo_valve']['high']) { outVars['color']='open'; outVars['value']='Open ('+Math.round(inVars['value'])+')' } else if (inVars['value'] > thresholds['servo_valve']['low']) { outVars['color']='throttle'; outVars['value']='Thr. ('+Math.round(inVars['value'])+')' } else { outVars['color']='closed'; outVars['value']='Closed  ('+Math.round(inVars['value'])+')' }",
+        "eval": "if (inVars['value'] >= thresholds['solenoid']['high']) { outVars['color']='open'; outVars['value']='Open (' + inVars['value'] + ')' } else { outVars['color']='closed'; outVars['value']='Closed (' + inVars['value'] + ')' }",
+        "sens_deviation": "if ((setState == 0 && feedback >= thresholds['solenoid']['high']) || (setState == 1 && feedback < thresholds['solenoid']['high'])) { return true; } return false;",
         "popup": [
             {
                 "type": "display",
@@ -217,10 +233,21 @@
             },
             {
                 "type": "input",
-                "style": "slider",
-                "min": 0,
-                "max": 65535,
-                "step": 1
+                "style": "checkbox"
+            }
+        ]
+    },
+    "PnID-Lib-Valve_Pneumatic_NO": {
+        "eval": "if (inVars['value'] >= thresholds['solenoid']['high']) { outVars['color']='closed'; outVars['value']='Closed (' + inVars['value'] + ')' } else { outVars['color']='open'; outVars['value']='Open (' + inVars['value'] + ')' }",
+        "sens_deviation": "if ((setState == 0 && feedback >= thresholds['solenoid']['high']) || (setState == 1 && feedback < thresholds['solenoid']['high'])) { return true; } return false;",
+        "popup": [
+            {
+                "type": "display",
+                "style": "text"
+            },
+            {
+                "type": "input",
+                "style": "checkbox"
             }
         ]
     },
@@ -515,118 +542,6 @@
             {
                 "type": "input",
                 "style": "checkbox"
-            }
-        ]
-    },
-    "PnID-Lib-Rocket_Channel": {
-        "eval": "switch (inVars['value']) { case 0: outVars['value']='PAD_IDLE'; break; case 1: outVars['value']='AUTO_CHECK'; break; case 2: outVars['value']='IGNITION_SEQUENCE'; break; case 3: outVars['value']='HOLD_DOWN'; break; case 4: outVars['value']='POWERED_ASCENT'; break; case 5: outVars['value']='UNPOWERED_ASCENT'; break; case 6: outVars['value']='DEPRESS'; break; case 7: outVars['value']='ABORT'; break; }",
-        "popup": [
-            {
-                "type": "display",
-                "style": "text"
-            },
-            {
-                "type": "input",
-                "style": "buttonDanger",
-                "variable": "rocket-Abort",
-                "label": "ABORT",
-                "action": "abortSequence('abort from user', 1000)"
-            },
-            {
-                "type": "display",
-                "style": "separator"
-            },
-            {
-                "type": "input",
-                "style": "button",
-                "variable": "rocket-ReleaseHolddown",
-                "label": "Release Holddown"
-            },
-            {
-                "type": "display",
-                "style": "separator"
-            },
-            {
-                "type": "input",
-                "style": "button",
-                "variable": "rocket-AutoCheck",
-                "label": "Auto Check"
-            },
-            {
-                "type": "input",
-                "style": "buttonDanger",
-                "variable": "rocket-InternalControl",
-                "collapsible": true,
-                "collapsibleLabel": "Internal Control",
-                "label": "Internal Control",
-                "action": "startTimer(-10, null)"
-            },
-            {
-                "type": "input",
-                "style": "button",
-                "variable": "rocket-EndOfFlight",
-                "label": "End of Flight",
-                "action": "timerStop(timeMillis/1000)"
-            },
-            {
-                "type": "input",
-                "style": "numberEntry",
-                "min": "0",
-                "max": "10000",
-                "label": "Holddown Timeout",
-                "suffix": "ms",
-                "variable": "rocket-HolddownTimeout",
-                "poll_var": "rocket-GetHolddownTimeout",
-                "set_var": "rocket-SetHolddownTimeout"
-            },
-            {
-                "type": "input",
-                "style": "numberEntry",
-                "min": "-2",
-                "max": "100",
-                "label": "Min. Chamber Pressure",
-                "suffix": "bar",
-                "variable": "rocket-MinimumChamberPressure",
-                "poll_var": "rocket-GetMinimumChamberPressure",
-                "set_var": "rocket-SetMinimumChamberPressure"
-            },
-            {
-                "type": "input",
-                "style": "numberEntry",
-                "min": "-2",
-                "max": "100",
-                "label": "Min. Fuel Pressure",
-                "suffix": "bar",
-                "variable": "rocket-MinimumFuelPressure",
-                "poll_var": "rocket-GetMinimumFuelPressure",
-                "set_var": "rocket-SetMinimumFuelPressure"
-            },
-            {
-                "type": "input",
-                "style": "numberEntry",
-                "min": "-2",
-                "max": "100",
-                "label": "Min. Ox Pressure",
-                "suffix": "bar",
-                "variable": "rocket-MinimumOxPressure",
-                "poll_var": "rocket-GetMinimumOxPressure",
-                "set_var": "rocket-SetMinimumOxPressure"
-            },
-            {
-                "type": "input",
-                "style": "button",
-                "collapsible": true,
-                "collapsibleLabel": "Reset Settings",
-                "variable": "rocket-RequestResetSettings",
-                "label": "Request Reset Settings"
-            },
-            {
-                "type": "input",
-                "style": "button",
-                "collapsible": true,
-                "collapsibleLabel": "Reset State Machine",
-                "variable": "rocket-ResetStateMachine",
-                "label": "Reset State Machine"
             }
         ]
     },

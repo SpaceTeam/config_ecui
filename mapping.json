@@ -44,10 +44,11 @@
                 "stringID": "fuel_igniter_3_cont"
             },
             "16": {
+                "slope": 0.001525879,
                 "stringID": "fuel_pi_controller"
             },
             "17": {
-                "stringID": "fuel_unused_rocket"
+                "stringID": "fuel_rocket"
             },
             "18": {
                 "slope": 0.001622020152,
@@ -58,8 +59,8 @@
                 "stringID": "fuel_sense_12V"
             },
             "2": {
-                "offset": 0,
-                "slope": 1,
+                "offset": -100,
+                "slope": 0.125885,
                 "stringID": "fuel_pressure_2"
             },
             "20": {
@@ -72,9 +73,13 @@
                 "stringID": "fuel_pressure_3"
             },
             "4": {
+                "offset": -313,
+                "slope": 0.0188,
                 "stringID": "fuel_temp_0"
             },
             "5": {
+                "offset": -313,
+                "slope": 0.0188,
                 "stringID": "fuel_temp_1"
             },
             "6": {
@@ -125,10 +130,11 @@
                 "stringID": "ox_igniter_3_cont"
             },
             "16": {
+                "slope": 0.001525879,
                 "stringID": "ox_pi_controller"
             },
             "17": {
-                "stringID": "ox_unused_rocket"
+                "stringID": "ox_rocket"
             },
             "18": {
                 "slope": 0.001622020152,
@@ -139,8 +145,8 @@
                 "stringID": "ox_sense_12V"
             },
             "2": {
-                "offset": 0,
-                "slope": 1,
+                "offset": -100,
+                "slope": 0.125885,
                 "stringID": "ox_pressure_2"
             },
             "20": {
@@ -153,9 +159,13 @@
                 "stringID": "ox_pressure_3"
             },
             "4": {
+                "offset": -313,
+                "slope": 0.0188,
                 "stringID": "ox_temp_0"
             },
             "5": {
+                "offset": -313,
+                "slope": 0.0188,
                 "stringID": "ox_temp_1"
             },
             "6": {
@@ -259,13 +269,13 @@
         },
         "34": {
             "0": {
-                "offset": 0,
-                "slope": 1,
+                "offset": 2200,
+                "slope": -2,
                 "stringID": "pressurant_tanking_valve_feedback"
             },
             "1": {
-                "offset": 0,
-                "slope": 1,
+                "offset": 2200,
+                "slope": -2,
                 "stringID": "pressurant_vent_valve_feedback"
             },
             "10": {
@@ -301,8 +311,8 @@
                 "stringID": "gse_pneu_sense_12V"
             },
             "2": {
-                "offset": 0,
-                "slope": 1,
+                "offset": 2200,
+                "slope": -2,
                 "stringID": "ox_tanking_valve_feedback"
             },
             "20": {
@@ -312,7 +322,7 @@
             "3": {
                 "offset": 0,
                 "slope": 1,
-                "stringID": "holddown_feedback"
+                "stringID": "ox_decoupler_feedback"
             },
             "4": {
                 "stringID": "gse_pneu_temp_0"
@@ -340,9 +350,9 @@
         },
         "35": {
             "0": {
-                "offset": 0,
-                "slope": 1,
-                "stringID": "gse_elec_press_0"
+                "offset": -100,
+                "slope": 0.125885,
+                "stringID": "pressurant_tanking_pressure"
             },
             "1": {
                 "offset": 0,
@@ -356,10 +366,10 @@
                 "stringID": "strongback_cont"
             },
             "12": {
-                "stringID": "dewar_press_valve"
+                "stringID": "dewar_pressurize_solenoid"
             },
             "13": {
-                "stringID": "dewar_press_valve_cont"
+                "stringID": "dewar_pressurize_solenoid_cont"
             },
             "14": {
                 "stringID": "external_igniter"
@@ -421,18 +431,18 @@
         },
         "8": {
             "0": {
-                "offset": -0.23615210499999995,
-                "slope": 4.46075e-05,
+                "offset": -18.935077,
+                "slope": 5.32e-06,
                 "stringID": "rocket_weight"
             },
             "1": {
-                "offset": 781.0,
-                "slope": 1.0,
+                "offset": -37.171132400000005,
+                "slope": -1.48e-05,
                 "stringID": "dewar_weight"
             },
             "2": {
-                "offset": -4614366.4730490465,
-                "slope": 5.36149515030191e-06,
+                "offset": -10.2876298,
+                "slope": 5.32e-06,
                 "stringID": "fuel_weight"
             },
             "3": {
@@ -441,8 +451,8 @@
                 "stringID": "ox_weight"
             },
             "4": {
-                "offset": -312116.0,
-                "slope": 1.0,
+                "offset": -0.23615210499999995,
+                "slope": 4.46075e-05,
                 "stringID": "unused_lcb_force_4"
             },
             "5": {
@@ -548,6 +558,60 @@
                 ]
             }
         ],
+        "gui:fuel_pi_controller:GetI_NEG": [
+            {
+                "command": "fuel_pi_controller:GetI_NEG",
+                "parameters": []
+            }
+        ],
+        "gui:fuel_pi_controller:GetI_POS": [
+            {
+                "command": "fuel_pi_controller:GetI_POS",
+                "parameters": []
+            }
+        ],
+        "gui:fuel_pi_controller:GetOperatingPoint": [
+            {
+                "command": "fuel_pi_controller:GetOperatingPoint",
+                "parameters": []
+            }
+        ],
+        "gui:fuel_pi_controller:GetP_NEG": [
+            {
+                "command": "fuel_pi_controller:GetP_NEG",
+                "parameters": []
+            }
+        ],
+        "gui:fuel_pi_controller:GetP_POS": [
+            {
+                "command": "fuel_pi_controller:GetP_POS",
+                "parameters": []
+            }
+        ],
+        "gui:fuel_pi_controller:GetSensorChannelID": [
+            {
+                "command": "fuel_pi_controller:GetSensorChannelID",
+                "parameters": []
+            }
+        ],
+        "gui:fuel_pi_controller:GetSensorOffset": [
+            {
+                "command": "fuel_pi_controller:GetSensorOffset",
+                "parameters": []
+            }
+        ],
+        "gui:fuel_pi_controller:GetSensorSlope": [
+            {
+                "command": "fuel_pi_controller:GetSensorSlope",
+                "parameters": []
+            }
+        ],
+        "gui:fuel_pi_controller:GetTarget": [
+            {
+                "command": "fuel_pi_controller:GetTarget",
+                "parameters": []
+            }
+        ],
         "gui:fuel_weight:Tare": [
             {
                 "command": "Tare",
@@ -574,6 +638,60 @@
                 ],
                 "triggerType": "==",
                 "triggerValue": 1
+            }
+        ],
+        "gui:ox_pi_controller:GetI_NEG": [
+            {
+                "command": "ox_pi_controller:GetI_NEG",
+                "parameters": []
+            }
+        ],
+        "gui:ox_pi_controller:GetI_POS": [
+            {
+                "command": "ox_pi_controller:GetI_POS",
+                "parameters": []
+            }
+        ],
+        "gui:ox_pi_controller:GetOperatingPoint": [
+            {
+                "command": "ox_pi_controller:GetOperatingPoint",
+                "parameters": []
+            }
+        ],
+        "gui:ox_pi_controller:GetP_NEG": [
+            {
+                "command": "ox_pi_controller:GetP_NEG",
+                "parameters": []
+            }
+        ],
+        "gui:ox_pi_controller:GetP_POS": [
+            {
+                "command": "ox_pi_controller:GetP_POS",
+                "parameters": []
+            }
+        ],
+        "gui:ox_pi_controller:GetSensorChannelID": [
+            {
+                "command": "ox_pi_controller:GetSensorChannelID",
+                "parameters": []
+            }
+        ],
+        "gui:ox_pi_controller:GetSensorOffset": [
+            {
+                "command": "ox_pi_controller:GetSensorOffset",
+                "parameters": []
+            }
+        ],
+        "gui:ox_pi_controller:GetSensorSlope": [
+            {
+                "command": "ox_pi_controller:GetSensorSlope",
+                "parameters": []
+            }
+        ],
+        "gui:ox_pi_controller:GetTarget": [
+            {
+                "command": "ox_pi_controller:GetTarget",
+                "parameters": []
             }
         ],
         "gui:ox_weight:Tare": [
