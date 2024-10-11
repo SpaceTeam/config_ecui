@@ -5550,7 +5550,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Venturi")
 		(lib_id "PnID-Lib:Venturi")
 		(at 74.295 158.115 270)
 		(unit 1)
@@ -5795,7 +5794,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
 		(at 125.73 100.33 0)
 		(unit 1)
@@ -6196,7 +6194,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:PressureRegulator")
 		(lib_id "PnID-Lib:PressureRegulator")
 		(at 202.565 70.485 0)
 		(unit 1)
@@ -6331,7 +6328,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
 		(at 212.725 80.645 270)
 		(unit 1)
@@ -6710,7 +6706,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:PressureRegulator")
 		(lib_id "PnID-Lib:PressureRegulator")
 		(at 67.31 -78.74 90)
 		(unit 1)
@@ -7460,7 +7455,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
 		(at 67.31 -105.41 0)
 		(unit 1)
@@ -7575,7 +7569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Camera"
+		(property "Value" "camera1:sensor"
 			(at 53.975 -121.92 0)
 			(effects
 				(font
@@ -8038,7 +8032,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Orifice")
 		(lib_id "PnID-Lib:Orifice")
 		(at 57.785 60.96 0)
 		(unit 1)
@@ -8409,7 +8402,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Solenoid_NO")
 		(lib_id "PnID-Lib:Valve_Solenoid_NO")
 		(at 55.245 99.695 0)
 		(unit 1)
@@ -8635,7 +8627,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Servo")
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 74.295 142.24 270)
 		(mirror x)
@@ -8915,7 +8906,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Solenoid_NO")
 		(lib_id "PnID-Lib:Valve_Solenoid_NO")
 		(at 79.375 -31.115 0)
 		(unit 1)
@@ -9057,7 +9047,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
 		(at 67.31 24.13 0)
 		(unit 1)
@@ -9219,7 +9208,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Servo")
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 67.31 68.58 90)
 		(unit 1)
@@ -9498,7 +9486,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
 		(at 67.31 116.84 0)
 		(unit 1)
@@ -9894,7 +9881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "igniter_voltage:sensor"
+		(property "Value" "internal_igniter:sensor"
 			(at 50.165 184.785 0)
 			(effects
 				(font
@@ -10020,7 +10007,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:PressureRegulator")
 		(lib_id "PnID-Lib:PressureRegulator")
 		(at 168.91 59.69 0)
 		(unit 1)
@@ -10157,7 +10143,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Venturi")
 		(lib_id "PnID-Lib:Venturi")
 		(at 60.325 158.115 270)
 		(unit 1)
@@ -10237,7 +10222,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Servo")
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 67.31 -60.96 270)
 		(mirror x)
@@ -10473,7 +10457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Camera"
+		(property "Value" "camera2:sensor"
 			(at 80.645 -121.92 0)
 			(effects
 				(font
@@ -10519,7 +10503,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Servo")
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 60.325 142.24 90)
 		(unit 1)
@@ -10607,7 +10590,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
 		(at 155.575 82.55 0)
 		(unit 1)
@@ -10782,7 +10764,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:PressureRegulator")
 		(lib_id "PnID-Lib:PressureRegulator")
 		(at 67.31 50.8 90)
 		(unit 1)
@@ -10939,7 +10920,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:PressureRegulator")
 		(lib_id "PnID-Lib:PressureRegulator")
 		(at 168.91 82.55 0)
 		(unit 1)
@@ -11009,7 +10989,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Orifice")
 		(lib_id "PnID-Lib:Orifice")
 		(at 57.785 -68.58 0)
 		(unit 1)
@@ -11080,7 +11059,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
 		(at 19.685 78.105 90)
 		(mirror x)
@@ -11161,7 +11139,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Tank_Slim")
 		(lib_id "PnID-Lib:Tank_Slim")
 		(at 67.31 -12.7 0)
 		(unit 1)
@@ -11324,7 +11301,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Valve_Manual")
 		(lib_id "PnID-Lib:Valve_Manual")
 		(at 155.575 59.69 0)
 		(unit 1)

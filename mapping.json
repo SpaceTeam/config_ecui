@@ -471,6 +471,84 @@
                 "stringID": "unused_lcb_force_7"
             },
             "stringID": "teststand_lcb"
+        },
+        "29": {
+            "0": {
+                "offset": 0,
+                "slope": 0.00010071,
+                "stringID": "rcu_5V_voltage"
+            },
+            "1": {
+                "offset": 0,
+                "slope": 0.00033234,
+                "stringID": "rcu_12V_voltage"
+            },
+            "10": {
+                "offset": 0,
+                "slope": 0.0000001,
+                "stringID": "gps_latitude"
+            },
+            "11": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "gps_altitude"
+            },
+            "2": {
+                "offset": 0,
+                "slope": 0.00024414,
+                "stringID": "rcu_barometer"
+            },
+            "3": {
+                "offset": -16,
+                "slope": 0.0078125,
+                "stringID": "rcu_accel_x"
+            },
+            "4": {
+                "offset": -16,
+                "slope": 0.0078125,
+                "stringID": "rcu_accel_y"
+            },
+            "5": {
+                "offset": -16,
+                "slope": 0.0078125,
+                "stringID": "rcu_accel_z"
+            },
+            "6": {
+                "offset": -2000,
+                "slope": 0.97656,
+                "stringID": "rcu_gyro_x"
+            },
+            "7": {
+                "offset": -2000,
+                "slope": 0.97656,
+                "stringID": "rcu_gyro_y"
+            },
+            "8": {
+                "offset": -2000,
+                "slope": 0.97656,
+                "stringID": "rcu_gyro_z"
+            },
+            "9": {
+                "offset": 0,
+                "slope": 0.0000001,
+                "stringID": "gps_longitude"
+            },
+            "12": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "gps_status"
+            },
+            "14": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "camera1"
+            },
+            "16": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "camera2"
+            },
+            "stringID": "rcu"
         }
     },
     "DefaultEventMapping": {
