@@ -4337,16 +4337,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 181.61) (xy 64.77 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0894092b-d619-42cd-b236-967c9e749c33")
-	)
-	(wire
-		(pts
 			(xy 67.31 36.83) (xy 67.31 39.37)
 		)
 		(stroke
@@ -4407,6 +4397,26 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 184.912) (xy 73.66 182.118)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19313eb1-0914-49d8-ba3f-83a4f5ca64e7")
+	)
+	(wire
+		(pts
+			(xy 71.374 178.562) (xy 73.66 178.562)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19bc7fab-b025-4201-ae59-82986ec0a046")
+	)
+	(wire
+		(pts
 			(xy 125.73 65.405) (xy 125.73 82.55)
 		)
 		(stroke
@@ -4434,16 +4444,6 @@
 			(type default)
 		)
 		(uuid "1cac6753-c5e4-41f5-b077-b1530f775126")
-	)
-	(wire
-		(pts
-			(xy 60.96 184.785) (xy 60.96 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e641653-5505-4902-8079-aa19da23c999")
 	)
 	(wire
 		(pts
@@ -4497,7 +4497,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 179.705) (xy 73.66 179.705)
+			(xy 69.088 179.832) (xy 73.66 179.832)
 		)
 		(stroke
 			(width 0)
@@ -4574,6 +4574,16 @@
 			(type default)
 		)
 		(uuid "3d613801-ae9c-4a1a-9cf7-417b2bc522cd")
+	)
+	(wire
+		(pts
+			(xy 70.104 182.118) (xy 73.66 182.118)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41aaeb45-fa26-4509-9b5e-5c0a8549ca28")
 	)
 	(wire
 		(pts
@@ -4664,6 +4674,16 @@
 			(type default)
 		)
 		(uuid "5a796169-b483-4452-8311-71db32d6ecd6")
+	)
+	(wire
+		(pts
+			(xy 60.96 182.118) (xy 64.516 182.118)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d12fa02-12e6-4c84-930f-bf8c1eb435ad")
 	)
 	(wire
 		(pts
@@ -4967,7 +4987,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 179.705) (xy 65.405 179.705)
+			(xy 60.96 179.832) (xy 65.405 179.832)
 		)
 		(stroke
 			(width 0)
@@ -5284,6 +5304,16 @@
 			(type default)
 		)
 		(uuid "f060256a-bb3b-4802-a9e0-c86095a97d05")
+	)
+	(wire
+		(pts
+			(xy 60.96 182.118) (xy 60.96 184.912)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e76edc-1bd7-493f-9aad-3fc741c6cc40")
 	)
 	(wire
 		(pts
@@ -6497,7 +6527,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:igniter")
-		(at 55.88 179.705 0)
+		(at 55.88 179.832 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6505,7 +6535,7 @@
 		(dnp no)
 		(uuid "09b83fed-f41b-492b-b459-528e84e674a9")
 		(property "Reference" "igniter1"
-			(at 50.8 177.419 0)
+			(at 50.8 177.546 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6513,8 +6543,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "external_igniter:sensor"
-			(at 48.895 179.705 0)
+		(property "Value" "internal_igniter_1_cont:sensor"
+			(at 48.895 179.832 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6523,7 +6553,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 179.705 0)
+			(at 55.88 179.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6532,7 +6562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 179.705 0)
+			(at 55.88 179.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,7 +6571,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 179.705 0)
+			(at 55.88 179.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6550,7 +6580,7 @@
 			)
 		)
 		(property "Unit" "Ohm"
-			(at 55.88 179.705 0)
+			(at 55.88 179.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6846,7 +6876,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:igniter")
-		(at 78.74 179.705 180)
+		(at 78.74 179.832 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6854,7 +6884,7 @@
 		(dnp no)
 		(uuid "1da824ee-c9ca-4cab-a0c9-ad73cdf73697")
 		(property "Reference" "igniter2"
-			(at 83.82 181.991 0)
+			(at 83.82 182.118 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6862,8 +6892,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "internal_igniter:sensor"
-			(at 85.725 179.705 0)
+		(property "Value" "internal_igniter_2_cont:sensor"
+			(at 85.725 179.832 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6872,7 +6902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 179.705 0)
+			(at 78.74 179.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6881,7 +6911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 179.705 0)
+			(at 78.74 179.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6890,7 +6920,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 179.705 0)
+			(at 78.74 179.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6899,7 +6929,7 @@
 			)
 		)
 		(property "Unit" "Ohm"
-			(at 78.74 179.705 0)
+			(at 78.74 179.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7569,7 +7599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "camera1:sensor"
+		(property "Value" "camera_1:sensor"
 			(at 53.975 -121.92 0)
 			(effects
 				(font
@@ -7739,6 +7769,82 @@
 			(project "lamarr_hedy_vertical"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "ox_quick_connect1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:voltmeter")
+		(at 78.74 184.912 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44b362b9-2968-429a-b932-9f6e34aa0709")
+		(property "Reference" "voltmeter2"
+			(at 83.82 182.626 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "internal_igniter_2:sensor"
+			(at 84.328 184.912 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "V"
+			(at 78.74 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "5fea7580-052a-45f1-8959-036e1476e183")
+		)
+		(instances
+			(project "lamarr_hedy_vertical"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "voltmeter2")
 					(unit 1)
 				)
 			)
@@ -9864,81 +9970,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:voltmeter")
-		(at 55.88 184.785 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "abadbf6d-8ffb-44f1-899d-3efd35952468")
-		(property "Reference" "voltmeter1"
-			(at 50.8 182.499 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "internal_igniter:sensor"
-			(at 50.165 184.785 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "V"
-			(at 55.88 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "62e3b19b-3b87-4a3a-8638-d854a56a78cf")
-		)
-		(instances
-			(project ""
-				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
-					(reference "voltmeter1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PnID-Lib:BurstDisc")
 		(at 74.93 -44.45 0)
 		(unit 1)
@@ -10222,6 +10253,81 @@
 		)
 	)
 	(symbol
+		(lib_id "PnID-Lib:voltmeter")
+		(at 55.88 184.912 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "baada46c-5c06-4ce2-82a4-99bacd336000")
+		(property "Reference" "voltmeter1"
+			(at 50.8 182.626 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "internal_igniter_1:sensor"
+			(at 50.292 184.912 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "V"
+			(at 55.88 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "d959062f-ad17-4b62-97fb-fa5b1e98b3b4")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "voltmeter1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 67.31 -60.96 270)
 		(mirror x)
@@ -10457,7 +10563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "camera2:sensor"
+		(property "Value" "camera_2:sensor"
 			(at 80.645 -121.92 0)
 			(effects
 				(font

@@ -188,7 +188,8 @@
         ]
     },
     "PnID-Lib-Camera": {
-        "eval": "if (inVars['value'] > thresholds['igniter']['active']) { outVars['color']='on' } else { outVars['color']='off' }",
+        "eval": "if (inVars['setState'] > 0) { outVars['color']='on' } else { outVars['color']='off' }",
+        "sens_deviation": "return false;",
         "popup": [
             {
                 "type": "display",

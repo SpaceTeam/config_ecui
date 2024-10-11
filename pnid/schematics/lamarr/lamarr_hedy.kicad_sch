@@ -3660,6 +3660,110 @@
 				)
 			)
 		)
+		(symbol "PnID-Lib:voltmeter"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "voltmeter"
+				(at -5.08 2.286 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "voltmeter"
+				(at -5.08 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "voltmeter_0_0"
+				(text "V"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "voltmeter_0_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "voltmeter_1_1"
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Valve_Pneumatic_1"
 			(pin_numbers hide)
 			(pin_names
@@ -3973,6 +4077,16 @@
 	)
 	(wire
 		(pts
+			(xy 103.378 198.12) (xy 105.918 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ceaff4d-5776-4ab8-b94a-024de3b3ede5")
+	)
+	(wire
+		(pts
 			(xy 21.59 67.564) (xy 21.59 72.644)
 		)
 		(stroke
@@ -4030,6 +4144,16 @@
 			(type default)
 		)
 		(uuid "1fd7774f-21d1-4bab-bb02-725fd9a30df9")
+	)
+	(wire
+		(pts
+			(xy 95.758 193.04) (xy 95.758 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ed28b2-81d9-4e85-a46b-9b79f59a1658")
 	)
 	(wire
 		(pts
@@ -4363,6 +4487,16 @@
 	)
 	(wire
 		(pts
+			(xy 103.378 193.04) (xy 103.378 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d13e447-749b-4dc5-89da-5326cb9f1d05")
+	)
+	(wire
+		(pts
 			(xy 229.87 95.25) (xy 226.568 95.25)
 		)
 		(stroke
@@ -4610,6 +4744,16 @@
 			(type default)
 		)
 		(uuid "c5b970d2-2d94-47db-9537-e26d1a4ef59e")
+	)
+	(wire
+		(pts
+			(xy 95.758 198.12) (xy 93.218 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae79dd4-15e2-45ad-bce1-15391c8cf37f")
 	)
 	(wire
 		(pts
@@ -5966,7 +6110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "external_igniter:sensor"
+		(property "Value" "internal_igniter_1_cont:sensor"
 			(at 84.328 193.04 0)
 			(effects
 				(font
@@ -6315,8 +6459,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "internal_igniter:sensor"
-			(at 116.078 193.04 0)
+		(property "Value" "internal_igniter_2:sensor"
+			(at 115.316 193.04 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8461,6 +8605,81 @@
 		)
 	)
 	(symbol
+		(lib_id "PnID-Lib:voltmeter")
+		(at 88.138 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87f85d40-605a-4828-9995-abfedb453265")
+		(property "Reference" "voltmeter1"
+			(at 83.058 195.834 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "internal_igniter_1:sensor"
+			(at 84.328 198.12 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.138 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.138 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.138 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "V"
+			(at 88.138 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "b04a0fa6-f464-4bd2-92c2-b1d1342b353f")
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "voltmeter1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PnID-Lib:heater")
 		(at 163.83 49.784 0)
 		(unit 1)
@@ -9462,6 +9681,82 @@
 		)
 	)
 	(symbol
+		(lib_id "PnID-Lib:voltmeter")
+		(at 110.998 198.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b34615a9-13e9-4503-b84c-eca6d083e897")
+		(property "Reference" "voltmeter2"
+			(at 116.078 195.834 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "internal_igniter_2_cont:sensor"
+			(at 115.316 198.12 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.998 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.998 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.998 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "V"
+			(at 110.998 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "94b1018f-f207-42a5-afe3-758ecfdc8773")
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "voltmeter2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 120.904 82.55 90)
 		(unit 1)
@@ -10164,7 +10459,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PnID-Lib:Orifice")
 		(lib_id "PnID-Lib:Orifice")
 		(at 112.268 74.676 0)
 		(unit 1)
