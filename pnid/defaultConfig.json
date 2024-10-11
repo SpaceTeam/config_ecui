@@ -1,5 +1,5 @@
 {
-    "externalSourceDefault": "http://192.168.0.7:3000/d-solo/i6z2viISk/teststand-streaming?orgId=1&panelId=",
+    "externalSourceDefault": "http://192.168.0.7:3000/d-solo/dPs9sRmNz/lamarr-streaming?orgId=1&var-pressure=All&var-temperature=All&var-actuator=All&var-other=All&var-load_cell=All&panelId=",
     "wire": {
         "eval": "if (inVars['value'] > thresholds['wire']['pressurized']) { outVars['color']='content' } else if (inVars['value'] > thresholds['wire']['notconnected']) { outVars['color']='' } else { outVars['color']='notconnected' }"
     },

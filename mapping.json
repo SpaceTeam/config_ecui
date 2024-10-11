@@ -4,15 +4,15 @@
             "0": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
-                "stringID": "ox_tanking_valve_blmb"
+                "stringID": "blmb_valve"
             },
             "1": {
-                "stringID": "unused_ox_tanking_valve_unused_pressure"
+                "stringID": "blmb_unused_unused_pressure"
             },
             "2": {
-                "stringID": "unused_ox_tanking_valve_unused_what"
+                "stringID": "blmb_unused_unused_what"
             },
-            "stringID": "blmb_ox_tanking_valve"
+            "stringID": "blmb"
         },
         "31": {
             "0": {
@@ -198,16 +198,16 @@
                 "stringID": "ox_venturi_pressure"
             },
             "10": {
-                "stringID": "engine_igniter_1"
+                "stringID": "internal_igniter_1"
             },
             "11": {
-                "stringID": "engine_igniter_1_cont"
+                "stringID": "internal_igniter_1_cont"
             },
             "12": {
-                "stringID": "engine_igniter_2"
+                "stringID": "internal_igniter_2"
             },
             "13": {
-                "stringID": "engine_igniter_2_cont"
+                "stringID": "internal_igniter_2_cont"
             },
             "14": {
                 "stringID": "engine_igniter_3"
@@ -216,7 +216,7 @@
                 "stringID": "engine_igniter_3_cont"
             },
             "16": {
-                "stringID": "engine_unused_pi_controller"
+                "stringID": "engine_ox_main_pi_controller"
             },
             "17": {
                 "stringID": "rocket"
@@ -260,10 +260,10 @@
                 "stringID": "ox_main_valve"
             },
             "8": {
-                "stringID": "internal_igniter"
+                "stringID": "engine_igniter_0"
             },
             "9": {
-                "stringID": "internal_igniter_cont"
+                "stringID": "engine_igniter_0_cont"
             },
             "stringID": "engine_ecu"
         },
@@ -372,10 +372,10 @@
                 "stringID": "dewar_pressurize_solenoid_cont"
             },
             "14": {
-                "stringID": "external_igniter"
+                "stringID": "gse_igniter_3"
             },
             "15": {
-                "stringID": "external_igniter_cont"
+                "stringID": "gse_igniter_3_cont"
             },
             "16": {
                 "stringID": "gse_elec_unused_pi_controller"
@@ -541,12 +541,12 @@
             "14": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "camera1"
+                "stringID": "camera_1"
             },
             "16": {
                 "offset": 0,
                 "slope": 1.0,
-                "stringID": "camera2"
+                "stringID": "camera_2"
             },
             "stringID": "rcu"
         }
