@@ -11,25 +11,31 @@
     "LOGGING": {
         "post_sequence_script": "scripts/plot.sh"
     },
-    "use_lora": false,
+    "use_lora": true,
     "LORA": {
-        "ip": "192.168.1.7",
+        "ip": "192.168.100.5",
         "port": 5001,
         "nodeIDsRef": [
-            6,
-            8
+            33,
+            31,
+            32,
+            29
         ],
         "nodeIDs": [
-            16,
-            18
+            13,
+            11,
+            12,
+            19
         ],
         "canMsgSizes": [
-            54,
+            48,
+            48,
+            48,
             39
         ]
     },
     "CAN": {
-        "node_count": 7,
+        "node_count": 4,
         "blocking_timeout": 2048,
         "BUS": {
             "ARBITRATION": {

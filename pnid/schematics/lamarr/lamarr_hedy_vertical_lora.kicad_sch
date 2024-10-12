@@ -650,6 +650,85 @@
 				)
 			)
 		)
+		(symbol "PnID-Lib:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED_Ref"
+				(at 2.286 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -0.508) (xy -1.27 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -0.508)
+					(mid 0 0.762)
+					(end -1.27 -0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "PnID-Lib:Label"
 			(pin_names
 				(offset 1.016)
@@ -4766,68 +4845,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Label")
-		(at 26.67 -135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d053f1e-058c-4f99-ba61-869f20111873")
-		(property "Reference" "Logging"
-			(at 26.67 -141.478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Logging"
-			(at 26.67 -135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 -135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 -135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 26.67 -135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "lamarr_hedy_vertical_lora"
-				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
-					(reference "Logging")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PnID-Lib:QuickConnect_Half")
 		(at 48.895 133.35 180)
 		(unit 1)
@@ -5724,68 +5741,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Label")
-		(at 26.67 -126.365 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6abc5ce9-cd7e-4e59-b1c3-36a13212d541")
-		(property "Reference" "ClearFlash"
-			(at 26.67 -131.953 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Flash:Clear"
-			(at 26.67 -126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 -126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 -126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 26.67 -126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "lamarr_hedy_vertical_lora"
-				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
-					(reference "ClearFlash")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 74.295 142.24 270)
 		(mirror x)
@@ -6592,6 +6547,70 @@
 		)
 	)
 	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 39.37 -124.206 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a14a299a-addf-4aaf-a131-87ee36aa0d57")
+		(property "Reference" "RCU"
+			(at 41.275 -124.206 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "lora:rcu:FlashStatus"
+			(at 39.37 -126.746 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 -124.206 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 -124.206 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 -124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy_vertical_lora"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "RCU")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PnID-Lib:Vent")
 		(at 41.275 -68.58 180)
 		(unit 1)
@@ -6653,6 +6672,70 @@
 			(project ""
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "Vent4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 39.37 -128.778 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a66560e2-8b17-41a4-bb9b-886091ae57a9")
+		(property "Reference" "Ox"
+			(at 41.275 -128.778 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "lora:ox_ecu:FlashStatus"
+			(at 39.37 -131.318 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 -128.778 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 -128.778 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 -128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy_vertical_lora"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Ox")
 					(unit 1)
 				)
 			)
@@ -7033,6 +7116,195 @@
 		)
 	)
 	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 13.716 -138.176 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b61bf105-fcff-4e81-9311-537282df6ed6")
+		(property "Reference" "Engine"
+			(at 11.811 -138.176 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "lora:engine_ecu:LoggingEnabled"
+			(at 13.716 -140.716 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.716 -138.176 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.716 -138.176 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 13.716 -138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy_vertical_lora"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Engine")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Label")
+		(at 26.67 -126.492 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6c657ad-4c7c-410a-890d-169644d9a7e7")
+		(property "Reference" "ClearFlash1"
+			(at 26.67 -132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Flash:Clear"
+			(at 26.67 -126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 -126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 -126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 -126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy_vertical_lora"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ClearFlash1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 39.37 -138.176 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba455f94-b5d3-4809-ab39-c541f219763f")
+		(property "Reference" "Ox"
+			(at 41.275 -138.176 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "lora:ox_ecu:LoggingEnabled"
+			(at 39.37 -140.716 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 -138.176 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 -138.176 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 -138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy_vertical_lora"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Ox")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 67.31 -60.96 270)
 		(mirror x)
@@ -7308,6 +7580,69 @@
 			(project ""
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 13.716 -133.604 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3f9cdf5-abef-46e0-bbf2-1ab923bfac49")
+		(property "Reference" "Fuel"
+			(at 11.811 -133.604 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "lora:fuel_ecu:LoggingEnabled"
+			(at 13.716 -136.144 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.716 -133.604 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.716 -133.604 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 13.716 -133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy_vertical_lora"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Fuel")
 					(unit 1)
 				)
 			)
@@ -7652,6 +7987,70 @@
 		)
 	)
 	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 39.37 -133.604 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6b03ecf-61f3-4cb1-983a-2e9d382f8c05")
+		(property "Reference" "RCU"
+			(at 41.275 -133.604 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "lora:rcu:LoggingEnabled"
+			(at 39.37 -136.144 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 -133.604 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 -133.604 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 -133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy_vertical_lora"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "RCU")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PnID-Lib:Orifice")
 		(at 57.785 -68.58 0)
 		(unit 1)
@@ -7909,6 +8308,69 @@
 		)
 	)
 	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 13.716 -124.206 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f386feaa-32db-442a-b9fc-5abe7bbeda4f")
+		(property "Reference" "Fuel"
+			(at 11.811 -124.206 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "lora:fuel_ecu:FlashStatus"
+			(at 13.716 -126.746 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.716 -124.206 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.716 -124.206 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 13.716 -124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy_vertical_lora"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Fuel")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PnID-Lib:Flowchart_State")
 		(at 97.155 -107.95 0)
 		(unit 1)
@@ -8040,6 +8502,68 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Label")
+		(at 26.67 -135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f63875f6-e8f6-44b7-9e43-79e54edf94c0")
+		(property "Reference" "Logging1"
+			(at 26.67 -141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Logging"
+			(at 26.67 -135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 -135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 -135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 -135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy_vertical_lora"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Logging1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Label")
 		(at 26.67 -145.415 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8119,7 +8643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "RocketVoltages"
+		(property "Value" "RocketVoltagesLora"
 			(at 26.67 -107.315 0)
 			(effects
 				(font
@@ -8158,6 +8682,69 @@
 			(project "lamarr_hedy_vertical_lora"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "Voltages")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 13.716 -128.778 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffc5185a-2464-4632-8e0c-956ec4e32c43")
+		(property "Reference" "Engine"
+			(at 11.811 -128.778 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "lora:ecu:FlashStatus"
+			(at 13.716 -131.318 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.716 -128.778 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.716 -128.778 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 13.716 -128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy_vertical_lora"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Engine")
 					(unit 1)
 				)
 			)

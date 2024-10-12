@@ -4290,7 +4290,7 @@
 	)
 	(polyline
 		(pts
-			(xy 257.302 17.272) (xy 257.302 14.732)
+			(xy 292.735 17.145) (xy 292.735 14.605)
 		)
 		(stroke
 			(width 0)
@@ -4350,7 +4350,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.888 14.732) (xy 246.888 17.272)
+			(xy 282.321 14.605) (xy 282.321 17.145)
 		)
 		(stroke
 			(width 0)
@@ -4630,7 +4630,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.888 17.272) (xy 257.302 17.272)
+			(xy 282.321 17.145) (xy 292.735 17.145)
 		)
 		(stroke
 			(width 0)
@@ -4780,7 +4780,7 @@
 	)
 	(polyline
 		(pts
-			(xy 257.302 14.732) (xy 246.634 14.732)
+			(xy 292.735 14.605) (xy 282.067 14.605)
 		)
 		(stroke
 			(width 0)
@@ -6196,6 +6196,70 @@
 		)
 	)
 	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 277.114 24.13 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "069bbf47-c823-475e-b0d7-d0bb734863f9")
+		(property "Reference" "Log-Ox"
+			(at 279.019 24.13 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ox_ecu:LoggingEnabled"
+			(at 277.114 21.59 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 277.114 24.13 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 277.114 24.13 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 277.114 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Log-Ox")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PnID-Lib:igniter")
 		(at 88.138 193.04 0)
 		(unit 1)
@@ -6332,6 +6396,70 @@
 			(project "lamarr_hedy"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "Vent2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 277.114 28.702 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1305756b-3906-4f6d-8cf4-2a7144e49f28")
+		(property "Reference" "Log-RCU"
+			(at 279.019 28.702 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "rcu:LoggingEnabled"
+			(at 277.114 26.162 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 277.114 28.702 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 277.114 28.702 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 277.114 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Log-RCU")
 					(unit 1)
 				)
 			)
@@ -6621,7 +6749,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Flowchart_State")
-		(at 208.28 40.894 0)
+		(at 169.545 66.675 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6630,7 +6758,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e187a33-557e-4682-975c-7af080c4ce77")
 		(property "Reference" "Ox"
-			(at 208.28 40.894 0)
+			(at 169.545 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6638,7 +6766,7 @@
 			)
 		)
 		(property "Value" "ox_rocket:sensor"
-			(at 214.63 40.8939 0)
+			(at 175.895 66.6749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +6775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 40.894 0)
+			(at 169.545 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +6784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 40.894 0)
+			(at 169.545 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,7 +6793,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 40.894 0)
+			(at 169.545 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,6 +7124,69 @@
 			(project "lamarr_hedy"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "ox_tank_pressure")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 251.46 38.354 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "326dd90d-f19f-489d-9e1c-a7b4c45f724e")
+		(property "Reference" "Flash-Engine"
+			(at 249.555 38.354 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ecu:FlashStatus"
+			(at 251.46 35.814 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 38.354 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 38.354 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Flash-Engine")
 					(unit 1)
 				)
 			)
@@ -7828,6 +8019,70 @@
 			(project "lamarr_hedy"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "Vent1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 277.114 42.926 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5aae9bb3-5306-4d6d-a039-021cb3dabb50")
+		(property "Reference" "Flash-RCU"
+			(at 279.019 42.926 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "rcu:FlashStatus"
+			(at 277.114 40.386 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 277.114 42.926 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 277.114 42.926 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 277.114 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Flash-RCU")
 					(unit 1)
 				)
 			)
@@ -9093,6 +9348,70 @@
 		)
 	)
 	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 277.114 38.354 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96510e00-8b98-4b35-99bf-a4990d5912b4")
+		(property "Reference" "Flash-Ox"
+			(at 279.019 38.354 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ox_ecu:FlashStatus"
+			(at 277.114 35.814 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 277.114 38.354 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 277.114 38.354 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 277.114 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Flash-Ox")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PnID-Lib:Sensor_Pressure")
 		(at 113.03 163.83 180)
 		(unit 1)
@@ -10140,6 +10459,69 @@
 		)
 	)
 	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 251.46 42.926 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c53bf25c-112c-4edb-b086-87298a6b101e")
+		(property "Reference" "Flash-Fuel"
+			(at 249.555 42.926 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "fuel_ecu:FlashStatus"
+			(at 251.46 40.386 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 42.926 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 42.926 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Flash-Fuel")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 78.486 156.21 90)
 		(unit 1)
@@ -10300,6 +10682,69 @@
 			(project "lamarr_hedy"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 251.46 24.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce83203b-04d0-4edd-b473-e46ba568b4b3")
+		(property "Reference" "Log-Engine"
+			(at 249.555 24.13 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "engine_ecu:LoggingEnabled"
+			(at 251.46 21.59 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 24.13 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 24.13 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Log-Engine")
 					(unit 1)
 				)
 			)
@@ -10550,6 +10995,69 @@
 			(project "lamarr_hedy"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "fuel_manifold_temperature")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 251.46 28.702 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1ab6123-61ce-4165-8767-79f6e3447ed0")
+		(property "Reference" "Log-Fuel"
+			(at 249.555 28.702 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "fuel_ecu:LoggingEnabled"
+			(at 251.46 26.162 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 28.702 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 28.702 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "Log-Fuel")
 					(unit 1)
 				)
 			)
@@ -11186,7 +11694,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Flowchart_State")
-		(at 208.28 33.02 0)
+		(at 169.545 58.801 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11194,7 +11702,7 @@
 		(dnp no)
 		(uuid "f51a3f2a-41bc-42e9-8267-c82d282f3459")
 		(property "Reference" "Fuel"
-			(at 208.28 33.02 0)
+			(at 169.545 58.801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11202,7 +11710,7 @@
 			)
 		)
 		(property "Value" "fuel_rocket:sensor"
-			(at 214.63 33.0199 0)
+			(at 175.895 58.8009 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11211,7 +11719,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 33.02 0)
+			(at 169.545 58.801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11220,7 +11728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 33.02 0)
+			(at 169.545 58.801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11229,7 +11737,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 33.02 0)
+			(at 169.545 58.801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11316,7 +11824,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Label")
-		(at 212.09 57.404 0)
+		(at 173.355 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11324,7 +11832,7 @@
 		(dnp no)
 		(uuid "fdc26595-1627-4958-80a0-23a7a1f1e7c1")
 		(property "Reference" "PI_Contollers"
-			(at 212.09 51.816 0)
+			(at 173.355 17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11333,7 +11841,7 @@
 			)
 		)
 		(property "Value" "pi_controllers"
-			(at 212.09 57.404 0)
+			(at 173.355 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11341,7 +11849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 57.404 0)
+			(at 173.355 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11350,7 +11858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 57.404 0)
+			(at 173.355 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11359,7 +11867,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 57.404 0)
+			(at 173.355 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)

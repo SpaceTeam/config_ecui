@@ -570,6 +570,356 @@
                 "stringID": "rcu_out_3"
             },
             "stringID": "rcu"
+        },
+        "11": {
+            "0": {
+                "offset": -15,
+                "slope": 0.01888275146,
+                "stringID": "lora:fuel_tank_pressure"
+            },
+            "1": {
+                "offset": -100,
+                "slope": 0.125885,
+                "stringID": "lora:fuel_pressurant_pressure"
+            },
+            "10": {
+                "stringID": "lora:fuel_igniter_1"
+            },
+            "11": {
+                "stringID": "lora:fuel_igniter_1_cont"
+            },
+            "12": {
+                "stringID": "lora:fuel_igniter_2"
+            },
+            "13": {
+                "stringID": "lora:fuel_igniter_2_cont"
+            },
+            "14": {
+                "stringID": "lora:fuel_igniter_3"
+            },
+            "15": {
+                "stringID": "lora:fuel_igniter_3_cont"
+            },
+            "16": {
+                "slope": 0.001525879,
+                "stringID": "lora:fuel_pi_controller"
+            },
+            "17": {
+                "stringID": "lora:fuel_rocket"
+            },
+            "18": {
+                "slope": 0.001622020152,
+                "stringID": "lora:fuel_sense_5V"
+            },
+            "19": {
+                "slope": 0.008921110838,
+                "stringID": "lora:fuel_sense_12V"
+            },
+            "2": {
+                "offset": -100,
+                "slope": 0.125885,
+                "stringID": "lora:fuel_pressure_2"
+            },
+            "20": {
+                "slope": 0.008921110838,
+                "stringID": "lora:fuel_sense_12VA"
+            },
+            "3": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "lora:fuel_pressure_3"
+            },
+            "4": {
+                "offset": -313,
+                "slope": 0.0188,
+                "stringID": "lora:fuel_temp_0"
+            },
+            "5": {
+                "offset": -313,
+                "slope": 0.0188,
+                "stringID": "lora:fuel_temp_1"
+            },
+            "6": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "lora:fuel_pressurant_valve"
+            },
+            "7": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "lora:fuel_servo_1"
+            },
+            "8": {
+                "stringID": "lora:fuel_vent"
+            },
+            "9": {
+                "stringID": "lora:fuel_vent_cont"
+            },
+            "stringID": "lora:fuel_ecu"
+        },
+        "12": {
+            "0": {
+                "offset": -15,
+                "slope": 0.01888275146,
+                "stringID": "lora:ox_tank_pressure"
+            },
+            "1": {
+                "offset": -100,
+                "slope": 0.125885,
+                "stringID": "lora:ox_pressurant_pressure"
+            },
+            "10": {
+                "stringID": "lora:ox_igniter_1"
+            },
+            "11": {
+                "stringID": "lora:ox_igniter_1_cont"
+            },
+            "12": {
+                "stringID": "lora:ox_igniter_2"
+            },
+            "13": {
+                "stringID": "lora:ox_igniter_2_cont"
+            },
+            "14": {
+                "stringID": "lora:ox_igniter_3"
+            },
+            "15": {
+                "stringID": "lora:ox_igniter_3_cont"
+            },
+            "16": {
+                "slope": 0.001525879,
+                "stringID": "lora:ox_pi_controller"
+            },
+            "17": {
+                "stringID": "lora:ox_rocket"
+            },
+            "18": {
+                "slope": 0.001622020152,
+                "stringID": "lora:ox_sense_5V"
+            },
+            "19": {
+                "slope": 0.008921110838,
+                "stringID": "lora:ox_sense_12V"
+            },
+            "2": {
+                "offset": -100,
+                "slope": 0.125885,
+                "stringID": "lora:ox_pressure_2"
+            },
+            "20": {
+                "slope": 0.008921110838,
+                "stringID": "lora:ox_sense_12VA"
+            },
+            "3": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "lora:ox_pressure_3"
+            },
+            "4": {
+                "offset": -313,
+                "slope": 0.0188,
+                "stringID": "lora:ox_temp_0"
+            },
+            "5": {
+                "offset": -308,
+                "slope": 0.0188,
+                "stringID": "lora:ox_temp_1"
+            },
+            "6": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "lora:ox_pressurant_valve"
+            },
+            "7": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "lora:ox_servo_1"
+            },
+            "8": {
+                "stringID": "lora:ox_vent"
+            },
+            "9": {
+                "stringID": "lora:ox_vent_cont"
+            },
+            "stringID": "lora:ox_ecu"
+        },
+        "13": {
+            "0": {
+                "offset": -15,
+                "slope": 0.01888275146,
+                "stringID": "lora:fuel_venturi_pressure"
+            },
+            "1": {
+                "offset": -15,
+                "slope": 0.01888275146,
+                "stringID": "lora:ox_venturi_pressure"
+            },
+            "10": {
+                "stringID": "lora:internal_igniter_1"
+            },
+            "11": {
+                "stringID": "lora:internal_igniter_1_cont"
+            },
+            "12": {
+                "stringID": "lora:internal_igniter_2"
+            },
+            "13": {
+                "stringID": "lora:internal_igniter_2_cont"
+            },
+            "14": {
+                "stringID": "lora:engine_igniter_3"
+            },
+            "15": {
+                "stringID": "lora:engine_igniter_3_cont"
+            },
+            "16": {
+                "slope": 0.001525879,
+                "stringID": "lora:engine_ox_main_pi_controller"
+            },
+            "17": {
+                "stringID": "lora:rocket"
+            },
+            "18": {
+                "slope": 0.001622020152,
+                "stringID": "lora:engine_sense_5V"
+            },
+            "19": {
+                "slope": 0.008921110838,
+                "stringID": "lora:engine_sense_12V"
+            },
+            "2": {
+                "offset": -15,
+                "slope": 0.01888275146,
+                "stringID": "lora:chamber_pressure"
+            },
+            "20": {
+                "slope": 0.008921110838,
+                "stringID": "lora:engine_sense_12VA"
+            },
+            "3": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "lora:engine_pressure_3"
+            },
+            "4": {
+                "stringID": "lora:engine_temp_0"
+            },
+            "5": {
+                "stringID": "lora:engine_temp_1"
+            },
+            "6": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "lora:fuel_main_valve"
+            },
+            "7": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "lora:ox_main_valve"
+            },
+            "8": {
+                "stringID": "lora:engine_igniter_0"
+            },
+            "9": {
+                "stringID": "lora:engine_igniter_0_cont"
+            },
+            "stringID": "lora:engine_ecu"
+        },
+        "19": {
+            "18": {
+                "slope": 0.001622020152,
+                "stringID": "lora:engine_sense_5V"
+            },
+            "19": {
+                "slope": 0.008921110838,
+                "stringID": "lora:engine_sense_12V"
+            },
+            "0": {
+                "offset": 0,
+                "slope": 0.001622020152,
+                "stringID": "lora:rcu_5V_voltage"
+            },
+            "1": {
+                "offset": 0,
+                "slope": 0.00535,
+                "stringID": "lora:rcu_12V_voltage"
+            },
+            "10": {
+                "offset": 0,
+                "slope": 0.0000001,
+                "stringID": "lora:gps_latitude"
+            },
+            "11": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:gps_altitude"
+            },
+            "2": {
+                "offset": 0,
+                "slope": 0.00024414,
+                "stringID": "lora:rcu_barometer"
+            },
+            "3": {
+                "offset": -16,
+                "slope": 0.0078125,
+                "stringID": "lora:rcu_accel_x"
+            },
+            "4": {
+                "offset": -16,
+                "slope": 0.0078125,
+                "stringID": "lora:rcu_accel_y"
+            },
+            "5": {
+                "offset": -16,
+                "slope": 0.0078125,
+                "stringID": "lora:rcu_accel_z"
+            },
+            "6": {
+                "offset": -2000,
+                "slope": 0.97656,
+                "stringID": "lora:rcu_gyro_x"
+            },
+            "7": {
+                "offset": -2000,
+                "slope": 0.97656,
+                "stringID": "lora:rcu_gyro_y"
+            },
+            "8": {
+                "offset": -2000,
+                "slope": 0.97656,
+                "stringID": "lora:rcu_gyro_z"
+            },
+            "9": {
+                "offset": 0,
+                "slope": 0.0000001,
+                "stringID": "lora:gps_longitude"
+            },
+            "12": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:gps_status"
+            },
+            "13": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:rcu_out_0"
+            },
+            "14": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:camera_1"
+            },
+            "15": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:camera_2"
+            },
+            "16": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "lora:rcu_out_3"
+            },
+            "stringID": "lora:rcu"
         }
     },
     "DefaultEventMapping": {
@@ -591,7 +941,31 @@
         ]
     },
     "EventMapping": {
-        "ecu:FlashStatus": [
+        "engine_ecu:FlashStatus": [
+            {
+                "state": "gui:Flash:Clear",
+                "triggerType": "!=",
+                "triggerValue": 0,
+                "value": 0
+            }
+        ],
+        "ox_ecu:FlashStatus": [
+            {
+                "state": "gui:Flash:Clear",
+                "triggerType": "!=",
+                "triggerValue": 0,
+                "value": 0
+            }
+        ],
+        "fuel_ecu:FlashStatus": [
+            {
+                "state": "gui:Flash:Clear",
+                "triggerType": "!=",
+                "triggerValue": 0,
+                "value": 0
+            }
+        ],
+        "rcu:FlashStatus": [
             {
                 "state": "gui:Flash:Clear",
                 "triggerType": "!=",
@@ -601,11 +975,15 @@
         ],
         "gui:Flash:Clear": [
             {
-                "command": "ecu:RequestFlashClear",
+                "command": "engine_ecu:RequestFlashClear",
                 "parameters": []
             },
             {
-                "command": "pmu:RequestFlashClear",
+                "command": "ox_ecu:RequestFlashClear",
+                "parameters": []
+            },
+            {
+                "command": "fuel_ecu:RequestFlashClear",
                 "parameters": []
             },
             {
@@ -621,13 +999,19 @@
         ],
         "gui:Logging": [
             {
-                "command": "ecu:SetLoggingEnabled",
+                "command": "engine_ecu:SetLoggingEnabled",
                 "parameters": [
                     "gui:Logging"
                 ]
             },
             {
-                "command": "pmu:SetLoggingEnabled",
+                "command": "ox_ecu:SetLoggingEnabled",
+                "parameters": [
+                    "gui:Logging"
+                ]
+            },
+            {
+                "command": "fuel_ecu:SetLoggingEnabled",
                 "parameters": [
                     "gui:Logging"
                 ]
@@ -945,22 +1329,6 @@
                     1,
                     "venturi_weight:sensor"
                 ]
-            }
-        ],
-        "pmu:FlashStatus": [
-            {
-                "state": "gui:Flash:Clear",
-                "triggerType": "!=",
-                "triggerValue": 0,
-                "value": 0
-            }
-        ],
-        "rcu:FlashStatus": [
-            {
-                "state": "gui:Flash:Clear",
-                "triggerType": "!=",
-                "triggerValue": 0,
-                "value": 0
             }
         ],
         "fuel_rocket:GetRocketState": [

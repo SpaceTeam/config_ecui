@@ -371,19 +371,19 @@
             {
                 "type": "display",
                 "style": "text",
-                "variable": "lora-gps_latitude-sensor",
+                "variable": "gps_latitude-sensor",
                 "label": "Latitude"
             },
             {
                 "type": "display",
                 "style": "text",
-                "variable": "lora-gps_longitude-sensor",
+                "variable": "gps_longitude-sensor",
                 "label": "Longitude"
             },
             {
                 "type": "display",
                 "style": "external",
-                "source": "http://localhost:3000/d-solo/yJ9UYDqnk/guidance-and-navigation?orgId=1&panelId=2",
+                "source": "http://192.168.0.7:3000/d-solo/yJ9UYDqnk/guidance-and-navigation?orgId=1&panelId=2",
                 "autoID": false,
                 "width": 450,
                 "height": 200

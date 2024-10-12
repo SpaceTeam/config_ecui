@@ -254,6 +254,37 @@
             }
         ]
 	},
+	"lora_gnss": {
+	    "states": [
+	        "GNSSLora"
+	    ],
+	    "popup": [
+            {
+                "type": "display",
+                "style": "text"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "variable": "lora-gps_latitude-sensor",
+                "label": "Latitude"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "variable": "lora-gps_longitude-sensor",
+                "label": "Longitude"
+            },
+            {
+                "type": "display",
+                "style": "external",
+                "source": "http://192.168.0.7:3000/d-solo/yJ9UYDqnk/guidance-and-navigation?orgId=1&panelId=2",
+                "autoID": false,
+                "width": 450,
+                "height": 200
+            }
+        ]
+    },
 	"gse_voltages_label": {
         "states": [
             "GSEVoltages"
@@ -352,6 +383,69 @@
             }
         ]
 	},
+	"rocket_voltages_label_lora": {
+        "states": [
+            "RocketVoltagesLora"
+        ],
+        "popup": [
+            {
+                "type": "display",
+                "style": "text",
+                "label": "RCU     5V",
+                "variable": "lora-rcu_5V_voltage-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "RCU    12V",
+                "variable": "lora-rcu_12V_voltage-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Ox      5V",
+                "variable": "lora-ox_sense_5V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Ox     12V",
+                "variable": "lora-ox_sense_12V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Fuel    5V",
+                "variable": "lora-fuel_sense_5V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Fuel 12V",
+                "variable": "lora-fuel_sense_12V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Engine  5V",
+                "variable": "lora-engine_sense_5V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Engine 12V",
+                "variable": "lora-engine_sense_12V-sensor",
+                "suffix": "V"
+            }
+        ]
+	},
 	"rocket_state_machine": {
 		"states": [
             "fuel_rocket:sensor",
@@ -396,7 +490,7 @@
 	    "states": [
 	        "strongback:sensor"
 	    ],
-	    "eval": "if (inVars['value'] >= thresholds['solenoid']['high']) { outVars['color']='open'; outVars['value']='Retracting' } else { outVars['color']='closed'; outVars['value']='Stopped' }",
+	    "eval": "if (inVars['value'] >= 150) { outVars['color']='open'; outVars['value']='Retracting ('  + inVars['value'] + ')' } else { outVars['color']='closed'; outVars['value']='Stopped (' + inVars['value'] + ')' }",
         "sens_deviation": "if ((setState == 0 && feedback >= thresholds['solenoid']['high']) || (setState == 1 && feedback < thresholds['solenoid']['high'])) { return true; } return false;",
         "popup": [
             {
@@ -816,48 +910,6 @@
         ],
         "eval": "if (inVars['value'] >= thresholds['waterTemps']['notconnected']) { outVars['color'] = 'empty' } else { outVars['color'] = 'content' }"
     },
-    "logging_leds_ecu": {
-        "states": [
-            "ecu:LoggingEnabled",
-            "lora:ecu:LoggingEnabled"
-        ],
-        "eval": "outVars['value'] = 'ECU'"
-    },
-    "logging_leds_pmu": {
-        "states": [
-            "pmu:LoggingEnabled",
-            "lora:pmu:LoggingEnabled"
-        ],
-        "eval": "outVars['value'] = 'PMU'"
-    },
-    "logging_leds_rcu": {
-        "states": [
-            "rcu:LoggingEnabled",
-            "lora:rcu:LoggingEnabled"
-        ],
-        "eval": "outVars['value'] = 'RCU'"
-    },
-    "flash_clear_leds_ecu": {
-        "states": [
-            "ecu:FlashStatus",
-            "lora:ecu:FlashStatus"
-        ],
-        "eval": "switch (inVars['value']) { case 0: outVars['color']='on'; outVars['value'] = 'ECU Clear'; break; case 1: outVars['color']='success'; outVars['value'] = 'ECU Done'; break; case 2: outVars['color']='error'; outVars['value'] = 'ECU Full'; break; default: outVars['color']='off'; outVars['value'] = 'ECU ???' }"
-    },
-    "flash_clear_leds_pmu": {
-        "states": [
-            "pmu:FlashStatus",
-            "lora:pmu:FlashStatus"
-        ],
-        "eval": "switch (inVars['value']) { case 0: outVars['color']='on'; outVars['value'] = 'PMU Clear'; break; case 1: outVars['color']='success'; outVars['value'] = 'PMU Done'; break; case 2: outVars['color']='error'; outVars['value'] = 'PMU Full'; break; default: outVars['color']='off'; outVars['value'] = 'PMU ???' }"
-    },
-    "flash_clear_leds_rcu": {
-        "states": [
-            "rcu:FlashStatus",
-            "lora:rcu:FlashStatus"
-        ],
-        "eval": "switch (inVars['value']) { case 0: outVars['color']='on'; outVars['value'] = 'RCU Clear'; break; case 1: outVars['color']='success'; outVars['value'] = 'RCU Done'; break; case 2: outVars['color']='error'; outVars['value'] = 'RCU Full'; break; default: outVars['color']='off'; outVars['value'] = 'RCU ???' }"
-    },
     "height_sensor_graph_pmu": {
         "states": [
             "lora:pmu_altitude:sensor"
@@ -915,7 +967,7 @@
 	},
 	"flash_clear_label": {
         "states": [
-            "Flash-Clear"
+            "Flash:Clear"
         ],
         "popup": [
             {
@@ -923,6 +975,27 @@
                 "style": "button",
                 "variable": "value",
                 "label": "value"
+            }
+        ]
+	},
+	"loraenable": {
+        "states": [
+            "LoraEnabled"
+        ],
+        "popup": [
+            {
+                "type": "input",
+                "style": "numberEntry",
+                "min": "0",
+                "max": "65535",
+                "label": "LoRa Enable:",
+                "suffix": "s",
+                "variable": "value"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "variable": "0 = off, 1 = on, 2 = high speed for x seconds"
             }
         ]
 	}

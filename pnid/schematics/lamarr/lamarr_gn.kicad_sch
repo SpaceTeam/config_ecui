@@ -1006,12 +1006,11 @@
 			)
 		)
 		(property "Value" "rcu_barometer:sensor"
-			(at 132.334 149.098 0)
+			(at 120.65 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1210,22 +1209,22 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062b3b0ae")
-		(property "Reference" "ecu_logging_en"
-			(at 169.6212 103.7082 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "ecu:LoggingEnabled"
+		(property "Reference" "Engine"
 			(at 167.64 107.315 0)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "engine_ecu:LoggingEnabled"
+			(at 167.64 107.315 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1258,7 +1257,7 @@
 		(instances
 			(project ""
 				(path "/36ab48f7-5e7c-4e41-86c1-cfb7f58b6dd7"
-					(reference "ecu_logging_en")
+					(reference "Engine")
 					(unit 1)
 				)
 			)
@@ -1346,14 +1345,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062b3b971")
-		(property "Reference" "rcu_logging_en"
-			(at 191.5922 103.7082 0)
+		(property "Reference" "RCU"
+			(at 189.865 107.315 0)
 			(effects
 				(font
 					(size 0.508 0.508)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "rcu:LoggingEnabled"
@@ -1362,6 +1360,7 @@
 				(font
 					(size 0.508 0.508)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1394,7 +1393,7 @@
 		(instances
 			(project ""
 				(path "/36ab48f7-5e7c-4e41-86c1-cfb7f58b6dd7"
-					(reference "rcu_logging_en")
+					(reference "RCU")
 					(unit 1)
 				)
 			)
@@ -1610,132 +1609,6 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:LED")
-		(at 167.64 123.825 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000062b42647")
-		(property "Reference" "ecu_flash_status"
-			(at 169.6212 123.3932 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "ecu:FlashStatus"
-			(at 167.64 127.635 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 123.825 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 123.825 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/36ab48f7-5e7c-4e41-86c1-cfb7f58b6dd7"
-					(reference "ecu_flash_status")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:LED")
-		(at 189.611 123.825 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000062b4264d")
-		(property "Reference" "rcu_flash_status"
-			(at 191.5922 123.3932 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "rcu:FlashStatus"
-			(at 189.865 127.635 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.611 123.825 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.611 123.825 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.611 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/36ab48f7-5e7c-4e41-86c1-cfb7f58b6dd7"
-					(reference "rcu_flash_status")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID-Lib:LED")
 		(at 89.154 139.573 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1792,6 +1665,130 @@
 			(project ""
 				(path "/36ab48f7-5e7c-4e41-86c1-cfb7f58b6dd7"
 					(reference "ecu_flash_status?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 174.625 123.825 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09dd30a8-9023-433c-bf84-9777334eb513")
+		(property "Reference" "Fuel"
+			(at 174.625 127 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "fuel_ecu:FlashStatus"
+			(at 174.625 127 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.625 123.825 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 174.625 123.825 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 174.625 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_gn"
+				(path "/36ab48f7-5e7c-4e41-86c1-cfb7f58b6dd7"
+					(reference "Fuel")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 182.245 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "417e5a70-1d5d-44fc-ae2d-a1a8f1333723")
+		(property "Reference" "Ox"
+			(at 182.245 107.315 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "ox_ecu:LoggingEnabled"
+			(at 182.245 107.315 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.245 104.14 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.245 104.14 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.245 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_gn"
+				(path "/36ab48f7-5e7c-4e41-86c1-cfb7f58b6dd7"
+					(reference "Ox")
 					(unit 1)
 				)
 			)
@@ -1883,6 +1880,256 @@
 			(project "lamarr_gn"
 				(path "/36ab48f7-5e7c-4e41-86c1-cfb7f58b6dd7"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 167.64 123.825 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8187fdf0-5690-4bd7-ac63-a46ccdcee99d")
+		(property "Reference" "Engine"
+			(at 167.64 127 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "engine_ecu:FlashStatus"
+			(at 167.64 127 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 123.825 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 123.825 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_gn"
+				(path "/36ab48f7-5e7c-4e41-86c1-cfb7f58b6dd7"
+					(reference "Engine")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 182.245 123.825 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2c39c76-c7e3-44aa-8c08-37aa8580f226")
+		(property "Reference" "Ox"
+			(at 182.245 127 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "ox_ecu:FlashStatus"
+			(at 182.245 127 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.245 123.825 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.245 123.825 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.245 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_gn"
+				(path "/36ab48f7-5e7c-4e41-86c1-cfb7f58b6dd7"
+					(reference "Ox")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 174.625 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfcc80a6-0e0a-47a5-a0b2-1c910fa1b346")
+		(property "Reference" "Fuel"
+			(at 174.625 107.315 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "fuel_ecu:LoggingEnabled"
+			(at 174.625 107.315 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.625 104.14 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 174.625 104.14 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 174.625 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_gn"
+				(path "/36ab48f7-5e7c-4e41-86c1-cfb7f58b6dd7"
+					(reference "Fuel")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:LED")
+		(at 189.611 123.825 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffe7b8a5-7b62-4d58-b1e9-e35ef8b87a39")
+		(property "Reference" "RCU"
+			(at 189.865 127 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "rcu:FlashStatus"
+			(at 189.865 127 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.611 123.825 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.611 123.825 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.611 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_gn"
+				(path "/36ab48f7-5e7c-4e41-86c1-cfb7f58b6dd7"
+					(reference "RCU")
 					(unit 1)
 				)
 			)

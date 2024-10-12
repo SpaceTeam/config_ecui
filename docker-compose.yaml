@@ -12,6 +12,8 @@ services:
     depends_on:
       - web-ecui
       - influxdb
+    ports:
+      - "5001:5001/udp"
     volumes:
       - ${CONFIG_DIR}:/home/config_ecui
       - /dev:/dev
