@@ -164,7 +164,7 @@
                 "stringID": "ox_temp_0"
             },
             "5": {
-                "offset": -313,
+                "offset": -308,
                 "slope": 0.0188,
                 "stringID": "ox_temp_1"
             },
@@ -216,6 +216,7 @@
                 "stringID": "engine_igniter_3_cont"
             },
             "16": {
+                "slope": 0.001525879,
                 "stringID": "engine_ox_main_pi_controller"
             },
             "17": {
@@ -297,6 +298,7 @@
                 "stringID": "holddown_cont"
             },
             "16": {
+                "slope": 0.001525879,
                 "stringID": "gse_pneu_unused_pi_controller"
             },
             "17": {
@@ -378,6 +380,7 @@
                 "stringID": "gse_igniter_3_cont"
             },
             "16": {
+                "slope": 0.001525879,
                 "stringID": "gse_elec_unused_pi_controller"
             },
             "17": {
@@ -473,14 +476,22 @@
             "stringID": "teststand_lcb"
         },
         "29": {
+            "18": {
+                "slope": 0.001622020152,
+                "stringID": "engine_sense_5V"
+            },
+            "19": {
+                "slope": 0.008921110838,
+                "stringID": "engine_sense_12V"
+            },
             "0": {
                 "offset": 0,
-                "slope": 0.00010071,
+                "slope": 0.001622020152,
                 "stringID": "rcu_5V_voltage"
             },
             "1": {
                 "offset": 0,
-                "slope": 0.00033234,
+                "slope": 0.00535,
                 "stringID": "rcu_12V_voltage"
             },
             "10": {
@@ -538,15 +549,25 @@
                 "slope": 1.0,
                 "stringID": "gps_status"
             },
+            "13": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "rcu_out_0"
+            },
             "14": {
                 "offset": 0,
                 "slope": 1.0,
                 "stringID": "camera_1"
             },
-            "16": {
+            "15": {
                 "offset": 0,
                 "slope": 1.0,
                 "stringID": "camera_2"
+            },
+            "16": {
+                "offset": 0,
+                "slope": 1.0,
+                "stringID": "rcu_out_3"
             },
             "stringID": "rcu"
         }
@@ -702,7 +723,7 @@
         ],
         "gui:holddown:sensor": [
             {
-                "command": "holddown:SetTargetPosition",
+                "command": "holddown:SetState",
                 "parameters": [
                     0
                 ],
@@ -710,9 +731,9 @@
                 "triggerValue": 0
             },
             {
-                "command": "holddown:SetTargetPosition",
+                "command": "holddown:SetState",
                 "parameters": [
-                    65535
+                    1
                 ],
                 "triggerType": "==",
                 "triggerValue": 1

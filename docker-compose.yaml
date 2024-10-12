@@ -54,7 +54,7 @@ services:
     image: influxdb:1.8
     restart: always
     ports:
-      - "8086:8086"
+      - "9999:8086"
     volumes:
       - ${CONFIG_DIR}/influx/config:/etc/influxdb
       - ${CONFIG_DIR}/influx/influxdb:/root/.influxdb

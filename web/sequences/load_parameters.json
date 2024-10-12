@@ -20,7 +20,16 @@
 			"ox_pi_controller:SetP_NEG": "none",
 			"ox_pi_controller:SetI_POS": "none",
 			"ox_pi_controller:SetI_NEG": "none",
-			"ox_pi_controller:SetTarget": "none"
+			"ox_pi_controller:SetTarget": "none",
+			"engine_ox_main_pi_controller:SetEnabled": "none",
+			"engine_ox_main_pi_controller:SetSensorSlope": "none",
+			"engine_ox_main_pi_controller:SetSensorOffset": "none",
+			"engine_ox_main_pi_controller:SetOperatingPoint": "none",
+			"engine_ox_main_pi_controller:SetP_POS": "none",
+			"engine_ox_main_pi_controller:SetP_NEG": "none",
+			"engine_ox_main_pi_controller:SetI_POS": "none",
+			"engine_ox_main_pi_controller:SetI_NEG": "none",
+			"engine_ox_main_pi_controller:SetTarget": "none"
 		},
 		"interval": 0.01,
 		"ranges": [
@@ -89,6 +98,33 @@
 					],
 					"ox_pi_controller:SetI_NEG": [
 						4
+					],
+					"engine_ox_main_pi_controller:SetEnabled": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetTarget": [
+						50
+					],
+					"engine_ox_main_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"engine_ox_main_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"engine_ox_main_pi_controller:SetOperatingPoint": [
+						80
+					],
+					"engine_ox_main_pi_controller:SetP_POS": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetI_POS": [
+						-0.2
+					],
+					"engine_ox_main_pi_controller:SetP_NEG": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetI_NEG": [
+						-1.5
 					]
 				}
 			]
@@ -153,6 +189,33 @@
 					],
 					"ox_pi_controller:SetI_NEG": [
 						4
+					],
+					"engine_ox_main_pi_controller:SetEnabled": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetTarget": [
+						50
+					],
+					"engine_ox_main_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"engine_ox_main_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"engine_ox_main_pi_controller:SetOperatingPoint": [
+						80
+					],
+					"engine_ox_main_pi_controller:SetP_POS": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetI_POS": [
+						-0.2
+					],
+					"engine_ox_main_pi_controller:SetP_NEG": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetI_NEG": [
+						-1.5
 					]
 				}
 			]

@@ -5,6 +5,7 @@
     },
     "PnID-Lib-Rocket_Channel": {
         "eval": "if (parseInt(inVars['value']) >= 0 && parseInt(inVars['value']) < thresholds['enums']['state_machine'].length) { outVars['value'] = thresholds['enums']['state_machine'][parseInt(inVars['value'])]; outVars['color'] = 'good' } else { outVars['value'] = 'Unknown State (' + inVars['value'] + ')'; outVars['color'] = 'unknown' }; if (parseInt(inVars['value']) == 0) { outVars['color'] = 'neutral' } else if (parseInt(inVars['value']) == 7) { outVars['color'] = 'bad' }",
+        "sens_deviation": "return false;",
         "popup": [
             {
                 "type": "display",
@@ -60,7 +61,7 @@
                 "collapsible": true,
                 "collapsibleLabel": "Internal Control",
                 "label": "Internal Control",
-                "action": "startTimer(-10, null)"
+                "action": "startTimer(-5, null)"
             },
             {
                 "type": "input",
@@ -495,7 +496,8 @@
         "eval": "if (inVars['value'] > 0) { outVars['color']='on'; } else { outVars['color']='off'; }"
     },
     "PnID-Lib-Flowchart_State": {
-        "eval": "if (inVars['value'] >= 0) { outVars['color']='neutral'; } else { outVars['color']='unknown'; }"
+        "eval": "if (inVars['value'] >= 0) { outVars['color']='neutral'; } else { outVars['color']='unknown'; }",
+        "sens_deviation": "return false;"
     },
     "PnID-Lib-Engine_TorchIgniter": {
         "eval": "",

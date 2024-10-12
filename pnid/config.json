@@ -409,6 +409,13 @@
             }
         ]
     },
+    "dewar_press_solenoid": {
+        "states": [
+            "dewar_pressurize_solenoid:sensor"
+        ],
+        "eval": "if (inVars['value'] >= 450) { outVars['color']='open'; outVars['value']='Open (' + inVars['value'] + ')' } else { outVars['color']='closed'; outVars['value']='Closed (' + inVars['value'] + ')' }",
+        "sens_deviation": "if ((setState == 0 && feedback >= 450) || (setState == 1 && feedback < 450)) { return true; } return false;"
+    },
     "dewar_weight": {
         "states": [
             "dewar_weight:sensor"
@@ -885,9 +892,9 @@
 	},
 	"holddown": {
         "states": [
-            "holddown_feedback:sensor"
+            "holddown:sensor"
         ],
-        "eval": "if (inVars['value'] >= thresholds['motor']['high']) { outVars['color']='open'; outVars['value']='Release' } else { outVars['color']='closed'; outVars['value']='Hold' }",
+        "eval": "if (inVars['value'] >= thresholds['solenoid']['high']) { outVars['color']='open'; outVars['value']='Release' } else { outVars['color']='closed'; outVars['value']='Hold' }",
         "popup": [
             {
                 "type": "display",
