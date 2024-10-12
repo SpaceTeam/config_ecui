@@ -298,14 +298,14 @@
                 "type": "display",
                 "style": "text",
                 "label": "RCU     5V",
-                "variable": "rcu_sense_5V-sensor",
+                "variable": "rcu_5V_voltage-sensor",
                 "suffix": "V"
             },
             {
                 "type": "display",
                 "style": "text",
                 "label": "RCU    12V",
-                "variable": "rcu_sense_12V-sensor",
+                "variable": "rcu_12V_voltage-sensor",
                 "suffix": "V"
             },
             {
@@ -435,7 +435,7 @@
             {
                 "type": "display",
                 "style": "external",
-                "source": null,
+                "source": "dewar_weight:sensor",
                 "autoID": false,
                 "width": 450,
                 "height": 200
@@ -461,7 +461,7 @@
             {
                 "type": "display",
                 "style": "external",
-                "source": null,
+                "source": "rocket_weight:sensor",
                 "autoID": false,
                 "width": 450,
                 "height": 200
@@ -487,7 +487,7 @@
             {
                 "type": "display",
                 "style": "external",
-                "source": null,
+                "source": "fuel_weight:sensor",
                 "autoID": false,
                 "width": 450,
                 "height": 200
@@ -513,7 +513,7 @@
             {
                 "type": "display",
                 "style": "external",
-                "source": null,
+                "source": "ox_weight:sensor",
                 "autoID": false,
                 "width": 450,
                 "height": 200
