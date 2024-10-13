@@ -7147,7 +7147,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ecu:FlashStatus"
+		(property "Value" "engine_ecu:FlashStatus"
 			(at 251.46 35.814 90)
 			(effects
 				(font

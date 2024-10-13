@@ -871,7 +871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "accel_y"
+		(property "Value" "rcu_accel_y:sensor"
 			(at 63.754 134.366 0)
 			(effects
 				(font
@@ -1418,7 +1418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "accel_z"
+		(property "Value" "rcu_accel_z:sensor"
 			(at 34.798 159.766 0)
 			(effects
 				(font
@@ -1491,7 +1491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "accel_x"
+		(property "Value" "rcu_accel_x:sensor"
 			(at 34.798 134.366 0)
 			(effects
 				(font

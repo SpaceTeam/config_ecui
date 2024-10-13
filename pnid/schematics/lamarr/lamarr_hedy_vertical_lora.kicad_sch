@@ -8705,7 +8705,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "lora:ecu:FlashStatus"
+		(property "Value" "lora:engine_ecu:FlashStatus"
 			(at 13.716 -131.318 90)
 			(effects
 				(font
