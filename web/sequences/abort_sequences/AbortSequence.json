@@ -26,6 +26,18 @@
         ],
         "engine_ox_main_pi_controller:SetEnabled": [
             0
+        ],
+        "pressurant_vent_valve:SetState": [
+            0
+        ],
+        "ox_vent:SetState": [
+            0
+        ],
+        "fuel_vent:SetState": [
+            0
+        ],
+        "ox_tanking_valve:SetState": [
+            0
         ]
     }
 }
