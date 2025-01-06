@@ -1,9 +1,9 @@
 {
 	"globals": {
-		"endTime": 10,
+		"endTime": 30,
 		"interpolation": {
 			"fuel_vent:SetState": "none",
-			"fuel_main_valve:SetTargetPosition": "linear",
+			"fuel_main_valve:SetTargetPosition": "none",
 			"fuel_pi_controller:SetEnabled": "none",
 			"fuel_pi_controller:SetTarget": "none"
 		},
@@ -66,6 +66,19 @@
 					"timestamp": 0.0,
 					"fuel_pi_controller:SetEnabled": [
 						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp":29.0,
+			"name": "pre pressurize",
+			"desc": "enable PI controller",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pi_controller:SetEnabled": [
+						0
 					]
 				}
 			]
