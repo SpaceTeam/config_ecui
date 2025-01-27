@@ -70,6 +70,137 @@
 				)
 			)
 		)
+		(symbol "Label_2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U3"
+				(at 0 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Label"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Label_2_0_0"
+				(rectangle
+					(start -7.62 2.54)
+					(end 7.62 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Label_3"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "fuel_pi_controller"
+				(at 0 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "fuel_pi_controller:Enabled"
+				(at -6.604 -0.254 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Label_3_0_0"
+				(rectangle
+					(start -7.62 2.54)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "PnID-Lib:BurstDisc"
 			(pin_numbers hide)
 			(pin_names
@@ -3867,6 +3998,134 @@
 				)
 			)
 		)
+		(symbol "Sensor_Temperature_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ox_mainfold_temperature_1"
+				(at -7.874 3.81 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "ox_temp_1:sensor"
+				(at -6.096 -4.064 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "˚C"
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Sensor_Temperature_1_0_0"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "T"
+					(at -2.54 0 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "Sensor_Temperature_1_0_1"
+				(circle
+					(center -2.54 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Sensor_Temperature_1_1_1"
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Valve_Pneumatic_1"
 			(pin_numbers hide)
 			(pin_names
@@ -5007,6 +5266,17 @@
 			(type default)
 		)
 		(uuid "f753b457-7197-4b60-ae4b-59ed6d2f8f35")
+	)
+	(text "PI Controllers"
+		(exclude_from_sim no)
+		(at 243.332 144.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "1be0b7a9-56fd-45b1-9239-293746a24165")
 	)
 	(symbol
 		(lib_id "PnID-Lib:Engine")
@@ -6190,6 +6460,70 @@
 			(project "lamarr_hedy"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "pressurant_tanking_valve_(A1)")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Label_3")
+		(lib_id "PnID:Label")
+		(at 245.11 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05b85a80-2897-42c5-8148-5cc48d265d9e")
+		(property "Reference" "ox_pi_controller"
+			(at 245.11 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_pi_controller:Enabled"
+			(at 238.506 151.384 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_pi_controller")
 					(unit 1)
 				)
 			)
@@ -7642,7 +7976,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 133.858 95.25 0)
+		(at 134.62 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7650,7 +7984,7 @@
 		(dnp no)
 		(uuid "506e1cd8-8af7-46ce-abd8-70a5b2b19a48")
 		(property "Reference" "ox_manifold_temperature"
-			(at 137.668 94.615 0)
+			(at 138.43 94.615 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7660,7 +7994,7 @@
 			)
 		)
 		(property "Value" "ox_temp_0:sensor"
-			(at 134.874 90.17 0)
+			(at 135.636 90.17 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7668,7 +8002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.858 95.25 0)
+			(at 134.62 95.25 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7677,7 +8011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.858 95.25 0)
+			(at 134.62 95.25 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7686,7 +8020,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.858 95.25 0)
+			(at 134.62 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +8029,7 @@
 			)
 		)
 		(property "Unit" "˚C"
-			(at 133.858 95.25 0)
+			(at 134.62 95.25 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7704,7 +8038,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 133.858 95.25 0)
+			(at 134.62 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8322,7 +8656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "ox_temp_1:sensor"
+		(property "Value" "fuel_temp_0:sensor"
 			(at 128.778 125.984 0)
 			(effects
 				(font
@@ -8383,6 +8717,92 @@
 			(project "lamarr_hedy"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "ox_tank_top_temperature")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Sensor_Temperature_1")
+		(lib_id "PnID-Lib:Sensor_Temperature")
+		(at 115.57 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a5c1bba-ebdb-4250-b935-69a94e425621")
+		(property "Reference" "ox_mainfold_temperature_1"
+			(at 107.696 109.22 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "ox_temp_1:sensor"
+			(at 109.474 117.094 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "˚C"
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "df12271e-67cf-447d-98a4-1478682b6366")
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_mainfold_temperature_1")
 					(unit 1)
 				)
 			)
@@ -9821,6 +10241,70 @@
 		)
 	)
 	(symbol
+		(lib_name "Label_2")
+		(lib_id "PnID:Label")
+		(at 35.56 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8e6efde-4de0-4c76-bfe9-419779ee5ce5")
+		(property "Reference" "pressure_control"
+			(at 35.56 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "pressurant_tanking_control:Enabled"
+			(at 28.956 67.564 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "pressure_control")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PnID-Lib:LED")
 		(at 150.368 143.51 0)
 		(unit 1)
@@ -10917,90 +11401,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 91.44 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0ccf382-50ad-49d6-9142-c6faee770708")
-		(property "Reference" "fuel_manifold_temperature"
-			(at 95.25 94.615 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "fuel_temp_0:sensor"
-			(at 92.456 90.17 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 95.25 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 95.25 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "˚C"
-			(at 91.44 95.25 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Action_Reference" " "
-			(at 91.44 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "1684bb79-bebb-464e-b71b-8413169b4696")
-		)
-		(instances
-			(project "lamarr_hedy"
-				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
-					(reference "fuel_manifold_temperature")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PnID-Lib:LED")
 		(at 251.46 28.702 90)
 		(unit 1)
@@ -11197,6 +11597,91 @@
 			(project ""
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "Orifice1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Temperature")
+		(at 130.81 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de0e66b1-5e44-45e3-8fbb-33a22cf3732f")
+		(property "Reference" "ox_main_valve_temperature_1"
+			(at 134.62 175.895 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "engine_temp_1:sensor"
+			(at 127.889 181.864 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "˚C"
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "86fb4569-54f8-4208-b230-43e675231ebc")
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_main_valve_temperature_1")
 					(unit 1)
 				)
 			)
@@ -11817,6 +12302,155 @@
 			(project "lamarr_hedy"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "BurstDisc3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Label_3")
+		(lib_id "PnID:Label")
+		(at 245.11 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f862421b-1702-4128-afb5-a2b2f2e0530f")
+		(property "Reference" "fuel_pi_controller"
+			(at 245.11 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "fuel_pi_controller:Enabled"
+			(at 238.506 159.004 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "fuel_pi_controller")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Temperature")
+		(at 130.81 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8ba9898-fa19-41e2-ad86-c39aca6b321d")
+		(property "Reference" "ox_main_valve_temperature"
+			(at 134.62 165.735 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "engine_temp_0:sensor"
+			(at 127.889 171.704 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 166.37 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 166.37 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "˚C"
+			(at 130.81 166.37 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 130.81 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "bf463d04-53fa-499c-a433-2e852f2a1bd8")
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ox_main_valve_temperature")
 					(unit 1)
 				)
 			)

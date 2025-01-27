@@ -519,13 +519,13 @@
                 "stringID": "fuel_pressure_3"
             },
             "4": {
-                "offset": -313,
-                "slope": 0.0188,
+                "offset": -231.3282,
+                "slope": 0.0142,
                 "stringID": "fuel_temp_0"
             },
             "5": {
-                "slope":  0.0142,
-                "offset": -231.3282,
+                "offset": -233.3153,
+                "slope": 0.0145,
                 "stringID": "fuel_temp_1"
             },
             "6": {
@@ -605,13 +605,13 @@
                 "stringID": "ox_pressure_3"
             },
             "4": {
-                "slope": 0.0148,
                 "offset": -242.0727,
+                "slope": 0.0148,
                 "stringID": "ox_temp_0"
             },
             "5": {
-                "slope": 0.0149,
                 "offset": -239.9132,
+                "slope": 0.0149,
                 "stringID": "ox_temp_1"
             },
             "6": {
@@ -691,9 +691,13 @@
                 "stringID": "engine_pressure_3"
             },
             "4": {
+                "offset": -240.8472,
+                "slope": 0.0147,
                 "stringID": "engine_temp_0"
             },
             "5": {
+                "offset": -238.8339,
+                "slope": 0.0146,
                 "stringID": "engine_temp_1"
             },
             "6": {
@@ -767,10 +771,13 @@
                 "slope": 0.008921110838,
                 "stringID": "gse_pneu_sense_12VA"
             },
+            "21": {
+                "stringID": "pressurant_tanking_control"
+            },
             "3": {
-                "offset": 0,
-                "slope": 1,
-                "stringID": "ox_decoupler_feedback"
+                "offset": -100,
+                "slope": 0.125885,
+                "stringID": "pressurant_tanking_pressure"
             },
             "4": {
                 "stringID": "gse_pneu_temp_0"
@@ -798,9 +805,9 @@
         },
         "35": {
             "0": {
-                "offset": -100,
-                "slope": 0.125885,
-                "stringID": "pressurant_tanking_pressure"
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_elec_press_0"
             },
             "1": {
                 "offset": 0,
@@ -858,7 +865,9 @@
                 "stringID": "gse_elec_temp_0"
             },
             "5": {
-                "stringID": "gse_elec_temp_1"
+                "offset": 77265.0,
+                "slope": 1.0,
+                "stringID": "rocket_weight_unused"
             },
             "6": {
                 "offset": 0.0,
@@ -880,12 +889,12 @@
         },
         "8": {
             "0": {
-                "offset": -5375.0,
-                "slope": 1.0,
+                "offset": -22.21788734324998,
+                "slope": 7.38222613e-06,
                 "stringID": "rocket_weight"
             },
             "1": {
-                "offset": -76.2640152,
+                "offset": -0.01053759999999998,
                 "slope": -1.48e-05,
                 "stringID": "dewar_weight"
             },
