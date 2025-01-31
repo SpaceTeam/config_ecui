@@ -201,6 +201,72 @@
 				)
 			)
 		)
+		(symbol "Label_4"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "engineecu"
+				(at 0 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "ENGINE_ECU"
+				(at -6.604 -0.254 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Label_4_0_0"
+				(rectangle
+					(start -7.62 2.54)
+					(end 10.16 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "PnID-Lib:BurstDisc"
 			(pin_numbers hide)
 			(pin_names
@@ -3998,43 +4064,47 @@
 				)
 			)
 		)
-		(symbol "PnID:Rocket_Channel"
+		(symbol "Sensor_Temperature_1"
+			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 0 1.27 0)
+			(property "Reference" "fuel_main_valve_temperature"
+				(at 3.81 0.635 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.508 0.508)
 					)
+					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Value" "Rocket_Channel"
-				(at 10.414 1.27 0)
+			(property "Value" "engine_temp_0:sensor"
+				(at -2.794 4.826 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.508 0.508)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 -3.048 0)
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.508 0.508)
 					)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 -3.048 0)
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.508 0.508)
 					)
 					(hide yes)
 				)
@@ -4048,12 +4118,13 @@
 					(hide yes)
 				)
 			)
-			(property "Unit" " "
+			(property "Unit" "˚C"
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.508 0.508)
 					)
+					(hide yes)
 				)
 			)
 			(property "Action_Reference" " "
@@ -4062,81 +4133,35 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Data_Content" " "
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "Sensor_Temperature_1_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "T"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
 					)
 				)
 			)
-			(symbol "Rocket_Channel_0_1"
-				(arc
-					(start -1.27 -1.778)
-					(mid -1.166 -3.0783)
-					(end -0.762 -4.318)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 4.572) (xy -1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -4.318) (xy -0.762 -4.318)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 4.572) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -4.318) (xy 2.54 -3.048) (xy 2.54 -1.016) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 8.382)
-					(mid -0.9522 6.5827)
-					(end -1.27 4.572)
+			(symbol "Sensor_Temperature_1_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -4146,41 +4171,23 @@
 					)
 				)
 			)
-			(symbol "Rocket_Channel_1_1"
-				(polyline
-					(pts
-						(xy -0.762 -4.318) (xy -2.54 -3.048) (xy -2.54 -1.016) (xy -1.27 0)
+			(symbol "Sensor_Temperature_1_1_1"
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.762 -4.318)
-					(mid 1.1615 -3.0774)
-					(end 1.27 -1.778)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 4.572)
-					(mid 0.9522 6.5827)
-					(end 0 8.382)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -6905,97 +6912,6 @@
 			(project "lamarr_hedy"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "ox_quick_connect3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PnID:Rocket_Channel")
-		(at 144.78 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "154ebdea-4654-4766-9364-5cf907d960d7")
-		(property "Reference" "Engine_ECU"
-			(at 148.59 169.4179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 148.59 170.6879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 178.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 178.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" " "
-			(at 148.59 171.9579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Action_Reference" " "
-			(at 148.59 174.4979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Data_Content" " "
-			(at 148.59 177.0379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project ""
-				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
-					(reference "Engine_ECU")
 					(unit 1)
 				)
 			)
@@ -11652,7 +11568,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 154.94 177.8 0)
+		(at 156.21 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11660,7 +11576,7 @@
 		(dnp no)
 		(uuid "de0e66b1-5e44-45e3-8fbb-33a22cf3732f")
 		(property "Reference" "engine_ECU_temperature"
-			(at 158.75 177.165 0)
+			(at 160.02 177.165 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11670,7 +11586,7 @@
 			)
 		)
 		(property "Value" "engine_temp_1:sensor"
-			(at 152.019 183.134 0)
+			(at 153.289 183.134 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11679,7 +11595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 177.8 0)
+			(at 156.21 177.8 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11688,7 +11604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 177.8 0)
+			(at 156.21 177.8 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11697,7 +11613,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 177.8 0)
+			(at 156.21 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11706,7 +11622,7 @@
 			)
 		)
 		(property "Unit" "˚C"
-			(at 154.94 177.8 0)
+			(at 156.21 177.8 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -11715,7 +11631,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 154.94 177.8 0)
+			(at 156.21 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12148,6 +12064,70 @@
 		)
 	)
 	(symbol
+		(lib_name "Label_4")
+		(lib_id "PnID:Label")
+		(at 138.43 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0862f76-295b-44db-9b18-367ca41f2808")
+		(property "Reference" "engineecu"
+			(at 138.43 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ENGINE_ECU"
+			(at 131.826 178.054 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "engineecu")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PnID-Lib:Valve_Pneumatic_NO")
 		(at 53.594 34.798 90)
 		(unit 1)
@@ -12420,8 +12400,9 @@
 		)
 	)
 	(symbol
+		(lib_name "Sensor_Temperature_1")
 		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 86.36 156.21 0)
+		(at 88.9 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12429,7 +12410,7 @@
 		(dnp no)
 		(uuid "f8ba9898-fa19-41e2-ad86-c39aca6b321d")
 		(property "Reference" "fuel_main_valve_temperature"
-			(at 90.17 155.575 0)
+			(at 92.71 150.495 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12439,7 +12420,7 @@
 			)
 		)
 		(property "Value" "engine_temp_0:sensor"
-			(at 83.439 161.544 0)
+			(at 86.106 146.304 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12448,7 +12429,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 156.21 0)
+			(at 88.9 151.13 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12457,7 +12438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 156.21 0)
+			(at 88.9 151.13 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12466,7 +12447,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 156.21 0)
+			(at 88.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12475,7 +12456,7 @@
 			)
 		)
 		(property "Unit" "˚C"
-			(at 86.36 156.21 0)
+			(at 88.9 151.13 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12484,7 +12465,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 86.36 156.21 0)
+			(at 88.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
