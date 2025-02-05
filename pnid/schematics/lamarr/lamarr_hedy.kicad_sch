@@ -4719,6 +4719,26 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 161.29) (xy 130.81 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f013d2b-9f82-4e5b-ad04-f9d7e0550d99")
+	)
+	(wire
+		(pts
+			(xy 90.17 147.32) (xy 83.82 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41bd8b2a-52e5-4ad0-8bb6-ffd928d16d23")
+	)
+	(wire
+		(pts
 			(xy 21.59 56.134) (xy 28.194 56.134)
 		)
 		(stroke
@@ -4919,6 +4939,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 161.29) (xy 130.81 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e8e6a42-872b-4293-b362-52a391a2f645")
+	)
+	(wire
+		(pts
 			(xy 229.87 95.25) (xy 226.568 95.25)
 		)
 		(stroke
@@ -4989,6 +5019,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 147.32) (xy 83.82 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ce016e-d85b-4202-90b7-b578811cd650")
+	)
+	(wire
+		(pts
 			(xy 216.408 95.25) (xy 216.535 95.25)
 		)
 		(stroke
@@ -5026,6 +5066,16 @@
 			(type default)
 		)
 		(uuid "9ec34477-b540-4e7c-ba1f-e42b00e732f1")
+	)
+	(wire
+		(pts
+			(xy 81.28 151.13) (xy 83.82 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a243b7f6-4334-498f-91c6-9c08dc095b1d")
 	)
 	(wire
 		(pts
@@ -6052,7 +6102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000646c30b8")
-		(property "Reference" "thrust"
+		(property "Reference" "rocket_weight"
 			(at 90.8812 178.2318 0)
 			(effects
 				(font
@@ -6129,7 +6179,7 @@
 		(instances
 			(project "lamarr_hedy"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
-					(reference "thrust")
+					(reference "rocket_weight")
 					(unit 1)
 				)
 			)
@@ -10055,7 +10105,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 128.27 156.21 0)
+		(at 138.43 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10063,7 +10113,7 @@
 		(dnp no)
 		(uuid "a67886a3-c730-4ff7-a5f0-dc2f6bb2e10e")
 		(property "Reference" "ox_main_valve_servo_temperature"
-			(at 132.08 155.575 0)
+			(at 142.24 167.005 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10073,7 +10123,7 @@
 			)
 		)
 		(property "Value" "fuel_temp_1:sensor"
-			(at 124.968 151.13 0)
+			(at 135.128 162.56 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10082,7 +10132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 156.21 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10091,7 +10141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 156.21 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10100,7 +10150,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 156.21 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10109,7 +10159,7 @@
 			)
 		)
 		(property "Unit" "˚C"
-			(at 128.27 156.21 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -10118,7 +10168,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 128.27 156.21 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12402,7 +12452,7 @@
 	(symbol
 		(lib_name "Sensor_Temperature_1")
 		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 88.9 151.13 0)
+		(at 97.79 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12410,7 +12460,7 @@
 		(dnp no)
 		(uuid "f8ba9898-fa19-41e2-ad86-c39aca6b321d")
 		(property "Reference" "fuel_main_valve_temperature"
-			(at 92.71 150.495 0)
+			(at 101.6 146.685 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12420,7 +12470,7 @@
 			)
 		)
 		(property "Value" "engine_temp_0:sensor"
-			(at 86.106 146.304 0)
+			(at 94.996 142.494 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12429,7 +12479,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 151.13 0)
+			(at 97.79 147.32 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12438,7 +12488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 151.13 0)
+			(at 97.79 147.32 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12447,7 +12497,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 151.13 0)
+			(at 97.79 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12456,7 +12506,7 @@
 			)
 		)
 		(property "Unit" "˚C"
-			(at 88.9 151.13 0)
+			(at 97.79 147.32 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -12465,7 +12515,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 88.9 151.13 0)
+			(at 97.79 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)

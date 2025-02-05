@@ -1,0 +1,168 @@
+{
+	"globals": {
+		"endTime": 10,
+		"interpolation": {
+			"ox_pressurize_solenoid:SetState": "none",
+			"ox_depressurize_solenoid:SetState": "none",
+			"fuel_pressurize_solenoid:SetState": "none",
+			"fuel_depressurize_solenoid:SetState": "none",
+			"fuel_main_valve:SetTargetPosition": "linear",
+			"ox_main_valve:SetTargetPosition": "linear",
+			"fuel_purge_solenoid:SetState": "none",
+			"fuel_pi_controller:SetEnabled": "none",
+			"fuel_pi_controller:SetTarget": "none",
+			"ox_purge_solenoid:SetState": "none",
+			"igniter_ecu_0:SetState": "none",
+			"igniter_ecu_1:SetState": "none",
+			"safety_valves:SetState": "none"
+		},
+		"interval": 0.01,
+		"ranges": [
+			"chamberPressure"
+		],
+		"startTime": -3
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "set all to zero",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pi_controller:SetEnabled": [
+						0
+					],
+					"fuel_pi_controller:SetTarget": [
+						32
+					],
+					"fuel_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"fuel_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"fuel_pi_controller:SetOperatingPoint": [
+						34.0
+					],
+					"fuel_pi_controller:SetP_POS": [
+						1.0
+					],
+					"fuel_pi_controller:SetI_POS": [
+						1.0
+					],
+					"fuel_pi_controller:SetP_NEG": [
+						1.0
+					],
+					"fuel_pi_controller:SetI_NEG": [
+						0.5
+					],
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"safety_valves:SetState": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": -0.2,
+			"name": "Enable fuel pressurization controller",
+			"desc": "",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pi_controller:SetEnabled": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 0.0,
+			"name": "Open fuel main valve",
+			"desc": "Open fuel main valve in steps and set target channel to venturi",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 8.5,
+			"name": "Close main valves",
+			"desc": "Close both main valves",
+			"actions": [
+				
+				{
+					"timestamp": 0.0,
+					"fuel_pi_controller:SetEnabled": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					]
+				},
+				{
+					"timestamp": 1.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"safety_valves:SetState": [
+						0
+					],
+					"fuel_pi_controller:SetEnabled": [
+						0
+					],
+					"fuel_pi_controller:SetTarget": [
+						32
+					],
+					"fuel_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"fuel_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"fuel_pi_controller:SetOperatingPoint": [
+						34.0
+					],
+					"fuel_pi_controller:SetP_POS": [
+						1.0
+					],
+					"fuel_pi_controller:SetI_POS": [
+						1.0
+					],
+					"fuel_pi_controller:SetP_NEG": [
+						1.0
+					],
+					"fuel_pi_controller:SetI_NEG": [
+						0.5
+					]
+				}
+			]
+		}
+	]
+}

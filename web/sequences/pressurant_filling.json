@@ -1,0 +1,74 @@
+{
+	"globals": {
+		"endTime": 30,
+		"interpolation": {
+			"pressurant_tanking_control:SetEnabled": "none",
+			"pressurant_tanking_control:SetTarget": "none"
+		},
+		"interval": 0.01,
+		"ranges": [
+			"chamberPressure"
+		],
+		"startTime": -10
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"pressurant_tanking_control:SetEnabled": [
+						0
+					],
+					"pressurant_tanking_control:SetTarget": [
+						80
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 0.0,
+			"name": "pre pressurize",
+			"desc": "enable pressure control",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"pressurant_tanking_control:SetEnabled": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp":29.0,
+			"name": "pre pressurize",
+			"desc": "disable pressure control",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"pressurant_tanking_control:SetEnabled": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"pressurant_tanking_control:SetEnabled": [
+						0
+					],
+					"pressurant_tanking_control:SetTarget": [
+						80
+					]
+				}
+			]
+		}
+	]
+}

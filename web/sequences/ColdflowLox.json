@@ -1,0 +1,171 @@
+{
+	"globals": {
+		"endTime": 15,
+		"interpolation": {
+			"ox_vent:SetState": "none",
+			"ox_main_valve:SetTargetPosition": "linear",
+			"ox_pi_controller:SetEnabled": "none",
+			"ox_pi_controller:SetTarget": "none"
+		},
+		"interval": 0.01,
+		"ranges": [
+			"chamberPressure"
+		],
+		"startTime": -10
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "set all to zero",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"ox_vent:SetState": [
+						1
+					],
+					"ox_pi_controller:SetEnabled": [
+						0
+					],
+					"ox_pi_controller:SetTarget": [
+						35
+					],
+					"ox_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"ox_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"ox_pi_controller:SetOperatingPoint": [
+						34.0
+					],
+					"ox_pi_controller:SetP_POS": [
+						1.5
+					],
+					"ox_pi_controller:SetI_POS": [
+						1.0
+					],
+					"ox_pi_controller:SetP_NEG": [
+						1.5
+					],
+					"ox_pi_controller:SetI_NEG": [
+						0.5
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": -0.2,
+			"name": "Pressure control enable",
+			"desc": "Enable ox pressurization controller",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"ox_vent:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"ox_pi_controller:SetEnabled": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 0.0,
+			"name": "Coldflow start",
+			"desc": "Open ox main valve",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"ox_main_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"ox_main_valve:SetTargetPosition": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 6.0,
+			"name": "Coldflow end",
+			"desc": "Close main valve",
+			"actions": [
+				
+				{
+					"timestamp": 0.0,
+					"ox_pi_controller:SetEnabled": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"ox_main_valve:SetTargetPosition": [
+						100
+					]
+				},
+				{
+					"timestamp": 1.0,
+					"ox_main_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 2.0,
+					"ox_vent:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"ox_pi_controller:SetEnabled": [
+						0
+					],
+					"ox_pi_controller:SetTarget": [
+						35
+					],
+					"ox_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"ox_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"ox_pi_controller:SetOperatingPoint": [
+						34.0
+					],
+					"ox_pi_controller:SetP_POS": [
+						1.5
+					],
+					"ox_pi_controller:SetI_POS": [
+						1.0
+					],
+					"ox_pi_controller:SetP_NEG": [
+						1.5
+					],
+					"ox_pi_controller:SetI_NEG": [
+						0.5
+					],
+					"ox_vent:SetState": [
+						1
+					]
+				}
+			]
+		}
+	]
+}

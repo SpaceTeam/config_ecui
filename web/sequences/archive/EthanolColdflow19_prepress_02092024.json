@@ -1,0 +1,137 @@
+{
+	"globals": {
+		"endTime": 35,
+		"interpolation": {
+			"ox_pressurize_solenoid:SetState": "none",
+			"ox_depressurize_solenoid:SetState": "none",
+			"fuel_pressurize_solenoid:SetState": "none",
+			"fuel_depressurize_solenoid:SetState": "none",
+			"fuel_main_valve:SetTargetPosition": "linear",
+			"ox_main_valve:SetTargetPosition": "linear",
+			"fuel_purge_solenoid:SetState": "none",
+			"fuel_pi_controller:SetEnabled": "none",
+			"fuel_pi_controller:SetTarget": "none",
+			"ox_purge_solenoid:SetState": "none",
+			"igniter_ecu_0:SetState": "none",
+			"igniter_ecu_1:SetState": "none",
+			"safety_valves:SetState": "none"
+		},
+		"interval": 0.01,
+		"ranges": [
+			"chamberPressure"
+		],
+		"startTime": -3
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "set all to zero",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pi_controller:SetEnabled": [
+						0
+					],
+					"fuel_pi_controller:SetTarget": [
+						30
+					],
+					"fuel_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"fuel_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"fuel_pi_controller:SetOperatingPoint": [
+						30
+					],
+					"fuel_pi_controller:SetP_POS": [
+						0.1
+					],
+					"fuel_pi_controller:SetI_POS": [
+						0.1
+					],
+					"fuel_pi_controller:SetP_NEG": [
+						0.0
+					],
+					"fuel_pi_controller:SetI_NEG": [
+						500.0
+					],
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"safety_valves:SetState": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 0.0,
+			"name": "pre pressurize",
+			"desc": "",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pi_controller:SetEnabled": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 30.0,
+			"name": "close prepres",
+			"desc": "disable controller, reset setting",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pi_controller:SetEnabled": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"safety_valves:SetState": [
+						0
+					],
+					"fuel_pi_controller:SetTarget": [
+						25
+					],
+					"fuel_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"fuel_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"fuel_pi_controller:SetEnabled": [
+						0
+					],
+					"fuel_pi_controller:SetP_POS": [
+						0.1
+					],
+					"fuel_pi_controller:SetI_POS": [
+						0.1
+					],
+					"fuel_pi_controller:SetP_NEG": [
+						0.0
+					],
+					"fuel_pi_controller:SetI_NEG": [
+						500.0
+					],
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					]
+					
+				}
+			]
+		}
+	]
+}

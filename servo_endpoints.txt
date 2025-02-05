@@ -1,0 +1,15 @@
+ox_main_valve
+start - 18000
+end - 49986
+
+fuel_main_valve
+start - 18000
+end - 49986
+
+ox_pressurant_valve
+start - 24984
+end - 56988
+
+fuel_pressurant_valve
+start - 18990
+end - 54990

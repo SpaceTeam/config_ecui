@@ -1,0 +1,48 @@
+# 2024-12-17:
+# According to our investigation the mapping only need to be changed per Senosor and NOT per Board & sensors
+# This file hols all mappings for the temperature sensors
+# These values come from measuring the output of the senors against a known temperature
+# The values have to be pasted into mapping.json
+Gemessen mit:
+offset: -313
+slope: 0.0188
+
+Ox
+TS1:
+                "offset": -242.0727,
+                "slope": 0.0148,
+
+TS2:
+                "offset": -239.9132,
+                "slope": 0.0149,
+
+Fuel
+TS3:
+                "offset": -231.3282,
+                "slope":  0.0142,
+
+TS4:
+                "offset": -233.3153,
+                "slope":  0.0145,
+
+Engine:
+TS5:
+                "offset": -240.8472,
+                "slope":  0.0147 ,
+
+TS6:
+                "offset": -238.8339,
+                "slope":  0.0146,
+
+Other
+TS7:
+                "offset": -240.2930,
+                "slope":  0.0147,
+
+TS8:
+                "offset":  242.2248,
+                "slope":  0.0148,
+
+TS9:
+                "offset":  -239.806,
+                "slope":  0.0151,

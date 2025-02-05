@@ -1,0 +1,363 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# PnID-Lib_CheckValve
+#
+DEF PnID-Lib_CheckValve CheckValve 0 40 N Y 1 F N
+F0 "CheckValve" 0 -130 20 H V C CNN
+F1 "PnID-Lib_CheckValve" 0 -170 20 H I C CNN
+F2 "" 0 0 20 H I C CNN
+F3 "" 0 0 20 H I C CNN
+DRAW
+P 2 0 0 0 100 100 100 -100 N
+P 4 0 0 0 -100 100 -100 -100 100 0 -100 100 N
+X ~ ~ -100 0 0 R 50 50 1 1 B
+X ~ ~ 100 0 0 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_Engine
+#
+DEF PnID-Lib_Engine Engine 0 40 N Y 1 F N
+F0 "Engine" 0 -450 20 H V C CNN
+F1 "PnID-Lib_Engine" 0 -490 20 H I C CNN
+F2 "" 0 0 20 H I C CNN
+F3 "" 0 0 20 H I C CNN
+F4 " " 0 0 20 H I C CNN "Action_Reference"
+DRAW
+S -150 100 150 -150 0 0 0 N
+P 4 0 0 0 -50 -150 -150 -400 150 -400 50 -150 N
+X C ~ 150 -100 0 L 50 39 1 1 B
+X F ~ -100 100 0 D 50 39 1 1 I
+X FC ~ -150 -100 0 R 50 39 1 1 I
+X O ~ 100 100 0 D 50 39 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_GasBottle
+#
+DEF PnID-Lib_GasBottle GasBottle 0 40 N Y 1 F N
+F0 "GasBottle" 0 -40 20 H V C CNN
+F1 "PnID-Lib_GasBottle" 0 -100 20 H I C CNN
+F2 "" -10 -70 20 H I C CNN
+F3 "" -10 -70 20 H I C CNN
+DRAW
+A 0 -50 403 603 1197 0 0 0 N 200 300 -200 300
+A 0 450 50 1 1799 0 0 0 N 50 450 -50 450
+P 2 0 0 0 -50 350 -50 450 N
+P 2 0 0 0 50 350 50 450 N
+P 4 0 0 0 -200 300 -200 -500 200 -500 200 300 N
+X ~ ~ 0 500 0 D 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_PressureRegulator
+#
+DEF PnID-Lib_PressureRegulator PressureRegulator 0 40 N Y 1 F N
+F0 "PressureRegulator" 0 -200 20 H V C CNN
+F1 "PnID-Lib_PressureRegulator" 0 -250 20 H V C CNN
+F2 "" 0 0 20 H I C CNN
+F3 "" 0 0 20 H I C CNN
+DRAW
+A 0 50 141 450 1350 0 0 0 N 100 150 -100 150
+P 2 0 0 0 -100 150 100 150 N
+P 2 0 0 0 0 0 0 150 N
+P 5 0 0 0 -200 150 -250 200 -250 250 0 250 0 200 N
+P 4 1 1 0 0 0 -200 150 -200 -150 0 0 N
+P 4 1 1 0 200 150 0 0 200 -150 200 150 N
+X ~ ~ -200 0 0 R 50 50 1 1 B
+X ~ ~ 200 0 0 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_QuickConnect_Half
+#
+DEF PnID-Lib_QuickConnect_Half QuickConnect 0 40 N Y 1 F N
+F0 "QuickConnect" 0 -200 50 H V C CNN
+F1 "PnID-Lib_QuickConnect_Half" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -150 0 50 0 0 0 N
+P 2 0 0 0 -50 0 -150 -100 N
+P 2 0 0 0 -50 0 -100 0 N
+P 2 0 0 0 0 100 0 -100 N
+P 3 0 0 0 0 0 -50 0 -150 100 N
+X ~ ~ -300 0 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_Sensor_Load
+#
+DEF PnID-Lib_Sensor_Load Sensor_Load 0 40 N Y 1 F N
+F0 "Sensor_Load" 250 30 20 H V C CNN
+F1 "PnID-Lib_Sensor_Load" 250 -30 20 H V C CNN
+F2 "" 0 0 20 H I C CNN
+F3 "" 0 0 20 H I C CNN
+F4 "N" 0 0 20 H I C CNN "Unit"
+F5 " " 0 0 50 H I C CNN "Action_Reference"
+F6 " " 0 0 50 H V C CNN "Data_Content"
+DRAW
+C 0 0 100 0 0 0 N
+T 0 0 0 118 0 0 0 L Normal 0 C C
+P 2 0 0 0 -200 0 -100 0 N
+X ~ ~ -300 0 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_Sensor_Load_Short
+#
+DEF PnID-Lib_Sensor_Load_Short Sensor_Load_Short 0 40 N Y 1 F N
+F0 "Sensor_Load_Short" 250 30 20 H V C CNN
+F1 "PnID-Lib_Sensor_Load_Short" 250 -30 20 H V C CNN
+F2 "" 0 0 20 H I C CNN
+F3 "" 0 0 20 H I C CNN
+F4 "kg" 0 0 20 H I C CNN "Unit"
+F5 " " 0 0 50 H I C CNN "Action_Reference"
+F6 " " 0 0 50 H V C CNN "Data_Content"
+DRAW
+C 0 0 100 0 0 0 N
+T 0 0 0 118 0 0 0 L Normal 0 C C
+X ~ ~ -200 0 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_Sensor_Pressure
+#
+DEF PnID-Lib_Sensor_Pressure Sensor_Pressure 0 40 N Y 1 F N
+F0 "Sensor_Pressure" 250 30 20 H V C CNN
+F1 "PnID-Lib_Sensor_Pressure" 250 -30 20 H V C CNN
+F2 "" 0 0 20 H I C CNN
+F3 "" 0 0 20 H I C CNN
+F4 "bar" 0 0 20 H I C CNN "Unit"
+F5 " " 0 0 50 H I C CNN "Action_Reference"
+F6 " " 0 0 50 H V C CNN "Data_Content"
+DRAW
+C 0 0 100 0 0 0 N
+T 0 0 0 118 0 0 0 P Normal 0 C C
+P 2 0 0 0 -200 0 -100 0 N
+X ~ ~ -300 0 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_Sensor_Temperature
+#
+DEF PnID-Lib_Sensor_Temperature Sensor_Temperature 0 40 N Y 1 F N
+F0 "Sensor_Temperature" 280 30 20 H V C CNN
+F1 "PnID-Lib_Sensor_Temperature" 280 -30 20 H V C CNN
+F2 "" 0 0 20 H I C CNN
+F3 "" 0 0 20 H I C CNN
+F4 "˚C" 0 0 20 H I C CNN "Unit"
+F5 " " 0 0 50 H I C CNN "Action_Reference"
+DRAW
+C 0 0 100 0 1 0 N
+T 0 0 0 118 0 0 0 T Normal 0 C C
+P 2 0 0 0 -200 0 -100 0 N
+X ~ ~ -300 0 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_Tank_Slim
+#
+DEF PnID-Lib_Tank_Slim Tank_Slim 0 40 N Y 1 F N
+F0 "Tank_Slim" 0 50 20 H V C CNN
+F1 "PnID-Lib_Tank_Slim" 0 -50 20 H V C CNN
+F2 "" 0 0 20 H I C CNN
+F3 "" 0 0 20 H I C CNN
+F4 "%" 0 0 20 H I C CNN "Unit"
+F5 " " 0 0 50 H I C CNN "Action_Reference"
+F6 " " 0 0 50 H I C CNN "Data_Content"
+DRAW
+A -5 125 375 472 1328 0 1 0 N 250 400 -260 400
+A -5 -125 375 -1328 -472 1 1 0 N -260 -400 250 -400
+S -260 -400 250 400 0 1 0 N
+P 2 0 0 0 250 400 250 -400 N
+P 2 0 1 0 -260 400 -260 -400 N
+P 2 0 1 0 -250 -400 250 -400 N
+P 2 0 1 0 -250 400 250 400 N
+X ~ ~ 0 -500 0 U 50 50 1 1 B
+X ~ ~ 0 500 0 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_Valve_Manual
+#
+DEF PnID-Lib_Valve_Manual Valve_Manual 0 40 N Y 1 F N
+F0 "Valve_Manual" 0 -200 50 H V C CNN
+F1 "PnID-Lib_Valve_Manual" 0 -300 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 " " 0 0 50 H I C CNN "Action_Reference"
+DRAW
+P 2 0 0 0 -100 200 100 200 N
+P 2 0 0 0 0 0 0 200 N
+P 4 1 1 0 0 0 -200 150 -200 -150 0 0 N
+P 4 1 1 0 200 150 0 0 200 -150 200 150 N
+X ~ ~ -200 0 0 R 50 50 1 1 B
+X ~ ~ 200 0 0 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_Valve_Manual_3Way
+#
+DEF PnID-Lib_Valve_Manual_3Way U 0 40 Y Y 1 F N
+F0 "U" 0 770 50 H V C CNN
+F1 "PnID-Lib_Valve_Manual_3Way" 0 680 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 0 -100 430 100 430 N
+P 2 1 1 0 0 280 0 430 N
+P 4 1 1 0 0 280 -200 430 -200 130 0 280 N
+P 4 1 1 0 150 80 0 280 -150 80 150 80 N
+P 4 1 1 0 200 430 0 280 200 130 200 430 N
+X ~ ~ -200 280 0 R 50 50 1 1 B
+X ~ ~ 0 80 0 U 50 50 1 1 B
+X ~ ~ 200 280 0 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_Valve_Needle
+#
+DEF PnID-Lib_Valve_Needle Valve_Needle 0 40 N Y 1 F N
+F0 "Valve_Needle" 0 -200 50 H V C CNN
+F1 "PnID-Lib_Valve_Needle" 0 -300 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 " " 0 0 50 H I C CNN "Action_Reference"
+DRAW
+P 2 0 0 0 -100 200 100 200 N
+P 2 0 0 0 0 150 0 200 N
+P 4 0 0 0 0 -100 -50 150 50 150 0 -100 N
+P 4 1 1 0 0 0 -200 150 -200 -150 0 0 N
+P 4 1 1 0 200 150 0 0 200 -150 200 150 N
+X ~ ~ -200 0 0 R 50 50 1 1 B
+X ~ ~ 200 0 0 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_Valve_OverPressure
+#
+DEF PnID-Lib_Valve_OverPressure Valve_OverPressure 0 40 N Y 1 F N
+F0 "Valve_OverPressure" 0 -180 20 H V C CNN
+F1 "PnID-Lib_Valve_OverPressure" 0 -220 20 H I C CNN
+F2 "" 0 0 20 H I C CNN
+F3 "" 0 0 20 H I C CNN
+F4 " " 0 0 50 H I C CNN "Action_Reference"
+DRAW
+P 2 0 0 0 0 0 0 200 N
+P 6 0 0 0 -50 100 50 100 -50 150 50 150 -50 200 50 200 N
+P 4 1 1 0 0 0 -200 150 -200 -150 0 0 N
+P 4 1 1 0 200 150 0 0 200 -150 200 150 N
+X ~ ~ -200 0 0 R 50 50 1 1 B
+X ~ ~ 200 0 0 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_Valve_Servo
+#
+DEF PnID-Lib_Valve_Servo Valve_Servo 0 40 N Y 1 F N
+F0 "Valve_Servo" 0 -160 20 H V C CNN
+F1 "PnID-Lib_Valve_Servo" 0 -210 20 H V C CNN
+F2 "" 0 0 20 H I C CNN
+F3 "" 0 0 20 H I C CNN
+F4 "%" 0 0 20 H I C CNN "Unit"
+F5 " " 0 0 50 H I C CNN "Action_Reference"
+DRAW
+C 0 250 100 0 0 0 N
+T 0 0 250 118 0 0 0 M Normal 0 C C
+P 2 0 0 0 0 0 0 150 N
+P 4 0 1 0 0 0 -200 150 -200 -150 0 0 N
+P 4 1 1 0 200 150 0 0 200 -150 200 150 N
+X ~ ~ -200 0 0 R 50 50 1 1 B
+X ~ ~ 200 0 0 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_Valve_Solenoid_NC
+#
+DEF PnID-Lib_Valve_Solenoid_NC Valve_Solenoid 0 40 N Y 1 F N
+F0 "Valve_Solenoid" 10 -170 20 H V C CNN
+F1 "PnID-Lib_Valve_Solenoid_NC" 10 -220 20 H V C CNN
+F2 "" 0 0 20 H I C CNN
+F3 "" 0 0 20 H I C CNN
+F4 "%" 0 0 20 H I C CNN "Unit"
+F5 " " 0 0 50 H I C CNN "Action_Reference"
+DRAW
+T 0 0 250 118 0 0 0 S Normal 0 C C
+S -100 150 100 350 0 0 0 N
+P 2 0 1 0 0 150 0 0 N
+P 4 1 1 0 0 0 -200 150 -200 -150 0 0 F
+P 4 1 1 0 200 150 0 0 200 -150 200 150 F
+X ~ ~ -200 0 0 R 50 50 1 1 B
+X ~ ~ 200 0 0 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_Valve_Solenoid_NO
+#
+DEF PnID-Lib_Valve_Solenoid_NO Valve_Solenoid 0 40 N Y 1 F N
+F0 "Valve_Solenoid" 10 -170 20 H V C CNN
+F1 "PnID-Lib_Valve_Solenoid_NO" 10 -220 20 H V C CNN
+F2 "" 0 0 20 H I C CNN
+F3 "" 0 0 20 H I C CNN
+F4 "%" 0 0 20 H I C CNN "Unit"
+F5 " " 0 0 50 H I C CNN "Action_Reference"
+DRAW
+T 0 0 250 118 0 0 0 S Normal 0 C C
+S -100 150 100 350 0 0 0 N
+P 2 0 1 0 0 150 0 0 N
+P 4 1 1 0 0 0 -200 150 -200 -150 0 0 N
+P 4 1 1 0 200 150 0 0 200 -150 200 150 N
+X ~ ~ -200 0 0 R 50 50 1 1 B
+X ~ ~ 200 0 0 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_Vent
+#
+DEF PnID-Lib_Vent Vent 0 40 N Y 1 F N
+F0 "Vent" 100 50 50 H V C CNN
+F1 "PnID-Lib_Vent" 100 -50 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 0 0 0 0 -200 0 N
+P 3 0 0 0 -100 100 0 0 -100 -100 N
+X ~ ~ -300 0 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_Venturi
+#
+DEF PnID-Lib_Venturi Venturi 0 40 N Y 1 F N
+F0 "Venturi" 0 -200 20 H V C CNN
+F1 "PnID-Lib_Venturi" 0 -300 20 H I C CNN
+F2 "" 0 0 20 H I C CNN
+F3 "" 0 0 20 H I C CNN
+F4 "%" 0 0 20 H I C CNN "Unit"
+DRAW
+A 0 -350 320 513 1287 0 0 0 N 200 -100 -200 -100
+A 0 350 320 -1287 -513 0 0 0 N -200 100 200 100
+S -200 100 200 -100 0 0 0 N
+X ~ ~ -200 0 0 R 50 50 1 1 B
+X ~ ~ 200 0 0 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PnID-Lib_igniter
+#
+DEF PnID-Lib_igniter igniter 0 40 Y Y 1 F N
+F0 "igniter" -200 90 20 H I C CNN
+F1 "PnID-Lib_igniter" -200 0 20 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Ohm" 0 0 50 H I C CNN "Unit"
+DRAW
+T 0 0 0 118 0 0 0 I Normal 0 C C
+S -100 100 100 -100 0 1 0 N
+X ~ ~ 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
