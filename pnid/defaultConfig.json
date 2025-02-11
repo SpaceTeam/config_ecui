@@ -126,9 +126,9 @@
                 "type": "input",
                 "style": "button",
                 "collapsible": true,
-                "collapsibleLabel": "Reset State Machine",
+                "collapsibleLabel": "Reset Abort State",
                 "variable": "rocket-ResetStateMachine",
-                "label": "Reset State Machine"
+                "label": "Reset Abort State"
             }
         ]
     },
