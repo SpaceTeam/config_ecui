@@ -1,0 +1,30 @@
+[
+    {
+        "id": "test_script_1",
+        "title": "Test script 1",
+        "command": "pwd"
+    },
+    {
+        "id": "test_script_2",
+        "title": "Test script 2",
+        "command": "echo",
+        "args": [
+            {
+                "type": "user-input",
+                "title": "message"
+            }
+        ]
+    },
+    {
+        "id": "test_script_3",
+        "title": "Test script 3",
+        "command": "touch",
+        "args": [
+            {
+                "type": "tmp-file-path",
+                "download": true,
+                "downloadName": "test.txt"
+            }
+        ]
+    }
+]
