@@ -972,8 +972,29 @@
                 "state": "fuel_rocket:GetRocketState"
             }
         ],
-        "gui:ox_tank_pressurize_feedback:sensor": [
-
+        "gui:ox_tanking_valve_feedback:sensor": [
+            {
+                "command": "ox_tanking_valve:SetState",
+                "parameters": [
+                    "gui:ox_tanking_valve_feedback:sensor"
+                ]
+            }
+        ],
+        "gui:pressurant_tanking_valve_feedback:sensor": [
+            {
+                "command": "pressurant_tanking_valve:SetState",
+                "parameters": [
+                    "gui:pressurant_tanking_valve_feedback:sensor"
+                ]
+            }
+        ],
+        "gui:pressurant_vent_valve_feedback:sensor": [
+            {
+                "command": "pressurant_vent_valve:SetState",
+                "parameters": [
+                    "gui:pressurant_vent_valve_feedback:sensor"
+                ]
+            }
         ],
         "gui:Flash:Clear": [
             {
