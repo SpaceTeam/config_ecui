@@ -972,6 +972,9 @@
                 "state": "fuel_rocket:GetRocketState"
             }
         ],
+        "gui:ox_tank_pressurize_feedback:sensor": [
+
+        ],
         "gui:Flash:Clear": [
             {
                 "command": "engine_ecu:RequestFlashClear",
