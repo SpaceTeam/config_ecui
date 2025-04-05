@@ -1,6 +1,6 @@
 {
 	"globals": {
-		"endTime": 305,
+		"endTime": 301,
 		"interpolation": {
 			"fuel_vent:SetState": "linear",
 			"fuel_main_valve:SetTargetPosition": "linear",
@@ -159,11 +159,80 @@
 			"actions": [
 				{
 					"timestamp": 0.0,
+					"fuel_vent:SetState": [
+						0
+					],
+					"ox_vent:SetState": [
+						0
+					],
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						0
+					],
 					"fuel_pi_controller:SetEnabled": [
 						0
 					],
+					"fuel_pi_controller:SetTarget": [
+						32
+					],
+					"fuel_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"fuel_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"fuel_pi_controller:SetOperatingPoint": [
+						1
+					],
 					"ox_pi_controller:SetEnabled": [
 						0
+					],
+					"ox_pi_controller:SetTarget": [
+						38
+					],
+					"ox_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"ox_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"ox_pi_controller:SetOperatingPoint": [
+						0.0
+					],
+					"engine_ox_main_pi_controller:SetEnabled": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetTarget": [
+						50
+					],
+					"engine_ox_main_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"engine_ox_main_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"engine_ox_main_pi_controller:SetOperatingPoint": [
+						80
+					],
+					"engine_ox_main_pi_controller:SetP_POS": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetI_POS": [
+						-0.2
+					],
+					"engine_ox_main_pi_controller:SetP_NEG": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetI_NEG": [
+						-1.5
 					]
 				}
 			]
@@ -569,6 +638,12 @@
 			"actions": [
 				{
 					"timestamp": 0.0,
+					"fuel_vent:SetState": [
+						0
+					],
+					"ox_vent:SetState": [
+						0
+					],
 					"fuel_pi_controller:SetEnabled": [
 						0
 					],
@@ -634,6 +709,33 @@
 					],
 					"ox_pi_controller:SetI_NEG": [
 						0.01
+					],
+					"engine_ox_main_pi_controller:SetEnabled": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetTarget": [
+						50
+					],
+					"engine_ox_main_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"engine_ox_main_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"engine_ox_main_pi_controller:SetOperatingPoint": [
+						80
+					],
+					"engine_ox_main_pi_controller:SetP_POS": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetI_POS": [
+						-0.2
+					],
+					"engine_ox_main_pi_controller:SetP_NEG": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetI_NEG": [
+						-1.5
 					]
 				}
 			]

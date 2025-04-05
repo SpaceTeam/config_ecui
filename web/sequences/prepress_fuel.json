@@ -1,11 +1,18 @@
 {
 	"globals": {
-		"endTime": 30,
+		"endTime": 31,
 		"interpolation": {
 			"fuel_vent:SetState": "none",
 			"fuel_main_valve:SetTargetPosition": "none",
 			"fuel_pi_controller:SetEnabled": "none",
-			"fuel_pi_controller:SetTarget": "none"
+			"fuel_pi_controller:SetTarget": "none",
+			"fuel_pi_controller:SetSensorSlope": "none",
+			"fuel_pi_controller:SetSensorOffset": "none",
+			"fuel_pi_controller:SetOperatingPoint": "none",
+			"fuel_pi_controller:SetP_POS": "none",
+			"fuel_pi_controller:SetI_POS": "none",
+			"fuel_pi_controller:SetP_NEG": "none",
+			"fuel_pi_controller:SetI_NEG": "none"
 		},
 		"interval": 0.01,
 		"ranges": [
@@ -58,8 +65,51 @@
 			]
 		},
 		{
+			"timestamp": -2.9,
+			"name": "start2",
+			"desc": "prevent SequenceManager to send too much data",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_vent:SetState": [
+						1
+					],
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pi_controller:SetEnabled": [
+						0
+					],
+					"fuel_pi_controller:SetTarget": [
+						32
+					],
+					"fuel_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"fuel_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"fuel_pi_controller:SetOperatingPoint": [
+						25
+					],
+					"fuel_pi_controller:SetP_POS": [
+						0.1
+					],
+					"fuel_pi_controller:SetI_POS": [
+						0.1
+					],
+					"fuel_pi_controller:SetP_NEG": [
+						100.0
+					],
+					"fuel_pi_controller:SetI_NEG": [
+						500.0
+					]
+				}
+			]
+		},
+		{
 			"timestamp": 0.0,
-			"name": "pre pressurize",
+			"name": "pre pressurize start",
 			"desc": "enable PI controller",
 			"actions": [
 				{
@@ -71,8 +121,8 @@
 			]
 		},
 		{
-			"timestamp":29.0,
-			"name": "pre pressurize",
+			"timestamp": 30.0,
+			"name": "pre pressurize end",
 			"desc": "disable PI controller",
 			"actions": [
 				{
@@ -112,10 +162,10 @@
 						25
 					],
 					"fuel_pi_controller:SetP_POS": [
-						1
+						0.1
 					],
 					"fuel_pi_controller:SetI_POS": [
-						1
+						0.1
 					],
 					"fuel_pi_controller:SetP_NEG": [
 						100

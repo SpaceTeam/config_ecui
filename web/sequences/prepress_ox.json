@@ -1,17 +1,24 @@
 {
 	"globals": {
-		"endTime": 30,
+		"endTime": 31,
 		"interpolation": {
 			"ox_vent:SetState": "none",
 			"ox_main_valve:SetTargetPosition": "linear",
 			"ox_pi_controller:SetEnabled": "none",
-			"ox_pi_controller:SetTarget": "none"
+			"ox_pi_controller:SetTarget": "none",
+			"ox_pi_controller:SetSensorSlope": "none",
+			"ox_pi_controller:SetSensorOffset": "none",
+			"ox_pi_controller:SetOperatingPoint": "none",
+			"ox_pi_controller:SetP_POS": "none",
+			"ox_pi_controller:SetI_POS": "none",
+			"ox_pi_controller:SetP_NEG": "none",
+			"ox_pi_controller:SetI_NEG": "none"
 		},
 		"interval": 0.01,
 		"ranges": [
 			"chamberPressure"
 		],
-		"startTime": -3
+		"startTime": -5
 	},
 	"data": [
 		{
@@ -31,7 +38,50 @@
 						0
 					],
 					"ox_pi_controller:SetTarget": [
-						35
+						38
+					],
+					"ox_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"ox_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"ox_pi_controller:SetOperatingPoint": [
+						25
+					],
+					"ox_pi_controller:SetP_POS": [
+						0.1
+					],
+					"ox_pi_controller:SetI_POS": [
+						0.1
+					],
+					"ox_pi_controller:SetP_NEG": [
+						100.0
+					],
+					"ox_pi_controller:SetI_NEG": [
+						500.0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": -4.9,
+			"name": "Stop Start action item spam",
+			"desc": "There is a bug causing all items in the start timestamp to be sent repeatedly instead of once until they are mentioned again, causing problems.",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"ox_vent:SetState": [
+						1
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pi_controller:SetEnabled": [
+						0
+					],
+					"ox_pi_controller:SetTarget": [
+						38
 					],
 					"ox_pi_controller:SetSensorSlope": [
 						0.01888275146
@@ -71,7 +121,7 @@
 			]
 		},
 		{
-			"timestamp":29.0,
+			"timestamp":30.0,
 			"name": "pre pressurize end",
 			"desc": "disable PI controller",
 			"actions": [
@@ -100,7 +150,7 @@
 						0
 					],
 					"ox_pi_controller:SetTarget": [
-						35
+						38
 					],
 					"ox_pi_controller:SetSensorSlope": [
 						0.01888275146
