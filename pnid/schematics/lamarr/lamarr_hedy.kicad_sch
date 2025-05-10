@@ -4759,6 +4759,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 33.02) (xy 132.08 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a43e790-b4ab-4d51-a543-b41449d17cfd")
+	)
+	(wire
+		(pts
 			(xy 78.486 114.3) (xy 78.486 118.11)
 		)
 		(stroke
@@ -8076,7 +8086,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 134.62 95.25 0)
+		(at 139.7 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8084,7 +8094,7 @@
 		(dnp no)
 		(uuid "506e1cd8-8af7-46ce-abd8-70a5b2b19a48")
 		(property "Reference" "burst_disk_temperature"
-			(at 138.43 94.615 0)
+			(at 143.51 32.385 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8094,7 +8104,7 @@
 			)
 		)
 		(property "Value" "ox_temp_0:sensor"
-			(at 135.636 90.17 0)
+			(at 140.716 27.94 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8102,7 +8112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 95.25 0)
+			(at 139.7 33.02 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8111,7 +8121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 95.25 0)
+			(at 139.7 33.02 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8120,7 +8130,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 95.25 0)
+			(at 139.7 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8129,7 +8139,7 @@
 			)
 		)
 		(property "Unit" "˚C"
-			(at 134.62 95.25 0)
+			(at 139.7 33.02 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8138,7 +8148,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 134.62 95.25 0)
+			(at 139.7 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)

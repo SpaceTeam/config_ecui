@@ -1,0 +1,94 @@
+{
+	"globals": {
+		"endTime": 15,
+		"interpolation": {
+			"fuel_main_valve:SetTargetPosition": "none",
+			"ox_main_valve:SetTargetPosition": "none"
+
+		},
+		"interval": 0.01,
+		"ranges": [
+			"chamberPressure"
+		],
+		"startTime": -3
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 0.0,
+			"name": "open both",
+			"desc": "open both",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					],
+					"ox_main_valve:SetTargetPosition": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 5.0,
+			"name": "open both",
+			"desc": "open both",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					],
+					"ox_main_valve:SetTargetPosition": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 10.0,
+			"name": "close both",
+			"desc": "open both",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		}
+	]
+}
