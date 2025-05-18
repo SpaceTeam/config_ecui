@@ -1268,7 +1268,7 @@
             {
                 "command": "rocket:SetRocketState",
                 "parameters": [
-                    4
+                    7
                 ]
             },
             {
@@ -1288,7 +1288,7 @@
             {
                 "command": "rocket:SetRocketState",
                 "parameters": [
-                    0
+                    2
                 ]
             }
         ],
