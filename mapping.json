@@ -513,6 +513,9 @@
                 "slope": 0.008921110838,
                 "stringID": "fuel_sense_12VA"
             },
+            "21": {
+                "stringID": "fuel_can_monitoring"
+            },
             "3": {
                 "offset": 0,
                 "slope": 1,
@@ -742,10 +745,10 @@
                 "stringID": "ox_tanking_valve_cont"
             },
             "14": {
-                "stringID": "holddown"
+                "stringID": "dewar_pressurize_solenoid"
             },
             "15": {
-                "stringID": "holddown_cont"
+                "stringID": "dewar_pressurize_solenoid_cont"
             },
             "16": {
                 "slope": 0.001525879,
@@ -777,23 +780,23 @@
             "3": {
                 "offset": -100,
                 "slope": 0.125885,
-                "stringID": "pressurant_tanking_pressure"
+                "stringID": "gse_pneu_1_unused_pressure_3"
             },
             "4": {
-                "stringID": "gse_pneu_temp_0"
+                "stringID": "gse_pneu_1_temp_0"
             },
             "5": {
-                "stringID": "gse_pneu_temp_1"
+                "stringID": "gse_pneu_1_temp_1"
             },
             "6": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
-                "stringID": "gse_pneu_servo_0"
+                "stringID": "gse_pneu_1_servo_0"
             },
             "7": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
-                "stringID": "gse_pneu_servo_1"
+                "stringID": "gse_pneu_1_servo_1"
             },
             "8": {
                 "stringID": "pressurant_tanking_valve"
@@ -801,18 +804,104 @@
             "9": {
                 "stringID": "pressurant_tanking_valve_cont"
             },
-            "stringID": "gse_pneu_ecu"
+            "stringID": "gse_pneu_1_ecu"
         },
         "35": {
             "0": {
                 "offset": 0,
                 "slope": 1,
-                "stringID": "gse_elec_press_0"
+                "stringID": "press_in"
             },
             "1": {
                 "offset": 0,
                 "slope": 1,
-                "stringID": "gse_elec_press_1"
+                "stringID": "dewar_pressure"
+            },
+            "10": {
+                "stringID": "ox_decoupler"
+            },
+            "11": {
+                "stringID": "ox_decoupler_cont"
+            },
+            "12": {
+                "stringID": "gse_pneu_2_unused_igniter_2"
+            },
+            "13": {
+                "stringID": "gse_pneu_2_unused_igniter_2_cont"
+            },
+            "14": {
+                "stringID": "gse_pneu_2_unused_igniter_3"
+            },
+            "15": {
+                "stringID": "gse_pneu_2_unused_igniter_3_cont"
+            },
+            "16": {
+                "slope": 0.001525879,
+                "stringID": "gse_pneu_2_unused_pi_controller"
+            },
+            "17": {
+                "stringID": "gse_pneu_2_unused_rocket"
+            },
+            "18": {
+                "slope": 0.001622020152,
+                "stringID": "gse_pneu_2_sense_5V"
+            },
+            "19": {
+                "slope": 0.008921110838,
+                "stringID": "gse_pneu_2_sense_12V"
+            },
+            "2": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "ventilinsel_pressure"
+            },
+            "20": {
+                "slope": 0.008921110838,
+                "stringID": "gse_pneu_2_sense_12VA"
+            },
+            "3": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_pneu_2_unused_press_3"
+            },
+            "4": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_pneu_2_temp_0"
+            },
+            "5": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_pneu_2_temp_1"
+            },
+            "6": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "gse_pneu_2_servo_0"
+            },
+            "7": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "gse_pneu_2_servo_1"
+            },
+            "8": {
+                "stringID": "holddown_pneu_valve"
+            },
+            "9": {
+                "stringID": "holddown_valve_cont"
+            },
+            "stringID": "gse_pneu_2_ecu"
+        },
+        "36": {
+            "0": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_elec_iob_press_0"
+            },
+            "1": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_elec_iob_press_1"
             },
             "10": {
                 "stringID": "strongback"
@@ -821,63 +910,63 @@
                 "stringID": "strongback_cont"
             },
             "12": {
-                "stringID": "dewar_pressurize_solenoid"
+                "stringID": "gse_elec_iob_igniter_2"
             },
             "13": {
-                "stringID": "dewar_pressurize_solenoid_cont"
+                "stringID": "gse_elec_iob_igniter_2_cont"
             },
             "14": {
-                "stringID": "gse_igniter_3"
+                "stringID": "gse_iob_igniter_3"
             },
             "15": {
-                "stringID": "gse_igniter_3_cont"
+                "stringID": "gse_iob_igniter_3_cont"
             },
             "16": {
                 "slope": 0.001525879,
-                "stringID": "gse_elec_unused_pi_controller"
+                "stringID": "gse_elec_iob_unused_pi_controller"
             },
             "17": {
-                "stringID": "gse_elec_unused_rocket"
+                "stringID": "gse_elec_iob_unused_rocket"
             },
             "18": {
                 "slope": 0.001622020152,
-                "stringID": "gse_elec_sense_5V"
+                "stringID": "gse_elec_iob_sense_5V"
             },
             "19": {
                 "slope": 0.008921110838,
-                "stringID": "gse_elec_sense_12V"
+                "stringID": "gse_elec_iob_sense_12V"
             },
             "2": {
                 "offset": 0,
                 "slope": 1,
-                "stringID": "gse_elec_press_2"
+                "stringID": "gse_elec_iob_press_2"
             },
             "20": {
                 "slope": 0.008921110838,
-                "stringID": "gse_elec_sense_12VA"
+                "stringID": "gse_elec_iob_sense_12VA"
             },
             "3": {
                 "offset": 0,
                 "slope": 1,
-                "stringID": "gse_elec_press_3"
+                "stringID": "gse_elec_iob_press_3"
             },
             "4": {
-                "stringID": "gse_elec_temp_0"
+                "stringID": "gse_elec_iob_temp_0"
             },
             "5": {
-                "offset": 77265.0,
-                "slope": 1.0,
-                "stringID": "rocket_weight_unused"
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_elec_iob_temp_1"
             },
             "6": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
-                "stringID": "gse_elec_servo_0"
+                "stringID": "gse_elec_iob_servo_0"
             },
             "7": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
-                "stringID": "gse_elec_servo_1"
+                "stringID": "gse_elec_iob_servo_1"
             },
             "8": {
                 "stringID": "ox_decoupler"
@@ -885,16 +974,100 @@
             "9": {
                 "stringID": "ox_decoupler_cont"
             },
-            "stringID": "gse_elec_ecu"
+            "stringID": "gse_elec_iob_ecu"
+        },
+        "37": {
+            "0": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_elec_bob_press_0"
+            },
+            "1": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_elec_bob_press_1"
+            },
+            "10": {
+                "stringID": "gse_elec_bob_igniter_1"
+            },
+            "11": {
+                "stringID": "gse_elec_bob_igniter_1_cont"
+            },
+            "12": {
+                "stringID": "gse_elec_bob_igniter_2"
+            },
+            "13": {
+                "stringID": "gse_elec_bob_igniter_2_cont"
+            },
+            "14": {
+                "stringID": "gse_elec_bob_igniter_3"
+            },
+            "15": {
+                "stringID": "gse_elec_bob_igniter_3_cont"
+            },
+            "16": {
+                "slope": 0.001525879,
+                "stringID": "gse_elec_bob_unused_pi_controller"
+            },
+            "17": {
+                "stringID": "gse_elec_bob_unused_rocket"
+            },
+            "18": {
+                "slope": 0.001622020152,
+                "stringID": "gse_elec_bob_sense_5V"
+            },
+            "19": {
+                "slope": 0.008921110838,
+                "stringID": "gse_elec_bob_sense_12V"
+            },
+            "2": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_elec_bob_press_2"
+            },
+            "20": {
+                "slope": 0.008921110838,
+                "stringID": "gse_elec_bob_sense_12VA"
+            },
+            "3": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_elec_bob_press_3"
+            },
+            "4": {
+                "stringID": "gse_elec_bob_temp_0"
+            },
+            "5": {
+                "offset": 0,
+                "slope": 1,
+                "stringID": "gse_elec_bob_temp_1"
+            },
+            "6": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "gse_elec_bob_servo_0"
+            },
+            "7": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "gse_elec_bob_servo_1"
+            },
+            "8": {
+                "stringID": "gse_elec_bob_igniter_0"
+            },
+            "9": {
+                "stringID": "gse_elec_bob_igniter_0_cont"
+            },
+            "stringID": "gse_elec_bob_ecu"
         },
         "8": {
             "0": {
-                "offset": -21.33789645964946,
+                "offset": -0.16242373931225984,
                 "slope": 7.38222613e-06,
                 "stringID": "rocket_weight"
             },
             "1": {
-                "offset": -0.01053759999999998,
+                "offset": -4.6419904,
                 "slope": -1.48e-05,
                 "stringID": "dewar_weight"
             },
@@ -1176,6 +1349,14 @@
                 "parameters": []
             }
         ],
+        "gui:ox_tanking_valve_feedback:sensor": [
+            {
+                "command": "ox_tanking_valve:SetState",
+                "parameters": [
+                    "gui:ox_tanking_valve_feedback:sensor"
+                ]
+            }
+        ],
         "gui:ox_weight:Tare": [
             {
                 "command": "Tare",
@@ -1183,6 +1364,22 @@
                     8,
                     3,
                     "ox_weight:sensor"
+                ]
+            }
+        ],
+        "gui:pressurant_tanking_valve_feedback:sensor": [
+            {
+                "command": "pressurant_tanking_valve:SetState",
+                "parameters": [
+                    "gui:pressurant_tanking_valve_feedback:sensor"
+                ]
+            }
+        ],
+        "gui:pressurant_vent_valve_feedback:sensor": [
+            {
+                "command": "pressurant_vent_valve:SetState",
+                "parameters": [
+                    "gui:pressurant_vent_valve_feedback:sensor"
                 ]
             }
         ],
