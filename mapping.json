@@ -522,13 +522,13 @@
                 "stringID": "fuel_pressure_3"
             },
             "4": {
-                "offset": -231.3282,
-                "slope": 0.0142,
+                "offset": -233.3153,
+                "slope": 0.0145,
                 "stringID": "fuel_temp_0"
             },
             "5": {
-                "offset": -233.3153,
-                "slope": 0.0145,
+                "offset": -231.3282,
+                "slope": 0.0142,
                 "stringID": "fuel_temp_1"
             },
             "6": {
@@ -608,13 +608,13 @@
                 "stringID": "ox_pressure_3"
             },
             "4": {
-                "offset": -242.0727,
-                "slope": 0.0148,
+                "offset": -240.293,
+                "slope": 0.0147,
                 "stringID": "ox_temp_0"
             },
             "5": {
-                "offset": -239.9132,
-                "slope": 0.0149,
+                "offset": -242.2248,
+                "slope": 0.0148,
                 "stringID": "ox_temp_1"
             },
             "6": {
@@ -1139,12 +1139,21 @@
         },
         "8": {
             "0": {
+<<<<<<< new-gse-setup
                 "offset": -35.99296329599747,
                 "slope": -0.000295276,
                 "stringID": "rocket_weight"
             },
             "1": {
                 "offset": -5.8487972,
+=======
+                "offset": -0.23668893418005998,
+                "slope": 7.38222613e-06,
+                "stringID": "rocket_weight"
+            },
+            "1": {
+                "offset": -4.7529016,
+>>>>>>> lamarr
                 "slope": -1.48e-05,
                 "stringID": "dewar_weight"
             },
@@ -1220,6 +1229,30 @@
             {
                 "parameters": [],
                 "state": "fuel_rocket:GetRocketState"
+            }
+        ],
+        "gui:ox_tanking_valve_feedback:sensor": [
+            {
+                "command": "ox_tanking_valve:SetState",
+                "parameters": [
+                    "gui:ox_tanking_valve_feedback:sensor"
+                ]
+            }
+        ],
+        "gui:pressurant_tanking_valve_feedback:sensor": [
+            {
+                "command": "pressurant_tanking_valve:SetState",
+                "parameters": [
+                    "gui:pressurant_tanking_valve_feedback:sensor"
+                ]
+            }
+        ],
+        "gui:pressurant_vent_valve_feedback:sensor": [
+            {
+                "command": "pressurant_vent_valve:SetState",
+                "parameters": [
+                    "gui:pressurant_vent_valve_feedback:sensor"
+                ]
             }
         ],
         "gui:Flash:Clear": [

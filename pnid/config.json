@@ -206,54 +206,6 @@
             }
         ]
     },
-	"extra_feedback_channel_overrides": {
-		"states": [
-            "pressurant_tanking_valve_feedback:sensor"
-        ],
-        "popup": [
-            {
-                "type": "display",
-                "style": "text"
-            },
-            {
-                "type": "input",
-                "style": "checkbox",
-                "variable": "pressurant_tanking_valve-sensor"
-            }
-        ]
-	},
-	"extra_feedback_channel_overrides2": {
-	    "states": [
-	        "pressurant_vent_valve_feedback:sensor"
-	    ],
-	    "popup": [
-            {
-                "type": "display",
-                "style": "text"
-            },
-            {
-                "type": "input",
-                "style": "checkbox",
-                "variable": "pressurant_vent_valve-sensor"
-            }
-        ]
-    },
-	"extra_feedback_channel_overrides3": {
-		"states": [
-            "ox_tanking_valve_feedback:sensor"
-        ],
-        "popup": [
-            {
-                "type": "display",
-                "style": "text"
-            },
-            {
-                "type": "input",
-                "style": "checkbox",
-                "variable": "ox_tanking_valve-sensor"
-            }
-        ]
-	},
 	"lora_gnss": {
 	    "states": [
 	        "GNSSLora"
