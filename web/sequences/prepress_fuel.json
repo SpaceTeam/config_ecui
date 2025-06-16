@@ -66,8 +66,8 @@
 		},
 		{
 			"timestamp": -2.9,
-			"name": "start2",
-			"desc": "prevent SequenceManager to send too much data",
+			"name": "Stop Start action item spam",
+			"desc": "There is a bug causing all items in the start timestamp to be sent repeatedly instead of once until they are mentioned again, causing problems.",
 			"actions": [
 				{
 					"timestamp": 0.0,
