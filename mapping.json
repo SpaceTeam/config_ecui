@@ -1361,6 +1361,34 @@
                 "parameters": []
             }
         ],
+        "gui:safety_light:SetDanger": [
+            {
+                "command": "gse_elec_bob_lamp_red:SetState",
+                "parameters": [
+                    1
+                ]
+            },
+            {
+                "command": "gse_elec_bob_lamp_green:SetState",
+                "parameters": [
+                    0
+                ]
+            }
+        ],
+        "gui:safety_light:SetSafe": [
+            {
+                "command": "gse_elec_bob_lamp_red:SetState",
+                "parameters": [
+                    0
+                ]
+            },
+            {
+                "command": "gse_elec_bob_lamp_green:SetState",
+                "parameters": [
+                    1
+                ]
+            }
+        ],
         "gui:fuel_weight:Tare": [
             {
                 "command": "Tare",

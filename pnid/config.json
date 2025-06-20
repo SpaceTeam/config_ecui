@@ -917,6 +917,37 @@
         ],
         "eval": "if (inVars['value'] >= thresholds['motor']['high']) { outVars['color']='open'; outVars['value']='Retract' } else { outVars['color']='closed'; outVars['value']='Stop' }"
 	},
+	"safety_light": {
+        "states": [
+            "gui:safety_light"
+        ],
+        "popup": [
+            {
+                "type": "input",
+                "style": "buttonDanger",
+                "variable": "safety_light:SetDanger",
+                "label": "Danger"
+            },
+            {
+                "type": "input",
+                "style": "button",
+                "variable": "safety_light:SetSafe",
+                "label": "Safe"
+            }
+        ]
+	},
+	"safety_light_red": {
+        "states": [
+            "gse_elec_bob_lamp_red_cont:sensor"
+        ],
+        "eval": "if (inVars['value'] == 0) { outVars['color'] = 'off'; outVars['value'] = '' } else { outVars['color'] = 'error'; outVars['value'] = 'Danger' }"
+	},
+	"safety_light_green": {
+        "states": [
+            "gse_elec_bob_lamp_green_cont:sensor"
+        ],
+        "eval": "if (inVars['value'] == 0) { outVars['color'] = 'off'; outVars['value'] = '' } else { outVars['color'] = 'success'; outVars['value'] = 'Safe' }"
+	},
 	"flash_clear_label": {
         "states": [
             "Flash:Clear"
