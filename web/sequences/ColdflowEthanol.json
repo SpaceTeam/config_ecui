@@ -1,6 +1,6 @@
 {
 	"globals": {
-		"endTime": 15,
+		"endTime": 25,
 		"interpolation": {
 			"fuel_vent:SetState": "none",
 			"fuel_main_valve:SetTargetPosition": "linear",
@@ -96,7 +96,7 @@
 			]
 		},
 		{
-			"timestamp": 6.0,
+			"timestamp": 15.0,
 			"name": "Coldflow end",
 			"desc": "Close main valve",
 			"actions": [

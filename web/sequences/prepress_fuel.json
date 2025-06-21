@@ -38,7 +38,7 @@
 						0
 					],
 					"fuel_pi_controller:SetTarget": [
-						32
+						10
 					],
 					"fuel_pi_controller:SetSensorSlope": [
 						0.01888275146
@@ -81,7 +81,7 @@
 						0
 					],
 					"fuel_pi_controller:SetTarget": [
-						32
+						10
 					],
 					"fuel_pi_controller:SetSensorSlope": [
 						0.01888275146
@@ -150,7 +150,7 @@
 						0
 					],
 					"fuel_pi_controller:SetTarget": [
-						32
+						10
 					],
 					"fuel_pi_controller:SetSensorSlope": [
 						0.01888275146

@@ -70,137 +70,6 @@
 				)
 			)
 		)
-		(symbol "Label_2"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U3"
-				(at 0 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "Label"
-				(at 0 -4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Label_2_0_0"
-				(rectangle
-					(start -7.62 2.54)
-					(end 7.62 -2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
-		(symbol "Label_3"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "fuel_pi_controller"
-				(at 0 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "fuel_pi_controller:Enabled"
-				(at -6.604 -0.254 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Label_3_0_0"
-				(rectangle
-					(start -7.62 2.54)
-					(end 5.08 -2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "Label_4"
 			(pin_names
 				(offset 1.016)
@@ -4064,6 +3933,142 @@
 				)
 			)
 		)
+		(symbol "Sensor_Pressure_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ventilinsel_pressure"
+				(at -1.0414 -3.2512 90)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "Value" "ventilinsel_pressure:sensor"
+				(at -5.334 4.572 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "bar"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Action_Reference" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Data_Content" " "
+				(at -3.8354 -3.2512 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(symbol "Sensor_Pressure_1_0_0"
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "P"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+						)
+					)
+				)
+			)
+			(symbol "Sensor_Pressure_1_1_1"
+				(pin bidirectional line
+					(at 0 2.54 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Sensor_Temperature_1"
 			(pin_numbers hide)
 			(pin_names
@@ -4428,7 +4433,7 @@
 		(uuid "cfc2a671-c8a4-4b9b-8c05-5b449f2032f2")
 	)
 	(junction
-		(at 244.348 104.14)
+		(at 243.84 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d15f635c-c8a0-4073-bd2a-44b9eadd2577")
@@ -4529,7 +4534,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 95.25) (xy 216.408 95.25)
+			(xy 213.36 95.25) (xy 216.408 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4559,7 +4564,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.348 114.3) (xy 240.03 114.3)
+			(xy 243.84 114.3) (xy 240.03 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4646,16 +4651,6 @@
 			(type default)
 		)
 		(uuid "2ddbb3b1-3ba1-440e-8094-19c771646a6e")
-	)
-	(wire
-		(pts
-			(xy 210.82 95.25) (xy 212.09 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "311bc3cd-5ff0-42e8-8f5e-a2e9bbd94b79")
 	)
 	(wire
 		(pts
@@ -4756,16 +4751,6 @@
 			(type default)
 		)
 		(uuid "46187513-dd50-4f8f-9452-d56e6997212b")
-	)
-	(wire
-		(pts
-			(xy 127 33.02) (xy 132.08 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a43e790-b4ab-4d51-a543-b41449d17cfd")
 	)
 	(wire
 		(pts
@@ -4979,7 +4964,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.348 95.25) (xy 244.348 104.14)
+			(xy 243.84 95.25) (xy 243.84 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5139,6 +5124,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 95.25) (xy 209.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4228bfc-497f-4388-9967-c47f3cff8402")
+	)
+	(wire
+		(pts
 			(xy 53.594 56.134) (xy 53.594 39.878)
 		)
 		(stroke
@@ -5199,7 +5194,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.348 104.14) (xy 247.015 104.14)
+			(xy 243.84 104.14) (xy 247.015 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5239,7 +5234,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.348 104.14) (xy 244.348 114.3)
+			(xy 243.84 104.14) (xy 243.84 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5259,23 +5254,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 95.25) (xy 244.348 95.25)
+			(xy 210.82 95.25) (xy 212.09 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da6dcd17-3f6f-47ba-8504-9298aa4afb44")
-	)
-	(wire
-		(pts
-			(xy 212.725 95.25) (xy 213.995 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcaef681-81a1-4d82-aebc-23eb5b32a63d")
+		(uuid "dc44e8e2-f919-41ed-9924-a1584b92306b")
 	)
 	(wire
 		(pts
@@ -5316,6 +5301,16 @@
 			(type default)
 		)
 		(uuid "e09024ea-5b98-4d5b-9b22-71aabce531fa")
+	)
+	(wire
+		(pts
+			(xy 240.03 95.25) (xy 243.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaece535-987a-4596-8124-50b40d8696a0")
 	)
 	(wire
 		(pts
@@ -5376,17 +5371,6 @@
 			(type default)
 		)
 		(uuid "f753b457-7197-4b60-ae4b-59ed6d2f8f35")
-	)
-	(text "PI Controllers"
-		(exclude_from_sim no)
-		(at 243.332 144.272 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "1be0b7a9-56fd-45b1-9239-293746a24165")
 	)
 	(symbol
 		(lib_id "PnID-Lib:Engine")
@@ -6576,70 +6560,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Label_3")
-		(lib_id "PnID:Label")
-		(at 245.11 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05b85a80-2897-42c5-8148-5cc48d265d9e")
-		(property "Reference" "ox_pi_controller"
-			(at 245.11 145.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "ox_pi_controller:Enabled"
-			(at 238.506 151.384 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 245.11 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "lamarr_hedy"
-				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
-					(reference "ox_pi_controller")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PnID-Lib:LED")
 		(at 277.114 24.13 270)
 		(mirror x)
@@ -7317,6 +7237,102 @@
 			(project ""
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "BurstDisc2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Sensor_Pressure_1")
+		(lib_id "PnID-Lib:Sensor_Pressure")
+		(at 243.84 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2914ba16-6afc-4b81-acaf-fccb044b3798")
+		(property "Reference" "pneumatic_pressure"
+			(at 244.8814 84.3788 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "press_in:sensor"
+			(at 248.412 83.058 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 87.63 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 87.63 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "bar"
+			(at 243.84 87.63 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 243.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 247.6754 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "bc1566c5-57f9-42b7-8d80-fbd8316961dd")
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "pneumatic_pressure")
 					(unit 1)
 				)
 			)
@@ -8086,7 +8102,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 139.7 33.02 0)
+		(at 134.62 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8094,7 +8110,7 @@
 		(dnp no)
 		(uuid "506e1cd8-8af7-46ce-abd8-70a5b2b19a48")
 		(property "Reference" "burst_disk_temperature"
-			(at 143.51 32.385 0)
+			(at 138.43 94.615 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8104,7 +8120,7 @@
 			)
 		)
 		(property "Value" "ox_temp_0:sensor"
-			(at 140.716 27.94 0)
+			(at 135.636 90.17 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8112,7 +8128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 33.02 0)
+			(at 134.62 95.25 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8121,7 +8137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 33.02 0)
+			(at 134.62 95.25 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8130,7 +8146,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 33.02 0)
+			(at 134.62 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8139,7 +8155,7 @@
 			)
 		)
 		(property "Unit" "˚C"
-			(at 139.7 33.02 0)
+			(at 134.62 95.25 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8148,7 +8164,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 139.7 33.02 0)
+			(at 134.62 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8833,6 +8849,102 @@
 		)
 	)
 	(symbol
+		(lib_name "Sensor_Pressure_1")
+		(lib_id "PnID-Lib:Sensor_Pressure")
+		(at 213.36 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68028ec0-89fd-4a37-9ec0-ff24fe4efcde")
+		(property "Reference" "ventilinsel_pressure"
+			(at 214.4014 84.3788 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "ventilinsel_pressure:sensor"
+			(at 218.44 83.058 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "bar"
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 217.1954 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "ebd09ee6-29cc-43c4-8b7c-347cb806fdeb")
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "ventilinsel_pressure")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PnID-Lib:Label")
 		(at 264.414 40.64 0)
 		(unit 1)
@@ -9242,6 +9354,101 @@
 			(project "lamarr_hedy"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "ox_vent")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Sensor_Pressure")
+		(at 175.26 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7958b927-4597-4eca-9da3-342874d369f0")
+		(property "Reference" "dewar_pressure"
+			(at 176.3014 116.1288 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "dewar_pressure:sensor"
+			(at 181.61 113.284 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "bar"
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Action_Reference" " "
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Data_Content" " "
+			(at 179.0954 116.1288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "fb5650a1-628b-400d-9844-984842d8f3db")
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "dewar_pressure")
 					(unit 1)
 				)
 			)
@@ -10259,70 +10466,6 @@
 			(project "lamarr_hedy"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "DewarQuickConnect2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Label_2")
-		(lib_id "PnID:Label")
-		(at 35.56 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8e6efde-4de0-4c76-bfe9-419779ee5ce5")
-		(property "Reference" "pressure_control"
-			(at 35.56 61.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "pressurant_tanking_control:Enabled"
-			(at 28.956 67.564 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
-					(reference "pressure_control")
 					(unit 1)
 				)
 			)
@@ -12390,70 +12533,6 @@
 			(project "lamarr_hedy"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "BurstDisc3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Label_3")
-		(lib_id "PnID:Label")
-		(at 245.11 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f862421b-1702-4128-afb5-a2b2f2e0530f")
-		(property "Reference" "fuel_pi_controller"
-			(at 245.11 153.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "fuel_pi_controller:Enabled"
-			(at 238.506 159.004 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 245.11 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "lamarr_hedy"
-				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
-					(reference "fuel_pi_controller")
 					(unit 1)
 				)
 			)

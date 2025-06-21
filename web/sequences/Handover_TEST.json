@@ -1,0 +1,69 @@
+{
+	"globals": {
+		"endTime": 120,
+		"interpolation": {
+			"fuel_vent:SetState": "none",
+			"rocket:ActivateInternalControl": "none"
+		},
+		"interval": 0.01,
+		"ranges": [
+			"chamberPressure"
+		],
+		"startTime": 0
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_vent:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 0.1,
+			"name": "Stop Start action item spam",
+			"desc": "There is a bug causing all items in the start timestamp to be sent repeatedly instead of once until they are mentioned again, causing problems.",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_vent:SetState": [
+						1
+					],
+					"rocket:ActivateInternalControl": [
+					]
+				}
+			]
+		},
+		{
+			"timestamp":0.2,
+			"name": "internalcontrol",
+			"desc": "internal control",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"rocket:ActivateInternalControl": [
+					]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_vent:SetState": [
+						1
+					]
+				}
+			]
+		}
+	]
+}

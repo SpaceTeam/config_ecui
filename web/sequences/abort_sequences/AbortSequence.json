@@ -3,37 +3,12 @@
         "endTime": 3.2
     },
     "actions": {
-        "fuel_main_valve:SetTargetPosition": [
-            0
-        ],
-        "ox_main_valve:SetTargetPosition": [
-            0
-        ],
-        "internal_igniter_1:SetState": [
-            0
-        ],
-        "internal_igniter_2:SetState": [
-            0
+        "rocket:Abort": [
         ],
         "pressurant_tanking_valve:SetState": [
             0
         ],
-        "ox_pi_controller:SetEnabled": [
-            0
-        ],
-        "fuel_pi_controller:SetEnabled": [
-            0
-        ],
-        "engine_ox_main_pi_controller:SetEnabled": [
-            0
-        ],
         "pressurant_vent_valve:SetState": [
-            0
-        ],
-        "ox_vent:SetState": [
-            0
-        ],
-        "fuel_vent:SetState": [
             0
         ],
         "ox_tanking_valve:SetState": [

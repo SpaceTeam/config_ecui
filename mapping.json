@@ -808,12 +808,12 @@
         },
         "35": {
             "0": {
-                "offset": -3.231313,
+                "offset": -4.074313,
                 "slope": 0.0051506,
                 "stringID": "press_in"
             },
             "1": {
-                "offset": -0.3989,
+                "offset": -1.2469,
                 "slope": 0.001611,
                 "stringID": "dewar_pressure"
             },
@@ -851,7 +851,7 @@
                 "stringID": "gse_pneu_1_sense_12V"
             },
             "2": {
-                "offset": -3.231313,
+                "offset": -4.074313,
                 "slope": 0.0051506,
                 "stringID": "ventilinsel_pressure"
             },
@@ -1139,21 +1139,13 @@
         },
         "8": {
             "0": {
-<<<<<<< new-gse-setup
                 "offset": -35.99296329599747,
                 "slope": -0.000295276,
                 "stringID": "rocket_weight"
             },
             "1": {
                 "offset": -5.8487972,
-=======
-                "offset": -0.23668893418005998,
-                "slope": 7.38222613e-06,
-                "stringID": "rocket_weight"
-            },
-            "1": {
-                "offset": -4.7529016,
->>>>>>> lamarr
+
                 "slope": -1.48e-05,
                 "stringID": "dewar_weight"
             },
@@ -1244,14 +1236,6 @@
                 "command": "pressurant_tanking_valve:SetState",
                 "parameters": [
                     "gui:pressurant_tanking_valve_feedback:sensor"
-                ]
-            }
-        ],
-        "gui:pressurant_vent_valve_feedback:sensor": [
-            {
-                "command": "pressurant_vent_valve:SetState",
-                "parameters": [
-                    "gui:pressurant_vent_valve_feedback:sensor"
                 ]
             }
         ],
@@ -1459,14 +1443,6 @@
                 "parameters": []
             }
         ],
-        "gui:ox_tanking_valve_feedback:sensor": [
-            {
-                "command": "ox_tanking_valve:SetState",
-                "parameters": [
-                    "gui:ox_tanking_valve_feedback:sensor"
-                ]
-            }
-        ],
         "gui:ox_weight:Tare": [
             {
                 "command": "Tare",
@@ -1474,14 +1450,6 @@
                     8,
                     3,
                     "ox_weight:sensor"
-                ]
-            }
-        ],
-        "gui:pressurant_tanking_valve_feedback:sensor": [
-            {
-                "command": "pressurant_tanking_valve:SetState",
-                "parameters": [
-                    "gui:pressurant_tanking_valve_feedback:sensor"
                 ]
             }
         ],
