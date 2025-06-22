@@ -7689,7 +7689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "gse_elec_bob_lamp_green_cont:sensor"
+		(property "Value" "gse_elec_bob_lamp_green:sensor"
 			(at 211.582 37.592 90)
 			(effects
 				(font
@@ -9761,7 +9761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "gse_elec_bob_lamp_red_cont:sensor"
+		(property "Value" "gse_elec_bob_lamp_red:sensor"
 			(at 211.582 29.972 90)
 			(effects
 				(font

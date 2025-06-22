@@ -996,15 +996,17 @@
 	},
 	"safety_light_red": {
         "states": [
-            "gse_elec_bob_lamp_red_cont:sensor"
+            "gse_elec_bob_lamp_red:sensor"
         ],
-        "eval": "if (inVars['value'] == 0) { outVars['color'] = 'off'; outVars['value'] = '' } else { outVars['color'] = 'error'; outVars['value'] = 'Danger' }"
+        "eval": "if (inVars['value'] < thresholds['light']['high']) { outVars['color'] = 'off'; outVars['value'] = '' } else { outVars['color'] = 'error'; outVars['value'] = 'Danger' }",
+        "sens_deviation": "return false;"
 	},
 	"safety_light_green": {
         "states": [
-            "gse_elec_bob_lamp_green_cont:sensor"
+            "gse_elec_bob_lamp_green:sensor"
         ],
-        "eval": "if (inVars['value'] == 0) { outVars['color'] = 'off'; outVars['value'] = '' } else { outVars['color'] = 'success'; outVars['value'] = 'Safe' }"
+        "eval": "if (inVars['value'] < thresholds['light']['high']) { outVars['color'] = 'off'; outVars['value'] = '' } else { outVars['color'] = 'success'; outVars['value'] = 'Safe' }",
+        "sens_deviation": "return false;"
 	},
 	"flash_clear_label": {
         "states": [
