@@ -99,7 +99,9 @@
             "Ignition Ox Open",
             "Ignition Fuel Pressurize",
             "Ignition Fuel Open",
-            "Ignition Igniter Off"
+            "Ignition Igniter Off",
+            "Abort Ignition Timeout",
+            "Abort Holddown"
         ]
     }
 }
