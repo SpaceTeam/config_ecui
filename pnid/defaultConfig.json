@@ -61,7 +61,7 @@
                 "collapsible": true,
                 "collapsibleLabel": "Internal Control",
                 "label": "Internal Control",
-                "action": "startTimer(-10, null)"
+                "action": "startTimer(-10, null, false)"
             },
             {
                 "type": "input",
