@@ -81,25 +81,28 @@
         "high": 13
     },
     "enums": {
-        "state_machine": [            
-            "Init",
-            "Unchanged",
-            "Pad Idle",
-            "Autocheck",
-            "Abort",
-            "Pressurize",
-            "Holddown",
-            "Powered Ascent",
-            "Unpowered Ascent",
-            "Depressurize",
-            "Ignition Init",
-            "Ignition Ignite 1",
-            "Ignition Ignite 2",
-            "Ignition Ox Pressurize",
-            "Ignition Ox Open",
-            "Ignition Fuel Pressurize",
-            "Ignition Fuel Open",
-            "Ignition Igniter Off"
+        "state_machine": [
+            "RS_INIT",
+            "RS_UNCHANGED",
+            "RS_PAD_IDLE",
+            "RS_AUTOCHECK",
+            "RS_ABORT",
+            "RS_DEPRESSURIZE",
+            "RS_PRESSURIZE",
+            "RS_HOLDDOWN",
+            "RS_POWERED_ASCENT",
+            "RS_UNPOWERED_ASCENT",
+            "RS_IGNITION_INIT",
+            "RS_IGNITION_IGNITE1",
+            "RS_IGNITION_IGNITE2",
+            "RS_IGNITION_OX_PRESSURIZE",
+            "RS_IGNITION_OX_OPEN",
+            "RS_IGNITION_FUEL_PRESSURIZE",
+            "RS_IGNITION_FUEL_OPEN",
+            "RS_IGNITION_MAIN_OPEN",
+            "RS_IGNITION_IGNITER_OFF",
+            "RS_ABORT_IGNITION_TIMEOUT",
+            "RS_ABORT_HOLDDOWN"
         ]
     }
 }
