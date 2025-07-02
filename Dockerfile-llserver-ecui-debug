@@ -18,7 +18,7 @@ RUN apt-get install -y cmake make
 RUN apt-get install -y wget
 RUN apt-get install -y python3.10-dev
 
-RUN wget --content-disposition "https://www.kvaser.com/downloads-kvaser/?utm_source=software&utm_ean=7330130980754&utm_status=latest"
+RUN wget --content-disposition "https://www.kvaser.com/downloads-kvaser/?utm_source=software&utm_ean=7330130980754&utm_status=latest" -O linuxcan.tar.gz
 RUN tar xvzf linuxcan.tar.gz
 WORKDIR /home/linuxcan/canlib
 RUN make
@@ -33,4 +33,8 @@ WORKDIR /home/llserver_ecui_houbolt/build
 
 ENV ECUI_CONFIG_PATH=/home/config_ecui
 
+<<<<<<< Updated upstream
 ENTRYPOINT cmake -D NO_PYTHON=false --preset=release -D NO_CANLIB=false -S ../ -B  ./ && make -j && ./llserver_ecui_houbolt
+=======
+ENTRYPOINT cmake --profile=release -S ../ -B  ./ && make -j && ./llserver_ecui_houbolt
+>>>>>>> Stashed changes
