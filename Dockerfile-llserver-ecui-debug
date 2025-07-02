@@ -33,4 +33,4 @@ WORKDIR /home/llserver_ecui_houbolt/build
 
 ENV ECUI_CONFIG_PATH=/home/config_ecui
 
-ENTRYPOINT cmake -D NO_PYTHON=false -D NO_CANLIB=false -S ../ -B  ./ && make -j && ./llserver_ecui_houbolt
+ENTRYPOINT cmake -D NO_PYTHON=false --preset=release -D NO_CANLIB=false -S ../ -B  ./ && make -j && ./llserver_ecui_houbolt

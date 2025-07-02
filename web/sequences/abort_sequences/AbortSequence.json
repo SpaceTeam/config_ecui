@@ -13,6 +13,10 @@
         ],
         "ox_tanking_valve:SetState": [
             0
+        ],
+        "gse_elec_bob_lamp_red:SetState":[
+            1
         ]
+
     }
 }
