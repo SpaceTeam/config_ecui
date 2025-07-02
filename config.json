@@ -103,7 +103,8 @@
         "enable_fast_sensor_logging": true
     },
     "SCRIPT_RUNNER": {
-        "port": 8000
+        "port": 8000,
+        "ip": "172.17.0.1"
     },
     "THRUST": {
         "alpha": 0.785398,
