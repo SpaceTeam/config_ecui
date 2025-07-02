@@ -982,6 +982,12 @@
         "popup": [
             {
                 "type": "input",
+                "style": "button",
+                "variable": "safety_light:Reset",
+                "label": "Reset"
+            },
+            {
+                "type": "input",
                 "style": "buttonDanger",
                 "variable": "safety_light:SetDanger",
                 "label": "Danger"

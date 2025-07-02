@@ -7,7 +7,7 @@
         "high": 1000
     },
     "light": {
-        "high": 50
+        "high": 30
     },
     "pneumatic_valve_solenoid": {
         "high": 400
@@ -44,7 +44,7 @@
         "high": 9.0
     },
     "battery": {
-    	"critical": 11,
+        "critical": 11,
         "low": 11.3,
         "high": 12.7,
         "notconnected": 0
