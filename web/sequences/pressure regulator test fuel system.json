@@ -1,0 +1,130 @@
+{
+	"globals": {
+		"endTime": 20,
+		"interpolation": {
+			"fuel_vent:SetState": "none",
+			"fuel_main_valve:SetTargetPosition": "linear",
+			"fuel_pressurant_valve:SetTargetPosition": "linear"
+		},
+		"interval": 0.01,
+		"ranges": [
+			"chamberPressure"
+		],
+		"startTime": -5
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "set all to zero",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],					
+					"fuel_vent:SetState": [
+						1
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": -1.0,
+			"name": "Open Main Valve",
+			"desc": "Set main valve target position to 100",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 0.0,
+			"name": "Pressure Regulator Test Start",
+			"desc": "Open fuel Pressurant Valve",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 10.0,
+			"name": "Pressure Regulator Test End",
+			"desc": "Close fuel Pressurant valve, close fuel main valve, open vent",
+			"actions": [
+				
+				{
+					"timestamp": 0.0,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						100
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 1.5,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					]
+				},				{
+					"timestamp": 2.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 2.5,
+					"fuel_vent:SetState": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_vent:SetState": [
+						0
+					],
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		}
+	]
+}

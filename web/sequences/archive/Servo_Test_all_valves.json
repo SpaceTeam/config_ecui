@@ -1,0 +1,744 @@
+{
+	"globals": {
+		"endTime": 301,
+		"interpolation": {
+			"fuel_vent:SetState": "linear",
+			"fuel_main_valve:SetTargetPosition": "linear",
+			"fuel_pressurant_valve:SetTargetPosition": "linear",
+			"ox_pressurant_valve:SetTargetPosition": "linear",
+			"fuel_pi_controller:SetEnabled": "none",
+			"fuel_pi_controller:SetTarget": "none",
+			"ox_vent:SetState": "linear",
+			"ox_main_valve:SetTargetPosition": "linear",
+			"ox_pi_controller:SetEnabled": "none",
+			"ox_pi_controller:SetTarget": "none",
+			"fuel_pi_controller:SetSensorSlope": "none",
+			"fuel_pi_controller:SetSensorOffset": "none",
+			"fuel_pi_controller:SetOperatingPoint": "none",
+			"fuel_pi_controller:SetP_POS": "none",
+			"fuel_pi_controller:SetI_POS": "none",
+			"fuel_pi_controller:SetP_NEG": "none",
+			"fuel_pi_controller:SetI_NEG": "none",
+			"ox_pi_controller:SetSensorSlope": "none",
+			"ox_pi_controller:SetSensorOffset": "none",
+			"ox_pi_controller:SetOperatingPoint": "none",
+			"ox_pi_controller:SetP_POS": "none",
+			"ox_pi_controller:SetI_POS": "none",
+			"ox_pi_controller:SetP_NEG": "none",
+			"ox_pi_controller:SetI_NEG": "none",
+			"engine_ox_main_pi_controller:SetEnabled": "none",
+			"engine_ox_main_pi_controller:SetSensorSlope": "none",
+			"engine_ox_main_pi_controller:SetSensorOffset": "none",
+			"engine_ox_main_pi_controller:SetOperatingPoint": "none",
+			"engine_ox_main_pi_controller:SetP_POS": "none",
+			"engine_ox_main_pi_controller:SetP_NEG": "none",
+			"engine_ox_main_pi_controller:SetI_POS": "none",
+			"engine_ox_main_pi_controller:SetI_NEG": "none",
+			"engine_ox_main_pi_controller:SetTarget": "none"
+		},
+		"interval": 0.01,
+		"ranges": [
+			"chamberPressure"
+		],
+		"startTime": -5
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "set all to zero",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_vent:SetState": [
+						0
+					],
+					"ox_vent:SetState": [
+						0
+					],
+					"fuel_pi_controller:SetEnabled": [
+						0
+					],
+					"fuel_pi_controller:SetTarget": [
+						32
+					],
+					"fuel_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"fuel_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"fuel_pi_controller:SetOperatingPoint": [
+						1
+					],
+					"fuel_pi_controller:SetP_POS": [
+						1
+					],
+					"fuel_pi_controller:SetI_POS": [
+						1
+					],
+					"fuel_pi_controller:SetP_NEG": [
+						1
+					],
+					"fuel_pi_controller:SetI_NEG": [
+						1
+					],
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pi_controller:SetEnabled": [
+						0
+					],
+					"ox_pi_controller:SetTarget": [
+						38
+					],
+					"ox_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"ox_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"ox_pi_controller:SetOperatingPoint": [
+						0.0
+					],
+					"ox_pi_controller:SetP_POS": [
+						0.01
+					],
+					"ox_pi_controller:SetI_POS": [
+						0.01
+					],
+					"ox_pi_controller:SetP_NEG": [
+						0.01
+					],
+					"ox_pi_controller:SetI_NEG": [
+						0.01
+					],
+					"engine_ox_main_pi_controller:SetEnabled": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetTarget": [
+						50
+					],
+					"engine_ox_main_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"engine_ox_main_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"engine_ox_main_pi_controller:SetOperatingPoint": [
+						80
+					],
+					"engine_ox_main_pi_controller:SetP_POS": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetI_POS": [
+						-0.2
+					],
+					"engine_ox_main_pi_controller:SetP_NEG": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetI_NEG": [
+						-1.5
+					]
+				}
+			]
+		},
+		{
+			"timestamp": -1.0,
+			"name": "Stop Start action item spam",
+			"desc": "There is a bug causing all items in the start timestamp to be sent repeatedly instead of once until they are mentioned again, causing problems.",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_vent:SetState": [
+						0
+					],
+					"ox_vent:SetState": [
+						0
+					],
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pi_controller:SetEnabled": [
+						0
+					],
+					"fuel_pi_controller:SetTarget": [
+						32
+					],
+					"fuel_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"fuel_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"fuel_pi_controller:SetOperatingPoint": [
+						1
+					],
+					"ox_pi_controller:SetEnabled": [
+						0
+					],
+					"ox_pi_controller:SetTarget": [
+						38
+					],
+					"ox_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"ox_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"ox_pi_controller:SetOperatingPoint": [
+						0.0
+					],
+					"engine_ox_main_pi_controller:SetEnabled": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetTarget": [
+						50
+					],
+					"engine_ox_main_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"engine_ox_main_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"engine_ox_main_pi_controller:SetOperatingPoint": [
+						80
+					],
+					"engine_ox_main_pi_controller:SetP_POS": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetI_POS": [
+						-0.2
+					],
+					"engine_ox_main_pi_controller:SetP_NEG": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetI_NEG": [
+						-1.5
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 0.0,
+			"name": "Servo Test Server Control Start",
+			"desc": "Open all valves via sequence",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_vent:SetState": [
+						0
+					],
+					"ox_vent:SetState": [
+						0
+					],
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 29.0,
+					"fuel_vent:SetState": [
+						1
+					],
+					"ox_vent:SetState": [
+						1
+					],
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						100
+					],
+					"ox_main_valve:SetTargetPosition": [
+						100
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 30.0,
+			"name": "Servo Test Server Control",
+			"desc": "Close all valves via sequence",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_vent:SetState": [
+						1
+					],
+					"ox_vent:SetState": [
+						1
+					],
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						100
+					],
+					"ox_main_valve:SetTargetPosition": [
+						100
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						100
+					]
+				},
+				{
+					"timestamp": 29.0,
+					"fuel_vent:SetState": [
+						0
+					],
+					"ox_vent:SetState": [
+						0
+					],
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 60.0,
+			"name": "Servo Test Server Control Start",
+			"desc": "Open all valves via sequence",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 29.0,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						100
+					],
+					"ox_main_valve:SetTargetPosition": [
+						100
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 90.0,
+			"name": "Servo Test Server Control",
+			"desc": "Close all valves via sequence",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						100
+					],
+					"ox_main_valve:SetTargetPosition": [
+						100
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						100
+					]
+				},
+				{
+					"timestamp": 29.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 120.0,
+			"name": "Servo Test Server Control Start",
+			"desc": "Open all valves via sequence",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 29.0,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						100
+					],
+					"ox_main_valve:SetTargetPosition": [
+						100
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 150.0,
+			"name": "Servo Test Server Control",
+			"desc": "Close all valves via sequence",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						100
+					],
+					"ox_main_valve:SetTargetPosition": [
+						100
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						100
+					]
+				},
+				{
+					"timestamp": 29.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 180.0,
+			"name": "Servo Test Server Control Start",
+			"desc": "Open all valves via sequence",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 29.0,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						100
+					],
+					"ox_main_valve:SetTargetPosition": [
+						100
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 210.0,
+			"name": "Servo Test Server Control",
+			"desc": "Close all valves via sequence",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						100
+					],
+					"ox_main_valve:SetTargetPosition": [
+						100
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						100
+					]
+				},
+				{
+					"timestamp": 29.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 240.0,
+			"name": "Servo Test Server Control Start",
+			"desc": "Open all valves via sequence",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 29.0,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						100
+					],
+					"ox_main_valve:SetTargetPosition": [
+						100
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						100
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 270.0,
+			"name": "Servo Test Server Control",
+			"desc": "Close all valves via sequence",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						100
+					],
+					"ox_main_valve:SetTargetPosition": [
+						100
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						100
+					]
+				},
+				{
+					"timestamp": 29.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},			
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_vent:SetState": [
+						0
+					],
+					"ox_vent:SetState": [
+						0
+					],
+					"fuel_pi_controller:SetEnabled": [
+						0
+					],
+					"fuel_pi_controller:SetTarget": [
+						32
+					],
+					"fuel_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"fuel_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"fuel_pi_controller:SetOperatingPoint": [
+						1
+					],
+					"fuel_pi_controller:SetP_POS": [
+						1
+					],
+					"fuel_pi_controller:SetI_POS": [
+						1
+					],
+					"fuel_pi_controller:SetP_NEG": [
+						1
+					],
+					"fuel_pi_controller:SetI_NEG": [
+						1
+					],
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"ox_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pressurant_valve:SetTargetPosition": [
+						0
+					],
+					"ox_pi_controller:SetEnabled": [
+						0
+					],
+					"ox_pi_controller:SetTarget": [
+						38
+					],
+					"ox_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"ox_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"ox_pi_controller:SetOperatingPoint": [
+						0.0
+					],
+					"ox_pi_controller:SetP_POS": [
+						0.01
+					],
+					"ox_pi_controller:SetI_POS": [
+						0.01
+					],
+					"ox_pi_controller:SetP_NEG": [
+						0.01
+					],
+					"ox_pi_controller:SetI_NEG": [
+						0.01
+					],
+					"engine_ox_main_pi_controller:SetEnabled": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetTarget": [
+						50
+					],
+					"engine_ox_main_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"engine_ox_main_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"engine_ox_main_pi_controller:SetOperatingPoint": [
+						80
+					],
+					"engine_ox_main_pi_controller:SetP_POS": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetI_POS": [
+						-0.2
+					],
+					"engine_ox_main_pi_controller:SetP_NEG": [
+						0
+					],
+					"engine_ox_main_pi_controller:SetI_NEG": [
+						-1.5
+					]
+				}
+			]
+		}
+	]
+}

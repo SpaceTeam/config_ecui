@@ -5,3 +5,5 @@ influx/*
 *-backups/
 *.lck
 *.db
+*.tar.gz
+logs/

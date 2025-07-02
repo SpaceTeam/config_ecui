@@ -6,6 +6,9 @@
     "solenoid": {
         "high": 1000
     },
+    "light": {
+        "high": 30
+    },
     "pneumatic_valve_solenoid": {
         "high": 400
     },
@@ -41,7 +44,7 @@
         "high": 9.0
     },
     "battery": {
-    	"critical": 11,
+        "critical": 11,
         "low": 11.3,
         "high": 12.7,
         "notconnected": 0
@@ -79,15 +82,27 @@
     },
     "enums": {
         "state_machine": [
-            "Pad Idle",
-            "Auto Check",
-            "Ignition Sequence",
-            "Holddown",
-            "Powered Ascent",
-            "Unpowered Ascent",
-            "Depress",
-            "Abort",
-            "Pressurize Tanks"
+            "RS_INIT",
+            "RS_UNCHANGED",
+            "RS_PAD_IDLE",
+            "RS_AUTOCHECK",
+            "RS_ABORT",
+            "RS_DEPRESSURIZE",
+            "RS_PRESSURIZE",
+            "RS_HOLDDOWN",
+            "RS_POWERED_ASCENT",
+            "RS_UNPOWERED_ASCENT",
+            "RS_IGNITION_INIT",
+            "RS_IGNITION_IGNITE1",
+            "RS_IGNITION_IGNITE2",
+            "RS_IGNITION_OX_PRESSURIZE",
+            "RS_IGNITION_OX_OPEN",
+            "RS_IGNITION_FUEL_PRESSURIZE",
+            "RS_IGNITION_FUEL_OPEN",
+            "RS_IGNITION_MAIN_OPEN",
+            "RS_IGNITION_IGNITER_OFF",
+            "RS_ABORT_IGNITION_TIMEOUT",
+            "RS_ABORT_HOLDDOWN"
         ]
     }
 }

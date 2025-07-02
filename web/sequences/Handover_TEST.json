@@ -1,23 +1,21 @@
 {
 	"globals": {
-		"endTime": 25,
+		"endTime": 60,
 		"interpolation": {
 			"fuel_vent:SetState": "none",
-			"fuel_main_valve:SetTargetPosition": "linear",
-			"fuel_pi_controller:SetEnabled": "none",
-			"fuel_pi_controller:SetTarget": "none"
+			"rocket:ActivateInternalControl": "none"
 		},
 		"interval": 0.01,
 		"ranges": [
 			"chamberPressure"
 		],
-		"startTime": -5
+		"startTime": 0
 	},
 	"data": [
 		{
 			"timestamp": "START",
 			"name": "start",
-			"desc": "set all to zero",
+			"desc": "initialize all",
 			"actions": [
 				{
 					"timestamp": 0.0,
@@ -28,7 +26,7 @@
 						0
 					],
 					"fuel_pi_controller:SetTarget": [
-						32
+						38
 					],
 					"fuel_pi_controller:SetSensorSlope": [
 						0.01888275146
@@ -40,89 +38,70 @@
 						38.0
 					],
 					"fuel_pi_controller:SetP_POS": [
-						1.5
+						1
 					],
 					"fuel_pi_controller:SetI_POS": [
 						1.0
 					],
 					"fuel_pi_controller:SetP_NEG": [
-						1.5
+						1
+					],
+					"fuel_pi_controller:SetI_NEG": [
+						0.5
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 0.1,
+			"name": "Stop Start action item spam",
+			"desc": "There is a bug causing all items in the start timestamp to be sent repeatedly instead of once until they are mentioned again, causing problems.",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_vent:SetState": [
+						1
+					],
+					"fuel_pi_controller:SetEnabled": [
+						0
+					],
+					"fuel_pi_controller:SetTarget": [
+						30
+					],
+					"fuel_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"fuel_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"fuel_pi_controller:SetOperatingPoint": [
+						38.0
+					],
+					"fuel_pi_controller:SetP_POS": [
+						1
+					],
+					"fuel_pi_controller:SetI_POS": [
+						1.0
+					],
+					"fuel_pi_controller:SetP_NEG": [
+						1
 					],
 					"fuel_pi_controller:SetI_NEG": [
 						0.5
 					],
-					"fuel_main_valve:SetTargetPosition": [
-						0
+					"rocket:ActivateInternalControl": [
 					]
 				}
 			]
 		},
 		{
-			"timestamp": -0.2,
-			"name": "Pressure control enable",
-			"desc": "Enable fuel pressurization controller",
+			"timestamp":0.2,
+			"name": "internalcontrol",
+			"desc": "internal control",
 			"actions": [
 				{
 					"timestamp": 0.0,
-					"fuel_vent:SetState": [
-						1
-					]
-				},
-				{
-					"timestamp": 0.1,
-					"fuel_pi_controller:SetEnabled": [
-						1
-					]
-				}
-			]
-		},
-		{
-			"timestamp": 0.0,
-			"name": "Coldflow start",
-			"desc": "Open fuel main valve",
-			"actions": [
-				{
-					"timestamp": 0.0,
-					"fuel_main_valve:SetTargetPosition": [
-						0
-					]
-				},
-				{
-					"timestamp": 0.1,
-					"fuel_main_valve:SetTargetPosition": [
-						100
-					]
-				}
-			]
-		},
-		{
-			"timestamp": 15.0,
-			"name": "Coldflow end",
-			"desc": "Close main valve",
-			"actions": [
-				
-				{
-					"timestamp": 0.0,
-					"fuel_pi_controller:SetEnabled": [
-						0
-					]
-				},
-				{
-					"timestamp": 0.5,
-					"fuel_main_valve:SetTargetPosition": [
-						100
-					]
-				},
-				{
-					"timestamp": 1.0,
-					"fuel_main_valve:SetTargetPosition": [
-						0
-					]
-				},
-				{
-					"timestamp": 2.0,
-					"fuel_vent:SetState": [
-						1
+					"rocket:ActivateInternalControl": [
 					]
 				}
 			]
@@ -134,33 +113,6 @@
 			"actions": [
 				{
 					"timestamp": 0.0,
-					"fuel_pi_controller:SetEnabled": [
-						0
-					],
-					"fuel_pi_controller:SetTarget": [
-						32
-					],
-					"fuel_pi_controller:SetSensorSlope": [
-						0.01888275146
-					],
-					"fuel_pi_controller:SetSensorOffset": [
-						-15
-					],
-					"fuel_pi_controller:SetOperatingPoint": [
-						38.0
-					],
-					"fuel_pi_controller:SetP_POS": [
-						1.5
-					],
-					"fuel_pi_controller:SetI_POS": [
-						1.0
-					],
-					"fuel_pi_controller:SetP_NEG": [
-						1.5
-					],
-					"fuel_pi_controller:SetI_NEG": [
-						0.5
-					],
 					"fuel_vent:SetState": [
 						1
 					]

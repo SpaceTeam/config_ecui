@@ -1,0 +1,2184 @@
+{
+	"globals": {
+		"endTime": 22,
+		"interpolation": {
+			"gse_elec_bob_lamp_red:SetState": "none",
+			"gse_elec_bob_lamp_green:SetState": "none"
+		},
+		"interval": 0.01,
+		"ranges": [
+			"chamberPressure"
+		],
+		"startTime": 0
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 0.1,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 1.0,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 2.0,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 3.0,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 4.0,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 5.0,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 6.0,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		
+				{
+			"timestamp": 7,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 8,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 9,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 10,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 11,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 12,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 13,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+				{
+			"timestamp": 14,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 15,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 16,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 17,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 18,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp":19,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 20.0,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+				{
+			"timestamp": 21,
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.4,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.7,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.8,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				},
+				{
+					"timestamp": 0.9,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		},
+		
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					],
+					"gse_elec_bob_lamp_red:SetState": [
+						1
+					]
+				}
+			]
+		}
+	]
+}

@@ -206,54 +206,6 @@
             }
         ]
     },
-	"extra_feedback_channel_overrides": {
-		"states": [
-            "pressurant_tanking_valve_feedback:sensor"
-        ],
-        "popup": [
-            {
-                "type": "display",
-                "style": "text"
-            },
-            {
-                "type": "input",
-                "style": "checkbox",
-                "variable": "pressurant_tanking_valve-sensor"
-            }
-        ]
-	},
-	"extra_feedback_channel_overrides2": {
-	    "states": [
-	        "pressurant_vent_valve_feedback:sensor"
-	    ],
-	    "popup": [
-            {
-                "type": "display",
-                "style": "text"
-            },
-            {
-                "type": "input",
-                "style": "checkbox",
-                "variable": "pressurant_vent_valve-sensor"
-            }
-        ]
-    },
-	"extra_feedback_channel_overrides3": {
-		"states": [
-            "ox_tanking_valve_feedback:sensor"
-        ],
-        "popup": [
-            {
-                "type": "display",
-                "style": "text"
-            },
-            {
-                "type": "input",
-                "style": "checkbox",
-                "variable": "ox_tanking_valve-sensor"
-            }
-        ]
-	},
 	"lora_gnss": {
 	    "states": [
 	        "GNSSLora"
@@ -293,29 +245,87 @@
             {
                 "type": "display",
                 "style": "text",
-                "label": "GSE ELEC 5V",
-                "variable": "gse_elec_sense_5V-sensor",
+                "label": "BOB 5V",
+                "variable": "gse_elec_bob_sense_5V-sensor",
                 "suffix": "V"
             },
             {
                 "type": "display",
                 "style": "text",
-                "label": "GSE ELEC Supply",
-                "variable": "gse_elec_sense_12V-sensor",
+                "label": "BOB 12V",
+                "variable": "gse_elec_bob_sense_12V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "separator"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "IOB0 5V",
+                "variable": "gse_elec_iob_0_sense_5V-sensor",
                 "suffix": "V"
             },
             {
                 "type": "display",
                 "style": "text",
-                "label": "GSE PNEU 5V",
-                "variable": "gse_pneu_sense_5V-sensor",
+                "label": "IOB0 12V",
+                "variable": "gse_elec_iob_0_sense_12V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "separator"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "IOB1 5V",
+                "variable": "gse_elec_iob_1_sense_5V-sensor",
                 "suffix": "V"
             },
             {
                 "type": "display",
                 "style": "text",
-                "label": "GSE PNEU Supply",
-                "variable": "gse_pneu_sense_12V-sensor",
+                "label": "IOB1 12V",
+                "variable": "gse_elec_iob_1_sense_12V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "separator"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Pneu0 5V",
+                "variable": "gse_pneu_0_sense_5V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Pneu0 12V",
+                "variable": "gse_pneu_0_sense_12V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "separator"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Pneu1 5V",
+                "variable": "gse_pneu_1_sense_5V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Pneu1 12V",
+                "variable": "gse_pneu_1_sense_12V-sensor",
                 "suffix": "V"
             }
         ]
@@ -964,6 +974,45 @@
             "umbilical_retract:sensor"
         ],
         "eval": "if (inVars['value'] >= thresholds['motor']['high']) { outVars['color']='open'; outVars['value']='Retract' } else { outVars['color']='closed'; outVars['value']='Stop' }"
+	},
+	"safety_light": {
+        "states": [
+            "gui:safety_light"
+        ],
+        "popup": [
+            {
+                "type": "input",
+                "style": "button",
+                "variable": "safety_light:Reset",
+                "label": "Reset"
+            },
+            {
+                "type": "input",
+                "style": "buttonDanger",
+                "variable": "safety_light:SetDanger",
+                "label": "Danger"
+            },
+            {
+                "type": "input",
+                "style": "button",
+                "variable": "safety_light:SetSafe",
+                "label": "Safe"
+            }
+        ]
+	},
+	"safety_light_red": {
+        "states": [
+            "gse_elec_bob_lamp_red:sensor"
+        ],
+        "eval": "if (inVars['value'] < thresholds['light']['high']) { outVars['color'] = 'off'; outVars['value'] = '' } else { outVars['color'] = 'error'; outVars['value'] = 'Danger' }",
+        "sens_deviation": "return false;"
+	},
+	"safety_light_green": {
+        "states": [
+            "gse_elec_bob_lamp_green:sensor"
+        ],
+        "eval": "if (inVars['value'] < thresholds['light']['high']) { outVars['color'] = 'off'; outVars['value'] = '' } else { outVars['color'] = 'success'; outVars['value'] = 'Safe' }",
+        "sens_deviation": "return false;"
 	},
 	"flash_clear_label": {
         "states": [

@@ -4,7 +4,7 @@
         "eval": "if (inVars['value'] > thresholds['wire']['pressurized']) { outVars['color']='content' } else if (inVars['value'] > thresholds['wire']['notconnected']) { outVars['color']='' } else { outVars['color']='notconnected' }"
     },
     "PnID-Lib-Rocket_Channel": {
-        "eval": "if (parseInt(inVars['value']) >= 0 && parseInt(inVars['value']) < thresholds['enums']['state_machine'].length) { outVars['value'] = thresholds['enums']['state_machine'][parseInt(inVars['value'])]; outVars['color'] = 'good' } else { outVars['value'] = 'Unknown State (' + inVars['value'] + ')'; outVars['color'] = 'unknown' }; if (parseInt(inVars['value']) == 0) { outVars['color'] = 'neutral' } else if (parseInt(inVars['value']) == 7) { outVars['color'] = 'bad' }",
+        "eval": "let evalRocketVal = parseInt(inVars['value']); if (evalRocketVal >= 0 && evalRocketVal < thresholds['enums']['state_machine'].length) { outVars['value'] = thresholds['enums']['state_machine'][evalRocketVal]; outVars['color'] = 'neutral' } else { outVars['value'] = 'Unknown State (' + inVars['value'] + ')'; outVars['color'] = 'unknown' }; if (evalRocketVal == 2) { outVars['color'] = 'good' } else if (evalRocketVal == 4 || evalRocketVal == 19 || evalRocketVal == 20) { outVars['color'] = 'bad' } setGlobalWarning('abort', 'Rocket is in Abort State', evalRocketVal == 4 || evalRocketVal == 19 || evalRocketVal == 20);",
         "sens_deviation": "return false;",
         "popup": [
             {
@@ -61,7 +61,7 @@
                 "collapsible": true,
                 "collapsibleLabel": "Internal Control",
                 "label": "Internal Control",
-                "action": "startTimer(-10, null)"
+                "action": "startTimer(-10, null, false)"
             },
             {
                 "type": "input",
@@ -126,9 +126,9 @@
                 "type": "input",
                 "style": "button",
                 "collapsible": true,
-                "collapsibleLabel": "Reset State Machine",
+                "collapsibleLabel": "Reset Abort State",
                 "variable": "rocket-ResetStateMachine",
-                "label": "Reset State Machine"
+                "label": "Reset Abort State"
             }
         ]
     },
