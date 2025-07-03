@@ -18,6 +18,7 @@ def printProgressBar(
     length=100,
     fill="█",
     printEnd="\r",
+    last_percent=[-1],  # mutable default to persist across calls
 ):
     """
     Call in a loop to create terminal progress bar
@@ -31,11 +32,15 @@ def printProgressBar(
         fill        - Optional  : bar fill character (Str)
         printEnd    - Optional  : end character (e.g. "\r", "\r\n") (Str)
     """
-    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
+    percent_float = 100 * (iteration / float(total))
+    percent = ("{0:." + str(decimals) + "f}").format(percent_float)
     filledLength = int(length * iteration // total)
     bar = fill * filledLength + "-" * (length - filledLength)
-    print(f"\r{prefix} |{bar}| {percent}% {suffix}", end=printEnd)
-    # Print New Line on Complete
+    # Only update if percent increased by at least 5% or is complete
+    percent_int = int(percent_float // 5) * 5
+    if percent_int != last_percent[0] or iteration == total:
+        print(f"\r{prefix} |{bar}| {percent}% {suffix}", end=printEnd)
+        last_percent[0] = percent_int
     if iteration == total:
         print()
 
