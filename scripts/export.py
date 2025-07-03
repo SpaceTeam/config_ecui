@@ -137,11 +137,11 @@ def export():
         + str(L.ngroups)
         + " time slices"
     )
-    result.to_csv(
-        f"raw_{args.outfile}_{args.measurement}_{args.begin}.csv", index=False
-    )
 
     if args.rawonly:
+        result.to_csv(
+            args.outfile, index=False
+        )
         return
 
     i = 0
@@ -168,7 +168,7 @@ def export():
             i, L.ngroups, prefix="Processing Data:", suffix="Complete", length=50
         )
 
-    f = open(f"{args.outfile}_{args.measurement}_{args.begin}.csv", "w")
+    f = open(args.outfile, "w")
     f.write(exportCSV)
     f.close()
 
