@@ -44,12 +44,6 @@
     ]
   },
   {
-    "id": "test",
-    "title": "Greetings!",
-    "command": "test.py",
-    "args": []
-  },
-  {
     "id": "my-script-1",
     "title": "Run a simple Python script",
     "command": "python",
