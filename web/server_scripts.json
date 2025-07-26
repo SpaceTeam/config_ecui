@@ -44,9 +44,9 @@
     ]
   },
   {
-    "id": "hello",
+    "id": "test",
     "title": "Greetings!",
-    "command": "hello.py",
+    "command": "test.py",
     "args": []
   },
   {
