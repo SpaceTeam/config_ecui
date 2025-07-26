@@ -18,7 +18,7 @@
 		"ranges": [
 			"chamberPressure"
 		],
-		"startTime": -3
+		"startTime": -10
 	},
 	"data": [
 		{
@@ -38,7 +38,7 @@
 						0
 					],
 					"fuel_pi_controller:SetTarget": [
-						36
+						32
 					],
 					"fuel_pi_controller:SetSensorSlope": [
 						0.01888275146
@@ -47,50 +47,7 @@
 						-15
 					],
 					"fuel_pi_controller:SetOperatingPoint": [
-						25
-					],
-					"fuel_pi_controller:SetP_POS": [
-						0.2
-					],
-					"fuel_pi_controller:SetI_POS": [
-						0.05
-					],
-					"fuel_pi_controller:SetP_NEG": [
-						100.0
-					],
-					"fuel_pi_controller:SetI_NEG": [
-						500.0
-					]
-				}
-			]
-		},
-		{
-			"timestamp": -2.9,
-			"name": "Stop Start action item spam",
-			"desc": "There is a bug causing all items in the start timestamp to be sent repeatedly instead of once until they are mentioned again, causing problems.",
-			"actions": [
-				{
-					"timestamp": 0.0,
-					"fuel_vent:SetState": [
-						1
-					],
-					"fuel_main_valve:SetTargetPosition": [
-						0
-					],
-					"fuel_pi_controller:SetEnabled": [
-						0
-					],
-					"fuel_pi_controller:SetTarget": [
-						36
-					],
-					"fuel_pi_controller:SetSensorSlope": [
-						0.01888275146
-					],
-					"fuel_pi_controller:SetSensorOffset": [
-						-15
-					],
-					"fuel_pi_controller:SetOperatingPoint": [
-						25
+						16
 					],
 					"fuel_pi_controller:SetP_POS": [
 						0.2
@@ -121,19 +78,6 @@
 			]
 		},
 		{
-			"timestamp": 29.0,
-			"name": "pre pressurize end",
-			"desc": "disable PI controller",
-			"actions": [
-				{
-					"timestamp": 0.0,
-					"fuel_pi_controller:SetEnabled": [
-						0
-					]
-				}
-			]
-		},
-		{
 			"timestamp": "END",
 			"name": "end",
 			"desc": "the end",
@@ -150,7 +94,7 @@
 						0
 					],
 					"fuel_pi_controller:SetTarget": [
-						36
+						32
 					],
 					"fuel_pi_controller:SetSensorSlope": [
 						0.01888275146
@@ -159,7 +103,7 @@
 						-15
 					],
 					"fuel_pi_controller:SetOperatingPoint": [
-						25
+						16
 					],
 					"fuel_pi_controller:SetP_POS": [
 						0.2
