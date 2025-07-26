@@ -596,7 +596,7 @@
             "2": {
                 "offset": -100,
                 "slope": 0.125885,
-                "stringID": "ox_pressure_2"
+                "stringID": "ox_pressure_reducer_pressure"
             },
             "20": {
                 "slope": 0.008921110838,
@@ -818,10 +818,10 @@
                 "stringID": "dewar_pressure"
             },
             "10": {
-                "stringID": "ox_decoupler"
+                "stringID": "gse_pneu_1_unused_igniter_2"
             },
             "11": {
-                "stringID": "ox_decoupler_feedback"
+                "stringID": "gse_pneu_1_unused_igniter_2_feedback"
             },
             "12": {
                 "stringID": "gse_pneu_1_unused_igniter_2"
@@ -899,8 +899,8 @@
                 "stringID": "pressurant_tanking_pressure"
             },
             "1": {
-                "offset": 0,
-                "slope": 1,
+                "offset": -15.0473784,
+                "slope": 0.001184459886,
                 "stringID": "gse_elec_iob_0_press_1"
             },
             "10": {
@@ -937,8 +937,8 @@
                 "stringID": "gse_elec_iob_0_sense_12V"
             },
             "2": {
-                "offset": 0,
-                "slope": 1,
+                "offset": -15,
+                "slope": 0.01888275146,
                 "stringID": "gse_elec_iob_0_press_2"
             },
             "20": {
@@ -972,7 +972,7 @@
                 "stringID": "ox_decoupler"
             },
             "9": {
-                "stringID": "ox_decoupler_cont"
+                "stringID": "ox_decoupler_feedback"
             },
             "stringID": "gse_elec_iob_0_ecu"
         },
@@ -1139,13 +1139,12 @@
         },
         "8": {
             "0": {
-                "offset": -35.99296329599747,
+                "offset": -32.706541416,
                 "slope": -0.000295276,
                 "stringID": "rocket_weight"
             },
             "1": {
-                "offset": -5.8487972,
-
+                "offset": -4.6969576,
                 "slope": -1.48e-05,
                 "stringID": "dewar_weight"
             },
@@ -1221,22 +1220,6 @@
             {
                 "parameters": [],
                 "state": "fuel_rocket:GetRocketState"
-            }
-        ],
-        "gui:ox_tanking_valve_feedback:sensor": [
-            {
-                "command": "ox_tanking_valve:SetState",
-                "parameters": [
-                    "gui:ox_tanking_valve_feedback:sensor"
-                ]
-            }
-        ],
-        "gui:pressurant_tanking_valve_feedback:sensor": [
-            {
-                "command": "pressurant_tanking_valve:SetState",
-                "parameters": [
-                    "gui:pressurant_tanking_valve_feedback:sensor"
-                ]
             }
         ],
         "gui:Flash:Clear": [
@@ -1361,48 +1344,6 @@
                 "parameters": []
             }
         ],
-        "gui:safety_light:Reset": [
-            {
-                "command": "gse_elec_bob_lamp_red:SetState",
-                "parameters": [
-                    0
-                ]
-            },
-            {
-                "command": "gse_elec_bob_lamp_green:SetState",
-                "parameters": [
-                    0
-                ]
-            }
-        ],
-        "gui:safety_light:SetDanger": [
-            {
-                "command": "gse_elec_bob_lamp_red:SetState",
-                "parameters": [
-                    1
-                ]
-            },
-            {
-                "command": "gse_elec_bob_lamp_green:SetState",
-                "parameters": [
-                    0
-                ]
-            }
-        ],
-        "gui:safety_light:SetSafe": [
-            {
-                "command": "gse_elec_bob_lamp_red:SetState",
-                "parameters": [
-                    0
-                ]
-            },
-            {
-                "command": "gse_elec_bob_lamp_green:SetState",
-                "parameters": [
-                    1
-                ]
-            }
-        ],
         "gui:fuel_weight:Tare": [
             {
                 "command": "Tare",
@@ -1485,6 +1426,14 @@
                 "parameters": []
             }
         ],
+        "gui:ox_tanking_valve_feedback:sensor": [
+            {
+                "command": "ox_tanking_valve:SetState",
+                "parameters": [
+                    "gui:ox_tanking_valve_feedback:sensor"
+                ]
+            }
+        ],
         "gui:ox_weight:Tare": [
             {
                 "command": "Tare",
@@ -1492,6 +1441,14 @@
                     8,
                     3,
                     "ox_weight:sensor"
+                ]
+            }
+        ],
+        "gui:pressurant_tanking_valve_feedback:sensor": [
+            {
+                "command": "pressurant_tanking_valve:SetState",
+                "parameters": [
+                    "gui:pressurant_tanking_valve_feedback:sensor"
                 ]
             }
         ],
@@ -1624,6 +1581,48 @@
                     8,
                     0,
                     "rocket_weight:sensor"
+                ]
+            }
+        ],
+        "gui:safety_light:Reset": [
+            {
+                "command": "gse_elec_bob_lamp_red:SetState",
+                "parameters": [
+                    0
+                ]
+            },
+            {
+                "command": "gse_elec_bob_lamp_green:SetState",
+                "parameters": [
+                    0
+                ]
+            }
+        ],
+        "gui:safety_light:SetDanger": [
+            {
+                "command": "gse_elec_bob_lamp_red:SetState",
+                "parameters": [
+                    1
+                ]
+            },
+            {
+                "command": "gse_elec_bob_lamp_green:SetState",
+                "parameters": [
+                    0
+                ]
+            }
+        ],
+        "gui:safety_light:SetSafe": [
+            {
+                "command": "gse_elec_bob_lamp_red:SetState",
+                "parameters": [
+                    0
+                ]
+            },
+            {
+                "command": "gse_elec_bob_lamp_green:SetState",
+                "parameters": [
+                    1
                 ]
             }
         ],
