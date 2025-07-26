@@ -54,10 +54,10 @@
 						-15
 					],
 					"fuel_pi_controller:SetOperatingPoint": [
-						29.0
+						33.0
 					],
 					"fuel_pi_controller:SetP_POS": [
-						1
+						0.5
 					],
 					"fuel_pi_controller:SetI_POS": [
 						1.0
@@ -205,10 +205,10 @@
 						-15
 					],
 					"fuel_pi_controller:SetOperatingPoint": [
-						29.0
+						33.0
 					],
 					"fuel_pi_controller:SetP_POS": [
-						1
+						0.5
 					],
 					"fuel_pi_controller:SetI_POS": [
 						1.0

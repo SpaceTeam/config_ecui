@@ -1,0 +1,41 @@
+{
+	"globals": {
+		"endTime": 5,
+		"interpolation": {
+			"gse_elec_bob_lamp_green:SetState": "none"
+		},
+		"interval": 0.01,
+		"ranges": [
+			"chamberPressure"
+		],
+		"startTime": 0
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"gse_elec_bob_lamp_green:SetState": [
+						0
+					]
+				}
+			]
+		}
+	]
+}
