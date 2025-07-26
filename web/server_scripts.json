@@ -1,0 +1,60 @@
+[
+  {
+    "id": "export",
+    "title": "Run Export Script",
+    "command": "export.py",
+    "args": [
+      {
+        "type": "tmp-file-path",
+        "download": true,
+        "downloadName": "export.csv"
+      },
+      {
+        "type": "param",
+        "title": "database"
+      },
+      {
+        "type": "param",
+        "title": "measurement"
+      },
+      {
+        "type": "param",
+        "title": "begin"
+      },
+      {
+        "type": "param",
+        "name": "--end",
+        "title": "end"
+      },
+      {
+        "type": "flag",
+        "name": "--desc",
+        "title": "values descending"
+      },
+      {
+        "type": "multi-param",
+        "name": "--filter",
+        "title": "filter"
+      },
+      {
+        "type": "flag",
+        "name": "--rawonly",
+        "title": "don't convert csv format"
+      }
+    ]
+  },
+  {
+    "id": "my-script-1",
+    "title": "Run a simple Python script",
+    "command": "python",
+    "args": [
+      "-c",
+      "import sys; print('Hello from Python'); print('Args:', sys.argv[1:]); f=open(sys.argv[1],'w'); f.write('Temporary file content'); f.close();",
+      {
+        "type": "tmp-file-path",
+        "download": true,
+        "downloadName": "output.txt"
+      }
+    ]
+  }
+]
