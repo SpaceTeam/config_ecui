@@ -104,6 +104,7 @@
 		{
 			"timestamp": -6.5,
 			"name": "pre pressurize start",
+			"shortName": "Pre Pressurize",
 			"desc": "enable PI controller",
 			"actions": [
 				{
@@ -117,6 +118,8 @@
 		{
 			"timestamp":-0.5,
 			"name": "pre pressurize end",
+			"shortName": "Pre Press End",
+			"hiddenFromSpectator": true,
 			"desc": "disable PI controller and switch to coldflow PI controller",
 			"actions": [
 				{
