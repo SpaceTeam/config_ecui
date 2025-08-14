@@ -472,10 +472,10 @@
                 "stringID": "fuel_pressurant_pressure"
             },
             "10": {
-                "stringID": "fuel_igniter_1"
+                "stringID": "fuel_pressurant_vent_valve"
             },
             "11": {
-                "stringID": "fuel_igniter_1_cont"
+                "stringID": "fuel_pressurant_vent_valve_feedback"
             },
             "12": {
                 "stringID": "fuel_igniter_2"
@@ -561,10 +561,10 @@
                 "stringID": "ox_pressurant_pressure"
             },
             "10": {
-                "stringID": "ox_igniter_1"
+                "stringID": "ox_pressurant_vent_valve"
             },
             "11": {
-                "stringID": "ox_igniter_1_cont"
+                "stringID": "ox_pressurant_vent_valve_feedback"
             },
             "12": {
                 "stringID": "ox_igniter_2"
@@ -1122,7 +1122,7 @@
             "6": {
                 "offset": 0.0,
                 "slope": 0.00152590219,
-                "stringID": "gse_elec_bob_servo_0"
+                "stringID": "pressurant_tanking_throttle"
             },
             "7": {
                 "offset": 0.0,
