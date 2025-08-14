@@ -4,7 +4,7 @@
         "eval": "if (inVars['value'] > thresholds['wire']['pressurized']) { outVars['color']='content' } else if (inVars['value'] > thresholds['wire']['notconnected']) { outVars['color']='' } else { outVars['color']='notconnected' }"
     },
     "PnID-Lib-Rocket_Channel": {
-        "eval": "let evalRocketVal = parseInt(inVars['value']); if (evalRocketVal >= 0 && evalRocketVal < thresholds['enums']['state_machine'].length) { outVars['value'] = thresholds['enums']['state_machine'][evalRocketVal]; outVars['color'] = 'neutral' } else { outVars['value'] = 'Unknown State (' + inVars['value'] + ')'; outVars['color'] = 'unknown' }; if (evalRocketVal == 2) { outVars['color'] = 'good' } else if (evalRocketVal == 4 || evalRocketVal == 19 || evalRocketVal == 20) { outVars['color'] = 'bad' } setGlobalWarning('abort', 'Rocket is in Abort State', evalRocketVal == 4 || evalRocketVal == 19 || evalRocketVal == 20);",
+        "eval": "let evalRocketVal = parseInt(inVars['value']); if (evalRocketVal >= 0 && evalRocketVal < stateMachines['full'].length) { outVars['value'] = stateMachines['full'][evalRocketVal]; outVars['color'] = 'neutral' } else { outVars['value'] = 'Unknown State (' + inVars['value'] + ')'; outVars['color'] = 'unknown' }; if (evalRocketVal == 2) { outVars['color'] = 'good' } else if (evalRocketVal == 4 || evalRocketVal == 19 || evalRocketVal == 20) { outVars['color'] = 'bad' } setGlobalWarning('abort', 'Rocket is in Abort State', evalRocketVal == 4 || evalRocketVal == 19 || evalRocketVal == 20); if (typeof moveStepSliderToIndex === 'function') { moveStepSliderToEnumValue(stepSequenceTrack, inVars['value']) }",
         "sens_deviation": "return false;",
         "popup": [
             {
@@ -128,7 +128,8 @@
                 "collapsible": true,
                 "collapsibleLabel": "Reset Abort State",
                 "variable": "rocket-ResetStateMachine",
-                "label": "Reset Abort State"
+                "label": "Reset Abort State",
+                "action": "if (typeof resetStepSequence === 'function') { resetStepSequence() }"
             }
         ]
     },

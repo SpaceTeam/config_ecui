@@ -1,0 +1,117 @@
+{
+    "full": [
+        "RS_INIT",
+        "RS_UNCHANGED",
+        "RS_PAD_IDLE",
+        "RS_AUTOCHECK",
+        "RS_ABORT",
+        "RS_DEPRESSURIZE",
+        "RS_PRESSURIZE",
+        "RS_HOLDDOWN",
+        "RS_POWERED_ASCENT",
+        "RS_UNPOWERED_ASCENT",
+        "RS_IGNITION_INIT",
+        "RS_IGNITION_IGNITE1",
+        "RS_IGNITION_IGNITE2",
+        "RS_IGNITION_OX_PRESSURIZE",
+        "RS_IGNITION_OX_OPEN",
+        "RS_IGNITION_FUEL_PRESSURIZE",
+        "RS_IGNITION_FUEL_OPEN",
+        "RS_IGNITION_MAIN_OPEN",
+        "RS_IGNITION_IGNITER_OFF",
+        "RS_ABORT_IGNITION_TIMEOUT",
+        "RS_ABORT_HOLDDOWN"
+    ],
+    "main_ecu_sequence_slider": [
+        {
+            "name": "Init",
+            "value": 0,
+            "type": "safe"
+        },
+        {
+            "name": "Pad Idle",
+            "value": 2,
+            "type": "safe"
+        },
+        {
+            "name": "Autocheck",
+            "value": 3,
+            "type": "normal"
+        },
+        {
+            "name": "Ignition Init",
+            "value": 10,
+            "type": "normal"
+        },
+        {
+            "name": "Ignition 1",
+            "value": 11,
+            "type": "normal"
+        },
+        {
+            "name": "Ignition 2",
+            "value": 12,
+            "type": "normal"
+        },
+        {
+            "name": "Ignition Ox Pressurize",
+            "value": 13,
+            "type": "normal"
+        },
+        {
+            "name": "Ignition Ox Open",
+            "value": 14,
+            "type": "normal"
+        },
+        {
+            "name": "Ignition Fuel Pressurize",
+            "value": 15,
+            "type": "normal"
+        },
+        {
+            "name": "Ignition Fuel Open",
+            "value": 16,
+            "type": "normal"
+        },
+        {
+            "name": "Main Open",
+            "value": 17,
+            "type": "normal"
+        },
+        {
+            "name": "Igniter Off",
+            "value": 18,
+            "type": "normal"
+        },
+        {
+            "name": "Holddown",
+            "value": 7,
+            "type": "normal"
+        },
+        {
+            "name": "Powered Ascent",
+            "value": 8,
+            "type": "normal"
+        },
+        {
+            "name": "Unpowered Ascent",
+            "value": 9,
+            "type": "normal"
+        },
+        {
+            "name": "Abort",
+            "value": 4,
+            "type": "fail"
+        },
+        {
+            "name": "Abort Ignition Timeout",
+            "value": 19,
+            "type": "fail"
+        },
+        {
+            "name": "Abort Holddown",
+            "value": 20,
+            "type": "fail"
+        }
+    ]
+}
