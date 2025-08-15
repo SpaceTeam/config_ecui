@@ -16,6 +16,9 @@
         ],
         "gse_elec_bob_lamp_red:SetState":[
             1
+        ],
+        "gse_elec_bob_lamp_green:SetState":[
+            0
         ]
 
     }
