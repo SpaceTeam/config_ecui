@@ -45,7 +45,7 @@
 						0
 					],
 					"fuel_pi_controller:SetTarget": [
-						30
+						32
 					],
 					"fuel_pi_controller:SetSensorSlope": [
 						0.01888275146
@@ -54,7 +54,7 @@
 						-15
 					],
 					"fuel_pi_controller:SetOperatingPoint": [
-						33.0
+						35.0
 					],
 					"fuel_pi_controller:SetP_POS": [
 						0.5
@@ -72,7 +72,7 @@
 						0
 					],
 					"ox_pi_controller:SetTarget": [
-						36
+						34
 					],
 					"ox_pi_controller:SetSensorSlope": [
 						0.01888275146
@@ -81,7 +81,7 @@
 						-15
 					],
 					"ox_pi_controller:SetOperatingPoint": [
-						34
+						37
 					],
 					"ox_pi_controller:SetP_POS": [
 						0.1
@@ -128,7 +128,7 @@
 				{
 					"timestamp": 0.1,
 					"ox_pi_controller:SetTarget": [
-						32
+						30
 					],
 					"ox_pi_controller:SetSensorSlope": [
 						0.01888275146
@@ -137,7 +137,7 @@
 						-15
 					],
 					"ox_pi_controller:SetOperatingPoint": [
-						34.0
+						37.0
 					],
 					"ox_pi_controller:SetP_POS": [
 						2.5
@@ -177,7 +177,7 @@
 				{
 					"timestamp": 3.0,
 					"ox_pi_controller:SetTarget": [
-						32
+						30
 					]
 				}
 			]
@@ -205,7 +205,7 @@
 						-15
 					],
 					"fuel_pi_controller:SetOperatingPoint": [
-						33.0
+						35.0
 					],
 					"fuel_pi_controller:SetP_POS": [
 						0.5
@@ -223,7 +223,7 @@
 						0
 					],
 					"ox_pi_controller:SetTarget": [
-						32
+						30
 					],
 					"ox_pi_controller:SetSensorSlope": [
 						0.01888275146
@@ -232,7 +232,7 @@
 						-15
 					],
 					"ox_pi_controller:SetOperatingPoint": [
-						34.0
+						37.0
 					],
 					"ox_pi_controller:SetP_POS": [
 						2.5
