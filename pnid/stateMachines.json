@@ -34,11 +34,6 @@
             "type": "safe"
         },
         {
-            "name": "Autocheck",
-            "value": 3,
-            "type": "normal"
-        },
-        {
             "name": "Ignition Init",
             "value": 10,
             "type": "normal"
@@ -63,14 +58,15 @@
             "value": 14,
             "type": "normal"
         },
-        {
-            "name": "Ignition Fuel Pressurize",
-            "value": 15,
-            "type": "normal"
-        },
+
         {
             "name": "Ignition Fuel Open",
             "value": 16,
+            "type": "normal"
+        },
+                {
+            "name": "Ignition Fuel Pressurize",
+            "value": 15,
             "type": "normal"
         },
         {
