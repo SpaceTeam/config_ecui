@@ -81,7 +81,7 @@
 						-15
 					],
 					"ox_pi_controller:SetOperatingPoint": [
-						37
+						30
 					],
 					"ox_pi_controller:SetP_POS": [
 						0.1
@@ -140,7 +140,7 @@
 						-15
 					],
 					"ox_pi_controller:SetOperatingPoint": [
-						37.0
+						30.0
 					],
 					"ox_pi_controller:SetP_POS": [
 						2.5
@@ -235,7 +235,7 @@
 						-15
 					],
 					"ox_pi_controller:SetOperatingPoint": [
-						37.0
+						30.0
 					],
 					"ox_pi_controller:SetP_POS": [
 						2.5
