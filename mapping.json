@@ -411,32 +411,32 @@
             },
             "3": {
                 "offset": -16,
-                "slope": 0.0078125,
+                "slope": 0.00048828125 ,
                 "stringID": "rcu_accel_x"
             },
             "4": {
                 "offset": -16,
-                "slope": 0.0078125,
+                "slope": 0.00048828125 ,
                 "stringID": "rcu_accel_y"
             },
             "5": {
                 "offset": -16,
-                "slope": 0.0078125,
+                "slope": 0.00048828125 ,
                 "stringID": "rcu_accel_z"
             },
             "6": {
-                "offset": -2000,
-                "slope": 0.97656,
+                "offset": -16,
+                "slope": 0.00048828125 ,
                 "stringID": "rcu_gyro_x"
             },
             "7": {
-                "offset": -2000,
-                "slope": 0.97656,
+                "offset": -16,
+                "slope": 0.00048828125 ,
                 "stringID": "rcu_gyro_y"
             },
             "8": {
-                "offset": -2000,
-                "slope": 0.97656,
+                "offset": -16,
+                "slope": 0.00048828125 ,
                 "stringID": "rcu_gyro_z"
             },
             "9": {
@@ -1139,7 +1139,7 @@
         },
         "8": {
             "0": {
-                "offset": 1.481399692,
+                "offset": -26.394426364,
                 "slope": -0.000295276,
                 "stringID": "rocket_weight"
             },
