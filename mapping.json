@@ -411,32 +411,32 @@
             },
             "3": {
                 "offset": -16,
-                "slope": 0.00048828125 ,
+                "slope": 0.00048828125,
                 "stringID": "rcu_accel_x"
             },
             "4": {
                 "offset": -16,
-                "slope": 0.00048828125 ,
+                "slope": 0.00048828125,
                 "stringID": "rcu_accel_y"
             },
             "5": {
                 "offset": -16,
-                "slope": 0.00048828125 ,
+                "slope": 0.00048828125,
                 "stringID": "rcu_accel_z"
             },
             "6": {
                 "offset": -16,
-                "slope": 0.00048828125 ,
+                "slope": 0.00048828125,
                 "stringID": "rcu_gyro_x"
             },
             "7": {
                 "offset": -16,
-                "slope": 0.00048828125 ,
+                "slope": 0.00048828125,
                 "stringID": "rcu_gyro_y"
             },
             "8": {
                 "offset": -16,
-                "slope": 0.00048828125 ,
+                "slope": 0.00048828125,
                 "stringID": "rcu_gyro_z"
             },
             "9": {
@@ -1137,9 +1137,91 @@
             },
             "stringID": "gse_elec_bob_ecu"
         },
+        "39": {
+            "0": {
+                "offset": 2200,
+                "slope": -2,
+                "stringID": "gse_pneu_2_unused_pressure_0"
+            },
+            "1": {
+                "offset": 2200,
+                "slope": -2,
+                "stringID": "gse_pneu_2_unused_pressure_1"
+            },
+            "10": {
+                "stringID": "gse_pneu_2_unused_igniter_1"
+            },
+            "11": {
+                "stringID": "gse_pneu_2_unused_igniter_1_cont"
+            },
+            "12": {
+                "stringID": "gse_pneu_2_unused_igniter_2"
+            },
+            "13": {
+                "stringID": "gse_pneu_2_unused_igniter_2_cont"
+            },
+            "14": {
+                "stringID": "gse_pneu_2_unused_igniter_3"
+            },
+            "15": {
+                "stringID": "gse_pneu_2_unused_igniter_3_cont"
+            },
+            "16": {
+                "slope": 0.001525879,
+                "stringID": "gse_pneu_2_unused_pi_controller"
+            },
+            "17": {
+                "stringID": "gse_pneu_unused_rocket"
+            },
+            "18": {
+                "slope": 0.001622020152,
+                "stringID": "gse_pneu_2_sense_5V"
+            },
+            "19": {
+                "slope": 0.008921110838,
+                "stringID": "gse_pneu_2_sense_12V"
+            },
+            "2": {
+                "offset": 2200,
+                "slope": -2,
+                "stringID": "gse_pneu_2_unused_pressure_2"
+            },
+            "20": {
+                "slope": 0.008921110838,
+                "stringID": "gse_pneu_2_sense_12VA"
+            },
+            "3": {
+                "offset": -100,
+                "slope": 0.125885,
+                "stringID": "gse_pneu_2_unused_pressure_3"
+            },
+            "4": {
+                "stringID": "gse_pneu_2_temp_0"
+            },
+            "5": {
+                "stringID": "gse_pneu_2_temp_1"
+            },
+            "6": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "gse_pneu_2_servo_0"
+            },
+            "7": {
+                "offset": 0.0,
+                "slope": 0.00152590219,
+                "stringID": "gse_pneu_2_servo_1"
+            },
+            "8": {
+                "stringID": "gse_pneu_2_unused_igniter_0"
+            },
+            "9": {
+                "stringID": "gse_pneu_2_unused_igniter_0_cont"
+            },
+            "stringID": "gse_pneu_2_ecu"
+        },
         "8": {
             "0": {
-                "offset": -26.394426364,
+                "offset": -29.963722652,
                 "slope": -0.000295276,
                 "stringID": "rocket_weight"
             },
