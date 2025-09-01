@@ -910,16 +910,16 @@
                 "stringID": "strongback_cont"
             },
             "12": {
-                "stringID": "gse_elec_iob_0_igniter_2"
+                "stringID": "pressurant_tanking_bypass"
             },
             "13": {
-                "stringID": "gse_elec_iob_0_igniter_2_cont"
+                "stringID": "pressurant_tanking_bypass_cont"
             },
             "14": {
-                "stringID": "gse_iob_0_igniter_3"
+                "stringID": "gse_elec_iob_0_igniter_3"
             },
             "15": {
-                "stringID": "gse_iob_0_igniter_3_cont"
+                "stringID": "gse_elec_iob_0_igniter_3_cont"
             },
             "16": {
                 "slope": 0.001525879,
@@ -988,10 +988,10 @@
                 "stringID": "gse_elec_iob_1_press_1"
             },
             "10": {
-                "stringID": "gse_elec_iob_1_channel10"
+                "stringID": "gse_elec_iob_1_igniter_1"
             },
             "11": {
-                "stringID": "gse_elec_iob_1_channel11"
+                "stringID": "gse_elec_iob_1_igniter_1_cont"
             },
             "12": {
                 "stringID": "gse_elec_iob_1_igniter_2"
@@ -1046,10 +1046,10 @@
                 "stringID": "gse_elec_iob_1_servo_1"
             },
             "8": {
-                "stringID": "gse_elec_iob_1_channel8"
+                "stringID": "gse_iob_1_igniter_1"
             },
             "9": {
-                "stringID": "gse_elec_iob_1_channel9"
+                "stringID": "gse_iob_1_igniter_1_cont"
             },
             "stringID": "gse_elec_iob_1_ecu"
         },
@@ -1226,8 +1226,8 @@
                 "stringID": "rocket_weight"
             },
             "1": {
-                "offset": -4.6969576,
-                "slope": -1.48e-05,
+                "offset": -8.104793233403711,
+                "slope": -3.87177816529103e-05,
                 "stringID": "dewar_weight"
             },
             "2": {
