@@ -11782,7 +11782,7 @@
 			)
 		)
 		(property "Value" "fuel_pressurant_valve:sensor"
-			(at 87.376 71.374 90)
+			(at 87.376 71.12 90)
 			(effects
 				(font
 					(size 0.508 0.508)
