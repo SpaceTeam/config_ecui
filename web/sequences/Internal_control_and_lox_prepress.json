@@ -45,7 +45,7 @@
 						0
 					],
 					"fuel_pi_controller:SetTarget": [
-						25
+						26
 					],
 					"fuel_pi_controller:SetSensorSlope": [
 						0.01888275146
@@ -54,7 +54,7 @@
 						-15
 					],
 					"fuel_pi_controller:SetOperatingPoint": [
-						42.0
+						52
 					],
 					"fuel_pi_controller:SetP_POS": [
 						0.5
@@ -199,7 +199,7 @@
 						0
 					],
 					"fuel_pi_controller:SetTarget": [
-						25
+						26
 					],
 					"fuel_pi_controller:SetSensorSlope": [
 						0.01888275146
@@ -208,7 +208,7 @@
 						-15
 					],
 					"fuel_pi_controller:SetOperatingPoint": [
-						42.0
+						52
 					],
 					"fuel_pi_controller:SetP_POS": [
 						0.5
