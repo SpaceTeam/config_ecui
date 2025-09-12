@@ -28,14 +28,14 @@
             19
         ],
         "canMsgSizes": [
-            45,
-            45,
-            45,
-            48
+            46,
+            46,
+            46,
+            43
         ]
     },
     "CAN": {
-        "node_count": 15,
+        "node_count":15,
         "blocking_timeout": 2048,
         "BUS": {
             "ARBITRATION": {
