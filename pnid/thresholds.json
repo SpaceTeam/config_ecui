@@ -4,10 +4,10 @@
         "notconnected": -8
     },
     "solenoid": {
-        "high": 1000
+        "high": 800
     },
     "light": {
-        "high": 30
+        "high": 60
     },
     "pneumatic_valve_solenoid": {
         "high": 400
