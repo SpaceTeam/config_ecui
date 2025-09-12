@@ -12,10 +12,10 @@
                 "stringID": "lora:fuel_pressurant_pressure"
             },
             "10": {
-                "stringID": "lora:fuel_igniter_1"
+                "stringID": "lora:fuel_pressurant_vent_valve"
             },
             "11": {
-                "stringID": "lora:fuel_igniter_1_cont"
+                "stringID": "lora:fuel_pressurant_vent_valve_cont"
             },
             "12": {
                 "stringID": "lora:fuel_igniter_2"
@@ -53,19 +53,22 @@
                 "slope": 0.008921110838,
                 "stringID": "lora:fuel_sense_12VA"
             },
+            "21": {
+                "stringID": "lora:fuel_can_monitoring"
+            },
             "3": {
                 "offset": 0,
                 "slope": 1,
                 "stringID": "lora:fuel_pressure_3"
             },
             "4": {
-                "offset": -313,
-                "slope": 0.0188,
+                "offset": -233.3153,
+                "slope": 0.0145,
                 "stringID": "lora:fuel_temp_0"
             },
             "5": {
-                "offset": -313,
-                "slope": 0.0188,
+                "offset": -231.3282,
+                "slope": 0.0142,
                 "stringID": "lora:fuel_temp_1"
             },
             "6": {
@@ -98,10 +101,10 @@
                 "stringID": "lora:ox_pressurant_pressure"
             },
             "10": {
-                "stringID": "lora:ox_igniter_1"
+                "stringID": "lora:ox_pressurant_vent_valve"
             },
             "11": {
-                "stringID": "lora:ox_igniter_1_cont"
+                "stringID": "lora:ox_pressurant_vent_valve_cont"
             },
             "12": {
                 "stringID": "lora:ox_igniter_2"
@@ -131,8 +134,8 @@
                 "stringID": "lora:ox_sense_12V"
             },
             "2": {
-                "offset": -100,
-                "slope": 0.125885,
+                "offset": 0,
+                "slope": 1,
                 "stringID": "lora:ox_pressure_2"
             },
             "20": {
@@ -145,13 +148,13 @@
                 "stringID": "lora:ox_pressure_3"
             },
             "4": {
-                "offset": -313,
-                "slope": 0.0188,
+                "offset": -240.293,
+                "slope": 0.0147,
                 "stringID": "lora:ox_temp_0"
             },
             "5": {
-                "offset": -308,
-                "slope": 0.0188,
+                "offset": -242.2248,
+                "slope": 0.0148,
                 "stringID": "lora:ox_temp_1"
             },
             "6": {
@@ -231,9 +234,13 @@
                 "stringID": "lora:engine_pressure_3"
             },
             "4": {
+                "offset": -240.8472,
+                "slope": 0.0147,
                 "stringID": "lora:engine_temp_0"
             },
             "5": {
+                "offset": -238.8339,
+                "slope": 0.0146,
                 "stringID": "lora:engine_temp_1"
             },
             "6": {
@@ -475,7 +482,7 @@
                 "stringID": "fuel_pressurant_vent_valve"
             },
             "11": {
-                "stringID": "fuel_pressurant_vent_valve_feedback"
+                "stringID": "fuel_pressurant_vent_valve_cont"
             },
             "12": {
                 "stringID": "fuel_igniter_2"
@@ -564,7 +571,7 @@
                 "stringID": "ox_pressurant_vent_valve"
             },
             "11": {
-                "stringID": "ox_pressurant_vent_valve_feedback"
+                "stringID": "ox_pressurant_vent_valve_cont"
             },
             "12": {
                 "stringID": "ox_igniter_2"
@@ -594,9 +601,9 @@
                 "stringID": "ox_sense_12V"
             },
             "2": {
-                "offset": -100,
-                "slope": 0.125885,
-                "stringID": "ox_pressure_reducer_pressure"
+                "offset": 0,
+                "slope": 1,
+                "stringID": "ox_pressure_2"
             },
             "20": {
                 "slope": 0.008921110838,
