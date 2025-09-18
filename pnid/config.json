@@ -327,6 +327,24 @@
                 "label": "Pneu1 12V",
                 "variable": "gse_pneu_1_sense_12V-sensor",
                 "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "separator"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Pneu2 5V",
+                "variable": "gse_pneu_2_sense_5V-sensor",
+                "suffix": "V"
+            },
+            {
+                "type": "display",
+                "style": "text",
+                "label": "Pneu2 12V",
+                "variable": "gse_pneu_2_sense_12V-sensor",
+                "suffix": "V"
             }
         ]
 	},
