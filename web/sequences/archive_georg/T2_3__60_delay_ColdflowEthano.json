@@ -1,0 +1,118 @@
+{
+	"globals": {
+		"endTime": 10,
+		"interpolation": {
+			"fuel_vent:SetState": "none",
+			"fuel_main_valve:SetTargetPosition": "linear",
+			"fuel_pressurant_valve:SetTargetPosition": "linear"
+		},
+		"interval": 0.01,
+		"ranges": [
+			"chamberPressure"
+		],
+		"startTime": -5
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "set all to zero",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_vent:SetState": [
+						1
+					],
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 0.0,
+			"name": "Coldflow start",
+			"desc": "Open fuel main valve",
+			"actions": [
+				
+				{
+					"timestamp": 0.0,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					]
+				},
+				{
+					"timestamp": 0.5,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.6,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						60
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 3.6,
+			"name": "Coldflow end",
+			"desc": "Close main valve",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						60
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.2,
+					"fuel_main_valve:SetTargetPosition": [
+						100
+					]
+				},
+				{
+					"timestamp": 0.3,
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"fuel_vent:SetState": [
+						1
+					],
+					"fuel_main_valve:SetTargetPosition": [
+						0
+					],
+					"fuel_pressurant_valve:SetTargetPosition": [
+						0
+					]
+				}
+			]
+		}
+	]
+}

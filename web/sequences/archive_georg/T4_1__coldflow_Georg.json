@@ -1,0 +1,249 @@
+{
+	"globals": {
+		"endTime":40,
+		"interpolation": {
+			"fuel_pi_controller:SetEnabled": "none",
+			"fuel_pi_controller:SetTarget": "none",
+			"fuel_pi_controller:SetSensorSlope": "none",
+			"fuel_pi_controller:SetSensorOffset": "none",
+			"fuel_pi_controller:SetOperatingPoint": "none",
+			"fuel_pi_controller:SetP_POS": "none",
+			"fuel_pi_controller:SetI_POS": "none",
+			"fuel_pi_controller:SetP_NEG": "none",
+			"fuel_pi_controller:SetI_NEG": "none",
+			"ox_vent:SetState": "none",
+			"ox_pi_controller:SetEnabled": "none",
+			"ox_pi_controller:SetTarget": "none",
+			"ox_pi_controller:SetSensorSlope": "none",
+			"ox_pi_controller:SetSensorOffset": "none",
+			"ox_pi_controller:SetOperatingPoint": "none",
+			"ox_pi_controller:SetP_POS": "none",
+			"ox_pi_controller:SetI_POS": "none",
+			"ox_pi_controller:SetP_NEG": "none",
+			"ox_pi_controller:SetI_NEG": "none",
+			"rocket:ActivateInternalControl": "none",
+			"rocket:Abort": "none"
+		},
+		"interval": 0.01,
+		"ranges": [
+			"chamberPressure"
+		],
+		"startTime": -15
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "start",
+			"desc": "initialize all",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"ox_vent:SetState": [
+						1
+					],
+					"fuel_pi_controller:SetEnabled": [
+						0
+					],
+					"fuel_pi_controller:SetTarget": [
+						26
+					],
+					"fuel_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"fuel_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"fuel_pi_controller:SetOperatingPoint": [
+						52
+					],
+					"fuel_pi_controller:SetP_POS": [
+						0.5
+					],
+					"fuel_pi_controller:SetI_POS": [
+						1.0
+					],
+					"fuel_pi_controller:SetP_NEG": [
+						1
+					],
+					"fuel_pi_controller:SetI_NEG": [
+						0.5
+					],
+					"ox_pi_controller:SetEnabled": [
+						0
+					],
+					"ox_pi_controller:SetTarget": [
+						34
+					],
+					"ox_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"ox_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"ox_pi_controller:SetOperatingPoint": [
+						30
+					],
+					"ox_pi_controller:SetP_POS": [
+						0.1
+					],
+					"ox_pi_controller:SetI_POS": [
+						0.1
+					],
+					"ox_pi_controller:SetP_NEG": [
+						100.0
+					],
+					"ox_pi_controller:SetI_NEG": [
+						500.0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": -6.5,
+			"name": "pre pressurize start",
+			"shortName": "Pre Pressurize",
+			"desc": "enable PI controller",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"ox_pi_controller:SetEnabled": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp":-0.5,
+			"name": "pre pressurize end",
+			"shortName": "Pre Press End",
+			"hiddenFromSpectator": true,
+			"desc": "disable PI controller and switch to coldflow PI controller",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"ox_pi_controller:SetEnabled": [
+						0
+					]
+				},
+				{
+					"timestamp": 0.1,
+					"ox_pi_controller:SetTarget": [
+						30
+					],
+					"ox_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"ox_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"ox_pi_controller:SetOperatingPoint": [
+						30.0
+					],
+					"ox_pi_controller:SetP_POS": [
+						2.5
+					],
+					"ox_pi_controller:SetI_POS": [
+						1.0
+					],
+					"ox_pi_controller:SetP_NEG": [
+						2.5
+					],
+					"ox_pi_controller:SetI_NEG": [
+						0.5
+					]
+				}
+			]
+		},
+		{
+			"timestamp": -0.4,
+			"name": "Handover",
+			"desc": "Hand the control over to the internal control system",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"rocket:ActivateInternalControl": [
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 8.0,
+			"name": "Main valve open",
+			"desc": "Change PI controller target pressure",
+			"actions": [
+				{
+					"timestamp": 3.0,
+					"rocket:Abort": [
+					]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"ox_vent:SetState": [
+						0
+					],
+					"fuel_pi_controller:SetEnabled": [
+						0
+					],
+					"fuel_pi_controller:SetTarget": [
+						26
+					],
+					"fuel_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"fuel_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"fuel_pi_controller:SetOperatingPoint": [
+						52
+					],
+					"fuel_pi_controller:SetP_POS": [
+						0.5
+					],
+					"fuel_pi_controller:SetI_POS": [
+						1.0
+					],
+					"fuel_pi_controller:SetP_NEG": [
+						1
+					],
+					"fuel_pi_controller:SetI_NEG": [
+						0.5
+					],
+					"ox_pi_controller:SetEnabled": [
+						0
+					],
+					"ox_pi_controller:SetTarget": [
+						30
+					],
+					"ox_pi_controller:SetSensorSlope": [
+						0.01888275146
+					],
+					"ox_pi_controller:SetSensorOffset": [
+						-15
+					],
+					"ox_pi_controller:SetOperatingPoint": [
+						30.0
+					],
+					"ox_pi_controller:SetP_POS": [
+						2.5
+					],
+					"ox_pi_controller:SetI_POS": [
+						1.0
+					],
+					"ox_pi_controller:SetP_NEG": [
+						2.5
+					],
+					"ox_pi_controller:SetI_NEG": [
+						0.5
+					]
+				}
+			]
+		}
+	]
+}
