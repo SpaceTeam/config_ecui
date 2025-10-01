@@ -138,6 +138,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PnID-Lib:Battery"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Battery"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.381 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.381 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_0_1"
+				(rectangle
+					(start -0.762 3.048)
+					(end 0.762 3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.778) (xy -0.889 -0.254) (xy -0.127 -0.254) (xy -0.508 -1.905) (xy 0.889 0.254) (xy 0.127 0.254)
+						(xy 0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_1_1"
+				(rectangle
+					(start 1.905 2.794)
+					(end -1.905 -2.794)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PnID-Lib:BurstDisc"
 			(pin_numbers
 				(hide yes)
@@ -6062,7 +6163,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 -127) (xy 67.31 -118.11)
+			(xy 67.31 -119.38) (xy 67.31 -118.11)
 		)
 		(stroke
 			(width 0)
@@ -8254,7 +8355,7 @@
 	(symbol
 		(lib_name "Sensor_Temperature_2")
 		(lib_id "PnID-Lib:Sensor_Temperature")
-		(at 67.31 -134.62 0)
+		(at 67.31 -127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8262,7 +8363,7 @@
 		(dnp no)
 		(uuid "12a7eff2-4ee0-4440-a791-2ded7c214efb")
 		(property "Reference" "ox_decoupler_temperature1"
-			(at 62.357 -141.097 0)
+			(at 62.357 -133.477 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8272,7 +8373,7 @@
 			)
 		)
 		(property "Value" "ox_temp_0:sensor"
-			(at 67.31 -139.7 0)
+			(at 67.31 -132.08 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8280,7 +8381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 -134.62 0)
+			(at 67.31 -127 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8289,7 +8390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 -134.62 0)
+			(at 67.31 -127 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8298,7 +8399,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 -134.62 0)
+			(at 67.31 -127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +8408,7 @@
 			)
 		)
 		(property "Unit" "˚C"
-			(at 67.31 -134.62 0)
+			(at 67.31 -127 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8316,7 +8417,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 67.31 -134.62 0)
+			(at 67.31 -127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8466,6 +8567,78 @@
 			(project "lamarr_hedy_vertical"
 				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
 					(reference "ox_quick_connect3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PnID-Lib:Battery")
+		(at 67.31 -143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16ebcd24-d987-4eea-a121-1d5956eb0e0c")
+		(property "Reference" "U2"
+			(at 67.31 -150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "gse_elec_bob_igniter_2:sensor"
+			(at 67.31 -137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.691 -143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.691 -143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 -143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "V"
+			(at 67.31 -143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8895,7 +9068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "strongback:sensor"
+		(property "Value" "retract:sensor"
 			(at 98.425 -132.715 0)
 			(effects
 				(font
@@ -12525,7 +12698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "ox_decoupler_feedback:sensor"
+		(property "Value" "gse_pneu_2_pressure_0:sensor"
 			(at 94.615 131.445 0)
 			(effects
 				(font

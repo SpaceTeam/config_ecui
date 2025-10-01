@@ -514,20 +514,37 @@
             }
         ]
     },
-	"strongback": {
+	"retract": {
 	    "states": [
-	        "strongback:sensor"
+	        "retract:sensor"
 	    ],
-	    "eval": "if (inVars['value'] >= 150) { outVars['color']='open'; outVars['value']='Retracting ('  + inVars['value'] + ')' } else { outVars['color']='closed'; outVars['value']='Stopped (' + inVars['value'] + ')' }",
-        "sens_deviation": "if ((setState == 0 && feedback >= thresholds['solenoid']['high']) || (setState == 1 && feedback < thresholds['solenoid']['high'])) { return true; } return false;",
+	    "eval": "",
         "popup": [
             {
-                "type": "display",
-                "style": "text"
+                "type": "input",
+                "style": "button",
+                "variable": "gse_pneu_2_igniter_0:sensor",
+                "label": "Press Tanking Disconnect"
             },
             {
                 "type": "input",
-                "style": "checkbox"
+                "style": "button",
+                "variable": "gse_pneu_2_igniter_1:sensor",
+                "label": "Tanking Retract"
+            }
+        ]
+    },
+	"charging": {
+	    "states": [
+	        "gse_elec_bob_igniter_2:sensor"
+	    ],
+	    "eval": "",
+        "popup": [
+            {
+                "type": "input",
+                "style": "checkbox",
+                "variable": "value",
+                "label": "Charge"
             }
         ]
     },
