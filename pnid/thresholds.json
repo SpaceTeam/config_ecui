@@ -31,8 +31,9 @@
         "safe": 2.0
     },
     "oxTemp": {
-        "low": 2.0,
-        "high": 35.0
+        "cryo": -100.0,
+        "low": -40.0,
+        "high": 40.0
     },
     "fuelPressure": {
         "low": 30.0,
