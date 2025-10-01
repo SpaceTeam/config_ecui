@@ -138,6 +138,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PnID-Lib:Battery"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Battery"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.381 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.381 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_0_1"
+				(rectangle
+					(start -0.762 3.048)
+					(end 0.762 3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.778) (xy -0.889 -0.254) (xy -0.127 -0.254) (xy -0.508 -1.905) (xy 0.889 0.254) (xy 0.127 0.254)
+						(xy 0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_1_1"
+				(rectangle
+					(start 1.905 2.794)
+					(end -1.905 -2.794)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PnID-Lib:BurstDisc"
 			(pin_numbers
 				(hide yes)
@@ -10130,6 +10231,78 @@
 		)
 	)
 	(symbol
+		(lib_id "PnID-Lib:Battery")
+		(at 163.83 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16ebcd24-d987-4eea-a121-1d5956eb0e0c")
+		(property "Reference" "U2"
+			(at 163.83 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "gse_elec_bob_igniter_2:sensor"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 164.211 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 164.211 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "V"
+			(at 163.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "lamarr_hedy"
+				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PnID-Lib:PressureRegulator")
 		(at 120.904 66.04 90)
 		(unit 1)
@@ -10588,7 +10761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "strongback:sensor"
+		(property "Value" "retract:sensor"
 			(at 167.64 32.3849 0)
 			(effects
 				(font
@@ -13083,7 +13256,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Camera")
-		(at 106.68 25.146 0)
+		(at 106.68 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13091,7 +13264,7 @@
 		(dnp no)
 		(uuid "861453cd-510d-4318-91b9-0d7a28aa8fc1")
 		(property "Reference" "C6"
-			(at 106.68 19.304 0)
+			(at 106.68 19.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13100,7 +13273,7 @@
 			)
 		)
 		(property "Value" "camera_2:sensor"
-			(at 112.014 30.48 0)
+			(at 111.76 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13109,7 +13282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.442 21.336 0)
+			(at 107.442 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13118,7 +13291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.442 21.336 0)
+			(at 107.442 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13127,7 +13300,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 25.146 0)
+			(at 106.68 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13960,7 +14133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "ox_decoupler_feedback:sensor"
+		(property "Value" "gse_pneu_2_pressure_0:sensor"
 			(at 153.67 148.336 0)
 			(effects
 				(font
@@ -16192,7 +16365,7 @@
 			)
 		)
 		(property "Value" "camera_1:sensor"
-			(at 86.614 30.48 0)
+			(at 86.36 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
