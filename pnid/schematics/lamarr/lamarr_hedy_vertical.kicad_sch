@@ -3833,102 +3833,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PnID-Lib:heater"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "heater"
-				(at -5.08 2.286 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "heater"
-				(at -5.08 0 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "heater_0_0"
-				(text "H"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 2.9972 2.9972)
-						)
-					)
-				)
-			)
-			(symbol "heater_0_1"
-				(rectangle
-					(start -2.54 2.54)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "heater_1_1"
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PnID-Lib:igniter"
 			(pin_names
 				(offset 1.016)
@@ -11871,71 +11775,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:heater")
-		(at 94.615 -117.475 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b3f63ca-f959-47b1-8333-17edd3150957")
-		(property "Reference" "Holddown"
-			(at 89.535 -119.761 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "holddown:sensor"
-			(at 94.615 -123.19 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 94.615 -117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 94.615 -117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "A"
-			(at 94.615 -117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "d8991420-832d-4dc7-812b-801167639085")
-		)
-		(instances
-			(project "lamarr_hedy_vertical"
-				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
-					(reference "Holddown")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "Valve_Servo_1")
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 67.31 71.12 270)
@@ -14394,7 +14233,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Rocket_Channel")
-		(at 102.235 -118.745 0)
+		(at 94.615 -118.745 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14402,7 +14241,7 @@
 		(dnp no)
 		(uuid "ed419df4-75ee-4d96-bcc1-3bbdbad29137")
 		(property "Reference" "R1"
-			(at 106.299 -125.8571 0)
+			(at 98.679 -125.8571 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14412,7 +14251,7 @@
 			)
 		)
 		(property "Value" "rocket:sensor"
-			(at 106.68 -120.65 0)
+			(at 99.06 -120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14421,7 +14260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.235 -115.697 0)
+			(at 94.615 -115.697 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14430,7 +14269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.235 -115.697 0)
+			(at 94.615 -115.697 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14439,7 +14278,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.235 -118.745 0)
+			(at 94.615 -118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14448,7 +14287,7 @@
 			)
 		)
 		(property "Unit" " "
-			(at 106.299 -120.7771 0)
+			(at 98.679 -120.7771 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14457,7 +14296,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 106.299 -118.2371 0)
+			(at 98.679 -118.2371 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14466,7 +14305,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 106.299 -115.6971 0)
+			(at 98.679 -115.6971 0)
 			(effects
 				(font
 					(size 1.27 1.27)

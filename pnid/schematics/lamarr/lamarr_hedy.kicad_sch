@@ -3657,102 +3657,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PnID-Lib:heater"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "heater"
-				(at -5.08 2.286 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "heater"
-				(at -5.08 0 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "heater_0_0"
-				(text "H"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 2.9972 2.9972)
-						)
-					)
-				)
-			)
-			(symbol "heater_0_1"
-				(rectangle
-					(start -2.54 2.54)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "heater_1_1"
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PnID-Lib:igniter"
 			(pin_names
 				(offset 1.016)
@@ -10518,7 +10422,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Flowchart_State")
-		(at 169.545 66.675 0)
+		(at 166.37 66.294 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10527,7 +10431,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e187a33-557e-4682-975c-7af080c4ce77")
 		(property "Reference" "Ox"
-			(at 169.545 66.675 0)
+			(at 166.37 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10535,7 +10439,7 @@
 			)
 		)
 		(property "Value" "ox_rocket:sensor"
-			(at 175.895 66.6749 0)
+			(at 172.72 66.2939 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10544,7 +10448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 169.545 66.675 0)
+			(at 166.37 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10553,7 +10457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 169.545 66.675 0)
+			(at 166.37 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,7 +10466,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 169.545 66.675 0)
+			(at 166.37 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13393,71 +13297,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PnID-Lib:heater")
-		(at 163.83 49.784 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b3f63ca-f959-47b1-8333-17edd3150957")
-		(property "Reference" "Holddown"
-			(at 158.75 47.498 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "holddown:sensor"
-			(at 163.83 44.196 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 49.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 49.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "A"
-			(at 163.83 49.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "d8991420-832d-4dc7-812b-801167639085")
-		)
-		(instances
-			(project "lamarr_hedy"
-				(path "/604fc9f3-63a6-4133-afd1-4a5c2507dc1d"
-					(reference "Holddown")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "Valve_Servo_1")
 		(lib_id "PnID-Lib:Valve_Servo")
 		(at 78.486 97.536 270)
@@ -15836,7 +15675,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Rocket_Channel")
-		(at 171.45 48.26 0)
+		(at 163.83 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15844,7 +15683,7 @@
 		(dnp no)
 		(uuid "ed419df4-75ee-4d96-bcc1-3bbdbad29137")
 		(property "Reference" "R1"
-			(at 175.514 41.1479 0)
+			(at 167.894 41.1479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15854,7 +15693,7 @@
 			)
 		)
 		(property "Value" "rocket:sensor"
-			(at 175.768 46.228 0)
+			(at 168.148 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15863,7 +15702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 51.308 0)
+			(at 163.83 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15872,7 +15711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 51.308 0)
+			(at 163.83 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15881,7 +15720,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 48.26 0)
+			(at 163.83 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15890,7 +15729,7 @@
 			)
 		)
 		(property "Unit" " "
-			(at 175.514 46.2279 0)
+			(at 167.894 46.2279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15899,7 +15738,7 @@
 			)
 		)
 		(property "Action_Reference" " "
-			(at 175.514 48.7679 0)
+			(at 167.894 48.7679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15908,7 +15747,7 @@
 			)
 		)
 		(property "Data_Content" " "
-			(at 175.514 51.3079 0)
+			(at 167.894 51.3079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16069,7 +15908,7 @@
 	)
 	(symbol
 		(lib_id "PnID-Lib:Flowchart_State")
-		(at 169.545 58.801 0)
+		(at 166.37 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16077,7 +15916,7 @@
 		(dnp no)
 		(uuid "f51a3f2a-41bc-42e9-8267-c82d282f3459")
 		(property "Reference" "Fuel"
-			(at 169.545 58.801 0)
+			(at 166.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16085,7 +15924,7 @@
 			)
 		)
 		(property "Value" "fuel_rocket:sensor"
-			(at 175.895 58.8009 0)
+			(at 172.72 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16094,7 +15933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 169.545 58.801 0)
+			(at 166.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16103,7 +15942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 169.545 58.801 0)
+			(at 166.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16112,7 +15951,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 169.545 58.801 0)
+			(at 166.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
