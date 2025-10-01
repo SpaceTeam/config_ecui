@@ -641,7 +641,7 @@
     },
     "ox_temp": {
         "states": [
-            "ox_temp_1:sensor"
+            "ox_temp_1:sensor",
             "engine_temp_1:sensor"
         ],
         "eval": "if (inVars['value'] > thresholds['oxTemp']['high']) { outVars['color']='high' } else if (inVars['value'] > thresholds['oxTemp']['low']) { outVars['color']='neutral' } else if (inVars['value'] > thresholds['oxTemp']['cryo']) { outVars['color']='low' } else { outVars['color']='cryo' }"
