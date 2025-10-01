@@ -10152,13 +10152,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "gse_elec_bob_igniter_2:sensor"
-			(at 163.83 83.82 0)
+		(property "Value" "ox_sense_12V:sensor"
+			(at 172.72 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

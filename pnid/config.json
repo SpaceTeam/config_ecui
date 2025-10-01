@@ -536,17 +536,23 @@
     },
 	"charging": {
 	    "states": [
-	        "gse_elec_bob_igniter_2:sensor"
+	        "ox_sense_12V:sensor"
 	    ],
-	    "eval": "",
+	    "eval": "if (inVars['value'] >= 13) { outVars['color']='battery_charging'; } else if (inVars['value'] >= 10) { outVars['color']='battery_nominal'; } else { outVars['color']='battery_critical'; }",
         "popup": [
             {
                 "type": "input",
                 "style": "checkbox",
-                "variable": "value",
-                "label": "Charge"
+                "variable": "gse_elec_bob_igniter_2-sensor",
+                "label": "Disable Charge"
             }
         ]
+    },
+    "dewar_pressure": {
+        "states": [
+            "dewar_pressure:sensor"
+        ],
+        "eval": "if (inVars['value'] >= 2) { outVars['color']='high'; } else if (inVars['value'] >= 1.1) { outVars['color']='neutral'; } else { outVars['color']='low' }"
     },
     "dewar_press_solenoid": {
         "states": [
