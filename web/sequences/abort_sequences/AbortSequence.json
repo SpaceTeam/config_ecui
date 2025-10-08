@@ -5,6 +5,10 @@
     "actions": {
         "rocket:Abort": [
         ],
+        "ox_rocket:Abort": [
+        ],
+        "fuel_rocket:Abort": [
+        ],
         "pressurant_tanking_valve:SetState": [
             0
         ],
