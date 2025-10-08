@@ -1,6 +1,6 @@
 {
 	"globals": {
-		"endTime": 31,
+		"endTime": 30,
 		"interpolation": {
 			"ox_vent:SetState": "none",
 			"ox_main_valve:SetTargetPosition": "linear",
@@ -73,19 +73,6 @@
 					"timestamp": 0.0,
 					"ox_pi_controller:SetEnabled": [
 						1
-					]
-				}
-			]
-		},
-		{
-			"timestamp":30.0,
-			"name": "pre pressurize end",
-			"desc": "disable PI controller",
-			"actions": [
-				{
-					"timestamp": 0.0,
-					"ox_pi_controller:SetEnabled": [
-						0
 					]
 				}
 			]
