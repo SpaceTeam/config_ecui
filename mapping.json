@@ -615,13 +615,13 @@
                 "stringID": "ox_pressure_3"
             },
             "4": {
-                "offset": -240.293,
-                "slope": 0.0147,
+                "offset":  -242.2248,
+                "slope":  0.0148,
                 "stringID": "ox_temp_0"
             },
             "5": {
-                "offset": -242.2248,
-                "slope": 0.0148,
+                "offset": -240.2930,
+                "slope":  0.0147,
                 "stringID": "ox_temp_1"
             },
             "6": {
@@ -979,7 +979,7 @@
                 "stringID": "ox_decoupler"
             },
             "9": {
-                "stringID": "ox_decoupler_feedback"
+                "stringID": "ox_decoupler_cont"
             },
             "stringID": "gse_elec_iob_0_ecu"
         },
@@ -1078,10 +1078,10 @@
                 "stringID": "gse_elec_bob_lamp_green_cont"
             },
             "12": {
-                "stringID": "gse_elec_bob_igniter_2"
+                "stringID": "battery_charging"
             },
             "13": {
-                "stringID": "gse_elec_bob_igniter_2_cont"
+                "stringID": "battery_charging_cont"
             },
             "14": {
                 "stringID": "gse_elec_bob_igniter_3"
@@ -1148,7 +1148,7 @@
             "0": {
                 "offset": 2200,
                 "slope": -2,
-                "stringID": "gse_pneu_2_unused_pressure_0"
+                "stringID": "ox_decoupler_feedback"
             },
             "1": {
                 "offset": 2200,
@@ -1156,10 +1156,10 @@
                 "stringID": "gse_pneu_2_unused_pressure_1"
             },
             "10": {
-                "stringID": "gse_pneu_2_unused_igniter_1"
+                "stringID": "pressurant_tanking_retract"
             },
             "11": {
-                "stringID": "gse_pneu_2_unused_igniter_1_cont"
+                "stringID": "pressurant_tanking_retract_cont"
             },
             "12": {
                 "stringID": "gse_pneu_2_unused_igniter_2"
@@ -1219,21 +1219,21 @@
                 "stringID": "gse_pneu_2_servo_1"
             },
             "8": {
-                "stringID": "gse_pneu_2_unused_igniter_0"
+                "stringID": "pressurant_tanking_disconnect"
             },
             "9": {
-                "stringID": "gse_pneu_2_unused_igniter_0_cont"
+                "stringID": "pressurant_tanking_disconnect_cont"
             },
             "stringID": "gse_pneu_2_ecu"
         },
         "8": {
             "0": {
-                "offset": -29.963722652,
+                "offset": -27.151218752000002,
                 "slope": -0.000295276,
                 "stringID": "rocket_weight"
             },
             "1": {
-                "offset": -7.599139005016703,
+                "offset": -43.53822290426094,
                 "slope": -3.87177816529103e-05,
                 "stringID": "dewar_weight"
             },
