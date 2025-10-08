@@ -535,13 +535,13 @@
             {
                 "type": "input",
                 "style": "button",
-                "variable": "gse_pneu_2_igniter_0:sensor",
+                "variable": "pressurant_tanking_disconnect:sensor",
                 "label": "Press Tanking Disconnect"
             },
             {
                 "type": "input",
                 "style": "button",
-                "variable": "gse_pneu_2_igniter_1:sensor",
+                "variable": "pressurant_tanking_retract:sensor",
                 "label": "Tanking Retract"
             }
         ]
@@ -555,7 +555,7 @@
             {
                 "type": "input",
                 "style": "checkbox",
-                "variable": "gse_elec_bob_igniter_2-sensor",
+                "variable": "battery_charging-sensor",
                 "label": "Disable Charge"
             }
         ]
@@ -722,177 +722,6 @@
             "purge_solenoid:sensor"
         ],
         "eval": "if (inVars['value'] > 0) { outVars['color']='open'; outVars['value']='Open' } else { outVars['color']='closed'; outVars['value']='Closed'; outVars['crossUpdate']=[{'name':'purge_solenoid_wire','value':2.1}] }"
-    },
-    "fuel_bottom_tank_pressure:sensor": {
-        "states": [
-            "fuel_bottom_tank_pressure:sensor"
-        ],
-        "popup": {
-            "source": "11",
-            "autoID": false
-        }
-    },
-    "fuel_main_pressure:sensor": {
-        "states": [
-            "fuel_main_pressure:sensor"
-        ],
-        "popup": {
-            "source": "14",
-            "autoID": false
-        }
-    },
-    "fuel_pressurant_regulator_pressure:sensor": {
-        "states": [
-            "fuel_pressurant_regulator_pressure:sensor"
-        ],
-        "popup": {
-            "source": "15",
-            "autoID": false
-        }
-    },
-    "fuel_top_tank_pressure:sensor": {
-        "states": [
-            "fuel_top_tank_pressure:sensor"
-        ],
-        "popup": {
-            "source": "16",
-            "autoID": false
-        }
-    },
-    "igniter_fuel_regulator_pressure:sensor": {
-        "states": [
-            "igniter_fuel_bottle_pressure:sensor"
-        ],
-        "popup": {
-            "source": "17",
-            "autoID": false
-        }
-    },
-    "igniter_ox_regulator_pressure:sensor": {
-        "states": [
-            "igniter_ox_bottle_pressure:sensor"
-        ],
-        "popup": {
-            "source": "18",
-            "autoID": false
-        }
-    },
-    "ox_bottom_tank_pressure:sensor": {
-        "states": [
-            "ox_bottom_tank_pressure:sensor"
-        ],
-        "popup": {
-            "source": "19",
-            "autoID": false
-        }
-    },
-    "ox_pressurant_regulator_pressure:sensor": {
-        "states": [
-            "ox_pressurant_regulator_pressure:sensor"
-        ],
-        "popup": {
-            "source": "20",
-            "autoID": false
-        }
-    },
-    "ox_top_tank_pressure:sensor": {
-        "states": [
-            "ox_top_tank_pressure:sensor"
-        ],
-        "popup": {
-            "source": "21",
-            "autoID": false
-        }
-    },
-    "purge_bottle_pressure:sensor": {
-        "states": [
-            "purge_bottle_pressure:sensor"
-        ],
-        "popup": {
-            "source": "22",
-            "autoID": false
-        }
-    },
-    "fuel_bottom_tank_temp:sensor": {
-        "states": [
-            "fuel_bottom_tank_temp:sensor"
-        ],
-        "popup": {
-            "source": "12",
-            "autoID": false
-        }
-    },
-    "fuel_mid_bottom_tank_temp:sensor": {
-        "states": [
-            "fuel_mid_bottom_tank_temp:sensor"
-        ],
-        "popup": {
-            "source": "23",
-            "autoID": false
-        }
-    },
-    "fuel_mid_top_tank_temp:sensor": {
-        "states": [
-            "fuel_mid_top_tank_temp:sensor"
-        ],
-        "popup": {
-            "source": "24",
-            "autoID": false
-        }
-    },
-    "fuel_top_tank_temp:sensor": {
-        "states": [
-            "fuel_top_tank_temp:sensor"
-        ],
-        "popup": {
-            "source": "25",
-            "autoID": false
-        }
-    },
-    "ox_bottom_tank_temp:sensor": {
-        "states": [
-            "ox_bottom_tank_temp:sensor"
-        ],
-        "popup": {
-            "source": "26",
-            "autoID": false
-        }
-    },
-    "ox_mid_bottom_tank_temp:sensor": {
-        "states": [
-            "ox_mid_bottom_tank_temp:sensor"
-        ],
-        "popup": {
-            "source": "27",
-            "autoID": false
-        }
-    },
-    "ox_mid_top_tank_temp:sensor": {
-        "states": [
-            "ox_mid_top_tank_temp:sensor"
-        ],
-        "popup": {
-            "source": "28",
-            "autoID": false
-        }
-    },
-    "ox_top_tank_temp:sensor": {
-        "states": [
-            "ox_top_tank_temp:sensor"
-        ],
-        "popup": {
-            "source": "29",
-            "autoID": false
-        }
-    },
-    "Engine_TorchIgniter": {
-        "states": [
-
-        ],
-        "popup": {
-            "source": "13",
-            "autoID": false
-        }
     },
     "blmb_setState_fixes": {
         "states": [

@@ -1,0 +1,5 @@
+2 arten high power switches
+- alt (fuel, engine ECU): 0.0001454671224
+- neu (ox, gse ECU, ...): 0.00021820068359
+
+offset ist 0, messen Ampere

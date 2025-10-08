@@ -62,13 +62,13 @@
                 "stringID": "lora:fuel_pressure_3"
             },
             "4": {
-                "offset": -233.3153,
-                "slope": 0.0145,
+                "offset": 0,
+                "slope": 1,
                 "stringID": "lora:fuel_temp_0"
             },
             "5": {
-                "offset": -231.3282,
-                "slope": 0.0142,
+                "offset": -233.3153,
+                "slope":  0.0145,
                 "stringID": "lora:fuel_temp_1"
             },
             "6": {
@@ -148,13 +148,13 @@
                 "stringID": "lora:ox_pressure_3"
             },
             "4": {
-                "offset": -240.293,
-                "slope": 0.0147,
+                "offset":  -242.2248,
+                "slope":  0.0148,
                 "stringID": "lora:ox_temp_0"
             },
             "5": {
-                "offset": -242.2248,
-                "slope": 0.0148,
+                "offset": -238.8339,
+                "slope":  0.0146,
                 "stringID": "lora:ox_temp_1"
             },
             "6": {
@@ -235,12 +235,12 @@
             },
             "4": {
                 "offset": -240.8472,
-                "slope": 0.0147,
+                "slope":  0.0147,
                 "stringID": "lora:engine_temp_0"
             },
             "5": {
-                "offset": -238.8339,
-                "slope": 0.0146,
+                "offset":  -239.806,
+                "slope":  0.0151,
                 "stringID": "lora:engine_temp_1"
             },
             "6": {
@@ -529,13 +529,13 @@
                 "stringID": "fuel_pressure_3"
             },
             "4": {
-                "offset": -233.3153,
-                "slope": 0.0145,
+                "offset": 0,
+                "slope": 1,
                 "stringID": "fuel_temp_0"
             },
             "5": {
-                "offset": -231.3282,
-                "slope": 0.0142,
+                "offset": -233.3153,
+                "slope":  0.0145,
                 "stringID": "fuel_temp_1"
             },
             "6": {
@@ -620,8 +620,8 @@
                 "stringID": "ox_temp_0"
             },
             "5": {
-                "offset": -240.2930,
-                "slope":  0.0147,
+                "offset": -238.8339,
+                "slope":  0.0146,
                 "stringID": "ox_temp_1"
             },
             "6": {
@@ -654,12 +654,14 @@
                 "stringID": "ox_venturi_pressure"
             },
             "10": {
+                "slope": 0.1454671224,
                 "stringID": "internal_igniter_1"
             },
             "11": {
                 "stringID": "internal_igniter_1_cont"
             },
             "12": {
+                "slope": 0.1454671224,
                 "stringID": "internal_igniter_2"
             },
             "13": {
@@ -702,12 +704,12 @@
             },
             "4": {
                 "offset": -240.8472,
-                "slope": 0.0147,
+                "slope":  0.0147,
                 "stringID": "engine_temp_0"
             },
             "5": {
-                "offset": -238.8339,
-                "slope": 0.0146,
+                "offset":  -239.806,
+                "slope":  0.0151,
                 "stringID": "engine_temp_1"
             },
             "6": {
@@ -1146,8 +1148,8 @@
         },
         "39": {
             "0": {
-                "offset": 2200,
-                "slope": -2,
+                "offset": 0,
+                "slope": 1,
                 "stringID": "ox_decoupler_feedback"
             },
             "1": {
