@@ -409,7 +409,7 @@
         ]
     },
     "PnID-Lib-Sensor_Temperature": {
-        "eval": "if (inVars['value'] > thresholds['tempSens']['notconnected']) { outVars['color']='notconnected'; outVars['content']='notconnected'; outVars['value']='NC'} else if (inVars['value'] > 30) { outVars['color']='high' } else if (inVars['value'] > -200) { outVars['color']='low' } else { outVars['color']='notconnected'; outVars['value']='NC' }",
+        "eval": "if (inVars['value'] > thresholds['tempSens']['notconnected']) { outVars['color']='notconnected'; outVars['content']='notconnected'; outVars['value']='NC'} else if (inVars['value'] > thresholds['tempSens']['high']) { outVars['color']='high' } else if (inVars['value'] > thresholds['tempSens']['neutral']) { outVars['color']='neutral' } else if (inVars['value'] > thresholds['tempSens']['low']) { outVars['color']='low' } else if (inVars['value'] > thresholds['tempSens']['cryo']) { outVars['color']='cryo' } else { outVars['color']='notconnected' }",
         "popup": [
             {
                 "type": "display",

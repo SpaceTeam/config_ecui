@@ -41,8 +41,8 @@
         "safe": 2.0
     },
     "chamberPressure": {
-        "low": 7.0,
-        "high": 9.0
+        "low": 12,
+        "high": 20
     },
     "battery": {
         "critical": 11,
@@ -66,7 +66,11 @@
         "notconnected": 2000
     },
     "tempSens": {
-        "notconnected": 900
+        "notconnected": 200,
+        "high": 50,
+        "neutral": 0,
+        "low": -100,
+        "cryo": -250
     },
     "pump": {
         "high": 1

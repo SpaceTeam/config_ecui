@@ -1,5 +1,5 @@
 {
-	"tollenoid_pfusch": {
+	"tollenoid_pfusch_test": {
 		"states": [
             "tollenoid:sensor"
         ],
@@ -23,6 +23,18 @@
                 "action": "pfuschPulse()"
             }
         ]
+	},
+	"pneu_custom_ranges_1": {
+        "states": [
+            "press_in:sensor"
+        ],
+        "eval": "if (inVars['value'] > 15) { outVars['color']='high' } else if (inVars['value'] > 9) { outVars['color']='neutral' } else if (inVars['value'] > 2) { outVars['color']='high' } else { outVars['color']='low' }"
+	},
+	"pneu_custom_ranges_2": {
+        "states": [
+            "ventilinsel_pressure:sensor"
+        ],
+        "eval": "if (inVars['value'] > 9) { outVars['color']='high' } else if (inVars['value'] > 7) { outVars['color']='neutral' } else if (inVars['value'] > 2) { outVars['color']='high' } else { outVars['color']='low' }"
 	},
 	"pi_controllers_popup": {
 	    "states": [
@@ -538,7 +550,7 @@
 	    "states": [
 	        "ox_sense_12V:sensor"
 	    ],
-	    "eval": "if (inVars['value'] >= 13) { outVars['color']='battery_charging'; } else if (inVars['value'] >= 10) { outVars['color']='battery_nominal'; } else { outVars['color']='battery_critical'; }",
+	    "eval": "if (inVars['value'] > 15) { outVars['color']='battery_critical' } else if (inVars['value'] >= 13) { outVars['color']='battery_charging'; } else if (inVars['value'] >= 10) { outVars['color']='battery_nominal'; } else { outVars['color']='battery_critical'; }",
         "popup": [
             {
                 "type": "input",
@@ -552,7 +564,7 @@
         "states": [
             "dewar_pressure:sensor"
         ],
-        "eval": "if (inVars['value'] >= 2) { outVars['color']='high'; } else if (inVars['value'] >= 1.1) { outVars['color']='neutral'; } else { outVars['color']='low' }"
+        "eval": "if (inVars['value'] >= 2.5) { outVars['color']='high'; } else if (inVars['value'] >= 1.1) { outVars['color']='neutral'; } else { outVars['color']='low' }"
     },
     "dewar_press_solenoid": {
         "states": [
@@ -639,13 +651,6 @@
             }
         ]
     },
-    "ox_temp": {
-        "states": [
-            "ox_temp_1:sensor",
-            "engine_temp_1:sensor"
-        ],
-        "eval": "if (inVars['value'] > thresholds['oxTemp']['high']) { outVars['color']='high' } else if (inVars['value'] > thresholds['oxTemp']['low']) { outVars['color']='neutral' } else if (inVars['value'] > thresholds['oxTemp']['cryo']) { outVars['color']='low' } else { outVars['color']='cryo' }"
-    },
     "ox_weight": {
         "states": [
             "ox_weight:sensor"
@@ -676,7 +681,7 @@
         "states": [
             "chamber_pressure:sensor"
         ],
-        "eval": "if (inVars['value'] > thresholds['chamberPressure']['high']) { outVars['color']='high' } else if (inVars['value'] > thresholds['chamberPressure']['low']) { outVars['color']='neutral' } else { outVars['color']='low' }"
+        "eval": "if (inVars['value'] >= thresholds['chamberPressure']['high']) { outVars['color']='high' } else if (inVars['value'] >= thresholds['chamberPressure']['low']) { outVars['color']='neutral' } else if (inVars['value'] > 2) { outVars['color']='high' } else { outVars['color']='low' }"
     },
     "ox_depressurize_solenoid": {
         "states": [
@@ -717,54 +722,6 @@
             "purge_solenoid:sensor"
         ],
         "eval": "if (inVars['value'] > 0) { outVars['color']='open'; outVars['value']='Open' } else { outVars['color']='closed'; outVars['value']='Closed'; outVars['crossUpdate']=[{'name':'purge_solenoid_wire','value':2.1}] }"
-    },
-    "temp_sens_hot": {
-        "states": [
-            "water_hot_temp:sensor"
-        ],
-        "eval": "if (inVars['value'] > thresholds['waterTemps']['notconnected']) { outVars['color']='notconnected'; outVars['content']='notconnected'; outVars['value']='Not Conn' } else if (inVars['value'] > thresholds['waterHotTemps']['high']) { outVars['color']='high'; outVars['content']='high' } else if (inVars['value'] > thresholds['waterHotTemps']['low']) { outVars['color']='mid'; outVars['content']='mid' } else { outVars['color']='low'; outVars['content']='low' }"
-    },
-    "temp_sens_cold": {
-        "states": [
-            "water_cold_temp:sensor"
-        ],
-        "eval": "if (inVars['value'] > thresholds['waterTemps']['notconnected']) { outVars['color']='notconnected'; outVars['content']='notconnected'; outVars['value']='Not Conn' } else if (inVars['value'] > thresholds['waterColdTemps']['high']) { outVars['color']='high'; outVars['content']='high'  } else if (inVars['value'] > thresholds['waterColdTemps']['low']) { outVars['color']='mid'; outVars['content']='mid' } else { outVars['color']='low'; outVars['content']='low' }"
-    },
-    "temp_sens_heat_exchanger": {
-        "states": [
-            "water_mantle_temp:sensor"
-        ],
-        "eval": "if (inVars['value'] > thresholds['waterTemps']['notconnected']) { outVars['color']='notconnected'; outVars['content']='notconnected'; outVars['value']='Not Conn' } else if (inVars['value'] > thresholds['waterMantleTemps']['high']) { outVars['color']='high'; outVars['content']='high' } else if (inVars['value'] > thresholds['waterMantleTemps']['low']) { outVars['color']='mid'; outVars['content']='mid' } else { outVars['color']='low'; outVars['content']='low' }"
-    },
-    "3_way_water_valve_out": {
-        "states": [
-            "water_valves_out:sensor"
-        ],
-        "eval": "if (outVars['color']=='position_a') { unlink('pump_cold_water:sensor', ['water_mantle_in:wire','water_mantle:sensor']); link('pump_hot_water:sensor', 'water_mantle_in:wire'); link('pump_hot_water:sensor', 'water_mantle:sensor', 'value') } else if (outVars['color']=='position_b') { unlink('pump_hot_water:sensor', ['water_mantle_in:wire','water_mantle:sensor']); link('pump_cold_water:sensor', 'water_mantle_in:wire'); link('pump_cold_water:sensor', 'water_mantle:sensor', 'value') } else { unlink('pump_hot_water:sensor', ['water_mantle_in:wire','water_mantle:sensor'], -10); unlink('pump_cold_water:sensor', ['water_mantle_in:wire','water_mantle:sensor'], -10) }"
-    },
-    "3_way_water_valve_return": {
-        "states": [
-            "water_valves_return:sensor"
-        ],
-        "eval": "if (outVars['color']=='position_a') { outVars['color']='position_b'; unlink('water_mantle:sensor', 'water_tank_cold_return:wire', -10); link('water_mantle:sensor', 'water_tank_hot_return:wire') } else if (outVars['color']=='position_b') {  outVars['color']='position_a'; unlink('water_mantle:sensor', 'water_tank_hot_return:wire', -10); link('water_mantle:sensor', 'water_tank_cold_return:wire') } else { unlink('water_mantle_temp:sensor', 'water_tank_hot_return:wire', -10); unlink('water_tank_cold_return:sensor', 'heat_exchanger_in:wire', -10) }"
-    },
-    "heat_exchanger": {
-        "states": [
-            "water_mantle:sensor"
-        ],
-        "eval": "link(inVars['this'], 'water_mantle_out:wire'); link('water_mantle_temp:sensor', inVars['this'], 'content')"
-    },
-    "pump_hot_water": {
-        "states": [
-            "pump_hot_water:sensor"
-        ],
-        "eval": "link('water_hot_temp:sensor', inVars['this'], 'content')"
-    },
-    "pump_cold_water": {
-        "states": [
-            "pump_cold_water:sensor"
-        ],
-        "eval": "link('water_cold_temp:sensor', inVars['this'], 'content')"
     },
     "fuel_bottom_tank_pressure:sensor": {
         "states": [
