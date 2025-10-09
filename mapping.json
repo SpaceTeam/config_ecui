@@ -1737,6 +1737,60 @@
                 ]
             }
         ],
+        "gui:engine_ecu:GetGSEConnectionAbortEnable": [
+            {
+                "command": "engine_ecu:GetGSEConnecionAbortEnable",
+                "parameters": []
+            }
+        ],
+        "gui:fuel_ecu:GetGSEConnectionAbortEnable": [
+            {
+                "command": "fuel_ecu:GetGSEConnecionAbortEnable",
+                "parameters": []
+            }
+        ],
+        "gui:ox_ecu:GetGSEConnectionAbortEnable": [
+            {
+                "command": "ox_ecu:GetGSEConnecionAbortEnable",
+                "parameters": []
+            }
+        ],
+        "gui:engine_ecu:GetGSEConnectionAbortTimer": [
+            {
+                "command": "engine_ecu:GetGSEConnecionAbortTimer",
+                "parameters": []
+            }
+        ],
+        "gui:fuel_ecu:GetGSEConnectionAbortTimer": [
+            {
+                "command": "fuel_ecu:GetGSEConnecionAbortTimer",
+                "parameters": []
+            }
+        ],
+        "gui:ox_ecu:GetGSEConnectionAbortTimer": [
+            {
+                "command": "ox_ecu:GetGSEConnecionAbortTimer",
+                "parameters": []
+            }
+        ],
+        "gui:engine_ecu:SetGSEConnectionAbortEnable": [
+            {
+                "command": "engine_ecu:SetGSEConnecionAbortEnable",
+                "parameters": [ "gui:engine_ecu:SetGSEConnectionAbortEnable" ]
+            }
+        ],
+        "gui:fuel_ecu:SetGSEConnectionAbortEnable": [
+            {
+                "command": "fuel_ecu:SetGSEConnecionAbortEnable",
+                "parameters": [ "gui:fuel_ecu:SetGSEConnectionAbortEnable" ]
+            }
+        ],
+        "gui:ox_ecu:SetGSEConnectionAbortEnable": [
+            {
+                "command": "ox_ecu:SetGSEConnecionAbortEnable",
+                "parameters": [ "gui:ox_ecu:SetGSEConnectionAbortEnable" ]
+            }
+        ],
         "ox_ecu:FlashStatus": [
             {
                 "state": "gui:Flash:Clear",
