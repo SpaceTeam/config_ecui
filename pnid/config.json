@@ -534,14 +534,14 @@
         "popup": [
             {
                 "type": "input",
-                "style": "button",
-                "variable": "pressurant_tanking_disconnect:sensor",
+                "style": "checkbox",
+                "variable": "pressurant_tanking_disconnect-sensor",
                 "label": "Press Tanking Disconnect"
             },
             {
                 "type": "input",
-                "style": "button",
-                "variable": "pressurant_tanking_retract:sensor",
+                "style": "checkbox",
+                "variable": "pressurant_tanking_retract-sensor",
                 "label": "Tanking Retract"
             }
         ]
