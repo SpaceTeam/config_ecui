@@ -1,0 +1,110 @@
+{
+	"globals": {
+		"endTime": 2,
+		"interpolation": {
+			"pressurant_tanking_valve:SetState": "none",
+			"pressurant_vent_valve:SetState": "none",
+			"pressurant_tanking_disconnect:SetState": "none",
+			"pressurant_tanking_retract:SetState": "none"
+
+		},
+		"interval": 0.01,
+		"ranges": [
+			"chamberPressure"
+		],
+		"startTime": -0.2
+	},
+	"data": [
+		{
+			"timestamp": "START",
+			"name": "Start",
+			"desc": "",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"pressurant_tanking_valve:SetState": [
+						1
+					],
+					"pressurant_vent_valve:SetState": [
+						1
+					]
+
+				}
+			]
+		},
+		{
+			"timestamp": 0.1,
+			"name": "Close pressurant tanking",
+			"desc": "Closes the pressurant tanking valve",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"pressurant_tanking_valve:SetState": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 0.5,
+			"name": "Open tanking vent",
+			"desc": "Opens the pressurant tanking vent",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"pressurant_vent_valve:SetState": [
+						0
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 1,
+			"name": "Disconnect",
+			"desc": "Disconnects the press tanking lines",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"pressurant_tanking_disconnect:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": 1.5,
+			"name": "Retract",
+			"desc": "Retracts the press tanking lines",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"pressurant_tanking_retract:SetState": [
+						1
+					]
+				}
+			]
+		},
+		{
+			"timestamp": "END",
+			"name": "end",
+			"desc": "the end",
+			"actions": [
+				{
+					"timestamp": 0.0,
+					"pressurant_tanking_valve:SetState": [
+						0
+					],
+					"pressurant_vent_valve:SetState": [
+						0
+					],
+					"pressurant_tanking_disconnect:SetState": [
+						1
+					],
+					"pressurant_tanking_retract:SetState": [
+						1
+					]
+				}
+			]
+		}
+	]
+}

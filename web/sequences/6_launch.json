@@ -2,7 +2,6 @@
 	"globals": {
 		"endTime":40,
 		"interpolation": {
-			"fuel_vent:SetState": "none",
 			"fuel_pi_controller:SetEnabled": "none",
 			"fuel_pi_controller:SetTarget": "none",
 			"fuel_pi_controller:SetSensorSlope": "none",
@@ -21,14 +20,13 @@
 			"ox_pi_controller:SetI_POS": "none",
 			"ox_pi_controller:SetP_NEG": "none",
 			"ox_pi_controller:SetI_NEG": "none",
-			"pressurant_tanking_valve:SetState": "none",
 			"rocket:ActivateInternalControl": "none"
 		},
 		"interval": 0.01,
 		"ranges": [
 			"chamberPressure"
 		],
-		"startTime": -15
+		"startTime": -5
 	},
 	"data": [
 		{
@@ -38,14 +36,11 @@
 			"actions": [
 				{
 					"timestamp": 0.0,
-					"fuel_vent:SetState": [
-						1
-					],
 					"fuel_pi_controller:SetEnabled": [
 						0
 					],
 					"fuel_pi_controller:SetTarget": [
-						28
+						26
 					],
 					"fuel_pi_controller:SetSensorSlope": [
 						0.01888275146
@@ -54,22 +49,19 @@
 						-15
 					],
 					"fuel_pi_controller:SetOperatingPoint": [
-						25
+						52
 					],
 					"fuel_pi_controller:SetP_POS": [
-						0.2
+						0.5
 					],
 					"fuel_pi_controller:SetI_POS": [
-						0.05
+						1.0
 					],
 					"fuel_pi_controller:SetP_NEG": [
-						100.0
+						1
 					],
 					"fuel_pi_controller:SetI_NEG": [
-						500.0
-					],
-					"ox_pi_controller:SetEnabled": [
-						0
+						0.5
 					],
 					"ox_pi_controller:SetTarget": [
 						30
@@ -81,84 +73,25 @@
 						-15
 					],
 					"ox_pi_controller:SetOperatingPoint": [
-						16
+						30.0
 					],
 					"ox_pi_controller:SetP_POS": [
-						0.1
+						2.5
 					],
 					"ox_pi_controller:SetI_POS": [
-						0.1
+						1.0
 					],
 					"ox_pi_controller:SetP_NEG": [
-						100.0
+						2.5
 					],
 					"ox_pi_controller:SetI_NEG": [
-						500.0
-					],
-					"pressurant_tanking_valve:SetState": [
-						1
+						0.5
 					]
 				}
 			]
 		},
 		{
-			"timestamp": -10.5,
-			"name": "pre pressurize start",
-			"desc": "enable PI controller",
-			"actions": [
-				{
-					"timestamp": 0.0,
-					"fuel_pi_controller:SetEnabled": [
-						1
-					]
-				}
-			]
-		},
-		{
-			"timestamp":-0.5,
-			"name": "pre pressurize end",
-			"desc": "disable PI controller and switch to coldflow PI controller",
-			"actions": [
-				{
-					"timestamp": 0.0,
-					"fuel_pi_controller:SetEnabled": [
-						0
-					]
-				},
-				{
-					"timestamp": 0.1,
-					"fuel_pi_controller:SetTarget": [
-						28
-					],
-					"fuel_pi_controller:SetSensorSlope": [
-						0.01888275146
-					],
-					"fuel_pi_controller:SetSensorOffset": [
-						-15
-					],
-					"fuel_pi_controller:SetOperatingPoint": [
-						29.0
-					],
-					"fuel_pi_controller:SetP_POS": [
-						2
-					],
-					"fuel_pi_controller:SetI_POS": [
-						1.0
-					],
-					"fuel_pi_controller:SetP_NEG": [
-						2
-					],
-					"fuel_pi_controller:SetI_NEG": [
-						1.0
-					],
-					"pressurant_tanking_valve:SetState": [
-						1
-					]
-				}
-			]
-		},
-		{
-			"timestamp": -0.4,
+			"timestamp": 0,
 			"name": "Handover",
 			"desc": "Hand the control over to the internal control system",
 			"actions": [
@@ -170,32 +103,17 @@
 			]
 		},
 		{
-			"timestamp": 8,
-			"name": "close pressurant tanking valve",
-			"desc": "Close the pressurant tanking valve once the fuel tank is empty",
-			"actions": [
-				{
-					"pressurant_tanking_valve:SetState": [
-						0
-					]
-				}
-			]
-		},
-		{
 			"timestamp": "END",
 			"name": "end",
 			"desc": "the end",
 			"actions": [
 				{
 					"timestamp": 0.0,
-					"fuel_vent:SetState": [
-						0
-					],
 					"fuel_pi_controller:SetEnabled": [
 						0
 					],
 					"fuel_pi_controller:SetTarget": [
-						28
+						26
 					],
 					"fuel_pi_controller:SetSensorSlope": [
 						0.01888275146
@@ -204,16 +122,16 @@
 						-15
 					],
 					"fuel_pi_controller:SetOperatingPoint": [
-						29.0
+						52
 					],
 					"fuel_pi_controller:SetP_POS": [
-						2
+						0.5
 					],
 					"fuel_pi_controller:SetI_POS": [
 						1.0
 					],
 					"fuel_pi_controller:SetP_NEG": [
-						2
+						1
 					],
 					"fuel_pi_controller:SetI_NEG": [
 						0.5
@@ -231,7 +149,7 @@
 						-15
 					],
 					"ox_pi_controller:SetOperatingPoint": [
-						34.0
+						30.0
 					],
 					"ox_pi_controller:SetP_POS": [
 						2.5
@@ -243,10 +161,7 @@
 						2.5
 					],
 					"ox_pi_controller:SetI_NEG": [
-						1.0
-					],
-					"pressurant_tanking_valve:SetState": [
-						0
+						0.5
 					]
 				}
 			]

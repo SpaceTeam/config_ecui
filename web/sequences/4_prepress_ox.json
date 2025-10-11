@@ -1,11 +1,11 @@
 {
 	"globals": {
-		"endTime": 30,
+		"endTime": 15,
 		"interpolation": {
 			"ox_vent:SetState": "none",
 			"ox_main_valve:SetTargetPosition": "linear",
 			"ox_pi_controller:SetEnabled": "none",
-			"ox_pi_controller:SetTarget": "none",
+			"ox_pi_controller:SetTarget": "none",	
 			"ox_pi_controller:SetSensorSlope": "none",
 			"ox_pi_controller:SetSensorOffset": "none",
 			"ox_pi_controller:SetOperatingPoint": "none",
@@ -18,7 +18,7 @@
 		"ranges": [
 			"chamberPressure"
 		],
-		"startTime": -10
+		"startTime": -3
 	},
 	"data": [
 		{

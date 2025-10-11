@@ -1,6 +1,6 @@
 {
 	"globals": {
-		"endTime": 30,
+		"endTime": 15,
 		"interpolation": {
 			"fuel_vent:SetState": "none",
 			"fuel_main_valve:SetTargetPosition": "none",
@@ -18,7 +18,7 @@
 		"ranges": [
 			"chamberPressure"
 		],
-		"startTime": -10
+		"startTime": -3
 	},
 	"data": [
 		{
